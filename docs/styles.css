@@ -345,3 +345,23 @@ dialog::backdrop { background: rgba(29, 42, 35, 0.45); }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto; transition: none !important; }
 }
+
+
+/* Dark theme */
+:root {
+  color-scheme: dark;
+  --ground: #14181a;
+  --sheet: #1e2427;
+  --ink: #e9ede9;
+  --muted: #9dab9f;
+  --rule: #354044;
+  --signal: #f0c33c;
+  --rust: #e08b63;
+  --moss: #74c288;
+  --focus: #f0c33c;
+}
+
+body { background: var(--ground); }
+.primary, .label.applied, .label.arrived { color: #14181a; }
+.keywords-form textarea { background: #12171a; color: var(--ink); }
+dialog::backdrop { background: rgba(0, 0, 0, 0.6); }
