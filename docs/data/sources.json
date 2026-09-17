@@ -1,1 +1,3137 @@
-{"generated_at": null, "sources": []}
+{
+ "generated_at": "2026-09-17T18:57+00:00",
+ "sources": [
+  {
+   "id": "a2b-online",
+   "name": "A2B-Online",
+   "entities": [
+    "A2B-Online B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "al-international-transport-logistics",
+   "name": "AL International Transport & Logistics",
+   "entities": [
+    "AL International Transport & Logistics B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "barsan-global-logistics",
+   "name": "Barsan Global Logistics",
+   "entities": [
+    "Barsan Global Logistics B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "bertschi",
+   "name": "Bertschi",
+   "entities": [
+    "Bertschi B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "boekestijn-transport-service",
+   "name": "Boekestijn Transport Service",
+   "entities": [
+    "Boekestijn Transport Service B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "boreas-logistics",
+   "name": "Boreas Logistics",
+   "entities": [
+    "Boreas Logistics Holdings B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "cabooter",
+   "name": "Cabooter",
+   "entities": [
+    "Cabooter Logistics B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "coyote-logistics",
+   "name": "Coyote Logistics",
+   "entities": [
+    "Coyote Logistics Nederland B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": "2026-09-17",
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "ok",
+   "method": "workday",
+   "nl_jobs": 0
+  },
+  {
+   "id": "de-zwaluw-logistiek",
+   "name": "De Zwaluw Logistiek",
+   "entities": [
+    "De Zwaluw Logistiek B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "den-hartogh",
+   "name": "Den Hartogh",
+   "entities": [
+    "Den Hartogh Shared Services B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "read_failed",
+   "method": "recruitee",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://careers-analytics.recruitee.com/api/offers/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "dfds",
+   "name": "DFDS",
+   "entities": [
+    "DFDS Distri Holding B.V.",
+    "DFDS Logistics Winterswijk B.V.",
+    "DFDS Seaways B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "dp-world",
+   "name": "DP World",
+   "entities": [
+    "DP World Inland B.V.",
+    "DP World Logistics Europe B.V.",
+    "DP World Logistics Netherlands B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "unsupported_vendor",
+   "vendor": "Oracle Recruiting Cloud",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "dsv",
+   "name": "DSV",
+   "entities": [
+    "DSV Road B.V.",
+    "DSV Road Holding N.V.",
+    "DSV Air & Sea Nederland B.V.",
+    "DSV Contract Logistics B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "e-m-rogers-transport",
+   "name": "E.M. Rogers Transport",
+   "entities": [
+    "E.M. Rogers (Transport) B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "einride",
+   "name": "Einride",
+   "entities": [
+    "Einride Technologies Netherlands B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "emons-group",
+   "name": "Emons Group",
+   "entities": [
+    "Emons Group B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "gvt-intermodal",
+   "name": "GVT Intermodal",
+   "entities": [
+    "GVT Intermodal Freightmanagement B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "hoyer",
+   "name": "Hoyer",
+   "entities": [
+    "Hoyer Global Transport B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "jona-international-transport",
+   "name": "Jona International Transport",
+   "entities": [
+    "Jona International Transport B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "klg-europe",
+   "name": "KLG Europe",
+   "entities": [
+    "KLG Europe Venlo B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "ksz-transport",
+   "name": "KSZ Transport",
+   "entities": [
+    "KSZ Transport B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "lily-maas",
+   "name": "Lily Maas",
+   "entities": [
+    "Lily Maas",
+    "Lily Maas Logistics B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "m-s-logistics",
+   "name": "M & S Logistics",
+   "entities": [
+    "M & S Logistics B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "neele-vat",
+   "name": "Neele-Vat",
+   "entities": [
+    "Neele-Vat Transport B.V.",
+    "Neele-Vat Services B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "nunner-logistics",
+   "name": "Nunner Logistics",
+   "entities": [
+    "Nunner Logistics B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "oranje-transport",
+   "name": "Oranje Transport",
+   "entities": [
+    "Oranje Transport B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "p-o-ferrymasters",
+   "name": "P&O Ferrymasters",
+   "entities": [
+    "P & O Ferrymasters"
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "unsupported_vendor",
+   "vendor": "Oracle Recruiting Cloud",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "prospect-transport-logistiek",
+   "name": "Prospect Transport & Logistiek",
+   "entities": [
+    "Prospect Transport & Logistiek B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "samskip",
+   "name": "Samskip",
+   "entities": [
+    "Samskip Services B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "sennder",
+   "name": "sennder",
+   "entities": [
+    "sennder Benelux B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "soderberg-transport",
+   "name": "Soderberg Transport",
+   "entities": [
+    "Soderberg Transport"
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "uber-freight",
+   "name": "Uber Freight",
+   "entities": [
+    "Uber Freight Europe Holdings B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": "2026-09-17",
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "ok",
+   "method": "greenhouse",
+   "nl_jobs": 19
+  },
+  {
+   "id": "van-berkel-logistics",
+   "name": "Van Berkel Logistics",
+   "entities": [
+    "Van Berkel Logistics B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "aero-express",
+   "name": "Aero Express",
+   "entities": [
+    "Aero Express B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "aircargo-nl",
+   "name": "Aircargo.nl",
+   "entities": [
+    "Aircargo.nl B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "airtrade-holland",
+   "name": "Airtrade Holland",
+   "entities": [
+    "Airtrade Holland B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "ait-worldwide-logistics",
+   "name": "AIT Worldwide Logistics",
+   "entities": [
+    "AIT Worldwide Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "unsupported_vendor",
+   "vendor": "iCIMS",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "anji-logistics-europe",
+   "name": "Anji Logistics Europe",
+   "entities": [
+    "Anji Logistics Europe B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "apex-global-logistics",
+   "name": "Apex Global Logistics",
+   "entities": [
+    "Apex Global Logistics (NL) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "apl-logistics",
+   "name": "APL Logistics",
+   "entities": [
+    "APL Logistics Europe B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "unsupported_vendor",
+   "vendor": "Oracle Recruiting Cloud",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "atlantic-logistics",
+   "name": "Atlantic Logistics",
+   "entities": [
+    "Atlantic Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "bdp-international",
+   "name": "BDP International",
+   "entities": [
+    "BDP Global Services B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "berg-van-rijk-logistics",
+   "name": "Berg Van Rijk Logistics",
+   "entities": [
+    "Berg Van Rijk Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "bf-global-logistics",
+   "name": "BF Global Logistics",
+   "entities": [
+    "BF Global Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "blue-water-shipping",
+   "name": "Blue Water Shipping",
+   "entities": [
+    "Blue Water Shipping B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "bluerock-logistics",
+   "name": "BlueRock Logistics",
+   "entities": [
+    "BlueRock Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "bring-cargo",
+   "name": "Bring Cargo",
+   "entities": [
+    "Bring Cargo B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "c-h-robinson",
+   "name": "C.H. Robinson",
+   "entities": [
+    "C.H. Robinson Europe B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-09-17",
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "ok",
+   "method": "workday",
+   "nl_jobs": 4
+  },
+  {
+   "id": "cainiao",
+   "name": "Cainiao",
+   "entities": [
+    "Cainiao (Netherlands) B.V.",
+    "Cainiao Supply Chain Netherlands B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "cet-logistics",
+   "name": "CET Logistics",
+   "entities": [
+    "CET Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "ceva-logistics",
+   "name": "CEVA Logistics",
+   "entities": [
+    "CEVA Freight Holland B.V.",
+    "CEVA Logistics Headoffice B.V.",
+    "CEVA Logistics Netherlands B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "cj-logistics-europe",
+   "name": "CJ Logistics Europe",
+   "entities": [
+    "CJ Logistics Europe B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "crane-worldwide-logistics",
+   "name": "Crane Worldwide Logistics",
+   "entities": [
+    "Crane Worldwide Group Cooperatief U.A.",
+    "Crane Worldwide Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "cts-international-logistics",
+   "name": "CTS International Logistics",
+   "entities": [
+    "CTS International Logistics (Netherlands) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "cyber-freight-amsterdam",
+   "name": "Cyber Freight Amsterdam",
+   "entities": [
+    "Cyber Freight Amsterdam B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "dachser",
+   "name": "Dachser",
+   "entities": [
+    "Dachser Netherlands B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-09-17",
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "ok",
+   "method": "rmk",
+   "nl_jobs": 32
+  },
+  {
+   "id": "delmar-international",
+   "name": "Delmar International",
+   "entities": [
+    "Delmar International (Netherlands) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "dho-logistics",
+   "name": "DHO Logistics",
+   "entities": [
+    "DHO Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "dimerco-express",
+   "name": "Dimerco Express",
+   "entities": [
+    "Dimerco Express Netherlands B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "dutch-qargo",
+   "name": "Dutch Qargo",
+   "entities": [
+    "Dutch Qargo B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "e-van-wijk-forwarding-group",
+   "name": "E. van Wijk Forwarding Group",
+   "entities": [
+    "E. van Wijk Forwarding Group B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "euro-senko",
+   "name": "Euro Senko",
+   "entities": [
+    "Euro Senko"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "eusu-logistics",
+   "name": "Eusu Logistics",
+   "entities": [
+    "Eusu Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "expeditors",
+   "name": "Expeditors",
+   "entities": [
+    "Expeditors International B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "fairways-logistics",
+   "name": "Fairways Logistics",
+   "entities": [
+    "Fairways Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "flexport",
+   "name": "Flexport",
+   "entities": [
+    "Flexport Group B.V.",
+    "Flexport International B.V.",
+    "Flexport Customs B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "fox-global-logistics",
+   "name": "FOX Global Logistics",
+   "entities": [
+    "FOX Global Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "freight-international-holding",
+   "name": "Freight International Holding",
+   "entities": [
+    "Freight International Holding B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "freightlive",
+   "name": "Freightlive",
+   "entities": [
+    "Freightlive B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "fuji-logistics-fujitrans",
+   "name": "Fuji Logistics / Fujitrans",
+   "entities": [
+    "Fuji Logistics Europe B.V.",
+    "Fuji Transport Systems (Rotterdam) B.V.",
+    "FUJITRANS (EUROPE) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "gd-its-forwarding",
+   "name": "GD-iTS Forwarding",
+   "entities": [
+    "GD-iTS Forwarding B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "geodis",
+   "name": "GEODIS",
+   "entities": [
+    "GEODIS FF Netherlands B.V.",
+    "Geodis C.L. Netherlands B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "gerlach",
+   "name": "Gerlach",
+   "entities": [
+    "Gerlach & Co. Internationale Expediteurs B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "hanjin-global-logistics",
+   "name": "Hanjin Global Logistics",
+   "entities": [
+    "Hanjin Global Logistics Europe Sro."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "hankyu-hanshin-express",
+   "name": "Hankyu Hanshin Express",
+   "entities": [
+    "Hankyu Hanshin Express (Netherlands) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "hellmann-worldwide-logistics",
+   "name": "Hellmann Worldwide Logistics",
+   "entities": [
+    "Hellmann Worldwide Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "htns-benelux",
+   "name": "HTNS Benelux",
+   "entities": [
+    "HTNS Benelux B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "international-airfreight-associates",
+   "name": "International Airfreight Associates",
+   "entities": [
+    "International Airfreight Associates B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "janssen-air-ocean",
+   "name": "Janssen Air & Ocean",
+   "entities": [
+    "Janssen Air & Ocean B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "jas-worldwide",
+   "name": "JAS Worldwide",
+   "entities": [
+    "JAS Forwarding (Netherlands) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-09-17",
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "ok",
+   "method": "workday",
+   "nl_jobs": 0
+  },
+  {
+   "id": "jd-logistics",
+   "name": "JD Logistics",
+   "entities": [
+    "JINGDONG LOGISTICS (NETHERLANDS) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "just-ride-logistics",
+   "name": "Just Ride Logistics",
+   "entities": [
+    "Just Ride Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "kintetsu-world-express",
+   "name": "Kintetsu World Express",
+   "entities": [
+    "Kintetsu World Express (Benelux) B.V.",
+    "Kintetsu World Express (EA) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "kln-logistics",
+   "name": "KLN Logistics",
+   "entities": [
+    "KLN Logistics Holding B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "koyanagi-worldwide",
+   "name": "Koyanagi Worldwide",
+   "entities": [
+    "Koyanagi Worldwide B.V.",
+    "Koyanagi Worldwide Ltd"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "kroog-logistics",
+   "name": "Kroog Logistics",
+   "entities": [
+    "Kroog Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "kuehne-nagel",
+   "name": "Kuehne+Nagel",
+   "entities": [
+    "Kuehne + Nagel N.V.",
+    "Kuehne + Nagel Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "unsupported_vendor",
+   "vendor": "Phenom",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "logisteed-europe",
+   "name": "LOGISTEED Europe",
+   "entities": [
+    "LOGISTEED Europe B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "logistic-business-partners",
+   "name": "Logistic Business Partners",
+   "entities": [
+    "Logistic Business Partners (Rotterdam) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "lotte-global-logistics",
+   "name": "LOTTE Global Logistics",
+   "entities": [
+    "LOTTE Global Logistics Hungary KFT, Netherlands Branch"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "loyal-cargo-services",
+   "name": "Loyal Cargo Services",
+   "entities": [
+    "Loyal Cargo Services B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "lx-pantos",
+   "name": "LX Pantos",
+   "entities": [
+    "LX Pantos Netherlands B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "mach-2-pharmafreight",
+   "name": "Mach 2 Pharmafreight",
+   "entities": [
+    "Mach 2 Pharmafreight B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "maersk",
+   "name": "Maersk",
+   "entities": [
+    "Maersk Logistics & Services International B.V.",
+    "Maersk Logistics and Services Netherlands B.V.",
+    "Maersk Line Netherlands B.V.",
+    "Hamburg Sud Nederland"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "mainfreight",
+   "name": "Mainfreight",
+   "entities": [
+    "Mainfreight B.V.",
+    "Mainfreight Holding B.V.",
+    "Mainfreight Logistic Services Netherlands B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "read_failed",
+   "method": "teamtailor",
+   "detail": "HTTPError: 404 Client Error: Not Found for url: https://www.mainfreight.com/jobs.rss",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "marinetrans-benelux",
+   "name": "Marinetrans Benelux",
+   "entities": [
+    "Marinetrans Benelux B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "mitsubishi-logistics-europe",
+   "name": "Mitsubishi Logistics Europe",
+   "entities": [
+    "Mitsubishi Logistics Europe B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "mn-logistics-international",
+   "name": "MN Logistics International",
+   "entities": [
+    "MN Logistics International B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "mol-logistics",
+   "name": "MOL Logistics",
+   "entities": [
+    "MOL Logistics (Netherlands) B.V.",
+    "MOL Logistics Holding (Europe) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "morgan-cargo",
+   "name": "Morgan Cargo",
+   "entities": [
+    "Morgan Cargo (Netherlands) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "morrison-express",
+   "name": "Morrison Express",
+   "entities": [
+    "Morrison Express Netherlands B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "mpc-shipping-logistics",
+   "name": "MPC Shipping & Logistics",
+   "entities": [
+    "MPC Shipping & Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "myon-forwarding-customs",
+   "name": "Myon Forwarding & Customs",
+   "entities": [
+    "Myon Forwarding & Customs B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "nedair-freight",
+   "name": "Nedair Freight",
+   "entities": [
+    "Nedair Freight B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "nippon-express",
+   "name": "Nippon Express",
+   "entities": [
+    "Nippon Express (Nederland) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "nnr-global-logistics",
+   "name": "NNR Global Logistics",
+   "entities": [
+    "NNR Global Logistics Netherlands B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "oocl",
+   "name": "OOCL",
+   "entities": [
+    "OOCL Logistics (Europe) Ltd",
+    "Orient Overseas Container Line Limited"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "p-m-t-cargo-smartpoint",
+   "name": "P.M.T. Cargo Smartpoint",
+   "entities": [
+    "P.M.T. CARGO SMARTPOINT B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "penske-logistics",
+   "name": "Penske Logistics",
+   "entities": [
+    "Penske Logistics Support Services B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "unsupported_vendor",
+   "vendor": "Oracle Recruiting Cloud",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "qbex-logistics",
+   "name": "Qbex Logistics",
+   "entities": [
+    "Qbex Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "rapid-logistics",
+   "name": "Rapid Logistics",
+   "entities": [
+    "Rapid Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "rhenus",
+   "name": "Rhenus",
+   "entities": [
+    "Rhenus Air & Ocean B.V.",
+    "Rhenus Warehousing Solutions Netherlands B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "rotra",
+   "name": "Rotra",
+   "entities": [
+    "Rotra Air & Ocean B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "samsung-sds",
+   "name": "Samsung SDS",
+   "entities": [
+    "Samsung SDS Global SCL Netherlands Coöperatief U.A."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "samyang-logistics-europe",
+   "name": "Samyang Logistics Europe",
+   "entities": [
+    "Samyang Logistics Europe B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "sankyu-europe",
+   "name": "Sankyu Europe",
+   "entities": [
+    "Sankyu (Europe) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "santova-logistics",
+   "name": "Santova Logistics",
+   "entities": [
+    "Santova Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "db-schenker",
+   "name": "DB Schenker",
+   "entities": [
+    "Schenker Global Management & Services GmbH",
+    "Schenker Logistics Nederland B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "sevenhills-logistics",
+   "name": "Sevenhills Logistics",
+   "entities": [
+    "Sevenhills Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "shaoke-logistics",
+   "name": "Shaoke Logistics",
+   "entities": [
+    "Shaoke Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "sharp-jusda-logistics",
+   "name": "Sharp Jusda Logistics",
+   "entities": [
+    "Sharp Jusda Logistics (Netherlands) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "shypple",
+   "name": "Shypple",
+   "entities": [
+    "Shypple B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "read_failed",
+   "method": "recruitee",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://careers-analytics.recruitee.com/api/offers/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "simex-transport-and-forwarding",
+   "name": "Simex Transport and Forwarding",
+   "entities": [
+    "Simex Transport and Forwarding B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "sinotrans",
+   "name": "Sinotrans",
+   "entities": [
+    "Sinotrans Air Transportation GmbH Netherlands Branch"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "sms-global-logistics",
+   "name": "SMS Global Logistics",
+   "entities": [
+    "SMS Global Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "t-w-s-transit-world-service",
+   "name": "T.W.S. Transit World Service",
+   "entities": [
+    "T.W.S. Transit World Service B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "tito-smart-modal-logistics",
+   "name": "Tito Smart Modal Logistics",
+   "entities": [
+    "Tito Smart Modal Logistics Europe"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "tlogistics",
+   "name": "TLogistics",
+   "entities": [
+    "TLogistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "toll-global-forwarding",
+   "name": "Toll Global Forwarding",
+   "entities": [
+    "Toll Global Forwarding"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "ups",
+   "name": "UPS",
+   "entities": [
+    "UPS SCS (Nederland) B.V.",
+    "United Parcel Service Nederland B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "world-asia-logistics",
+   "name": "World Asia Logistics",
+   "entities": [
+    "World Asia Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "world-freight-logistics",
+   "name": "World Freight Logistics",
+   "entities": [
+    "World Freight Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "yamato-transport-europe",
+   "name": "Yamato Transport Europe",
+   "entities": [
+    "Yamato Transport Europe B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "yusen-logistics",
+   "name": "Yusen Logistics",
+   "entities": [
+    "Yusen Logistics (Benelux) B.V.",
+    "Yusen Logistics (Europe) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "zencargo",
+   "name": "Zencargo",
+   "entities": [
+    "Zencargo NL B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "americold",
+   "name": "Americold",
+   "entities": [
+    "Americold Netherlands II B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "unsupported_vendor",
+   "vendor": "Oracle Recruiting Cloud",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "arvato",
+   "name": "Arvato",
+   "entities": [
+    "Arvato Netherlands B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "bleckmann",
+   "name": "Bleckmann",
+   "entities": [
+    "Bleckmann Nederland B.V.",
+    "Bleckmann Solutions B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "broekman-contract-logistics",
+   "name": "Broekman Contract Logistics",
+   "entities": [
+    "Broekman Contract Logistics B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "steinweg",
+   "name": "Steinweg",
+   "entities": [
+    "C. Steinweg-Handelsveem B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "century-distribution-systems",
+   "name": "Century Distribution Systems",
+   "entities": [
+    "Century Distribution Systems (Europe) B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "construction-logistics-group",
+   "name": "Construction Logistics Group",
+   "entities": [
+    "Construction Logistics Group B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "cycleon",
+   "name": "Cycleon",
+   "entities": [
+    "Cycleon B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "european-distribution-centre-roosendaal",
+   "name": "European Distribution Centre Roosendaal",
+   "entities": [
+    "European Distribution Centre Roosendaal (E.D.C.R.) B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "feniks-warehousing-solutions",
+   "name": "Feniks Warehousing Solutions",
+   "entities": [
+    "Feniks Warehousing Solutions B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "fulfilment-solutions",
+   "name": "Fulfilment Solutions",
+   "entities": [
+    "Fulfilment Solutions B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "grolleman-vrieshuis",
+   "name": "Grolleman Vrieshuis",
+   "entities": [
+    "Grolleman Vrieshuis Exploitatie Maatschappij B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "gxo-logistics",
+   "name": "GXO Logistics",
+   "entities": [
+    "GXO LOGISTICS NETHERLANDS B.V.",
+    "GXO LOGISTICS NETHERLANDS III B.V.",
+    "GXO LOGISTICS SERVICES NETHERLANDS B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "ice-cold-storage",
+   "name": "Ice Cold Storage",
+   "entities": [
+    "Ice Cold Storage Holding B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "id-logistics",
+   "name": "ID Logistics",
+   "entities": [
+    "ID Logistics Tilburg B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "lineage",
+   "name": "Lineage",
+   "entities": [
+    "Lineage Dutch Coöperatief U.A.",
+    "Lineage NL 3 TRS B.V.",
+    "Lineage Rotterdam Maasvlakte B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "unsupported_vendor",
+   "vendor": "Phenom",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "moduslink",
+   "name": "ModusLink",
+   "entities": [
+    "ModusLink B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "monta",
+   "name": "Monta",
+   "entities": [
+    "Monta Services B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "movianto",
+   "name": "Movianto",
+   "entities": [
+    "Movianto Nederland B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "newcold",
+   "name": "NewCold",
+   "entities": [
+    "NewCold Coöperatief U.A.",
+    "NewCold Development B.V.",
+    "NewCold Digital B.V.",
+    "NewCold NL Operations B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "odin-warehousing-logistics",
+   "name": "Odin Warehousing & Logistics",
+   "entities": [
+    "Odin Warehousing & Logistics B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "re-teck",
+   "name": "Re-Teck",
+   "entities": [
+    "Re-Teck Reverse Supply Chain Management B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "dhl-group",
+   "name": "DHL Group",
+   "entities": [
+    "DHL Freight (Netherlands) B.V.",
+    "DHL Global Forwarding (Netherlands) B.V.",
+    "DHL Supply Chain (Netherlands) B.V.",
+    "DHL Supply Chain Management B.V.",
+    "DHL eCommerce (Netherlands) B.V.",
+    "DHL Express",
+    "Deutsche Post International B.V."
+   ],
+   "group": "parcel",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "unsupported_vendor",
+   "vendor": "Phenom",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "postnl",
+   "name": "PostNL",
+   "entities": [
+    "Koninklijke PostNL B.V.",
+    "PostNL Holding B.V."
+   ],
+   "group": "parcel",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "fedex",
+   "name": "FedEx",
+   "entities": [
+    "FedEx Express International B.V.",
+    "FedEx Express Netherlands B.V."
+   ],
+   "group": "parcel",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "gls",
+   "name": "GLS",
+   "entities": [
+    "General Logistics Systems B.V."
+   ],
+   "group": "parcel",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "aramex",
+   "name": "Aramex",
+   "entities": [
+    "Aramex Nederland B.V."
+   ],
+   "group": "parcel",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "sf-express",
+   "name": "SF Express",
+   "entities": [
+    "SF Express (Netherlands) B.V."
+   ],
+   "group": "parcel",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "world-courier",
+   "name": "World Courier",
+   "entities": [
+    "World Courier Holland B.V."
+   ],
+   "group": "parcel",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "unsupported_vendor",
+   "vendor": "Phenom",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "cma-cgm",
+   "name": "CMA CGM",
+   "entities": [
+    "CMA-CGM (Holland) B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "msc",
+   "name": "MSC",
+   "entities": [
+    "Mediterranean Shipping Company (Nederland) B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "cosco-shipping-lines",
+   "name": "COSCO Shipping Lines",
+   "entities": [
+    "Cosco Shipping Lines (Netherlands) B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "ocean-network-express",
+   "name": "Ocean Network Express",
+   "entities": [
+    "Ocean Network Express (Netherlands) B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "hmm",
+   "name": "HMM",
+   "entities": [
+    "HMM (Netherlands) shipping B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "yang-ming",
+   "name": "Yang Ming",
+   "entities": [
+    "Yang Ming (Netherlands) B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "evergreen",
+   "name": "Evergreen",
+   "entities": [
+    "Evergreen Shipping Agency (Europe) GMBH"
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "stena-line",
+   "name": "Stena Line",
+   "entities": [
+    "Stena Line B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "eimskip",
+   "name": "Eimskip",
+   "entities": [
+    "Eimskip Nederland B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "combined-barge-operators",
+   "name": "Combined Barge Operators",
+   "entities": [
+    "Combined Barge Operators (C.B.O.) B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "apm-terminals",
+   "name": "APM Terminals",
+   "entities": [
+    "APM Terminals Maasvlakte II B.V.",
+    "APM Terminals Management B.V."
+   ],
+   "group": "ports",
+   "extra_keywords": [],
+   "last_success": "2026-09-17",
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "ok",
+   "method": "workday",
+   "nl_jobs": 21
+  },
+  {
+   "id": "ect-delta-terminal",
+   "name": "ECT Delta Terminal",
+   "entities": [
+    "ECT Delta Terminal B.V."
+   ],
+   "group": "ports",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "port-of-rotterdam",
+   "name": "Port of Rotterdam",
+   "entities": [
+    "Havenbedrijf Rotterdam N.V."
+   ],
+   "group": "ports",
+   "extra_keywords": [],
+   "last_success": "2026-09-17",
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "ok",
+   "method": "rmk",
+   "nl_jobs": 0
+  },
+  {
+   "id": "port-of-amsterdam",
+   "name": "Port of Amsterdam",
+   "entities": [
+    "Port of Amsterdam"
+   ],
+   "group": "ports",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "abbott",
+   "name": "Abbott",
+   "entities": [
+    "Abbott Logistics B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": "2026-09-17",
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "ok",
+   "method": "workday",
+   "nl_jobs": 50
+  },
+  {
+   "id": "abbvie",
+   "name": "AbbVie",
+   "entities": [
+    "AbbVie Logistics B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "action",
+   "name": "Action",
+   "entities": [
+    "Action Service & Distributie"
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "entities": [
+    "Amazon Transport Netherlands B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": "2026-09-17",
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "ok",
+   "method": "amazon",
+   "nl_jobs": 33
+  },
+  {
+   "id": "arthrex",
+   "name": "Arthrex",
+   "entities": [
+    "Arthrex Distribution Hub EMEA B.V"
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": "2026-09-17",
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "ok",
+   "method": "rmk",
+   "nl_jobs": 0
+  },
+  {
+   "id": "zimmer-biomet",
+   "name": "Zimmer Biomet",
+   "entities": [
+    "Biomet Global Supply Chain Center B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "unsupported_vendor",
+   "vendor": "Phenom",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "fenix-outdoor",
+   "name": "Fenix Outdoor",
+   "entities": [
+    "Fenix Outdoor Logistics B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "flex",
+   "name": "Flex",
+   "entities": [
+    "Flextronics Logistics B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "henkel",
+   "name": "Henkel",
+   "entities": [
+    "Henkel Global Supply Chain B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "samsung-electronics-europe-logistics",
+   "name": "Samsung Electronics Europe Logistics",
+   "entities": [
+    "Samsung Electronics Europe Logistics B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "scania",
+   "name": "Scania",
+   "entities": [
+    "Scania Logistics Netherlands B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": "2026-09-17",
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "ok",
+   "method": "rmk",
+   "nl_jobs": 0
+  },
+  {
+   "id": "stryker",
+   "name": "Stryker",
+   "entities": [
+    "Stryker EMEA Supply Chain Services B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": "2026-09-17",
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "ok",
+   "method": "workday",
+   "nl_jobs": 22
+  },
+  {
+   "id": "tiktok",
+   "name": "TikTok",
+   "entities": [
+    "TikTok Logistics Netherlands B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "zalando",
+   "name": "Zalando",
+   "entities": [
+    "Zalando Logistics Operations Netherlands B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "fourkites",
+   "name": "FourKites",
+   "entities": [
+    "FourKites B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "read_failed",
+   "method": "greenhouse",
+   "detail": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/THIS_PART/jobs?content=true",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "project44",
+   "name": "project44",
+   "entities": [
+    "Project44 B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "simacan",
+   "name": "Simacan",
+   "entities": [
+    "Simacan B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "nextlogic",
+   "name": "Nextlogic",
+   "entities": [
+    "Nextlogic B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "portbase",
+   "name": "Portbase",
+   "entities": [
+    "Portbase B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "read_failed",
+   "method": "recruitee",
+   "detail": "HTTPError: 403 Client Error: Forbidden for url: https://careers-analytics.recruitee.com/api/offers/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "mendrix",
+   "name": "MendriX",
+   "entities": [
+    "MendriX B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "cofano",
+   "name": "Cofano",
+   "entities": [
+    "Cofano Software Solutions B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "intermodal-telematics",
+   "name": "Intermodal Telematics",
+   "entities": [
+    "Intermodal Telematics B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "shipsy",
+   "name": "Shipsy",
+   "entities": [
+    "Shipsy B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "loadmaster-ai",
+   "name": "loadmaster.ai",
+   "entities": [
+    "loadmaster.ai B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "cargo-king",
+   "name": "Cargo King",
+   "entities": [
+    "Cargo King B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "ecom-clear",
+   "name": "Ecom Clear",
+   "entities": [
+    "Ecom Clear B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "emtransit",
+   "name": "emTransit",
+   "entities": [
+    "emTransit B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "flash-shipping",
+   "name": "Flash Shipping",
+   "entities": [
+    "Flash Shipping B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "gl-link-europe",
+   "name": "GL Link (Europe)",
+   "entities": [
+    "GL Link (Europe) B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "hl-terminal-holding",
+   "name": "HL Terminal Holding",
+   "entities": [
+    "HL Terminal Holding B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "top-cargo",
+   "name": "Top Cargo",
+   "entities": [
+    "Top Cargo B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "transporting-wheels",
+   "name": "Transporting Wheels",
+   "entities": [
+    "Transporting Wheels B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "wispex-transit-nl",
+   "name": "Wispex Transit NL",
+   "entities": [
+    "Wispex Transit NL B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-09-17T18:57+00:00",
+   "status": "no_address",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  }
+ ]
+}
