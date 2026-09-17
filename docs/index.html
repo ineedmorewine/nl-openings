@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Openings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <h1 data-text="heading"></h1>
+    <p class="updated" id="updated"></p>
+    <button class="track" id="track" type="button" aria-describedby="track-caption">
+      <span class="track-rail" id="track-rail" aria-hidden="true"></span>
+      <span class="track-caption" id="track-caption"></span>
+    </button>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="tab-new" data-tab="new" aria-selected="true"></button>
+    <button role="tab" id="tab-all" data-tab="all" aria-selected="false"></button>
+    <button role="tab" id="tab-sources" data-tab="sources" aria-selected="false"></button>
+  </nav>
+
+  <section class="toolbar" id="toolbar">
+    <input type="search" id="search" autocomplete="off">
+    <select id="group"></select>
+    <select id="sort"></select>
+    <label class="toggle"><input type="checkbox" id="air-ocean"><span data-text="toggle_air_ocean"></span></label>
+    <label class="toggle"><input type="checkbox" id="everything"><span data-text="toggle_everything"></span></label>
+    <label class="toggle"><input type="checkbox" id="show-hidden"><span data-text="toggle_hidden"></span></label>
+    <button type="button" class="quiet" id="edit-keywords" data-text="edit_keywords"></button>
+  </section>
+
+  <main>
+    <p class="count" id="count" aria-live="polite"></p>
+    <div id="list" class="list"></div>
+  </main>
+
+  <dialog id="keywords">
+    <form method="dialog" class="keywords-form">
+      <h2 data-text="keywords_title"></h2>
+      <p class="rule" data-text="keywords_rule"></p>
+      <label><span data-text="keywords_include"></span><textarea id="kw-include" rows="8"></textarea></label>
+      <label><span data-text="keywords_exclude"></span><textarea id="kw-exclude" rows="6"></textarea></label>
+      <label><span data-text="keywords_air_ocean"></span><textarea id="kw-air-ocean" rows="4"></textarea></label>
+      <div class="dialog-actions">
+        <button type="button" id="kw-save" class="primary" data-text="keywords_save"></button>
+        <button type="button" id="kw-reset" class="quiet" data-text="keywords_reset"></button>
+        <button value="cancel" class="quiet" data-text="keywords_cancel"></button>
+      </div>
+    </form>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

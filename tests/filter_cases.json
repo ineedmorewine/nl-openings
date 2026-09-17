@@ -1,0 +1,86 @@
+[
+  {
+    "label": "Dutch compound planner title",
+    "title": "Transportplanner Internationaal",
+    "suitable": true,
+    "air_ocean_only": false
+  },
+  {
+    "label": "Rail planner",
+    "title": "Rail Planner Intermodal",
+    "suitable": true,
+    "air_ocean_only": false
+  },
+  {
+    "label": "Retail does not match rail",
+    "title": "Retail Store Assistant",
+    "suitable": false,
+    "air_ocean_only": false
+  },
+  {
+    "label": "Accented coordinator",
+    "title": "Coördinator Transport",
+    "suitable": true,
+    "air_ocean_only": false
+  },
+  {
+    "label": "Logistiek coordinator with accent",
+    "title": "Logistiek Coördinator Export",
+    "suitable": true,
+    "air_ocean_only": false
+  },
+  {
+    "label": "Driver excluded",
+    "title": "Chauffeur CE Internationaal Transport",
+    "suitable": false,
+    "air_ocean_only": false
+  },
+  {
+    "label": "Forklift excluded",
+    "title": "Heftruckchauffeur",
+    "suitable": false,
+    "air_ocean_only": false
+  },
+  {
+    "label": "Air freight hidden",
+    "title": "Air Freight Forwarder Export",
+    "suitable": true,
+    "air_ocean_only": true
+  },
+  {
+    "label": "Multimodal kept visible",
+    "title": "Road, Air and Ocean Freight Coordinator",
+    "suitable": true,
+    "air_ocean_only": false
+  },
+  {
+    "label": "International does not trigger intern",
+    "title": "International Freight Operations Specialist",
+    "suitable": true,
+    "air_ocean_only": false
+  },
+  {
+    "label": "Dutch internship excluded",
+    "title": "Stage Expeditie",
+    "suitable": false,
+    "air_ocean_only": false
+  },
+  {
+    "label": "Customer service excluded",
+    "title": "Customer Service Agent Road Freight",
+    "suitable": false,
+    "air_ocean_only": false
+  },
+  {
+    "label": "FTL short keyword at word start",
+    "title": "FTL Operations",
+    "suitable": true,
+    "air_ocean_only": false
+  },
+  {
+    "label": "Software engineer excluded",
+    "title": "Software Engineer Planning Tools",
+    "suitable": false,
+    "air_ocean_only": false
+  }
+]

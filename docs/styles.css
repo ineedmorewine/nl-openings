@@ -1,0 +1,347 @@
+/* Palette: railway paperwork sage, signal yellow for arrivals, container rust for language warnings. */
+:root {
+  --ground: #e4e8e1;
+  --sheet: #f4f6f1;
+  --ink: #1d2a23;
+  --muted: #58675e;
+  --rule: #c3cbbf;
+  --signal: #efb920;
+  --rust: #9e4521;
+  --moss: #3e6b48;
+  --focus: #1d2a23;
+  --radius-control: 6px;
+  --space: 16px;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-variation-settings: "wdth" 100;
+  color: var(--ink);
+  background: var(--ground);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0 clamp(16px, 4vw, 48px) 64px;
+  line-height: 1.45;
+  font-size: 16px;
+}
+
+button, input, select, textarea { font: inherit; color: inherit; }
+
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+/* ------------------------------------------------------------ masthead */
+
+.masthead {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 40px 0 20px;
+}
+
+.masthead h1 {
+  margin: 0;
+  font-size: clamp(34px, 6vw, 60px);
+  line-height: 0.95;
+  font-weight: 800;
+  font-stretch: 72%;
+  font-variation-settings: "wdth" 72;
+  letter-spacing: -0.01em;
+}
+
+.updated {
+  margin: 10px 0 18px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* The source track: one sleeper per careers site, coloured by last-run result. */
+.track {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.track-rail {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(4px, 1fr));
+  gap: 2px;
+  padding: 6px 0;
+  border-top: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
+}
+
+.track-rail i {
+  display: block;
+  height: 14px;
+  background: var(--rule);
+}
+
+.track-rail i.ok { background: var(--moss); }
+.track-rail i.failed { background: var(--rust); }
+
+.track-caption {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.track-caption strong {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------ tabs and toolbar */
+
+.tabs, .toolbar, main {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin-top: 18px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.tabs button {
+  padding: 10px 14px 9px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: none;
+  font-weight: 600;
+  font-variation-settings: "wdth" 88;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.tabs button[aria-selected="true"] {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
+
+.tabs button .tab-count {
+  margin-left: 6px;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  padding: 16px 0 6px;
+}
+
+.toolbar[hidden] { display: none; }
+
+.toolbar input[type="search"], .toolbar select {
+  min-height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: var(--sheet);
+}
+
+.toolbar input[type="search"] { flex: 1 1 280px; }
+.toolbar select { flex: 0 0 auto; }
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.toggle input { accent-color: var(--ink); width: 16px; height: 16px; }
+
+button.quiet, a.quiet {
+  min-height: 36px;
+  padding: 0 10px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: transparent;
+  font-size: 14px;
+  color: var(--ink);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+button.quiet:hover, a.quiet:hover { border-color: var(--ink); }
+
+.primary {
+  min-height: 36px;
+  padding: 0 14px;
+  border: 1px solid var(--ink);
+  border-radius: var(--radius-control);
+  background: var(--ink);
+  color: var(--sheet);
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.count {
+  margin: 10px 0;
+  color: var(--muted);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ------------------------------------------------------------ job rows */
+
+.list { display: grid; gap: 8px; }
+
+.job {
+  position: relative;
+  display: grid;
+  grid-template-columns: 68px 1fr auto;
+  gap: 16px;
+  align-items: start;
+  padding: 14px 16px 14px 14px;
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+
+.job.is-hidden { opacity: 0.55; }
+
+.plate {
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  border-right: 1px solid var(--rule);
+  padding-right: 14px;
+}
+
+.plate .day {
+  display: block;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 700;
+  font-variation-settings: "wdth" 70;
+}
+
+.plate .month { display: block; font-size: 14px; font-weight: 600; }
+.plate .kind { display: block; margin-top: 4px; font-size: 12px; color: var(--muted); }
+
+.job h3 {
+  margin: 0;
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: 650;
+  font-variation-settings: "wdth" 86;
+}
+
+.job h3 a { color: inherit; text-decoration: none; }
+.job h3 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.where { margin: 4px 0 0; color: var(--muted); }
+.where .company { color: var(--ink); font-weight: 600; }
+.dates-note { margin: 2px 0 0; font-size: 13px; color: var(--muted); }
+
+.labels { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+
+.label {
+  padding: 1px 8px;
+  border: 1px solid var(--muted);
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.label.dutch { border-color: var(--rust); color: var(--rust); font-weight: 600; }
+.label.applied { border-color: var(--moss); background: var(--moss); color: var(--sheet); }
+.label.arrived { border-color: var(--ink); background: var(--signal); color: var(--ink); }
+
+.actions { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; min-width: 210px; }
+.actions > * { justify-content: center; }
+.actions .primary { grid-column: 1 / -1; }
+
+.empty {
+  padding: 28px 20px;
+  border: 1px dashed var(--muted);
+  background: transparent;
+  max-width: 62ch;
+}
+
+/* ------------------------------------------------------------ sources */
+
+.sources-intro { margin: 18px 0 10px; color: var(--muted); max-width: 70ch; }
+
+.source {
+  display: grid;
+  grid-template-columns: 14px 1fr auto;
+  gap: 12px;
+  align-items: start;
+  padding: 12px 14px;
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+}
+
+.source .dot { width: 12px; height: 12px; margin-top: 5px; background: var(--rule); }
+.source .dot.ok { background: var(--moss); }
+.source .dot.failed { background: var(--rust); }
+.source h3 { margin: 0; font-size: 17px; font-weight: 650; font-variation-settings: "wdth" 88; }
+.source .entities { margin: 2px 0 0; font-size: 13px; color: var(--muted); }
+.source .status { margin: 4px 0 0; }
+.source .meta { text-align: right; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* ------------------------------------------------------------ keywords dialog */
+
+dialog {
+  width: min(640px, calc(100vw - 32px));
+  border: 2px solid var(--ink);
+  border-radius: 2px;
+  padding: 24px;
+  background: var(--sheet);
+  color: var(--ink);
+}
+
+dialog::backdrop { background: rgba(29, 42, 35, 0.45); }
+
+.keywords-form h2 { margin: 0 0 8px; font-variation-settings: "wdth" 80; }
+.keywords-form .rule { margin: 0 0 16px; color: var(--muted); font-size: 14px; }
+.keywords-form label { display: grid; gap: 4px; margin-bottom: 14px; font-weight: 600; font-size: 14px; }
+
+.keywords-form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: #fff;
+  font-weight: 400;
+  resize: vertical;
+}
+
+.dialog-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* ------------------------------------------------------------ small screens */
+
+@media (max-width: 680px) {
+  .job { grid-template-columns: 54px 1fr; }
+  .actions { grid-column: 1 / -1; grid-template-columns: 1.2fr 1fr 0.7fr; min-width: 0; }
+  .actions .primary { grid-column: auto; }
+  .plate { padding-right: 10px; }
+  .plate .day { font-size: 26px; }
+  .source { grid-template-columns: 14px 1fr; }
+  .source .meta { grid-column: 2; text-align: left; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto; transition: none !important; }
+}
