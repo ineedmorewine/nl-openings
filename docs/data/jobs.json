@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-09-17T18:57+00:00",
+ "generated_at": "2026-09-18T04:04+00:00",
  "jobs": [
+  {
+   "id": "flex:/job/Netherlands-Woerden/Project-Manager-Aspice_WD228712",
+   "company_id": "flex",
+   "title": "Project Manager",
+   "location": "Netherlands, Woerden",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Project-Manager-Aspice_WD228712",
+   "posted_at": "2026-09-18",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-18",
+   "baseline": true
+  },
+  {
+   "id": "flex:/job/Netherlands-Venray/ICT-Infrastructure-Teamleader_WD224985",
+   "company_id": "flex",
+   "title": "ICT Infrastructure Teamleader",
+   "location": "Netherlands, Venray",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Venray/ICT-Infrastructure-Teamleader_WD224985",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-18",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Traineeship-logistiek-2742RD/1356327655/",
+   "company_id": "dachser",
+   "title": "Traineeship logistiek",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Traineeship-logistiek-2742RD/1356327655/",
+   "posted_at": "2026-09-18",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3199-KD/Maintenance-Technician--Warehouse---Facilities-_R197369",
+   "company_id": "apm-terminals",
+   "title": "Maintenance Technician (Warehouse & Facilities) Maasvalkte",
+   "location": "Netherlands, Rotterdam, 3199 KD",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3199-KD/Maintenance-Technician--Warehouse---Facilities-_R197369",
+   "posted_at": "2026-09-18",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Office---Management-Assistant---The-Netherlands_R197107-1",
+   "company_id": "apm-terminals",
+   "title": "Office & Management Assistant - The Netherlands",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Office---Management-Assistant---The-Netherlands_R197107-1",
+   "posted_at": "2026-09-18",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
   {
    "id": "dachser:/dachser_europe/job/Zevenaar-Senior-Financieel-Administratief-Medewerker-6902KL/1361760155/",
    "company_id": "dachser",
@@ -38,23 +98,11 @@
    "baseline": true
   },
   {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3199-KD/Maintenance-Technician--Warehouse---Facilities-_R197369",
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Integrated-Sales-Representative-FMCG---Lifestyle---Non-Controlled-Sales_R197363-1",
    "company_id": "apm-terminals",
-   "title": "Maintenance Technician (Warehouse & Facilities) Maasvalkte",
-   "location": "Netherlands, Rotterdam, 3199 KD",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3199-KD/Maintenance-Technician--Warehouse---Facilities-_R197369",
-   "posted_at": "2026-09-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Office---Management-Assistant---The-Netherlands_R197107-1",
-   "company_id": "apm-terminals",
-   "title": "Office & Management Assistant - The Netherlands",
+   "title": "Integrated Sales Representative FMCG & Lifestyle - Non Controlled Sales",
    "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Office---Management-Assistant---The-Netherlands_R197107-1",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Integrated-Sales-Representative-FMCG---Lifestyle---Non-Controlled-Sales_R197363-1",
    "posted_at": "2026-09-17",
    "labels": null,
    "labels_checked": false,
@@ -134,12 +182,75 @@
    "baseline": true
   },
   {
+   "id": "apm-terminals:/job/Netherlands-The-Hague-2511-DP/Front-End-Project-Planner_R188407",
+   "company_id": "apm-terminals",
+   "title": "Front-End Project Planner",
+   "location": "Netherlands, The Hague, 2511 DP",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-The-Hague-2511-DP/Front-End-Project-Planner_R188407",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "apm-terminals:/job/NLGWV03---The-Hague---De-Kroon/Lead-Infrastructure-Engineer_R188627-2",
    "company_id": "apm-terminals",
    "title": "Lead Infrastructure Engineer",
    "location": "NLGWV03 - The Hague - De Kroon",
    "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NLGWV03---The-Hague---De-Kroon/Lead-Infrastructure-Engineer_R188627-2",
    "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/Shift-Leader-Warehouse_31160085-1",
+   "company_id": "abbott",
+   "title": "Shift Leader Warehouse",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Shift-Leader-Warehouse_31160085-1",
+   "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-A_31158837-1",
+   "company_id": "abbott",
+   "title": "Operator A",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31158837-1",
+   "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Heerlen/Warehouse-Operator_31161176",
+   "company_id": "abbott",
+   "title": "Warehouse Operator",
+   "location": "Netherlands - Heerlen",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Heerlen/Warehouse-Operator_31161176",
+   "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Weesp/Analytical-Senior-Scientist_31161504",
+   "company_id": "abbott",
+   "title": "Analytical Senior Scientist",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Analytical-Senior-Scientist_31161504",
+   "posted_at": "2026-09-17",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -250,6 +361,21 @@
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/Dispatcher-Warehouse_31140341",
+   "company_id": "abbott",
+   "title": "Dispatcher Warehouse",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Dispatcher-Warehouse_31140341",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -437,6 +563,30 @@
    "baseline": true
   },
   {
+   "id": "stryker:/job/Amsterdam-Netherlands/Clinical-Study-Coordinator_R571889",
+   "company_id": "stryker",
+   "title": "Clinical Study Coordinator",
+   "location": "3 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Clinical-Study-Coordinator_R571889",
+   "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "stryker:/job/Venlo-Netherlands/Supervisor--Kit-Assembly_R571477-1",
+   "company_id": "stryker",
+   "title": "Supervisor, Kit Assembly",
+   "location": "Venlo, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Venlo-Netherlands/Supervisor--Kit-Assembly_R571477-1",
+   "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "stryker:/job/Newbury-United-Kingdom/Senior-Lead-HRIS-Analyst--UKG_R570760",
    "company_id": "stryker",
    "title": "Senior Lead HRIS Analyst, UKG",
@@ -485,87 +635,18 @@
    "baseline": true
   },
   {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Integrated-Sales-Representative-FMCG---Lifestyle---Non-Controlled-Sales_R197363-1",
-   "company_id": "apm-terminals",
-   "title": "Integrated Sales Representative FMCG & Lifestyle - Non Controlled Sales",
-   "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Integrated-Sales-Representative-FMCG---Lifestyle---Non-Controlled-Sales_R197363-1",
+   "id": "flexport:8207500",
+   "company_id": "flexport",
+   "title": "Customs Associate",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8207500",
    "posted_at": "2026-09-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Shift-Leader-Warehouse_31160085-1",
-   "company_id": "abbott",
-   "title": "Shift Leader Warehouse",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Shift-Leader-Warehouse_31160085-1",
-   "posted_at": "2026-09-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-A_31158837-1",
-   "company_id": "abbott",
-   "title": "Operator A",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31158837-1",
-   "posted_at": "2026-09-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Heerlen/Warehouse-Operator_31161176",
-   "company_id": "abbott",
-   "title": "Warehouse Operator",
-   "location": "Netherlands - Heerlen",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Heerlen/Warehouse-Operator_31161176",
-   "posted_at": "2026-09-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Weesp/Analytical-Senior-Scientist_31161504",
-   "company_id": "abbott",
-   "title": "Analytical Senior Scientist",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Analytical-Senior-Scientist_31161504",
-   "posted_at": "2026-09-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Amsterdam-Netherlands/Clinical-Study-Coordinator_R571889",
-   "company_id": "stryker",
-   "title": "Clinical Study Coordinator",
-   "location": "3 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Clinical-Study-Coordinator_R571889",
-   "posted_at": "2026-09-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Venlo-Netherlands/Supervisor--Kit-Assembly_R571477-1",
-   "company_id": "stryker",
-   "title": "Supervisor, Kit Assembly",
-   "location": "Venlo, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Venlo-Netherlands/Supervisor--Kit-Assembly_R571477-1",
-   "posted_at": "2026-09-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
@@ -574,6 +655,45 @@
    "title": "Reefer Sales Manager",
    "location": "Netherlands, Rotterdam, 3011 XB",
    "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Reefer-Sales-Manager_R196286-1",
+   "posted_at": "2026-09-16",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Inland-Delivery-Associate_R194934",
+   "company_id": "apm-terminals",
+   "title": "Inland Delivery Associate",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Inland-Delivery-Associate_R194934",
+   "posted_at": "2026-09-15",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3199-LC/Senior-Customer-Experience-Consultant---Control-Tower_R191803",
+   "company_id": "apm-terminals",
+   "title": "Senior Customer Experience Consultant - Control Tower",
+   "location": "Netherlands, Rotterdam, 3199 LC",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3199-LC/Senior-Customer-Experience-Consultant---Control-Tower_R191803",
+   "posted_at": "2026-09-15",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Hoofddorp/Medical-Scientific-Liaison-Specialist---Abbott-Diabetes-Care---Netherlands_31155655",
+   "company_id": "abbott",
+   "title": "Medical Scientific Liaison Specialist - Abbott Diabetes Care - Netherlands",
+   "location": "Netherlands - Hoofddorp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Medical-Scientific-Liaison-Specialist---Abbott-Diabetes-Care---Netherlands_31155655",
    "posted_at": "2026-09-15",
    "labels": null,
    "labels_checked": false,
@@ -607,45 +727,6 @@
     "written_in_dutch": true
    },
    "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Inland-Delivery-Associate_R194934",
-   "company_id": "apm-terminals",
-   "title": "Inland Delivery Associate",
-   "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Inland-Delivery-Associate_R194934",
-   "posted_at": "2026-09-14",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3199-LC/Senior-Customer-Experience-Consultant---Control-Tower_R191803",
-   "company_id": "apm-terminals",
-   "title": "Senior Customer Experience Consultant - Control Tower",
-   "location": "Netherlands, Rotterdam, 3199 LC",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3199-LC/Senior-Customer-Experience-Consultant---Control-Tower_R191803",
-   "posted_at": "2026-09-14",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Hoofddorp/Medical-Scientific-Liaison-Specialist---Abbott-Diabetes-Care---Netherlands_31155655",
-   "company_id": "abbott",
-   "title": "Medical Scientific Liaison Specialist - Abbott Diabetes Care - Netherlands",
-   "location": "Netherlands - Hoofddorp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Medical-Scientific-Liaison-Specialist---Abbott-Diabetes-Care---Netherlands_31155655",
-   "posted_at": "2026-09-14",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -689,6 +770,66 @@
    "baseline": true
   },
   {
+   "id": "apm-terminals:/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
+   "company_id": "apm-terminals",
+   "title": "FCL MOF/LCL Operations Associate",
+   "location": "Netherlands, Amsterdam, 2132 MV",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
+   "posted_at": "2026-09-12",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "stryker:/job/Utrecht-Netherlands/Sales-Representative--Sports-Medicine---South-Netherlands_R573075",
+   "company_id": "stryker",
+   "title": "Sales Representative, Sports Medicine - South Netherlands",
+   "location": "9 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Utrecht-Netherlands/Sales-Representative--Sports-Medicine---South-Netherlands_R573075",
+   "posted_at": "2026-09-12",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "stryker:/job/Amsterdam-Netherlands/Sales-Representative--Sports-Medicine---North-Netherlands_R573063",
+   "company_id": "stryker",
+   "title": "Sales Representative, Sports Medicine - North Netherlands",
+   "location": "10 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Sales-Representative--Sports-Medicine---North-Netherlands_R573063",
+   "posted_at": "2026-09-12",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "stryker:/job/Utrecht-Netherlands/Sales-Representative--Visualization---South-Netherlands_R573077",
+   "company_id": "stryker",
+   "title": "Sales Representative, Visualization - South Netherlands",
+   "location": "9 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Utrecht-Netherlands/Sales-Representative--Visualization---South-Netherlands_R573077",
+   "posted_at": "2026-09-12",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "stryker:/job/Duisburg-Germany/Manager--m-f-d---Technical-Service--ProCare---Northern-Europe_R570256",
+   "company_id": "stryker",
+   "title": "Manager (m/f/d), Technical Service (ProCare), Northern Europe",
+   "location": "6 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Duisburg-Germany/Manager--m-f-d---Technical-Service--ProCare---Northern-Europe_R570256",
+   "posted_at": "2026-09-12",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Warehouse-Operator-2742RD/1364480955/",
    "company_id": "dachser",
    "title": "Warehouse Operator",
@@ -701,11 +842,23 @@
    "baseline": true
   },
   {
-   "id": "apm-terminals:/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
+   "id": "apm-terminals:/job/Netherlands-Almere-1332-ED/E-commerce-Service-Delivery-Specialist_R196254",
    "company_id": "apm-terminals",
-   "title": "FCL MOF/LCL Operations Associate",
-   "location": "Netherlands, Amsterdam, 2132 MV",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
+   "title": "E-commerce Service Delivery Specialist",
+   "location": "Netherlands, Almere, 1332 ED",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Almere-1332-ED/E-commerce-Service-Delivery-Specialist_R196254",
+   "posted_at": "2026-09-11",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/QC-Analist-B-bij-Abbott-Olst_31160819",
+   "company_id": "abbott",
+   "title": "QC Analist B bij Abbott Olst",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/QC-Analist-B-bij-Abbott-Olst_31160819",
    "posted_at": "2026-09-11",
    "labels": null,
    "labels_checked": false,
@@ -728,47 +881,11 @@
    "baseline": true
   },
   {
-   "id": "stryker:/job/Utrecht-Netherlands/Sales-Representative--Sports-Medicine---South-Netherlands_R573075",
+   "id": "stryker:/job/Amsterdam-Netherlands/Regional-Counsel--Northern-Europe--Benelux_R572578",
    "company_id": "stryker",
-   "title": "Sales Representative, Sports Medicine - South Netherlands",
-   "location": "9 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Utrecht-Netherlands/Sales-Representative--Sports-Medicine---South-Netherlands_R573075",
-   "posted_at": "2026-09-11",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Amsterdam-Netherlands/Sales-Representative--Sports-Medicine---North-Netherlands_R573063",
-   "company_id": "stryker",
-   "title": "Sales Representative, Sports Medicine - North Netherlands",
-   "location": "10 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Sales-Representative--Sports-Medicine---North-Netherlands_R573063",
-   "posted_at": "2026-09-11",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Utrecht-Netherlands/Sales-Representative--Visualization---South-Netherlands_R573077",
-   "company_id": "stryker",
-   "title": "Sales Representative, Visualization - South Netherlands",
-   "location": "9 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Utrecht-Netherlands/Sales-Representative--Visualization---South-Netherlands_R573077",
-   "posted_at": "2026-09-11",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Duisburg-Germany/Manager--m-f-d---Technical-Service--ProCare---Northern-Europe_R570256",
-   "company_id": "stryker",
-   "title": "Manager (m/f/d), Technical Service (ProCare), Northern Europe",
-   "location": "6 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Duisburg-Germany/Manager--m-f-d---Technical-Service--ProCare---Northern-Europe_R570256",
+   "title": "Regional Counsel, Northern Europe, Benelux",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Regional-Counsel--Northern-Europe--Benelux_R572578",
    "posted_at": "2026-09-11",
    "labels": null,
    "labels_checked": false,
@@ -791,6 +908,21 @@
    "baseline": true
   },
   {
+   "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Gateway-Operations-Agent_R49235",
+   "company_id": "c-h-robinson",
+   "title": "Gateway Operations Agent",
+   "location": "Aalsmeer Netherlands",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Gateway-Operations-Agent_R49235",
+   "posted_at": "2026-09-10",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Orderpicker-2742RD/1331373255/",
    "company_id": "dachser",
    "title": "Orderpicker",
@@ -803,35 +935,11 @@
    "baseline": true
   },
   {
-   "id": "apm-terminals:/job/Netherlands-Almere-1332-ED/E-commerce-Service-Delivery-Specialist_R196254",
-   "company_id": "apm-terminals",
-   "title": "E-commerce Service Delivery Specialist",
-   "location": "Netherlands, Almere, 1332 ED",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Almere-1332-ED/E-commerce-Service-Delivery-Specialist_R196254",
-   "posted_at": "2026-09-10",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/QC-Analist-B-bij-Abbott-Olst_31160819",
-   "company_id": "abbott",
-   "title": "QC Analist B bij Abbott Olst",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/QC-Analist-B-bij-Abbott-Olst_31160819",
-   "posted_at": "2026-09-10",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Amsterdam-Netherlands/Regional-Counsel--Northern-Europe--Benelux_R572578",
+   "id": "stryker:/job/Amsterdam-Netherlands/Executive-Assistant-to-the-Vice-President--Compliance--Regions---GQO-_R572363",
    "company_id": "stryker",
-   "title": "Regional Counsel, Northern Europe, Benelux",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Regional-Counsel--Northern-Europe--Benelux_R572578",
+   "title": "Executive Assistant to the Vice President, Compliance (Regions & GQO)",
+   "location": "2 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Executive-Assistant-to-the-Vice-President--Compliance--Regions---GQO-_R572363",
    "posted_at": "2026-09-10",
    "labels": null,
    "labels_checked": false,
@@ -839,18 +947,27 @@
    "baseline": true
   },
   {
-   "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Gateway-Operations-Agent_R49235",
-   "company_id": "c-h-robinson",
-   "title": "Gateway Operations Agent",
-   "location": "Aalsmeer Netherlands",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Gateway-Operations-Agent_R49235",
-   "posted_at": "2026-09-09",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
+   "id": "stryker:/job/Venlo-Netherlands/Associate-Supervisor--Value-Added-Services_R573026",
+   "company_id": "stryker",
+   "title": "Associate Supervisor, Value-Added Services",
+   "location": "Venlo, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Venlo-Netherlands/Associate-Supervisor--Value-Added-Services_R573026",
+   "posted_at": "2026-09-10",
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "flex:/job/Netherlands-Oostrum/Quality-Assurance-Coordinator_WD228726",
+   "company_id": "flex",
+   "title": "Quality Assurance Coordinator",
+   "location": "Netherlands, Oostrum",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Oostrum/Quality-Assurance-Coordinator_WD228726",
+   "posted_at": "2026-09-09",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
@@ -865,6 +982,18 @@
     "written_in_dutch": true
    },
    "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3199-KD/Business-Process-Specialist-Maasvlakte_R195478",
+   "company_id": "apm-terminals",
+   "title": "Business Process Specialist Maasvlakte",
+   "location": "Netherlands, Rotterdam, 3199 KD",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3199-KD/Business-Process-Specialist-Maasvlakte_R195478",
+   "posted_at": "2026-09-09",
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -884,39 +1013,18 @@
    "baseline": true
   },
   {
-   "id": "stryker:/job/Amsterdam-Netherlands/Executive-Assistant-to-the-Vice-President--Compliance--Regions---GQO-_R572363",
-   "company_id": "stryker",
-   "title": "Executive Assistant to the Vice President, Compliance (Regions & GQO)",
-   "location": "2 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Executive-Assistant-to-the-Vice-President--Compliance--Regions---GQO-_R572363",
-   "posted_at": "2026-09-09",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Venlo-Netherlands/Associate-Supervisor--Value-Added-Services_R573026",
-   "company_id": "stryker",
-   "title": "Associate Supervisor, Value-Added Services",
-   "location": "Venlo, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Venlo-Netherlands/Associate-Supervisor--Value-Added-Services_R573026",
-   "posted_at": "2026-09-09",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3199-KD/Business-Process-Specialist-Maasvlakte_R195478",
-   "company_id": "apm-terminals",
-   "title": "Business Process Specialist Maasvlakte",
-   "location": "Netherlands, Rotterdam, 3199 KD",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3199-KD/Business-Process-Specialist-Maasvlakte_R195478",
+   "id": "flex:/job/Netherlands-Oostrum/Sr-Transport-Coordinator_WD228932",
+   "company_id": "flex",
+   "title": "Sr. Transport Coordinator",
+   "location": "Netherlands, Oostrum",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Oostrum/Sr-Transport-Coordinator_WD228932",
    "posted_at": "2026-09-08",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
@@ -925,7 +1033,7 @@
    "title": "Global Forwarding Agent",
    "location": "Aalsmeer Netherlands",
    "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Global-Forwarding-Agent_R49058",
-   "posted_at": "2026-09-07",
+   "posted_at": "2026-09-08",
    "labels": {
     "dutch_required": false,
     "written_in_dutch": false
@@ -940,7 +1048,7 @@
    "title": "Air Export Operations Agent",
    "location": "Aalsmeer Netherlands",
    "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Air-Export-Operations-Agent_R49030",
-   "posted_at": "2026-09-07",
+   "posted_at": "2026-09-08",
    "labels": {
     "dutch_required": false,
     "written_in_dutch": false
@@ -950,24 +1058,12 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Traineeship-logistiek-6902KL/1328985655/",
-   "company_id": "dachser",
-   "title": "Traineeship logistiek",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Traineeship-logistiek-6902KL/1328985655/",
-   "posted_at": "2026-09-07",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "abbott:/job/Netherlands---Zwolle/QC-Manager_31131755",
    "company_id": "abbott",
    "title": "Manager Quality Control",
    "location": "Netherlands - Zwolle",
    "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QC-Manager_31131755",
-   "posted_at": "2026-09-07",
+   "posted_at": "2026-09-08",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -979,7 +1075,7 @@
    "title": "OPERATOR POEDERTOREN (5-PLOEGENDIENST)",
    "location": "Netherlands - Zwolle",
    "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/OPERATOR-POEDERTOREN--5-PLOEGENDIENST-_31159233",
-   "posted_at": "2026-09-07",
+   "posted_at": "2026-09-08",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -991,6 +1087,30 @@
    "title": "Head of Maintenance and Automation.",
    "location": "3 Locations",
    "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Head-of-Maintenance-and-Automation_31160789",
+   "posted_at": "2026-09-08",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "stryker:/job/Cork-Ireland/Senior-Manager--Sourcing---Sterilization_R567954",
+   "company_id": "stryker",
+   "title": "Senior Manager, Sourcing - Sterilization",
+   "location": "2 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Cork-Ireland/Senior-Manager--Sourcing---Sterilization_R567954",
+   "posted_at": "2026-09-08",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Zevenaar-Traineeship-logistiek-6902KL/1328985655/",
+   "company_id": "dachser",
+   "title": "Traineeship logistiek",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Traineeship-logistiek-6902KL/1328985655/",
    "posted_at": "2026-09-07",
    "labels": null,
    "labels_checked": false,
@@ -1013,12 +1133,60 @@
    "baseline": true
   },
   {
-   "id": "stryker:/job/Cork-Ireland/Senior-Manager--Sourcing---Sterilization_R567954",
+   "id": "abbott:/job/Netherlands---Weesp/Onderhoudstechnicus-werktuigbouw-bij-Abbott-Weesp_31160903",
+   "company_id": "abbott",
+   "title": "Onderhoudstechnicus werktuigbouw bij Abbott Weesp",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Onderhoudstechnicus-werktuigbouw-bij-Abbott-Weesp_31160903",
+   "posted_at": "2026-09-05",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Weesp/QC-Analyst-A-bij-Abbott-Weesp_31160803",
+   "company_id": "abbott",
+   "title": "QC Analyst A bij Abbott Weesp",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/QC-Analyst-A-bij-Abbott-Weesp_31160803",
+   "posted_at": "2026-09-05",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "stryker:/job/Amsterdam-Netherlands/Senior-Manager--Brand-Marketing--EMEA---Minimally-Invasive-Surgery-Visualization_R566366",
    "company_id": "stryker",
-   "title": "Senior Manager, Sourcing - Sterilization",
-   "location": "2 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Cork-Ireland/Senior-Manager--Sourcing---Sterilization_R567954",
-   "posted_at": "2026-09-07",
+   "title": "Senior Manager, Brand Marketing, EMEA | Minimally Invasive Surgery Visualization",
+   "location": "10 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Senior-Manager--Brand-Marketing--EMEA---Minimally-Invasive-Surgery-Visualization_R566366",
+   "posted_at": "2026-09-05",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "stryker:/job/Amsterdam-Netherlands/Senior-Manager--Brand-Marketing--EMEA---Sports-Medicine_R566038",
+   "company_id": "stryker",
+   "title": "Senior Manager, Brand Marketing, EMEA | Sports Medicine",
+   "location": "10 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Senior-Manager--Brand-Marketing--EMEA---Sports-Medicine_R566038",
+   "posted_at": "2026-09-05",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "c-h-robinson:/job/Rotterdam-Netherlands/Internship---Fresh-Produce-Supply-Chain_R49109",
+   "company_id": "c-h-robinson",
+   "title": "Internship - Fresh Produce Supply Chain",
+   "location": "Rotterdam Netherlands",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Rotterdam-Netherlands/Internship---Fresh-Produce-Supply-Chain_R49109",
+   "posted_at": "2026-09-04",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -1049,30 +1217,6 @@
    "baseline": true
   },
   {
-   "id": "abbott:/job/Netherlands---Weesp/Onderhoudstechnicus-werktuigbouw-bij-Abbott-Weesp_31160903",
-   "company_id": "abbott",
-   "title": "Onderhoudstechnicus werktuigbouw bij Abbott Weesp",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Onderhoudstechnicus-werktuigbouw-bij-Abbott-Weesp_31160903",
-   "posted_at": "2026-09-04",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Weesp/QC-Analyst-A-bij-Abbott-Weesp_31160803",
-   "company_id": "abbott",
-   "title": "QC Analyst A bij Abbott Weesp",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/QC-Analyst-A-bij-Abbott-Weesp_31160803",
-   "posted_at": "2026-09-04",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "amazon:10530414",
    "company_id": "amazon",
    "title": "Sr. Solutions Architect, Retail & CPG, AWS, EMEA Retail CPG",
@@ -1084,42 +1228,6 @@
     "written_in_dutch": false
    },
    "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Amsterdam-Netherlands/Senior-Manager--Brand-Marketing--EMEA---Minimally-Invasive-Surgery-Visualization_R566366",
-   "company_id": "stryker",
-   "title": "Senior Manager, Brand Marketing, EMEA | Minimally Invasive Surgery Visualization",
-   "location": "10 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Senior-Manager--Brand-Marketing--EMEA---Minimally-Invasive-Surgery-Visualization_R566366",
-   "posted_at": "2026-09-04",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Amsterdam-Netherlands/Senior-Manager--Brand-Marketing--EMEA---Sports-Medicine_R566038",
-   "company_id": "stryker",
-   "title": "Senior Manager, Brand Marketing, EMEA | Sports Medicine",
-   "location": "10 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Senior-Manager--Brand-Marketing--EMEA---Sports-Medicine_R566038",
-   "posted_at": "2026-09-04",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "c-h-robinson:/job/Rotterdam-Netherlands/Internship---Fresh-Produce-Supply-Chain_R49109",
-   "company_id": "c-h-robinson",
-   "title": "Internship - Fresh Produce Supply Chain",
-   "location": "Rotterdam Netherlands",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Rotterdam-Netherlands/Internship---Fresh-Produce-Supply-Chain_R49109",
-   "posted_at": "2026-09-03",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -1136,11 +1244,71 @@
    "baseline": true
   },
   {
+   "id": "flex:/job/Netherlands-Oostrum/MES-Engineer_WD224460",
+   "company_id": "flex",
+   "title": "MES Engineer",
+   "location": "Netherlands, Oostrum",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Oostrum/MES-Engineer_WD224460",
+   "posted_at": "2026-09-02",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-18",
+   "baseline": true
+  },
+  {
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Onsite-Associate-Technology-Operations_R193160",
+   "company_id": "apm-terminals",
+   "title": "Onsite IT Support Technician",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Onsite-Associate-Technology-Operations_R193160",
+   "posted_at": "2026-09-02",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Production-Support-Specialist-A_31160537",
+   "company_id": "abbott",
+   "title": "Production Support Specialist A",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Production-Support-Specialist-A_31160537",
+   "posted_at": "2026-09-02",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/Batch-Log-Auditor_31159894-1",
+   "company_id": "abbott",
+   "title": "Batch Log Auditor",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Batch-Log-Auditor_31159894-1",
+   "posted_at": "2026-09-02",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Leerling-Logistiek-Medewerker-%28BBL%29-6902KL/1325246055/",
    "company_id": "dachser",
    "title": "Leerling Logistiek Medewerker (BBL)",
    "location": "Zevenaar, NL, 6902KL",
    "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Leerling-Logistiek-Medewerker-%28BBL%29-6902KL/1325246055/",
+   "posted_at": "2026-09-01",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
+   "company_id": "dachser",
+   "title": "Financiele Administratie",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
    "posted_at": "2026-09-01",
    "labels": null,
    "labels_checked": false,
@@ -1163,18 +1331,6 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
-   "company_id": "dachser",
-   "title": "Financiele Administratie",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
-   "posted_at": "2026-09-01",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
    "company_id": "dachser",
    "title": "Customer Service",
@@ -1187,11 +1343,11 @@
    "baseline": true
   },
   {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Onsite-Associate-Technology-Operations_R193160",
-   "company_id": "apm-terminals",
-   "title": "Onsite IT Support Technician",
-   "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Onsite-Associate-Technology-Operations_R193160",
+   "id": "stryker:/job/Amsterdam-Netherlands/Senior-Brand-Marketing-Manager--Mako-EMEA_R569932-1",
+   "company_id": "stryker",
+   "title": "Senior Brand Marketing Manager, Mako EMEA",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Senior-Brand-Marketing-Manager--Mako-EMEA_R569932-1",
    "posted_at": "2026-09-01",
    "labels": null,
    "labels_checked": false,
@@ -1199,23 +1355,11 @@
    "baseline": true
   },
   {
-   "id": "abbott:/job/Netherlands---Olst/Production-Support-Specialist-A_31160537",
-   "company_id": "abbott",
-   "title": "Production Support Specialist A",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Production-Support-Specialist-A_31160537",
-   "posted_at": "2026-09-01",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Batch-Log-Auditor_31159894-1",
-   "company_id": "abbott",
-   "title": "Batch Log Auditor",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Batch-Log-Auditor_31159894-1",
+   "id": "stryker:/job/Amsterdam-Netherlands/Associate-Brand-Manager--Patient-Care--Medical-EMEA--Maternity-Cover-_R571249",
+   "company_id": "stryker",
+   "title": "Associate Brand Manager, Patient Care, Medical EMEA (Maternity Cover)",
+   "location": "4 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Associate-Brand-Manager--Patient-Care--Medical-EMEA--Maternity-Cover-_R571249",
    "posted_at": "2026-09-01",
    "labels": null,
    "labels_checked": false,
@@ -1235,24 +1379,12 @@
    "baseline": true
   },
   {
-   "id": "stryker:/job/Amsterdam-Netherlands/Senior-Brand-Marketing-Manager--Mako-EMEA_R569932-1",
-   "company_id": "stryker",
-   "title": "Senior Brand Marketing Manager, Mako EMEA",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Senior-Brand-Marketing-Manager--Mako-EMEA_R569932-1",
-   "posted_at": "2026-08-31",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Amsterdam-Netherlands/Associate-Brand-Manager--Patient-Care--Medical-EMEA--Maternity-Cover-_R571249",
-   "company_id": "stryker",
-   "title": "Associate Brand Manager, Patient Care, Medical EMEA (Maternity Cover)",
-   "location": "4 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Associate-Brand-Manager--Patient-Care--Medical-EMEA--Maternity-Cover-_R571249",
-   "posted_at": "2026-08-31",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
+   "company_id": "dachser",
+   "title": "Assistent teamleider logistiek",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
+   "posted_at": "2026-08-30",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -1271,15 +1403,27 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
-   "company_id": "dachser",
-   "title": "Assistent teamleider logistiek",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
-   "posted_at": "2026-08-30",
+   "id": "flex:/job/Netherlands-Woerden/Supplier-Development-Engineer_WD228268",
+   "company_id": "flex",
+   "title": "Supplier Development Engineer",
+   "location": "Netherlands, Woerden",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Supplier-Development-Engineer_WD228268",
+   "posted_at": "2026-08-29",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
+   "baseline": true
+  },
+  {
+   "id": "flex:/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
+   "company_id": "flex",
+   "title": "Head of Project Management",
+   "location": "Netherlands, Woerden",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
+   "posted_at": "2026-08-29",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
@@ -1300,7 +1444,7 @@
    "title": "Employee Relations Manager Netherlands & Belgium",
    "location": "Netherlands, Rotterdam, 3011 XB",
    "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Employee-Relations-Manager-Netherlands---Belgium_R195006",
-   "posted_at": "2026-08-28",
+   "posted_at": "2026-08-29",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -1312,7 +1456,7 @@
    "title": "Operator B",
    "location": "Netherlands - Olst",
    "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31159382",
-   "posted_at": "2026-08-28",
+   "posted_at": "2026-08-29",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -1324,7 +1468,7 @@
    "title": "Principle Packaging Engineer",
    "location": "Netherlands - Zwolle",
    "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Principle-Packaging-Engineer_31158039",
-   "posted_at": "2026-08-28",
+   "posted_at": "2026-08-29",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -1346,11 +1490,83 @@
    "baseline": true
   },
   {
+   "id": "stryker:/job/Amsterdam-Netherlands/Finance-Manager--Instruments-Europe_R565110",
+   "company_id": "stryker",
+   "title": "Finance Manager, Instruments Europe",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Finance-Manager--Instruments-Europe_R565110",
+   "posted_at": "2026-08-28",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Orderpicker-6902KL/1341843255/",
    "company_id": "dachser",
    "title": "Orderpicker",
    "location": "Zevenaar, NL, 6902KL",
    "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Orderpicker-6902KL/1341843255/",
+   "posted_at": "2026-08-27",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "apm-terminals:/job/NLROT22---Rotterdam---Amoerweg-29/Senior-Customs-Operations-Administrator_R188030",
+   "company_id": "apm-terminals",
+   "title": "Senior Customs Operations Administrator",
+   "location": "NLROT22 - Rotterdam - Amoerweg 29",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NLROT22---Rotterdam---Amoerweg-29/Senior-Customs-Operations-Administrator_R188030",
+   "posted_at": "2026-08-27",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/QA-Validation-Engineer---Manufacturing-Systems_31159320",
+   "company_id": "abbott",
+   "title": "QA Validation Engineer - Manufacturing Systems",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Validation-Engineer---Manufacturing-Systems_31159320",
+   "posted_at": "2026-08-27",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/QA-Validation-Engineer---Equipment--Process---Lifecycle_31159319",
+   "company_id": "abbott",
+   "title": "QA Validation Engineer - Equipment, Process & Lifecycle",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Validation-Engineer---Equipment--Process---Lifecycle_31159319",
+   "posted_at": "2026-08-27",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Hoofddorp/Primary-Care-Educator_31154476",
+   "company_id": "abbott",
+   "title": "Field Educator Specialist",
+   "location": "Netherlands - Hoofddorp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Primary-Care-Educator_31154476",
+   "posted_at": "2026-08-27",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Hoofddorp/Key-Account-Manager_31158684",
+   "company_id": "abbott",
+   "title": "Key Account Manager",
+   "location": "Netherlands - Hoofddorp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Key-Account-Manager_31158684",
    "posted_at": "2026-08-27",
    "labels": null,
    "labels_checked": false,
@@ -1373,24 +1589,12 @@
    "baseline": true
   },
   {
-   "id": "stryker:/job/Amsterdam-Netherlands/Finance-Manager--Instruments-Europe_R565110",
+   "id": "stryker:/job/Newbury-United-Kingdom/The-ICM-Training-and-Communications-Manager_R571391",
    "company_id": "stryker",
-   "title": "Finance Manager, Instruments Europe",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Finance-Manager--Instruments-Europe_R565110",
+   "title": "The ICM Training and Communications Manager",
+   "location": "3 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Newbury-United-Kingdom/The-ICM-Training-and-Communications-Manager_R571391",
    "posted_at": "2026-08-27",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
-   "company_id": "dachser",
-   "title": "Accountmanager",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
-   "posted_at": "2026-08-26",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -1412,11 +1616,11 @@
    "baseline": true
   },
   {
-   "id": "apm-terminals:/job/NLROT22---Rotterdam---Amoerweg-29/Senior-Customs-Operations-Administrator_R188030",
-   "company_id": "apm-terminals",
-   "title": "Senior Customs Operations Administrator",
-   "location": "NLROT22 - Rotterdam - Amoerweg 29",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NLROT22---Rotterdam---Amoerweg-29/Senior-Customs-Operations-Administrator_R188030",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
+   "company_id": "dachser",
+   "title": "Accountmanager",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
    "posted_at": "2026-08-26",
    "labels": null,
    "labels_checked": false,
@@ -1424,11 +1628,35 @@
    "baseline": true
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/QA-Validation-Engineer---Manufacturing-Systems_31159320",
+   "id": "abbott:/job/Netherlands---Breda/Logistics-Trainee_31160093",
    "company_id": "abbott",
-   "title": "QA Validation Engineer - Manufacturing Systems",
+   "title": "Logistics Trainee",
+   "location": "Netherlands - Breda",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Breda/Logistics-Trainee_31160093",
+   "posted_at": "2026-08-26",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Belgium---Wavre/Technical-Application-Specialist--TAS----Molecular-diagnostics---Benelux_31158589",
+   "company_id": "abbott",
+   "title": "Technical Application Specialist (TAS) - Molecular diagnostics - Benelux",
+   "location": "2 Locations",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Belgium---Wavre/Technical-Application-Specialist--TAS----Molecular-diagnostics---Benelux_31158589",
+   "posted_at": "2026-08-26",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/QA-Operations-Expert_31159895",
+   "company_id": "abbott",
+   "title": "QA Operations Expert",
    "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Validation-Engineer---Manufacturing-Systems_31159320",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Operations-Expert_31159895",
    "posted_at": "2026-08-26",
    "labels": null,
    "labels_checked": false,
@@ -1436,51 +1664,15 @@
    "baseline": true
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/QA-Validation-Engineer---Equipment--Process---Lifecycle_31159319",
-   "company_id": "abbott",
-   "title": "QA Validation Engineer - Equipment, Process & Lifecycle",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Validation-Engineer---Equipment--Process---Lifecycle_31159319",
-   "posted_at": "2026-08-26",
+   "id": "flex:/job/Switzerland-Remote/Director-Business-Development-Drug-Delivery_WD228089",
+   "company_id": "flex",
+   "title": "Director Business Development Drug Delivery",
+   "location": "11 Locations",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Switzerland-Remote/Director-Business-Development-Drug-Delivery_WD228089",
+   "posted_at": "2026-08-25",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Hoofddorp/Primary-Care-Educator_31154476",
-   "company_id": "abbott",
-   "title": "Field Educator Specialist",
-   "location": "Netherlands - Hoofddorp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Primary-Care-Educator_31154476",
-   "posted_at": "2026-08-26",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Hoofddorp/Key-Account-Manager_31158684",
-   "company_id": "abbott",
-   "title": "Key Account Manager",
-   "location": "Netherlands - Hoofddorp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Key-Account-Manager_31158684",
-   "posted_at": "2026-08-26",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Newbury-United-Kingdom/The-ICM-Training-and-Communications-Manager_R571391",
-   "company_id": "stryker",
-   "title": "The ICM Training and Communications Manager",
-   "location": "3 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Newbury-United-Kingdom/The-ICM-Training-and-Communications-Manager_R571391",
-   "posted_at": "2026-08-26",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
@@ -1511,35 +1703,11 @@
    "baseline": true
   },
   {
-   "id": "abbott:/job/Netherlands---Breda/Logistics-Trainee_31160093",
-   "company_id": "abbott",
-   "title": "Logistics Trainee",
-   "location": "Netherlands - Breda",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Breda/Logistics-Trainee_31160093",
-   "posted_at": "2026-08-25",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Belgium---Wavre/Technical-Application-Specialist--TAS----Molecular-diagnostics---Benelux_31158589",
-   "company_id": "abbott",
-   "title": "Technical Application Specialist (TAS) - Molecular diagnostics - Benelux",
-   "location": "2 Locations",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Belgium---Wavre/Technical-Application-Specialist--TAS----Molecular-diagnostics---Benelux_31158589",
-   "posted_at": "2026-08-25",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/QA-Operations-Expert_31159895",
-   "company_id": "abbott",
-   "title": "QA Operations Expert",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Operations-Expert_31159895",
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Payroll--Time---Attendance-Professional_R193584-2",
+   "company_id": "apm-terminals",
+   "title": "Payroll, Time & Attendance Professional",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Payroll--Time---Attendance-Professional_R193584-2",
    "posted_at": "2026-08-25",
    "labels": null,
    "labels_checked": false,
@@ -1571,18 +1739,6 @@
    "baseline": true
   },
   {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Payroll--Time---Attendance-Professional_R193584-2",
-   "company_id": "apm-terminals",
-   "title": "Payroll, Time & Attendance Professional",
-   "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Payroll--Time---Attendance-Professional_R193584-2",
-   "posted_at": "2026-08-24",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "amazon:10512772",
    "company_id": "amazon",
    "title": "Global Account Manager, Healthcare and Life Sciences",
@@ -1594,6 +1750,18 @@
     "written_in_dutch": false
    },
    "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
+   "company_id": "dachser",
+   "title": "Rangeerder",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
+   "posted_at": "2026-08-22",
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -1610,12 +1778,12 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
    "company_id": "dachser",
-   "title": "Rangeerder",
+   "title": "Reachtruckchauffeur",
    "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
-   "posted_at": "2026-08-22",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
+   "posted_at": "2026-08-21",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -1634,11 +1802,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
-   "company_id": "dachser",
-   "title": "Reachtruckchauffeur",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
+   "id": "stryker:/job/Amsterdam-Netherlands/Senior-Tender-Specialist_R569607",
+   "company_id": "stryker",
+   "title": "Senior Tender Specialist (Dutch Speaking)",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Senior-Tender-Specialist_R569607",
    "posted_at": "2026-08-21",
    "labels": null,
    "labels_checked": false,
@@ -1661,11 +1829,35 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Traineeship-logistiek-2742RD/1356327655/",
-   "company_id": "dachser",
-   "title": "Traineeship logistiek",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Traineeship-logistiek-2742RD/1356327655/",
+   "id": "abbott:/job/Netherlands---Olst/Kom-stage-lopen-bij-Abbott-Olst-vanaf-Februari-2027_31159665",
+   "company_id": "abbott",
+   "title": "Kom stage lopen bij Abbott Olst vanaf Februari 2027",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Kom-stage-lopen-bij-Abbott-Olst-vanaf-Februari-2027_31159665",
+   "posted_at": "2026-08-20",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Hoofddorp/Primary-Care-Educator_31154470",
+   "company_id": "abbott",
+   "title": "Field Education Specialist",
+   "location": "Netherlands - Hoofddorp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Primary-Care-Educator_31154470",
+   "posted_at": "2026-08-20",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/Operator-Weighing---Dispense_31155740",
+   "company_id": "abbott",
+   "title": "Operator Weighing & Dispense",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Weighing---Dispense_31155740",
    "posted_at": "2026-08-20",
    "labels": null,
    "labels_checked": false,
@@ -1688,11 +1880,11 @@
    "baseline": true
   },
   {
-   "id": "stryker:/job/Amsterdam-Netherlands/Senior-Tender-Specialist_R569607",
+   "id": "stryker:/job/Amsterdam-Netherlands/Regional-Sales-Manager--Joint-Replacement--Orthopaedics----The-Netherlands_R567499",
    "company_id": "stryker",
-   "title": "Senior Tender Specialist (Dutch Speaking)",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Senior-Tender-Specialist_R569607",
+   "title": "Regional Sales Manager, Joint Replacement (Orthopaedics) | The Netherlands",
+   "location": "10 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Regional-Sales-Manager--Joint-Replacement--Orthopaedics----The-Netherlands_R567499",
    "posted_at": "2026-08-20",
    "labels": null,
    "labels_checked": false,
@@ -1700,35 +1892,26 @@
    "baseline": true
   },
   {
-   "id": "abbott:/job/Netherlands---Olst/Kom-stage-lopen-bij-Abbott-Olst-vanaf-Februari-2027_31159665",
-   "company_id": "abbott",
-   "title": "Kom stage lopen bij Abbott Olst vanaf Februari 2027",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Kom-stage-lopen-bij-Abbott-Olst-vanaf-Februari-2027_31159665",
+   "id": "flexport:8141246",
+   "company_id": "flexport",
+   "title": "Senior Software Engineer, Applied AI",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8141246",
    "posted_at": "2026-08-19",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
-   "id": "abbott:/job/Netherlands---Hoofddorp/Primary-Care-Educator_31154470",
+   "id": "abbott:/job/Netherlands---Zwolle/HR-Support-Specialist_31159381-1",
    "company_id": "abbott",
-   "title": "Field Education Specialist",
-   "location": "Netherlands - Hoofddorp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Primary-Care-Educator_31154470",
-   "posted_at": "2026-08-19",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Operator-Weighing---Dispense_31155740",
-   "company_id": "abbott",
-   "title": "Operator Weighing & Dispense",
+   "title": "HR Support Specialist",
    "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Weighing---Dispense_31155740",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HR-Support-Specialist_31159381-1",
    "posted_at": "2026-08-19",
    "labels": null,
    "labels_checked": false,
@@ -1751,18 +1934,6 @@
    "baseline": true
   },
   {
-   "id": "stryker:/job/Amsterdam-Netherlands/Regional-Sales-Manager--Joint-Replacement--Orthopaedics----The-Netherlands_R567499",
-   "company_id": "stryker",
-   "title": "Regional Sales Manager, Joint Replacement (Orthopaedics) | The Netherlands",
-   "location": "10 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Regional-Sales-Manager--Joint-Replacement--Orthopaedics----The-Netherlands_R567499",
-   "posted_at": "2026-08-19",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "uber-freight:5372223008",
    "company_id": "uber-freight",
    "title": "Carrier Manager II",
@@ -1774,18 +1945,6 @@
     "written_in_dutch": false
    },
    "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/HR-Support-Specialist_31159381-1",
-   "company_id": "abbott",
-   "title": "HR Support Specialist",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HR-Support-Specialist_31159381-1",
-   "posted_at": "2026-08-18",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -2015,21 +2174,6 @@
    "baseline": true
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/Dispatcher-Warehouse_31140341",
-   "company_id": "abbott",
-   "title": "Dispatcher Warehouse",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Dispatcher-Warehouse_31140341",
-   "posted_at": "2026-07-21",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "amazon:10478600",
    "company_id": "amazon",
    "title": "Account Executive , Amazon Ads BLX",
@@ -2060,18 +2204,18 @@
    "baseline": true
   },
   {
-   "id": "apm-terminals:/job/Netherlands-The-Hague-2511-DP/Front-End-Project-Planner_R188407",
-   "company_id": "apm-terminals",
-   "title": "Front-End Project Planner",
-   "location": "Netherlands, The Hague, 2511 DP",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-The-Hague-2511-DP/Front-End-Project-Planner_R188407",
-   "posted_at": "2026-07-14",
+   "id": "flexport:7921061",
+   "company_id": "flexport",
+   "title": "Product Security Engineer II",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/7921061",
+   "posted_at": "2026-06-26",
    "labels": {
     "dutch_required": false,
     "written_in_dutch": false
    },
    "labels_checked": true,
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
@@ -2087,6 +2231,21 @@
    },
    "labels_checked": true,
    "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "flexport:7977047",
+   "company_id": "flexport",
+   "title": "Software Engineer II",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/7977047",
+   "posted_at": "2026-06-04",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
@@ -2135,6 +2294,21 @@
    "baseline": true
   },
   {
+   "id": "flexport:7921068",
+   "company_id": "flexport",
+   "title": "Senior Software Engineer: Platform",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/7921068",
+   "posted_at": "2026-05-26",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-18",
+   "baseline": true
+  },
+  {
    "id": "amazon:10423588",
    "company_id": "amazon",
    "title": "AI Data Associate with Dutch, Artificial General Intelligence Data Services",
@@ -2147,6 +2321,21 @@
    },
    "labels_checked": true,
    "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "flexport:7735332",
+   "company_id": "flexport",
+   "title": "Sales Development Representative (Flemish speaking)",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/7735332",
+   "posted_at": "2026-05-18",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
@@ -2225,18 +2414,18 @@
    "baseline": true
   },
   {
-   "id": "uber-freight:5195249008",
-   "company_id": "uber-freight",
-   "title": "Customer Support Specialist II - Mon-Fri - Shared Services - Monterrey",
-   "location": "Monterrey, NL 64640, Mexico",
-   "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5195249008",
-   "posted_at": "2026-04-21",
+   "id": "flexport:7311883",
+   "company_id": "flexport",
+   "title": "Staff Software Engineer: Applied AI",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/7311883",
+   "posted_at": "2026-04-20",
    "labels": {
     "dutch_required": false,
     "written_in_dutch": false
    },
    "labels_checked": true,
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
@@ -2255,18 +2444,33 @@
    "baseline": true
   },
   {
-   "id": "uber-freight:5156936008",
-   "company_id": "uber-freight",
-   "title": "Customer Support Specialist II - Shared Services -  Monterrey",
-   "location": "Monterrey, NL 64640, Mexico",
-   "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5156936008",
-   "posted_at": "2026-03-17",
+   "id": "flexport:7735336",
+   "company_id": "flexport",
+   "title": "Sales Development Representative (Dutch speaking)",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/7735336",
+   "posted_at": "2026-04-07",
    "labels": {
-    "dutch_required": false,
+    "dutch_required": true,
     "written_in_dutch": false
    },
    "labels_checked": true,
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
+   "baseline": true
+  },
+  {
+   "id": "flexport:7734785",
+   "company_id": "flexport",
+   "title": "Senior Account Manager",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/7734785",
+   "posted_at": "2026-03-19",
+   "labels": {
+    "dutch_required": true,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
@@ -2285,63 +2489,33 @@
    "baseline": true
   },
   {
-   "id": "uber-freight:5107333008",
-   "company_id": "uber-freight",
-   "title": "Customer Support Specialist II 4x4 2nd shift - Shared Services - Monterrey",
-   "location": "Monterrey, NL 64640, Mexico",
-   "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5107333008",
-   "posted_at": "2026-02-03",
+   "id": "flexport:7559949",
+   "company_id": "flexport",
+   "title": "Account Manager",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/7559949",
+   "posted_at": "2026-03-05",
    "labels": {
-    "dutch_required": false,
+    "dutch_required": true,
     "written_in_dutch": false
    },
    "labels_checked": true,
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
-   "id": "uber-freight:5107329008",
-   "company_id": "uber-freight",
-   "title": "Customer Support Specialist II 4x4 - Shared Services -  Monterrey",
-   "location": "Monterrey, NL 64640, Mexico",
-   "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5107329008",
-   "posted_at": "2026-02-03",
+   "id": "flexport:7372929",
+   "company_id": "flexport",
+   "title": "Account Executive, Enterprise",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/7372929",
+   "posted_at": "2025-11-11",
    "labels": {
     "dutch_required": false,
     "written_in_dutch": false
    },
    "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "uber-freight:5076623008",
-   "company_id": "uber-freight",
-   "title": "Customer Support Specialist II 4x4 Night Shift - Monterrey",
-   "location": "Monterrey, NL 64640, Mexico",
-   "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5076623008",
-   "posted_at": "2026-01-20",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "uber-freight:4981537008",
-   "company_id": "uber-freight",
-   "title": "Customer Support Specialist I - Shared Services - Monterrey",
-   "location": "Monterrey, NL 64640, Mexico",
-   "url": "https://job-boards.greenhouse.io/uberfreight/jobs/4981537008",
-   "posted_at": "2025-11-18",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-17",
+   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
