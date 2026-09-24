@@ -1,16 +1,139 @@
 {
- "generated_at": "2026-09-23T04:04+00:00",
+ "generated_at": "2026-09-24T04:04+00:00",
  "jobs": [
+  {
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Multi-Carrier-Inland-Dispatcher_R196685",
+   "company_id": "apm-terminals",
+   "title": "Multi Carrier Inland Dispatcher",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Multi-Carrier-Inland-Dispatcher_R196685",
+   "posted_at": "2026-09-24",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-24",
+   "baseline": false
+  },
+  {
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant_R197364",
+   "company_id": "apm-terminals",
+   "title": "Customer Experience Consultant",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant_R197364",
+   "posted_at": "2026-09-24",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-24",
+   "baseline": false
+  },
+  {
+   "id": "apm-terminals:/job/NL---Rotterdam/Customer-Experience-Team-Leader--4-PL-Control-Tower_R196967-1",
+   "company_id": "apm-terminals",
+   "title": "Customer Experience Team Leader –4 PL Control Tower",
+   "location": "NL - Rotterdam",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NL---Rotterdam/Customer-Experience-Team-Leader--4-PL-Control-Tower_R196967-1",
+   "posted_at": "2026-09-24",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-24",
+   "baseline": false
+  },
+  {
+   "id": "stryker:/job/North-Holland-Amsterdam-Luna-Arena/Senior-Manager-EMEA--Brand-Marketing-Neurovascular_R569704",
+   "company_id": "stryker",
+   "title": "Senior Manager EMEA, Brand Marketing Neurovascular",
+   "location": "6 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/North-Holland-Amsterdam-Luna-Arena/Senior-Manager-EMEA--Brand-Marketing-Neurovascular_R569704",
+   "posted_at": "2026-09-24",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-24",
+   "baseline": false
+  },
+  {
+   "id": "stryker:/job/Cork-Ireland/Associate-Manager--HR-Operations_R573642",
+   "company_id": "stryker",
+   "title": "Associate Manager, HR Operations",
+   "location": "4 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Cork-Ireland/Associate-Manager--HR-Operations_R573642",
+   "posted_at": "2026-09-24",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-24",
+   "baseline": false
+  },
   {
    "id": "c-h-robinson:/job/Rotterdam-Netherlands/GF-agent-Ocean-Import_R49443-1",
    "company_id": "c-h-robinson",
-   "title": "GF agent Ocean Import",
+   "title": "Ocean Import Agent",
    "location": "Rotterdam Netherlands",
    "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Rotterdam-Netherlands/GF-agent-Ocean-Import_R49443-1",
-   "posted_at": "2026-09-23",
+   "posted_at": "2026-09-24",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-23",
+   "baseline": false
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
+   "company_id": "dachser",
+   "title": "Accountmanager",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
+   "posted_at": "2026-09-24",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Expediteur-Logistiek-2742RD/1170136255/",
+   "company_id": "dachser",
+   "title": "Expediteur Logistiek",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Expediteur-Logistiek-2742RD/1170136255/",
+   "posted_at": "2026-09-24",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "uber-freight:5413234008",
+   "company_id": "uber-freight",
+   "title": "Associate Manager - Operations - Monterrey - Shared Services - OS&D",
+   "location": "Monterrey, NL 64640, Mexico",
+   "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5413234008",
+   "posted_at": "2026-09-23",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-24",
+   "baseline": false
+  },
+  {
+   "id": "amazon:10557380",
+   "company_id": "amazon",
+   "title": "AI Data Associate with Dutch, Artificial General Intelligence Data Services",
+   "location": "Den Haag",
+   "url": "https://www.amazon.jobs/en/jobs/10557380/ai-data-associate-with-dutch-artificial-general-intelligence-data-services",
+   "posted_at": "2026-09-23",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-24",
    "baseline": false
   },
   {
@@ -266,11 +389,11 @@
    "baseline": false
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
    "company_id": "dachser",
-   "title": "Reachtruckchauffeur",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
+   "title": "Administratief Medewerker Logistiek",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
    "posted_at": "2026-09-19",
    "labels": null,
    "labels_checked": false,
@@ -278,11 +401,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
    "company_id": "dachser",
-   "title": "Administratief Medewerker Logistiek",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
+   "title": "Reachtruckchauffeur",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
    "posted_at": "2026-09-19",
    "labels": null,
    "labels_checked": false,
@@ -395,18 +518,6 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
-   "company_id": "dachser",
-   "title": "Logistiek Medewerker",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
-   "posted_at": "2026-09-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
    "company_id": "dachser",
    "title": "Logistiek Medewerker Ochtend en Nacht",
@@ -424,6 +535,18 @@
    "title": "Senior Financieel Administratief Medewerker",
    "location": "Zevenaar, NL, 6902KL",
    "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Senior-Financieel-Administratief-Medewerker-6902KL/1361760155/",
+   "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
+   "company_id": "dachser",
+   "title": "Logistiek Medewerker",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
    "posted_at": "2026-09-17",
    "labels": null,
    "labels_checked": false,
@@ -920,18 +1043,6 @@
    "baseline": true
   },
   {
-   "id": "stryker:/job/Newbury-United-Kingdom/Senior-Lead-HRIS-Analyst--UKG_R570760",
-   "company_id": "stryker",
-   "title": "Senior Lead HRIS Analyst, UKG",
-   "location": "3 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Newbury-United-Kingdom/Senior-Lead-HRIS-Analyst--UKG_R570760",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "stryker:/job/Amsterdam-Netherlands/Senior-VAT-Analyst_R570155",
    "company_id": "stryker",
    "title": "Senior VAT Analyst",
@@ -1202,21 +1313,6 @@
    "baseline": true
   },
   {
-   "id": "uber-freight:5416007008",
-   "company_id": "uber-freight",
-   "title": "Legal Project Manager I",
-   "location": "Monterrey, NL 64640, Mexico",
-   "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5416007008",
-   "posted_at": "2026-09-10",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Gateway-Operations-Agent_R49235",
    "company_id": "c-h-robinson",
    "title": "Gateway Operations Agent",
@@ -1265,18 +1361,6 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "flex:/job/Netherlands-Oostrum/Quality-Assurance-Coordinator_WD228726",
-   "company_id": "flex",
-   "title": "Quality Assurance Coordinator",
-   "location": "Netherlands, Oostrum",
-   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Oostrum/Quality-Assurance-Coordinator_WD228726",
-   "posted_at": "2026-09-09",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-18",
    "baseline": true
   },
   {
@@ -1481,11 +1565,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
    "company_id": "dachser",
-   "title": "Customer Service Key Account",
+   "title": "Logistiek Medewerker Food",
    "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
    "posted_at": "2026-09-04",
    "labels": null,
    "labels_checked": false,
@@ -1493,11 +1577,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
    "company_id": "dachser",
-   "title": "Logistiek Medewerker Food",
+   "title": "Customer Service Key Account",
    "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
    "posted_at": "2026-09-04",
    "labels": null,
    "labels_checked": false,
@@ -1580,6 +1664,18 @@
    "baseline": true
   },
   {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
+   "company_id": "dachser",
+   "title": "Customer Service",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
+   "posted_at": "2026-09-01",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
    "company_id": "dachser",
    "title": "Financiele Administratie",
@@ -1615,18 +1711,6 @@
     "written_in_dutch": true
    },
    "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
-   "company_id": "dachser",
-   "title": "Customer Service",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
-   "posted_at": "2026-09-01",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -1868,33 +1952,6 @@
    "location": "3 Locations",
    "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Newbury-United-Kingdom/The-ICM-Training-and-Communications-Manager_R571391",
    "posted_at": "2026-08-27",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Expediteur-Logistiek-2742RD/1170136255/",
-   "company_id": "dachser",
-   "title": "Expediteur Logistiek",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Expediteur-Logistiek-2742RD/1170136255/",
-   "posted_at": "2026-08-26",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
-   "company_id": "dachser",
-   "title": "Accountmanager",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
-   "posted_at": "2026-08-26",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -2621,6 +2678,21 @@
    "baseline": true
   },
   {
+   "id": "amazon:3140016",
+   "company_id": "amazon",
+   "title": "Senior Sales Manager - EMEA, AWSI Energy & Utilities",
+   "location": "Amsterdam",
+   "url": "https://www.amazon.jobs/en/jobs/3140016/senior-sales-manager-emea-awsi-energy-utilities",
+   "posted_at": "2025-12-09",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-24",
+   "baseline": false
+  },
+  {
    "id": "flexport:7372929",
    "company_id": "flexport",
    "title": "Account Executive, Enterprise",
@@ -2649,21 +2721,6 @@
    "labels_checked": true,
    "first_seen": "2026-09-17",
    "baseline": true
-  },
-  {
-   "id": "uber-freight:4939374008",
-   "company_id": "uber-freight",
-   "title": "Uber Freight Ferias de Empleo 2026",
-   "location": "Monterrey, NL 64640, Mexico",
-   "url": "https://job-boards.greenhouse.io/uberfreight/jobs/4939374008",
-   "posted_at": "2025-09-30",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-22",
-   "baseline": false
   }
  ]
 }
