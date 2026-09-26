@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-09-25T04:04+00:00",
+ "generated_at": "2026-09-26T04:04+00:00",
  "jobs": [
+  {
+   "id": "apm-terminals:/job/NL---Rotterdam/Absenteeism-Specialist_R198221",
+   "company_id": "apm-terminals",
+   "title": "Absenteeism Specialist",
+   "location": "NL - Rotterdam",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NL---Rotterdam/Absenteeism-Specialist_R198221",
+   "posted_at": "2026-09-26",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-26",
+   "baseline": false
+  },
+  {
+   "id": "stryker:/job/Amsterdam-Netherlands/Brand-Manager-EMEA---Neurovascular--Acute-Ischemic-Stroke-_R573694",
+   "company_id": "stryker",
+   "title": "Brand Manager EMEA - Neurovascular (Acute Ischemic Stroke)",
+   "location": "5 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Brand-Manager-EMEA---Neurovascular--Acute-Ischemic-Stroke-_R573694",
+   "posted_at": "2026-09-26",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-26",
+   "baseline": false
+  },
+  {
+   "id": "stryker:/job/Amsterdam-Netherlands/Brand-Manager-EMEA---Neurovascular--Access-_R573693",
+   "company_id": "stryker",
+   "title": "Brand Manager EMEA - Neurovascular (Access)",
+   "location": "5 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Brand-Manager-EMEA---Neurovascular--Access-_R573693",
+   "posted_at": "2026-09-26",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-26",
+   "baseline": false
+  },
+  {
+   "id": "stryker:/job/Amsterdam-Netherlands/Clinical-Study-Coordinator_R571889",
+   "company_id": "stryker",
+   "title": "Clinical Study Coordinator",
+   "location": "3 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Clinical-Study-Coordinator_R571889",
+   "posted_at": "2026-09-26",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-26",
+   "baseline": false
+  },
   {
    "id": "apm-terminals:/job/NL---Rotterdam/Operational-Excellence-Senior-Specialist--m-f-d-_R187892",
    "company_id": "apm-terminals",
@@ -173,21 +221,6 @@
    "baseline": true
   },
   {
-   "id": "uber-freight:5413234008",
-   "company_id": "uber-freight",
-   "title": "Associate Manager - Operations - Monterrey - Shared Services - OS&D",
-   "location": "Monterrey, NL 64640, Mexico",
-   "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5413234008",
-   "posted_at": "2026-09-23",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-24",
-   "baseline": false
-  },
-  {
    "id": "amazon:10557380",
    "company_id": "amazon",
    "title": "AI Data Associate with Dutch, Artificial General Intelligence Data Services",
@@ -329,11 +362,11 @@
    "baseline": false
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-6902KL/1350811155/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Open-Sollicitatie-6902KL/1326923255/",
    "company_id": "dachser",
-   "title": "Logistiek Medewerker",
+   "title": "Open Sollicitatie",
    "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-6902KL/1350811155/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Open-Sollicitatie-6902KL/1326923255/",
    "posted_at": "2026-09-22",
    "labels": null,
    "labels_checked": false,
@@ -341,11 +374,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Open-Sollicitatie-6902KL/1326923255/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-6902KL/1350811155/",
    "company_id": "dachser",
-   "title": "Open Sollicitatie",
+   "title": "Logistiek Medewerker",
    "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Open-Sollicitatie-6902KL/1326923255/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-6902KL/1350811155/",
    "posted_at": "2026-09-22",
    "labels": null,
    "labels_checked": false,
@@ -383,11 +416,11 @@
    "baseline": false
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Bijbaan-Logistiek-%28Spitser%29-6902KL/1330601955/",
    "company_id": "dachser",
-   "title": "Rangeerder",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
+   "title": "Bijbaan Logistiek (Spitser)",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Bijbaan-Logistiek-%28Spitser%29-6902KL/1330601955/",
    "posted_at": "2026-09-20",
    "labels": null,
    "labels_checked": false,
@@ -395,11 +428,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Bijbaan-Logistiek-%28Spitser%29-6902KL/1330601955/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
    "company_id": "dachser",
-   "title": "Bijbaan Logistiek (Spitser)",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Bijbaan-Logistiek-%28Spitser%29-6902KL/1330601955/",
+   "title": "Rangeerder",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
    "posted_at": "2026-09-20",
    "labels": null,
    "labels_checked": false,
@@ -443,11 +476,11 @@
    "baseline": false
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
    "company_id": "dachser",
-   "title": "Administratief Medewerker Logistiek",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
+   "title": "Reachtruckchauffeur",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
    "posted_at": "2026-09-19",
    "labels": null,
    "labels_checked": false,
@@ -455,11 +488,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
    "company_id": "dachser",
-   "title": "Reachtruckchauffeur",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
+   "title": "Administratief Medewerker Logistiek",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
    "posted_at": "2026-09-19",
    "labels": null,
    "labels_checked": false,
@@ -548,18 +581,6 @@
    "baseline": true
   },
   {
-   "id": "flex:/job/Switzerland-Remote/Director-Business-Development-Drug-Delivery_WD228089",
-   "company_id": "flex",
-   "title": "Director Business Development Drug Delivery",
-   "location": "11 Locations",
-   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Switzerland-Remote/Director-Business-Development-Drug-Delivery_WD228089",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-18",
-   "baseline": true
-  },
-  {
    "id": "flex:/job/Netherlands-Venray/ICT-Infrastructure-Teamleader_WD224985",
    "company_id": "flex",
    "title": "ICT Infrastructure Teamleader",
@@ -584,6 +605,18 @@
    "baseline": true
   },
   {
+   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
+   "company_id": "dachser",
+   "title": "Logistiek Medewerker Ochtend en Nacht",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
+   "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Senior-Financieel-Administratief-Medewerker-6902KL/1361760155/",
    "company_id": "dachser",
    "title": "Senior Financieel Administratief Medewerker",
@@ -601,18 +634,6 @@
    "title": "Logistiek Medewerker",
    "location": "Waddinxveen, NL, 2742RD",
    "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
-   "posted_at": "2026-09-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
-   "company_id": "dachser",
-   "title": "Logistiek Medewerker Ochtend en Nacht",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
    "posted_at": "2026-09-17",
    "labels": null,
    "labels_checked": false,
@@ -761,6 +782,42 @@
    "location": "Netherlands - Weesp",
    "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Analytical-Senior-Scientist_31161504",
    "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Breda/Logistics-Trainee_31160093",
+   "company_id": "abbott",
+   "title": "Logistics Trainee",
+   "location": "Netherlands - Breda",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Breda/Logistics-Trainee_31160093",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Belgium---Wavre/Technical-Application-Specialist--TAS----Molecular-diagnostics---Benelux_31158589",
+   "company_id": "abbott",
+   "title": "Technical Application Specialist (TAS) - Molecular diagnostics - Benelux",
+   "location": "2 Locations",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Belgium---Wavre/Technical-Application-Specialist--TAS----Molecular-diagnostics---Benelux_31158589",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/QA-Operations-Expert_31159895",
+   "company_id": "abbott",
+   "title": "QA Operations Expert",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Operations-Expert_31159895",
+   "posted_at": null,
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -1607,11 +1664,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
    "company_id": "dachser",
-   "title": "Customer Service Key Account",
+   "title": "Logistiek Medewerker Food",
    "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
    "posted_at": "2026-09-04",
    "labels": null,
    "labels_checked": false,
@@ -1619,11 +1676,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
    "company_id": "dachser",
-   "title": "Logistiek Medewerker Food",
+   "title": "Customer Service Key Account",
    "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
    "posted_at": "2026-09-04",
    "labels": null,
    "labels_checked": false,
@@ -1706,6 +1763,18 @@
    "baseline": true
   },
   {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
+   "company_id": "dachser",
+   "title": "Customer Service",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
+   "posted_at": "2026-09-01",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
    "company_id": "dachser",
    "title": "Financiele Administratie",
@@ -1745,18 +1814,6 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
-   "company_id": "dachser",
-   "title": "Customer Service",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
-   "posted_at": "2026-09-01",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "stryker:/job/Amsterdam-Netherlands/Senior-Brand-Marketing-Manager--Mako-EMEA_R569932-1",
    "company_id": "stryker",
    "title": "Senior Brand Marketing Manager, Mako EMEA",
@@ -1781,24 +1838,27 @@
    "baseline": true
   },
   {
+   "id": "flexport:8064123",
+   "company_id": "flexport",
+   "title": "Staff Software Engineer: Platform SRE",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8064123",
+   "posted_at": "2026-08-31",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-26",
+   "baseline": false
+  },
+  {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Administratief-Medewerker-Logistiek-2742RD/1341215555/",
    "company_id": "dachser",
    "title": "Administratief Medewerker Logistiek",
    "location": "Waddinxveen, NL, 2742RD",
    "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Administratief-Medewerker-Logistiek-2742RD/1341215555/",
    "posted_at": "2026-08-31",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Lader-6902KL/1351363455/",
-   "company_id": "dachser",
-   "title": "Logistiek Medewerker Lader",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Lader-6902KL/1351363455/",
-   "posted_at": "2026-08-30",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -1817,23 +1877,23 @@
    "baseline": true
   },
   {
+   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Lader-6902KL/1351363455/",
+   "company_id": "dachser",
+   "title": "Logistiek Medewerker Lader",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Lader-6902KL/1351363455/",
+   "posted_at": "2026-08-30",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "flex:/job/Netherlands-Woerden/Supplier-Development-Engineer_WD228268",
    "company_id": "flex",
    "title": "Supplier Development Engineer",
    "location": "Netherlands, Woerden",
    "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Supplier-Development-Engineer_WD228268",
-   "posted_at": "2026-08-29",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-18",
-   "baseline": true
-  },
-  {
-   "id": "flex:/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
-   "company_id": "flex",
-   "title": "Head of Project Management",
-   "location": "Netherlands, Woerden",
-   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
    "posted_at": "2026-08-29",
    "labels": null,
    "labels_checked": false,
@@ -1982,42 +2042,6 @@
    "location": "3 Locations",
    "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Newbury-United-Kingdom/The-ICM-Training-and-Communications-Manager_R571391",
    "posted_at": "2026-08-27",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Breda/Logistics-Trainee_31160093",
-   "company_id": "abbott",
-   "title": "Logistics Trainee",
-   "location": "Netherlands - Breda",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Breda/Logistics-Trainee_31160093",
-   "posted_at": "2026-08-26",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Belgium---Wavre/Technical-Application-Specialist--TAS----Molecular-diagnostics---Benelux_31158589",
-   "company_id": "abbott",
-   "title": "Technical Application Specialist (TAS) - Molecular diagnostics - Benelux",
-   "location": "2 Locations",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Belgium---Wavre/Technical-Application-Specialist--TAS----Molecular-diagnostics---Benelux_31158589",
-   "posted_at": "2026-08-26",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/QA-Operations-Expert_31159895",
-   "company_id": "abbott",
-   "title": "QA Operations Expert",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Operations-Expert_31159895",
-   "posted_at": "2026-08-26",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -2300,21 +2324,6 @@
    "location": "Amsterdam",
    "url": "https://www.amazon.jobs/en/jobs/10482299/delivery-consultant-security-risk-and-compliance-professional-services",
    "posted_at": "2026-07-23",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "amazon:10478600",
-   "company_id": "amazon",
-   "title": "Account Executive , Amazon Ads BLX",
-   "location": "Amsterdam",
-   "url": "https://www.amazon.jobs/en/jobs/10478600/account-executive-amazon-ads-blx",
-   "posted_at": "2026-07-20",
    "labels": {
     "dutch_required": false,
     "written_in_dutch": false
