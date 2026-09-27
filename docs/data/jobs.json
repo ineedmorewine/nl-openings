@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-09-26T04:04+00:00",
+ "generated_at": "2026-09-27T04:04+00:00",
  "jobs": [
+  {
+   "id": "dachser:/dachser_europe/job/Zevenaar-Customer-Service-Key-Account-6902KL/1325145855/",
+   "company_id": "dachser",
+   "title": "Customer Service Key Account",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Customer-Service-Key-Account-6902KL/1325145855/",
+   "posted_at": "2026-09-27",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
   {
    "id": "apm-terminals:/job/NL---Rotterdam/Absenteeism-Specialist_R198221",
    "company_id": "apm-terminals",
@@ -194,6 +206,18 @@
    "baseline": false
   },
   {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
+   "company_id": "dachser",
+   "title": "Accountmanager",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
+   "posted_at": "2026-09-24",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Expediteur-Logistiek-2742RD/1170136255/",
    "company_id": "dachser",
    "title": "Expediteur Logistiek",
@@ -205,18 +229,6 @@
     "written_in_dutch": true
    },
    "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
-   "company_id": "dachser",
-   "title": "Accountmanager",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
-   "posted_at": "2026-09-24",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -416,11 +428,11 @@
    "baseline": false
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Bijbaan-Logistiek-%28Spitser%29-6902KL/1330601955/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
    "company_id": "dachser",
-   "title": "Bijbaan Logistiek (Spitser)",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Bijbaan-Logistiek-%28Spitser%29-6902KL/1330601955/",
+   "title": "Rangeerder",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
    "posted_at": "2026-09-20",
    "labels": null,
    "labels_checked": false,
@@ -428,11 +440,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Bijbaan-Logistiek-%28Spitser%29-6902KL/1330601955/",
    "company_id": "dachser",
-   "title": "Rangeerder",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
+   "title": "Bijbaan Logistiek (Spitser)",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Bijbaan-Logistiek-%28Spitser%29-6902KL/1330601955/",
    "posted_at": "2026-09-20",
    "labels": null,
    "labels_checked": false,
@@ -476,11 +488,11 @@
    "baseline": false
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
    "company_id": "dachser",
-   "title": "Reachtruckchauffeur",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
+   "title": "Administratief Medewerker Logistiek",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
    "posted_at": "2026-09-19",
    "labels": null,
    "labels_checked": false,
@@ -488,11 +500,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
    "company_id": "dachser",
-   "title": "Administratief Medewerker Logistiek",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
+   "title": "Reachtruckchauffeur",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
    "posted_at": "2026-09-19",
    "labels": null,
    "labels_checked": false,
@@ -605,18 +617,6 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
-   "company_id": "dachser",
-   "title": "Logistiek Medewerker Ochtend en Nacht",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
-   "posted_at": "2026-09-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Senior-Financieel-Administratief-Medewerker-6902KL/1361760155/",
    "company_id": "dachser",
    "title": "Senior Financieel Administratief Medewerker",
@@ -641,12 +641,36 @@
    "baseline": true
   },
   {
+   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
+   "company_id": "dachser",
+   "title": "Logistiek Medewerker Ochtend en Nacht",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
+   "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Integrated-Sales-Representative-FMCG---Lifestyle---Non-Controlled-Sales_R197363-1",
    "company_id": "apm-terminals",
    "title": "Integrated Sales Representative FMCG & Lifestyle - Non Controlled Sales",
    "location": "Netherlands, Rotterdam, 3011 XB",
    "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Integrated-Sales-Representative-FMCG---Lifestyle---Non-Controlled-Sales_R197363-1",
    "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "apm-terminals:/job/NLROT22---Rotterdam---Amoerweg-29/Senior-Customs-Operations-Administrator_R188030",
+   "company_id": "apm-terminals",
+   "title": "Senior Customs Operations Administrator",
+   "location": "NLROT22 - Rotterdam - Amoerweg 29",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NLROT22---Rotterdam---Amoerweg-29/Senior-Customs-Operations-Administrator_R188030",
+   "posted_at": null,
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -782,6 +806,54 @@
    "location": "Netherlands - Weesp",
    "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Analytical-Senior-Scientist_31161504",
    "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/QA-Validation-Engineer---Manufacturing-Systems_31159320",
+   "company_id": "abbott",
+   "title": "QA Validation Engineer - Manufacturing Systems",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Validation-Engineer---Manufacturing-Systems_31159320",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/QA-Validation-Engineer---Equipment--Process---Lifecycle_31159319",
+   "company_id": "abbott",
+   "title": "QA Validation Engineer - Equipment, Process & Lifecycle",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Validation-Engineer---Equipment--Process---Lifecycle_31159319",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Hoofddorp/Primary-Care-Educator_31154476",
+   "company_id": "abbott",
+   "title": "Field Educator Specialist",
+   "location": "Netherlands - Hoofddorp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Primary-Care-Educator_31154476",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Hoofddorp/Key-Account-Manager_31158684",
+   "company_id": "abbott",
+   "title": "Key Account Manager",
+   "location": "Netherlands - Hoofddorp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Key-Account-Manager_31158684",
+   "posted_at": null,
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -1136,6 +1208,18 @@
    "location": "Venlo, Netherlands",
    "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Venlo-Netherlands/Supervisor--Kit-Assembly_R571477-1",
    "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "stryker:/job/Newbury-United-Kingdom/The-ICM-Training-and-Communications-Manager_R571391",
+   "company_id": "stryker",
+   "title": "The ICM Training and Communications Manager",
+   "location": "3 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Newbury-United-Kingdom/The-ICM-Training-and-Communications-Manager_R571391",
+   "posted_at": null,
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -1664,11 +1748,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
    "company_id": "dachser",
-   "title": "Logistiek Medewerker Food",
+   "title": "Customer Service Key Account",
    "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
    "posted_at": "2026-09-04",
    "labels": null,
    "labels_checked": false,
@@ -1676,11 +1760,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
    "company_id": "dachser",
-   "title": "Customer Service Key Account",
+   "title": "Logistiek Medewerker Food",
    "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
    "posted_at": "2026-09-04",
    "labels": null,
    "labels_checked": false,
@@ -1763,30 +1847,6 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
-   "company_id": "dachser",
-   "title": "Customer Service",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
-   "posted_at": "2026-09-01",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
-   "company_id": "dachser",
-   "title": "Financiele Administratie",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
-   "posted_at": "2026-09-01",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Leerling-Logistiek-Medewerker-%28BBL%29-6902KL/1325246055/",
    "company_id": "dachser",
    "title": "Leerling Logistiek Medewerker (BBL)",
@@ -1810,6 +1870,30 @@
     "written_in_dutch": true
    },
    "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
+   "company_id": "dachser",
+   "title": "Financiele Administratie",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
+   "posted_at": "2026-09-01",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
+   "company_id": "dachser",
+   "title": "Customer Service",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
+   "posted_at": "2026-09-01",
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -1865,11 +1949,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Lader-6902KL/1351363455/",
    "company_id": "dachser",
-   "title": "Assistent teamleider logistiek",
+   "title": "Logistiek Medewerker Lader",
    "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Lader-6902KL/1351363455/",
    "posted_at": "2026-08-30",
    "labels": null,
    "labels_checked": false,
@@ -1877,11 +1961,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Lader-6902KL/1351363455/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
    "company_id": "dachser",
-   "title": "Logistiek Medewerker Lader",
+   "title": "Assistent teamleider logistiek",
    "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Lader-6902KL/1351363455/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
    "posted_at": "2026-08-30",
    "labels": null,
    "labels_checked": false,
@@ -1898,18 +1982,6 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-18",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Customer-Service-Key-Account-6902KL/1325145855/",
-   "company_id": "dachser",
-   "title": "Customer Service Key Account",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Customer-Service-Key-Account-6902KL/1325145855/",
-   "posted_at": "2026-08-29",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
    "baseline": true
   },
   {
@@ -1970,78 +2042,6 @@
    "location": "Amsterdam, Netherlands",
    "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Finance-Manager--Instruments-Europe_R565110",
    "posted_at": "2026-08-28",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "apm-terminals:/job/NLROT22---Rotterdam---Amoerweg-29/Senior-Customs-Operations-Administrator_R188030",
-   "company_id": "apm-terminals",
-   "title": "Senior Customs Operations Administrator",
-   "location": "NLROT22 - Rotterdam - Amoerweg 29",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NLROT22---Rotterdam---Amoerweg-29/Senior-Customs-Operations-Administrator_R188030",
-   "posted_at": "2026-08-27",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/QA-Validation-Engineer---Manufacturing-Systems_31159320",
-   "company_id": "abbott",
-   "title": "QA Validation Engineer - Manufacturing Systems",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Validation-Engineer---Manufacturing-Systems_31159320",
-   "posted_at": "2026-08-27",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/QA-Validation-Engineer---Equipment--Process---Lifecycle_31159319",
-   "company_id": "abbott",
-   "title": "QA Validation Engineer - Equipment, Process & Lifecycle",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Validation-Engineer---Equipment--Process---Lifecycle_31159319",
-   "posted_at": "2026-08-27",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Hoofddorp/Primary-Care-Educator_31154476",
-   "company_id": "abbott",
-   "title": "Field Educator Specialist",
-   "location": "Netherlands - Hoofddorp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Primary-Care-Educator_31154476",
-   "posted_at": "2026-08-27",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Hoofddorp/Key-Account-Manager_31158684",
-   "company_id": "abbott",
-   "title": "Key Account Manager",
-   "location": "Netherlands - Hoofddorp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Key-Account-Manager_31158684",
-   "posted_at": "2026-08-27",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Newbury-United-Kingdom/The-ICM-Training-and-Communications-Manager_R571391",
-   "company_id": "stryker",
-   "title": "The ICM Training and Communications Manager",
-   "location": "3 Locations",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Newbury-United-Kingdom/The-ICM-Training-and-Communications-Manager_R571391",
-   "posted_at": "2026-08-27",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
