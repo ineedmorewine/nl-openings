@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-09-27T04:04+00:00",
+ "generated_at": "2026-09-28T04:05+00:00",
  "jobs": [
+  {
+   "id": "stryker:/job/Amsterdam-Netherlands/Senior-Manager--Business-Enablement-Solutions-PMO_R573446",
+   "company_id": "stryker",
+   "title": "Senior Manager, Business Enablement Solutions PMO",
+   "location": "2 Locations",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Senior-Manager--Business-Enablement-Solutions-PMO_R573446",
+   "posted_at": "2026-09-28",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-28",
+   "baseline": false
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Lader-6902KL/1351363455/",
+   "company_id": "dachser",
+   "title": "Logistiek Medewerker Lader",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Lader-6902KL/1351363455/",
+   "posted_at": "2026-09-28",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
+   "company_id": "dachser",
+   "title": "Assistent teamleider logistiek",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
+   "posted_at": "2026-09-28",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
   {
    "id": "dachser:/dachser_europe/job/Zevenaar-Customer-Service-Key-Account-6902KL/1325145855/",
    "company_id": "dachser",
@@ -206,18 +242,6 @@
    "baseline": false
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
-   "company_id": "dachser",
-   "title": "Accountmanager",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
-   "posted_at": "2026-09-24",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Expediteur-Logistiek-2742RD/1170136255/",
    "company_id": "dachser",
    "title": "Expediteur Logistiek",
@@ -229,6 +253,18 @@
     "written_in_dutch": true
    },
    "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
+   "company_id": "dachser",
+   "title": "Accountmanager",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
+   "posted_at": "2026-09-24",
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -374,11 +410,11 @@
    "baseline": false
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Open-Sollicitatie-6902KL/1326923255/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-6902KL/1350811155/",
    "company_id": "dachser",
-   "title": "Open Sollicitatie",
+   "title": "Logistiek Medewerker",
    "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Open-Sollicitatie-6902KL/1326923255/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-6902KL/1350811155/",
    "posted_at": "2026-09-22",
    "labels": null,
    "labels_checked": false,
@@ -386,11 +422,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-6902KL/1350811155/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Open-Sollicitatie-6902KL/1326923255/",
    "company_id": "dachser",
-   "title": "Logistiek Medewerker",
+   "title": "Open Sollicitatie",
    "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-6902KL/1350811155/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Open-Sollicitatie-6902KL/1326923255/",
    "posted_at": "2026-09-22",
    "labels": null,
    "labels_checked": false,
@@ -428,11 +464,11 @@
    "baseline": false
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Bijbaan-Logistiek-%28Spitser%29-6902KL/1330601955/",
    "company_id": "dachser",
-   "title": "Rangeerder",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
+   "title": "Bijbaan Logistiek (Spitser)",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Bijbaan-Logistiek-%28Spitser%29-6902KL/1330601955/",
    "posted_at": "2026-09-20",
    "labels": null,
    "labels_checked": false,
@@ -440,11 +476,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Bijbaan-Logistiek-%28Spitser%29-6902KL/1330601955/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
    "company_id": "dachser",
-   "title": "Bijbaan Logistiek (Spitser)",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Bijbaan-Logistiek-%28Spitser%29-6902KL/1330601955/",
+   "title": "Rangeerder",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Rangeerder-2742RD/1326631655/",
    "posted_at": "2026-09-20",
    "labels": null,
    "labels_checked": false,
@@ -488,11 +524,11 @@
    "baseline": false
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
    "company_id": "dachser",
-   "title": "Administratief Medewerker Logistiek",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
+   "title": "Reachtruckchauffeur",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
    "posted_at": "2026-09-19",
    "labels": null,
    "labels_checked": false,
@@ -500,11 +536,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
    "company_id": "dachser",
-   "title": "Reachtruckchauffeur",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Reachtruckchauffeur-2742RD/1356409655/",
+   "title": "Administratief Medewerker Logistiek",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Administratief-Medewerker-Logistiek-6902KL/1365249355/",
    "posted_at": "2026-09-19",
    "labels": null,
    "labels_checked": false,
@@ -617,11 +653,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Senior-Financieel-Administratief-Medewerker-6902KL/1361760155/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
    "company_id": "dachser",
-   "title": "Senior Financieel Administratief Medewerker",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Senior-Financieel-Administratief-Medewerker-6902KL/1361760155/",
+   "title": "Logistiek Medewerker",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
    "posted_at": "2026-09-17",
    "labels": null,
    "labels_checked": false,
@@ -629,11 +665,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Senior-Financieel-Administratief-Medewerker-6902KL/1361760155/",
    "company_id": "dachser",
-   "title": "Logistiek Medewerker",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
+   "title": "Senior Financieel Administratief Medewerker",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Senior-Financieel-Administratief-Medewerker-6902KL/1361760155/",
    "posted_at": "2026-09-17",
    "labels": null,
    "labels_checked": false,
@@ -1208,6 +1244,18 @@
    "location": "Venlo, Netherlands",
    "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Venlo-Netherlands/Supervisor--Kit-Assembly_R571477-1",
    "posted_at": "2026-09-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "stryker:/job/Amsterdam-Netherlands/Finance-Manager--Instruments-Europe_R565110",
+   "company_id": "stryker",
+   "title": "Finance Manager, Instruments Europe",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Finance-Manager--Instruments-Europe_R565110",
+   "posted_at": null,
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -1847,11 +1895,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Leerling-Logistiek-Medewerker-%28BBL%29-6902KL/1325246055/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
    "company_id": "dachser",
-   "title": "Leerling Logistiek Medewerker (BBL)",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Leerling-Logistiek-Medewerker-%28BBL%29-6902KL/1325246055/",
+   "title": "Customer Service",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
    "posted_at": "2026-09-01",
    "labels": null,
    "labels_checked": false,
@@ -1886,11 +1934,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Leerling-Logistiek-Medewerker-%28BBL%29-6902KL/1325246055/",
    "company_id": "dachser",
-   "title": "Customer Service",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
+   "title": "Leerling Logistiek Medewerker (BBL)",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Leerling-Logistiek-Medewerker-%28BBL%29-6902KL/1325246055/",
    "posted_at": "2026-09-01",
    "labels": null,
    "labels_checked": false,
@@ -1943,30 +1991,6 @@
    "location": "Waddinxveen, NL, 2742RD",
    "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Administratief-Medewerker-Logistiek-2742RD/1341215555/",
    "posted_at": "2026-08-31",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Lader-6902KL/1351363455/",
-   "company_id": "dachser",
-   "title": "Logistiek Medewerker Lader",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Lader-6902KL/1351363455/",
-   "posted_at": "2026-08-30",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
-   "company_id": "dachser",
-   "title": "Assistent teamleider logistiek",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
-   "posted_at": "2026-08-30",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -2032,18 +2056,6 @@
     "written_in_dutch": false
    },
    "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Amsterdam-Netherlands/Finance-Manager--Instruments-Europe_R565110",
-   "company_id": "stryker",
-   "title": "Finance Manager, Instruments Europe",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Finance-Manager--Instruments-Europe_R565110",
-   "posted_at": "2026-08-28",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
   },
