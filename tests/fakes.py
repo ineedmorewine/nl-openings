@@ -30,13 +30,16 @@ class FakeNet:
     def key(url, params=None):
         return url + ("?" + urlencode(sorted(params.items())) if params else "")
 
-    def get(self, url, params=None):
+    def get(self, url, params=None, headers=None):
         key = self.key(url, params)
         self.calls.append(key)
         for candidate in (key, url):
             if candidate in self.routes:
                 return FakeResponse(self.routes[candidate], url)
         raise RuntimeError(f"404 for {key}")
+
+    def get_json(self, url, params=None):
+        return self.get(url, params=params).json()
 
     def post_json(self, url, payload):
         self.calls.append(("POST", url, json.dumps(payload, sort_keys=True)))

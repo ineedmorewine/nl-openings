@@ -12,14 +12,22 @@ from .adapters.jsonld import extract_job_postings
 CAREER_WORDS = re.compile(
     r"(careers?|jobs|vacatures?|vacancies|vacancy|werken[\s\-]?bij|werkenbij|join[\s\-]us|"
     r"work[\s\-]with[\s\-]us|karriere|job[\s\-]openings)", re.I)
-COMMON_PATHS = ["/careers", "/en/careers", "/nl/werken-bij", "/werken-bij", "/vacatures", "/jobs"]
-MAX_PAGES = 8
+COMMON_PATHS = ["/careers", "/en/careers", "/careers/", "/nl/werken-bij", "/werken-bij",
+                "/vacatures", "/nl/vacatures", "/jobs", "/en/jobs", "/career", "/en/career"]
+# Careers sites very often live on their own host rather than a path.
+COMMON_HOSTS = ["jobs.{domain}", "careers.{domain}", "werkenbij.{domain}", "career.{domain}"]
+MAX_PAGES = 14
 
 _ANCHOR = re.compile(r"<a\b[^>]*href=[\"']([^\"'#]+)[\"'][^>]*>(.*?)</a>", re.I | re.S)
 _TAGS = re.compile(r"<[^>]+>")
 
 IGNORED_SLUGS = {"api", "static", "assets", "cdn", "js", "css", "embed", "oneclick-ui", "ui",
-                 "www", "app", "images", "fonts", "scripts", "j", "widget"}
+                 "www", "app", "images", "fonts", "scripts", "j", "widget",
+                 # placeholders copied from vendor documentation into page templates
+                 "this_part", "your-company", "yourcompany", "company-name", "example",
+                 "demo", "test", "token", "board-token", "your_token",
+                 # shared vendor infrastructure, not a customer account
+                 "careers-analytics", "analytics", "cdn-assets", "help", "support"}
 
 # (adapter, regex, builder) in priority order; builders turn a match into adapter params.
 STRONG_SIGNATURES = [
@@ -36,6 +44,13 @@ STRONG_SIGNATURES = [
     ("lever",
      re.compile(r"jobs\.(eu\.)?lever\.co/([A-Za-z0-9_\-]+)"),
      lambda m, page: {"site": m.group(2), "region": "eu" if m.group(1) else "us"}),
+    ("oracle",
+     re.compile(r"https?://([a-z0-9\-]+\.fa\.[a-z0-9\-]+(?:\.ocs)?\.oraclecloud\.com)"
+                r"/hcmUI/CandidateExperience/[^\"'\s]*?/sites/([A-Za-z0-9_\-]+)"),
+     lambda m, page: {"host": m.group(1), "site": m.group(2)}),
+    ("icims",
+     re.compile(r"https?://(careers-[a-z0-9\-]+\.icims\.com)"),
+     lambda m, page: {"host": m.group(1)}),
     ("recruitee",
      re.compile(r"https?://([a-z0-9\-]+)\.recruitee\.com"),
      lambda m, page: {"subdomain": m.group(1)}),
@@ -78,9 +93,22 @@ def detect_source(markup, page_url):
             if _slug_ok(params):
                 return dict(type=adapter, **params), None
     origin = f"{urlparse(page_url).scheme}://{urlparse(page_url).netloc}"
-    if "rmkcdn.successfactors.com" in markup or "jobTitle-link" in markup:
+    if "phApp.ddo" in markup:
+        # This page IS the Phenom career site, so its own origin is the right base.
+        source = {"type": "phenom", "base_url": origin}
+        if "search-results" in page_url:
+            source["search_url"] = page_url.split("?")[0]
+        return source, None
+    if "phenompeople" in markup.lower():
+        # Only a reference to Phenom; find the career host it points at.
+        for match in re.finditer(r"https?://([a-z0-9.\-]+)/(?:[a-z\-]+/)*search-results", markup, re.I):
+            return {"type": "phenom", "base_url": "https://" + match.group(1)}, None
+        return None, "Phenom"
+    if ("rmkcdn.successfactors.com" in markup or "jobTitle-link" in markup
+            or "/viewalljobs/" in markup or "createNewAlert" in markup):
         return {"type": "rmk", "base_url": origin}, None
-    if re.search(r"teamtailor", markup, re.I) and "teamtailor.com" not in origin:
+    if ("teamtailor.com" in markup.lower()
+            or re.search(r'content="Teamtailor"', markup, re.I)) and "teamtailor.com" not in origin:
         return {"type": "teamtailor", "base_url": origin}, None
     if extract_job_postings(markup):
         return {"type": "jsonld", "url": page_url}, None
@@ -146,7 +174,9 @@ def discover(net, company):
             if link not in visited and link not in queue:
                 queue.append(link)
         if url == homepage:
+            bare = company["domain"].replace("www.", "")
             queue.extend(f"https://{company['domain']}{path}" for path in COMMON_PATHS)
+            queue.extend("https://" + host.format(domain=bare) + "/" for host in COMMON_HOSTS)
 
     if not reachable:
         reason = "site_unreachable"
