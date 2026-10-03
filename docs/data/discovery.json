@@ -183,7 +183,7 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://gvt.nl/"
+   "https://gvtgroup.com/"
   ],
   "reason": "site_unreachable",
   "checked_at": "2026-10-03"
@@ -465,12 +465,15 @@
   "checked_at": "2026-10-03"
  },
  "ceva-logistics": {
-  "source": null,
+  "source": {
+   "type": "rmk",
+   "base_url": "https://jobs.cmacgm-group.com"
+  },
   "vendor": null,
   "checked_pages": [
-   "https://cevalogistics.com/"
+   "https://jobs.cmacgm-group.com/CEVALogistics/?locale=en_GB"
   ],
-  "reason": "site_unreachable",
+  "reason": "found",
   "checked_at": "2026-10-03"
  },
  "cj-logistics-europe": {
@@ -891,7 +894,7 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://yusen-logistics.com/"
+   "https://yusenlogistics.com/"
   ],
   "reason": "site_unreachable",
   "checked_at": "2026-10-03"
@@ -1135,7 +1138,7 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://postnl.nl/"
+   "https://werkenbijpostnl.nl/"
   ],
   "reason": "site_unreachable",
   "checked_at": "2026-10-03"
@@ -1203,12 +1206,15 @@
   "checked_at": "2026-10-03"
  },
  "cma-cgm": {
-  "source": null,
+  "source": {
+   "type": "rmk",
+   "base_url": "https://jobs.cmacgm-group.com"
+  },
   "vendor": null,
   "checked_pages": [
-   "https://cma-cgm.com/"
+   "https://jobs.cmacgm-group.com/CMACGM/?locale=en_GB"
   ],
-  "reason": "site_unreachable",
+  "reason": "found",
   "checked_at": "2026-10-03"
  },
  "msc": {
@@ -1277,7 +1283,7 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://evergreen-line.com/"
+   "https://evergreen-marine.com/"
   ],
   "reason": "site_unreachable",
   "checked_at": "2026-10-03"
@@ -2096,18 +2102,18 @@
   "checked_pages": [
    "https://marinetrans.com/",
    "https://marinetrans.com/careers/",
+   "https://marinetrans.com/careers/?_pagination=1",
+   "https://marinetrans.com/careers/?_pagination=2",
+   "https://marinetrans.com/careers/?_pagination=3",
+   "https://marinetrans.com/careers/?_pagination=5",
+   "https://marinetrans.com/careers/?_pagination=6",
    "https://marinetrans.com/careers",
    "https://marinetrans.com/en/careers",
    "https://marinetrans.com/nl/werken-bij",
    "https://marinetrans.com/werken-bij",
    "https://marinetrans.com/vacatures",
    "https://marinetrans.com/nl/vacatures",
-   "https://marinetrans.com/jobs",
-   "https://marinetrans.com/en/jobs",
-   "https://marinetrans.com/career",
-   "https://marinetrans.com/en/career",
-   "https://jobs.marinetrans.com/",
-   "https://careers.marinetrans.com/"
+   "https://marinetrans.com/jobs"
   ],
   "reason": "no_careers_system_found",
   "checked_at": "2026-10-03"
@@ -2496,6 +2502,45 @@
    "https://jobs.portbase.com/"
   ],
   "reason": "no_careers_system_found",
+  "checked_at": "2026-10-03"
+ },
+ "lineage": {
+  "source": {
+   "type": "phenom",
+   "base_url": "https://careers.onelineage.com"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://onelineage.com/",
+   "https://careers.onelineage.com/"
+  ],
+  "reason": "found",
+  "checked_at": "2026-10-03"
+ },
+ "world-courier": {
+  "source": {
+   "type": "phenom",
+   "base_url": "https://careers.cencora.com"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://worldcourier.com/",
+   "https://careers.cencora.com/"
+  ],
+  "reason": "found",
+  "checked_at": "2026-10-03"
+ },
+ "zimmer-biomet": {
+  "source": {
+   "type": "phenom",
+   "base_url": "https://careers.zimmerbiomet.com"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://zimmerbiomet.com/",
+   "https://careers.zimmerbiomet.com/us/en?utm_source=CorporateSite&utm_medium=Nav"
+  ],
+  "reason": "found",
   "checked_at": "2026-10-03"
  }
 }
