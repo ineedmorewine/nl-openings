@@ -66,6 +66,58 @@ def oracle_payload(requisitions, total):
     return {"items": [{"TotalJobsCount": total, "requisitionList": requisitions}]}
 
 
+class PhenomWidgets(unittest.TestCase):
+    """The /widgets endpoint is the primary path: it filters by country server-side."""
+
+    def widgets(self, pages):
+        """pages maps an offset to (jobs, totalHits)."""
+        def respond(payload):
+            return payload.get("from") in pages
+
+        def body(payload):
+            jobs, total = pages[payload["from"]]
+            return {"refineSearch": {"totalHits": total, "data": {"jobs": jobs}}}
+        return respond, body
+
+    def test_widgets_results_are_used_and_paginated(self):
+        pages = {0: ([phenom_job(str(i), "Transport Planner", "Venlo") for i in range(100)], 150),
+                 100: ([phenom_job("x", "Rail Planner", "Tilburg")], 150)}
+        calls = []
+
+        class WidgetNet(FakeNet):
+            def post_json(self, url, payload):
+                calls.append((url, payload["from"], payload["selected_fields"]))
+                jobs, total = pages[payload["from"]]
+                return {"refineSearch": {"totalHits": total, "data": {"jobs": jobs}}}
+
+        jobs = vendors.phenom_fetch(WidgetNet(), {"base_url": PHENOM_HOST}, strict=True)
+        self.assertEqual(len(jobs), 101)
+        self.assertEqual(calls[0][0], PHENOM_HOST + "/widgets")
+        self.assertEqual(calls[0][2], {"country": ["Netherlands"]})
+        self.assertEqual([c[1] for c in calls], [0, 100])
+
+    def test_html_search_page_is_used_when_widgets_is_unavailable(self):
+        query = {"from": 0, "s": "1", "location": "Netherlands", "country": "Netherlands"}
+        net = FakeNet(routes={FakeNet.key(PHENOM_SEARCH, query): phenom_page(
+            [phenom_job("5", "Freight Forwarder", "Breda")], 1)})
+        jobs = vendors.phenom_fetch(net, {"base_url": PHENOM_HOST}, strict=True)
+        self.assertEqual([j["ext_id"] for j in jobs], ["5"])
+
+    def test_a_site_answering_with_no_dutch_jobs_is_not_an_error(self):
+        class EmptyNet(FakeNet):
+            def post_json(self, url, payload):
+                return {"refineSearch": {"totalHits": 0, "data": {"jobs": []}}}
+
+        net = EmptyNet(routes={FakeNet.key(PHENOM_SEARCH, {
+            "from": 0, "s": "1", "location": "Netherlands", "country": "Netherlands"}):
+            phenom_page([], 0)})
+        self.assertEqual(vendors.phenom_fetch(net, {"base_url": PHENOM_HOST}, strict=True), [])
+
+    def test_unreachable_site_raises_instead_of_reporting_zero(self):
+        with self.assertRaises(RuntimeError):
+            vendors.phenom_fetch(FakeNet(), {"base_url": PHENOM_HOST}, strict=True)
+
+
 class OracleAdapter(unittest.TestCase):
     def test_reads_requisitions_and_builds_apply_links(self):
         url = vendors._oracle_api(ORACLE_HOST, "CX_1", 0)
@@ -90,19 +142,31 @@ class OracleAdapter(unittest.TestCase):
 
 
 class IcimsAdapter(unittest.TestCase):
+    host = "careers-acme.icims.com"
+
+    def search(self, query, page):
+        return FakeNet.key(f"https://{self.host}/jobs/search", dict(query, pr=page))
+
     def test_collects_job_links_from_the_portal(self):
-        host = "careers-acme.icims.com"
+        query = {"ss": 1, "searchCountry": "Netherlands"}
         row = ('<a class="iCIMS_Anchor" href="/jobs/4821/transport-planner/job">Transport Planner</a>'
                '<a class="iCIMS_Anchor" href="/jobs/search?pr=2">Next</a>')
-        net = FakeNet(routes={
-            FakeNet.key(f"https://{host}/jobs/search",
-                        {"ss": 1, "searchLocation": "Netherlands", "pr": 1}): row,
-            FakeNet.key(f"https://{host}/jobs/search",
-                        {"ss": 1, "searchLocation": "Netherlands", "pr": 2}): "<html></html>",
-        })
-        jobs = vendors.icims_fetch(net, {"host": host}, strict=True)
+        net = FakeNet(routes={self.search(query, 1): row, self.search(query, 2): "<html></html>"})
+        jobs = vendors.icims_fetch(net, {"host": self.host}, strict=True)
         self.assertEqual(len(jobs), 1)
-        self.assertEqual(jobs[0]["url"], f"https://{host}/jobs/4821/transport-planner/job")
+        self.assertEqual(jobs[0]["url"], f"https://{self.host}/jobs/4821/transport-planner/job")
+
+    def test_falls_back_when_a_portal_refuses_the_first_search_url(self):
+        """Some portals answer 405 to searchCountry; the next shape must be tried."""
+        query = {"ss": 1, "searchLocation": "Netherlands"}
+        row = '<a class="iCIMS_Anchor" href="/jobs/77/planner/job">Planner</a>'
+        net = FakeNet(routes={self.search(query, 1): row, self.search(query, 2): "<html></html>"})
+        jobs = vendors.icims_fetch(net, {"host": self.host}, strict=True)
+        self.assertEqual([j["title"] for j in jobs], ["Planner"])
+
+    def test_portal_refusing_every_url_raises(self):
+        with self.assertRaises(RuntimeError):
+            vendors.icims_fetch(FakeNet(), {"host": self.host}, strict=True)
 
 
 class VendorDetection(unittest.TestCase):

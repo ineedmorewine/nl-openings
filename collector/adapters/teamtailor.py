@@ -10,7 +10,11 @@ def _local(tag):
 
 def fetch(net, params, strict):
     feed = net.get(params["base_url"].rstrip("/") + "/jobs.rss").content
-    root = ET.fromstring(feed)
+    try:
+        root = ET.fromstring(feed)
+    except ET.ParseError as error:
+        # Not a Teamtailor feed at all; usually an HTML error page.
+        raise RuntimeError(f"not a usable job feed ({error})") from None
     jobs = []
     for item in root.iter("item"):
         fields = {_local(child.tag): (child.text or "") for child in item}

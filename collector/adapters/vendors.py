@@ -16,6 +16,8 @@ from ..text import keep_location, normalize_date, strip_html
 
 PHENOM_PAGE_SIZE = 10
 PHENOM_MAX_PAGES = 40
+PHENOM_WIDGET_SIZE = 100
+PHENOM_MAX_WIDGET_PAGES = 15
 _DDO = re.compile(r"phApp\.ddo\s*=\s*(\{.*?\})\s*;\s*(?:phApp\.|</script>)", re.S)
 
 
@@ -68,12 +70,63 @@ def _phenom_search_urls(params):
         return [params["search_url"]]
     base = params["base_url"].rstrip("/")
     return [base + path for path in ("/search-results", "/global/en/search-results",
-                                     "/en/search-results", "/jobs")]
+                                     "/en/search-results", "/us/en/search-results", "/jobs")]
 
 
-def phenom_fetch(net, params, strict):
+def _phenom_widget_payload(offset, size):
+    """The body a Phenom career site's own search box sends to its /widgets endpoint.
+
+    selected_fields is what actually restricts results to the Netherlands; the
+    search page's URL parameters do not, which is why the HTML-only version
+    returned other countries' jobs and then filtered them all away.
+    """
+    return {
+        "lang": "en_global",
+        "deviceType": "desktop",
+        "country": "nl",
+        "pageName": "search-results",
+        "ddoKey": "refineSearch",
+        "sortBy": "Most recent",
+        "subsearch": "",
+        "from": offset,
+        "jobs": True,
+        "counts": True,
+        "all_fields": ["country", "state", "city", "category", "type"],
+        "size": size,
+        "clearAll": False,
+        "jdsource": "facets",
+        "isSliderEnable": False,
+        "pageId": "page11",
+        "siteType": "external",
+        "keywords": "",
+        "global": True,
+        "selected_fields": {"country": ["Netherlands"]},
+        "locationData": {},
+    }
+
+
+def _phenom_collect_via_widgets(net, base_url):
+    """Preferred path: the site's own JSON endpoint, which filters by country."""
+    endpoint = base_url.rstrip("/") + "/widgets"
+    collected, offset, total = [], 0, None
+    while True:
+        payload = net.post_json(endpoint, _phenom_widget_payload(offset, PHENOM_WIDGET_SIZE))
+        jobs, hits = phenom_jobs_from_ddo(payload)
+        if total is None:
+            total = hits
+        if not jobs:
+            break
+        collected.extend(jobs)
+        offset += PHENOM_WIDGET_SIZE
+        if offset >= min(total or 0, PHENOM_WIDGET_SIZE * PHENOM_MAX_WIDGET_PAGES):
+            break
+    return collected
+
+
+def _phenom_collect_via_html(net, params):
+    """Fallback: read the search page itself, which embeds the same data object."""
     query = {"from": 0, "s": "1", "location": "Netherlands", "country": "Netherlands"}
-    search_url, first_page = None, None
+    search_url, first = None, None
     for candidate in _phenom_search_urls(params):
         try:
             markup = net.get(candidate, params=query).text
@@ -81,17 +134,16 @@ def phenom_fetch(net, params, strict):
             continue
         jobs, total = phenom_jobs_from_ddo(extract_ddo(markup))
         if jobs:
-            search_url, first_page = candidate, (jobs, total)
+            search_url, first = candidate, (jobs, total)
             break
     if not search_url:
-        raise RuntimeError("no Phenom job data found on the search page")
+        return None, []
 
-    jobs, total = first_page
+    jobs, total = first
     collected, offset = list(jobs), PHENOM_PAGE_SIZE
     while offset < min(total or 0, PHENOM_PAGE_SIZE * PHENOM_MAX_PAGES):
-        page_query = dict(query, **{"from": offset})
         try:
-            markup = net.get(search_url, params=page_query).text
+            markup = net.get(search_url, params=dict(query, **{"from": offset})).text
         except Exception:
             break
         page_jobs, _ = phenom_jobs_from_ddo(extract_ddo(markup))
@@ -99,6 +151,23 @@ def phenom_fetch(net, params, strict):
             break
         collected.extend(page_jobs)
         offset += PHENOM_PAGE_SIZE
+    return search_url, collected
+
+
+def phenom_fetch(net, params, strict):
+    base_url = params.get("base_url") or params["search_url"]
+    reached = False
+    try:
+        collected = _phenom_collect_via_widgets(net, base_url)
+        reached = True
+    except Exception:
+        collected = []
+    if not collected:
+        search_url, collected = _phenom_collect_via_html(net, params)
+        reached = reached or search_url is not None
+        base_url = search_url or base_url
+    if not reached:
+        raise RuntimeError("Phenom career site did not answer on /widgets or its search page")
 
     results, seen = [], set()
     for job in collected:
@@ -107,7 +176,7 @@ def phenom_fetch(net, params, strict):
             continue
         url = job.get("applyUrl") or job.get("jobSeoUrl") or job.get("url") or ""
         if url and not url.startswith("http"):
-            url = urljoin(search_url, url)
+            url = urljoin(base_url, url)
         ext_id = str(job.get("jobId") or job.get("id") or url)
         if ext_id in seen:
             continue
@@ -183,12 +252,30 @@ _ICIMS_LOCATION = re.compile(r'"(?:Job Locations|Locatie)"[^<]*</dt>\s*<dd[^>]*>
 _ICIMS_JOB_URL = re.compile(r"/jobs/\d+/", re.I)
 
 
+ICIMS_QUERIES = [
+    {"ss": 1, "searchCountry": "Netherlands"},
+    {"ss": 1, "searchLocation": "Netherlands"},
+    {"ss": 1},
+]
+
+
+def _icims_working_query(net, host):
+    """Portals differ in which search parameters they accept; some answer 405."""
+    for query in ICIMS_QUERIES:
+        try:
+            net.get(f"https://{host}/jobs/search", params=dict(query, pr=1))
+            return query
+        except Exception:
+            continue
+    raise RuntimeError("iCIMS portal refused every search URL we know")
+
+
 def icims_fetch(net, params, strict):
     host = params["host"]
+    query = _icims_working_query(net, host)
     results, seen = [], set()
     for page in range(1, ICIMS_MAX_PAGES + 1):
-        markup = net.get(f"https://{host}/jobs/search",
-                         params={"ss": 1, "searchLocation": "Netherlands", "pr": page}).text
+        markup = net.get(f"https://{host}/jobs/search", params=dict(query, pr=page)).text
         rows = _ICIMS_ROW.findall(markup)
         new = 0
         for href, label in rows:

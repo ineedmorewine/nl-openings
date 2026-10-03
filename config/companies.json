@@ -56,7 +56,7 @@
     "Boekestijn Transport Service B.V."
    ],
    "group": "road_rail",
-   "domain": "boekestijn.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -210,7 +210,7 @@
     "GVT Intermodal Freightmanagement B.V."
    ],
    "group": "road_rail",
-   "domain": "gvt.nl",
+   "domain": "gvtgroup.com",
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -440,7 +440,7 @@
     "Airtrade Holland B.V."
    ],
    "group": "forwarders",
-   "domain": "airtrade.nl",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -464,7 +464,7 @@
     "Anji Logistics Europe B.V."
    ],
    "group": "forwarders",
-   "domain": "anji-logistics.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -624,7 +624,7 @@
    ],
    "group": "forwarders",
    "domain": "cevalogistics.com",
-   "careers_url": null,
+   "careers_url": "https://jobs.cmacgm-group.com/CEVALogistics/?locale=en_GB",
    "source": null,
    "extra_keywords": []
   },
@@ -768,7 +768,7 @@
     "Eusu Logistics B.V."
    ],
    "group": "forwarders",
-   "domain": "eusu-logistics.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -893,7 +893,7 @@
     "Gerlach & Co. Internationale Expediteurs B.V."
    ],
    "group": "forwarders",
-   "domain": "gerlachcs.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -917,7 +917,7 @@
     "Hankyu Hanshin Express (Netherlands) B.V."
    ],
    "group": "forwarders",
-   "domain": "hankyu-hanshin-express.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -989,7 +989,7 @@
     "JINGDONG LOGISTICS (NETHERLANDS) B.V."
    ],
    "group": "forwarders",
-   "domain": "jdlogistics.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1014,7 +1014,7 @@
     "Kintetsu World Express (EA) B.V."
    ],
    "group": "forwarders",
-   "domain": "kwe.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1039,7 +1039,7 @@
     "Koyanagi Worldwide Ltd"
    ],
    "group": "forwarders",
-   "domain": "koyanagi-worldwide.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1136,7 +1136,7 @@
     "Mach 2 Pharmafreight B.V."
    ],
    "group": "forwarders",
-   "domain": "mach2pharma.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1189,7 +1189,7 @@
     "Mitsubishi Logistics Europe B.V."
    ],
    "group": "forwarders",
-   "domain": "mitsubishi-logistics.co.jp",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1226,7 +1226,7 @@
     "Morgan Cargo (Netherlands) B.V."
    ],
    "group": "forwarders",
-   "domain": "morgancargo.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1286,7 +1286,7 @@
     "Nippon Express (Nederland) B.V."
    ],
    "group": "forwarders",
-   "domain": "nipponexpress.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1311,7 +1311,7 @@
     "Orient Overseas Container Line Limited"
    ],
    "group": "forwarders",
-   "domain": "oocl.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1420,7 +1420,7 @@
     "Sankyu (Europe) B.V."
    ],
    "group": "forwarders",
-   "domain": "sankyu.co.jp",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1505,7 +1505,7 @@
     "Simex Transport and Forwarding B.V."
    ],
    "group": "forwarders",
-   "domain": "simex.nl",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1517,7 +1517,7 @@
     "Sinotrans Air Transportation GmbH Netherlands Branch"
    ],
    "group": "forwarders",
-   "domain": "sinotrans.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1639,7 +1639,7 @@
     "Yusen Logistics (Europe) B.V."
    ],
    "group": "forwarders",
-   "domain": "yusen-logistics.com",
+   "domain": "yusenlogistics.com",
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1724,7 +1724,7 @@
     "Century Distribution Systems (Europe) B.V."
    ],
    "group": "contract",
-   "domain": "centurydistribution.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -1954,7 +1954,7 @@
     "PostNL Holding B.V."
    ],
    "group": "parcel",
-   "domain": "postnl.nl",
+   "domain": "werkenbijpostnl.nl",
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -2003,7 +2003,7 @@
     "SF Express (Netherlands) B.V."
    ],
    "group": "parcel",
-   "domain": "sf-express.com",
+   "domain": null,
    "careers_url": null,
    "source": null,
    "extra_keywords": []
@@ -2028,7 +2028,7 @@
    ],
    "group": "shipping",
    "domain": "cma-cgm.com",
-   "careers_url": null,
+   "careers_url": "https://jobs.cmacgm-group.com/CMACGM/?locale=en_GB",
    "source": null,
    "extra_keywords": []
   },
@@ -2099,7 +2099,7 @@
     "Evergreen Shipping Agency (Europe) GMBH"
    ],
    "group": "shipping",
-   "domain": "evergreen-line.com",
+   "domain": "evergreen-marine.com",
    "careers_url": null,
    "source": null,
    "extra_keywords": []
