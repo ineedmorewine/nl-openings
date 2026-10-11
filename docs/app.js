@@ -262,6 +262,11 @@ function renderSources() {
       el("div", { className: "meta" }, [
         el("div", { text: t("sources_jobs", { n: source.nl_jobs || 0 }) }),
         el("div", { text: source.last_success ? t("sources_last_success", { date: formatDay(source.last_success) }) : t("sources_never") }),
+        // When we cannot read a company, the user can still check it in one click.
+        source.status !== "ok" && safeUrl(source.careers_link)
+          ? el("a", { className: "quiet", href: safeUrl(source.careers_link), target: "_blank",
+                      rel: "noopener noreferrer", text: t("open_careers_page") })
+          : null,
       ]),
     ]);
   });

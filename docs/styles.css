@@ -299,7 +299,17 @@ button.quiet:hover, a.quiet:hover { border-color: var(--ink); }
 .source h3 { margin: 0; font-size: 17px; font-weight: 650; font-variation-settings: "wdth" 88; }
 .source .entities { margin: 2px 0 0; font-size: 13px; color: var(--muted); }
 .source .status { margin: 4px 0 0; }
-.source .meta { text-align: right; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.source .meta {
+  display: grid;
+  justify-items: end;
+  gap: 6px;
+  text-align: right;
+  font-size: 14px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.source .meta a.quiet { white-space: nowrap; }
 
 /* ------------------------------------------------------------ keywords dialog */
 
@@ -339,7 +349,7 @@ dialog::backdrop { background: rgba(29, 42, 35, 0.45); }
   .plate { padding-right: 10px; }
   .plate .day { font-size: 26px; }
   .source { grid-template-columns: 14px 1fr; }
-  .source .meta { grid-column: 2; text-align: left; }
+  .source .meta { grid-column: 2; justify-items: start; text-align: left; }
 }
 
 @media (prefers-reduced-motion: reduce) {

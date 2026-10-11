@@ -7,6 +7,7 @@ in docs/data/discovery.json so the next run goes straight to the adapter.
 import re
 from urllib.parse import urljoin, urlparse
 
+from .adapters.careerpage import find_posting_links
 from .adapters.jsonld import extract_job_postings
 
 CAREER_WORDS = re.compile(
@@ -79,6 +80,18 @@ WEAK_SIGNATURES = {
 }
 
 
+_BRAND_SEARCH = re.compile(r'href=["\']/([A-Za-z0-9_\-]{2,40})/(?:search|viewalljobs)/', re.I)
+
+
+def _brand_path(page_url, markup):
+    """Return "/Brand" when a SuccessFactors site is served under a brand folder."""
+    first = [part for part in urlparse(page_url).path.split("/") if part]
+    if first and first[0].lower() not in {"search", "viewalljobs", "job", "jobs", "go"}:
+        return "/" + first[0]
+    match = _BRAND_SEARCH.search(markup or "")
+    return "/" + match.group(1) if match else ""
+
+
 def _slug_ok(params):
     return not any(str(v).lower() in IGNORED_SLUGS for k, v in params.items()
                    if k in {"tenant", "site", "company", "token", "subdomain", "account"})
@@ -106,12 +119,18 @@ def detect_source(markup, page_url):
         return None, "Phenom"
     if ("rmkcdn.successfactors.com" in markup or "jobTitle-link" in markup
             or "/viewalljobs/" in markup or "createNewAlert" in markup):
-        return {"type": "rmk", "base_url": origin}, None
+        # Several brands can share one host under different paths
+        # (CEVA and CMA CGM both live on jobs.cmacgm-group.com), so keep the
+        # first path segment when the page sits under one.
+        return {"type": "rmk", "base_url": origin + _brand_path(page_url, markup)}, None
     if ("teamtailor.com" in markup.lower()
             or re.search(r'content="Teamtailor"', markup, re.I)) and "teamtailor.com" not in origin:
         return {"type": "teamtailor", "base_url": origin}, None
     if extract_job_postings(markup):
         return {"type": "jsonld", "url": page_url}, None
+    if page_url != f"{origin}/" and len(find_posting_links(markup, page_url)) >= 2:
+        # No recruitment system, but the page lists vacancies as ordinary links.
+        return {"type": "careerpage", "url": page_url}, None
     for vendor, pattern in WEAK_SIGNATURES.items():
         if pattern.search(markup):
             return None, vendor

@@ -59,28 +59,43 @@ def parse_rows(markup):
     return rows
 
 
+def _page_rows(net, base, query, start):
+    markup = net.get(base + "/search/", params=dict(query, startrow=start)).text
+    return parse_rows(markup)
+
+
+def _collect(net, base, query):
+    """Walk the result pages for one search, returning every row it lists."""
+    seen, rows, start = set(), [], 0
+    while start < MAX_ROWS:
+        new = [r for r in _page_rows(net, base, query, start) if r["href"] not in seen]
+        if not new:
+            break
+        for row in new:
+            seen.add(row["href"])
+            rows.append(row)
+        start += ROWS_PER_PAGE
+    return rows
+
+
 def fetch(net, params, strict):
     base = params["base_url"].rstrip("/")
-    seen, jobs, start = set(), [], 0
-    while start < MAX_ROWS:
-        markup = net.get(base + "/search/", params={"q": "", "locationsearch": "Netherlands",
-                                                     "startrow": start}).text
-        new_rows = [row for row in parse_rows(markup) if row["href"] not in seen]
-        if not new_rows:
-            break
-        for row in new_rows:
-            seen.add(row["href"])
-            if not keep_location(row["location"], strict=True):
-                continue
-            jobs.append({
-                "ext_id": row["href"],
-                "title": row["title"],
-                "location": row["location"],
-                "url": urljoin(base + "/", row["href"]),
-                "posted_at": normalize_date(row["date"]),
-            })
-        start += ROWS_PER_PAGE
-    return jobs
+    # Searching by country works on global sites but returns nothing on sites whose
+    # locations are plain city names, so fall back to the unfiltered list and sort
+    # the Dutch rows out ourselves. Without this a company silently reports 0 jobs.
+    rows = _collect(net, base, {"q": "", "locationsearch": "Netherlands"})
+    dutch = [r for r in rows if keep_location(r["location"], strict=True)]
+    if not dutch:
+        rows = _collect(net, base, {"q": ""})
+        dutch = [r for r in rows if keep_location(r["location"], strict=True)]
+
+    return [{
+        "ext_id": row["href"],
+        "title": row["title"],
+        "location": row["location"],
+        "url": urljoin(base + "/", row["href"]),
+        "posted_at": normalize_date(row["date"]),
+    } for row in dutch]
 
 
 def describe(net, params, job):

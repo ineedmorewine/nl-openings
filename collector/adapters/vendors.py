@@ -105,13 +105,13 @@ def _phenom_widget_payload(offset, size):
     }
 
 
-def _phenom_collect_via_widgets(net, base_url):
-    """Preferred path: the site's own JSON endpoint, which filters by country."""
-    endpoint = base_url.rstrip("/") + "/widgets"
+def _phenom_widget_pages(net, endpoint, country):
     collected, offset, total = [], 0, None
     while True:
-        payload = net.post_json(endpoint, _phenom_widget_payload(offset, PHENOM_WIDGET_SIZE))
-        jobs, hits = phenom_jobs_from_ddo(payload)
+        payload = _phenom_widget_payload(offset, PHENOM_WIDGET_SIZE)
+        if not country:
+            payload["selected_fields"] = {}
+        jobs, hits = phenom_jobs_from_ddo(net.post_json(endpoint, payload))
         if total is None:
             total = hits
         if not jobs:
@@ -120,6 +120,20 @@ def _phenom_collect_via_widgets(net, base_url):
         offset += PHENOM_WIDGET_SIZE
         if offset >= min(total or 0, PHENOM_WIDGET_SIZE * PHENOM_MAX_WIDGET_PAGES):
             break
+    return collected
+
+
+def _phenom_collect_via_widgets(net, base_url):
+    """Preferred path: the site's own JSON endpoint.
+
+    Its country facet is spelled differently from site to site, so when filtering
+    by Netherlands returns nothing we ask for everything and filter here instead.
+    Otherwise a company with Dutch vacancies silently reports zero.
+    """
+    endpoint = base_url.rstrip("/") + "/widgets"
+    collected = _phenom_widget_pages(net, endpoint, country=True)
+    if not any(keep_location(_phenom_location(job), strict=True) for job in collected):
+        collected = _phenom_widget_pages(net, endpoint, country=False) or collected
     return collected
 
 

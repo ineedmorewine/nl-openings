@@ -61,6 +61,22 @@ def language_labels(text):
     return {"dutch_required": dutch_required(text), "written_in_dutch": written_in_dutch(text)}
 
 
+def careers_link(company, discovery_cache):
+    """A page the user can open themselves when we cannot read the company.
+
+    Prefers the careers page discovery actually reached, then anything configured,
+    then the company website.
+    """
+    if company.get("careers_url"):
+        return company["careers_url"]
+    pages = (discovery_cache.get(company["id"]) or {}).get("checked_pages") or []
+    homepage = f"https://{company['domain']}/" if company.get("domain") else None
+    for page in pages:
+        if page != homepage:
+            return page
+    return homepage
+
+
 def resolve_source(net, company, discovery_cache, today):
     """Return (source, discovered, failure_status). failure_status is None when a source exists."""
     if company.get("source"):
@@ -186,6 +202,7 @@ def main(argv=None):
 
         status, jobs = collect_company(net, company, discovery_cache, filters, previous_by_id, today)
         entry.update(status)
+        entry["careers_link"] = careers_link(company, discovery_cache)
 
         if jobs is None:
             kept = previous_by_company.get(cid, [])
