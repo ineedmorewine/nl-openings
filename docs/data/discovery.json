@@ -44,47 +44,28 @@
   "checked_at": "2026-10-11"
  },
  "bertschi": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.bertschi.com/en"
+  },
   "vendor": null,
   "checked_pages": [
-   "https://bertschi.com/",
-   "https://www.bertschi.com/en/career",
-   "https://www.bertschi.com/en/career/job-finder",
-   "https://www.bertschi.com/en/career/logistics-and-supply-chain",
-   "https://www.bertschi.com/en/career/it-and-software-development",
-   "https://www.bertschi.com/en/career/road-transport-specialists",
-   "https://www.bertschi.com/en/career/workshop-terminal",
-   "https://www.bertschi.com/en/career/trainee-program",
-   "https://www.bertschi.com/en/career/apprenticeship",
-   "https://bertschi.com/careers",
-   "https://bertschi.com/en/careers",
-   "https://bertschi.com/careers/",
-   "https://bertschi.com/nl/werken-bij",
-   "https://bertschi.com/werken-bij"
+   "https://bertschi.com/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "cabooter": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.cabootergroup.com/career/"
+  },
   "vendor": null,
   "checked_pages": [
    "https://cabooter.nl/",
-   "https://www.cabootergroup.com/career/",
-   "https://cabooter.nl/careers",
-   "https://cabooter.nl/en/careers",
-   "https://cabooter.nl/careers/",
-   "https://cabooter.nl/nl/werken-bij",
-   "https://cabooter.nl/werken-bij",
-   "https://cabooter.nl/vacatures",
-   "https://cabooter.nl/nl/vacatures",
-   "https://cabooter.nl/jobs",
-   "https://cabooter.nl/en/jobs",
-   "https://cabooter.nl/career",
-   "https://cabooter.nl/en/career",
-   "https://jobs.cabooter.nl/"
+   "https://www.cabootergroup.com/career/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "coyote-logistics": {
@@ -336,25 +317,16 @@
   "checked_at": "2026-09-17"
  },
  "aircargo-nl": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://aircargo.nl/over-ons/vacatures"
+  },
   "vendor": null,
   "checked_pages": [
    "https://aircargo.nl/",
-   "https://aircargo.nl/over-ons/vacatures",
-   "https://aircargo.nl/careers",
-   "https://aircargo.nl/en/careers",
-   "https://aircargo.nl/careers/",
-   "https://aircargo.nl/nl/werken-bij",
-   "https://aircargo.nl/werken-bij",
-   "https://aircargo.nl/vacatures",
-   "https://aircargo.nl/nl/vacatures",
-   "https://aircargo.nl/jobs",
-   "https://aircargo.nl/en/jobs",
-   "https://aircargo.nl/career",
-   "https://aircargo.nl/en/career",
-   "https://jobs.aircargo.nl/"
+   "https://aircargo.nl/over-ons/vacatures"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "apl-logistics": {
@@ -371,25 +343,16 @@
   "checked_at": "2026-10-01"
  },
  "bdp-international": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://psabdp.com/careers/employee-experience"
+  },
   "vendor": null,
   "checked_pages": [
    "https://bdpint.com/",
-   "https://psabdp.com/careers/employee-experience",
-   "https://psabdp.com/careers/career-opportunities",
-   "https://bdpint.com/careers",
-   "https://bdpint.com/en/careers",
-   "https://bdpint.com/careers/",
-   "https://bdpint.com/nl/werken-bij",
-   "https://bdpint.com/werken-bij",
-   "https://bdpint.com/vacatures",
-   "https://bdpint.com/nl/vacatures",
-   "https://bdpint.com/jobs",
-   "https://bdpint.com/en/jobs",
-   "https://bdpint.com/career",
-   "https://bdpint.com/en/career"
+   "https://psabdp.com/careers/employee-experience"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "bring-cargo": {
@@ -654,28 +617,19 @@
    "https://kwe.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "kln-logistics": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.kln.com:443/en/careers/working-at-kln/"
+  },
   "vendor": null,
   "checked_pages": [
    "https://kln.com/",
-   "https://www.kln.com:443/en/careers/working-at-kln/",
-   "https://www.kln.com:443/en/careers/young-executives-academy/",
-   "https://www.kln.com:443/en/careers/young-executives-academy/hong-kong/",
-   "https://www.kln.com:443/en/careers/young-executives-academy/singapore/",
-   "https://www.kln.com:443/en/careers/job-opportunities/",
-   "https://www.kln.com:443/en/careers/",
-   "https://kln.com/careers",
-   "https://kln.com/en/careers",
-   "https://kln.com/careers/",
-   "https://kln.com/nl/werken-bij",
-   "https://kln.com/werken-bij",
-   "https://kln.com/vacatures",
-   "https://kln.com/nl/vacatures"
+   "https://www.kln.com:443/en/careers/working-at-kln/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "kuehne-nagel": {
@@ -714,25 +668,16 @@
   "checked_at": "2026-10-11"
  },
  "maersk": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.maersk.com/careers"
+  },
   "vendor": null,
   "checked_pages": [
    "https://maersk.com/",
-   "https://maersk.com/careers",
-   "https://maersk.com/en/careers",
-   "https://maersk.com/careers/",
-   "https://maersk.com/nl/werken-bij",
-   "https://maersk.com/werken-bij",
-   "https://maersk.com/vacatures",
-   "https://maersk.com/nl/vacatures",
-   "https://maersk.com/jobs",
-   "https://maersk.com/en/jobs",
-   "https://maersk.com/career",
-   "https://maersk.com/en/career",
-   "https://jobs.maersk.com/",
-   "https://careers.maersk.com/"
+   "https://maersk.com/careers"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "morrison-express": {
@@ -786,7 +731,7 @@
    "https://oocl.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "penske-logistics": {
   "source": {
@@ -803,25 +748,16 @@
   "checked_at": "2026-10-01"
  },
  "rhenus": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.rhenus.group/career/"
+  },
   "vendor": null,
   "checked_pages": [
    "https://rhenus.group/",
-   "https://www.rhenus.group/career/",
-   "https://rhenus.group/careers",
-   "https://rhenus.group/en/careers",
-   "https://rhenus.group/careers/",
-   "https://rhenus.group/nl/werken-bij",
-   "https://rhenus.group/werken-bij",
-   "https://rhenus.group/vacatures",
-   "https://rhenus.group/nl/vacatures",
-   "https://rhenus.group/jobs",
-   "https://rhenus.group/en/jobs",
-   "https://rhenus.group/career",
-   "https://rhenus.group/en/career",
-   "https://jobs.rhenus.group/"
+   "https://www.rhenus.group/career/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "santova-logistics": {
@@ -847,25 +783,15 @@
   "checked_at": "2026-10-11"
  },
  "db-schenker": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.dsv.com/en"
+  },
   "vendor": null,
   "checked_pages": [
-   "https://dbschenker.com/",
-   "https://www.dsv.com/en/careers/job-openings",
-   "https://www.dsv.com/en/careers/meet-our-people",
-   "https://www.dsv.com/en/careers/why-dsv",
-   "https://www.dsv.com/en/careers/job-areas/trainee-programmes",
-   "https://www.dsv.com/en/careers/job-areas/freight-forwarding",
-   "https://www.dsv.com/en/careers/job-areas/it",
-   "https://www.dsv.com/en/careers/job-areas/logistics-sales",
-   "https://www.dsv.com/en/careers/job-areas/finance",
-   "https://www.dsv.com/en/careers/job-areas/managers",
-   "https://www.dsv.com/en/careers/job-areas/supply-chain",
-   "https://www.dsv.com/en/careers/job-areas/warehouse-operators",
-   "https://www.dsv.com/en/careers",
-   "https://dbschenker.com/careers"
+   "https://dbschenker.com/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "ups": {
@@ -958,7 +884,10 @@
   "checked_at": "2026-10-11"
  },
  "bleckmann": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.bleckmann.com/nl/vacatures"
+  },
   "vendor": null,
   "checked_pages": [
    "https://bleckmann.com/",
@@ -969,36 +898,23 @@
    "https://bleckmann.com/nl/werken-bij",
    "https://bleckmann.com/werken-bij",
    "https://bleckmann.com/vacatures",
-   "https://bleckmann.com/nl/vacatures",
-   "https://bleckmann.com/jobs",
-   "https://bleckmann.com/en/jobs",
-   "https://bleckmann.com/career",
-   "https://bleckmann.com/en/career",
-   "https://jobs.bleckmann.com/"
+   "https://bleckmann.com/nl/vacatures"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "steinweg": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.steinweg.com/vacancies/"
+  },
   "vendor": null,
   "checked_pages": [
    "https://steinweg.com/",
    "https://www.steinweg.com/careers/",
-   "https://www.steinweg.com/vacancies/",
-   "https://steinweg.com/careers",
-   "https://steinweg.com/en/careers",
-   "https://steinweg.com/careers/",
-   "https://steinweg.com/nl/werken-bij",
-   "https://steinweg.com/werken-bij",
-   "https://steinweg.com/vacatures",
-   "https://steinweg.com/nl/vacatures",
-   "https://steinweg.com/jobs",
-   "https://steinweg.com/en/jobs",
-   "https://steinweg.com/career",
-   "https://steinweg.com/en/career"
+   "https://www.steinweg.com/vacancies/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "gxo-logistics": {
@@ -1203,7 +1119,7 @@
    "https://sf-express.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "cma-cgm": {
   "source": {
@@ -1252,9 +1168,22 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://hmm21.com/"
+   "https://hmm21.com/",
+   "https://hmm21.com/careers",
+   "https://hmm21.com/en/careers",
+   "https://hmm21.com/careers/",
+   "https://hmm21.com/nl/werken-bij",
+   "https://hmm21.com/werken-bij",
+   "https://hmm21.com/vacatures",
+   "https://hmm21.com/nl/vacatures",
+   "https://hmm21.com/jobs",
+   "https://hmm21.com/en/jobs",
+   "https://hmm21.com/career",
+   "https://hmm21.com/en/career",
+   "https://jobs.hmm21.com/",
+   "https://careers.hmm21.com/"
   ],
-  "reason": "site_unreachable",
+  "reason": "no_careers_system_found",
   "checked_at": "2026-10-11"
  },
  "yang-ming": {
@@ -1276,25 +1205,16 @@
   "checked_at": "2026-10-11"
  },
  "stena-line": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://stenaline.com/career/job-openings/"
+  },
   "vendor": null,
   "checked_pages": [
    "https://stenaline.com/",
-   "https://stenaline.com/career/job-openings/",
-   "https://stenaline.com/career/exciting-career-opportunities-at-stena-line/",
-   "https://stenaline.com/career/the-crew-code/",
-   "https://stenaline.com/career/meet-our-employees/",
-   "https://stenaline.com/careers",
-   "https://stenaline.com/en/careers",
-   "https://stenaline.com/careers/",
-   "https://stenaline.com/nl/werken-bij",
-   "https://stenaline.com/werken-bij",
-   "https://stenaline.com/vacatures",
-   "https://stenaline.com/nl/vacatures",
-   "https://stenaline.com/jobs",
-   "https://stenaline.com/en/jobs"
+   "https://stenaline.com/career/job-openings/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "eimskip": {
@@ -1370,12 +1290,16 @@
   "checked_at": "2026-09-17"
  },
  "port-of-amsterdam": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://werkenbij.portofamsterdam.com/vacatures"
+  },
   "vendor": null,
   "checked_pages": [
-   "https://portofamsterdam.com/"
+   "https://portofamsterdam.com/",
+   "https://werkenbij.portofamsterdam.com/vacatures"
   ],
-  "reason": "site_unreachable",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "abbott": {
@@ -1516,47 +1440,30 @@
   "checked_at": "2026-10-11"
  },
  "zalando": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://jobs.zalando.com/en/jobs"
+  },
   "vendor": null,
   "checked_pages": [
    "https://jobs.zalando.com",
    "https://zalando.com/",
-   "https://jobs.zalando.com/en/jobs",
-   "https://jobs.zalando.com/en",
-   "https://jobs.zalando.com/en/what-we-do/early-careers",
-   "https://zalando.com/careers",
-   "https://zalando.com/en/careers",
-   "https://zalando.com/careers/",
-   "https://zalando.com/nl/werken-bij",
-   "https://zalando.com/werken-bij",
-   "https://zalando.com/vacatures",
-   "https://zalando.com/nl/vacatures",
-   "https://zalando.com/jobs",
-   "https://zalando.com/en/jobs"
+   "https://jobs.zalando.com/en/jobs"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "project44": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.project44.com/company/careers/"
+  },
   "vendor": null,
   "checked_pages": [
    "https://project44.com/",
-   "https://www.project44.com/company/careers/",
-   "https://www.project44.com/company/careers/open-roles/",
-   "https://www.project44.com/company/careers/teams/",
-   "https://project44.com/careers",
-   "https://project44.com/en/careers",
-   "https://project44.com/careers/",
-   "https://project44.com/nl/werken-bij",
-   "https://project44.com/werken-bij",
-   "https://project44.com/vacatures",
-   "https://project44.com/nl/vacatures",
-   "https://project44.com/jobs",
-   "https://project44.com/en/jobs",
-   "https://project44.com/career"
+   "https://www.project44.com/company/careers/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "simacan": {
@@ -1734,28 +1641,20 @@
    "https://boekestijn.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "den-hartogh": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.denhartogh.com/careers/our_teams/287"
+  },
   "vendor": null,
   "checked_pages": [
    "https://denhartogh.com/",
    "https://careers.denhartogh.com",
-   "https://www.denhartogh.com/careers/our_teams",
-   "https://denhartogh.com/careers",
-   "https://denhartogh.com/en/careers",
-   "https://denhartogh.com/careers/",
-   "https://denhartogh.com/nl/werken-bij",
-   "https://denhartogh.com/werken-bij",
-   "https://denhartogh.com/vacatures",
-   "https://denhartogh.com/nl/vacatures",
-   "https://denhartogh.com/jobs",
-   "https://denhartogh.com/en/jobs",
-   "https://denhartogh.com/career",
-   "https://denhartogh.com/en/career"
+   "https://www.denhartogh.com/careers/our_teams"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "e-m-rogers-transport": {
@@ -1781,25 +1680,16 @@
   "checked_at": "2026-10-11"
  },
  "emons-group": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://emons.eu/careers/"
+  },
   "vendor": null,
   "checked_pages": [
    "https://emons.eu/",
-   "https://emons.eu/careers/",
-   "https://emons.eu/careers/drivers/",
-   "https://emons.eu/careers/mechanics/",
-   "https://emons.eu/careers/office/",
-   "https://emons.eu/careers",
-   "https://emons.eu/en/careers",
-   "https://emons.eu/nl/werken-bij",
-   "https://emons.eu/werken-bij",
-   "https://emons.eu/vacatures",
-   "https://emons.eu/nl/vacatures",
-   "https://emons.eu/jobs",
-   "https://emons.eu/en/jobs",
-   "https://emons.eu/career"
+   "https://emons.eu/careers/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "van-berkel-logistics": {
@@ -1826,10 +1716,10 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://airtrade.nl/"
+   "https://airtradeholland.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "anji-logistics-europe": {
   "source": null,
@@ -1838,7 +1728,7 @@
    "https://anji-logistics.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "apex-global-logistics": {
   "source": null,
@@ -1935,7 +1825,7 @@
    "https://eusu-logistics.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "gerlach": {
   "source": null,
@@ -1944,7 +1834,7 @@
    "https://gerlachcs.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "hanjin-global-logistics": {
   "source": null,
@@ -1975,7 +1865,7 @@
    "https://hankyu-hanshin-express.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "htns-benelux": {
   "source": null,
@@ -2003,19 +1893,32 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://jdlogistics.com/"
+   "https://jdlogistics.com/",
+   "https://jdlogistics.com/careers",
+   "https://jdlogistics.com/en/careers",
+   "https://jdlogistics.com/careers/",
+   "https://jdlogistics.com/nl/werken-bij",
+   "https://jdlogistics.com/werken-bij",
+   "https://jdlogistics.com/vacatures",
+   "https://jdlogistics.com/nl/vacatures",
+   "https://jdlogistics.com/jobs",
+   "https://jdlogistics.com/en/jobs",
+   "https://jdlogistics.com/career",
+   "https://jdlogistics.com/en/career",
+   "https://jobs.jdlogistics.com/",
+   "https://careers.jdlogistics.com/"
   ],
-  "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
  },
  "koyanagi-worldwide": {
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://koyanagi-worldwide.com/"
+   "https://koyanagi-ww.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "logisteed-europe": {
   "source": null,
@@ -2065,31 +1968,35 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://mach2pharma.com/"
+   "https://mach2.nl/",
+   "https://mach2.nl/careers",
+   "https://mach2.nl/en/careers",
+   "https://mach2.nl/careers/",
+   "https://mach2.nl/nl/werken-bij",
+   "https://mach2.nl/werken-bij",
+   "https://mach2.nl/vacatures",
+   "https://mach2.nl/nl/vacatures",
+   "https://mach2.nl/jobs",
+   "https://mach2.nl/en/jobs",
+   "https://mach2.nl/career",
+   "https://mach2.nl/en/career",
+   "https://jobs.mach2.nl/",
+   "https://careers.mach2.nl/"
   ],
-  "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
  },
  "marinetrans-benelux": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://marinetrans.com/careers/"
+  },
   "vendor": null,
   "checked_pages": [
    "https://marinetrans.com/",
-   "https://marinetrans.com/careers/",
-   "https://marinetrans.com/careers",
-   "https://marinetrans.com/en/careers",
-   "https://marinetrans.com/nl/werken-bij",
-   "https://marinetrans.com/werken-bij",
-   "https://marinetrans.com/vacatures",
-   "https://marinetrans.com/nl/vacatures",
-   "https://marinetrans.com/jobs",
-   "https://marinetrans.com/en/jobs",
-   "https://marinetrans.com/career",
-   "https://marinetrans.com/en/career",
-   "https://jobs.marinetrans.com/",
-   "https://careers.marinetrans.com/"
+   "https://marinetrans.com/careers/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "mitsubishi-logistics-europe": {
@@ -2099,7 +2006,7 @@
    "https://mitsubishi-logistics.co.jp/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "mol-logistics": {
   "source": null,
@@ -2130,7 +2037,7 @@
    "https://morgancargo.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "nedair-freight": {
   "source": null,
@@ -2161,7 +2068,7 @@
    "https://nipponexpress.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "rotra": {
   "source": null,
@@ -2214,7 +2121,7 @@
    "https://sankyu.co.jp/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "shypple": {
   "source": null,
@@ -2245,7 +2152,7 @@
    "https://simex.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "sinotrans": {
   "source": null,
@@ -2254,7 +2161,7 @@
    "https://sinotrans.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "toll-global-forwarding": {
   "source": null,
@@ -2301,25 +2208,16 @@
   "checked_at": "2026-10-11"
  },
  "broekman-contract-logistics": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.broekmancareers.com/en/"
+  },
   "vendor": null,
   "checked_pages": [
    "https://broekmanlogistics.com/",
-   "https://www.broekmancareers.com/en",
-   "https://www.broekmancareers.com/en/",
-   "https://www.broekmancareers.com",
-   "https://www.broekmancareers.com/en/vacancies/",
-   "https://broekmanlogistics.com/careers",
-   "https://broekmanlogistics.com/en/careers",
-   "https://broekmanlogistics.com/careers/",
-   "https://broekmanlogistics.com/nl/werken-bij",
-   "https://broekmanlogistics.com/werken-bij",
-   "https://broekmanlogistics.com/vacatures",
-   "https://broekmanlogistics.com/nl/vacatures",
-   "https://broekmanlogistics.com/jobs",
-   "https://broekmanlogistics.com/en/jobs"
+   "https://www.broekmancareers.com/en"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "checked_at": "2026-10-11"
  },
  "century-distribution-systems": {
@@ -2329,7 +2227,7 @@
    "https://centurydistribution.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-11"
  },
  "cycleon": {
   "source": null,
@@ -2516,5 +2414,888 @@
   ],
   "reason": "found",
   "checked_at": "2026-10-03"
+ },
+ "al-international-transport-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://al-international.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "boreas-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://boreaslogistics.com/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "de-zwaluw-logistiek": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://zwaluw.com/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "jona-international-transport": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://jona.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "ksz-transport": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://ksztransport.nl/",
+   "https://www.ksztransport.nl/nl-nl/vacatures",
+   "https://ksztransport.nl/careers",
+   "https://ksztransport.nl/en/careers",
+   "https://ksztransport.nl/careers/",
+   "https://ksztransport.nl/nl/werken-bij",
+   "https://ksztransport.nl/werken-bij",
+   "https://ksztransport.nl/vacatures",
+   "https://ksztransport.nl/nl/vacatures",
+   "https://ksztransport.nl/jobs",
+   "https://ksztransport.nl/en/jobs",
+   "https://ksztransport.nl/career",
+   "https://ksztransport.nl/en/career",
+   "https://jobs.ksztransport.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "lily-maas": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://lilymaas.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "m-s-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://mslogistics.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "oranje-transport": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://oranjetransport.nl/",
+   "https://oranjetransport.nl/careers",
+   "https://oranjetransport.nl/en/careers",
+   "https://oranjetransport.nl/careers/",
+   "https://oranjetransport.nl/nl/werken-bij",
+   "https://oranjetransport.nl/werken-bij",
+   "https://oranjetransport.nl/vacatures",
+   "https://oranjetransport.nl/nl/vacatures",
+   "https://oranjetransport.nl/jobs",
+   "https://oranjetransport.nl/en/jobs",
+   "https://oranjetransport.nl/career",
+   "https://oranjetransport.nl/en/career",
+   "https://jobs.oranjetransport.nl/",
+   "https://careers.oranjetransport.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "prospect-transport-logistiek": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://prospect-transport.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "soderberg-transport": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://soderbergtransport.se/",
+   "https://soderbergtransport.se/careers",
+   "https://soderbergtransport.se/en/careers",
+   "https://soderbergtransport.se/careers/",
+   "https://soderbergtransport.se/nl/werken-bij",
+   "https://soderbergtransport.se/werken-bij",
+   "https://soderbergtransport.se/vacatures",
+   "https://soderbergtransport.se/nl/vacatures",
+   "https://soderbergtransport.se/jobs",
+   "https://soderbergtransport.se/en/jobs",
+   "https://soderbergtransport.se/career",
+   "https://soderbergtransport.se/en/career",
+   "https://jobs.soderbergtransport.se/",
+   "https://careers.soderbergtransport.se/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "aero-express": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://aero-express.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "ait-worldwide-logistics": {
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.aitworldwide.com/careers/"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://aitworldwide.com/",
+   "https://www.aitworldwide.com/careers/"
+  ],
+  "reason": "found",
+  "checked_at": "2026-10-11"
+ },
+ "atlantic-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://atlanticlogistics.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "berg-van-rijk-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://bergvanrijk.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "bf-global-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://bfglobal.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "bluerock-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://bluerocklogistics.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "cet-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://cetlogistics.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "cts-international-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://cts-logistics.com/",
+   "http://cts-jobs.co.uk",
+   "https://cts-logistics.com/careers",
+   "https://cts-logistics.com/en/careers",
+   "https://cts-logistics.com/careers/",
+   "https://cts-logistics.com/nl/werken-bij",
+   "https://cts-logistics.com/werken-bij",
+   "https://cts-logistics.com/vacatures",
+   "https://cts-logistics.com/nl/vacatures",
+   "https://cts-logistics.com/jobs",
+   "https://cts-logistics.com/en/jobs",
+   "https://cts-logistics.com/career",
+   "https://cts-logistics.com/en/career",
+   "https://jobs.cts-logistics.com/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "cyber-freight-amsterdam": {
+  "source": {
+   "type": "careerpage",
+   "url": "https://cyberfreight.nl/vacatures/"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://cyberfreight.nl/",
+   "https://cyberfreight.nl/vacatures/"
+  ],
+  "reason": "found",
+  "checked_at": "2026-10-11"
+ },
+ "dho-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://dho.nl/",
+   "https://dho.nl/careers",
+   "https://dho.nl/en/careers",
+   "https://dho.nl/careers/",
+   "https://dho.nl/nl/werken-bij",
+   "https://dho.nl/werken-bij",
+   "https://dho.nl/vacatures",
+   "https://dho.nl/nl/vacatures",
+   "https://dho.nl/jobs",
+   "https://dho.nl/en/jobs",
+   "https://dho.nl/career",
+   "https://dho.nl/en/career",
+   "https://jobs.dho.nl/",
+   "https://careers.dho.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "euro-senko": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://senko.co.jp/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "fairways-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://fairways.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "fox-global-logistics": {
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.foxglobal.nl/careers/"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://foxglobal.nl/",
+   "https://www.foxglobal.nl/careers/"
+  ],
+  "reason": "found",
+  "checked_at": "2026-10-11"
+ },
+ "freight-international-holding": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://freightinternational.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "freightlive": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://freightlive.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "fuji-logistics-fujitrans": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://fujitrans.co.jp/",
+   "https://fujitrans.co.jp/careers",
+   "https://fujitrans.co.jp/en/careers",
+   "https://fujitrans.co.jp/careers/",
+   "https://fujitrans.co.jp/nl/werken-bij",
+   "https://fujitrans.co.jp/werken-bij",
+   "https://fujitrans.co.jp/vacatures",
+   "https://fujitrans.co.jp/nl/vacatures",
+   "https://fujitrans.co.jp/jobs",
+   "https://fujitrans.co.jp/en/jobs",
+   "https://fujitrans.co.jp/career",
+   "https://fujitrans.co.jp/en/career",
+   "https://jobs.fujitrans.co.jp/",
+   "https://careers.fujitrans.co.jp/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "gd-its-forwarding": {
+  "source": {
+   "type": "careerpage",
+   "url": "https://gd-its.nl/werken-bij/"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://gd-its.com/",
+   "https://gd-its.com/working-at/",
+   "https://gd-its.careers/",
+   "https://gd-its.com/careers",
+   "https://gd-its.com/en/careers",
+   "https://gd-its.com/careers/",
+   "https://gd-its.com/nl/werken-bij",
+   "https://gd-its.com/werken-bij",
+   "https://gd-its.com/vacatures"
+  ],
+  "reason": "found",
+  "checked_at": "2026-10-11"
+ },
+ "international-airfreight-associates": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://iaa-worldwide.com/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "janssen-air-ocean": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://janssenairocean.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "just-ride-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://justride.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "kroog-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://kroog.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "logistic-business-partners": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://lbp-rotterdam.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "loyal-cargo-services": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://loyalcargo.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "mainfreight": {
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.mainfreight.com/asia/careers"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://mainfreight.com/",
+   "https://www.mainfreight.com/mainfreight-careers",
+   "https://www.mainfreight.com/americas/mainfreight-careers",
+   "https://www.mainfreight.com/asia/careers"
+  ],
+  "reason": "found",
+  "checked_at": "2026-10-11"
+ },
+ "mn-logistics-international": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://mnlogistics.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "mpc-shipping-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://mpc-sl.com/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "myon-forwarding-customs": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://myon.nl/",
+   "https://myon.nl/careers",
+   "https://myon.nl/en/careers",
+   "https://myon.nl/careers/",
+   "https://myon.nl/nl/werken-bij",
+   "https://myon.nl/werken-bij",
+   "https://myon.nl/vacatures",
+   "https://myon.nl/nl/vacatures",
+   "https://myon.nl/jobs",
+   "https://myon.nl/en/jobs",
+   "https://myon.nl/career",
+   "https://myon.nl/en/career",
+   "https://jobs.myon.nl/",
+   "https://careers.myon.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "p-m-t-cargo-smartpoint": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://pmtcargo.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "qbex-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://qbex.nl/",
+   "https://qbex.nl/about-us/careers",
+   "https://qbex.nl/careers",
+   "https://qbex.nl/en/careers",
+   "https://qbex.nl/careers/",
+   "https://qbex.nl/nl/werken-bij",
+   "https://qbex.nl/werken-bij",
+   "https://qbex.nl/vacatures",
+   "https://qbex.nl/nl/vacatures",
+   "https://qbex.nl/jobs",
+   "https://qbex.nl/en/jobs",
+   "https://qbex.nl/career",
+   "https://qbex.nl/en/career",
+   "https://jobs.qbex.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "rapid-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://rapidlogistics.nl/",
+   "https://rapidlogistics.nl/careers",
+   "https://rapidlogistics.nl/en/careers",
+   "https://rapidlogistics.nl/careers/",
+   "https://rapidlogistics.nl/nl/werken-bij",
+   "https://rapidlogistics.nl/werken-bij",
+   "https://rapidlogistics.nl/vacatures",
+   "https://rapidlogistics.nl/nl/vacatures",
+   "https://rapidlogistics.nl/jobs",
+   "https://rapidlogistics.nl/en/jobs",
+   "https://rapidlogistics.nl/career",
+   "https://rapidlogistics.nl/en/career",
+   "https://jobs.rapidlogistics.nl/",
+   "https://careers.rapidlogistics.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "samyang-logistics-europe": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://samyanglogistics.com/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "sevenhills-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://sevenhills.nl/",
+   "https://sevenhills.nl/careers",
+   "https://sevenhills.nl/en/careers",
+   "https://sevenhills.nl/careers/",
+   "https://sevenhills.nl/nl/werken-bij",
+   "https://sevenhills.nl/werken-bij",
+   "https://sevenhills.nl/vacatures",
+   "https://sevenhills.nl/nl/vacatures",
+   "https://sevenhills.nl/jobs",
+   "https://sevenhills.nl/en/jobs",
+   "https://sevenhills.nl/career",
+   "https://sevenhills.nl/en/career",
+   "https://jobs.sevenhills.nl/",
+   "https://careers.sevenhills.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "shaoke-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://shaoke.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "sharp-jusda-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://jusda.com/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "sms-global-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://smsgloballogistics.com/",
+   "https://smsglobal-group.com/vacancies/",
+   "https://smsgloballogistics.com/careers",
+   "https://smsgloballogistics.com/en/careers",
+   "https://smsgloballogistics.com/careers/",
+   "https://smsgloballogistics.com/nl/werken-bij",
+   "https://smsgloballogistics.com/werken-bij",
+   "https://smsgloballogistics.com/vacatures",
+   "https://smsgloballogistics.com/nl/vacatures",
+   "https://smsgloballogistics.com/jobs",
+   "https://smsgloballogistics.com/en/jobs",
+   "https://smsgloballogistics.com/career",
+   "https://smsgloballogistics.com/en/career",
+   "https://jobs.smsgloballogistics.com/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "t-w-s-transit-world-service": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://tws.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "tito-smart-modal-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://titologistics.com/",
+   "https://titologistics.com/careers",
+   "https://titologistics.com/en/careers",
+   "https://titologistics.com/careers/",
+   "https://titologistics.com/nl/werken-bij",
+   "https://titologistics.com/werken-bij",
+   "https://titologistics.com/vacatures",
+   "https://titologistics.com/nl/vacatures",
+   "https://titologistics.com/jobs",
+   "https://titologistics.com/en/jobs",
+   "https://titologistics.com/career",
+   "https://titologistics.com/en/career",
+   "https://jobs.titologistics.com/",
+   "https://careers.titologistics.com/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "tlogistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://tlogistics.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "world-asia-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://worldasialogistics.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "world-freight-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://worldfreight.nl/",
+   "https://worldfreight.nl/careers",
+   "https://worldfreight.nl/en/careers",
+   "https://worldfreight.nl/careers/",
+   "https://worldfreight.nl/nl/werken-bij",
+   "https://worldfreight.nl/werken-bij",
+   "https://worldfreight.nl/vacatures",
+   "https://worldfreight.nl/nl/vacatures",
+   "https://worldfreight.nl/jobs",
+   "https://worldfreight.nl/en/jobs",
+   "https://worldfreight.nl/career",
+   "https://worldfreight.nl/en/career",
+   "https://jobs.worldfreight.nl/",
+   "https://careers.worldfreight.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "construction-logistics-group": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://clg.nl/",
+   "https://clg.nl/careers",
+   "https://clg.nl/en/careers",
+   "https://clg.nl/careers/",
+   "https://clg.nl/nl/werken-bij",
+   "https://clg.nl/werken-bij",
+   "https://clg.nl/vacatures",
+   "https://clg.nl/nl/vacatures",
+   "https://clg.nl/jobs",
+   "https://clg.nl/en/jobs",
+   "https://clg.nl/career",
+   "https://clg.nl/en/career",
+   "https://jobs.clg.nl/",
+   "https://careers.clg.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "european-distribution-centre-roosendaal": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://edcr.nl/",
+   "https://edcr.nl/careers",
+   "https://edcr.nl/en/careers",
+   "https://edcr.nl/careers/",
+   "https://edcr.nl/nl/werken-bij",
+   "https://edcr.nl/werken-bij",
+   "https://edcr.nl/vacatures",
+   "https://edcr.nl/nl/vacatures",
+   "https://edcr.nl/jobs",
+   "https://edcr.nl/en/jobs",
+   "https://edcr.nl/career",
+   "https://edcr.nl/en/career",
+   "https://jobs.edcr.nl/",
+   "https://careers.edcr.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "feniks-warehousing-solutions": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://feniks-warehousing.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "fulfilment-solutions": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://fulfilmentsolutions.nl/",
+   "https://fulfilmentsolutions.nl/careers",
+   "https://fulfilmentsolutions.nl/en/careers",
+   "https://fulfilmentsolutions.nl/careers/",
+   "https://fulfilmentsolutions.nl/nl/werken-bij",
+   "https://fulfilmentsolutions.nl/werken-bij",
+   "https://fulfilmentsolutions.nl/vacatures",
+   "https://fulfilmentsolutions.nl/nl/vacatures",
+   "https://fulfilmentsolutions.nl/jobs",
+   "https://fulfilmentsolutions.nl/en/jobs",
+   "https://fulfilmentsolutions.nl/career",
+   "https://fulfilmentsolutions.nl/en/career",
+   "https://jobs.fulfilmentsolutions.nl/",
+   "https://careers.fulfilmentsolutions.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "ice-cold-storage": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://icecoldstorage.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "odin-warehousing-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://odin-warehousing.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "combined-barge-operators": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://cbo-rotterdam.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "cargo-king": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://cargoking.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "ecom-clear": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://ecomclear.com/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "emtransit": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://emtransit.com/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "flash-shipping": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://flash.com.tr/",
+   "https://flash.com.tr/careers",
+   "https://flash.com.tr/en/careers",
+   "https://flash.com.tr/careers/",
+   "https://flash.com.tr/nl/werken-bij",
+   "https://flash.com.tr/werken-bij",
+   "https://flash.com.tr/vacatures",
+   "https://flash.com.tr/nl/vacatures",
+   "https://flash.com.tr/jobs",
+   "https://flash.com.tr/en/jobs",
+   "https://flash.com.tr/career",
+   "https://flash.com.tr/en/career",
+   "https://jobs.flash.com.tr/",
+   "https://careers.flash.com.tr/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "gl-link-europe": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://gl-link.com/",
+   "https://gl-link.com/careers",
+   "https://gl-link.com/en/careers",
+   "https://gl-link.com/careers/",
+   "https://gl-link.com/nl/werken-bij",
+   "https://gl-link.com/werken-bij",
+   "https://gl-link.com/vacatures",
+   "https://gl-link.com/nl/vacatures",
+   "https://gl-link.com/jobs",
+   "https://gl-link.com/en/jobs",
+   "https://gl-link.com/career",
+   "https://gl-link.com/en/career",
+   "https://jobs.gl-link.com/",
+   "https://careers.gl-link.com/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "hl-terminal-holding": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://hlterminal.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "top-cargo": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://topcargo.nl/",
+   "https://topcargo.nl/Career.cshtml",
+   "https://topcargo.nl/careers",
+   "https://topcargo.nl/en/careers",
+   "https://topcargo.nl/careers/",
+   "https://topcargo.nl/nl/werken-bij",
+   "https://topcargo.nl/werken-bij",
+   "https://topcargo.nl/vacatures",
+   "https://topcargo.nl/nl/vacatures",
+   "https://topcargo.nl/jobs",
+   "https://topcargo.nl/en/jobs",
+   "https://topcargo.nl/career",
+   "https://topcargo.nl/en/career",
+   "https://jobs.topcargo.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
+ },
+ "transporting-wheels": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://transportingwheels.nl/"
+  ],
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-11"
+ },
+ "wispex-transit-nl": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://wispex.nl/",
+   "https://careers.wispex.nl/",
+   "https://wispex.nl/careers",
+   "https://wispex.nl/en/careers",
+   "https://wispex.nl/careers/",
+   "https://wispex.nl/nl/werken-bij",
+   "https://wispex.nl/werken-bij",
+   "https://wispex.nl/vacatures",
+   "https://wispex.nl/nl/vacatures",
+   "https://wispex.nl/jobs",
+   "https://wispex.nl/en/jobs",
+   "https://wispex.nl/career",
+   "https://wispex.nl/en/career",
+   "https://jobs.wispex.nl/"
+  ],
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-11"
  }
 }
