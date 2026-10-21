@@ -19,7 +19,7 @@
    "https://jobs.a2b-online.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "barsan-global-logistics": {
   "source": null,
@@ -41,7 +41,7 @@
    "https://careers.barsan.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "bertschi": {
   "source": {
@@ -143,7 +143,7 @@
    "https://jobs.einride.tech/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "gvt-intermodal": {
   "source": null,
@@ -152,7 +152,7 @@
    "https://gvtgroup.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "hoyer": {
   "source": null,
@@ -174,7 +174,7 @@
    "https://jobs.hoyer-group.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "klg-europe": {
   "source": null,
@@ -196,7 +196,7 @@
    "https://jobs.klgeurope.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "neele-vat": {
   "source": null,
@@ -218,7 +218,7 @@
    "https://jobs.neelevat.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "nunner-logistics": {
   "source": {
@@ -267,7 +267,7 @@
    "https://careers.samskip.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "sennder": {
   "source": null,
@@ -289,7 +289,7 @@
    "https://jobs.sennder.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "uber-freight": {
   "source": {
@@ -364,7 +364,7 @@
    "https://careers.bring.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "cainiao": {
   "source": null,
@@ -386,7 +386,7 @@
    "https://jobs.cainiao.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "ceva-logistics": {
   "source": {
@@ -420,7 +420,7 @@
    "https://careers.cjlogistics.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "crane-worldwide-logistics": {
   "source": null,
@@ -442,7 +442,7 @@
    "https://jobs.craneww.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "dachser": {
   "source": {
@@ -462,23 +462,10 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://delmarcargo.com/",
-   "https://delmarcargo.com/careers",
-   "https://delmarcargo.com/en/careers",
-   "https://delmarcargo.com/careers/",
-   "https://delmarcargo.com/nl/werken-bij",
-   "https://delmarcargo.com/werken-bij",
-   "https://delmarcargo.com/vacatures",
-   "https://delmarcargo.com/nl/vacatures",
-   "https://delmarcargo.com/jobs",
-   "https://delmarcargo.com/en/jobs",
-   "https://delmarcargo.com/career",
-   "https://delmarcargo.com/en/career",
-   "https://jobs.delmarcargo.com/",
-   "https://careers.delmarcargo.com/"
+   "https://delmarcargo.com/"
   ],
-  "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-21"
  },
  "dimerco-express": {
   "source": null,
@@ -500,7 +487,7 @@
    "https://careers.dimerco.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "expeditors": {
   "source": null,
@@ -522,7 +509,7 @@
    "https://jobs.expeditors.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "flexport": {
   "source": {
@@ -558,7 +545,7 @@
    "https://jobs.geodis.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "hellmann-worldwide-logistics": {
   "source": null,
@@ -567,7 +554,7 @@
    "https://hellmann.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "kintetsu-world-express": {
   "source": null,
@@ -576,7 +563,7 @@
    "https://kwe.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "kln-logistics": {
   "source": {
@@ -624,7 +611,7 @@
    "https://careers.lxpantos.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "maersk": {
   "source": {
@@ -659,7 +646,7 @@
    "https://jobs.morrisonexpress.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "nnr-global-logistics": {
   "source": null,
@@ -681,7 +668,7 @@
    "https://careers.nnrglobal.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "oocl": {
   "source": null,
@@ -690,7 +677,7 @@
    "https://oocl.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "penske-logistics": {
   "source": {
@@ -739,7 +726,7 @@
    "https://jobs.santova.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "db-schenker": {
   "source": {
@@ -773,7 +760,7 @@
    "https://careers.ups.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "yusen-logistics": {
   "source": null,
@@ -782,7 +769,7 @@
    "https://yusenlogistics.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "zencargo": {
   "source": null,
@@ -804,7 +791,7 @@
    "https://jobs.zencargo.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "americold": {
   "source": {
@@ -840,7 +827,7 @@
    "https://jobs.arvato.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "bleckmann": {
   "source": {
@@ -907,7 +894,7 @@
    "https://id-logistics.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "moduslink": {
   "source": null,
@@ -929,7 +916,7 @@
    "https://jobs.moduslink.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "monta": {
   "source": null,
@@ -951,7 +938,7 @@
    "https://jobs.monta.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "movianto": {
   "source": null,
@@ -973,29 +960,16 @@
    "https://careers.movianto.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "newcold": {
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://newcold.com/",
-   "https://newcold.com/careers",
-   "https://newcold.csod.com/ux/ats/careersite/5/home?c=newcold",
-   "https://newcold.com/en/careers",
-   "https://newcold.com/careers/",
-   "https://newcold.com/nl/werken-bij",
-   "https://newcold.com/werken-bij",
-   "https://newcold.com/vacatures",
-   "https://newcold.com/nl/vacatures",
-   "https://newcold.com/jobs",
-   "https://newcold.com/en/jobs",
-   "https://newcold.com/career",
-   "https://newcold.com/en/career",
-   "https://jobs.newcold.com/"
+   "https://newcold.com/"
   ],
-  "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-21"
  },
  "dhl-group": {
   "source": {
@@ -1016,7 +990,7 @@
    "https://werkenbijpostnl.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "fedex": {
   "source": null,
@@ -1038,7 +1012,7 @@
    "https://jobs.fedex.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "gls": {
   "source": null,
@@ -1060,7 +1034,7 @@
    "https://careers.gls-group.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "aramex": {
   "source": null,
@@ -1069,7 +1043,7 @@
    "https://aramex.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "sf-express": {
   "source": null,
@@ -1078,7 +1052,7 @@
    "https://sf-express.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "cma-cgm": {
   "source": {
@@ -1099,7 +1073,7 @@
    "https://msc.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "ocean-network-express": {
   "source": null,
@@ -1121,16 +1095,29 @@
    "https://jobs.one-line.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "hmm": {
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://hmm21.com/"
+   "https://hmm21.com/",
+   "https://hmm21.com/careers",
+   "https://hmm21.com/en/careers",
+   "https://hmm21.com/careers/",
+   "https://hmm21.com/nl/werken-bij",
+   "https://hmm21.com/werken-bij",
+   "https://hmm21.com/vacatures",
+   "https://hmm21.com/nl/vacatures",
+   "https://hmm21.com/jobs",
+   "https://hmm21.com/en/jobs",
+   "https://hmm21.com/career",
+   "https://hmm21.com/en/career",
+   "https://jobs.hmm21.com/",
+   "https://careers.hmm21.com/"
   ],
-  "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "reason": "no_careers_system_found",
+  "checked_at": "2026-10-21"
  },
  "yang-ming": {
   "source": null,
@@ -1139,7 +1126,7 @@
    "https://yangming.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "evergreen": {
   "source": null,
@@ -1148,7 +1135,7 @@
    "https://evergreen-marine.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "eimskip": {
   "source": null,
@@ -1170,7 +1157,7 @@
    "https://careers.eimskip.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "apm-terminals": {
   "source": {
@@ -1207,7 +1194,7 @@
    "https://jobs.ect.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "port-of-rotterdam": {
   "source": {
@@ -1242,7 +1229,7 @@
    "https://abbvie.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "action": {
   "source": null,
@@ -1264,7 +1251,7 @@
    "https://careers.action.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "arthrex": {
   "source": {
@@ -1355,7 +1342,7 @@
    "https://jobs.lifeattiktok.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "zalando": {
   "source": {
@@ -1404,7 +1391,7 @@
    "https://careers.simacan.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "nextlogic": {
   "source": null,
@@ -1426,7 +1413,7 @@
    "https://jobs.nextlogic.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "mendrix": {
   "source": null,
@@ -1448,7 +1435,7 @@
    "https://jobs.mendrix.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "cofano": {
   "source": null,
@@ -1470,7 +1457,7 @@
    "https://careers.cofano.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "intermodal-telematics": {
   "source": null,
@@ -1492,7 +1479,7 @@
    "https://careers.intermodaltelematics.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "shipsy": {
   "source": null,
@@ -1514,7 +1501,7 @@
    "https://jobs.shipsy.io/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "loadmaster-ai": {
   "source": null,
@@ -1536,7 +1523,7 @@
    "https://careers.loadmaster.ai/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "scania": {
   "source": {
@@ -1559,7 +1546,7 @@
    "https://boekestijn.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "den-hartogh": {
   "source": {
@@ -1595,7 +1582,7 @@
    "https://careers.emrogers.co.uk/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "emons-group": {
   "source": {
@@ -1637,7 +1624,7 @@
    "https://airtradeholland.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "anji-logistics-europe": {
   "source": null,
@@ -1646,7 +1633,7 @@
    "https://anji-logistics.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "apex-global-logistics": {
   "source": null,
@@ -1668,7 +1655,7 @@
    "https://jobs.apexglobe.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "blue-water-shipping": {
   "source": null,
@@ -1690,7 +1677,7 @@
    "https://jobs.bws.dk/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "dutch-qargo": {
   "source": null,
@@ -1712,7 +1699,7 @@
    "https://careers.dutchqargo.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "e-van-wijk-forwarding-group": {
   "source": null,
@@ -1734,7 +1721,7 @@
    "https://jobs.vanwijkgroep.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "eusu-logistics": {
   "source": null,
@@ -1743,7 +1730,7 @@
    "https://eusu-logistics.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "gerlach": {
   "source": null,
@@ -1752,7 +1739,7 @@
    "https://gerlachcs.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "hanjin-global-logistics": {
   "source": null,
@@ -1774,7 +1761,7 @@
    "https://careers.hanjin.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "hankyu-hanshin-express": {
   "source": null,
@@ -1783,7 +1770,7 @@
    "https://hankyu-hanshin-express.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "htns-benelux": {
   "source": null,
@@ -1805,29 +1792,16 @@
    "https://careers.htns.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "jd-logistics": {
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://jdlogistics.com/",
-   "https://jdlogistics.com/careers",
-   "https://jdlogistics.com/en/careers",
-   "https://jdlogistics.com/careers/",
-   "https://jdlogistics.com/nl/werken-bij",
-   "https://jdlogistics.com/werken-bij",
-   "https://jdlogistics.com/vacatures",
-   "https://jdlogistics.com/nl/vacatures",
-   "https://jdlogistics.com/jobs",
-   "https://jdlogistics.com/en/jobs",
-   "https://jdlogistics.com/career",
-   "https://jdlogistics.com/en/career",
-   "https://jobs.jdlogistics.com/",
-   "https://careers.jdlogistics.com/"
+   "https://jdlogistics.com/"
   ],
-  "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-21"
  },
  "koyanagi-worldwide": {
   "source": null,
@@ -1836,7 +1810,7 @@
    "https://koyanagi-ww.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "logisteed-europe": {
   "source": null,
@@ -1858,7 +1832,7 @@
    "https://careers.logisteed.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "lotte-global-logistics": {
   "source": null,
@@ -1880,7 +1854,7 @@
    "https://careers.lotteglogis.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "mach-2-pharmafreight": {
   "source": null,
@@ -1902,7 +1876,7 @@
    "https://careers.mach2.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "marinetrans-benelux": {
   "source": {
@@ -1924,7 +1898,7 @@
    "https://mitsubishi-logistics.co.jp/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "mol-logistics": {
   "source": null,
@@ -1946,7 +1920,7 @@
    "https://jobs.mol-logistics-group.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "morgan-cargo": {
   "source": null,
@@ -1955,7 +1929,7 @@
    "https://morgancargo.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "nedair-freight": {
   "source": null,
@@ -1977,7 +1951,7 @@
    "https://jobs.nedair.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "nippon-express": {
   "source": null,
@@ -1986,7 +1960,7 @@
    "https://nipponexpress.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "rotra": {
   "source": null,
@@ -2008,7 +1982,7 @@
    "https://careers.rotra.eu/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "samsung-sds": {
   "source": null,
@@ -2030,7 +2004,7 @@
    "https://careers.samsungsds.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "sankyu-europe": {
   "source": null,
@@ -2039,7 +2013,7 @@
    "https://sankyu.co.jp/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "shypple": {
   "source": null,
@@ -2061,7 +2035,7 @@
    "https://shypple.com/en/career"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "simex-transport-and-forwarding": {
   "source": null,
@@ -2070,7 +2044,7 @@
    "https://simex.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "sinotrans": {
   "source": null,
@@ -2079,7 +2053,7 @@
    "https://sinotrans.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "toll-global-forwarding": {
   "source": null,
@@ -2101,7 +2075,7 @@
    "https://jobs.tollgroup.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "yamato-transport-europe": {
   "source": null,
@@ -2123,7 +2097,7 @@
    "https://jobs.yamatoeurope.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "broekman-contract-logistics": {
   "source": {
@@ -2145,7 +2119,7 @@
    "https://centurydistribution.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "cycleon": {
   "source": null,
@@ -2167,7 +2141,7 @@
    "https://jobs.cycleon.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "grolleman-vrieshuis": {
   "source": null,
@@ -2189,7 +2163,7 @@
    "https://jobs.grolleman.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "re-teck": {
   "source": null,
@@ -2211,7 +2185,7 @@
    "https://jobs.re-teck.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "cosco-shipping-lines": {
   "source": null,
@@ -2233,7 +2207,7 @@
    "https://careers.lines.coscoshipping.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "samsung-electronics-europe-logistics": {
   "source": {
@@ -2270,7 +2244,7 @@
    "https://jobs.fourkites.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "portbase": {
   "source": null,
@@ -2292,7 +2266,7 @@
    "https://jobs.portbase.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "lineage": {
   "source": {
@@ -2340,7 +2314,7 @@
    "https://al-international.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "boreas-logistics": {
   "source": null,
@@ -2349,7 +2323,7 @@
    "https://boreaslogistics.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "de-zwaluw-logistiek": {
   "source": null,
@@ -2358,7 +2332,7 @@
    "https://zwaluw.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "jona-international-transport": {
   "source": null,
@@ -2367,7 +2341,7 @@
    "https://jona.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "ksz-transport": {
   "source": null,
@@ -2389,7 +2363,7 @@
    "https://jobs.ksztransport.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "lily-maas": {
   "source": null,
@@ -2398,7 +2372,7 @@
    "https://lilymaas.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "m-s-logistics": {
   "source": null,
@@ -2407,7 +2381,7 @@
    "https://mslogistics.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "oranje-transport": {
   "source": null,
@@ -2429,7 +2403,7 @@
    "https://careers.oranjetransport.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "prospect-transport-logistiek": {
   "source": null,
@@ -2438,7 +2412,7 @@
    "https://prospect-transport.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "soderberg-transport": {
   "source": null,
@@ -2460,7 +2434,7 @@
    "https://careers.soderbergtransport.se/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "aero-express": {
   "source": null,
@@ -2469,7 +2443,7 @@
    "https://aero-express.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "ait-worldwide-logistics": {
   "source": {
@@ -2491,7 +2465,7 @@
    "https://atlanticlogistics.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "berg-van-rijk-logistics": {
   "source": null,
@@ -2500,7 +2474,7 @@
    "https://bergvanrijk.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "bf-global-logistics": {
   "source": null,
@@ -2509,7 +2483,7 @@
    "https://bfglobal.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "bluerock-logistics": {
   "source": null,
@@ -2518,7 +2492,7 @@
    "https://bluerocklogistics.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "cet-logistics": {
   "source": null,
@@ -2527,7 +2501,7 @@
    "https://cetlogistics.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "cts-international-logistics": {
   "source": null,
@@ -2549,7 +2523,7 @@
    "https://jobs.cts-logistics.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "cyber-freight-amsterdam": {
   "source": {
@@ -2584,7 +2558,7 @@
    "https://careers.dho.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "euro-senko": {
   "source": null,
@@ -2593,7 +2567,7 @@
    "https://senko.co.jp/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "fairways-logistics": {
   "source": null,
@@ -2602,7 +2576,7 @@
    "https://fairways.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "fox-global-logistics": {
   "source": {
@@ -2624,7 +2598,7 @@
    "https://freightinternational.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "freightlive": {
   "source": null,
@@ -2633,7 +2607,7 @@
    "https://freightlive.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "fuji-logistics-fujitrans": {
   "source": null,
@@ -2655,7 +2629,7 @@
    "https://careers.fujitrans.co.jp/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "gd-its-forwarding": {
   "source": {
@@ -2684,7 +2658,7 @@
    "https://iaa-worldwide.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "janssen-air-ocean": {
   "source": null,
@@ -2693,7 +2667,7 @@
    "https://janssenairocean.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "just-ride-logistics": {
   "source": null,
@@ -2702,7 +2676,7 @@
    "https://justride.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "kroog-logistics": {
   "source": null,
@@ -2711,7 +2685,7 @@
    "https://kroog.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "logistic-business-partners": {
   "source": null,
@@ -2720,7 +2694,7 @@
    "https://lbp-rotterdam.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "loyal-cargo-services": {
   "source": null,
@@ -2729,7 +2703,7 @@
    "https://loyalcargo.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "mainfreight": {
   "source": {
@@ -2753,7 +2727,7 @@
    "https://mnlogistics.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "mpc-shipping-logistics": {
   "source": null,
@@ -2762,7 +2736,7 @@
    "https://mpc-sl.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "myon-forwarding-customs": {
   "source": null,
@@ -2784,7 +2758,7 @@
    "https://careers.myon.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "p-m-t-cargo-smartpoint": {
   "source": null,
@@ -2793,7 +2767,7 @@
    "https://pmtcargo.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "qbex-logistics": {
   "source": null,
@@ -2815,7 +2789,7 @@
    "https://jobs.qbex.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "rapid-logistics": {
   "source": null,
@@ -2837,7 +2811,7 @@
    "https://careers.rapidlogistics.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "samyang-logistics-europe": {
   "source": null,
@@ -2846,7 +2820,7 @@
    "https://samyanglogistics.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "sevenhills-logistics": {
   "source": null,
@@ -2868,7 +2842,7 @@
    "https://careers.sevenhills.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "shaoke-logistics": {
   "source": null,
@@ -2877,7 +2851,7 @@
    "https://shaoke.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "sharp-jusda-logistics": {
   "source": null,
@@ -2886,7 +2860,7 @@
    "https://jusda.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "sms-global-logistics": {
   "source": null,
@@ -2908,7 +2882,7 @@
    "https://jobs.smsgloballogistics.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "t-w-s-transit-world-service": {
   "source": null,
@@ -2917,7 +2891,7 @@
    "https://tws.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "tito-smart-modal-logistics": {
   "source": null,
@@ -2939,7 +2913,7 @@
    "https://careers.titologistics.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "tlogistics": {
   "source": null,
@@ -2948,7 +2922,7 @@
    "https://tlogistics.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "world-asia-logistics": {
   "source": null,
@@ -2957,7 +2931,7 @@
    "https://worldasialogistics.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "world-freight-logistics": {
   "source": null,
@@ -2979,7 +2953,7 @@
    "https://careers.worldfreight.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "construction-logistics-group": {
   "source": null,
@@ -3001,29 +2975,16 @@
    "https://careers.clg.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "european-distribution-centre-roosendaal": {
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://edcr.nl/",
-   "https://edcr.nl/careers",
-   "https://edcr.nl/en/careers",
-   "https://edcr.nl/careers/",
-   "https://edcr.nl/nl/werken-bij",
-   "https://edcr.nl/werken-bij",
-   "https://edcr.nl/vacatures",
-   "https://edcr.nl/nl/vacatures",
-   "https://edcr.nl/jobs",
-   "https://edcr.nl/en/jobs",
-   "https://edcr.nl/career",
-   "https://edcr.nl/en/career",
-   "https://jobs.edcr.nl/",
-   "https://careers.edcr.nl/"
+   "https://edcr.nl/"
   ],
-  "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "reason": "site_unreachable",
+  "checked_at": "2026-10-21"
  },
  "feniks-warehousing-solutions": {
   "source": null,
@@ -3032,7 +2993,7 @@
    "https://feniks-warehousing.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "fulfilment-solutions": {
   "source": null,
@@ -3054,7 +3015,7 @@
    "https://careers.fulfilmentsolutions.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "ice-cold-storage": {
   "source": null,
@@ -3063,7 +3024,7 @@
    "https://icecoldstorage.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "odin-warehousing-logistics": {
   "source": null,
@@ -3072,7 +3033,7 @@
    "https://odin-warehousing.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "combined-barge-operators": {
   "source": null,
@@ -3081,7 +3042,7 @@
    "https://cbo-rotterdam.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "cargo-king": {
   "source": null,
@@ -3090,7 +3051,7 @@
    "https://cargoking.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "ecom-clear": {
   "source": null,
@@ -3099,7 +3060,7 @@
    "https://ecomclear.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "emtransit": {
   "source": null,
@@ -3108,7 +3069,7 @@
    "https://emtransit.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "flash-shipping": {
   "source": null,
@@ -3130,7 +3091,7 @@
    "https://careers.flash.com.tr/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "gl-link-europe": {
   "source": null,
@@ -3152,7 +3113,7 @@
    "https://careers.gl-link.com/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "hl-terminal-holding": {
   "source": null,
@@ -3161,7 +3122,7 @@
    "https://hlterminal.nl/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "top-cargo": {
   "source": null,
@@ -3183,7 +3144,7 @@
    "https://jobs.topcargo.nl/"
   ],
   "reason": "no_careers_system_found",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "transporting-wheels": {
   "source": null,
@@ -3266,7 +3227,7 @@
    "https://jas.com/"
   ],
   "reason": "site_unreachable",
-  "checked_at": "2026-10-20"
+  "checked_at": "2026-10-21"
  },
  "abbott": {
   "source": {
