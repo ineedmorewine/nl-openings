@@ -14,7 +14,7 @@ import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from .adapters import ADAPTERS
+from .adapters import ADAPTERS, careerpage
 from .discovery import discover
 from .filters import is_suitable
 from .net import Net
@@ -77,6 +77,19 @@ def careers_link(company, discovery_cache):
     return homepage
 
 
+def second_opinion(net, company, discovery_cache):
+    """Read the company's careers page as plain links. Returns None if that finds nothing."""
+    link = careers_link(company, discovery_cache)
+    if not link:
+        return None
+    params = {"url": link}
+    try:
+        jobs = careerpage.fetch(net, params, is_strict(company))
+    except Exception:
+        return None
+    return {"jobs": jobs, "params": params} if jobs else None
+
+
 def resolve_source(net, company, discovery_cache, today):
     """Return (source, discovered, failure_status). failure_status is None when a source exists."""
     if company.get("source"):
@@ -105,14 +118,25 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
         return {"status": "read_failed", "detail": f"unknown source type {source.get('type')}"}, None
     params = {key: value for key, value in source.items() if key != "type"}
 
+    method = source["type"]
     try:
         raw_jobs = adapter.fetch(net, params, is_strict(company))
     except Exception as error:
         if discovered:
             # Forget the cached guess so tomorrow's run looks for the careers system again.
             discovery_cache.pop(company["id"], None)
-        return {"status": "read_failed", "method": source["type"],
+        return {"status": "read_failed", "method": method,
                 "detail": f"{type(error).__name__}: {str(error)[:160]}"}, None
+
+    if not raw_jobs:
+        # The recruitment system answered but listed nothing. That is sometimes
+        # true and sometimes means its page layout is one we cannot parse, which
+        # looks identical from here. Read the page as plain links before believing
+        # the zero: this is what kept CEVA and Kuehne+Nagel showing no vacancies.
+        fallback = second_opinion(net, company, discovery_cache)
+        if fallback:
+            raw_jobs, adapter, params = fallback["jobs"], careerpage, fallback["params"]
+            method = f"{method}+careerpage"
 
     jobs, described = {}, 0
     extra = company.get("extra_keywords") or []
@@ -154,7 +178,7 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
             "labels": labels,
             "labels_checked": checked,
         }
-    return {"status": "ok", "method": source["type"]}, list(jobs.values())
+    return {"status": "ok", "method": method}, list(jobs.values())
 
 
 def main(argv=None):

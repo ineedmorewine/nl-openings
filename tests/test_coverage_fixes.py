@@ -227,3 +227,59 @@ class DutchVacancyLinkShapes(unittest.TestCase):
     def test_the_overview_page_itself_is_not_counted_as_a_posting(self):
         page = '<a href="/vacatures">Vacatures</a><a href="/vacatures/">Onze vacatures</a>'
         self.assertEqual(careerpage.find_posting_links(page, "https://transporteur.nl/"), [])
+
+
+class SecondOpinionOnZero(unittest.TestCase):
+    """A recruitment system that lists nothing may just have an unreadable layout.
+
+    CEVA's site showed jobs to a browser while the structured reader saw none, and
+    the run reported "ok, 0 jobs". Reading the page as plain links catches that.
+    """
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        base = Path(self.tmp.name)
+        (base / "data").mkdir()
+        self.paths = {
+            "COMPANIES_FILE": base / "companies.json",
+            "JOBS_FILE": base / "data/jobs.json",
+            "SOURCES_FILE": base / "data/sources.json",
+            "DISCOVERY_FILE": base / "data/discovery.json",
+            "FILTERS_FILE": Path(run.FILTERS_FILE),
+        }
+        self.paths["COMPANIES_FILE"].write_text(_json.dumps({"companies": [{
+            "id": "acme", "name": "Acme", "group": "road_rail", "domain": "acme.nl",
+            "careers_url": "https://jobs.acme.com/Acme/search/",
+            "source": {"type": "recruitee", "subdomain": "acme"},
+        }]}))
+        self.paths["DISCOVERY_FILE"].write_text("{}")
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def collect(self, careers_markup):
+        routes = {"https://acme.recruitee.com/api/offers/": {"offers": []},
+                  "https://jobs.acme.com/Acme/search/": careers_markup}
+        with mock.patch.multiple(run, **self.paths), \
+                mock.patch.object(run, "Net", lambda: FakeNet(routes)):
+            run.main([])
+        sources = _json.loads(self.paths["SOURCES_FILE"].read_text())["sources"]
+        jobs = _json.loads(self.paths["JOBS_FILE"].read_text())["jobs"]
+        return sources[0], jobs
+
+    def test_jobs_listed_as_links_are_picked_up_after_an_empty_answer(self):
+        markup = ('<a href="/job/Rotterdam-Transport-Planner/12345/">Transport Planner Rotterdam</a>'
+                  '<a href="/job/Venlo-Rail-Coordinator/12346/">Rail Coordinator Venlo</a>')
+        source, jobs = self.collect(markup)
+        self.assertEqual(source["status"], "ok")
+        self.assertEqual(source["nl_jobs"], 2)
+        self.assertEqual(source["method"], "recruitee+careerpage")
+        self.assertEqual(sorted(j["title"] for j in jobs),
+                         ["Rail Coordinator Venlo", "Transport Planner Rotterdam"])
+
+    def test_a_company_with_genuinely_nothing_open_still_reports_zero(self):
+        source, jobs = self.collect("<p>Geen vacatures op dit moment.</p>")
+        self.assertEqual(source["status"], "ok")
+        self.assertEqual(source["nl_jobs"], 0)
+        self.assertEqual(source["method"], "recruitee")
+        self.assertEqual(jobs, [])
