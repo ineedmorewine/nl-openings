@@ -39,6 +39,28 @@ _NAVIGATION = {"vacatures", "vacancies", "jobs", "careers", "werken bij", "alle 
                "bekijk vacatures", "view all jobs", "open sollicitatie", "meer", "more",
                "lees meer", "read more", "solliciteer", "apply", "apply now", "contact"}
 
+# Many Dutch careers pages put the job title in a heading and give every link the
+# same label ("View the vacancy"). Those labels are not titles, so the title is
+# taken from the address instead.
+_GENERIC_LABEL = re.compile(
+    r"^(view|bekijk|lees|see|read|open|naar|go to|meer over)\b|"
+    r"\b(vacature|vacancy|job|functie|details?|here|hier)$", re.I)
+
+
+def _title_from_url(url):
+    """Turn ".../vacancies/freight-forwarder-road-uk/" into a readable title."""
+    slug = [part for part in urlparse(url).path.split("/") if part]
+    if not slug:
+        return ""
+    words = re.sub(r"[-_]+", " ", slug[-1]).strip()
+    words = re.sub(r"\s+\d+$", "", words)          # drop the "-2" on repeated slugs
+    words = re.sub(r"\.(html?|php|aspx)$", "", words, flags=re.I)
+    return " ".join(w if w.isupper() else w.capitalize() for w in words.split())
+
+
+def _is_generic(title):
+    return bool(_GENERIC_LABEL.search(title)) or len(title.split()) < 2
+
 
 def _clean_title(label):
     title = strip_html(label)
@@ -49,12 +71,9 @@ def _clean_title(label):
 def _looks_like_a_posting(url, title):
     if not _JOB_PATH.search(url) or _NOT_A_POSTING.search(url):
         return False
-    if len(title) < 6 or len(title) > 120:
-        return False
     if fold(title) in _NAVIGATION:
         return False
-    # A real job title has words, not just a slug or a date.
-    return len(title.split()) >= 2
+    return 6 <= len(title) <= 120 and len(title.split()) >= 2
 
 
 def find_posting_links(markup, page_url):
@@ -67,6 +86,8 @@ def find_posting_links(markup, page_url):
             continue
         url = url.split("#")[0]
         title = _clean_title(label)
+        if _is_generic(title):
+            title = _title_from_url(url)
         if url in seen or not _looks_like_a_posting(url, title):
             continue
         seen.add(url)

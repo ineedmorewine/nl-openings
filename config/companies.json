@@ -32,7 +32,7 @@
    ],
    "group": "road_rail",
    "domain": "barsan.com",
-   "careers_url": null,
+   "careers_url": "https://www.barsan.nl/jobs",
    "source": null,
    "extra_keywords": []
   },
@@ -292,7 +292,7 @@
    ],
    "group": "road_rail",
    "domain": "neelevat.com",
-   "careers_url": null,
+   "careers_url": "https://werkenbijneelevat.com/vacancies/",
    "source": null,
    "extra_keywords": []
   },

@@ -310,3 +310,35 @@ class SecondOpinionPageChoice(unittest.TestCase):
         link = run.careers_link({"id": "x", "domain": "acme.nl"},
                                 {"x": {"checked_pages": ["https://acme.nl/"]}})
         self.assertIn(link, ("https://acme.nl/", "https://www.acme.nl/"))
+
+
+class GenericLinkLabels(unittest.TestCase):
+    """Dutch careers pages often label every vacancy link the same way.
+
+    Neele-Vat lists 29 vacancies whose links all read "View the vacancy", so
+    using the link text as the title produced 29 identical, useless entries.
+    """
+
+    page_url = "https://werkenbijneelevat.com/vacancies/"
+
+    def titles(self, markup):
+        return [t for _, t in careerpage.find_posting_links(markup, self.page_url)]
+
+    def test_a_repeated_label_gives_way_to_the_title_in_the_address(self):
+        markup = ('<a href="/vacancies/transportplanner-ftl/">View the vacancy</a>'
+                  '<a href="/vacancies/freight-forwarder-road-transport-uk/">Bekijk de vacature</a>')
+        self.assertEqual(self.titles(markup),
+                         ["Transportplanner Ftl", "Freight Forwarder Road Transport Uk"])
+
+    def test_a_real_title_in_the_link_is_kept(self):
+        markup = '<a href="/vacancies/container-planner/">Container Planner Rotterdam Pernis</a>'
+        self.assertEqual(self.titles(markup), ["Container Planner Rotterdam Pernis"])
+
+    def test_a_repeated_slug_loses_its_trailing_number(self):
+        markup = '<a href="/vacancies/export-forwarder-3/">Lees meer</a>'
+        self.assertEqual(self.titles(markup), ["Export Forwarder"])
+
+    def test_navigation_is_still_not_a_vacancy(self):
+        markup = ('<a href="/vacancies/">View the vacancy</a>'
+                  '<a href="/vacancies/page/2">Read more</a>')
+        self.assertEqual(self.titles(markup), [])
