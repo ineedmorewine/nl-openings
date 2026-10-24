@@ -342,3 +342,103 @@ class GenericLinkLabels(unittest.TestCase):
         markup = ('<a href="/vacancies/">View the vacancy</a>'
                   '<a href="/vacancies/page/2">Read more</a>')
         self.assertEqual(self.titles(markup), [])
+
+
+class NoRecruitmentSystemStillGetsRead(unittest.TestCase):
+    """A company without a recognised system must still be read, not skipped.
+
+    Most of the list was never read at all because discovery found no known
+    recruitment system and collection stopped there, however plainly the
+    company published its vacancies.
+    """
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        base = Path(self.tmp.name)
+        (base / "data").mkdir()
+        self.paths = {
+            "COMPANIES_FILE": base / "companies.json",
+            "JOBS_FILE": base / "data/jobs.json",
+            "SOURCES_FILE": base / "data/sources.json",
+            "DISCOVERY_FILE": base / "data/discovery.json",
+            "FILTERS_FILE": Path(run.FILTERS_FILE),
+        }
+        self.paths["COMPANIES_FILE"].write_text(_json.dumps({"companies": [{
+            "id": "vervoerder", "name": "Vervoerder", "group": "road_rail",
+            "domain": "vervoerder.nl",
+        }]}))
+        self.paths["DISCOVERY_FILE"].write_text("{}")
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def collect(self, vacancy_page):
+        routes = {
+            "https://vervoerder.nl/": '<a href="/vacatures">Werken bij ons</a>',
+            "https://www.vervoerder.nl/": '<a href="/vacatures">Werken bij ons</a>',
+            "https://vervoerder.nl/vacatures": vacancy_page,
+        }
+        with mock.patch.multiple(run, **self.paths), \
+                mock.patch.object(run, "Net", lambda: FakeNet(routes)):
+            run.main([])
+        sources = _json.loads(self.paths["SOURCES_FILE"].read_text())["sources"]
+        jobs = _json.loads(self.paths["JOBS_FILE"].read_text())["jobs"]
+        return sources[0], jobs
+
+    def test_vacancies_published_as_plain_links_are_collected(self):
+        page = ('<a href="/vacatures/transportplanner-venlo">Transportplanner Venlo</a>'
+                '<a href="/vacatures/rail-coordinator-oost">Rail Coordinator Oost</a>')
+        source, jobs = self.collect(page)
+        self.assertEqual(source["status"], "ok")
+        self.assertEqual(source["method"], "careerpage")
+        self.assertEqual(sorted(j["title"] for j in jobs),
+                         ["Rail Coordinator Oost", "Transportplanner Venlo"])
+
+    def test_a_company_publishing_nothing_is_still_reported_honestly(self):
+        source, jobs = self.collect("<p>Op dit moment geen vacatures.</p>")
+        self.assertEqual(source["status"], "no_careers_system_found")
+        self.assertEqual(jobs, [])
+
+
+class ForeignJobsAreDroppedOnceTheirLocationIsKnown(unittest.TestCase):
+    """A link reader learns the location only by opening the posting.
+
+    A Henkel vacancy in Bangkok reached the page because the location arrived
+    after the job had already been kept.
+    """
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        base = Path(self.tmp.name)
+        (base / "data").mkdir()
+        self.paths = {
+            "COMPANIES_FILE": base / "companies.json",
+            "JOBS_FILE": base / "data/jobs.json",
+            "SOURCES_FILE": base / "data/sources.json",
+            "DISCOVERY_FILE": base / "data/discovery.json",
+            "FILTERS_FILE": Path(run.FILTERS_FILE),
+        }
+        self.paths["COMPANIES_FILE"].write_text(_json.dumps({"companies": [{
+            "id": "henkel", "name": "Henkel", "group": "in_house", "domain": "henkel.com",
+            "careers_url": "https://henkel.com/careers",
+        }]}))
+        self.paths["DISCOVERY_FILE"].write_text("{}")
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def test_only_the_dutch_posting_is_kept(self):
+        listing = ('<a href="/careers/demand-planner-bangkok">Demand Planner Bangkok</a>'
+                   '<a href="/careers/transport-planner-venlo">Transport Planner Venlo</a>')
+        def posting(place):
+            return f"<html><body><p>Location: {place}</p><p>" + ("Plan shipments. " * 20) + "</p></body></html>"
+        routes = {
+            "https://henkel.com/careers": listing,
+            "https://henkel.com/careers/demand-planner-bangkok": posting("Bangkok"),
+            "https://henkel.com/careers/transport-planner-venlo": posting("Venlo"),
+        }
+        with mock.patch.multiple(run, **self.paths), \
+                mock.patch.object(run, "Net", lambda: FakeNet(routes)):
+            run.main([])
+        jobs = _json.loads(self.paths["JOBS_FILE"].read_text())["jobs"]
+        self.assertEqual([j["title"] for j in jobs], ["Transport Planner Venlo"])

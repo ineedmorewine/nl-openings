@@ -2,7 +2,7 @@ name: Daily job collection
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # 04:00 UTC = 07:00 in Istanbul
+    - cron: "0 4,10,16,21 * * *"   # 07:00, 13:00, 19:00 and 00:00 in Istanbul
   workflow_dispatch:      # adds a "Run workflow" button in the Actions tab
 
 permissions:

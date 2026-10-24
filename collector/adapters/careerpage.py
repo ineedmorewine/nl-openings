@@ -11,7 +11,7 @@ better data. Its job is to stop a company from being invisible.
 import re
 from urllib.parse import urljoin, urlparse
 
-from ..text import fold, keep_location, normalize_date, strip_html
+from ..text import fold, keep_location, location_status, normalize_date, strip_html
 from .jsonld import extract_job_postings, to_job
 
 MAX_POSTINGS = 60
@@ -149,17 +149,24 @@ _DUTCH_PLACE = re.compile(
 
 
 def _guess_location(text):
-    """Accept a guess only when it names a place we recognise.
+    """Return the place a posting names, whether or not we recognise it.
+
+    Reporting only Dutch places would leave a foreign vacancy looking as though
+    its location were unknown, and an unknown location is kept. A stated place
+    we do not recognise is better reported as it stands and filtered later.
 
     The capture can run on into the next sentence ("Tilburg Je plant..."), so
-    take the shortest leading words that already name a place. Shortest first
-    keeps "Tilburg" from the sentence above while still finding the whole of a
-    multi-word name such as "Bergen op Zoom".
+    prefer the shortest leading words that already name a known place, which
+    also keeps multi-word names such as "Bergen op Zoom" whole. Failing that,
+    fall back to the first word.
     """
     for match in _DUTCH_PLACE.finditer(text or ""):
         words = match.group(1).strip(" .,-").split()
+        if not words:
+            continue
         for length in range(1, len(words) + 1):
             candidate = " ".join(words[:length])
-            if keep_location(candidate, strict=True):
+            if location_status(candidate) in ("nl", "foreign"):
                 return candidate
+        return words[0]
     return ""

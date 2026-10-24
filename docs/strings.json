@@ -82,5 +82,7 @@
     "Dec"
   ],
   "open_careers_page": "Open their careers page",
-  "status_careerpage_note": "Read from their vacancies page"
+  "status_careerpage_note": "Read from their vacancies page",
+  "refresh": "Refresh now",
+  "refresh_hint": "Collects again from every company. Takes about an hour."
 }

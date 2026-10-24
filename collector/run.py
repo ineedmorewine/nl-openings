@@ -9,6 +9,7 @@ A company whose site cannot be read today keeps its previous jobs, so a bad day
 never wipes the list or makes old jobs look new tomorrow.
 """
 import argparse
+import re
 import json
 import time
 from datetime import date, datetime, timezone
@@ -18,7 +19,7 @@ from .adapters import ADAPTERS, careerpage
 from .discovery import discover, homepages
 from .filters import is_suitable
 from .net import Net
-from .text import dutch_required, written_in_dutch
+from .text import dutch_required, keep_location, written_in_dutch
 
 ROOT = Path(__file__).resolve().parent.parent
 COMPANIES_FILE = ROOT / "config" / "companies.json"
@@ -97,7 +98,10 @@ def second_opinion_pages(company, discovery_cache, source):
         if url and url not in seen:
             seen.add(url)
             pages.append(url)
-    return pages[:8]
+    def careers_first(url):
+        return 0 if re.search(r"(vacature|vacancy|career|job|werken)", url, re.I) else 1
+
+    return sorted(pages, key=careers_first)[:12]
 
 
 def second_opinion(net, company, discovery_cache, source=None):
@@ -134,22 +138,36 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
     """Return (status_entry, jobs). jobs is None when the company could not be read today."""
     source, discovered, failure = resolve_source(net, company, discovery_cache, today)
     if failure:
-        return failure, None
+        if failure["status"] != "no_careers_system_found":
+            return failure, None
+        # No recruitment system recognised, but the careers pages we reached may
+        # still list vacancies as ordinary links. Giving up here is what kept
+        # most of the list unread: a company without a known system was never
+        # read at all, however plainly its vacancies were published.
+        fallback = second_opinion(net, company, discovery_cache)
+        if not fallback:
+            return failure, None
+        source, adapter = {"type": "careerpage"}, careerpage
+        params, method, discovered = fallback["params"], "careerpage", True
+        raw_jobs = fallback["jobs"]
+    else:
+        adapter = ADAPTERS.get(source.get("type"))
+        if adapter is None:
+            return {"status": "read_failed",
+                    "detail": f"unknown source type {source.get('type')}"}, None
+        params = {key: value for key, value in source.items() if key != "type"}
+        method = source["type"]
+        raw_jobs = None
 
-    adapter = ADAPTERS.get(source.get("type"))
-    if adapter is None:
-        return {"status": "read_failed", "detail": f"unknown source type {source.get('type')}"}, None
-    params = {key: value for key, value in source.items() if key != "type"}
-
-    method = source["type"]
-    try:
-        raw_jobs = adapter.fetch(net, params, is_strict(company))
-    except Exception as error:
-        if discovered:
-            # Forget the cached guess so tomorrow's run looks for the careers system again.
-            discovery_cache.pop(company["id"], None)
-        return {"status": "read_failed", "method": method,
-                "detail": f"{type(error).__name__}: {str(error)[:160]}"}, None
+    if raw_jobs is None:
+        try:
+            raw_jobs = adapter.fetch(net, params, is_strict(company))
+        except Exception as error:
+            if discovered:
+                # Forget the guess so the next run looks for the careers system again.
+                discovery_cache.pop(company["id"], None)
+            return {"status": "read_failed", "method": method,
+                    "detail": f"{type(error).__name__}: {str(error)[:160]}"}, None
 
     if not raw_jobs:
         # The recruitment system answered but listed nothing. That is sometimes
@@ -190,6 +208,12 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
                     text = ""
             labels = language_labels(text)
             checked = labels is not None
+
+        # A reader that lists links cannot see where a job is until the posting
+        # itself is opened. Once the location is known, a foreign one must be
+        # dropped, or a Bangkok vacancy sits in a list of Dutch openings.
+        if raw.get("location") and not keep_location(raw["location"], is_strict(company)):
+            continue
 
         jobs[job_id] = {
             "id": job_id,

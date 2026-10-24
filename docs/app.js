@@ -131,7 +131,15 @@ function jobsForTab(tab) {
 
 // ---------------------------------------------------------------- rendering
 
+// The page is a static file, so it cannot start a collection itself. The link
+// opens the run page, where one click starts it.
+const COLLECT_RUN_URL =
+  "https://github.com/ineedmorewine/nl-openings/actions/workflows/daily.yml";
+
 function renderMasthead() {
+  const refresh = $("refresh");
+  refresh.href = COLLECT_RUN_URL;
+  refresh.textContent = t("refresh");
   $("updated").textContent = state.generatedAt
     ? t("updated", {
       date: new Intl.DateTimeFormat("en-GB", { weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" })

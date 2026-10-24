@@ -48,8 +48,18 @@ button, input, select, textarea { font: inherit; color: inherit; }
   letter-spacing: -0.01em;
 }
 
+.refresh-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 18px;
+}
+
+.refresh-hint { font-size: 13px; color: var(--muted); }
+
 .updated {
-  margin: 10px 0 18px;
+  margin: 10px 0 8px;
   color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
