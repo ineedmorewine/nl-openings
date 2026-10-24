@@ -625,7 +625,10 @@
    "group": "forwarders",
    "domain": "cevalogistics.com",
    "careers_url": "https://jobs.cmacgm-group.com/CEVALogistics/?locale=en_GB",
-   "source": null,
+   "source": {
+    "type": "rmk",
+    "base_url": "https://jobs.cmacgm-group.com/CEVALogistics"
+   },
    "extra_keywords": []
   },
   {
@@ -2029,7 +2032,10 @@
    "group": "shipping",
    "domain": "cma-cgm.com",
    "careers_url": "https://jobs.cmacgm-group.com/CMACGM/?locale=en_GB",
-   "source": null,
+   "source": {
+    "type": "rmk",
+    "base_url": "https://jobs.cmacgm-group.com/CMACGM"
+   },
    "extra_keywords": []
   },
   {

@@ -18,9 +18,11 @@ MAX_POSTINGS = 60
 MAX_LIST_PAGES = 6
 
 # A posting link usually says so in the path.
+# Either "/vacatures/<slug>" or the hyphen-joined "/vacature-<slug>" both appear
+# on Dutch company sites, so accept a slash or a hyphen after the keyword.
 _JOB_PATH = re.compile(
     r"/(?:vacature|vacatures|vacancy|vacancies|job|jobs|job-openings|werken-bij|"
-    r"career|careers|stelle|offre)[s]?/[^/?#]{3,}", re.I)
+    r"career|careers|stelle|offre)[s]?[/-][^/?#]{3,}", re.I)
 # Paths that match the shape above but are never a single posting.
 _NOT_A_POSTING = re.compile(
     r"/(?:vacatures|vacancies|jobs|careers)/?$|"

@@ -161,17 +161,25 @@ def career_links(markup, page_url):
     return same_site + elsewhere
 
 
+def homepages(domain):
+    """Both spellings of a site's front page; small sites often answer on only one."""
+    if not domain:
+        return []
+    bare = domain.replace("www.", "")
+    return [f"https://{bare}/", f"https://www.{bare}/"]
+
+
 def discover(net, company):
-    """Return a dict: {source, vendor, checked_pages, reason}."""
+    """Return a dict: {source, vendor, checked_pages, reason, notes}."""
     start_pages = []
     if company.get("careers_url"):
         start_pages.append(company["careers_url"])
-    if company.get("domain"):
-        start_pages.append(f"https://{company['domain']}/")
+    start_pages.extend(homepages(company.get("domain")))
 
     queue, visited, weak_vendor = list(start_pages), [], None
-    homepage = f"https://{company['domain']}/" if company.get("domain") else None
+    fronts = set(homepages(company.get("domain")))
     reachable = False
+    notes = []
 
     while queue and len(visited) < MAX_PAGES:
         url = queue.pop(0)
@@ -180,21 +188,25 @@ def discover(net, company):
         visited.append(url)
         try:
             response = net.get(url)
-        except Exception:
+        except Exception as error:
+            # Keep why a page failed: a refusal and a bad address need different fixes.
+            notes.append(f"{url} -> {type(error).__name__}: {str(error)[:90]}")
             continue
         reachable = True
         markup = response.text
         final_url = getattr(response, "url", None) or url
         source, vendor = detect_source(markup, final_url)
-        if source and not (source["type"] == "jsonld" and url == homepage):
-            return {"source": source, "vendor": None, "checked_pages": visited, "reason": "found"}
+        if source and not (source["type"] == "jsonld" and url in fronts):
+            return {"source": source, "vendor": None, "checked_pages": visited,
+                    "reason": "found", "notes": notes}
         weak_vendor = weak_vendor or vendor
         for link in career_links(markup, final_url):
             if link not in visited and link not in queue:
                 queue.append(link)
-        if url == homepage:
+        if url in fronts and company.get("domain"):
             bare = company["domain"].replace("www.", "")
-            queue.extend(f"https://{company['domain']}{path}" for path in COMMON_PATHS)
+            for prefix in (f"https://www.{bare}", f"https://{bare}"):
+                queue.extend(prefix + path for path in COMMON_PATHS)
             queue.extend("https://" + host.format(domain=bare) + "/" for host in COMMON_HOSTS)
 
     if not reachable:
@@ -203,4 +215,5 @@ def discover(net, company):
         reason = "unsupported_vendor"
     else:
         reason = "no_careers_system_found"
-    return {"source": None, "vendor": weak_vendor, "checked_pages": visited, "reason": reason}
+    return {"source": None, "vendor": weak_vendor, "checked_pages": visited,
+            "reason": reason, "notes": notes[:6]}

@@ -151,3 +151,79 @@ class BrandedAndFallbackDetection(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+# ---------------------------------------------------------------- self-healing
+
+import json as _json
+import tempfile
+from pathlib import Path
+from unittest import mock
+
+from collector import run
+
+
+class GuessedSourceIsReconsidered(unittest.TestCase):
+    """A guessed careers system that finds nothing must not stay cached forever.
+
+    This is what kept CEVA reading the wrong company's job list: the guess was
+    stored on the first run and never looked at again.
+    """
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        base = Path(self.tmp.name)
+        (base / "data").mkdir()
+        self.paths = {
+            "COMPANIES_FILE": base / "companies.json",
+            "JOBS_FILE": base / "data/jobs.json",
+            "SOURCES_FILE": base / "data/sources.json",
+            "DISCOVERY_FILE": base / "data/discovery.json",
+            "FILTERS_FILE": Path(run.FILTERS_FILE),
+        }
+        self.paths["COMPANIES_FILE"].write_text(_json.dumps({"companies": [
+            {"id": "guessed", "name": "Guessed", "group": "road_rail", "domain": "guessed.nl"},
+            {"id": "pinned", "name": "Pinned", "group": "road_rail", "domain": "pinned.nl",
+             "source": {"type": "recruitee", "subdomain": "pinned"}},
+        ]}))
+        self.cache = {
+            "guessed": {"source": {"type": "recruitee", "subdomain": "guessed"}},
+        }
+        self.paths["DISCOVERY_FILE"].write_text(_json.dumps(self.cache))
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def run_collector(self):
+        routes = {"https://guessed.recruitee.com/api/offers/": {"offers": []},
+                  "https://pinned.recruitee.com/api/offers/": {"offers": []}}
+        with mock.patch.multiple(run, **self.paths), \
+                mock.patch.object(run, "Net", lambda: FakeNet(routes)):
+            run.main([])
+        return _json.loads(self.paths["DISCOVERY_FILE"].read_text())
+
+    def test_a_guess_that_finds_nothing_is_forgotten(self):
+        cache = self.run_collector()
+        self.assertNotIn("guessed", cache)
+
+    def test_a_hand_pinned_source_is_left_alone(self):
+        self.run_collector()
+        sources = _json.loads(self.paths["SOURCES_FILE"].read_text())["sources"]
+        pinned = [s for s in sources if s["id"] == "pinned"][0]
+        self.assertEqual(pinned["status"], "ok")
+        self.assertNotIn("retry_discovery", pinned)
+
+
+class DutchVacancyLinkShapes(unittest.TestCase):
+    """Dutch sites spell posting links two ways; both must be recognised."""
+
+    def test_hyphen_joined_links_are_found(self):
+        page = ('<a href="/vacature-transportplanner-venlo">Transportplanner Venlo</a>'
+                '<a href="/vacatures/rail-coordinator">Rail Coordinator Oost</a>')
+        found = careerpage.find_posting_links(page, "https://transporteur.nl/werken-bij")
+        self.assertEqual([t for _, t in found],
+                         ["Transportplanner Venlo", "Rail Coordinator Oost"])
+
+    def test_the_overview_page_itself_is_not_counted_as_a_posting(self):
+        page = '<a href="/vacatures">Vacatures</a><a href="/vacatures/">Onze vacatures</a>'
+        self.assertEqual(careerpage.find_posting_links(page, "https://transporteur.nl/"), [])

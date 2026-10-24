@@ -90,7 +90,8 @@ def resolve_source(net, company, discovery_cache, today):
     discovery_cache[company["id"]] = dict(result, checked_at=today)
     if result["source"]:
         return result["source"], True, None
-    return None, True, {"status": result["reason"], "vendor": result.get("vendor")}
+    return None, True, {"status": result["reason"], "vendor": result.get("vendor"),
+                        "notes": result.get("notes") or []}
 
 
 def collect_company(net, company, discovery_cache, filters, previous_by_id, today):
@@ -218,6 +219,12 @@ def main(argv=None):
             all_jobs.extend(jobs)
             entry["nl_jobs"] = len(jobs)
             entry["last_success"] = today
+            if not jobs and not company.get("source"):
+                # A guessed careers system that finds nothing may simply be the
+                # wrong one, and a cached guess would never be reconsidered.
+                # Forget it so the next run looks the company up again.
+                discovery_cache.pop(cid, None)
+                entry["retry_discovery"] = True
         sources.append(entry)
         print(f"{cid:<32} {entry['status']:<24} {entry.get('nl_jobs', 0):>4} jobs", flush=True)
 
