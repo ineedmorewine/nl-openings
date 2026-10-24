@@ -1,0 +1,3 @@
+# Python bytecode caches, written whenever the collector runs
+__pycache__/
+*.py[cod]
