@@ -602,11 +602,11 @@
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.dimerco.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/",
-   "https://dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/careers/",
    "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
    "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
    "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
-   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij"
+   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij",
+   "https://www.dimerco.com/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/werken-bij"
   ],
   "checked_at": "2026-10-24"
  },
@@ -1369,9 +1369,9 @@
   "reason": "no_careers_system_found",
   "notes": [
    "https://hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers",
+   "https://www.hmm21.com/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
    "https://www.hmm21.com/en/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers/",
+   "https://www.hmm21.com/careers/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
    "https://www.hmm21.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/nl/werken-bij",
    "https://www.hmm21.com/werken-bij -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)"
   ],
@@ -2699,10 +2699,10 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://www.careers.tollgroup.com/ -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with",
-   "https://www.tollgroup.com/careers -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with",
-   "https://www.tollgroup.com/en/careers -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with",
-   "https://www.tollgroup.com/careers/ -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with"
+   "https://www.careers.tollgroup.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
+   "https://www.tollgroup.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
+   "https://www.tollgroup.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
+   "https://www.tollgroup.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/"
   ],
   "checked_at": "2026-10-24"
  },
@@ -2728,7 +2728,7 @@
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.yamatoeurope.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/careers",
-   "https://www.yamatoeurope.com/careers/ -> ReadTimeout: HTTPSConnectionPool(host='www.yamatoeurope.com', port=443): Read timed out. (read timeout=",
+   "https://www.yamatoeurope.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/careers/",
    "https://www.yamatoeurope.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/nl/werken-bij",
    "https://www.yamatoeurope.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/werken-bij",
    "https://www.yamatoeurope.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/vacatures",
@@ -4251,5 +4251,20 @@
   ],
   "reason": "found",
   "checked_at": "2026-10-18"
+ },
+ "arthrex": {
+  "source": {
+   "type": "rmk",
+   "base_url": "https://careers.arthrex.com"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://arthrex.com/",
+   "https://www.arthrex.com/",
+   "https://www.arthrex.com/careers"
+  ],
+  "reason": "found",
+  "notes": [],
+  "checked_at": "2026-10-24"
  }
 }
