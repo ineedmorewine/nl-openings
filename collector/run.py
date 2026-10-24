@@ -15,7 +15,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from .adapters import ADAPTERS, careerpage
-from .discovery import discover
+from .discovery import discover, homepages
 from .filters import is_suitable
 from .net import Net
 from .text import dutch_required, written_in_dutch
@@ -62,27 +62,50 @@ def language_labels(text):
 
 
 def careers_link(company, discovery_cache):
-    """A page the user can open themselves when we cannot read the company.
+    """A page the person can open themselves when we cannot read the company.
 
-    Prefers the careers page discovery actually reached, then anything configured,
-    then the company website.
+    Prefers a careers page discovery actually reached, then anything configured,
+    then the company website. Both spellings of the front page count as the
+    front page, otherwise "https://www.x.com/" is mistaken for a careers page.
     """
     if company.get("careers_url"):
         return company["careers_url"]
     pages = (discovery_cache.get(company["id"]) or {}).get("checked_pages") or []
-    homepage = f"https://{company['domain']}/" if company.get("domain") else None
+    fronts = set(homepages(company.get("domain")))
     for page in pages:
-        if page != homepage:
+        if page not in fronts:
             return page
-    return homepage
+    return next(iter(sorted(fronts)), None)
 
 
-def second_opinion(net, company, discovery_cache):
-    """Read the company's careers page as plain links. Returns None if that finds nothing."""
-    link = careers_link(company, discovery_cache)
-    if not link:
+# A recruitment system's own result page is where its jobs are listed; its brand
+# landing page usually holds none. Try both when reading a site as plain links.
+SEARCH_PATHS = ["/search/", "/search", "/search-results", "/jobs", "/go/"]
+
+
+def second_opinion_pages(company, discovery_cache, source):
+    """Pages worth reading as plain links, best first, without repeats."""
+    candidates = []
+    base = (source or {}).get("base_url")
+    if base:
+        candidates.extend(base.rstrip("/") + path for path in SEARCH_PATHS)
+    candidates.append(careers_link(company, discovery_cache))
+    for page in (discovery_cache.get(company["id"]) or {}).get("checked_pages") or []:
+        candidates.append(page)
+    seen, pages = set(), []
+    for url in candidates:
+        if url and url not in seen:
+            seen.add(url)
+            pages.append(url)
+    return pages[:8]
+
+
+def second_opinion(net, company, discovery_cache, source=None):
+    """Read the company's careers pages as plain links. None if nothing is found."""
+    pages = second_opinion_pages(company, discovery_cache, source)
+    if not pages:
         return None
-    params = {"url": link}
+    params = {"urls": pages}
     try:
         jobs = careerpage.fetch(net, params, is_strict(company))
     except Exception:
@@ -133,7 +156,7 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
         # true and sometimes means its page layout is one we cannot parse, which
         # looks identical from here. Read the page as plain links before believing
         # the zero: this is what kept CEVA and Kuehne+Nagel showing no vacancies.
-        fallback = second_opinion(net, company, discovery_cache)
+        fallback = second_opinion(net, company, discovery_cache, source)
         if fallback:
             raw_jobs, adapter, params = fallback["jobs"], careerpage, fallback["params"]
             method = f"{method}+careerpage"

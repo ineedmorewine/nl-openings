@@ -283,3 +283,30 @@ class SecondOpinionOnZero(unittest.TestCase):
         self.assertEqual(source["nl_jobs"], 0)
         self.assertEqual(source["method"], "recruitee")
         self.assertEqual(jobs, [])
+
+
+class SecondOpinionPageChoice(unittest.TestCase):
+    """Which pages get read as links when a recruitment system reports nothing."""
+
+    company = {"id": "ceva", "domain": "cevalogistics.com",
+               "careers_url": "https://jobs.example.com/Brand/?locale=en_GB"}
+
+    def test_the_search_page_is_tried_before_the_brand_landing_page(self):
+        """A brand landing page lists no jobs; its search page does."""
+        pages = run.second_opinion_pages(
+            self.company, {}, {"type": "rmk", "base_url": "https://jobs.example.com/Brand"})
+        self.assertEqual(pages[0], "https://jobs.example.com/Brand/search/")
+        self.assertIn("https://jobs.example.com/Brand/?locale=en_GB", pages)
+
+    def test_the_front_page_is_not_offered_as_a_careers_page(self):
+        """Both spellings of the front page must count as the front page."""
+        cache = {"kn": {"checked_pages": ["https://www.kuehne-nagel.com/",
+                                          "https://kuehne-nagel.com/",
+                                          "https://jobs.kuehne-nagel.com/"]}}
+        link = run.careers_link({"id": "kn", "domain": "kuehne-nagel.com"}, cache)
+        self.assertEqual(link, "https://jobs.kuehne-nagel.com/")
+
+    def test_a_company_with_only_a_front_page_still_gets_a_link(self):
+        link = run.careers_link({"id": "x", "domain": "acme.nl"},
+                                {"x": {"checked_pages": ["https://acme.nl/"]}})
+        self.assertIn(link, ("https://acme.nl/", "https://www.acme.nl/"))

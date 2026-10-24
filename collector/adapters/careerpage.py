@@ -15,7 +15,7 @@ from ..text import fold, keep_location, normalize_date, strip_html
 from .jsonld import extract_job_postings, to_job
 
 MAX_POSTINGS = 60
-MAX_LIST_PAGES = 6
+MAX_LIST_PAGES = 8
 
 # A posting link usually says so in the path.
 # Either "/vacatures/<slug>" or the hyphen-joined "/vacature-<slug>" both appear
@@ -75,10 +75,11 @@ def find_posting_links(markup, page_url):
 
 
 def _list_pages(params):
-    base = params.get("base_url") or params["url"]
+    if params.get("urls"):
+        return list(params["urls"])
     if params.get("url"):
         return [params["url"]]
-    base = base.rstrip("/")
+    base = params["base_url"].rstrip("/")
     return [base + path for path in LIST_PATHS]
 
 
