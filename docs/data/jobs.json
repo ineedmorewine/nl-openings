@@ -1,6 +1,21 @@
 {
- "generated_at": "2026-10-24T16:40+00:00",
+ "generated_at": "2026-10-24T21:52+00:00",
  "jobs": [
+  {
+   "id": "bertschi:https://www.bertschi.com/en/career/road-transport-specialists",
+   "company_id": "bertschi",
+   "title": "Road Transport Specialists",
+   "location": "",
+   "url": "https://www.bertschi.com/en/career/road-transport-specialists",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
   {
    "id": "dsv:/job/Venlo-Warehouse-Supervisor-LI-5928-SC/1432300133/",
    "company_id": "dsv",
@@ -31,6 +46,333 @@
    "title": "Inventory Controller",
    "location": "Venlo, LI, NL, 5928 SC",
    "url": "https://jobs.dsv.com/job/Venlo-Inventory-Controller-LI-5928-SC/1399787833/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "ksz-transport:https://www.ksztransport.nl/nl-nl/vacature/warehouse-manager",
+   "company_id": "ksz-transport",
+   "title": "Warehouse Manager",
+   "location": "",
+   "url": "https://www.ksztransport.nl/nl-nl/vacature/warehouse-manager",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "ksz-transport:https://www.ksztransport.nl/nl-nl/vacature/retail-distributie-chauffeur",
+   "company_id": "ksz-transport",
+   "title": "Retail Distributie Chauffeur",
+   "location": "",
+   "url": "https://www.ksztransport.nl/nl-nl/vacature/retail-distributie-chauffeur",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "ksz-transport:https://www.ksztransport.nl/nl-nl/vacature/transportplanner-weekend",
+   "company_id": "ksz-transport",
+   "title": "Transportplanner Weekend",
+   "location": "",
+   "url": "https://www.ksztransport.nl/nl-nl/vacature/transportplanner-weekend",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "ksz-transport:https://www.ksztransport.nl/nl-nl/vacature/vrachtwagenchauffeur-ce-–-trekker-huifoplegger",
+   "company_id": "ksz-transport",
+   "title": "Vrachtwagenchauffeur Ce – Trekker Huifoplegger",
+   "location": "",
+   "url": "https://www.ksztransport.nl/nl-nl/vacature/vrachtwagenchauffeur-ce-–-trekker-huifoplegger",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "ksz-transport:https://www.ksztransport.nl/nl-nl/vacature/weekend-chauffeur-trekker-oplegger",
+   "company_id": "ksz-transport",
+   "title": "Weekend Chauffeur Trekker Oplegger",
+   "location": "",
+   "url": "https://www.ksztransport.nl/nl-nl/vacature/weekend-chauffeur-trekker-oplegger",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "ksz-transport:https://www.ksztransport.nl/nl-nl/vacature/administratief-medewerker-transport-fulltime",
+   "company_id": "ksz-transport",
+   "title": "Administratief Medewerker Transport Fulltime",
+   "location": "",
+   "url": "https://www.ksztransport.nl/nl-nl/vacature/administratief-medewerker-transport-fulltime",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/hr-business-partner/",
+   "company_id": "neele-vat",
+   "title": "Hr Business Partner",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/hr-business-partner/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/sales-support-employee/",
+   "company_id": "neele-vat",
+   "title": "Sales Support Employee",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/sales-support-employee/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/warehouse-team-leader/",
+   "company_id": "neele-vat",
+   "title": "Warehouse Team Leader",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/warehouse-team-leader/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/ocean-administrative-assistant/",
+   "company_id": "neele-vat",
+   "title": "Ocean Administrative Assistant",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/ocean-administrative-assistant/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/assistant-finance/",
+   "company_id": "neele-vat",
+   "title": "Assistant Finance",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/assistant-finance/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/business-process-analyst/",
+   "company_id": "neele-vat",
+   "title": "Business Process Analyst",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/business-process-analyst/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/field-service-terminal-employee/",
+   "company_id": "neele-vat",
+   "title": "Field Service Terminal Employee",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/field-service-terminal-employee/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/accounts-payable-specialist/",
+   "company_id": "neele-vat",
+   "title": "Accounts Payable Specialist",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/accounts-payable-specialist/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/it-support/",
+   "company_id": "neele-vat",
+   "title": "It Support",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/it-support/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/inside-sales-ocean/",
+   "company_id": "neele-vat",
+   "title": "Inside Sales Ocean",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/inside-sales-ocean/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/shipspares-specialist/",
+   "company_id": "neele-vat",
+   "title": "Shipspares Specialist",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/shipspares-specialist/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/truck-driver-ce/",
+   "company_id": "neele-vat",
+   "title": "Truck Driver Ce",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/truck-driver-ce/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/team-leader-warehouse-2/",
+   "company_id": "neele-vat",
+   "title": "Team Leader Warehouse",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/team-leader-warehouse-2/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/ovbe-sheq-manager/",
+   "company_id": "neele-vat",
+   "title": "Ovbe Sheq Manager",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/ovbe-sheq-manager/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/process-engineer/",
+   "company_id": "neele-vat",
+   "title": "Process Engineer",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/process-engineer/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/customer-service-employee-belgium/",
+   "company_id": "neele-vat",
+   "title": "Customer Service Employee Belgium",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/customer-service-employee-belgium/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/warehouse-worker-2/",
+   "company_id": "neele-vat",
+   "title": "Warehouse Worker",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/warehouse-worker-2/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/vocational-trainee/",
+   "company_id": "neele-vat",
+   "title": "Vocational Trainee",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/vocational-trainee/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/hbo-intern/",
+   "company_id": "neele-vat",
+   "title": "Hbo Intern",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/hbo-intern/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "aircargo-nl:https://aircargo.nl/fr/apropos/offres-demploi",
+   "company_id": "aircargo-nl",
+   "title": "Offres Demploi",
+   "location": "",
+   "url": "https://aircargo.nl/fr/apropos/offres-demploi",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/chauffeur-avond-nacht/",
+   "company_id": "gd-its-forwarding",
+   "title": "Chauffeur Avond Nacht",
+   "location": "",
+   "url": "https://gd-its.nl/werken-bij/chauffeur-avond-nacht/",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -86,9 +428,33 @@
    "baseline": true
   },
   {
+   "id": "kln-logistics:https://www.kln.com:443/tc/careers/working-at-kln/",
+   "company_id": "kln-logistics",
+   "title": "Working At Kln",
+   "location": "",
+   "url": "https://www.kln.com:443/tc/careers/working-at-kln/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "kln-logistics:https://www.kln.com:443/sc/careers/working-at-kln/",
+   "company_id": "kln-logistics",
+   "title": "Working At Kln",
+   "location": "",
+   "url": "https://www.kln.com:443/sc/careers/working-at-kln/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
    "id": "maersk:https://www.maersk.com/news/articles/2024/11/26/career-development-challenges-and-self-discovery-at-maersk",
    "company_id": "maersk",
-   "title": "Career Development, Challenges, and Self-discovery at Maersk",
+   "title": "Career Development Challenges And Self Discovery At Maersk",
    "location": "",
    "url": "https://www.maersk.com/news/articles/2024/11/26/career-development-challenges-and-self-discovery-at-maersk",
    "posted_at": null,
@@ -578,6 +944,18 @@
    "baseline": false
   },
   {
+   "id": "stena-line:https://stenaline.com/job-openings/3715/messmate-messmaid",
+   "company_id": "stena-line",
+   "title": "Messmate Messmaid",
+   "location": "",
+   "url": "https://stenaline.com/job-openings/3715/messmate-messmaid",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
    "id": "port-of-rotterdam:https://www.portofrotterdam.com/nl/over-het-havenbedrijf/werken-bij-het-havenbedrijf",
    "company_id": "port-of-rotterdam",
    "title": "Verdergaan naar primaire inhoud",
@@ -590,263 +968,11 @@
    "baseline": false
   },
   {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Glendale-Orthopedic-Sales-Representative%2C-ExtremitiesTrauma-AZ-85306/1353589157/",
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Valdosta-Orthopedic-Sales-Representative%2C-ExtremitiesTrauma-ME-31602/1351049557/",
    "company_id": "arthrex",
    "title": "Orthopedic Sales Representative, Extremities/Trauma",
    "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Glendale-Orthopedic-Sales-Representative%2C-ExtremitiesTrauma-AZ-85306/1353589157/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Fort-Lauderdale-Orthopedic-Associate-Sales-Representative%2C-Cardiothoracic-FL-33309/1347779757/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Associate Sales Representative, Cardiothoracic",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Fort-Lauderdale-Orthopedic-Associate-Sales-Representative%2C-Cardiothoracic-FL-33309/1347779757/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Chattanooga-Orthopedic-Associate-Sales-Representative-TN-37918/1235193800/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Associate Sales Representative",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Chattanooga-Orthopedic-Associate-Sales-Representative-TN-37918/1235193800/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/DallasFort-Worth-Orthopedic-Associate-Sales-Representative-TX-76051/1339514600/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Associate Sales Representative",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/DallasFort-Worth-Orthopedic-Associate-Sales-Representative-TX-76051/1339514600/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Tallahassee-Orthopedic-Sales-Representative%2C-Sports-Medicine-FL-32308/1351048757/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Sales Representative, Sports Medicine",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Tallahassee-Orthopedic-Sales-Representative%2C-Sports-Medicine-FL-32308/1351048757/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Spring-Orthopedic-Sales-Representative%2C-Sports-Medicine-TX-77387/1237289900/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Sales Representative, Sports Medicine",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Spring-Orthopedic-Sales-Representative%2C-Sports-Medicine-TX-77387/1237289900/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Omaha-Orthopedic-Associate-Sales-Representative-NE-68130/1237311300/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Associate Sales Representative",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Omaha-Orthopedic-Associate-Sales-Representative-NE-68130/1237311300/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Augusta-Orthopedic-Associate-Sales-Representative-GA-30804/1235179000/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Associate Sales Representative",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Augusta-Orthopedic-Associate-Sales-Representative-GA-30804/1235179000/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Birmingham-Orthopedic-Associate-Sales-Representative-AL-35243/1235156000/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Associate Sales Representative",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Birmingham-Orthopedic-Associate-Sales-Representative-AL-35243/1235156000/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Whiteville-Orthopedic-Associate-Sales-Representative-NC-28472/1340289200/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Associate Sales Representative",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Whiteville-Orthopedic-Associate-Sales-Representative-NC-28472/1340289200/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Sioux-City-Orthopedic-Senior-Sales-Leader%2C-ExtremitiesTrauma-IA-51104/1237302100/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Senior Sales Leader, Extremities/Trauma",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Sioux-City-Orthopedic-Senior-Sales-Leader%2C-ExtremitiesTrauma-IA-51104/1237302100/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Eugene-Orthopedic-Senior-Sales-Leader%2C-Sports-Medicine-OR-97477/1362453657/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Senior Sales Leader, Sports Medicine",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Eugene-Orthopedic-Senior-Sales-Leader%2C-Sports-Medicine-OR-97477/1362453657/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/Germany/job/Magdeburg-Vertriebsau%C3%9Fendienst-Sportmedizin-Magdeburg-%28mwd%29/1354720257/",
-   "company_id": "arthrex",
-   "title": "Vertriebsaußendienst - Sportmedizin - Magdeburg (m/w/d)",
-   "location": "",
-   "url": "https://careers.arthrex.com/Germany/job/Magdeburg-Vertriebsau%C3%9Fendienst-Sportmedizin-Magdeburg-%28mwd%29/1354720257/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/SavannahAugusta-Orthopedic-Senior-Sales-Leader%2C-ExtremitiesTrauma-GA-30445/1235179300/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Senior Sales Leader, Extremities/Trauma",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/SavannahAugusta-Orthopedic-Senior-Sales-Leader%2C-ExtremitiesTrauma-GA-30445/1235179300/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Clayton-Orthopedic-Associate-Sales-Representative-NC-27520/1362309657/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Associate Sales Representative",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Clayton-Orthopedic-Associate-Sales-Representative-NC-27520/1362309657/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Lisle-Orthopedic-Senior-Sales-Leader%2C-Cardiothoracic-IL-60532/1365210257/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Senior Sales Leader, Cardiothoracic",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Lisle-Orthopedic-Senior-Sales-Leader%2C-Cardiothoracic-IL-60532/1365210257/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Ocala-Orthopedic-Sales-Representative%2C-Sports-Medicine-FL-34471/1351049057/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Sales Representative, Sports Medicine",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Ocala-Orthopedic-Sales-Representative%2C-Sports-Medicine-FL-34471/1351049057/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/Australia/job/Brisbane-Loan-Kit-Technician-QLD/1373156057/",
-   "company_id": "arthrex",
-   "title": "Loan Kit Technician - QLD",
-   "location": "",
-   "url": "https://careers.arthrex.com/Australia/job/Brisbane-Loan-Kit-Technician-QLD/1373156057/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Naples-Sr_-Business-Systems-Analyst-Validation-%28CSA%29-Governance-&amp;-Process-Support-FL-34108/1370571957/",
-   "company_id": "arthrex",
-   "title": "Sr. Business Systems Analyst - Validation (CSA) Governance & Process Support",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Naples-Sr_-Business-Systems-Analyst-Validation-%28CSA%29-Governance-&amp;-Process-Support-FL-34108/1370571957/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/Australia/job/Sydney-IT-Support-Specialist/1370516257/",
-   "company_id": "arthrex",
-   "title": "IT Support Specialist",
-   "location": "",
-   "url": "https://careers.arthrex.com/Australia/job/Sydney-IT-Support-Specialist/1370516257/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Naples-Intranet-Design-and-Program-Specialist-FL-34108/1373219557/",
-   "company_id": "arthrex",
-   "title": "Intranet Design and Program Specialist",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/Naples-Intranet-Design-and-Program-Specialist-FL-34108/1373219557/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/PhoenixScottsdale-Orthopedic-Senior-Sales-Leader-AZ-85257/1314532500/",
-   "company_id": "arthrex",
-   "title": "Orthopedic Senior Sales Leader",
-   "location": "",
-   "url": "https://careers.arthrex.com/NorthAmerica/job/PhoenixScottsdale-Orthopedic-Senior-Sales-Leader-AZ-85257/1314532500/",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Valdosta-Orthopedic-Sales-Representative%2C-ExtremitiesTrauma-ME-31602/1351049557/",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -866,6 +992,30 @@
    "baseline": false
   },
   {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Birmingham-Orthopedic-Senior-Sales-Leader-AL-35243/1280499300/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Senior Sales Leader",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Birmingham-Orthopedic-Senior-Sales-Leader-AL-35243/1280499300/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Sioux-Falls-Orthopedic-Associate-Sales-Representative-SD-57105/1237305100/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Associate Sales Representative",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Sioux-Falls-Orthopedic-Associate-Sales-Representative-SD-57105/1237305100/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
    "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Boise-Orthopedic-Associate-Sales-Representative-ID-83709/1346783000/",
    "company_id": "arthrex",
    "title": "Orthopedic Associate Sales Representative",
@@ -878,11 +1028,239 @@
    "baseline": false
   },
   {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Chattanooga-Orthopedic-Associate-Sales-Representative-TN-37918/1235193800/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Associate Sales Representative",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Chattanooga-Orthopedic-Associate-Sales-Representative-TN-37918/1235193800/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Houston-Orthopedic-Sales-Representative%2C-Sports-Medicine-TX-77051/1237290700/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Sales Representative, Sports Medicine",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Houston-Orthopedic-Sales-Representative%2C-Sports-Medicine-TX-77051/1237290700/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/SavannahAugusta-Orthopedic-Senior-Sales-Leader%2C-ExtremitiesTrauma-GA-30445/1235179300/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Senior Sales Leader, Extremities/Trauma",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/SavannahAugusta-Orthopedic-Senior-Sales-Leader%2C-ExtremitiesTrauma-GA-30445/1235179300/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Orlando%2C-Daytona%2C-Melbourne-Orthopedic-Sales-Representative-FL-32804/1235125000/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Sales Representative",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Orlando%2C-Daytona%2C-Melbourne-Orthopedic-Sales-Representative-FL-32804/1235125000/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Birmingham-Orthopedic-Associate-Sales-Representative-AL-35243/1235156000/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Associate Sales Representative",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Birmingham-Orthopedic-Associate-Sales-Representative-AL-35243/1235156000/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Savannah-Orthopedic-Associate-Sales-Representative-GA-31302/1235179200/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Associate Sales Representative",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Savannah-Orthopedic-Associate-Sales-Representative-GA-31302/1235179200/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Green-Bay-Orthopedic-Senior-Sales-Leader%2C-Cardiothoracic-WI-54304/1351733357/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Senior Sales Leader, Cardiothoracic",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Green-Bay-Orthopedic-Senior-Sales-Leader%2C-Cardiothoracic-WI-54304/1351733357/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Auburn-Area-Orthopedic-Sales-Representative%2C-Sports-Medicine-AL-36849/1351049357/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Sales Representative, Sports Medicine",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Auburn-Area-Orthopedic-Sales-Representative%2C-Sports-Medicine-AL-36849/1351049357/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Spring-Orthopedic-Associate-Sales-Representative-TX-77387/1237293200/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Associate Sales Representative",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Spring-Orthopedic-Associate-Sales-Representative-TX-77387/1237293200/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Dover-Orthopedic-Sales-Representative%2C-ExtremitiesTrauma-DE-19901/1350188157/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Sales Representative, Extremities/Trauma",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Dover-Orthopedic-Sales-Representative%2C-ExtremitiesTrauma-DE-19901/1350188157/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Egg-Harbor-Township-Orthopedic-Sales-Representative%2C-Sports-Medicine-DE-08232/1324354300/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Sales Representative, Sports Medicine",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Egg-Harbor-Township-Orthopedic-Sales-Representative%2C-Sports-Medicine-DE-08232/1324354300/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Ave-Maria-Manager-Manufacturing-Engineering-FL-34142/1370606057/",
+   "company_id": "arthrex",
+   "title": "Manager-Manufacturing Engineering",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Ave-Maria-Manager-Manufacturing-Engineering-FL-34142/1370606057/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Omaha-Orthopedic-Associate-Sales-Representative-NE-68130/1237311300/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Associate Sales Representative",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Omaha-Orthopedic-Associate-Sales-Representative-NE-68130/1237311300/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Ocala-Orthopedic-Sales-Representative%2C-Sports-Medicine-FL-34471/1351049057/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Sales Representative, Sports Medicine",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Ocala-Orthopedic-Sales-Representative%2C-Sports-Medicine-FL-34471/1351049057/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Reading-Orthopedic-Associate-Sales-Representative-PA-19610/1281198700/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Associate Sales Representative",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Reading-Orthopedic-Associate-Sales-Representative-PA-19610/1281198700/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Spring-Orthopedic-Sales-Representative%2C-Sports-Medicine-TX-77387/1237289900/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Sales Representative, Sports Medicine",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Spring-Orthopedic-Sales-Representative%2C-Sports-Medicine-TX-77387/1237289900/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
    "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Lancaster-Orthopedic-Associate-Sales-Representative-PA-17601/1281197800/",
    "company_id": "arthrex",
    "title": "Orthopedic Associate Sales Representative",
    "location": "",
    "url": "https://careers.arthrex.com/NorthAmerica/job/Lancaster-Orthopedic-Associate-Sales-Representative-PA-17601/1281197800/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Tallahassee-Orthopedic-Sales-Representative%2C-Sports-Medicine-FL-32308/1351048757/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Sales Representative, Sports Medicine",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Tallahassee-Orthopedic-Sales-Representative%2C-Sports-Medicine-FL-32308/1351048757/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Sioux-City-Orthopedic-Sales-Representative%2C-Arthroplasty-IA-51104/1237300400/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Sales Representative, Arthroplasty",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Sioux-City-Orthopedic-Sales-Representative%2C-Arthroplasty-IA-51104/1237300400/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "arthrex:https://careers.arthrex.com/NorthAmerica/job/Lisle-Orthopedic-Senior-Sales-Leader%2C-Cardiothoracic-IL-60532/1365210257/",
+   "company_id": "arthrex",
+   "title": "Orthopedic Senior Sales Leader, Cardiothoracic",
+   "location": "",
+   "url": "https://careers.arthrex.com/NorthAmerica/job/Lisle-Orthopedic-Senior-Sales-Leader%2C-Cardiothoracic-IL-60532/1365210257/",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -1061,9 +1439,9 @@
    "id": "henkel:https://henkel.com/careers/find-your-job-apply/2260522-2260522",
    "company_id": "henkel",
    "title": "Demand Planner − Thailand, Bangkok, Consumer Brands, Logistics / Supply Chain",
-   "location": "Bangkok, Bangkok, Thailand",
+   "location": "",
    "url": "https://henkel.com/careers/find-your-job-apply/2260522-2260522",
-   "posted_at": "2026-10-24",
+   "posted_at": null,
    "labels": {
     "dutch_required": false,
     "written_in_dutch": false
@@ -1241,6 +1619,18 @@
    "baseline": false
   },
   {
+   "id": "samsung-electronics-europe-logistics:https://www.samsung.com/us/careers/giving-back/",
+   "company_id": "samsung-electronics-europe-logistics",
+   "title": "Giving Back",
+   "location": "",
+   "url": "https://www.samsung.com/us/careers/giving-back/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
    "id": "samsung-electronics-europe-logistics:https://www.samsung.com/us/careers/benefits/",
    "company_id": "samsung-electronics-europe-logistics",
    "title": "Learn more",
@@ -1265,95 +1655,11 @@
    "baseline": false
   },
   {
-   "id": "samsung-electronics-europe-logistics:https://www.samsung.com/us/careers/giving-back/",
-   "company_id": "samsung-electronics-europe-logistics",
-   "title": "Learn more",
-   "location": "",
-   "url": "https://www.samsung.com/us/careers/giving-back/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
    "id": "scania:https://jobs.scania.com/content/Career-Location-T3/?locale=en_US",
    "company_id": "scania",
    "title": "Career locations",
    "location": "",
    "url": "https://jobs.scania.com/content/Career-Location-T3/?locale=en_US",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://jobs.scania.com/job/GRAND-BOURG-Pasante-de-Log%C3%ADstica-Centro-de-distribuci%C3%B3n-1667/1215564201/",
-   "company_id": "scania",
-   "title": "Pasante de Logística - Centro de distribución",
-   "location": "",
-   "url": "https://jobs.scania.com/job/GRAND-BOURG-Pasante-de-Log%C3%ADstica-Centro-de-distribuci%C3%B3n-1667/1215564201/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://jobs.scania.com/job/Budapest-Aut%C3%B3szerel%C5%91-Budapest-1152/1441492333/",
-   "company_id": "scania",
-   "title": "Autószerelő Budapest",
-   "location": "",
-   "url": "https://jobs.scania.com/job/Budapest-Aut%C3%B3szerel%C5%91-Budapest-1152/1441492333/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://jobs.scania.com/job/Budapest-Technician-Budapest-1152/1441492433/",
-   "company_id": "scania",
-   "title": "Technician - Budapest",
-   "location": "",
-   "url": "https://jobs.scania.com/job/Budapest-Technician-Budapest-1152/1441492433/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://jobs.scania.com/job/Oskarshamn-Underh%C3%A5llstekniker-inom-Mekanik-till-Scania-Oskarshamn-572-36/1441460433/",
-   "company_id": "scania",
-   "title": "Underhållstekniker inom Mekanik till Scania Oskarshamn",
-   "location": "",
-   "url": "https://jobs.scania.com/job/Oskarshamn-Underh%C3%A5llstekniker-inom-Mekanik-till-Scania-Oskarshamn-572-36/1441460433/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://jobs.scania.com/job/Breda-Administratief-medewerker-sales-support-4815-HV/1441433333/",
-   "company_id": "scania",
-   "title": "Administratief medewerker sales support",
-   "location": "",
-   "url": "https://jobs.scania.com/job/Breda-Administratief-medewerker-sales-support-4815-HV/1441433333/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://jobs.scania.com/job/Chiba-Service-Technician-%E6%95%B4%E5%82%99%E5%A3%AB-%E5%8D%83%E8%91%89-286-0225/1420062333/",
-   "company_id": "scania",
-   "title": "Service Technician/ 整備士 千葉",
-   "location": "",
-   "url": "https://jobs.scania.com/job/Chiba-Service-Technician-%E6%95%B4%E5%82%99%E5%A3%AB-%E5%8D%83%E8%91%89-286-0225/1420062333/",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -1373,35 +1679,11 @@
    "baseline": false
   },
   {
-   "id": "scania:https://jobs.scania.com/job/Torrej%C3%B3n-Ardoz-Mec%C3%A1nicoa-oficial-de-primera-Scania-Madrid-M-28850/1399197333/",
+   "id": "scania:https://jobs.scania.com/job/Chiba-Service-Technician-%E6%95%B4%E5%82%99%E5%A3%AB-%E5%8D%83%E8%91%89-286-0225/1420062333/",
    "company_id": "scania",
-   "title": "Mecánico/a oficial de primera Scania Madrid",
+   "title": "Service Technician/ 整備士 千葉",
    "location": "",
-   "url": "https://jobs.scania.com/job/Torrej%C3%B3n-Ardoz-Mec%C3%A1nicoa-oficial-de-primera-Scania-Madrid-M-28850/1399197333/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://jobs.scania.com/job/CriciumaSC-MECANICO-II-88812-001/1399513433/",
-   "company_id": "scania",
-   "title": "MECANICO II",
-   "location": "",
-   "url": "https://jobs.scania.com/job/CriciumaSC-MECANICO-II-88812-001/1399513433/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://jobs.scania.com/job/Oudsbergen-Management-Assistant-3660/1399409633/",
-   "company_id": "scania",
-   "title": "Management Assistant",
-   "location": "",
-   "url": "https://jobs.scania.com/job/Oudsbergen-Management-Assistant-3660/1399409633/",
+   "url": "https://jobs.scania.com/job/Chiba-Service-Technician-%E6%95%B4%E5%82%99%E5%A3%AB-%E5%8D%83%E8%91%89-286-0225/1420062333/",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -1433,11 +1715,95 @@
    "baseline": false
   },
   {
+   "id": "scania:https://jobs.scania.com/job/GRAND-BOURG-Pasante-de-Log%C3%ADstica-Centro-de-distribuci%C3%B3n-1667/1215564201/",
+   "company_id": "scania",
+   "title": "Pasante de Logística - Centro de distribución",
+   "location": "",
+   "url": "https://jobs.scania.com/job/GRAND-BOURG-Pasante-de-Log%C3%ADstica-Centro-de-distribuci%C3%B3n-1667/1215564201/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
    "id": "scania:https://jobs.scania.com/job/SAPUCAIA-DO-SUL-MECANICO-III-RS-93212-220/1399508333/",
    "company_id": "scania",
    "title": "MECANICO III",
    "location": "",
    "url": "https://jobs.scania.com/job/SAPUCAIA-DO-SUL-MECANICO-III-RS-93212-220/1399508333/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://jobs.scania.com/job/CLUJ-Scania-Salesperson-Bistrita-407360/1430756033/",
+   "company_id": "scania",
+   "title": "Scania Salesperson Bistrita",
+   "location": "",
+   "url": "https://jobs.scania.com/job/CLUJ-Scania-Salesperson-Bistrita-407360/1430756033/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://jobs.scania.com/job/Breda-Administratief-medewerker-sales-support-4815-HV/1441433333/",
+   "company_id": "scania",
+   "title": "Administratief medewerker sales support",
+   "location": "",
+   "url": "https://jobs.scania.com/job/Breda-Administratief-medewerker-sales-support-4815-HV/1441433333/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://jobs.scania.com/job/Budapest-Technician-Budapest-1152/1441492433/",
+   "company_id": "scania",
+   "title": "Technician - Budapest",
+   "location": "",
+   "url": "https://jobs.scania.com/job/Budapest-Technician-Budapest-1152/1441492433/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://jobs.scania.com/job/Budapest-Aut%C3%B3szerel%C5%91-Budapest-1152/1441492333/",
+   "company_id": "scania",
+   "title": "Autószerelő Budapest",
+   "location": "",
+   "url": "https://jobs.scania.com/job/Budapest-Aut%C3%B3szerel%C5%91-Budapest-1152/1441492333/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://jobs.scania.com/job/Torrej%C3%B3n-Ardoz-Mec%C3%A1nicoa-eventual-oficial-de-tercera-Scania-Madrid-M-28850/1441241433/",
+   "company_id": "scania",
+   "title": "Mecánico/a eventual oficial de tercera Scania Madrid",
+   "location": "",
+   "url": "https://jobs.scania.com/job/Torrej%C3%B3n-Ardoz-Mec%C3%A1nicoa-eventual-oficial-de-tercera-Scania-Madrid-M-28850/1441241433/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://jobs.scania.com/job/CriciumaSC-MECANICO-II-88812-001/1399513433/",
+   "company_id": "scania",
+   "title": "MECANICO II",
+   "location": "",
+   "url": "https://jobs.scania.com/job/CriciumaSC-MECANICO-II-88812-001/1399513433/",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -1457,11 +1823,23 @@
    "baseline": false
   },
   {
-   "id": "scania:https://jobs.scania.com/job/Torrej%C3%B3n-Ardoz-Mec%C3%A1nicoa-eventual-oficial-de-tercera-Scania-Madrid-M-28850/1441241433/",
+   "id": "scania:https://jobs.scania.com/job/Torrej%C3%B3n-Ardoz-Mec%C3%A1nicoa-oficial-de-primera-Scania-Madrid-M-28850/1399197333/",
    "company_id": "scania",
-   "title": "Mecánico/a eventual oficial de tercera Scania Madrid",
+   "title": "Mecánico/a oficial de primera Scania Madrid",
    "location": "",
-   "url": "https://jobs.scania.com/job/Torrej%C3%B3n-Ardoz-Mec%C3%A1nicoa-eventual-oficial-de-tercera-Scania-Madrid-M-28850/1441241433/",
+   "url": "https://jobs.scania.com/job/Torrej%C3%B3n-Ardoz-Mec%C3%A1nicoa-oficial-de-primera-Scania-Madrid-M-28850/1399197333/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://jobs.scania.com/job/Oskarshamn-Underh%C3%A5llstekniker-inom-Mekanik-till-Scania-Oskarshamn-572-36/1441460433/",
+   "company_id": "scania",
+   "title": "Underhållstekniker inom Mekanik till Scania Oskarshamn",
+   "location": "",
+   "url": "https://jobs.scania.com/job/Oskarshamn-Underh%C3%A5llstekniker-inom-Mekanik-till-Scania-Oskarshamn-572-36/1441460433/",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -1625,78 +2003,6 @@
    "baseline": false
   },
   {
-   "id": "scania:https://www.scania.com/job/GRAND-BOURG-Pasante-de-Log%C3%ADstica-Centro-de-distribuci%C3%B3n-1667/1215564201/",
-   "company_id": "scania",
-   "title": "Pasante de Logística - Centro de distribución",
-   "location": "",
-   "url": "https://www.scania.com/job/GRAND-BOURG-Pasante-de-Log%C3%ADstica-Centro-de-distribuci%C3%B3n-1667/1215564201/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://www.scania.com/job/Budapest-Aut%C3%B3szerel%C5%91-Budapest-1152/1441492333/",
-   "company_id": "scania",
-   "title": "Autószerelő Budapest",
-   "location": "",
-   "url": "https://www.scania.com/job/Budapest-Aut%C3%B3szerel%C5%91-Budapest-1152/1441492333/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://www.scania.com/job/Budapest-Technician-Budapest-1152/1441492433/",
-   "company_id": "scania",
-   "title": "Technician - Budapest",
-   "location": "",
-   "url": "https://www.scania.com/job/Budapest-Technician-Budapest-1152/1441492433/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://www.scania.com/job/Oskarshamn-Underh%C3%A5llstekniker-inom-Mekanik-till-Scania-Oskarshamn-572-36/1441460433/",
-   "company_id": "scania",
-   "title": "Underhållstekniker inom Mekanik till Scania Oskarshamn",
-   "location": "",
-   "url": "https://www.scania.com/job/Oskarshamn-Underh%C3%A5llstekniker-inom-Mekanik-till-Scania-Oskarshamn-572-36/1441460433/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://www.scania.com/job/Breda-Administratief-medewerker-sales-support-4815-HV/1441433333/",
-   "company_id": "scania",
-   "title": "Administratief medewerker sales support",
-   "location": "",
-   "url": "https://www.scania.com/job/Breda-Administratief-medewerker-sales-support-4815-HV/1441433333/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://www.scania.com/job/Chiba-Service-Technician-%E6%95%B4%E5%82%99%E5%A3%AB-%E5%8D%83%E8%91%89-286-0225/1420062333/",
-   "company_id": "scania",
-   "title": "Service Technician/ 整備士 千葉",
-   "location": "",
-   "url": "https://www.scania.com/job/Chiba-Service-Technician-%E6%95%B4%E5%82%99%E5%A3%AB-%E5%8D%83%E8%91%89-286-0225/1420062333/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
    "id": "scania:https://www.scania.com/job/Fukuoka-Service-Technician-%E6%95%B4%E5%82%99%E5%A3%AB-%E5%8C%97%E4%B9%9D%E5%B7%9E-800-0212/1420084233/",
    "company_id": "scania",
    "title": "Service Technician/ 整備士 北九州",
@@ -1709,35 +2015,11 @@
    "baseline": false
   },
   {
-   "id": "scania:https://www.scania.com/job/Torrej%C3%B3n-Ardoz-Mec%C3%A1nicoa-oficial-de-primera-Scania-Madrid-M-28850/1399197333/",
+   "id": "scania:https://www.scania.com/job/Chiba-Service-Technician-%E6%95%B4%E5%82%99%E5%A3%AB-%E5%8D%83%E8%91%89-286-0225/1420062333/",
    "company_id": "scania",
-   "title": "Mecánico/a oficial de primera Scania Madrid",
+   "title": "Service Technician/ 整備士 千葉",
    "location": "",
-   "url": "https://www.scania.com/job/Torrej%C3%B3n-Ardoz-Mec%C3%A1nicoa-oficial-de-primera-Scania-Madrid-M-28850/1399197333/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://www.scania.com/job/CriciumaSC-MECANICO-II-88812-001/1399513433/",
-   "company_id": "scania",
-   "title": "MECANICO II",
-   "location": "",
-   "url": "https://www.scania.com/job/CriciumaSC-MECANICO-II-88812-001/1399513433/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "scania:https://www.scania.com/job/Oudsbergen-Management-Assistant-3660/1399409633/",
-   "company_id": "scania",
-   "title": "Management Assistant",
-   "location": "",
-   "url": "https://www.scania.com/job/Oudsbergen-Management-Assistant-3660/1399409633/",
+   "url": "https://www.scania.com/job/Chiba-Service-Technician-%E6%95%B4%E5%82%99%E5%A3%AB-%E5%8D%83%E8%91%89-286-0225/1420062333/",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -1769,6 +2051,18 @@
    "baseline": false
   },
   {
+   "id": "scania:https://www.scania.com/job/GRAND-BOURG-Pasante-de-Log%C3%ADstica-Centro-de-distribuci%C3%B3n-1667/1215564201/",
+   "company_id": "scania",
+   "title": "Pasante de Logística - Centro de distribución",
+   "location": "",
+   "url": "https://www.scania.com/job/GRAND-BOURG-Pasante-de-Log%C3%ADstica-Centro-de-distribuci%C3%B3n-1667/1215564201/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
    "id": "scania:https://www.scania.com/job/SAPUCAIA-DO-SUL-MECANICO-III-RS-93212-220/1399508333/",
    "company_id": "scania",
    "title": "MECANICO III",
@@ -1781,11 +2075,47 @@
    "baseline": false
   },
   {
-   "id": "scania:https://www.scania.com/job/BAHIA-BLANCA-Vendedor-de-Unidades-8000/1441153033/",
+   "id": "scania:https://www.scania.com/job/CLUJ-Scania-Salesperson-Bistrita-407360/1430756033/",
    "company_id": "scania",
-   "title": "Vendedor de Unidades",
+   "title": "Scania Salesperson Bistrita",
    "location": "",
-   "url": "https://www.scania.com/job/BAHIA-BLANCA-Vendedor-de-Unidades-8000/1441153033/",
+   "url": "https://www.scania.com/job/CLUJ-Scania-Salesperson-Bistrita-407360/1430756033/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/job/Breda-Administratief-medewerker-sales-support-4815-HV/1441433333/",
+   "company_id": "scania",
+   "title": "Administratief medewerker sales support",
+   "location": "",
+   "url": "https://www.scania.com/job/Breda-Administratief-medewerker-sales-support-4815-HV/1441433333/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/job/Budapest-Technician-Budapest-1152/1441492433/",
+   "company_id": "scania",
+   "title": "Technician - Budapest",
+   "location": "",
+   "url": "https://www.scania.com/job/Budapest-Technician-Budapest-1152/1441492433/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/job/Budapest-Aut%C3%B3szerel%C5%91-Budapest-1152/1441492333/",
+   "company_id": "scania",
+   "title": "Autószerelő Budapest",
+   "location": "",
+   "url": "https://www.scania.com/job/Budapest-Aut%C3%B3szerel%C5%91-Budapest-1152/1441492333/",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -1805,9 +2135,57 @@
    "baseline": false
   },
   {
+   "id": "scania:https://www.scania.com/job/CriciumaSC-MECANICO-II-88812-001/1399513433/",
+   "company_id": "scania",
+   "title": "MECANICO II",
+   "location": "",
+   "url": "https://www.scania.com/job/CriciumaSC-MECANICO-II-88812-001/1399513433/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/job/BAHIA-BLANCA-Vendedor-de-Unidades-8000/1441153033/",
+   "company_id": "scania",
+   "title": "Vendedor de Unidades",
+   "location": "",
+   "url": "https://www.scania.com/job/BAHIA-BLANCA-Vendedor-de-Unidades-8000/1441153033/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/job/Torrej%C3%B3n-Ardoz-Mec%C3%A1nicoa-oficial-de-primera-Scania-Madrid-M-28850/1399197333/",
+   "company_id": "scania",
+   "title": "Mecánico/a oficial de primera Scania Madrid",
+   "location": "",
+   "url": "https://www.scania.com/job/Torrej%C3%B3n-Ardoz-Mec%C3%A1nicoa-oficial-de-primera-Scania-Madrid-M-28850/1399197333/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/job/Oskarshamn-Underh%C3%A5llstekniker-inom-Mekanik-till-Scania-Oskarshamn-572-36/1441460433/",
+   "company_id": "scania",
+   "title": "Underhållstekniker inom Mekanik till Scania Oskarshamn",
+   "location": "",
+   "url": "https://www.scania.com/job/Oskarshamn-Underh%C3%A5llstekniker-inom-Mekanik-till-Scania-Oskarshamn-572-36/1441460433/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2725793-AI-Motion-Expert-(all-genders)",
    "company_id": "zalando",
-   "title": "AI Motion Expert (all genders) Creative Production Berlin View job",
+   "title": "2725793 AI Motion Expert (all Genders)",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2725793-AI-Motion-Expert-(all-genders)",
    "posted_at": null,
@@ -1819,7 +2197,7 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2726213-Fulfillment-and-Return-Operational-Lead-(all-gende",
    "company_id": "zalando",
-   "title": "Fulfillment and Return Operational Lead (all genders) Logistics & Supply Chain Altenkunstadt View job",
+   "title": "2726213 Fulfillment And Return Operational Lead (all Gende",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2726213-Fulfillment-and-Return-Operational-Lead-(all-gende",
    "posted_at": null,
@@ -1831,7 +2209,7 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2725093-SAP-Security-Consultant-(all-genders)",
    "company_id": "zalando",
-   "title": "SAP Security Consultant (all genders) IT Consulting & Operations Bucharest View job",
+   "title": "2725093 SAP Security Consultant (all Genders)",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2725093-SAP-Security-Consultant-(all-genders)",
    "posted_at": null,
@@ -1843,7 +2221,7 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2725281-Principal-Software-Engineer---Zalando-Payments-(al",
    "company_id": "zalando",
-   "title": "Principal Software Engineer - Zalando Payments (all genders) Principal Engineering Berlin View job",
+   "title": "2725281 Principal Software Engineer Zalando Payments (al",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2725281-Principal-Software-Engineer---Zalando-Payments-(al",
    "posted_at": null,
@@ -1855,7 +2233,7 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2725969-Creative-Strategy-Manager-%E2%80%93-Creator-Content-(all-g",
    "company_id": "zalando",
-   "title": "Creative Strategy Manager – Creator Content (all genders) Marketing & Communications Berlin View job",
+   "title": "2725969 Creative Strategy Manager %E2%80%93 Creator Content (all G",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2725969-Creative-Strategy-Manager-%E2%80%93-Creator-Content-(all-g",
    "posted_at": null,
@@ -1867,9 +2245,21 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2725145-Senior-Applied-Scientist---Demand-Forecast-(all-ge",
    "company_id": "zalando",
-   "title": "Senior Applied Scientist - Demand Forecast (all genders) Applied Science & Research Berlin View job",
+   "title": "2725145 Senior Applied Scientist Demand Forecast (all Ge",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2725145-Senior-Applied-Scientist---Demand-Forecast-(all-ge",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "project44:https://www.project44.com/company/careers/teams/customer-support/",
+   "company_id": "project44",
+   "title": "Customer Support",
+   "location": "",
+   "url": "https://www.project44.com/company/careers/teams/customer-support/",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -2230,7 +2620,7 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2725322-Senior-Principal-Engineer---Agentic-Security-(all-",
    "company_id": "zalando",
-   "title": "Senior Principal Engineer - Agentic Security (all genders) Cybersecurity Berlin View job",
+   "title": "2725322 Senior Principal Engineer Agentic Security (all",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2725322-Senior-Principal-Engineer---Agentic-Security-(all-",
    "posted_at": null,
@@ -2242,7 +2632,7 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2724802-Haustechniker*in-(all-genders)",
    "company_id": "zalando",
-   "title": "Haustechniker*in (all genders) Maintenance & Facility Giessen View job",
+   "title": "2724802 Haustechniker*in (all Genders)",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2724802-Haustechniker*in-(all-genders)",
    "posted_at": null,
@@ -2254,7 +2644,7 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2725333-Hausmeister-(all-genders)",
    "company_id": "zalando",
-   "title": "Hausmeister (all genders) Maintenance & Facility Giessen View job",
+   "title": "2725333 Hausmeister (all Genders)",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2725333-Hausmeister-(all-genders)",
    "posted_at": null,
@@ -2266,7 +2656,7 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2725867-Prozess-Manager-(all-genders)-Logistik",
    "company_id": "zalando",
-   "title": "Prozess Manager (all genders) Logistik Logistics & Supply Chain Giessen View job",
+   "title": "2725867 Prozess Manager (all Genders) Logistik",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2725867-Prozess-Manager-(all-genders)-Logistik",
    "posted_at": null,
@@ -2483,11 +2873,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-387388",
+   "id": "dhl-group:AV-387555",
    "company_id": "dhl-group",
-   "title": "Finance Manager",
-   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387388&source=careers.dhl.com",
+   "title": "Senior Java Developer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387555&source=careers.dhl.com",
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
@@ -2498,11 +2888,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-387555",
+   "id": "dhl-group:AV-387388",
    "company_id": "dhl-group",
-   "title": "Senior Java Developer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387555&source=careers.dhl.com",
+   "title": "Finance Manager",
+   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387388&source=careers.dhl.com",
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
@@ -2686,7 +3076,7 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2725987-Senior-Data-Engineer-(all-genders)",
    "company_id": "zalando",
-   "title": "Senior Data Engineer (all genders) Full Stack Berlin View job",
+   "title": "2725987 Senior Data Engineer (all Genders)",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2725987-Senior-Data-Engineer-(all-genders)",
    "posted_at": null,
@@ -2698,7 +3088,7 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2724967-Talent-Acquisition-Partner-(6-month-Fixed-Term-Con",
    "company_id": "zalando",
-   "title": "Talent Acquisition Partner (6 month Fixed Term Contract) (all genders) People & Organization Dublin View job",
+   "title": "2724967 Talent Acquisition Partner (6 Month Fixed Term Con",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2724967-Talent-Acquisition-Partner-(6-month-Fixed-Term-Con",
    "posted_at": null,
@@ -2710,7 +3100,7 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2724248-Senior-Fullstack-Engineer---ZEOS-(all-genders)",
    "company_id": "zalando",
-   "title": "Senior Fullstack Engineer - ZEOS (all genders) Frontend Berlin View job",
+   "title": "2724248 Senior Fullstack Engineer ZEOS (all Genders)",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2724248-Senior-Fullstack-Engineer---ZEOS-(all-genders)",
    "posted_at": null,
@@ -2722,7 +3112,7 @@
   {
    "id": "zalando:https://jobs.zalando.com/en/jobs/2725906-Security-%26-Loss-Prevention-Manager-(all-genders)",
    "company_id": "zalando",
-   "title": "Security & Loss Prevention Manager (all genders) Logistics & Supply Chain Ludwigsfelde View job",
+   "title": "2725906 Security %26 Loss Prevention Manager (all Genders)",
    "location": "",
    "url": "https://jobs.zalando.com/en/jobs/2725906-Security-%26-Loss-Prevention-Manager-(all-genders)",
    "posted_at": null,
@@ -2954,21 +3344,6 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-365441",
-   "company_id": "dhl-group",
-   "title": "Product Owner – Internal Integrations | Architect",
-   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365441&source=careers.dhl.com",
-   "posted_at": "2026-10-21",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-386924",
    "company_id": "dhl-group",
    "title": "Chauffeur CE dag",
@@ -2989,6 +3364,21 @@
    "title": "MHE Trainer",
    "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
    "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387142&source=careers.dhl.com",
+   "posted_at": "2026-10-21",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-365441",
+   "company_id": "dhl-group",
+   "title": "Product Owner – Internal Integrations | Architect",
+   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365441&source=careers.dhl.com",
    "posted_at": "2026-10-21",
    "labels": {
     "dutch_required": false,
@@ -3551,11 +3941,11 @@
    "baseline": true
   },
   {
-   "id": "dhl-group:AV-385633",
+   "id": "dhl-group:AV-376163",
    "company_id": "dhl-group",
-   "title": "Global Project Manager (GTOM)",
-   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385633&source=careers.dhl.com",
+   "title": "HR / Payroll Administration Specialist",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376163&source=careers.dhl.com",
    "posted_at": "2026-10-19",
    "labels": {
     "dutch_required": false,
@@ -3566,11 +3956,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376163",
+   "id": "dhl-group:AV-385633",
    "company_id": "dhl-group",
-   "title": "HR / Payroll Administration Specialist",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376163&source=careers.dhl.com",
+   "title": "Global Project Manager (GTOM)",
+   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385633&source=careers.dhl.com",
    "posted_at": "2026-10-19",
    "labels": {
     "dutch_required": false,
@@ -3613,27 +4003,12 @@
   {
    "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/administratie-gate-medewerker-railterminal-(fulltime)",
    "company_id": "cabooter",
-   "title": "Bekijk vacature",
+   "title": "Administratie Gate Medewerker Railterminal (fulltime)",
    "location": "",
    "url": "https://www.cabootergroup.com/career/career/jobs/administratie-gate-medewerker-railterminal-(fulltime)",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-19",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-386337",
-   "company_id": "dhl-group",
-   "title": "Chauffeur C",
-   "location": "Roosendaal, Noord-Brabant, Netherlands, Roosendaal, Noord-Brabant, Roosendaal",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=386337&source=careers.dhl.com",
-   "posted_at": "2026-10-19",
-   "labels": {
-    "dutch_required": null,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
    "first_seen": "2026-10-19",
    "baseline": false
   },
@@ -3646,6 +4021,21 @@
    "posted_at": "2026-10-19",
    "labels": {
     "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-19",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-386337",
+   "company_id": "dhl-group",
+   "title": "Chauffeur C",
+   "location": "Roosendaal, Noord-Brabant, Netherlands, Roosendaal, Noord-Brabant, Roosendaal",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=386337&source=careers.dhl.com",
+   "posted_at": "2026-10-19",
+   "labels": {
+    "dutch_required": null,
     "written_in_dutch": null
    },
    "labels_checked": true,
@@ -3841,7 +4231,7 @@
   {
    "id": "nunner-logistics:https://www.nunner.com/nl/vacatures/teamleider-planning-helmond-2/",
    "company_id": "nunner-logistics",
-   "title": "Bekijk vacature >",
+   "title": "Teamleider Planning Helmond",
    "location": "",
    "url": "https://www.nunner.com/nl/vacatures/teamleider-planning-helmond-2/",
    "posted_at": null,
@@ -4589,6 +4979,36 @@
    "baseline": false
   },
   {
+   "id": "dhl-group:AV-381580",
+   "company_id": "dhl-group",
+   "title": "Senior Analyst Strategic Pricing",
+   "location": "Maastricht, Limburg, Netherlands, Maastricht, Limburg, Maastricht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=381580&source=careers.dhl.com",
+   "posted_at": "2026-10-15",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-16",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-385603",
+   "company_id": "dhl-group",
+   "title": "Commercial Trainee",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385603&source=careers.dhl.com",
+   "posted_at": "2026-10-15",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-16",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-385597",
    "company_id": "dhl-group",
    "title": "Handling operator",
@@ -4597,21 +5017,6 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": null,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-16",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-385830",
-   "company_id": "dhl-group",
-   "title": "Customer Relations Specialist Ocean Freight",
-   "location": "Ridderkerk, Zuid-Holland, Netherlands, Ridderkerk, Zuid-Holland, Ridderkerk",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385830&source=careers.dhl.com",
-   "posted_at": "2026-10-15",
-   "labels": {
-    "dutch_required": false,
     "written_in_dutch": null
    },
    "labels_checked": true,
@@ -4634,26 +5039,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-381580",
+   "id": "dhl-group:AV-385830",
    "company_id": "dhl-group",
-   "title": "Senior Analyst Strategic Pricing",
-   "location": "Maastricht, Limburg, Netherlands, Maastricht, Limburg, Maastricht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=381580&source=careers.dhl.com",
-   "posted_at": "2026-10-15",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-16",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-385603",
-   "company_id": "dhl-group",
-   "title": "Commercial Trainee",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385603&source=careers.dhl.com",
+   "title": "Customer Relations Specialist Ocean Freight",
+   "location": "Ridderkerk, Zuid-Holland, Netherlands, Ridderkerk, Zuid-Holland, Ridderkerk",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385830&source=careers.dhl.com",
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
@@ -5261,11 +5651,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-348454",
+   "id": "dhl-group:AV-384753",
    "company_id": "dhl-group",
-   "title": "Koerier Breda",
-   "location": "Breda, Noord-Brabant, Netherlands, Breda, Noord-Brabant, Breda",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=348454&source=careers.dhl.com",
+   "title": "Chauffeur CE dag",
+   "location": "Arnhem, Gelderland, Netherlands, Arnhem, Gelderland, Arnhem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=384753&source=careers.dhl.com",
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
@@ -5276,11 +5666,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-384753",
+   "id": "dhl-group:AV-348454",
    "company_id": "dhl-group",
-   "title": "Chauffeur CE dag",
-   "location": "Arnhem, Gelderland, Netherlands, Arnhem, Gelderland, Arnhem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=384753&source=careers.dhl.com",
+   "title": "Koerier Breda",
+   "location": "Breda, Noord-Brabant, Netherlands, Breda, Noord-Brabant, Breda",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=348454&source=careers.dhl.com",
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
@@ -5573,11 +5963,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376947",
+   "id": "dhl-group:AV-376098",
    "company_id": "dhl-group",
-   "title": "Project Engineer Automation",
-   "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376947&source=careers.dhl.com",
+   "title": "HR Officer",
+   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376098&source=careers.dhl.com",
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
@@ -5603,11 +5993,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376098",
+   "id": "dhl-group:AV-376947",
    "company_id": "dhl-group",
-   "title": "HR Officer",
-   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376098&source=careers.dhl.com",
+   "title": "Project Engineer Automation",
+   "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376947&source=careers.dhl.com",
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
@@ -5854,7 +6244,7 @@
   {
    "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/intermodal-planner",
    "company_id": "cabooter",
-   "title": "Bekijk vacature",
+   "title": "Intermodal Planner",
    "location": "",
    "url": "https://www.cabootergroup.com/career/career/jobs/intermodal-planner",
    "posted_at": null,
@@ -5866,7 +6256,7 @@
   {
    "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/senior-expediteur-/-teamleider-intermodaal-transport",
    "company_id": "cabooter",
-   "title": "Bekijk vacature",
+   "title": "Teamleider Intermodaal Transport",
    "location": "",
    "url": "https://www.cabootergroup.com/career/career/jobs/senior-expediteur-/-teamleider-intermodaal-transport",
    "posted_at": null,
@@ -5878,7 +6268,7 @@
   {
    "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/commercieel-directeur",
    "company_id": "cabooter",
-   "title": "Bekijk vacature",
+   "title": "Commercieel Directeur",
    "location": "",
    "url": "https://www.cabootergroup.com/career/career/jobs/commercieel-directeur",
    "posted_at": null,
@@ -5890,7 +6280,7 @@
   {
    "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/operational-executive-apac",
    "company_id": "cabooter",
-   "title": "Bekijk vacature",
+   "title": "Operational Executive Apac",
    "location": "",
    "url": "https://www.cabootergroup.com/career/career/jobs/operational-executive-apac",
    "posted_at": null,
@@ -5902,7 +6292,7 @@
   {
    "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/account-executive-asian-market",
    "company_id": "cabooter",
-   "title": "Bekijk vacature",
+   "title": "Account Executive Asian Market",
    "location": "",
    "url": "https://www.cabootergroup.com/career/career/jobs/account-executive-asian-market",
    "posted_at": null,
@@ -5914,7 +6304,7 @@
   {
    "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/machinist-(venlo)",
    "company_id": "cabooter",
-   "title": "Bekijk vacature",
+   "title": "Machinist (venlo)",
    "location": "",
    "url": "https://www.cabootergroup.com/career/career/jobs/machinist-(venlo)",
    "posted_at": null,
@@ -5926,7 +6316,7 @@
   {
    "id": "cabooter:https://www.cabootergroup.com/career/career/internships/internship-(open-application)",
    "company_id": "cabooter",
-   "title": "Bekijk vacature",
+   "title": "Internship (open Application)",
    "location": "",
    "url": "https://www.cabootergroup.com/career/career/internships/internship-(open-application)",
    "posted_at": null,
@@ -6215,18 +6605,6 @@
    "baseline": true
   },
   {
-   "id": "ait-worldwide-logistics:https://www.aitworldwide.com/careers/why-work-at-ait/diversity/",
-   "company_id": "ait-worldwide-logistics",
-   "title": "View AIT’s diversity commitment",
-   "location": "",
-   "url": "https://www.aitworldwide.com/careers/why-work-at-ait/diversity/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
    "id": "bdp-international:https://psabdp.com/careers/employee-experience",
    "company_id": "bdp-international",
    "title": "Employee Experience",
@@ -6265,7 +6643,7 @@
   {
    "id": "cyber-freight-amsterdam:https://cyberfreight.nl/vacatures/wend-medewerker-warehousing/",
    "company_id": "cyber-freight-amsterdam",
-   "title": "Lees verder",
+   "title": "Wend Medewerker Warehousing",
    "location": "",
    "url": "https://cyberfreight.nl/vacatures/wend-medewerker-warehousing/",
    "posted_at": null,
@@ -6277,21 +6655,9 @@
   {
    "id": "cyber-freight-amsterdam:https://cyberfreight.nl/vacatures/pricing-en-sales-specialist-barendrecht/",
    "company_id": "cyber-freight-amsterdam",
-   "title": "Lees verder",
+   "title": "Pricing En Sales Specialist Barendrecht",
    "location": "",
    "url": "https://cyberfreight.nl/vacatures/pricing-en-sales-specialist-barendrecht/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cyber-freight-amsterdam:https://cyberfreight.nl/vacatures/export-medewerker-zeevracht/",
-   "company_id": "cyber-freight-amsterdam",
-   "title": "Lees verder",
-   "location": "",
-   "url": "https://cyberfreight.nl/vacatures/export-medewerker-zeevracht/",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -6679,7 +7045,7 @@
   {
    "id": "maersk:https://www.maersk.com/careers/recruitment-process/preparing-for-interviews",
    "company_id": "maersk",
-   "title": "Interview process details",
+   "title": "Preparing For Interviews",
    "location": "",
    "url": "https://www.maersk.com/careers/recruitment-process/preparing-for-interviews",
    "posted_at": null,
@@ -6728,9 +7094,21 @@
    "baseline": true
   },
   {
+   "id": "mainfreight:https://www.mainfreight.com/asia/careers/frequently-asked-questions",
+   "company_id": "mainfreight",
+   "title": "Frequently Asked Questions",
+   "location": "",
+   "url": "https://www.mainfreight.com/asia/careers/frequently-asked-questions",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-11",
+   "baseline": true
+  },
+  {
    "id": "mainfreight:https://www.mainfreight.com/asia/careers/opportunity/sales-role",
    "company_id": "mainfreight",
-   "title": "LEARN MORE",
+   "title": "Sales Role",
    "location": "",
    "url": "https://www.mainfreight.com/asia/careers/opportunity/sales-role",
    "posted_at": null,
@@ -6742,7 +7120,7 @@
   {
    "id": "mainfreight:https://www.mainfreight.com/asia/careers/opportunity/join-our-team",
    "company_id": "mainfreight",
-   "title": "LEARN MORE",
+   "title": "Join Our Team",
    "location": "",
    "url": "https://www.mainfreight.com/asia/careers/opportunity/join-our-team",
    "posted_at": null,
@@ -6757,18 +7135,6 @@
    "title": "LEARN MORE",
    "location": "",
    "url": "https://www.mainfreight.com/asia/careers/opportunity",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "mainfreight:https://www.mainfreight.com/asia/careers/frequently-asked-questions",
-   "company_id": "mainfreight",
-   "title": "CLICK HERE",
-   "location": "",
-   "url": "https://www.mainfreight.com/asia/careers/frequently-asked-questions",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -7367,6 +7733,21 @@
    "baseline": false
   },
   {
+   "id": "dhl-group:AV-365199",
+   "company_id": "dhl-group",
+   "title": "Process Engineer",
+   "location": "Bemmel, Gelderland, Netherlands, Bemmel, Gelderland, Bemmel",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365199&source=careers.dhl.com",
+   "posted_at": "2026-10-09",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-10",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-384870",
    "company_id": "dhl-group",
    "title": "Teamleader Nijmegen 3",
@@ -7387,21 +7768,6 @@
    "title": "Business Analist Controlling",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
    "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=339575&source=careers.dhl.com",
-   "posted_at": "2026-10-09",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-10",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-365199",
-   "company_id": "dhl-group",
-   "title": "Process Engineer",
-   "location": "Bemmel, Gelderland, Netherlands, Bemmel, Gelderland, Bemmel",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365199&source=careers.dhl.com",
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
@@ -7457,11 +7823,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-384398",
+   "id": "dhl-group:AV-375104",
    "company_id": "dhl-group",
-   "title": "Lead Qualifier",
-   "location": "Schiphol, Noord-Holland, Netherlands, Schiphol, Noord-Holland, Schiphol",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=384398&source=careers.dhl.com",
+   "title": "Forecaster Workforce Management Customer Service",
+   "location": "Arnhem, Gelderland, Netherlands, Arnhem, Gelderland, Arnhem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=375104&source=careers.dhl.com",
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
@@ -7487,11 +7853,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-375104",
+   "id": "dhl-group:AV-384398",
    "company_id": "dhl-group",
-   "title": "Forecaster Workforce Management Customer Service",
-   "location": "Arnhem, Gelderland, Netherlands, Arnhem, Gelderland, Arnhem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=375104&source=careers.dhl.com",
+   "title": "Lead Qualifier",
+   "location": "Schiphol, Noord-Holland, Netherlands, Schiphol, Noord-Holland, Schiphol",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=384398&source=careers.dhl.com",
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
@@ -7904,6 +8270,21 @@
    "baseline": false
   },
   {
+   "id": "dhl-group:AV-355426",
+   "company_id": "dhl-group",
+   "title": "Gateway Service Specialist",
+   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=355426&source=careers.dhl.com",
+   "posted_at": "2026-10-07",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-08",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-384003",
    "company_id": "dhl-group",
    "title": "Teamleader",
@@ -7924,21 +8305,6 @@
    "title": "Customer Service Coördinator",
    "location": "Nijmegen, Gelderland, Netherlands, Nijmegen, Gelderland, Nijmegen",
    "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382358&source=careers.dhl.com",
-   "posted_at": "2026-10-07",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-08",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-355426",
-   "company_id": "dhl-group",
-   "title": "Gateway Service Specialist",
-   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=355426&source=careers.dhl.com",
    "posted_at": "2026-10-07",
    "labels": {
     "dutch_required": false,
@@ -8114,11 +8480,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-362085",
+   "id": "dhl-group:AV-318094",
    "company_id": "dhl-group",
-   "title": "Process Innovation Engineer",
+   "title": "Facility Area Manager",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=362085&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=318094&source=careers.dhl.com",
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
@@ -8129,11 +8495,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-318094",
+   "id": "dhl-group:AV-362085",
    "company_id": "dhl-group",
-   "title": "Facility Area Manager",
+   "title": "Process Innovation Engineer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=318094&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=362085&source=careers.dhl.com",
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
@@ -8420,21 +8786,6 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-382786",
-   "company_id": "dhl-group",
-   "title": "Operational Research Specialist",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382786&source=careers.dhl.com",
-   "posted_at": "2026-10-05",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-06",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-382880",
    "company_id": "dhl-group",
    "title": "Chauffeur CE zaterdag",
@@ -8443,6 +8794,21 @@
    "posted_at": "2026-10-05",
    "labels": {
     "dutch_required": null,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-06",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-382786",
+   "company_id": "dhl-group",
+   "title": "Operational Research Specialist",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382786&source=careers.dhl.com",
+   "posted_at": "2026-10-05",
+   "labels": {
+    "dutch_required": false,
     "written_in_dutch": null
    },
    "labels_checked": true,
@@ -8879,71 +9245,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-330285",
+   "id": "dhl-group:AV-350949",
    "company_id": "dhl-group",
-   "title": "Senior IT Security Officer",
+   "title": "Senior Test Engineer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=330285&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-358698",
-   "company_id": "dhl-group",
-   "title": "Cloud Engineer Security en Identity",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358698&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-286776",
-   "company_id": "dhl-group",
-   "title": "Cloud Engineer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=286776&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-382152",
-   "company_id": "dhl-group",
-   "title": "Senior Java developer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382152&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-292302",
-   "company_id": "dhl-group",
-   "title": "CI/CD Engineer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=292302&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=350949&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -8969,11 +9275,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-350949",
+   "id": "dhl-group:AV-382152",
    "company_id": "dhl-group",
-   "title": "Senior Test Engineer",
+   "title": "Senior Java developer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=350949&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382152&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -8999,11 +9305,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-374180",
+   "id": "dhl-group:AV-292302",
    "company_id": "dhl-group",
-   "title": "Backend Developer",
+   "title": "CI/CD Engineer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=374180&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=292302&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -9014,11 +9320,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-379466",
+   "id": "dhl-group:AV-286776",
    "company_id": "dhl-group",
-   "title": "Teamleider Transport",
-   "location": "Rotterdam, Zuid-Holland, Netherlands, Rotterdam, Zuid-Holland, Rotterdam",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=379466&source=careers.dhl.com",
+   "title": "Cloud Engineer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=286776&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -9029,11 +9335,26 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-366491",
+   "id": "dhl-group:AV-358698",
    "company_id": "dhl-group",
-   "title": "Senior IAM Engineer",
+   "title": "Cloud Engineer Security en Identity",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=366491&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358698&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-330285",
+   "company_id": "dhl-group",
+   "title": "Senior IT Security Officer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=330285&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -9074,11 +9395,26 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-358767",
+   "id": "dhl-group:AV-379466",
    "company_id": "dhl-group",
-   "title": "Product Owner",
+   "title": "Teamleider Transport",
+   "location": "Rotterdam, Zuid-Holland, Netherlands, Rotterdam, Zuid-Holland, Rotterdam",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=379466&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-374180",
+   "company_id": "dhl-group",
+   "title": "Backend Developer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358767&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=374180&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -9094,6 +9430,36 @@
    "title": "Transportplanner | DHL eCommerce | Utrecht | 3-ploegendienst",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
    "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=381598&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-366491",
+   "company_id": "dhl-group",
+   "title": "Senior IAM Engineer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=366491&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-358767",
+   "company_id": "dhl-group",
+   "title": "Product Owner",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358767&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -9138,6 +9504,36 @@
    "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
+   "company_id": "neele-vat",
+   "title": "Freight Forwarder Road Transport Uk",
+   "location": "Rotterdam Hoogvliet",
+   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
+   "posted_at": "2026-09-30",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/customer-operations-specialist-redwood/",
+   "company_id": "neele-vat",
+   "title": "Customer Operations Specialist Redwood",
+   "location": "Heinenoord",
+   "url": "https://werkenbijneelevat.com/vacancies/customer-operations-specialist-redwood/",
+   "posted_at": "2026-09-30",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
+   "baseline": true
   },
   {
    "id": "dhl-group:AV-366972",
@@ -9413,6 +9809,21 @@
    "baseline": true
   },
   {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
+   "company_id": "neele-vat",
+   "title": "All Round Sea Freight Forwarder",
+   "location": "rotterdam Spaanse Polder",
+   "url": "https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
+   "posted_at": "2026-09-29",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
    "id": "gxo-logistics:/job/Rijsbergen-Quality%2C-Environmental%2C-Safety-and-Health-Specialist-4891-PZ/1397204000/",
    "company_id": "gxo-logistics",
    "title": "Quality, Environmental, Safety and Health Specialist",
@@ -9557,6 +9968,21 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/container-planner/",
+   "company_id": "neele-vat",
+   "title": "Container Planner",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/container-planner/",
+   "posted_at": "2026-09-28",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
    "baseline": true
   },
   {
@@ -9758,11 +10184,26 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-365195",
+   "id": "dhl-group:AV-380249",
    "company_id": "dhl-group",
-   "title": "Business Development Manager",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365195&source=careers.dhl.com",
+   "title": "SQL Developer",
+   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=380249&source=careers.dhl.com",
+   "posted_at": "2026-09-24",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-379906",
+   "company_id": "dhl-group",
+   "title": "Teamleider Cityhub",
+   "location": "Zwolle, Overijssel, Netherlands, Zwolle, Overijssel, Zwolle",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=379906&source=careers.dhl.com",
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
@@ -9788,26 +10229,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-380249",
+   "id": "dhl-group:AV-365195",
    "company_id": "dhl-group",
-   "title": "SQL Developer",
-   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=380249&source=careers.dhl.com",
-   "posted_at": "2026-09-24",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-379906",
-   "company_id": "dhl-group",
-   "title": "Teamleider Cityhub",
-   "location": "Zwolle, Overijssel, Netherlands, Zwolle, Overijssel, Zwolle",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=379906&source=careers.dhl.com",
+   "title": "Business Development Manager",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365195&source=careers.dhl.com",
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
@@ -10829,6 +11255,21 @@
    "baseline": true
   },
   {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
+   "company_id": "neele-vat",
+   "title": "Transportplanner Ftl",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
+   "posted_at": "2026-09-14",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
    "id": "dhl-group:AV-376721",
    "company_id": "dhl-group",
    "title": "Control Tower Officer",
@@ -10889,11 +11330,11 @@
    "baseline": true
   },
   {
-   "id": "dhl-group:AV-368445",
+   "id": "dhl-group:AV-341247",
    "company_id": "dhl-group",
-   "title": "Customer Service Representative",
-   "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=368445&source=careers.dhl.com",
+   "title": "Chauffeur CE",
+   "location": "Roosendaal, Noord-Brabant, Netherlands, Roosendaal, Noord-Brabant, Roosendaal",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=341247&source=careers.dhl.com",
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
@@ -10904,11 +11345,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-341247",
+   "id": "dhl-group:AV-368445",
    "company_id": "dhl-group",
-   "title": "Chauffeur CE",
-   "location": "Roosendaal, Noord-Brabant, Netherlands, Roosendaal, Noord-Brabant, Roosendaal",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=341247&source=careers.dhl.com",
+   "title": "Customer Service Representative",
+   "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=368445&source=careers.dhl.com",
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
@@ -11069,11 +11510,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376206",
+   "id": "dhl-group:AV-376656",
    "company_id": "dhl-group",
-   "title": "Supervisor Logistiek",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376206&source=careers.dhl.com",
+   "title": "Shiftmanager",
+   "location": "Tiel, Gelderland, Netherlands, Tiel, Gelderland, Tiel",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376656&source=careers.dhl.com",
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
@@ -11084,11 +11525,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376656",
+   "id": "dhl-group:AV-376206",
    "company_id": "dhl-group",
-   "title": "Shiftmanager",
-   "location": "Tiel, Gelderland, Netherlands, Tiel, Gelderland, Tiel",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376656&source=careers.dhl.com",
+   "title": "Supervisor Logistiek",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376206&source=careers.dhl.com",
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
@@ -11526,6 +11967,21 @@
    "labels_checked": true,
    "first_seen": "2026-10-03",
    "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
+   "company_id": "neele-vat",
+   "title": "Freight Forwarder Shiproad",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
+   "posted_at": "2026-09-02",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
+   "baseline": true
   },
   {
    "id": "dhl-group:AV-373757",
@@ -12347,6 +12803,21 @@
    "baseline": true
   },
   {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
+   "company_id": "neele-vat",
+   "title": "Customer Operations Specialist",
+   "location": "City Terminal; Rotterdam Maasvlakte",
+   "url": "https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
+   "posted_at": "2026-07-21",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
    "id": "amazon:10475985",
    "company_id": "amazon",
    "title": "Mechatronics / Electrical Technician Maintenance - Rozenburg near Amsterdam",
@@ -12374,6 +12845,21 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-import-sea-freight/",
+   "company_id": "neele-vat",
+   "title": "Freight Forwarder Import Sea Freight",
+   "location": "",
+   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-import-sea-freight/",
+   "posted_at": "2026-07-13",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
    "baseline": true
   },
   {
@@ -12449,6 +12935,21 @@
    "baseline": true
   },
   {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/transport-planner-benelux/",
+   "company_id": "neele-vat",
+   "title": "Transport Planner Benelux",
+   "location": "Klundert",
+   "url": "https://werkenbijneelevat.com/vacancies/transport-planner-benelux/",
+   "posted_at": "2026-07-08",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
+   "baseline": true
+  },
+  {
    "id": "world-courier:R266864",
    "company_id": "world-courier",
    "title": "Employee customer service X 5",
@@ -12494,11 +12995,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-361764",
+   "id": "dhl-group:AV-361677",
    "company_id": "dhl-group",
-   "title": "Vrachtwagenchauffeur C(E) Hoofddorp",
-   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=361764&source=careers.dhl.com",
+   "title": "Vrachtwagenchauffeur C(E) Eindhoven/Beringe",
+   "location": "Beringe, Limburg, Netherlands, Beringe, Limburg, Beringe",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=361677&source=careers.dhl.com",
    "posted_at": "2026-07-02",
    "labels": {
     "dutch_required": false,
@@ -12509,11 +13010,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-361677",
+   "id": "dhl-group:AV-361764",
    "company_id": "dhl-group",
-   "title": "Vrachtwagenchauffeur C(E) Eindhoven/Beringe",
-   "location": "Beringe, Limburg, Netherlands, Beringe, Limburg, Beringe",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=361677&source=careers.dhl.com",
+   "title": "Vrachtwagenchauffeur C(E) Hoofddorp",
+   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=361764&source=careers.dhl.com",
    "posted_at": "2026-07-02",
    "labels": {
     "dutch_required": false,
@@ -12548,6 +13049,21 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-01",
+   "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
+   "company_id": "neele-vat",
+   "title": "Export Forwarder",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
+   "posted_at": "2026-06-10",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
    "baseline": true
   },
   {
@@ -12638,6 +13154,18 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
+   "baseline": true
+  },
+  {
+   "id": "cyber-freight-amsterdam:https://cyberfreight.nl/vacatures/export-medewerker-zeevracht/",
+   "company_id": "cyber-freight-amsterdam",
+   "title": "Export Medewerker Zeevracht",
+   "location": "",
+   "url": "https://cyberfreight.nl/vacatures/export-medewerker-zeevracht/",
+   "posted_at": "2026-06-01",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-11",
    "baseline": true
   },
   {

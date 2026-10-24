@@ -32,6 +32,7 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
+   "https://www.barsan.nl/jobs",
    "https://barsan.com/",
    "https://www.barsan.com/",
    "https://www.barsan.com/careers",
@@ -44,8 +45,7 @@
    "https://www.barsan.com/jobs",
    "https://www.barsan.com/en/jobs",
    "https://www.barsan.com/career",
-   "https://www.barsan.com/en/career",
-   "https://barsan.com/careers"
+   "https://www.barsan.com/en/career"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -203,12 +203,12 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [
+   "https://hoyer-group.com/ -> ReadTimeout: HTTPSConnectionPool(host='hoyer-group.com', port=443): Read timed out. (read timeout=30)",
    "https://www.hoyer-group.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hoyer-group.com/careers",
    "https://www.hoyer-group.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hoyer-group.com/en/careers",
    "https://www.hoyer-group.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.hoyer-group.com/careers/",
    "https://www.hoyer-group.com/nl/werken-bij -> HTTPError: 500 Server Error: Internal Server Error for url: https://www.hoyer-group.com/nl/werken-bij",
-   "https://www.hoyer-group.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hoyer-group.com/werken-bij",
-   "https://www.hoyer-group.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.hoyer-group.com/vacatures"
+   "https://www.hoyer-group.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hoyer-group.com/werken-bij"
   ],
   "checked_at": "2026-10-24"
  },
@@ -243,33 +243,16 @@
   "checked_at": "2026-10-24"
  },
  "neele-vat": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://werkenbijneelevat.com/vacancies/"
+  },
   "vendor": null,
   "checked_pages": [
-   "https://neelevat.com/",
-   "https://www.neelevat.com/",
-   "https://werkenbijneelevat.nl/",
-   "https://www.neelevat.com/careers",
-   "https://www.neelevat.com/en/careers",
-   "https://www.neelevat.com/careers/",
-   "https://www.neelevat.com/nl/werken-bij",
-   "https://www.neelevat.com/werken-bij",
-   "https://www.neelevat.com/vacatures",
-   "https://www.neelevat.com/nl/vacatures",
-   "https://www.neelevat.com/jobs",
-   "https://www.neelevat.com/en/jobs",
-   "https://www.neelevat.com/career",
-   "https://www.neelevat.com/en/career"
+   "https://werkenbijneelevat.com/vacancies/"
   ],
-  "reason": "no_careers_system_found",
-  "notes": [
-   "https://www.neelevat.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.neelevat.com/careers",
-   "https://www.neelevat.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.neelevat.com/en/careers",
-   "https://www.neelevat.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.neelevat.com/careers/",
-   "https://www.neelevat.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.neelevat.com/nl/werken-bij",
-   "https://www.neelevat.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.neelevat.com/jobs",
-   "https://www.neelevat.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.neelevat.com/en/jobs"
-  ],
+  "reason": "found",
+  "notes": [],
   "checked_at": "2026-10-24"
  },
  "nunner-logistics": {
@@ -602,11 +585,11 @@
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.dimerco.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/",
+   "https://dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/careers/",
    "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
    "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
    "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
-   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij",
-   "https://www.dimerco.com/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/werken-bij"
+   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij"
   ],
   "checked_at": "2026-10-24"
  },
@@ -1368,11 +1351,11 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
    "https://www.hmm21.com/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/en/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/careers/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/nl/werken-bij",
+   "https://www.hmm21.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/en/careers",
+   "https://www.hmm21.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers/",
+   "https://www.hmm21.com/nl/werken-bij -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
    "https://www.hmm21.com/werken-bij -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)"
   ],
   "checked_at": "2026-10-24"
@@ -2331,28 +2314,12 @@
   "vendor": null,
   "checked_pages": [
    "https://lotteglogis.com/",
-   "https://www.lotteglogis.com/",
-   "https://www.lotteglogis.com/careers",
-   "https://www.lotteglogis.com/en/careers",
-   "https://www.lotteglogis.com/careers/",
-   "https://www.lotteglogis.com/nl/werken-bij",
-   "https://www.lotteglogis.com/werken-bij",
-   "https://www.lotteglogis.com/vacatures",
-   "https://www.lotteglogis.com/nl/vacatures",
-   "https://www.lotteglogis.com/jobs",
-   "https://www.lotteglogis.com/en/jobs",
-   "https://www.lotteglogis.com/career",
-   "https://www.lotteglogis.com/en/career",
-   "https://lotteglogis.com/careers"
+   "https://www.lotteglogis.com/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "site_unreachable",
   "notes": [
-   "https://www.lotteglogis.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.lotteglogis.com/careers",
-   "https://www.lotteglogis.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.lotteglogis.com/en/careers",
-   "https://www.lotteglogis.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.lotteglogis.com/careers/",
-   "https://www.lotteglogis.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.lotteglogis.com/nl/werken-bij",
-   "https://www.lotteglogis.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.lotteglogis.com/werken-bij",
-   "https://www.lotteglogis.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.lotteglogis.com/vacatures"
+   "https://lotteglogis.com/ -> ReadTimeout: HTTPSConnectionPool(host='lotteglogis.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.lotteglogis.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.lotteglogis.com', port=443): Read timed out. (read timeout=3"
   ],
   "checked_at": "2026-10-24"
  },
@@ -2727,7 +2694,7 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://www.yamatoeurope.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/careers",
+   "https://www.yamatoeurope.com/careers -> ReadTimeout: HTTPSConnectionPool(host='www.yamatoeurope.com', port=443): Read timed out. (read timeout=",
    "https://www.yamatoeurope.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/careers/",
    "https://www.yamatoeurope.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/nl/werken-bij",
    "https://www.yamatoeurope.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/werken-bij",
@@ -3041,33 +3008,18 @@
   "checked_at": "2026-10-24"
  },
  "ksz-transport": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://www.ksztransport.nl/nl-nl/vacatures"
+  },
   "vendor": null,
   "checked_pages": [
    "https://ksztransport.nl/",
    "https://www.ksztransport.nl/",
-   "https://www.ksztransport.nl/nl-nl/vacatures",
-   "https://www.ksztransport.nl/careers",
-   "https://www.ksztransport.nl/en/careers",
-   "https://www.ksztransport.nl/careers/",
-   "https://www.ksztransport.nl/nl/werken-bij",
-   "https://www.ksztransport.nl/werken-bij",
-   "https://www.ksztransport.nl/vacatures",
-   "https://www.ksztransport.nl/nl/vacatures",
-   "https://www.ksztransport.nl/jobs",
-   "https://www.ksztransport.nl/en/jobs",
-   "https://www.ksztransport.nl/career",
-   "https://www.ksztransport.nl/en/career"
+   "https://www.ksztransport.nl/nl-nl/vacatures"
   ],
-  "reason": "no_careers_system_found",
-  "notes": [
-   "https://www.ksztransport.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.ksztransport.nl/careers",
-   "https://www.ksztransport.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.ksztransport.nl/en/careers",
-   "https://www.ksztransport.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.ksztransport.nl/careers",
-   "https://www.ksztransport.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.ksztransport.nl/nl/werken-bij",
-   "https://www.ksztransport.nl/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.ksztransport.nl/nl/vacatures",
-   "https://www.ksztransport.nl/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.ksztransport.nl/jobs"
-  ],
+  "reason": "found",
+  "notes": [],
   "checked_at": "2026-10-24"
  },
  "lily-maas": {
