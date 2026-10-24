@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T13:47+00:00",
+ "generated_at": "2026-10-24T15:12+00:00",
  "jobs": [
   {
    "id": "dsv:/job/Venlo-Warehouse-Supervisor-LI-5928-SC/1432300133/",
@@ -571,6 +571,246 @@
    "title": "Fleet Motorman/Engine Rating",
    "location": "",
    "url": "https://stenaline.com/job-openings/3783/fleet-motorman-engine-rating",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "port-of-rotterdam:https://www.portofrotterdam.com/nl/over-het-havenbedrijf/werken-bij-het-havenbedrijf",
+   "company_id": "port-of-rotterdam",
+   "title": "Verdergaan naar primaire inhoud",
+   "location": "",
+   "url": "https://www.portofrotterdam.com/nl/over-het-havenbedrijf/werken-bij-het-havenbedrijf",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "henkel:https://www.henkel.com/careers/careers-faq",
+   "company_id": "henkel",
+   "title": "Careers FAQ",
+   "location": "",
+   "url": "https://www.henkel.com/careers/careers-faq",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "henkel:https://www.henkel.com/careers/find-your-job-apply",
+   "company_id": "henkel",
+   "title": "Find Your Job & Apply",
+   "location": "",
+   "url": "https://www.henkel.com/careers/find-your-job-apply",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "henkel:https://www.henkel.com/careers/why-henkel",
+   "company_id": "henkel",
+   "title": "Why Henkel",
+   "location": "",
+   "url": "https://www.henkel.com/careers/why-henkel",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "henkel:https://www.henkel.com/careers/life-at-henkel",
+   "company_id": "henkel",
+   "title": "Life at Henkel",
+   "location": "",
+   "url": "https://www.henkel.com/careers/life-at-henkel",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "henkel:https://www.henkel.com/careers/career-opportunities",
+   "company_id": "henkel",
+   "title": "Career Opportunities",
+   "location": "",
+   "url": "https://www.henkel.com/careers/career-opportunities",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "henkel:https://www.henkel.com/careers/talent-programs",
+   "company_id": "henkel",
+   "title": "Talent Programs",
+   "location": "",
+   "url": "https://www.henkel.com/careers/talent-programs",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "henkel:https://www.henkel.com/careers/application-process",
+   "company_id": "henkel",
+   "title": "Application Process",
+   "location": "",
+   "url": "https://www.henkel.com/careers/application-process",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "samsung-electronics-europe-logistics:https://www.samsung.com/us/careers/life-at-samsung/",
+   "company_id": "samsung-electronics-europe-logistics",
+   "title": "Life at Samsung",
+   "location": "",
+   "url": "https://www.samsung.com/us/careers/life-at-samsung/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "samsung-electronics-europe-logistics:https://www.samsung.com/us/careers/benefits/",
+   "company_id": "samsung-electronics-europe-logistics",
+   "title": "Learn more",
+   "location": "",
+   "url": "https://www.samsung.com/us/careers/benefits/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "samsung-electronics-europe-logistics:https://www.samsung.com/us/careers/internships/",
+   "company_id": "samsung-electronics-europe-logistics",
+   "title": "Learn more",
+   "location": "",
+   "url": "https://www.samsung.com/us/careers/internships/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "samsung-electronics-europe-logistics:https://www.samsung.com/us/careers/giving-back/",
+   "company_id": "samsung-electronics-europe-logistics",
+   "title": "Learn more",
+   "location": "",
+   "url": "https://www.samsung.com/us/careers/giving-back/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/group/en/home/career/students-and-graduates.html",
+   "company_id": "scania",
+   "title": "Discover programs for students",
+   "location": "",
+   "url": "https://www.scania.com/group/en/home/career/students-and-graduates.html",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/group/en/home/career/graduates.html",
+   "company_id": "scania",
+   "title": "Discover programs for graduates",
+   "location": "",
+   "url": "https://www.scania.com/group/en/home/career/graduates.html",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/group/en/home/career/available-positions.html",
+   "company_id": "scania",
+   "title": "We can´t change the world alone",
+   "location": "",
+   "url": "https://www.scania.com/group/en/home/career/available-positions.html",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/group/en/home/career/life-at-scania/meet-our-employees.html",
+   "company_id": "scania",
+   "title": "Voices from Scania - meet our employees",
+   "location": "",
+   "url": "https://www.scania.com/group/en/home/career/life-at-scania/meet-our-employees.html",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/group/en/home/career/life-at-scania/meet-our-employees/magdalena-norman.html",
+   "company_id": "scania",
+   "title": "Sofia Edberg – Venture Lead",
+   "location": "",
+   "url": "https://www.scania.com/group/en/home/career/life-at-scania/meet-our-employees/magdalena-norman.html",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/group/en/home/career/life-at-scania/meet-our-employees/wellington-candido.html",
+   "company_id": "scania",
+   "title": "Wellington Candido – Group Manager for Industrial Engineers",
+   "location": "",
+   "url": "https://www.scania.com/group/en/home/career/life-at-scania/meet-our-employees/wellington-candido.html",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/group/en/home/career/life-at-scania.html",
+   "company_id": "scania",
+   "title": "Life at Scania",
+   "location": "",
+   "url": "https://www.scania.com/group/en/home/career/life-at-scania.html",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "scania:https://www.scania.com/group/en/home/career/career-opportunities.html",
+   "company_id": "scania",
+   "title": "Career opportunities",
+   "location": "",
+   "url": "https://www.scania.com/group/en/home/career/career-opportunities.html",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -3533,11 +3773,11 @@
    "baseline": false
   },
   {
-   "id": "world-courier:R2610385",
+   "id": "world-courier:R2614063",
    "company_id": "world-courier",
-   "title": "Teamleider Productie",
+   "title": "Medewerker Farmaceutische productie Spits Alkmaar",
    "location": "Alkmaar, Netherlands, Alkmaar, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Alkmaar/Teamleider-Productie_R2610385/apply",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Alkmaar/Associate-Operator--Warehouse-Operations_R2614063/apply",
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
@@ -3563,11 +3803,11 @@
    "baseline": true
   },
   {
-   "id": "world-courier:R2614063",
+   "id": "world-courier:R2610385",
    "company_id": "world-courier",
-   "title": "Medewerker Farmaceutische productie Spits Alkmaar",
+   "title": "Teamleider Productie",
    "location": "Alkmaar, Netherlands, Alkmaar, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Alkmaar/Associate-Operator--Warehouse-Operations_R2614063/apply",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Alkmaar/Teamleider-Productie_R2610385/apply",
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
@@ -7040,21 +7280,6 @@
    "baseline": false
   },
   {
-   "id": "world-courier:R2522848",
-   "company_id": "world-courier",
-   "title": "Apothekersassistent Boots Support regio West Nederland",
-   "location": "Amsterdam, Netherlands, Amsterdam, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Amsterdam-Netherlands/Apothekersassistent-Boots-Support-center-regio-West-Nederland_R2522848-1/apply",
-   "posted_at": "2026-10-06",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": true
-  },
-  {
    "id": "world-courier:R2614262",
    "company_id": "world-courier",
    "title": "Boots Apotheek Ondersteunende Medewerker - Supportafdeling Hoofdkantoor Veghel",
@@ -7090,6 +7315,21 @@
    "title": "Support Assistent regio Midden Nederland (afwisselend werken voor diverse Boots Apotheken/ het hoofdkantoor)",
    "location": "AZ Utrecht, Netherlands, AZ Utrecht, Netherlands",
    "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Utrecht/Support-Assistent-regio-Midden-Nederland--afwisselend-werken-voor-diverse-Boots-Apotheken--het-hoofdkantoor-_R2522380/apply",
+   "posted_at": "2026-10-06",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": true
+  },
+  {
+   "id": "world-courier:R2522848",
+   "company_id": "world-courier",
+   "title": "Apothekersassistent Boots Support regio West Nederland",
+   "location": "Amsterdam, Netherlands, Amsterdam, Netherlands",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Amsterdam-Netherlands/Apothekersassistent-Boots-Support-center-regio-West-Nederland_R2522848-1/apply",
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
@@ -11705,11 +11945,11 @@
    "baseline": true
   },
   {
-   "id": "world-courier:R258936",
+   "id": "world-courier:R262766",
    "company_id": "world-courier",
-   "title": "Tweede of Beherend apotheker",
-   "location": "N/A, Netherlands, N/A, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Vlissingen---Papegaaienburg/Tweede-of-Beherend-apotheker_R258936/apply",
+   "title": "Tweede apotheker (vacature reeds vervuld)",
+   "location": "Amsterdam, Netherlands, Amsterdam, Netherlands",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Boots-apotheek-Zwaansvliet/Tweede-apotheker--vacature-reeds-vervuld-_R262766-1/apply",
    "posted_at": "2026-03-16",
    "labels": {
     "dutch_required": false,
@@ -11735,11 +11975,11 @@
    "baseline": true
   },
   {
-   "id": "world-courier:R262766",
+   "id": "world-courier:R258936",
    "company_id": "world-courier",
-   "title": "Tweede apotheker (vacature reeds vervuld)",
-   "location": "Amsterdam, Netherlands, Amsterdam, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Boots-apotheek-Zwaansvliet/Tweede-apotheker--vacature-reeds-vervuld-_R262766-1/apply",
+   "title": "Tweede of Beherend apotheker",
+   "location": "N/A, Netherlands, N/A, Netherlands",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Vlissingen---Papegaaienburg/Tweede-of-Beherend-apotheker_R258936/apply",
    "posted_at": "2026-03-16",
    "labels": {
     "dutch_required": false,
