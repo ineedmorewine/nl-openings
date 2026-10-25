@@ -211,3 +211,35 @@ class Registry(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class OracleShowsTheDutchLocation(unittest.TestCase):
+    """A role listed for several places is kept because one of them is Dutch.
+
+    Showing the first location instead put "London, United Kingdom" in a list
+    of Dutch openings.
+    """
+
+    host = "acme.fa.em2.oraclecloud.com"
+
+    def test_the_dutch_location_is_reported_not_the_first_one(self):
+        url = vendors._oracle_api(self.host, "CX_1", 0)
+        payload = oracle_payload([
+            {"Id": "R1", "Title": "Solutions Engineer",
+             "PrimaryLocation": "Coventry, United Kingdom",
+             "secondaryLocations": [{"Name": "Rotterdam, Netherlands"}]},
+        ], 1)
+        jobs = vendors.oracle_fetch(FakeNet(routes={url: payload}),
+                                    {"host": self.host, "site": "CX_1"}, strict=True)
+        self.assertEqual(jobs[0]["location"], "Rotterdam, Netherlands")
+
+    def test_a_role_with_no_dutch_location_is_still_dropped(self):
+        url = vendors._oracle_api(self.host, "CX_1", 0)
+        payload = oracle_payload([
+            {"Id": "R2", "Title": "Solutions Engineer",
+             "PrimaryLocation": "Coventry, United Kingdom",
+             "secondaryLocations": [{"Name": "London, United Kingdom"}]},
+        ], 1)
+        jobs = vendors.oracle_fetch(FakeNet(routes={url: payload}),
+                                    {"host": self.host, "site": "CX_1"}, strict=True)
+        self.assertEqual(jobs, [])

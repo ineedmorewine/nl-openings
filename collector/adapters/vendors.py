@@ -240,13 +240,16 @@ def oracle_fetch(net, params, strict):
             places = [req.get("PrimaryLocation") or ""]
             places += [(p or {}).get("Name") or "" for p in req.get("secondaryLocations") or []]
             places = [p for p in places if p]
-            if not any(keep_location(p, strict=True) for p in places):
+            dutch = [p for p in places if keep_location(p, strict=True)]
+            if not dutch:
                 continue
             job_id = str(req.get("Id") or req.get("RequisitionId") or "")
             results.append({
                 "ext_id": job_id,
                 "title": (req.get("Title") or "").strip(),
-                "location": places[0],
+                # Show the Dutch location: a role listed for London and Rotterdam
+                # is in this list because of Rotterdam.
+                "location": dutch[0],
                 "url": f"https://{host}/hcmUI/CandidateExperience/en/sites/{site}/job/{job_id}",
                 "posted_at": normalize_date(req.get("PostedDate")),
             })
