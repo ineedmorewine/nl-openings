@@ -729,3 +729,29 @@ class RenderingReportsWhatHappened(unittest.TestCase):
             exhausted = True
             last_error = None
         self.assertIn("budget spent", self.attempt(Renderer())["report"])
+
+
+class SampleLinksExplainAnEmptyRender(unittest.TestCase):
+    """Fifty pages rendered and none looked like a vacancy, with no clue why."""
+
+    def test_the_links_a_page_did_offer_are_recorded(self):
+        markup = ('<a href="/werken-bij/functie/transportplanner">Transportplanner</a>'
+                  '<a href="https://ats.example.com/go/1234">Apply</a>'
+                  '<a href="/">Home</a>')
+        samples = careerpage.sample_links(markup, "https://acme.nl/werken-bij")
+        self.assertIn("/werken-bij/functie/transportplanner", samples)
+        self.assertIn("[other host] /go/1234", samples)
+        self.assertNotIn("/", samples)
+
+    def test_the_report_carries_them_when_nothing_matched(self):
+        class Renderer:
+            exhausted = False
+            last_error = None
+
+            def render(self, url):
+                return '<a href="/werken-bij/functie/planner">Planner</a>'
+        with mock.patch.object(run, "second_opinion_pages",
+                               lambda *a, **k: ["https://acme.nl/werken-bij"]):
+            report = run.rendered_second_opinion(Renderer(), {"id": "acme"}, {})["report"]
+        self.assertIn("found 0 link(s)", report)
+        self.assertIn("/werken-bij/functie/planner", report)

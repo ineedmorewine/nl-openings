@@ -76,6 +76,24 @@ def _looks_like_a_posting(url, title):
     return 6 <= len(title) <= 120 and len(title.split()) >= 2
 
 
+def sample_links(markup, page_url, limit=6):
+    """A few of the links a page offers, for working out why none looked like a job."""
+    seen = []
+    for href, _ in _ANCHOR.findall(markup or ""):
+        url = urljoin(page_url, href.strip()).split("#")[0]
+        path = urlparse(url).path
+        if not path or path == "/":
+            continue
+        same = urlparse(url).netloc == urlparse(page_url).netloc
+        mark = "" if same else "[other host] "
+        entry = mark + path[:70]
+        if entry not in seen:
+            seen.append(entry)
+        if len(seen) >= limit:
+            break
+    return seen
+
+
 def find_posting_links(markup, page_url):
     """Return [(url, title)] for links on this page that look like job postings."""
     host = urlparse(page_url).netloc
