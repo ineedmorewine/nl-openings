@@ -458,12 +458,28 @@
   "vendor": null,
   "checked_pages": [
    "https://dimerco.com/",
-   "https://www.dimerco.com/"
+   "https://www.dimerco.com/",
+   "https://dimerco.com/careers/",
+   "https://www.dimerco.com/careers",
+   "https://www.dimerco.com/en/careers",
+   "https://www.dimerco.com/careers/",
+   "https://www.dimerco.com/nl/werken-bij",
+   "https://www.dimerco.com/werken-bij",
+   "https://www.dimerco.com/vacatures",
+   "https://www.dimerco.com/nl/vacatures",
+   "https://www.dimerco.com/jobs",
+   "https://www.dimerco.com/en/jobs",
+   "https://www.dimerco.com/career",
+   "https://www.dimerco.com/en/career"
   ],
-  "reason": "site_unreachable",
+  "reason": "no_careers_system_found",
   "notes": [
-   "https://dimerco.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/",
-   "https://www.dimerco.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/"
+   "https://www.dimerco.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/",
+   "https://dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/careers/",
+   "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
+   "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
+   "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
+   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij"
   ],
   "checked_at": "2026-10-25"
  },
@@ -794,36 +810,6 @@
   "notes": [],
   "checked_at": "2026-10-25"
  },
- "movianto": {
-  "source": null,
-  "vendor": null,
-  "checked_pages": [
-   "https://movianto.com/",
-   "https://www.movianto.com/",
-   "https://movianto.com/careers/",
-   "https://www.movianto.com/careers",
-   "https://www.movianto.com/en/careers",
-   "https://www.movianto.com/careers/",
-   "https://www.movianto.com/nl/werken-bij",
-   "https://www.movianto.com/werken-bij",
-   "https://www.movianto.com/vacatures",
-   "https://www.movianto.com/nl/vacatures",
-   "https://www.movianto.com/jobs",
-   "https://www.movianto.com/en/jobs",
-   "https://www.movianto.com/career",
-   "https://www.movianto.com/en/career"
-  ],
-  "reason": "no_careers_system_found",
-  "notes": [
-   "https://www.movianto.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://movianto.com/en/careers",
-   "https://www.movianto.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://movianto.com/nl/werken-bij",
-   "https://www.movianto.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://movianto.com/werken-bij",
-   "https://www.movianto.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://movianto.com/vacatures",
-   "https://www.movianto.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://movianto.com/jobs",
-   "https://www.movianto.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://movianto.com/en/jobs"
-  ],
-  "checked_at": "2026-10-25"
- },
  "newcold": {
   "source": null,
   "vendor": null,
@@ -878,29 +864,6 @@
    "https://werkenbijpostnl.nl/ -> SSLError: HTTPSConnectionPool(host='werkenbijpostnl.nl', port=443): Max retries exceeded with url: /",
    "https://www.werkenbijpostnl.nl/ -> SSLError: HTTPSConnectionPool(host='www.werkenbijpostnl.nl', port=443): Max retries exceeded with ur"
   ],
-  "checked_at": "2026-10-25"
- },
- "gls": {
-  "source": null,
-  "vendor": null,
-  "checked_pages": [
-   "https://gls-group.com/",
-   "https://www.gls-group.com/",
-   "https://www.gls-group.com/careers",
-   "https://www.gls-group.com/en/careers",
-   "https://www.gls-group.com/careers/",
-   "https://www.gls-group.com/nl/werken-bij",
-   "https://www.gls-group.com/werken-bij",
-   "https://www.gls-group.com/vacatures",
-   "https://www.gls-group.com/nl/vacatures",
-   "https://www.gls-group.com/jobs",
-   "https://www.gls-group.com/en/jobs",
-   "https://www.gls-group.com/career",
-   "https://www.gls-group.com/en/career",
-   "https://gls-group.com/careers"
-  ],
-  "reason": "no_careers_system_found",
-  "notes": [],
   "checked_at": "2026-10-25"
  },
  "aramex": {
@@ -1024,11 +987,11 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/en/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers/",
-   "https://www.hmm21.com/nl/werken-bij -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers",
+   "https://www.hmm21.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/en/careers",
+   "https://www.hmm21.com/careers/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/nl/werken-bij",
    "https://www.hmm21.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/werken-bij"
   ],
   "checked_at": "2026-10-25"
@@ -1784,22 +1747,13 @@
   "vendor": null,
   "checked_pages": [
    "https://jdlogistics.com/",
-   "https://www.jdlogistics.com/",
-   "https://www.jdlogistics.com/careers",
-   "https://www.jdlogistics.com/en/careers",
-   "https://www.jdlogistics.com/careers/",
-   "https://www.jdlogistics.com/nl/werken-bij",
-   "https://www.jdlogistics.com/werken-bij",
-   "https://www.jdlogistics.com/vacatures",
-   "https://www.jdlogistics.com/nl/vacatures",
-   "https://www.jdlogistics.com/jobs",
-   "https://www.jdlogistics.com/en/jobs",
-   "https://www.jdlogistics.com/career",
-   "https://www.jdlogistics.com/en/career",
-   "https://jdlogistics.com/careers"
+   "https://www.jdlogistics.com/"
   ],
-  "reason": "no_careers_system_found",
-  "notes": [],
+  "reason": "site_unreachable",
+  "notes": [
+   "https://jdlogistics.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://jdlogistics.com/",
+   "https://www.jdlogistics.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.jdlogistics.com/"
+  ],
   "checked_at": "2026-10-25"
  },
  "koyanagi-worldwide": {
@@ -2038,29 +1992,6 @@
    "https://www.rotra.eu/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://rotra.eu/nl/vacatures",
    "https://www.rotra.eu/jobs -> HTTPError: 404 Client Error: Not Found for url: https://rotra.eu/jobs"
   ],
-  "checked_at": "2026-10-25"
- },
- "samsung-sds": {
-  "source": null,
-  "vendor": null,
-  "checked_pages": [
-   "https://samsungsds.com/",
-   "https://www.samsungsds.com/",
-   "https://www.samsungsds.com/careers",
-   "https://www.samsungsds.com/en/careers",
-   "https://www.samsungsds.com/careers/",
-   "https://www.samsungsds.com/nl/werken-bij",
-   "https://www.samsungsds.com/werken-bij",
-   "https://www.samsungsds.com/vacatures",
-   "https://www.samsungsds.com/nl/vacatures",
-   "https://www.samsungsds.com/jobs",
-   "https://www.samsungsds.com/en/jobs",
-   "https://www.samsungsds.com/career",
-   "https://www.samsungsds.com/en/career",
-   "https://samsungsds.com/careers"
-  ],
-  "reason": "no_careers_system_found",
-  "notes": [],
   "checked_at": "2026-10-25"
  },
  "sankyu-europe": {
@@ -2509,7 +2440,7 @@
   "reason": "site_unreachable",
   "notes": [
    "https://lilymaas.nl/ -> SSLError: HTTPSConnectionPool(host='lilymaas.nl', port=443): Max retries exceeded with url: / (Cause",
-   "https://www.lilymaas.nl/ -> SSLError: HTTPSConnectionPool(host='www.lilymaas.nl', port=443): Max retries exceeded with url: / (C"
+   "https://www.lilymaas.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.lilymaas.nl', port=443): Max retries exceeded with url: / (C"
   ],
   "checked_at": "2026-10-25"
  },
@@ -3305,22 +3236,13 @@
   "vendor": null,
   "checked_pages": [
    "https://edcr.nl/",
-   "https://www.edcr.nl/",
-   "https://www.edcr.nl/careers",
-   "https://www.edcr.nl/en/careers",
-   "https://www.edcr.nl/careers/",
-   "https://www.edcr.nl/nl/werken-bij",
-   "https://www.edcr.nl/werken-bij",
-   "https://www.edcr.nl/vacatures",
-   "https://www.edcr.nl/nl/vacatures",
-   "https://www.edcr.nl/jobs",
-   "https://www.edcr.nl/en/jobs",
-   "https://www.edcr.nl/career",
-   "https://www.edcr.nl/en/career",
-   "https://edcr.nl/careers"
+   "https://www.edcr.nl/"
   ],
-  "reason": "no_careers_system_found",
-  "notes": [],
+  "reason": "site_unreachable",
+  "notes": [
+   "https://edcr.nl/ -> HTTPError: 403 Client Error: Forbidden for url: https://edcr.nl/",
+   "https://www.edcr.nl/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.edcr.nl/"
+  ],
   "checked_at": "2026-10-25"
  },
  "feniks-warehousing-solutions": {
