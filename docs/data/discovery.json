@@ -888,16 +888,28 @@
   "vendor": null,
   "checked_pages": [
    "https://hmm21.com/",
-   "https://www.hmm21.com/"
+   "https://www.hmm21.com/",
+   "https://www.hmm21.com/careers",
+   "https://www.hmm21.com/en/careers",
+   "https://www.hmm21.com/careers/",
+   "https://www.hmm21.com/nl/werken-bij",
+   "https://www.hmm21.com/werken-bij",
+   "https://www.hmm21.com/vacatures",
+   "https://www.hmm21.com/nl/vacatures",
+   "https://www.hmm21.com/jobs",
+   "https://www.hmm21.com/en/jobs",
+   "https://www.hmm21.com/career",
+   "https://www.hmm21.com/en/career",
+   "https://hmm21.com/careers"
   ],
-  "reason": "site_unreachable",
+  "reason": "no_careers_system_found",
   "notes": [
-   "https://www.hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
    "https://www.hmm21.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers",
    "https://www.hmm21.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/en/careers",
    "https://www.hmm21.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers/",
    "https://www.hmm21.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/nl/werken-bij",
-   "https://www.hmm21.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/werken-bij"
+   "https://www.hmm21.com/werken-bij -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/vacatures -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)"
   ],
   "checked_at": "2026-10-25"
  },
@@ -3496,6 +3508,36 @@
   "notes": [
    "https://portofamsterdam.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.portofamsterdam.com/",
    "https://www.portofamsterdam.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.portofamsterdam.com/"
+  ],
+  "checked_at": "2026-10-25"
+ },
+ "barsan-global-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://www.barsan.nl/jobs",
+   "https://barsan.com/",
+   "https://www.barsan.com/",
+   "https://www.barsan.com/careers",
+   "https://www.barsan.com/en/careers",
+   "https://www.barsan.com/careers/",
+   "https://www.barsan.com/nl/werken-bij",
+   "https://www.barsan.com/werken-bij",
+   "https://www.barsan.com/vacatures",
+   "https://www.barsan.com/nl/vacatures",
+   "https://www.barsan.com/jobs",
+   "https://www.barsan.com/en/jobs",
+   "https://www.barsan.com/career",
+   "https://www.barsan.com/en/career"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://www.barsan.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/careers",
+   "https://www.barsan.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/en/careers",
+   "https://www.barsan.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/careers",
+   "https://www.barsan.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/nl/werken-bij",
+   "https://www.barsan.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/werken-bij",
+   "https://www.barsan.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/vacatures"
   ],
   "checked_at": "2026-10-25"
  }

@@ -1,6 +1,21 @@
 {
- "generated_at": "2026-10-25T20:00+00:00",
+ "generated_at": "2026-10-25T22:19+00:00",
  "jobs": [
+  {
+   "id": "barsan-global-logistics:https://www.barsan.nl/jobs#senior-transport-planner",
+   "company_id": "barsan-global-logistics",
+   "title": "Senior Transport Planner",
+   "location": "",
+   "url": "https://www.barsan.nl/jobs#senior-transport-planner",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
   {
    "id": "dsv:/job/Schiphol-IT-Support-Engineer-Nort-1118-AM/1400302933/",
    "company_id": "dsv",
@@ -278,42 +293,6 @@
    "baseline": true
   },
   {
-   "id": "grolleman-vrieshuis:https://www.grolleman.nl/nl/vacatures#medewerker-overslag",
-   "company_id": "grolleman-vrieshuis",
-   "title": "Medewerker Overslag",
-   "location": "",
-   "url": "https://www.grolleman.nl/nl/vacatures#medewerker-overslag",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "grolleman-vrieshuis:https://www.grolleman.nl/nl/vacatures#chauffeur-koel-vriestransport",
-   "company_id": "grolleman-vrieshuis",
-   "title": "Chauffeur Koel-/Vriestransport",
-   "location": "",
-   "url": "https://www.grolleman.nl/nl/vacatures#chauffeur-koel-vriestransport",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "grolleman-vrieshuis:https://www.grolleman.nl/nl/vacatures#chauffeur-steenwagen",
-   "company_id": "grolleman-vrieshuis",
-   "title": "Chauffeur Steenwagen",
-   "location": "",
-   "url": "https://www.grolleman.nl/nl/vacatures#chauffeur-steenwagen",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
    "id": "monta:https://www.werkenbijmonta.nl/vacatures/#logistiek-medewerker-inbound",
    "company_id": "monta",
    "title": "Logistiek Medewerker Inbound",
@@ -442,141 +421,6 @@
    "title": "Assistent Shiftleader",
    "location": "",
    "url": "https://www.werkenbijmonta.nl/vacatures/#assistent-shiftleader",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "monta:https://www.monta.nl/vacatures#logistiek-medewerker-inbound",
-   "company_id": "monta",
-   "title": "Logistiek Medewerker Inbound",
-   "location": "Locatie",
-   "url": "https://www.monta.nl/vacatures#logistiek-medewerker-inbound",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "monta:https://www.monta.nl/vacatures#cloud-infrastructure-engineer",
-   "company_id": "monta",
-   "title": "Cloud & Infrastructure Engineer",
-   "location": "",
-   "url": "https://www.monta.nl/vacatures#cloud-infrastructure-engineer",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "monta:https://www.monta.nl/vacatures#financieel-medewerker",
-   "company_id": "monta",
-   "title": "Financieel Medewerker",
-   "location": "",
-   "url": "https://www.monta.nl/vacatures#financieel-medewerker",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "monta:https://www.monta.nl/vacatures#product-manager-europe",
-   "company_id": "monta",
-   "title": "Product Manager Europe",
-   "location": "",
-   "url": "https://www.monta.nl/vacatures#product-manager-europe",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "monta:https://www.monta.nl/vacatures#it-onboarding-specialist-junior",
-   "company_id": "monta",
-   "title": "IT Onboarding Specialist (Junior)",
-   "location": "",
-   "url": "https://www.monta.nl/vacatures#it-onboarding-specialist-junior",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "monta:https://www.monta.nl/vacatures#medewerker-debiteurenbeheer",
-   "company_id": "monta",
-   "title": "Medewerker Debiteurenbeheer",
-   "location": "",
-   "url": "https://www.monta.nl/vacatures#medewerker-debiteurenbeheer",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "monta:https://www.monta.nl/vacatures#allround-logistiek-medewerker",
-   "company_id": "monta",
-   "title": "Allround Logistiek Medewerker",
-   "location": "",
-   "url": "https://www.monta.nl/vacatures#allround-logistiek-medewerker",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "monta:https://www.monta.nl/vacatures#logistiek-medewerker",
-   "company_id": "monta",
-   "title": "Logistiek Medewerker",
-   "location": "",
-   "url": "https://www.monta.nl/vacatures#logistiek-medewerker",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "monta:https://www.monta.nl/vacatures#logistiek-teamleider",
-   "company_id": "monta",
-   "title": "Logistiek Teamleider",
-   "location": "",
-   "url": "https://www.monta.nl/vacatures#logistiek-teamleider",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "monta:https://www.monta.nl/vacatures#logistiek-medewerker-student-oproep",
-   "company_id": "monta",
-   "title": "Logistiek Medewerker (Student/Oproep)",
-   "location": "",
-   "url": "https://www.monta.nl/vacatures#logistiek-medewerker-student-oproep",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "monta:https://www.monta.nl/vacatures#assistent-shiftleader",
-   "company_id": "monta",
-   "title": "Assistent Shiftleader",
-   "location": "",
-   "url": "https://www.monta.nl/vacatures#assistent-shiftleader",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
