@@ -1,18 +1,6 @@
 {
- "generated_at": "2026-10-25T02:09+00:00",
+ "generated_at": "2026-10-25T03:48+00:00",
  "jobs": [
-  {
-   "id": "a2b-online:https://a2b-online.com/vacancies/several-vacancies-for-seafarers/",
-   "company_id": "a2b-online",
-   "title": "Several Vacancies For Seafarers",
-   "location": "",
-   "url": "https://a2b-online.com/vacancies/several-vacancies-for-seafarers/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
   {
    "id": "dsv:/job/Schiphol-IT-Support-Engineer-Nort-1118-AM/1400302933/",
    "company_id": "dsv",
@@ -62,144 +50,6 @@
    "baseline": false
   },
   {
-   "id": "klg-europe:https://www.werkenbijklg.nl/job-alert",
-   "company_id": "klg-europe",
-   "title": "Job Alert",
-   "location": "",
-   "url": "https://www.werkenbijklg.nl/job-alert",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/rangeerder-200",
-   "company_id": "klg-europe",
-   "title": "Direct solliciteren",
-   "location": "",
-   "url": "https://www.werkenbijklg.nl/vacatures/rangeerder-200",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/transport-a-warehouse-coordinator-199",
-   "company_id": "klg-europe",
-   "title": "Transport A Warehouse Coordinator",
-   "location": "",
-   "url": "https://www.werkenbijklg.nl/vacatures/transport-a-warehouse-coordinator-199",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/heftruckchauffeur-crossdock-late-dienst-198",
-   "company_id": "klg-europe",
-   "title": "Heftruckchauffeur Crossdock Late Dienst",
-   "location": "",
-   "url": "https://www.werkenbijklg.nl/vacatures/heftruckchauffeur-crossdock-late-dienst-198",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/heftruckchauffeur-crossdock-nachtdienst-197",
-   "company_id": "klg-europe",
-   "title": "Heftruckchauffeur Crossdock Nachtdienst",
-   "location": "",
-   "url": "https://www.werkenbijklg.nl/vacatures/heftruckchauffeur-crossdock-nachtdienst-197",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
-   "company_id": "klg-europe",
-   "title": "Transport Planner Hongarije",
-   "location": "",
-   "url": "https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/it-support-engineer-194",
-   "company_id": "klg-europe",
-   "title": "It Support Engineer",
-   "location": "",
-   "url": "https://www.werkenbijklg.nl/vacatures/it-support-engineer-194",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/key-account-representative-191",
-   "company_id": "klg-europe",
-   "title": "Key Account Representative",
-   "location": "",
-   "url": "https://www.werkenbijklg.nl/vacatures/key-account-representative-191",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/orderplanner-warehouse-192",
-   "company_id": "klg-europe",
-   "title": "Orderplanner Warehouse",
-   "location": "",
-   "url": "https://www.werkenbijklg.nl/vacatures/orderplanner-warehouse-192",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/key-account-representative-196",
-   "company_id": "klg-europe",
-   "title": "Key Account Representative",
-   "location": "",
-   "url": "https://www.werkenbijklg.nl/vacatures/key-account-representative-196",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/financial-controller-193",
-   "company_id": "klg-europe",
-   "title": "Financial Controller",
-   "location": "",
-   "url": "https://www.werkenbijklg.nl/vacatures/financial-controller-193",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
    "id": "nunner-logistics:https://www.nunner.com/vacatures/warehouse-manager/",
    "company_id": "nunner-logistics",
    "title": "Warehouse Manager",
@@ -224,59 +74,11 @@
    "baseline": false
   },
   {
-   "id": "e-van-wijk-forwarding-group:https://www.vanwijkgroep.com/vacature-auto-elektromonteur/",
-   "company_id": "e-van-wijk-forwarding-group",
-   "title": "vacature als elektromonteur",
-   "location": "",
-   "url": "https://www.vanwijkgroep.com/vacature-auto-elektromonteur/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
    "id": "nedair-freight:https://www.nedair.nl/werken-bij-ned-air/",
    "company_id": "nedair-freight",
    "title": "Werken Bij Ned Air",
    "location": "",
    "url": "https://www.nedair.nl/werken-bij-ned-air/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "santova-logistics:https://www.santova.com/careers/0027313747000",
-   "company_id": "santova-logistics",
-   "title": "+27 (0) 31 374 7000",
-   "location": "",
-   "url": "https://www.santova.com/careers/0027313747000",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "arvato:https://career.arvato.com/job-scams",
-   "company_id": "arvato",
-   "title": "Learn more",
-   "location": "",
-   "url": "https://career.arvato.com/job-scams",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "arvato:https://www.arvato.com/job-scams",
-   "company_id": "arvato",
-   "title": "Learn more",
-   "location": "",
-   "url": "https://www.arvato.com/job-scams",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -299,114 +101,6 @@
    "baseline": true
   },
   {
-   "id": "moduslink:https://www.moduslink.com/careers/career-opportunities/",
-   "company_id": "moduslink",
-   "title": "Global Opportunities",
-   "location": "",
-   "url": "https://www.moduslink.com/careers/career-opportunities/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "re-teck:https://www.re-teck.com/job-opportunities/",
-   "company_id": "re-teck",
-   "title": "Job Opportunities",
-   "location": "",
-   "url": "https://www.re-teck.com/job-opportunities/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "fedex:https://careers.fedex.com/career-areas/facility-operations/",
-   "company_id": "fedex",
-   "title": "Facility Operations",
-   "location": "",
-   "url": "https://careers.fedex.com/career-areas/facility-operations/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "fedex:https://careers.fedex.com/career-areas/package-handler/",
-   "company_id": "fedex",
-   "title": "Package Handlers",
-   "location": "",
-   "url": "https://careers.fedex.com/career-areas/package-handler/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "fedex:https://careers.fedex.com/career-areas/student-programs/",
-   "company_id": "fedex",
-   "title": "Student Programs",
-   "location": "",
-   "url": "https://careers.fedex.com/career-areas/student-programs/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "fedex:https://careers.fedex.com/career-areas/driver/",
-   "company_id": "fedex",
-   "title": "TAKE THE WHEEL",
-   "location": "",
-   "url": "https://careers.fedex.com/career-areas/driver/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "fedex:https://careers.fedex.com/career-areas/maintenance/",
-   "company_id": "fedex",
-   "title": "MAINTAIN EXCELLENCE",
-   "location": "",
-   "url": "https://careers.fedex.com/career-areas/maintenance/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "fedex:https://careers.fedex.com/career-areas/professional/",
-   "company_id": "fedex",
-   "title": "PERUSE PROFESSIONAL OPPORTUNITIES",
-   "location": "",
-   "url": "https://careers.fedex.com/career-areas/professional/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "fedex:https://careers.fedex.com/career-areas/pilot/",
-   "company_id": "fedex",
-   "title": "WATCH YOUR CAREER TAKE OFF",
-   "location": "",
-   "url": "https://careers.fedex.com/career-areas/pilot/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
    "id": "dsv:/job/Rotterdam-Project-Specialist-ZH-3016-DR/1431149433/",
    "company_id": "dsv",
    "title": "Project Specialist",
@@ -416,21 +110,6 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "bertschi:https://www.bertschi.com/en/career/road-transport-specialists",
-   "company_id": "bertschi",
-   "title": "Road Transport Specialists",
-   "location": "",
-   "url": "https://www.bertschi.com/en/career/road-transport-specialists",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-24",
    "baseline": false
   },
   {
@@ -509,833 +188,11 @@
    "baseline": true
   },
   {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/hr-business-partner/",
-   "company_id": "neele-vat",
-   "title": "Hr Business Partner",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/hr-business-partner/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/sales-support-employee/",
-   "company_id": "neele-vat",
-   "title": "Sales Support Employee",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/sales-support-employee/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/warehouse-team-leader/",
-   "company_id": "neele-vat",
-   "title": "Warehouse Team Leader",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/warehouse-team-leader/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/ocean-administrative-assistant/",
-   "company_id": "neele-vat",
-   "title": "Ocean Administrative Assistant",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/ocean-administrative-assistant/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/assistant-finance/",
-   "company_id": "neele-vat",
-   "title": "Assistant Finance",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/assistant-finance/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
-   "company_id": "neele-vat",
-   "title": "Freight Forwarder Road Transport Uk",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/customer-operations-specialist-redwood/",
-   "company_id": "neele-vat",
-   "title": "Customer Operations Specialist Redwood",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/customer-operations-specialist-redwood/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
-   "company_id": "neele-vat",
-   "title": "All Round Sea Freight Forwarder",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/business-process-analyst/",
-   "company_id": "neele-vat",
-   "title": "Business Process Analyst",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/business-process-analyst/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/container-planner/",
-   "company_id": "neele-vat",
-   "title": "Container Planner",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/container-planner/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/field-service-terminal-employee/",
-   "company_id": "neele-vat",
-   "title": "Field Service Terminal Employee",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/field-service-terminal-employee/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
-   "company_id": "neele-vat",
-   "title": "Transportplanner Ftl",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/accounts-payable-specialist/",
-   "company_id": "neele-vat",
-   "title": "Accounts Payable Specialist",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/accounts-payable-specialist/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/it-support/",
-   "company_id": "neele-vat",
-   "title": "It Support",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/it-support/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/inside-sales-ocean/",
-   "company_id": "neele-vat",
-   "title": "Inside Sales Ocean",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/inside-sales-ocean/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/shipspares-specialist/",
-   "company_id": "neele-vat",
-   "title": "Shipspares Specialist",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/shipspares-specialist/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
-   "company_id": "neele-vat",
-   "title": "Freight Forwarder Shiproad",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
-   "company_id": "neele-vat",
-   "title": "Customer Operations Specialist",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-import-sea-freight/",
-   "company_id": "neele-vat",
-   "title": "Freight Forwarder Import Sea Freight",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-import-sea-freight/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/transport-planner-benelux/",
-   "company_id": "neele-vat",
-   "title": "Transport Planner Benelux",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/transport-planner-benelux/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
-   "company_id": "neele-vat",
-   "title": "Export Forwarder",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/truck-driver-ce/",
-   "company_id": "neele-vat",
-   "title": "Truck Driver Ce",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/truck-driver-ce/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/team-leader-warehouse-2/",
-   "company_id": "neele-vat",
-   "title": "Team Leader Warehouse",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/team-leader-warehouse-2/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/ovbe-sheq-manager/",
-   "company_id": "neele-vat",
-   "title": "Ovbe Sheq Manager",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/ovbe-sheq-manager/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/process-engineer/",
-   "company_id": "neele-vat",
-   "title": "Process Engineer",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/process-engineer/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/customer-service-employee-belgium/",
-   "company_id": "neele-vat",
-   "title": "Customer Service Employee Belgium",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/customer-service-employee-belgium/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/warehouse-worker-2/",
-   "company_id": "neele-vat",
-   "title": "Warehouse Worker",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/warehouse-worker-2/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/vocational-trainee/",
-   "company_id": "neele-vat",
-   "title": "Vocational Trainee",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/vocational-trainee/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/hbo-intern/",
-   "company_id": "neele-vat",
-   "title": "Hbo Intern",
-   "location": "",
-   "url": "https://werkenbijneelevat.com/vacancies/hbo-intern/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
    "id": "aircargo-nl:https://aircargo.nl/fr/apropos/offres-demploi",
    "company_id": "aircargo-nl",
    "title": "Offres Demploi",
    "location": "",
    "url": "https://aircargo.nl/fr/apropos/offres-demploi",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/chauffeur-avond-nacht/",
-   "company_id": "gd-its-forwarding",
-   "title": "Chauffeur Avond Nacht",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/chauffeur-avond-nacht/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "kintetsu-world-express:https://www.kwe.com/local/china_hongkong/en/careers/index.html",
-   "company_id": "kintetsu-world-express",
-   "title": "CHINA & HONG KONG",
-   "location": "",
-   "url": "https://www.kwe.com/local/china_hongkong/en/careers/index.html",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "kintetsu-world-express:https://www.kwe.com/local/czech/en/careers/index.html",
-   "company_id": "kintetsu-world-express",
-   "title": "CZECH REPUBLIC",
-   "location": "",
-   "url": "https://www.kwe.com/local/czech/en/careers/index.html",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "kintetsu-world-express:https://www.kwe.com/local/bahrain_saudiarabia/en/careers/index.html",
-   "company_id": "kintetsu-world-express",
-   "title": "SAUDI ARABIA & BAHRAIN",
-   "location": "",
-   "url": "https://www.kwe.com/local/bahrain_saudiarabia/en/careers/index.html",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "kintetsu-world-express:https://www.kwe.com/local/southafrica/en/careers/index.html",
-   "company_id": "kintetsu-world-express",
-   "title": "SOUTH AFRICA",
-   "location": "",
-   "url": "https://www.kwe.com/local/southafrica/en/careers/index.html",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "kln-logistics:https://www.kln.com:443/tc/careers/working-at-kln/",
-   "company_id": "kln-logistics",
-   "title": "Working At Kln",
-   "location": "",
-   "url": "https://www.kln.com:443/tc/careers/working-at-kln/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "kln-logistics:https://www.kln.com:443/sc/careers/working-at-kln/",
-   "company_id": "kln-logistics",
-   "title": "Working At Kln",
-   "location": "",
-   "url": "https://www.kln.com:443/sc/careers/working-at-kln/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "maersk:https://www.maersk.com/news/articles/2024/11/26/career-development-challenges-and-self-discovery-at-maersk",
-   "company_id": "maersk",
-   "title": "Career Development Challenges And Self Discovery At Maersk",
-   "location": "",
-   "url": "https://www.maersk.com/news/articles/2024/11/26/career-development-challenges-and-self-discovery-at-maersk",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/work/",
-   "company_id": "nippon-express",
-   "title": "Life & Work at NX",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/work/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/work/roles",
-   "company_id": "nippon-express",
-   "title": "Job Roles at NX",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/work/roles",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/work/benefits-and-development",
-   "company_id": "nippon-express",
-   "title": "Benefits & Career Support",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/work/benefits-and-development",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/work/team-culture",
-   "company_id": "nippon-express",
-   "title": "One Team Culture",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/work/team-culture",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/people/management",
-   "company_id": "nippon-express",
-   "title": "Management Career",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/people/management",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/people/field-leaders",
-   "company_id": "nippon-express",
-   "title": "Frontline Career",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/people/field-leaders",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/people/young-talent",
-   "company_id": "nippon-express",
-   "title": "Young Talent Career 1",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/people/young-talent",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/people/young-talent-02",
-   "company_id": "nippon-express",
-   "title": "Young Talent Career 2",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/people/young-talent-02",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/recruitment",
-   "company_id": "nippon-express",
-   "title": "Recruitment Information & Process",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/recruitment",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/about",
-   "company_id": "nippon-express",
-   "title": "NX Group Overview",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/about",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/about/company-overview",
-   "company_id": "nippon-express",
-   "title": "Who We Are",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/about/company-overview",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/about/services-innovation",
-   "company_id": "nippon-express",
-   "title": "How We Deliver the Future",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/about/services-innovation",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/about/global-network",
-   "company_id": "nippon-express",
-   "title": "Our Global Network",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/about/global-network",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/about/values-and-compliance",
-   "company_id": "nippon-express",
-   "title": "What We Stand For",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/about/values-and-compliance",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/work/roles/",
-   "company_id": "nippon-express",
-   "title": "Job Roles at NX",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/work/roles/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/work/benefits-and-development/",
-   "company_id": "nippon-express",
-   "title": "Benefits & Career Support",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/work/benefits-and-development/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/work/team-culture/",
-   "company_id": "nippon-express",
-   "title": "One Team Culture",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/work/team-culture/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/people/management/",
-   "company_id": "nippon-express",
-   "title": "Career Stories: Management",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/people/management/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/people/field-leaders/",
-   "company_id": "nippon-express",
-   "title": "Career Stories: Frontline",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/people/field-leaders/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/people/young-talent/",
-   "company_id": "nippon-express",
-   "title": "Career Stories: Young Talent 1",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/people/young-talent/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/people/young-talent-02/",
-   "company_id": "nippon-express",
-   "title": "Career Stories: Young Talent 2",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/people/young-talent-02/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/recruitment/",
-   "company_id": "nippon-express",
-   "title": "Recruitment Pages",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/recruitment/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/about/",
-   "company_id": "nippon-express",
-   "title": "Company Pages",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/about/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/about/company-overview/",
-   "company_id": "nippon-express",
-   "title": "Who We Are",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/about/company-overview/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/about/services-innovation/",
-   "company_id": "nippon-express",
-   "title": "How We Deliver the Future",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/about/services-innovation/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/about/global-network/",
-   "company_id": "nippon-express",
-   "title": "Our Global Network",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/about/global-network/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "nippon-express:https://www.nipponexpress.com/careers/about/values-and-compliance/",
-   "company_id": "nippon-express",
-   "title": "What We Stand For",
-   "location": "",
-   "url": "https://www.nipponexpress.com/careers/about/values-and-compliance/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": true
-  },
-  {
-   "id": "bleckmann:https://www.bleckmann.com/nl/vacatures/warehouse-administrator-2",
-   "company_id": "bleckmann",
-   "title": "Warehouse Administrator Lutterworth, United Kingdom",
-   "location": "",
-   "url": "https://www.bleckmann.com/nl/vacatures/warehouse-administrator-2",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "bleckmann:https://www.bleckmann.com/nl/vacatures/team-leader-tuesday-saturday-1600-0000",
-   "company_id": "bleckmann",
-   "title": "Team Leader (Tuesday - Saturday, 16:00 - 00:00) Crick, United Kingdom",
-   "location": "",
-   "url": "https://www.bleckmann.com/nl/vacatures/team-leader-tuesday-saturday-1600-0000",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -3062,30 +1919,6 @@
    "baseline": false
   },
   {
-   "id": "bleckmann:https://www.bleckmann.com/nl/vacatures/finance-admin-employee",
-   "company_id": "bleckmann",
-   "title": "Finance & Admin Employee Kruisem, Belgium",
-   "location": "",
-   "url": "https://www.bleckmann.com/nl/vacatures/finance-admin-employee",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-23",
-   "baseline": false
-  },
-  {
-   "id": "bleckmann:https://www.bleckmann.com/nl/vacatures/assistant-controller",
-   "company_id": "bleckmann",
-   "title": "Assistant Controller Lutterworth, United Kingdom",
-   "location": "",
-   "url": "https://www.bleckmann.com/nl/vacatures/assistant-controller",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-23",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-387652",
    "company_id": "dhl-group",
    "title": "Claims Specialist",
@@ -3233,18 +2066,6 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
-   "company_id": "dachser",
-   "title": "Accountmanager",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
-   "posted_at": "2026-10-23",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Expediteur-Logistiek-2742RD/1170136255/",
    "company_id": "dachser",
    "title": "Expediteur Logistiek",
@@ -3256,6 +2077,18 @@
     "written_in_dutch": true
    },
    "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
+   "company_id": "dachser",
+   "title": "Accountmanager",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Accountmanager-2742RD/1344259755/",
+   "posted_at": "2026-10-23",
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -3395,11 +2228,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-387388",
+   "id": "dhl-group:AV-387555",
    "company_id": "dhl-group",
-   "title": "Finance Manager",
-   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387388&source=careers.dhl.com",
+   "title": "Senior Java Developer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387555&source=careers.dhl.com",
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
@@ -3410,11 +2243,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-387555",
+   "id": "dhl-group:AV-387388",
    "company_id": "dhl-group",
-   "title": "Senior Java Developer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387555&source=careers.dhl.com",
+   "title": "Finance Manager",
+   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387388&source=careers.dhl.com",
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
@@ -3506,30 +2339,6 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-23",
-   "baseline": false
-  },
-  {
-   "id": "steinweg:https://www.steinweg.com/careers/transport-inkoper/",
-   "company_id": "steinweg",
-   "title": "More info",
-   "location": "",
-   "url": "https://www.steinweg.com/careers/transport-inkoper/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "steinweg:https://www.steinweg.com/careers/servicedesk-medewerker-it/",
-   "company_id": "steinweg",
-   "title": "More info",
-   "location": "",
-   "url": "https://www.steinweg.com/careers/servicedesk-medewerker-it/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-22",
    "baseline": false
   },
   {
@@ -3842,21 +2651,6 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-365441",
-   "company_id": "dhl-group",
-   "title": "Product Owner – Internal Integrations | Architect",
-   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365441&source=careers.dhl.com",
-   "posted_at": "2026-10-21",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-386924",
    "company_id": "dhl-group",
    "title": "Chauffeur CE dag",
@@ -3877,6 +2671,21 @@
    "title": "MHE Trainer",
    "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
    "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387142&source=careers.dhl.com",
+   "posted_at": "2026-10-21",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-365441",
+   "company_id": "dhl-group",
+   "title": "Product Owner – Internal Integrations | Architect",
+   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365441&source=careers.dhl.com",
    "posted_at": "2026-10-21",
    "labels": {
     "dutch_required": false,
@@ -3947,93 +2756,6 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "bleckmann:https://www.bleckmann.com/nl/vacatures/supervisor-7",
-   "company_id": "bleckmann",
-   "title": "Supervisor Almelo, Netherlands",
-   "location": "",
-   "url": "https://www.bleckmann.com/nl/vacatures/supervisor-7",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-21",
-   "baseline": false
-  },
-  {
-   "id": "bleckmann:https://www.bleckmann.com/nl/vacatures/teamleader-6",
-   "company_id": "bleckmann",
-   "title": "Teamleader Roosendaal, Netherlands",
-   "location": "",
-   "url": "https://www.bleckmann.com/nl/vacatures/teamleader-6",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-21",
-   "baseline": false
-  },
-  {
-   "id": "bleckmann:https://www.bleckmann.com/nl/vacatures/inventory-team-leader",
-   "company_id": "bleckmann",
-   "title": "Inventory Team Leader Corby, United Kingdom",
-   "location": "",
-   "url": "https://www.bleckmann.com/nl/vacatures/inventory-team-leader",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-21",
-   "baseline": false
-  },
-  {
-   "id": "bleckmann:https://www.bleckmann.com/nl/vacatures/stock-control-team-leader-monday-friday-1600-0000",
-   "company_id": "bleckmann",
-   "title": "Stock Control Team Leader (Monday - Friday, 16:00 - 00:00) Crick, United Kingdom",
-   "location": "",
-   "url": "https://www.bleckmann.com/nl/vacatures/stock-control-team-leader-monday-friday-1600-0000",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-21",
-   "baseline": false
-  },
-  {
-   "id": "broekman-contract-logistics:https://www.broekmancareers.com/en/vacancies/terminal-planner/",
-   "company_id": "broekman-contract-logistics",
-   "title": "Terminal Planner pin_dropHeijplaat Rotterdam / Nederland work Breakbulk terminals person Breakbulk Terminals",
-   "location": "",
-   "url": "https://www.broekmancareers.com/en/vacancies/terminal-planner/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-21",
-   "baseline": false
-  },
-  {
-   "id": "steinweg:https://www.steinweg.com/careers/manager-customs-and-related-tax/",
-   "company_id": "steinweg",
-   "title": "More info",
-   "location": "",
-   "url": "https://www.steinweg.com/careers/manager-customs-and-related-tax/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-21",
-   "baseline": false
-  },
-  {
-   "id": "steinweg:https://www.steinweg.com/careers/vacancy-warehouse-supervisor/",
-   "company_id": "steinweg",
-   "title": "More info",
-   "location": "",
-   "url": "https://www.steinweg.com/careers/vacancy-warehouse-supervisor/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-21",
    "baseline": false
   },
   {
@@ -4286,18 +3008,6 @@
    "baseline": false
   },
   {
-   "id": "bleckmann:https://www.bleckmann.com/nl/vacatures/inventory-controller-5",
-   "company_id": "bleckmann",
-   "title": "Inventory Controller Bury St Edmunds, United Kingdom",
-   "location": "",
-   "url": "https://www.bleckmann.com/nl/vacatures/inventory-controller-5",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-20",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-386071",
    "company_id": "dhl-group",
    "title": "Compliance & Internal Control Analyst",
@@ -4415,11 +3125,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-385633",
+   "id": "dhl-group:AV-376163",
    "company_id": "dhl-group",
-   "title": "Global Project Manager (GTOM)",
-   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385633&source=careers.dhl.com",
+   "title": "HR / Payroll Administration Specialist",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376163&source=careers.dhl.com",
    "posted_at": "2026-10-19",
    "labels": {
     "dutch_required": false,
@@ -4430,11 +3140,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376163",
+   "id": "dhl-group:AV-385633",
    "company_id": "dhl-group",
-   "title": "HR / Payroll Administration Specialist",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376163&source=careers.dhl.com",
+   "title": "Global Project Manager (GTOM)",
+   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385633&source=careers.dhl.com",
    "posted_at": "2026-10-19",
    "labels": {
     "dutch_required": false,
@@ -4487,21 +3197,6 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-386337",
-   "company_id": "dhl-group",
-   "title": "Chauffeur C",
-   "location": "Roosendaal, Noord-Brabant, Netherlands, Roosendaal, Noord-Brabant, Roosendaal",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=386337&source=careers.dhl.com",
-   "posted_at": "2026-10-19",
-   "labels": {
-    "dutch_required": null,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-19",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-358786",
    "company_id": "dhl-group",
    "title": "Senior Data Engineer",
@@ -4510,6 +3205,21 @@
    "posted_at": "2026-10-19",
    "labels": {
     "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-19",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-386337",
+   "company_id": "dhl-group",
+   "title": "Chauffeur C",
+   "location": "Roosendaal, Noord-Brabant, Netherlands, Roosendaal, Noord-Brabant, Roosendaal",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=386337&source=careers.dhl.com",
+   "posted_at": "2026-10-19",
+   "labels": {
+    "dutch_required": null,
     "written_in_dutch": null
    },
    "labels_checked": true,
@@ -4631,42 +3341,6 @@
    "baseline": false
   },
   {
-   "id": "bleckmann:https://www.bleckmann.com/nl/vacatures/team-leader-monday-friday-0800-1600",
-   "company_id": "bleckmann",
-   "title": "Team Leader (MondayâFriday, 08:00â16:00) Crick, United Kingdom",
-   "location": "",
-   "url": "https://www.bleckmann.com/nl/vacatures/team-leader-monday-friday-0800-1600",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
-   "baseline": false
-  },
-  {
-   "id": "bleckmann:https://www.bleckmann.com/nl/vacatures/team-leader-monday-friday-1600-0000",
-   "company_id": "bleckmann",
-   "title": "Team Leader (Monday - Friday, 16:00 - 00:00) Crick, United Kingdom",
-   "location": "",
-   "url": "https://www.bleckmann.com/nl/vacatures/team-leader-monday-friday-1600-0000",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
-   "baseline": false
-  },
-  {
-   "id": "bleckmann:https://www.bleckmann.com/nl/vacatures/team-leader-sunday-thursday-0800-1600",
-   "company_id": "bleckmann",
-   "title": "Team Leader (Sunday-Thursday, 08:00 - 16:00) Crick, United Kingdom",
-   "location": "",
-   "url": "https://www.bleckmann.com/nl/vacatures/team-leader-sunday-thursday-0800-1600",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
-   "baseline": false
-  },
-  {
    "id": "gxo-logistics:/job/Oude-Meer-Quality%2C-Environmental%2C-Safety-and-Health-Specialist-Amsterdam-1438-AN/1421902200/",
    "company_id": "gxo-logistics",
    "title": "Quality, Environmental, Safety and Health Specialist - Amsterdam",
@@ -4677,42 +3351,6 @@
    "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": true
-  },
-  {
-   "id": "steinweg:https://www.steinweg.com/careers/esg-carbon-specialist/",
-   "company_id": "steinweg",
-   "title": "More info",
-   "location": "",
-   "url": "https://www.steinweg.com/careers/esg-carbon-specialist/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-17",
-   "baseline": false
-  },
-  {
-   "id": "steinweg:https://www.steinweg.com/careers/business-process-lead-lead-to-cash/",
-   "company_id": "steinweg",
-   "title": "More info",
-   "location": "",
-   "url": "https://www.steinweg.com/careers/business-process-lead-lead-to-cash/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-17",
-   "baseline": false
-  },
-  {
-   "id": "steinweg:https://www.steinweg.com/careers/manager-technische-dienst/",
-   "company_id": "steinweg",
-   "title": "More info",
-   "location": "",
-   "url": "https://www.steinweg.com/careers/manager-technische-dienst/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-17",
-   "baseline": false
   },
   {
    "id": "gxo-logistics:/job/Oude-Meer-Site-Controller-1438-AN/1421396900/",
@@ -5066,18 +3704,6 @@
    "baseline": false
   },
   {
-   "id": "broekman-contract-logistics:https://www.broekmancareers.com/en/vacancies/supervisor-werkplaats/",
-   "company_id": "broekman-contract-logistics",
-   "title": "Supervisor Werkplaats pin_dropWeert / Nederland work Warehousing & Distribution person Warehousing & Distribution",
-   "location": "",
-   "url": "https://www.broekmancareers.com/en/vacancies/supervisor-werkplaats/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-16",
-   "baseline": false
-  },
-  {
    "id": "stena-line:https://stenaline.com/job-openings/3774/financial-controller",
    "company_id": "stena-line",
    "title": "Financial Controller",
@@ -5306,11 +3932,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
    "company_id": "dachser",
-   "title": "Logistiek Medewerker Ochtend en Nacht",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
+   "title": "Logistiek Medewerker",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
    "posted_at": "2026-10-16",
    "labels": null,
    "labels_checked": false,
@@ -5318,11 +3944,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
    "company_id": "dachser",
-   "title": "Logistiek Medewerker",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
+   "title": "Logistiek Medewerker Ochtend en Nacht",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
    "posted_at": "2026-10-16",
    "labels": null,
    "labels_checked": false,
@@ -5441,6 +4067,36 @@
    "baseline": false
   },
   {
+   "id": "dhl-group:AV-381580",
+   "company_id": "dhl-group",
+   "title": "Senior Analyst Strategic Pricing",
+   "location": "Maastricht, Limburg, Netherlands, Maastricht, Limburg, Maastricht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=381580&source=careers.dhl.com",
+   "posted_at": "2026-10-15",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-16",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-385603",
+   "company_id": "dhl-group",
+   "title": "Commercial Trainee",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385603&source=careers.dhl.com",
+   "posted_at": "2026-10-15",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-16",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-385597",
    "company_id": "dhl-group",
    "title": "Handling operator",
@@ -5449,21 +4105,6 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": null,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-16",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-385830",
-   "company_id": "dhl-group",
-   "title": "Customer Relations Specialist Ocean Freight",
-   "location": "Ridderkerk, Zuid-Holland, Netherlands, Ridderkerk, Zuid-Holland, Ridderkerk",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385830&source=careers.dhl.com",
-   "posted_at": "2026-10-15",
-   "labels": {
-    "dutch_required": false,
     "written_in_dutch": null
    },
    "labels_checked": true,
@@ -5486,26 +4127,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-381580",
+   "id": "dhl-group:AV-385830",
    "company_id": "dhl-group",
-   "title": "Senior Analyst Strategic Pricing",
-   "location": "Maastricht, Limburg, Netherlands, Maastricht, Limburg, Maastricht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=381580&source=careers.dhl.com",
-   "posted_at": "2026-10-15",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-16",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-385603",
-   "company_id": "dhl-group",
-   "title": "Commercial Trainee",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385603&source=careers.dhl.com",
+   "title": "Customer Relations Specialist Ocean Freight",
+   "location": "Ridderkerk, Zuid-Holland, Netherlands, Ridderkerk, Zuid-Holland, Ridderkerk",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385830&source=careers.dhl.com",
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
@@ -5954,30 +4580,6 @@
    "baseline": false
   },
   {
-   "id": "steinweg:https://www.steinweg.com/careers/vacancy-operations-specialist-breakbulk/",
-   "company_id": "steinweg",
-   "title": "More info",
-   "location": "",
-   "url": "https://www.steinweg.com/careers/vacancy-operations-specialist-breakbulk/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-14",
-   "baseline": false
-  },
-  {
-   "id": "steinweg:https://www.steinweg.com/careers/vacancy-data-analyst/",
-   "company_id": "steinweg",
-   "title": "More info",
-   "location": "",
-   "url": "https://www.steinweg.com/careers/vacancy-data-analyst/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-14",
-   "baseline": false
-  },
-  {
    "id": "gxo-logistics:/job/Schiphol-Rijk-Coordinator-1119-ME/1430008200/",
    "company_id": "gxo-logistics",
    "title": "Coordinator",
@@ -6149,11 +4751,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-348454",
+   "id": "dhl-group:AV-384753",
    "company_id": "dhl-group",
-   "title": "Koerier Breda",
-   "location": "Breda, Noord-Brabant, Netherlands, Breda, Noord-Brabant, Breda",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=348454&source=careers.dhl.com",
+   "title": "Chauffeur CE dag",
+   "location": "Arnhem, Gelderland, Netherlands, Arnhem, Gelderland, Arnhem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=384753&source=careers.dhl.com",
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
@@ -6164,11 +4766,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-384753",
+   "id": "dhl-group:AV-348454",
    "company_id": "dhl-group",
-   "title": "Chauffeur CE dag",
-   "location": "Arnhem, Gelderland, Netherlands, Arnhem, Gelderland, Arnhem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=384753&source=careers.dhl.com",
+   "title": "Koerier Breda",
+   "location": "Breda, Noord-Brabant, Netherlands, Breda, Noord-Brabant, Breda",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=348454&source=careers.dhl.com",
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
@@ -6431,11 +5033,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376947",
+   "id": "dhl-group:AV-376098",
    "company_id": "dhl-group",
-   "title": "Project Engineer Automation",
-   "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376947&source=careers.dhl.com",
+   "title": "HR Officer",
+   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376098&source=careers.dhl.com",
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
@@ -6461,11 +5063,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376098",
+   "id": "dhl-group:AV-376947",
    "company_id": "dhl-group",
-   "title": "HR Officer",
-   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376098&source=careers.dhl.com",
+   "title": "Project Engineer Automation",
+   "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376947&source=careers.dhl.com",
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
@@ -6612,66 +5214,6 @@
    "labels_checked": false,
    "first_seen": "2026-10-24",
    "baseline": false
-  },
-  {
-   "id": "bertschi:https://www.bertschi.com/en/career/job-finder",
-   "company_id": "bertschi",
-   "title": "Job Finder",
-   "location": "",
-   "url": "https://www.bertschi.com/en/career/job-finder",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "bertschi:https://www.bertschi.com/en/career/logistics-and-supply-chain",
-   "company_id": "bertschi",
-   "title": "Logistics Management",
-   "location": "",
-   "url": "https://www.bertschi.com/en/career/logistics-and-supply-chain",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "bertschi:https://www.bertschi.com/en/career/it-and-software-development",
-   "company_id": "bertschi",
-   "title": "IT & Digitalization",
-   "location": "",
-   "url": "https://www.bertschi.com/en/career/it-and-software-development",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "bertschi:https://www.bertschi.com/en/career/workshop-terminal",
-   "company_id": "bertschi",
-   "title": "Workshop & Terminal",
-   "location": "",
-   "url": "https://www.bertschi.com/en/career/workshop-terminal",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "bertschi:https://www.bertschi.com/en/career/trainee-program",
-   "company_id": "bertschi",
-   "title": "Trainee Program",
-   "location": "",
-   "url": "https://www.bertschi.com/en/career/trainee-program",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
   },
   {
    "id": "cabooter:https://www.cabootergroup.com/career/our-services/",
@@ -6890,126 +5432,6 @@
    "baseline": true
   },
   {
-   "id": "den-hartogh:https://www.denhartogh.com/careers/our_teams",
-   "company_id": "den-hartogh",
-   "title": "Our Teams",
-   "location": "",
-   "url": "https://www.denhartogh.com/careers/our_teams",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "den-hartogh:https://www.denhartogh.com/careers/our_teams/commerce",
-   "company_id": "den-hartogh",
-   "title": "Commerce Bringing customers and logistics services together",
-   "location": "",
-   "url": "https://www.denhartogh.com/careers/our_teams/commerce",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "den-hartogh:https://www.denhartogh.com/careers/our_teams/customer_service_planning",
-   "company_id": "den-hartogh",
-   "title": "Customer Service & Planning Exceeding customer expectations through flawless operations",
-   "location": "",
-   "url": "https://www.denhartogh.com/careers/our_teams/customer_service_planning",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "den-hartogh:https://www.denhartogh.com/careers/our_teams/trucking",
-   "company_id": "den-hartogh",
-   "title": "Trucking Delivering the products to customers, safely and on time",
-   "location": "",
-   "url": "https://www.denhartogh.com/careers/our_teams/trucking",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "den-hartogh:https://www.denhartogh.com/careers/our_teams/technical_services_maintenance",
-   "company_id": "den-hartogh",
-   "title": "Technical Services & Maintenance Ensuring trucks and tank containers are safe and sound",
-   "location": "",
-   "url": "https://www.denhartogh.com/careers/our_teams/technical_services_maintenance",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "den-hartogh:https://www.denhartogh.com/careers/our_teams/finance_ict",
-   "company_id": "den-hartogh",
-   "title": "Finance & ICT Providing business intelligence and control",
-   "location": "",
-   "url": "https://www.denhartogh.com/careers/our_teams/finance_ict",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "den-hartogh:https://www.denhartogh.com/careers/our_teams/hr_sheq_students",
-   "company_id": "den-hartogh",
-   "title": "HR & SHEQ Making Den Hartogh a safe and great place to work",
-   "location": "",
-   "url": "https://www.denhartogh.com/careers/our_teams/hr_sheq_students",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "emons-group:https://emons.eu/careers/drivers/",
-   "company_id": "emons-group",
-   "title": "Drivers jobs Drive with us 8 open",
-   "location": "",
-   "url": "https://emons.eu/careers/drivers/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "emons-group:https://emons.eu/careers/mechanics/",
-   "company_id": "emons-group",
-   "title": "Mechanics jobs Keep us rolling 3 open",
-   "location": "",
-   "url": "https://emons.eu/careers/mechanics/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "emons-group:https://emons.eu/careers/office/",
-   "company_id": "emons-group",
-   "title": "Office staff jobs Digital-first logistics 5 open",
-   "location": "",
-   "url": "https://emons.eu/careers/office/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
    "id": "aircargo-nl:https://aircargo.nl/over-ons/vacatures/junior-inside-sales-pricing-medewerker",
    "company_id": "aircargo-nl",
    "title": "(Junior) Inside Sales & Pricing Medewerker 7 maanden geleden",
@@ -7054,66 +5476,6 @@
    "title": "Medewerker Orderprocessing & Warehouse Support 5 maanden geleden",
    "location": "",
    "url": "https://aircargo.nl/over-ons/vacatures/medewerker-orderprocessing-warehouse-support",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "ait-worldwide-logistics:https://www.aitworldwide.com/careers/benefits-and-perks/",
-   "company_id": "ait-worldwide-logistics",
-   "title": "Benefits and Perks",
-   "location": "",
-   "url": "https://www.aitworldwide.com/careers/benefits-and-perks/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "ait-worldwide-logistics:https://www.aitworldwide.com/careers/job-portal/",
-   "company_id": "ait-worldwide-logistics",
-   "title": "Job Portal",
-   "location": "",
-   "url": "https://www.aitworldwide.com/careers/job-portal/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "bdp-international:https://psabdp.com/careers/employee-experience",
-   "company_id": "bdp-international",
-   "title": "Employee Experience",
-   "location": "",
-   "url": "https://psabdp.com/careers/employee-experience",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "bdp-international:https://psabdp.com/careers/career-opportunities",
-   "company_id": "bdp-international",
-   "title": "Career Opportunities",
-   "location": "",
-   "url": "https://psabdp.com/careers/career-opportunities",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "bdp-international:https://psabdp.com/careers/training-education-development-ted",
-   "company_id": "bdp-international",
-   "title": "More on Training, Education & Development",
-   "location": "",
-   "url": "https://psabdp.com/careers/training-education-development-ted",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -7201,714 +5563,6 @@
    "title": "Customer service officer",
    "location": "",
    "url": "https://www.foxglobal.nl/vacancies/customer-service-officer/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/distributie-chauffeur-benelux/",
-   "company_id": "gd-its-forwarding",
-   "title": "Distributie Chauffeur Benelux",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/distributie-chauffeur-benelux/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/allround-monteur/",
-   "company_id": "gd-its-forwarding",
-   "title": "Allround (Leerling) Monteur",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/allround-monteur/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/allround-chauffeur-wegvervoer-niveau-3/",
-   "company_id": "gd-its-forwarding",
-   "title": "Allround Chauffeur Wegvervoer (BBL-Niveau 3)",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/allround-chauffeur-wegvervoer-niveau-3/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/chauffeur-wegvervoer-bbl-niveau-2/",
-   "company_id": "gd-its-forwarding",
-   "title": "Chauffeur Wegvervoer (BBL-Niveau 2)",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/chauffeur-wegvervoer-bbl-niveau-2/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/pendel-chauffeur-ft-pt/",
-   "company_id": "gd-its-forwarding",
-   "title": "Pendel Chauffeur",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/pendel-chauffeur-ft-pt/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/zeecontainerchauffeur/",
-   "company_id": "gd-its-forwarding",
-   "title": "Container Chauffeur",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/zeecontainerchauffeur/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/expediteur-luchtvracht-2/",
-   "company_id": "gd-its-forwarding",
-   "title": "Expediteur Luchtvracht",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/expediteur-luchtvracht-2/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": true,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/expediteur-wegtransport/",
-   "company_id": "gd-its-forwarding",
-   "title": "Expediteur Wegtransport Alblasserdam",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/expediteur-wegtransport/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/expediteur-ocean-import/",
-   "company_id": "gd-its-forwarding",
-   "title": "\"Douane \" Expediteur Ocean",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/expediteur-ocean-import/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": true,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/sales-manager-air-freight/",
-   "company_id": "gd-its-forwarding",
-   "title": "Sales Manager Air Freight (AMS)",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/sales-manager-air-freight/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/inside-sales-medewerker-air/",
-   "company_id": "gd-its-forwarding",
-   "title": "Inside Sales Air (AMS)",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/inside-sales-medewerker-air/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/inside-sales-medewerker-ocean/",
-   "company_id": "gd-its-forwarding",
-   "title": "Inside Sales Ocean",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/inside-sales-medewerker-ocean/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/meewerkend-voorman-loods-nachtshift/",
-   "company_id": "gd-its-forwarding",
-   "title": "Meewerkend Voorman Loods Nachtshift",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/meewerkend-voorman-loods-nachtshift/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/teamleider-logistiek-warehouse-dagdienst/",
-   "company_id": "gd-its-forwarding",
-   "title": "Teamleider Logistiek Warehouse (Dagdienst)",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/teamleider-logistiek-warehouse-dagdienst/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/benelux-planner-2/",
-   "company_id": "gd-its-forwarding",
-   "title": "Benelux planner",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/benelux-planner-2/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/transportplanner-internationaal-duitsland-frankrijk/",
-   "company_id": "gd-its-forwarding",
-   "title": "Transportplanner internationaal (Duitsland & Frankrijk)",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/transportplanner-internationaal-duitsland-frankrijk/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/inside-sales-medewerker/",
-   "company_id": "gd-its-forwarding",
-   "title": "Inside Sales Medewerker",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/inside-sales-medewerker/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/CS-Medewerker/",
-   "company_id": "gd-its-forwarding",
-   "title": "Customer Service Medewerker",
-   "location": "",
-   "url": "https://gd-its.nl/werken-bij/CS-Medewerker/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "kln-logistics:https://www.kln.com:443/en/careers/working-at-kln/",
-   "company_id": "kln-logistics",
-   "title": "Working at KLN",
-   "location": "",
-   "url": "https://www.kln.com:443/en/careers/working-at-kln/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "kln-logistics:https://www.kln.com:443/en/careers/young-executives-academy/",
-   "company_id": "kln-logistics",
-   "title": "Young Executives Academy",
-   "location": "",
-   "url": "https://www.kln.com:443/en/careers/young-executives-academy/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "kln-logistics:https://www.kln.com:443/en/careers/young-executives-academy/hong-kong/",
-   "company_id": "kln-logistics",
-   "title": "Hong Kong",
-   "location": "",
-   "url": "https://www.kln.com:443/en/careers/young-executives-academy/hong-kong/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "kln-logistics:https://www.kln.com:443/en/careers/job-opportunities/",
-   "company_id": "kln-logistics",
-   "title": "Job Opportunities",
-   "location": "",
-   "url": "https://www.kln.com:443/en/careers/job-opportunities/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "maersk:https://www.maersk.com/careers/work-with-us/workplace-culture",
-   "company_id": "maersk",
-   "title": "Our workplace and culture",
-   "location": "",
-   "url": "https://www.maersk.com/careers/work-with-us/workplace-culture",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "maersk:https://www.maersk.com/careers/work-with-us/professional-development",
-   "company_id": "maersk",
-   "title": "Growing with us",
-   "location": "",
-   "url": "https://www.maersk.com/careers/work-with-us/professional-development",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "maersk:https://www.maersk.com/careers/culture-inclusion-and-belonging",
-   "company_id": "maersk",
-   "title": "Culture and Inclusion",
-   "location": "",
-   "url": "https://www.maersk.com/careers/culture-inclusion-and-belonging",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "maersk:https://www.maersk.com/careers/recruitment-process/preparing-for-interviews",
-   "company_id": "maersk",
-   "title": "Preparing For Interviews",
-   "location": "",
-   "url": "https://www.maersk.com/careers/recruitment-process/preparing-for-interviews",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "maersk:https://www.maersk.com/careers/recruitment-process",
-   "company_id": "maersk",
-   "title": "Interview FAQ",
-   "location": "",
-   "url": "https://www.maersk.com/careers/recruitment-process",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "mainfreight:https://www.mainfreight.com/asia/careers/mainfreight-development-program",
-   "company_id": "mainfreight",
-   "title": "Mainfreight Development Program",
-   "location": "",
-   "url": "https://www.mainfreight.com/asia/careers/mainfreight-development-program",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "mainfreight:https://www.mainfreight.com/asia/careers/meet-our-people",
-   "company_id": "mainfreight",
-   "title": "Meet Our People",
-   "location": "",
-   "url": "https://www.mainfreight.com/asia/careers/meet-our-people",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "mainfreight:https://www.mainfreight.com/asia/careers/frequently-asked-questions",
-   "company_id": "mainfreight",
-   "title": "Frequently Asked Questions",
-   "location": "",
-   "url": "https://www.mainfreight.com/asia/careers/frequently-asked-questions",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "mainfreight:https://www.mainfreight.com/asia/careers/opportunity/sales-role",
-   "company_id": "mainfreight",
-   "title": "Sales Role",
-   "location": "",
-   "url": "https://www.mainfreight.com/asia/careers/opportunity/sales-role",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "mainfreight:https://www.mainfreight.com/asia/careers/opportunity/join-our-team",
-   "company_id": "mainfreight",
-   "title": "Join Our Team",
-   "location": "",
-   "url": "https://www.mainfreight.com/asia/careers/opportunity/join-our-team",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "mainfreight:https://www.mainfreight.com/asia/careers/opportunity",
-   "company_id": "mainfreight",
-   "title": "LEARN MORE",
-   "location": "",
-   "url": "https://www.mainfreight.com/asia/careers/opportunity",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "marinetrans-benelux:https://marinetrans.com/career/operational_account_manager_rotterdam/",
-   "company_id": "marinetrans-benelux",
-   "title": "Operational Account Manager Rotterdam",
-   "location": "",
-   "url": "https://marinetrans.com/career/operational_account_manager_rotterdam/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "marinetrans-benelux:https://marinetrans.com/career/billing-coordinator/",
-   "company_id": "marinetrans-benelux",
-   "title": "Billing Coordinator",
-   "location": "",
-   "url": "https://marinetrans.com/career/billing-coordinator/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "marinetrans-benelux:https://marinetrans.com/career/operations-exective/",
-   "company_id": "marinetrans-benelux",
-   "title": "Operations Executive",
-   "location": "",
-   "url": "https://marinetrans.com/career/operations-exective/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "rhenus:https://www.rhenus.group/career/why-rhenus/",
-   "company_id": "rhenus",
-   "title": "Why Rhenus?",
-   "location": "",
-   "url": "https://www.rhenus.group/career/why-rhenus/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "rhenus:https://www.rhenus.group/career/operational-worker/",
-   "company_id": "rhenus",
-   "title": "Operational Worker",
-   "location": "",
-   "url": "https://www.rhenus.group/career/operational-worker/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "rhenus:https://www.rhenus.group/career/young-talents/",
-   "company_id": "rhenus",
-   "title": "Young Talents",
-   "location": "",
-   "url": "https://www.rhenus.group/career/young-talents/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "rhenus:https://www.rhenus.group/career/office-worker/",
-   "company_id": "rhenus",
-   "title": "Office Worker",
-   "location": "",
-   "url": "https://www.rhenus.group/career/office-worker/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "rhenus:https://www.rhenus.group/career/it-tech-experts/",
-   "company_id": "rhenus",
-   "title": "IT & Tech Experts",
-   "location": "",
-   "url": "https://www.rhenus.group/career/it-tech-experts/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "rhenus:https://www.rhenus.group/career/job-application-guide/",
-   "company_id": "rhenus",
-   "title": "Job Application Guide",
-   "location": "",
-   "url": "https://www.rhenus.group/career/job-application-guide/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "rhenus:https://www.rhenus.group/career/warehouse-operative-at-rhenus/",
-   "company_id": "rhenus",
-   "title": "Warehouse Operative at Rhenus",
-   "location": "",
-   "url": "https://www.rhenus.group/career/warehouse-operative-at-rhenus/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "db-schenker:https://www.dsv.com/en/careers/job-openings",
-   "company_id": "db-schenker",
-   "title": "Job search See jobs openings and apply Click to visit page",
-   "location": "",
-   "url": "https://www.dsv.com/en/careers/job-openings",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "db-schenker:https://www.dsv.com/en/careers/meet-our-people",
-   "company_id": "db-schenker",
-   "title": "Meet our people Get to know the people shaping DSV worldwide Click to visit page",
-   "location": "",
-   "url": "https://www.dsv.com/en/careers/meet-our-people",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "db-schenker:https://www.dsv.com/en/careers/why-dsv",
-   "company_id": "db-schenker",
-   "title": "Why join DSV See what makes DSV a rewarding place to grow your career Click to visit page",
-   "location": "",
-   "url": "https://www.dsv.com/en/careers/why-dsv",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "db-schenker:https://www.dsv.com/en/careers/job-areas/trainee-programmes",
-   "company_id": "db-schenker",
-   "title": "Trainee program Kickstart your career in DSV Click to visit page",
-   "location": "",
-   "url": "https://www.dsv.com/en/careers/job-areas/trainee-programmes",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "db-schenker:https://www.dsv.com/en/careers/job-areas/freight-forwarding",
-   "company_id": "db-schenker",
-   "title": "Freight forwarding Click to visit page",
-   "location": "",
-   "url": "https://www.dsv.com/en/careers/job-areas/freight-forwarding",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "db-schenker:https://www.dsv.com/en/careers/job-areas/it",
-   "company_id": "db-schenker",
-   "title": "IT Click to visit page",
-   "location": "",
-   "url": "https://www.dsv.com/en/careers/job-areas/it",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "db-schenker:https://www.dsv.com/en/careers/job-areas/logistics-sales",
-   "company_id": "db-schenker",
-   "title": "Sales Click to visit page",
-   "location": "",
-   "url": "https://www.dsv.com/en/careers/job-areas/logistics-sales",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "db-schenker:https://www.dsv.com/en/careers/job-areas/finance",
-   "company_id": "db-schenker",
-   "title": "Finance and more Click to visit page",
-   "location": "",
-   "url": "https://www.dsv.com/en/careers/job-areas/finance",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "db-schenker:https://www.dsv.com/en/careers/job-areas/managers",
-   "company_id": "db-schenker",
-   "title": "Managers Click to visit page",
-   "location": "",
-   "url": "https://www.dsv.com/en/careers/job-areas/managers",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "db-schenker:https://www.dsv.com/en/careers/job-areas/supply-chain",
-   "company_id": "db-schenker",
-   "title": "Supply chain Click to visit page",
-   "location": "",
-   "url": "https://www.dsv.com/en/careers/job-areas/supply-chain",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "db-schenker:https://www.dsv.com/en/careers/job-areas/warehouse-operators",
-   "company_id": "db-schenker",
-   "title": "Warehouse operators Click to visit page",
-   "location": "",
-   "url": "https://www.dsv.com/en/careers/job-areas/warehouse-operators",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "steinweg:https://www.steinweg.com/careers/teamlead-technische-dienst-kranen/",
-   "company_id": "steinweg",
-   "title": "More info",
-   "location": "",
-   "url": "https://www.steinweg.com/careers/teamlead-technische-dienst-kranen/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "steinweg:https://www.steinweg.com/careers/business-data-analyst/",
-   "company_id": "steinweg",
-   "title": "More info",
-   "location": "",
-   "url": "https://www.steinweg.com/careers/business-data-analyst/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "steinweg:https://www.steinweg.com/careers/enterprise-data-manager/",
-   "company_id": "steinweg",
-   "title": "More info",
-   "location": "",
-   "url": "https://www.steinweg.com/careers/enterprise-data-manager/",
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
@@ -8246,6 +5900,21 @@
    "baseline": false
   },
   {
+   "id": "dhl-group:AV-365199",
+   "company_id": "dhl-group",
+   "title": "Process Engineer",
+   "location": "Bemmel, Gelderland, Netherlands, Bemmel, Gelderland, Bemmel",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365199&source=careers.dhl.com",
+   "posted_at": "2026-10-09",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-10",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-384870",
    "company_id": "dhl-group",
    "title": "Teamleader Nijmegen 3",
@@ -8266,21 +5935,6 @@
    "title": "Business Analist Controlling",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
    "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=339575&source=careers.dhl.com",
-   "posted_at": "2026-10-09",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-10",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-365199",
-   "company_id": "dhl-group",
-   "title": "Process Engineer",
-   "location": "Bemmel, Gelderland, Netherlands, Bemmel, Gelderland, Bemmel",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365199&source=careers.dhl.com",
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
@@ -8336,11 +5990,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-384398",
+   "id": "dhl-group:AV-375104",
    "company_id": "dhl-group",
-   "title": "Lead Qualifier",
-   "location": "Schiphol, Noord-Holland, Netherlands, Schiphol, Noord-Holland, Schiphol",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=384398&source=careers.dhl.com",
+   "title": "Forecaster Workforce Management Customer Service",
+   "location": "Arnhem, Gelderland, Netherlands, Arnhem, Gelderland, Arnhem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=375104&source=careers.dhl.com",
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
@@ -8366,11 +6020,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-375104",
+   "id": "dhl-group:AV-384398",
    "company_id": "dhl-group",
-   "title": "Forecaster Workforce Management Customer Service",
-   "location": "Arnhem, Gelderland, Netherlands, Arnhem, Gelderland, Arnhem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=375104&source=careers.dhl.com",
+   "title": "Lead Qualifier",
+   "location": "Schiphol, Noord-Holland, Netherlands, Schiphol, Noord-Holland, Schiphol",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=384398&source=careers.dhl.com",
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
@@ -8762,6 +6416,21 @@
    "baseline": false
   },
   {
+   "id": "dhl-group:AV-355426",
+   "company_id": "dhl-group",
+   "title": "Gateway Service Specialist",
+   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=355426&source=careers.dhl.com",
+   "posted_at": "2026-10-07",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-08",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-384003",
    "company_id": "dhl-group",
    "title": "Teamleader",
@@ -8782,21 +6451,6 @@
    "title": "Customer Service Coördinator",
    "location": "Nijmegen, Gelderland, Netherlands, Nijmegen, Gelderland, Nijmegen",
    "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382358&source=careers.dhl.com",
-   "posted_at": "2026-10-07",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-08",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-355426",
-   "company_id": "dhl-group",
-   "title": "Gateway Service Specialist",
-   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=355426&source=careers.dhl.com",
    "posted_at": "2026-10-07",
    "labels": {
     "dutch_required": false,
@@ -8990,11 +6644,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-362085",
+   "id": "dhl-group:AV-318094",
    "company_id": "dhl-group",
-   "title": "Process Innovation Engineer",
+   "title": "Facility Area Manager",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=362085&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=318094&source=careers.dhl.com",
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
@@ -9005,11 +6659,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-318094",
+   "id": "dhl-group:AV-362085",
    "company_id": "dhl-group",
-   "title": "Facility Area Manager",
+   "title": "Process Innovation Engineer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=318094&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=362085&source=careers.dhl.com",
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
@@ -9266,21 +6920,6 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-382786",
-   "company_id": "dhl-group",
-   "title": "Operational Research Specialist",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382786&source=careers.dhl.com",
-   "posted_at": "2026-10-05",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-06",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-382880",
    "company_id": "dhl-group",
    "title": "Chauffeur CE zaterdag",
@@ -9289,6 +6928,21 @@
    "posted_at": "2026-10-05",
    "labels": {
     "dutch_required": null,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-06",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-382786",
+   "company_id": "dhl-group",
+   "title": "Operational Research Specialist",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382786&source=careers.dhl.com",
+   "posted_at": "2026-10-05",
+   "labels": {
+    "dutch_required": false,
     "written_in_dutch": null
    },
    "labels_checked": true,
@@ -9458,11 +7112,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
    "company_id": "dachser",
-   "title": "Logistiek Medewerker Food",
+   "title": "Customer Service Key Account",
    "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
    "posted_at": "2026-10-03",
    "labels": null,
    "labels_checked": false,
@@ -9470,11 +7124,11 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
    "company_id": "dachser",
-   "title": "Customer Service Key Account",
+   "title": "Logistiek Medewerker Food",
    "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-Key-Account-2742RD/1359837555/",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-Food-2742RD/1337374355/",
    "posted_at": "2026-10-03",
    "labels": null,
    "labels_checked": false,
@@ -9755,71 +7409,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-330285",
+   "id": "dhl-group:AV-350949",
    "company_id": "dhl-group",
-   "title": "Senior IT Security Officer",
+   "title": "Senior Test Engineer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=330285&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-358698",
-   "company_id": "dhl-group",
-   "title": "Cloud Engineer Security en Identity",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358698&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-286776",
-   "company_id": "dhl-group",
-   "title": "Cloud Engineer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=286776&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-382152",
-   "company_id": "dhl-group",
-   "title": "Senior Java developer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382152&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-292302",
-   "company_id": "dhl-group",
-   "title": "CI/CD Engineer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=292302&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=350949&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -9845,11 +7439,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-350949",
+   "id": "dhl-group:AV-382152",
    "company_id": "dhl-group",
-   "title": "Senior Test Engineer",
+   "title": "Senior Java developer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=350949&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382152&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -9875,11 +7469,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-374180",
+   "id": "dhl-group:AV-292302",
    "company_id": "dhl-group",
-   "title": "Backend Developer",
+   "title": "CI/CD Engineer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=374180&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=292302&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -9890,11 +7484,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-379466",
+   "id": "dhl-group:AV-286776",
    "company_id": "dhl-group",
-   "title": "Teamleider Transport",
-   "location": "Rotterdam, Zuid-Holland, Netherlands, Rotterdam, Zuid-Holland, Rotterdam",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=379466&source=careers.dhl.com",
+   "title": "Cloud Engineer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=286776&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -9905,11 +7499,26 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-366491",
+   "id": "dhl-group:AV-358698",
    "company_id": "dhl-group",
-   "title": "Senior IAM Engineer",
+   "title": "Cloud Engineer Security en Identity",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=366491&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358698&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-330285",
+   "company_id": "dhl-group",
+   "title": "Senior IT Security Officer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=330285&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -9950,11 +7559,26 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-358767",
+   "id": "dhl-group:AV-379466",
    "company_id": "dhl-group",
-   "title": "Product Owner",
+   "title": "Teamleider Transport",
+   "location": "Rotterdam, Zuid-Holland, Netherlands, Rotterdam, Zuid-Holland, Rotterdam",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=379466&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-374180",
+   "company_id": "dhl-group",
+   "title": "Backend Developer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358767&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=374180&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -9970,6 +7594,36 @@
    "title": "Transportplanner | DHL eCommerce | Utrecht | 3-ploegendienst",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
    "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=381598&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-366491",
+   "company_id": "dhl-group",
+   "title": "Senior IAM Engineer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=366491&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-358767",
+   "company_id": "dhl-group",
+   "title": "Product Owner",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358767&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -10238,33 +7892,6 @@
    "baseline": false
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Transportplanner-2742RD/1327573155/",
-   "company_id": "dachser",
-   "title": "Transportplanner",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Transportplanner-2742RD/1327573155/",
-   "posted_at": "2026-09-30",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
-   "company_id": "dachser",
-   "title": "Financiele Administratie",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
-   "posted_at": "2026-09-30",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Leerling-Logistiek-Medewerker-%28BBL%29-6902KL/1325246055/",
    "company_id": "dachser",
    "title": "Leerling Logistiek Medewerker (BBL)",
@@ -10285,6 +7912,33 @@
    "posted_at": "2026-09-30",
    "labels": null,
    "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
+   "company_id": "dachser",
+   "title": "Financiele Administratie",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
+   "posted_at": "2026-09-30",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Transportplanner-2742RD/1327573155/",
+   "company_id": "dachser",
+   "title": "Transportplanner",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Transportplanner-2742RD/1327573155/",
+   "posted_at": "2026-09-30",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -10634,11 +8288,26 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-365195",
+   "id": "dhl-group:AV-380249",
    "company_id": "dhl-group",
-   "title": "Business Development Manager",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365195&source=careers.dhl.com",
+   "title": "SQL Developer",
+   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=380249&source=careers.dhl.com",
+   "posted_at": "2026-09-24",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-379906",
+   "company_id": "dhl-group",
+   "title": "Teamleider Cityhub",
+   "location": "Zwolle, Overijssel, Netherlands, Zwolle, Overijssel, Zwolle",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=379906&source=careers.dhl.com",
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
@@ -10664,26 +8333,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-380249",
+   "id": "dhl-group:AV-365195",
    "company_id": "dhl-group",
-   "title": "SQL Developer",
-   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=380249&source=careers.dhl.com",
-   "posted_at": "2026-09-24",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-379906",
-   "company_id": "dhl-group",
-   "title": "Teamleider Cityhub",
-   "location": "Zwolle, Overijssel, Netherlands, Zwolle, Overijssel, Zwolle",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=379906&source=careers.dhl.com",
+   "title": "Business Development Manager",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365195&source=careers.dhl.com",
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
@@ -11780,11 +9434,11 @@
    "baseline": true
   },
   {
-   "id": "dhl-group:AV-368445",
+   "id": "dhl-group:AV-341247",
    "company_id": "dhl-group",
-   "title": "Customer Service Representative",
-   "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=368445&source=careers.dhl.com",
+   "title": "Chauffeur CE",
+   "location": "Roosendaal, Noord-Brabant, Netherlands, Roosendaal, Noord-Brabant, Roosendaal",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=341247&source=careers.dhl.com",
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
@@ -11795,11 +9449,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-341247",
+   "id": "dhl-group:AV-368445",
    "company_id": "dhl-group",
-   "title": "Chauffeur CE",
-   "location": "Roosendaal, Noord-Brabant, Netherlands, Roosendaal, Noord-Brabant, Roosendaal",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=341247&source=careers.dhl.com",
+   "title": "Customer Service Representative",
+   "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=368445&source=careers.dhl.com",
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
@@ -11960,11 +9614,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376206",
+   "id": "dhl-group:AV-376656",
    "company_id": "dhl-group",
-   "title": "Supervisor Logistiek",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376206&source=careers.dhl.com",
+   "title": "Shiftmanager",
+   "location": "Tiel, Gelderland, Netherlands, Tiel, Gelderland, Tiel",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376656&source=careers.dhl.com",
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
@@ -11975,11 +9629,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376656",
+   "id": "dhl-group:AV-376206",
    "company_id": "dhl-group",
-   "title": "Shiftmanager",
-   "location": "Tiel, Gelderland, Netherlands, Tiel, Gelderland, Tiel",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376656&source=careers.dhl.com",
+   "title": "Supervisor Logistiek",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376206&source=careers.dhl.com",
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
@@ -13400,11 +11054,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-361764",
+   "id": "dhl-group:AV-361677",
    "company_id": "dhl-group",
-   "title": "Vrachtwagenchauffeur C(E) Hoofddorp",
-   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=361764&source=careers.dhl.com",
+   "title": "Vrachtwagenchauffeur C(E) Eindhoven/Beringe",
+   "location": "Beringe, Limburg, Netherlands, Beringe, Limburg, Beringe",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=361677&source=careers.dhl.com",
    "posted_at": "2026-07-02",
    "labels": {
     "dutch_required": false,
@@ -13415,11 +11069,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-361677",
+   "id": "dhl-group:AV-361764",
    "company_id": "dhl-group",
-   "title": "Vrachtwagenchauffeur C(E) Eindhoven/Beringe",
-   "location": "Beringe, Limburg, Netherlands, Beringe, Limburg, Beringe",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=361677&source=careers.dhl.com",
+   "title": "Vrachtwagenchauffeur C(E) Hoofddorp",
+   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=361764&source=careers.dhl.com",
    "posted_at": "2026-07-02",
    "labels": {
     "dutch_required": false,
