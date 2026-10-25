@@ -857,3 +857,41 @@ class VacanciesWrittenAsHeadings(unittest.TestCase):
         jobs = careerpage.fetch(net, {"url": self.page_url}, strict=False)
         self.assertEqual(sorted(j["title"] for j in jobs),
                          ["Rail Coordinator Oost", "Transportplanner Venlo"])
+
+
+class ADutchCareersSiteCountsAsDutch(unittest.TestCase):
+    """Barsan's group address is barsan.com while its careers site is barsan.nl.
+
+    Judging by the group address alone treated every vacancy there as needing
+    proof it was in the Netherlands, and discarded the open Senior Transport
+    Planner for lack of it.
+    """
+
+    def test_a_dutch_careers_site_needs_no_proof(self):
+        self.assertFalse(run.is_strict({"domain": "barsan.com",
+                                        "careers_url": "https://www.barsan.nl/jobs"}))
+
+    def test_the_page_actually_read_counts_too(self):
+        self.assertFalse(run.is_strict({"domain": "acme.com"},
+                                       "https://werkenbij.acme.nl/vacatures"))
+
+    def test_a_company_with_no_dutch_address_anywhere_still_needs_proof(self):
+        self.assertTrue(run.is_strict({"domain": "scania.com"},
+                                      "https://jobs.scania.com/search"))
+
+    def test_an_explicit_scope_overrides_the_address(self):
+        self.assertTrue(run.is_strict({"domain": "acme.nl", "scope": "global"}))
+
+
+class OneVacancyListedTwiceAppearsOnce(unittest.TestCase):
+    """Grolleman's vacancies appeared twice, once per careers page read."""
+
+    def test_the_same_title_on_two_pages_is_one_job(self):
+        page = "<h3>Medewerker Overslag</h3><h3>Chauffeur Koeltransport</h3>"
+        net = FakeNet(routes={"https://grolleman.nl/vacatures": page,
+                              "https://grolleman.nl/werken-bij": page})
+        jobs = careerpage.fetch(net, {"urls": ["https://grolleman.nl/vacatures",
+                                               "https://grolleman.nl/werken-bij"]},
+                                strict=False)
+        self.assertEqual(sorted(j["title"] for j in jobs),
+                         ["Chauffeur Koeltransport", "Medewerker Overslag"])

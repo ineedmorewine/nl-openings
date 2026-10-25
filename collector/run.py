@@ -14,6 +14,7 @@ import json
 import time
 from datetime import date, datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 from .adapters import ADAPTERS, careerpage
 from .discovery import career_links, discover, homepages
@@ -52,12 +53,20 @@ def save_json(path, data):
     Path(path).write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
-def is_strict(company):
-    """Global careers sites keep only clearly Dutch locations; Dutch-only sites keep unknowns too."""
+def is_strict(company, careers_page=None):
+    """Whether a job must name a Dutch place before we believe it is in the Netherlands.
+
+    A careers site on a .nl address lists Dutch vacancies, whatever the parent
+    company's own address is. Barsan's site is barsan.nl while the group is
+    barsan.com, and judging by the group address alone threw away its open
+    Senior Transport Planner.
+    """
     if company.get("scope"):
         return company["scope"] != "nl"
-    domain = company.get("domain") or ""
-    return not domain.endswith(".nl")
+    for address in (careers_page, company.get("careers_url"), company.get("domain")):
+        if address and urlparse(address if "//" in address else f"//{address}").netloc.endswith(".nl"):
+            return False
+    return True
 
 
 def make_job_id(company_id, raw):
@@ -119,7 +128,7 @@ def second_opinion(net, company, discovery_cache, source=None):
         return None
     params = {"urls": pages}
     try:
-        jobs = careerpage.fetch(net, params, is_strict(company))
+        jobs = careerpage.fetch(net, params, is_strict(company, pages[0]))
     except Exception:
         return None
     return {"jobs": jobs, "params": params} if jobs else None

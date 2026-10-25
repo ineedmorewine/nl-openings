@@ -166,7 +166,7 @@ def _list_pages(params):
 
 
 def fetch(net, params, strict):
-    links = []
+    links, titles = [], set()
     for page_url in _list_pages(params)[:MAX_LIST_PAGES]:
         try:
             markup = net.get(page_url).text
@@ -176,9 +176,15 @@ def fetch(net, params, strict):
         if not found:
             # No links: the vacancies may be headings on this page.
             found = find_posting_headings(markup, page_url)
-        for item in found:
-            if item[0] not in {u for u, _ in links}:
-                links.append(item)
+        for url, title in found:
+            # The same vacancy often appears on more than one careers page, and
+            # a heading carries its page's address, so the title is what tells
+            # two listings of one job apart.
+            key = fold(title)
+            if url in {u for u, _ in links} or key in titles:
+                continue
+            titles.add(key)
+            links.append((url, title))
         if len(links) >= MAX_POSTINGS:
             break
     if not links:
