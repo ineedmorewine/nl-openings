@@ -15,7 +15,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 100
+    timeout-minutes: 170
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -23,7 +23,13 @@ jobs:
           python-version: "3.12"
       - name: Install
         run: pip install -r collector/requirements.txt
+      - name: Install browser
+        # Used only for careers pages that build their vacancy list after
+        # loading, which are empty when downloaded.
+        run: python -m playwright install --with-deps chromium
       - name: Test
+        env:
+          NL_OPENINGS_NO_BROWSER: "1"
         run: python -m unittest discover -s tests -t .
       - name: Collect
         run: python -m collector.run

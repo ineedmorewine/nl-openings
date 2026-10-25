@@ -600,3 +600,88 @@ class WhatAnEarlierRunLearnedIsKept(unittest.TestCase):
         second = self.collect(posting)
         self.assertEqual([j["title"] for j in second], ["Transportplanner Ftl"])
         self.assertEqual([j["location"] for j in second], ["Rotterdam"])
+
+
+class RenderingAsTheLastResort(unittest.TestCase):
+    """A careers page that builds its list after loading is empty when downloaded.
+
+    Opening it in a browser is the only way to see those vacancies, so it runs
+    for companies that would otherwise be reported as unreadable.
+    """
+
+    rendered = ('<a href="/vacatures/transportplanner-venlo">Transportplanner Venlo</a>'
+                '<a href="/vacatures/rail-coordinator">Rail Coordinator Oost</a>')
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        base = Path(self.tmp.name)
+        (base / "data").mkdir()
+        self.paths = {
+            "COMPANIES_FILE": base / "companies.json",
+            "JOBS_FILE": base / "data/jobs.json",
+            "SOURCES_FILE": base / "data/sources.json",
+            "DISCOVERY_FILE": base / "data/discovery.json",
+            "FILTERS_FILE": Path(run.FILTERS_FILE),
+        }
+        self.paths["COMPANIES_FILE"].write_text(_json.dumps({"companies": [{
+            "id": "barsan", "name": "Barsan", "group": "road_rail", "domain": "barsan.nl",
+            "careers_url": "https://barsan.nl/jobs",
+        }]}))
+        self.paths["DISCOVERY_FILE"].write_text("{}")
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def collect(self, renderer):
+        # Downloading the page gives an empty shell, as it does on the real site.
+        routes = {"https://barsan.nl/jobs": "<html><body><div id=app></div></body></html>",
+                  "https://barsan.nl/": "<a href='/jobs'>Jobs</a>",
+                  "https://www.barsan.nl/": "<a href='/jobs'>Jobs</a>"}
+        with mock.patch.multiple(run, **self.paths), \
+                mock.patch.object(run, "Net", lambda: FakeNet(routes)), \
+                mock.patch.object(run, "PageRenderer", lambda budget: renderer):
+            run.main([])
+        sources = _json.loads(self.paths["SOURCES_FILE"].read_text())["sources"]
+        jobs = _json.loads(self.paths["JOBS_FILE"].read_text())["jobs"]
+        return sources[0], jobs
+
+    def fake_renderer(self, html=None, error=None, budget=5):
+        class Renderer:
+            def __init__(self):
+                self.budget = budget
+                self.rendered = []
+
+            @property
+            def exhausted(self):
+                return self.budget <= 0
+
+            def render(self, url):
+                self.budget -= 1
+                self.rendered.append(url)
+                if error:
+                    raise error
+                return html
+
+            def close(self):
+                pass
+        return Renderer()
+
+    def test_vacancies_that_only_appear_in_a_browser_are_collected(self):
+        renderer = self.fake_renderer(html=self.rendered)
+        source, jobs = self.collect(renderer)
+        self.assertEqual(source["status"], "ok")
+        self.assertEqual(source["method"], "careerpage (rendered)")
+        self.assertEqual(sorted(j["title"] for j in jobs),
+                         ["Rail Coordinator Oost", "Transportplanner Venlo"])
+
+    def test_without_a_browser_the_company_is_reported_unreadable_as_before(self):
+        renderer = self.fake_renderer(error=run.BrowserUnavailable("no browser"))
+        source, jobs = self.collect(renderer)
+        self.assertEqual(source["status"], "no_careers_system_found")
+        self.assertEqual(jobs, [])
+
+    def test_rendering_is_not_attempted_once_the_budget_is_spent(self):
+        renderer = self.fake_renderer(html=self.rendered, budget=0)
+        source, _ = self.collect(renderer)
+        self.assertEqual(source["status"], "no_careers_system_found")
+        self.assertEqual(renderer.rendered, [])

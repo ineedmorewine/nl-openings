@@ -17,6 +17,7 @@ from pathlib import Path
 
 from .adapters import ADAPTERS, careerpage
 from .discovery import discover, homepages
+from .render import BrowserUnavailable, PageRenderer
 from .filters import is_suitable
 from .net import Net
 from .text import dutch_required, keep_location, written_in_dutch
@@ -31,6 +32,10 @@ FILTERS_FILE = DATA_DIR / "filters.json"
 
 MAX_DESCRIPTIONS_PER_SOURCE = 60
 MAX_LINK_DESCRIPTIONS = 120
+# Rendering is slow, so it is reserved for companies that would otherwise be
+# reported as unreadable, and capped for the run as a whole.
+RENDER_PAGE_BUDGET = 150
+RENDER_PAGES_PER_COMPANY = 3
 TIME_BUDGET_SECONDS = 70 * 60
 
 
@@ -118,6 +123,34 @@ def second_opinion(net, company, discovery_cache, source=None):
     return {"jobs": jobs, "params": params} if jobs else None
 
 
+def rendered_second_opinion(renderer, company, discovery_cache, source=None):
+    """Last resort: open the careers pages in a browser and read what appears.
+
+    A page that builds its vacancy list after loading is empty when downloaded,
+    so nothing above can see it. Returns None when a browser is unavailable,
+    the budget is spent, or the rendered pages still list nothing.
+    """
+    if renderer is None or renderer.exhausted:
+        return None
+    jobs, seen = [], set()
+    for url in second_opinion_pages(company, discovery_cache, source)[:RENDER_PAGES_PER_COMPANY]:
+        try:
+            markup = renderer.render(url)
+        except BrowserUnavailable:
+            return None
+        except Exception:
+            continue
+        for link, title in careerpage.find_posting_links(markup, url):
+            if link in seen:
+                continue
+            seen.add(link)
+            jobs.append({"ext_id": link, "title": title, "location": "",
+                         "url": link, "posted_at": None})
+        if jobs:
+            break
+    return {"jobs": jobs, "params": {"urls": [j["url"] for j in jobs]}} if jobs else None
+
+
 def resolve_source(net, company, discovery_cache, today):
     """Return (source, discovered, failure_status). failure_status is None when a source exists."""
     if company.get("source"):
@@ -135,7 +168,8 @@ def resolve_source(net, company, discovery_cache, today):
                         "notes": result.get("notes") or []}
 
 
-def collect_company(net, company, discovery_cache, filters, previous_by_id, today):
+def collect_company(net, company, discovery_cache, filters, previous_by_id, today,
+                    renderer=None):
     """Return (status_entry, jobs). jobs is None when the company could not be read today."""
     source, discovered, failure = resolve_source(net, company, discovery_cache, today)
     if failure:
@@ -146,10 +180,16 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
         # most of the list unread: a company without a known system was never
         # read at all, however plainly its vacancies were published.
         fallback = second_opinion(net, company, discovery_cache)
+        rendered = False
+        if not fallback:
+            fallback = rendered_second_opinion(renderer, company, discovery_cache)
+            rendered = bool(fallback)
         if not fallback:
             return failure, None
         source, adapter = {"type": "careerpage"}, careerpage
-        params, method, discovered = fallback["params"], "careerpage", True
+        params = fallback["params"]
+        method = "careerpage (rendered)" if rendered else "careerpage"
+        discovered = True
         raw_jobs = fallback["jobs"]
     else:
         adapter = ADAPTERS.get(source.get("type"))
@@ -203,7 +243,7 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
             # Opening a posting is the only way to learn where it is, so a
             # link-read source is given more of them: without a location its
             # jobs are discarded above.
-            budget = (MAX_LINK_DESCRIPTIONS if method.endswith("careerpage")
+            budget = (MAX_LINK_DESCRIPTIONS if "careerpage" in method
                       else MAX_DESCRIPTIONS_PER_SOURCE)
             if (not text and describe and described < budget
                     and is_suitable(title, filters, extra)):
@@ -230,7 +270,7 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
         # the same page as its Dutch ones. Reading that page as links tells us
         # nothing about where a job is, so an unconfirmed one must not be
         # presented as a Dutch opening. A Dutch-only site needs no such proof.
-        if not place and method.endswith("careerpage") and is_strict(company):
+        if not place and "careerpage" in method and is_strict(company):
             continue
 
         jobs[job_id] = {
@@ -267,6 +307,7 @@ def main(argv=None):
         previous_by_company.setdefault(job["company_id"], []).append(job)
 
     net = Net()
+    renderer = PageRenderer(RENDER_PAGE_BUDGET)
     all_jobs, sources = [], []
 
     for company in companies:
@@ -290,7 +331,8 @@ def main(argv=None):
             all_jobs.extend(previous_by_company.get(cid, []))
             continue
 
-        status, jobs = collect_company(net, company, discovery_cache, filters, previous_by_id, today)
+        status, jobs = collect_company(net, company, discovery_cache, filters,
+                                       previous_by_id, today, renderer)
         entry.update(status)
         entry["careers_link"] = careers_link(company, discovery_cache)
 
@@ -317,6 +359,7 @@ def main(argv=None):
         sources.append(entry)
         print(f"{cid:<32} {entry['status']:<24} {entry.get('nl_jobs', 0):>4} jobs", flush=True)
 
+    renderer.close()
     all_jobs.sort(key=lambda j: (j.get("posted_at") or j["first_seen"], j["first_seen"]), reverse=True)
     save_json(JOBS_FILE, {"generated_at": now, "jobs": all_jobs})
     save_json(SOURCES_FILE, {"generated_at": now, "sources": sources})
