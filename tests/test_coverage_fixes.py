@@ -551,3 +551,52 @@ class LinkReadJobsNeedAConfirmedDutchLocation(unittest.TestCase):
             "https://acme.nl/careers/demand-planner": blank,
         })
         self.assertEqual(titles, ["Demand Planner", "Transport Planner"])
+
+
+class WhatAnEarlierRunLearnedIsKept(unittest.TestCase):
+    """A job seen before is not opened again, so its location must carry over.
+
+    Losing it discarded the job on the next run as one we could not place,
+    which silently emptied Neele-Vat of all 29 vacancies.
+    """
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        base = Path(self.tmp.name)
+        (base / "data").mkdir()
+        self.paths = {
+            "COMPANIES_FILE": base / "companies.json",
+            "JOBS_FILE": base / "data/jobs.json",
+            "SOURCES_FILE": base / "data/sources.json",
+            "DISCOVERY_FILE": base / "data/discovery.json",
+            "FILTERS_FILE": Path(run.FILTERS_FILE),
+        }
+        self.paths["COMPANIES_FILE"].write_text(_json.dumps({"companies": [{
+            "id": "neelevat", "name": "Neele-Vat", "group": "forwarders",
+            "domain": "neelevat.com", "careers_url": "https://werkenbij.example.com/vacancies/",
+        }]}))
+        self.paths["DISCOVERY_FILE"].write_text("{}")
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def collect(self, posting):
+        routes = {
+            "https://werkenbij.example.com/vacancies/":
+                '<a href="/vacancies/transportplanner-ftl/">View the vacancy</a>',
+            "https://werkenbij.example.com/vacancies/transportplanner-ftl/": posting,
+        }
+        with mock.patch.multiple(run, **self.paths), \
+                mock.patch.object(run, "Net", lambda: FakeNet(routes)):
+            run.main([])
+        return _json.loads(self.paths["JOBS_FILE"].read_text())["jobs"]
+
+    def test_the_job_survives_a_second_run_that_does_not_reopen_it(self):
+        posting = "<html><body><p>Standplaats: Rotterdam</p><p>" + ("Je plant ritten. " * 20) + "</p></body></html>"
+        first = self.collect(posting)
+        self.assertEqual([j["location"] for j in first], ["Rotterdam"])
+
+        # Second run: the posting is not opened again because the labels are known.
+        second = self.collect(posting)
+        self.assertEqual([j["title"] for j in second], ["Transportplanner Ftl"])
+        self.assertEqual([j["location"] for j in second], ["Rotterdam"])

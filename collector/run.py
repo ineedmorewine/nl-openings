@@ -192,6 +192,11 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
 
         if previous and previous.get("labels_checked"):
             labels, checked = previous.get("labels"), True
+            # The posting is not opened again, so carry forward what the earlier
+            # run learned from it. Without this the location is lost and the job
+            # is then discarded as one we cannot place.
+            if previous.get("location") and not raw.get("location"):
+                raw["location"] = previous["location"]
         else:
             text = raw.get("description") or ""
             describe = getattr(adapter, "describe", None)
