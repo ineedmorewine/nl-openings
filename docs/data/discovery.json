@@ -1,34 +1,4 @@
 {
- "barsan-global-logistics": {
-  "source": null,
-  "vendor": null,
-  "checked_pages": [
-   "https://www.barsan.nl/jobs",
-   "https://barsan.com/",
-   "https://www.barsan.com/",
-   "https://www.barsan.com/careers",
-   "https://www.barsan.com/en/careers",
-   "https://www.barsan.com/careers/",
-   "https://www.barsan.com/nl/werken-bij",
-   "https://www.barsan.com/werken-bij",
-   "https://www.barsan.com/vacatures",
-   "https://www.barsan.com/nl/vacatures",
-   "https://www.barsan.com/jobs",
-   "https://www.barsan.com/en/jobs",
-   "https://www.barsan.com/career",
-   "https://www.barsan.com/en/career"
-  ],
-  "reason": "no_careers_system_found",
-  "notes": [
-   "https://www.barsan.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/careers",
-   "https://www.barsan.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/en/careers",
-   "https://www.barsan.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/careers",
-   "https://www.barsan.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/nl/werken-bij",
-   "https://www.barsan.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/werken-bij",
-   "https://www.barsan.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/vacatures"
-  ],
-  "checked_at": "2026-10-25"
- },
  "cabooter": {
   "source": {
    "type": "careerpage",
@@ -386,36 +356,6 @@
   ],
   "checked_at": "2026-10-25"
  },
- "crane-worldwide-logistics": {
-  "source": null,
-  "vendor": null,
-  "checked_pages": [
-   "https://craneww.com/",
-   "https://www.craneww.com/",
-   "https://www.craneww.com/careers",
-   "https://www.craneww.com/en/careers",
-   "https://www.craneww.com/careers/",
-   "https://www.craneww.com/nl/werken-bij",
-   "https://www.craneww.com/werken-bij",
-   "https://www.craneww.com/vacatures",
-   "https://www.craneww.com/nl/vacatures",
-   "https://www.craneww.com/jobs",
-   "https://www.craneww.com/en/jobs",
-   "https://www.craneww.com/career",
-   "https://www.craneww.com/en/career",
-   "https://craneww.com/careers"
-  ],
-  "reason": "no_careers_system_found",
-  "notes": [
-   "https://www.craneww.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.craneww.com/nl/werken-bij",
-   "https://www.craneww.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.craneww.com/werken-bij",
-   "https://www.craneww.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.craneww.com/vacatures",
-   "https://www.craneww.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.craneww.com/nl/vacatures",
-   "https://www.craneww.com/career -> HTTPError: 404 Client Error: Not Found for url: https://www.craneww.com/career",
-   "https://www.craneww.com/en/career -> HTTPError: 404 Client Error: Not Found for url: https://www.craneww.com/en/career"
-  ],
-  "checked_at": "2026-10-25"
- },
  "dachser": {
   "source": {
    "type": "rmk",
@@ -429,29 +369,6 @@
   ],
   "reason": "found",
   "checked_at": "2026-09-17"
- },
- "delmar-international": {
-  "source": null,
-  "vendor": null,
-  "checked_pages": [
-   "https://delmarcargo.com/",
-   "https://www.delmarcargo.com/",
-   "https://www.delmarcargo.com/careers",
-   "https://www.delmarcargo.com/en/careers",
-   "https://www.delmarcargo.com/careers/",
-   "https://www.delmarcargo.com/nl/werken-bij",
-   "https://www.delmarcargo.com/werken-bij",
-   "https://www.delmarcargo.com/vacatures",
-   "https://www.delmarcargo.com/nl/vacatures",
-   "https://www.delmarcargo.com/jobs",
-   "https://www.delmarcargo.com/en/jobs",
-   "https://www.delmarcargo.com/career",
-   "https://www.delmarcargo.com/en/career",
-   "https://delmarcargo.com/careers"
-  ],
-  "reason": "no_careers_system_found",
-  "notes": [],
-  "checked_at": "2026-10-25"
  },
  "dimerco-express": {
   "source": null,
@@ -975,8 +892,12 @@
   ],
   "reason": "site_unreachable",
   "notes": [
-   "https://hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)"
+   "https://www.hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers",
+   "https://www.hmm21.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/en/careers",
+   "https://www.hmm21.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers/",
+   "https://www.hmm21.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/nl/werken-bij",
+   "https://www.hmm21.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/werken-bij"
   ],
   "checked_at": "2026-10-25"
  },
@@ -2599,36 +2520,6 @@
    "https://www.cetlogistics.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.cetlogistics.nl', port=443): Max retries exceeded with url: "
   ],
   "checked_at": "2026-10-24"
- },
- "cts-international-logistics": {
-  "source": null,
-  "vendor": null,
-  "checked_pages": [
-   "https://cts-logistics.com/",
-   "https://www.cts-logistics.com/",
-   "http://cts-jobs.co.uk",
-   "https://www.cts-logistics.com/careers",
-   "https://www.cts-logistics.com/en/careers",
-   "https://www.cts-logistics.com/careers/",
-   "https://www.cts-logistics.com/nl/werken-bij",
-   "https://www.cts-logistics.com/werken-bij",
-   "https://www.cts-logistics.com/vacatures",
-   "https://www.cts-logistics.com/nl/vacatures",
-   "https://www.cts-logistics.com/jobs",
-   "https://www.cts-logistics.com/en/jobs",
-   "https://www.cts-logistics.com/career",
-   "https://www.cts-logistics.com/en/career"
-  ],
-  "reason": "no_careers_system_found",
-  "notes": [
-   "https://www.cts-logistics.com/ -> ConnectionError: HTTPSConnectionPool(host='www.cts-logistics.com', port=443): Max retries exceeded with url",
-   "https://www.cts-logistics.com/careers -> ConnectionError: HTTPSConnectionPool(host='www.cts-logistics.com', port=443): Max retries exceeded with url",
-   "https://www.cts-logistics.com/en/careers -> ConnectionError: HTTPSConnectionPool(host='www.cts-logistics.com', port=443): Max retries exceeded with url",
-   "https://www.cts-logistics.com/careers/ -> ConnectionError: HTTPSConnectionPool(host='www.cts-logistics.com', port=443): Max retries exceeded with url",
-   "https://www.cts-logistics.com/nl/werken-bij -> ConnectionError: HTTPSConnectionPool(host='www.cts-logistics.com', port=443): Max retries exceeded with url",
-   "https://www.cts-logistics.com/werken-bij -> ConnectionError: HTTPSConnectionPool(host='www.cts-logistics.com', port=443): Max retries exceeded with url"
-  ],
-  "checked_at": "2026-10-25"
  },
  "cyber-freight-amsterdam": {
   "source": {

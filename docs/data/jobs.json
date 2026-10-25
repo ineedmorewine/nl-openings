@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T18:48+00:00",
+ "generated_at": "2026-10-25T20:00+00:00",
  "jobs": [
   {
    "id": "dsv:/job/Schiphol-IT-Support-Engineer-Nort-1118-AM/1400302933/",
@@ -238,6 +238,348 @@
     "written_in_dutch": true
    },
    "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "grolleman-vrieshuis:https://www.grolleman.nl/vacatures#medewerker-overslag",
+   "company_id": "grolleman-vrieshuis",
+   "title": "Medewerker Overslag",
+   "location": "",
+   "url": "https://www.grolleman.nl/vacatures#medewerker-overslag",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "grolleman-vrieshuis:https://www.grolleman.nl/vacatures#chauffeur-koel-vriestransport",
+   "company_id": "grolleman-vrieshuis",
+   "title": "Chauffeur Koel-/Vriestransport",
+   "location": "",
+   "url": "https://www.grolleman.nl/vacatures#chauffeur-koel-vriestransport",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "grolleman-vrieshuis:https://www.grolleman.nl/vacatures#chauffeur-steenwagen",
+   "company_id": "grolleman-vrieshuis",
+   "title": "Chauffeur Steenwagen",
+   "location": "",
+   "url": "https://www.grolleman.nl/vacatures#chauffeur-steenwagen",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "grolleman-vrieshuis:https://www.grolleman.nl/nl/vacatures#medewerker-overslag",
+   "company_id": "grolleman-vrieshuis",
+   "title": "Medewerker Overslag",
+   "location": "",
+   "url": "https://www.grolleman.nl/nl/vacatures#medewerker-overslag",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "grolleman-vrieshuis:https://www.grolleman.nl/nl/vacatures#chauffeur-koel-vriestransport",
+   "company_id": "grolleman-vrieshuis",
+   "title": "Chauffeur Koel-/Vriestransport",
+   "location": "",
+   "url": "https://www.grolleman.nl/nl/vacatures#chauffeur-koel-vriestransport",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "grolleman-vrieshuis:https://www.grolleman.nl/nl/vacatures#chauffeur-steenwagen",
+   "company_id": "grolleman-vrieshuis",
+   "title": "Chauffeur Steenwagen",
+   "location": "",
+   "url": "https://www.grolleman.nl/nl/vacatures#chauffeur-steenwagen",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.werkenbijmonta.nl/vacatures/#logistiek-medewerker-inbound",
+   "company_id": "monta",
+   "title": "Logistiek Medewerker Inbound",
+   "location": "Locatie",
+   "url": "https://www.werkenbijmonta.nl/vacatures/#logistiek-medewerker-inbound",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.werkenbijmonta.nl/vacatures/#cloud-infrastructure-engineer",
+   "company_id": "monta",
+   "title": "Cloud & Infrastructure Engineer",
+   "location": "",
+   "url": "https://www.werkenbijmonta.nl/vacatures/#cloud-infrastructure-engineer",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.werkenbijmonta.nl/vacatures/#financieel-medewerker",
+   "company_id": "monta",
+   "title": "Financieel Medewerker",
+   "location": "",
+   "url": "https://www.werkenbijmonta.nl/vacatures/#financieel-medewerker",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.werkenbijmonta.nl/vacatures/#product-manager-europe",
+   "company_id": "monta",
+   "title": "Product Manager Europe",
+   "location": "",
+   "url": "https://www.werkenbijmonta.nl/vacatures/#product-manager-europe",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.werkenbijmonta.nl/vacatures/#it-onboarding-specialist-junior",
+   "company_id": "monta",
+   "title": "IT Onboarding Specialist (Junior)",
+   "location": "",
+   "url": "https://www.werkenbijmonta.nl/vacatures/#it-onboarding-specialist-junior",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.werkenbijmonta.nl/vacatures/#medewerker-debiteurenbeheer",
+   "company_id": "monta",
+   "title": "Medewerker Debiteurenbeheer",
+   "location": "",
+   "url": "https://www.werkenbijmonta.nl/vacatures/#medewerker-debiteurenbeheer",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.werkenbijmonta.nl/vacatures/#allround-logistiek-medewerker",
+   "company_id": "monta",
+   "title": "Allround Logistiek Medewerker",
+   "location": "",
+   "url": "https://www.werkenbijmonta.nl/vacatures/#allround-logistiek-medewerker",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.werkenbijmonta.nl/vacatures/#logistiek-medewerker",
+   "company_id": "monta",
+   "title": "Logistiek Medewerker",
+   "location": "",
+   "url": "https://www.werkenbijmonta.nl/vacatures/#logistiek-medewerker",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.werkenbijmonta.nl/vacatures/#logistiek-teamleider",
+   "company_id": "monta",
+   "title": "Logistiek Teamleider",
+   "location": "",
+   "url": "https://www.werkenbijmonta.nl/vacatures/#logistiek-teamleider",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.werkenbijmonta.nl/vacatures/#logistiek-medewerker-student-oproep",
+   "company_id": "monta",
+   "title": "Logistiek Medewerker (Student/Oproep)",
+   "location": "",
+   "url": "https://www.werkenbijmonta.nl/vacatures/#logistiek-medewerker-student-oproep",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.werkenbijmonta.nl/vacatures/#assistent-shiftleader",
+   "company_id": "monta",
+   "title": "Assistent Shiftleader",
+   "location": "",
+   "url": "https://www.werkenbijmonta.nl/vacatures/#assistent-shiftleader",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.monta.nl/vacatures#logistiek-medewerker-inbound",
+   "company_id": "monta",
+   "title": "Logistiek Medewerker Inbound",
+   "location": "Locatie",
+   "url": "https://www.monta.nl/vacatures#logistiek-medewerker-inbound",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.monta.nl/vacatures#cloud-infrastructure-engineer",
+   "company_id": "monta",
+   "title": "Cloud & Infrastructure Engineer",
+   "location": "",
+   "url": "https://www.monta.nl/vacatures#cloud-infrastructure-engineer",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.monta.nl/vacatures#financieel-medewerker",
+   "company_id": "monta",
+   "title": "Financieel Medewerker",
+   "location": "",
+   "url": "https://www.monta.nl/vacatures#financieel-medewerker",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.monta.nl/vacatures#product-manager-europe",
+   "company_id": "monta",
+   "title": "Product Manager Europe",
+   "location": "",
+   "url": "https://www.monta.nl/vacatures#product-manager-europe",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.monta.nl/vacatures#it-onboarding-specialist-junior",
+   "company_id": "monta",
+   "title": "IT Onboarding Specialist (Junior)",
+   "location": "",
+   "url": "https://www.monta.nl/vacatures#it-onboarding-specialist-junior",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.monta.nl/vacatures#medewerker-debiteurenbeheer",
+   "company_id": "monta",
+   "title": "Medewerker Debiteurenbeheer",
+   "location": "",
+   "url": "https://www.monta.nl/vacatures#medewerker-debiteurenbeheer",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.monta.nl/vacatures#allround-logistiek-medewerker",
+   "company_id": "monta",
+   "title": "Allround Logistiek Medewerker",
+   "location": "",
+   "url": "https://www.monta.nl/vacatures#allround-logistiek-medewerker",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.monta.nl/vacatures#logistiek-medewerker",
+   "company_id": "monta",
+   "title": "Logistiek Medewerker",
+   "location": "",
+   "url": "https://www.monta.nl/vacatures#logistiek-medewerker",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.monta.nl/vacatures#logistiek-teamleider",
+   "company_id": "monta",
+   "title": "Logistiek Teamleider",
+   "location": "",
+   "url": "https://www.monta.nl/vacatures#logistiek-teamleider",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.monta.nl/vacatures#logistiek-medewerker-student-oproep",
+   "company_id": "monta",
+   "title": "Logistiek Medewerker (Student/Oproep)",
+   "location": "",
+   "url": "https://www.monta.nl/vacatures#logistiek-medewerker-student-oproep",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "monta:https://www.monta.nl/vacatures#assistent-shiftleader",
+   "company_id": "monta",
+   "title": "Assistent Shiftleader",
+   "location": "",
+   "url": "https://www.monta.nl/vacatures#assistent-shiftleader",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-10-25",
    "baseline": true
   },
@@ -2582,11 +2924,11 @@
    "baseline": false
   },
   {
-   "id": "world-courier:R269834",
+   "id": "world-courier:R2614063",
    "company_id": "world-courier",
-   "title": "Assistent Teamleider Spits Alkmaar",
+   "title": "Medewerker Farmaceutische productie Spits Alkmaar",
    "location": "Alkmaar, Netherlands, Alkmaar, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Alkmaar/Assistent-Teamleider_R269834/apply",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Alkmaar/Associate-Operator--Warehouse-Operations_R2614063/apply",
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
@@ -2597,11 +2939,11 @@
    "baseline": true
   },
   {
-   "id": "world-courier:R2614063",
+   "id": "world-courier:R269834",
    "company_id": "world-courier",
-   "title": "Medewerker Farmaceutische productie Spits Alkmaar",
+   "title": "Assistent Teamleider Spits Alkmaar",
    "location": "Alkmaar, Netherlands, Alkmaar, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Alkmaar/Associate-Operator--Warehouse-Operations_R2614063/apply",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Alkmaar/Assistent-Teamleider_R269834/apply",
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
@@ -4919,21 +5261,6 @@
    "baseline": false
   },
   {
-   "id": "world-courier:R2522848",
-   "company_id": "world-courier",
-   "title": "Apothekersassistent Boots Support regio West Nederland",
-   "location": "Amsterdam, Netherlands, Amsterdam, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Amsterdam-Netherlands/Apothekersassistent-Boots-Support-center-regio-West-Nederland_R2522848-1/apply",
-   "posted_at": "2026-10-06",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": true
-  },
-  {
    "id": "world-courier:R2614262",
    "company_id": "world-courier",
    "title": "Boots Apotheek Ondersteunende Medewerker - Supportafdeling Hoofdkantoor Veghel",
@@ -4969,6 +5296,21 @@
    "title": "Support Assistent regio Midden Nederland (afwisselend werken voor diverse Boots Apotheken/ het hoofdkantoor)",
    "location": "AZ Utrecht, Netherlands, AZ Utrecht, Netherlands",
    "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Utrecht/Support-Assistent-regio-Midden-Nederland--afwisselend-werken-voor-diverse-Boots-Apotheken--het-hoofdkantoor-_R2522380/apply",
+   "posted_at": "2026-10-06",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": true
+  },
+  {
+   "id": "world-courier:R2522848",
+   "company_id": "world-courier",
+   "title": "Apothekersassistent Boots Support regio West Nederland",
+   "location": "Amsterdam, Netherlands, Amsterdam, Netherlands",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Amsterdam-Netherlands/Apothekersassistent-Boots-Support-center-regio-West-Nederland_R2522848-1/apply",
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
@@ -9680,11 +10022,11 @@
    "baseline": true
   },
   {
-   "id": "world-courier:R258936",
+   "id": "world-courier:R262766",
    "company_id": "world-courier",
-   "title": "Tweede of Beherend apotheker",
-   "location": "N/A, Netherlands, N/A, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Vlissingen---Papegaaienburg/Tweede-of-Beherend-apotheker_R258936/apply",
+   "title": "Tweede apotheker (vacature reeds vervuld)",
+   "location": "Amsterdam, Netherlands, Amsterdam, Netherlands",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Boots-apotheek-Zwaansvliet/Tweede-apotheker--vacature-reeds-vervuld-_R262766-1/apply",
    "posted_at": "2026-03-16",
    "labels": {
     "dutch_required": false,
@@ -9710,11 +10052,11 @@
    "baseline": true
   },
   {
-   "id": "world-courier:R262766",
+   "id": "world-courier:R258936",
    "company_id": "world-courier",
-   "title": "Tweede apotheker (vacature reeds vervuld)",
-   "location": "Amsterdam, Netherlands, Amsterdam, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Boots-apotheek-Zwaansvliet/Tweede-apotheker--vacature-reeds-vervuld-_R262766-1/apply",
+   "title": "Tweede of Beherend apotheker",
+   "location": "N/A, Netherlands, N/A, Netherlands",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Vlissingen---Papegaaienburg/Tweede-of-Beherend-apotheker_R258936/apply",
    "posted_at": "2026-03-16",
    "labels": {
     "dutch_required": false,
