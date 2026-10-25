@@ -650,6 +650,7 @@ class RenderingAsTheLastResort(unittest.TestCase):
             def __init__(self):
                 self.budget = budget
                 self.rendered = []
+                self.last_error = None
 
             @property
             def exhausted(self):
@@ -685,3 +686,46 @@ class RenderingAsTheLastResort(unittest.TestCase):
         source, _ = self.collect(renderer)
         self.assertEqual(source["status"], "no_careers_system_found")
         self.assertEqual(renderer.rendered, [])
+
+
+class RenderingReportsWhatHappened(unittest.TestCase):
+    """Rendering rescued nobody on its first run and the result said nothing.
+
+    A company that reaches the browser now records what the attempt did, so a
+    browser that will not start is told apart from pages that list nothing.
+    """
+
+    def pages(self):
+        return ["https://acme.nl/vacatures"]
+
+    def attempt(self, renderer):
+        with mock.patch.object(run, "second_opinion_pages", lambda *a, **k: self.pages()):
+            return run.rendered_second_opinion(renderer, {"id": "acme"}, {})
+
+    def test_a_browser_that_will_not_start_is_named(self):
+        class Renderer:
+            exhausted = False
+            last_error = None
+
+            def render(self, url):
+                raise run.BrowserUnavailable("Executable doesn't exist")
+        report = self.attempt(Renderer())["report"]
+        self.assertIn("no browser", report)
+        self.assertIn("Executable", report)
+
+    def test_pages_that_render_but_list_nothing_say_so(self):
+        class Renderer:
+            exhausted = False
+            last_error = None
+
+            def render(self, url):
+                return "<html><body><p>Geen vacatures.</p></body></html>"
+        attempt = self.attempt(Renderer())
+        self.assertEqual(attempt["jobs"], [])
+        self.assertEqual(attempt["report"], "rendered 1 page(s), found 0 link(s)")
+
+    def test_a_spent_budget_is_distinguished_from_a_failure(self):
+        class Renderer:
+            exhausted = True
+            last_error = None
+        self.assertIn("budget spent", self.attempt(Renderer())["report"])

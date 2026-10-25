@@ -130,15 +130,19 @@ def rendered_second_opinion(renderer, company, discovery_cache, source=None):
     so nothing above can see it. Returns None when a browser is unavailable,
     the budget is spent, or the rendered pages still list nothing.
     """
-    if renderer is None or renderer.exhausted:
+    if renderer is None:
         return None
-    jobs, seen = [], set()
+    if renderer.exhausted:
+        return {"jobs": [], "params": {}, "report": f"skipped: {renderer.last_error or 'budget spent'}"}
+    jobs, seen, pages, trouble = [], set(), 0, None
     for url in second_opinion_pages(company, discovery_cache, source)[:RENDER_PAGES_PER_COMPANY]:
         try:
             markup = renderer.render(url)
-        except BrowserUnavailable:
-            return None
-        except Exception:
+            pages += 1
+        except BrowserUnavailable as error:
+            return {"jobs": [], "params": {}, "report": f"no browser: {error}"}
+        except Exception as error:
+            trouble = f"{type(error).__name__}: {str(error)[:90]}"
             continue
         for link, title in careerpage.find_posting_links(markup, url):
             if link in seen:
@@ -148,7 +152,9 @@ def rendered_second_opinion(renderer, company, discovery_cache, source=None):
                          "url": link, "posted_at": None})
         if jobs:
             break
-    return {"jobs": jobs, "params": {"urls": [j["url"] for j in jobs]}} if jobs else None
+    report = (f"rendered {pages} page(s), found {len(jobs)} link(s)"
+              + (f"; {trouble}" if trouble else ""))
+    return {"jobs": jobs, "params": {"urls": [j["url"] for j in jobs]}, "report": report}
 
 
 def resolve_source(net, company, discovery_cache, today):
@@ -182,9 +188,11 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
         fallback = second_opinion(net, company, discovery_cache)
         rendered = False
         if not fallback:
-            fallback = rendered_second_opinion(renderer, company, discovery_cache)
-            rendered = bool(fallback)
-        if not fallback:
+            attempt = rendered_second_opinion(renderer, company, discovery_cache)
+            failure["rendering"] = attempt["report"] if attempt else "not attempted"
+            fallback = attempt
+            rendered = bool(attempt and attempt["jobs"])
+        if not fallback or not fallback["jobs"]:
             return failure, None
         source, adapter = {"type": "careerpage"}, careerpage
         params = fallback["params"]
