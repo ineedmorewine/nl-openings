@@ -755,3 +755,63 @@ class SampleLinksExplainAnEmptyRender(unittest.TestCase):
             report = run.rendered_second_opinion(Renderer(), {"id": "acme"}, {})["report"]
         self.assertIn("found 0 link(s)", report)
         self.assertIn("/werken-bij/functie/planner", report)
+
+
+class RenderingFollowsTheRealCareersPage(unittest.TestCase):
+    """Rendering found nothing because it was reading the wrong page.
+
+    Of 43 companies, 20 rendered a homepage or a dead /careers guess that
+    simply linked to the real careers page.
+    """
+
+    def attempt(self, pages, start="https://acme.nl/careers"):
+        rendered = []
+
+        class Renderer:
+            exhausted = False
+            last_error = None
+
+            def render(self, url):
+                rendered.append(url)
+                if url not in pages:
+                    raise RuntimeError("404")
+                return pages[url]
+
+        with mock.patch.object(run, "second_opinion_pages", lambda *a, **k: [start]):
+            return run.rendered_second_opinion(Renderer(), {"id": "acme"}, {}), rendered
+
+    def test_a_careers_link_on_the_rendered_page_is_followed(self):
+        pages = {
+            "https://acme.nl/careers": '<a href="/werken-bij">Werken bij ons</a>',
+            "https://acme.nl/werken-bij":
+                '<a href="/vacatures/transportplanner-venlo">Transportplanner Venlo</a>'
+                '<a href="/vacatures/rail-coordinator">Rail Coordinator Oost</a>',
+        }
+        attempt, rendered = self.attempt(pages)
+        self.assertEqual(sorted(j["title"] for j in attempt["jobs"]),
+                         ["Rail Coordinator Oost", "Transportplanner Venlo"])
+        self.assertEqual(rendered, ["https://acme.nl/careers", "https://acme.nl/werken-bij"])
+
+    def test_following_stops_rather_than_wandering_the_site(self):
+        pages = {"https://acme.nl/careers":
+                 "".join(f'<a href="/careers-{i}">Careers {i}</a>' for i in range(6))}
+        _, rendered = self.attempt(pages)
+        self.assertLessEqual(len(rendered), 1 + run.RENDER_FOLLOWED_PAGES)
+
+    def test_a_link_to_another_company_is_not_followed(self):
+        pages = {"https://acme.nl/careers": '<a href="https://jobboard.example/jobs">Jobs</a>'}
+        _, rendered = self.attempt(pages)
+        self.assertEqual(rendered, ["https://acme.nl/careers"])
+
+
+class WwwIsTheSameSite(unittest.TestCase):
+    """Several pages' own vacancy links were discarded as belonging elsewhere."""
+
+    def test_a_link_to_the_www_form_is_kept(self):
+        markup = '<a href="https://www.acme.nl/vacatures/transportplanner">Transportplanner Venlo</a>'
+        found = careerpage.find_posting_links(markup, "https://acme.nl/werken-bij")
+        self.assertEqual([t for _, t in found], ["Transportplanner Venlo"])
+
+    def test_a_genuinely_different_site_is_still_rejected(self):
+        markup = '<a href="https://indeed.com/vacatures/transportplanner">Transportplanner Venlo</a>'
+        self.assertEqual(careerpage.find_posting_links(markup, "https://acme.nl/werken-bij"), [])

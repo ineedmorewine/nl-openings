@@ -16,7 +16,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from .adapters import ADAPTERS, careerpage
-from .discovery import discover, homepages
+from .discovery import career_links, discover, homepages
 from .render import BrowserUnavailable, PageRenderer
 from .filters import is_suitable
 from .net import Net
@@ -36,6 +36,8 @@ MAX_LINK_DESCRIPTIONS = 120
 # reported as unreadable, and capped for the run as a whole.
 RENDER_PAGE_BUDGET = 400
 RENDER_PAGES_PER_COMPANY = 3
+# Extra pages allowed when a rendered page points at the real careers page.
+RENDER_FOLLOWED_PAGES = 2
 TIME_BUDGET_SECONDS = 70 * 60
 
 
@@ -135,7 +137,9 @@ def rendered_second_opinion(renderer, company, discovery_cache, source=None):
     if renderer.exhausted:
         return {"jobs": [], "params": {}, "report": f"skipped: {renderer.last_error or 'budget spent'}"}
     jobs, seen, pages, trouble, samples = [], set(), 0, None, []
-    for url in second_opinion_pages(company, discovery_cache, source)[:RENDER_PAGES_PER_COMPANY]:
+    queue = second_opinion_pages(company, discovery_cache, source)[:RENDER_PAGES_PER_COMPANY]
+    followed = 0
+    for url in queue:
         try:
             markup = renderer.render(url)
             pages += 1
@@ -145,10 +149,20 @@ def rendered_second_opinion(renderer, company, discovery_cache, source=None):
             trouble = f"{type(error).__name__}: {str(error)[:90]}"
             continue
         found = careerpage.find_posting_links(markup, url)
-        if not found and not samples:
-            # Nothing looked like a vacancy. Keep a few of the links the page did
-            # offer, so the next run can be told what shapes to recognise.
-            samples = careerpage.sample_links(markup, url)
+        if not found:
+            if not samples:
+                # Keep a few of the links the page did offer, so a page that
+                # lists no vacancy can be told from one we misread.
+                samples = careerpage.sample_links(markup, url)
+            # Often this is a homepage or a dead guess that simply points at the
+            # real careers page. Follow that rather than give up on the company.
+            if followed < RENDER_FOLLOWED_PAGES:
+                for link in career_links(markup, url):
+                    if link not in queue and careerpage.same_site(link, url):
+                        queue.append(link)
+                        followed += 1
+                        if followed >= RENDER_FOLLOWED_PAGES:
+                            break
         for link, title in found:
             if link in seen:
                 continue

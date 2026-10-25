@@ -84,8 +84,7 @@ def sample_links(markup, page_url, limit=6):
         path = urlparse(url).path
         if not path or path == "/":
             continue
-        same = urlparse(url).netloc == urlparse(page_url).netloc
-        mark = "" if same else "[other host] "
+        mark = "" if same_site(url, page_url) else "[other host] "
         entry = mark + path[:70]
         if entry not in seen:
             seen.append(entry)
@@ -94,13 +93,18 @@ def sample_links(markup, page_url, limit=6):
     return seen
 
 
+def same_site(a, b):
+    """www.acme.nl and acme.nl are one site."""
+    strip = lambda host: urlparse(host).netloc.lower().removeprefix("www.")
+    return strip(a) == strip(b)
+
+
 def find_posting_links(markup, page_url):
     """Return [(url, title)] for links on this page that look like job postings."""
-    host = urlparse(page_url).netloc
     found, seen = [], set()
     for href, label in _ANCHOR.findall(markup or ""):
         url = urljoin(page_url, href.strip())
-        if urlparse(url).netloc != host:
+        if not same_site(url, page_url):
             continue
         url = url.split("#")[0]
         title = _clean_title(label)
