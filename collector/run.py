@@ -150,6 +150,8 @@ def rendered_second_opinion(renderer, company, discovery_cache, source=None):
             continue
         found = careerpage.find_posting_links(markup, url)
         if not found:
+            found = careerpage.find_posting_headings(markup, url)
+        if not found:
             if not samples:
                 # Keep a few of the links the page did offer, so a page that
                 # lists no vacancy can be told from one we misread.

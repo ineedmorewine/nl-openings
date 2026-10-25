@@ -815,3 +815,45 @@ class WwwIsTheSameSite(unittest.TestCase):
     def test_a_genuinely_different_site_is_still_rejected(self):
         markup = '<a href="https://indeed.com/vacatures/transportplanner">Transportplanner Venlo</a>'
         self.assertEqual(careerpage.find_posting_links(markup, "https://acme.nl/werken-bij"), [])
+
+
+class VacanciesWrittenAsHeadings(unittest.TestCase):
+    """Some companies put every vacancy on one page with no link to follow.
+
+    Barsan publishes a Senior Transport Planner as a heading above an
+    application form, so reading only links made the company look empty.
+    """
+
+    page_url = "https://www.barsan.nl/jobs"
+
+    def titles(self, markup):
+        return [t for _, t in careerpage.find_posting_headings(markup, self.page_url)]
+
+    def test_a_role_heading_becomes_a_vacancy(self):
+        markup = ("<h2>Vacature</h2><h3>Senior Transport Planner</h3>"
+                  "<p>Solliciteer nu</p>")
+        self.assertEqual(self.titles(markup), ["Senior Transport Planner"])
+
+    def test_each_one_points_back_at_the_page_with_its_own_fragment(self):
+        markup = "<h3>Senior Transport Planner</h3><h3>Logistiek Medewerker Venlo</h3>"
+        urls = [u for u, _ in careerpage.find_posting_headings(markup, self.page_url)]
+        self.assertEqual(urls, [f"{self.page_url}#senior-transport-planner",
+                                f"{self.page_url}#logistiek-medewerker-venlo"])
+
+    def test_ordinary_page_headings_are_not_vacancies(self):
+        markup = ("<h1>Barsan Global Logistics</h1><h2>Over ons</h2>"
+                  "<h2>Onze diensten</h2><h3>Contact opnemen</h3><h2>Vacature</h2>")
+        self.assertEqual(self.titles(markup), [])
+
+    def test_the_same_role_listed_twice_appears_once(self):
+        markup = "<h3>Senior Transport Planner</h3><h4>senior transport planner</h4>"
+        self.assertEqual(self.titles(markup), ["Senior Transport Planner"])
+
+    def test_links_are_preferred_when_the_page_has_them(self):
+        markup = ('<h3>Senior Transport Planner</h3>'
+                  '<a href="/vacatures/transportplanner-venlo">Transportplanner Venlo</a>'
+                  '<a href="/vacatures/rail-coordinator">Rail Coordinator Oost</a>')
+        net = FakeNet(routes={self.page_url: markup})
+        jobs = careerpage.fetch(net, {"url": self.page_url}, strict=False)
+        self.assertEqual(sorted(j["title"] for j in jobs),
+                         ["Rail Coordinator Oost", "Transportplanner Venlo"])

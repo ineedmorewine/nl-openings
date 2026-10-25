@@ -117,6 +117,45 @@ def find_posting_links(markup, page_url):
     return found
 
 
+# Some companies put every vacancy on one page as a heading with an application
+# form under it, with no link to follow. Barsan publishes a Senior Transport
+# Planner that way. Reading only links makes those companies look empty.
+_HEADING = re.compile(r"<(h[1-4])\b[^>]*>(.*?)</\1>", re.I | re.S)
+# A heading counts as a vacancy only if it names a role; otherwise "Over ons"
+# and "Contact" would become jobs.
+_ROLE_WORDS = re.compile(
+    r"\b(planner|planning|forwarder|expediteur|expeditie|coordinator|"
+    r"co[oö]rdinator|medewerker|specialist|manager|supervisor|teamleider|"
+    r"teamlead|operator|chauffeur|monteur|engineer|analist|analyst|"
+    r"administrateur|assistent|assistant|controller|adviseur|advisor|"
+    r"disponent|dispatcher|agent|officer|trainee|stagiair)\b", re.I)
+MAX_HEADING_POSTINGS = 25
+
+
+def find_posting_headings(markup, page_url):
+    """Vacancies written as headings on the careers page itself.
+
+    The page is its own application page, so every one of these points back at
+    it. Returns [(url, title)] with a fragment that keeps them apart.
+    """
+    found, seen = [], set()
+    for _, raw in _HEADING.findall(markup or ""):
+        title = _clean_title(raw)
+        if not title or len(title) > 90 or len(title.split()) < 2:
+            continue
+        if not _ROLE_WORDS.search(title) or fold(title) in _NAVIGATION:
+            continue
+        key = fold(title)
+        if key in seen:
+            continue
+        seen.add(key)
+        slug = re.sub(r"[^a-z0-9]+", "-", key).strip("-")
+        found.append((f"{page_url}#{slug}", title))
+        if len(found) >= MAX_HEADING_POSTINGS:
+            break
+    return found
+
+
 def _list_pages(params):
     if params.get("urls"):
         return list(params["urls"])
@@ -133,7 +172,11 @@ def fetch(net, params, strict):
             markup = net.get(page_url).text
         except Exception:
             continue
-        for item in find_posting_links(markup, page_url):
+        found = find_posting_links(markup, page_url)
+        if not found:
+            # No links: the vacancies may be headings on this page.
+            found = find_posting_headings(markup, page_url)
+        for item in found:
             if item[0] not in {u for u, _ in links}:
                 links.append(item)
         if len(links) >= MAX_POSTINGS:
