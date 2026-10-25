@@ -84,5 +84,15 @@
   "open_careers_page": "Open their careers page",
   "status_careerpage_note": "Read from their vacancies page",
   "refresh": "Refresh now",
-  "refresh_hint": "Collects again from every company. Takes about an hour."
+  "refresh_hint": "Collects again from every company. Takes about an hour.",
+  "dates_both": "Posted {posted} · reached you {seen}",
+  "dates_seen_only": "Posted date not given by the company · reached you {seen}",
+  "filters_narrowing": "Filters are hiding {n} more. ",
+  "clear_filters": "Show everything",
+  "sources_matching": "{n} match your keywords",
+  "sources_none_matching": "nothing matching your keywords",
+  "tab_sources_hint": "Read: the vacancies were collected. Not read: the site could not be read, so check it yourself with the link.",
+  "group_read_with_matches": "Read, with jobs for you",
+  "group_read_no_matches": "Read, nothing for you right now",
+  "group_not_read": "Could not be read"
 }

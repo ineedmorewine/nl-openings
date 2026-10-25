@@ -194,9 +194,14 @@ function renderJob(job) {
     job.location ? document.createTextNode(`, ${job.location}`) : null,
   ]);
 
-  const datesNote = job.posted_at && job.posted_at !== job.first_seen && !job.baseline
-    ? el("p", { className: "dates-note", text: t("posted_and_seen", { posted: formatDay(job.posted_at), seen: formatDay(job.first_seen) }) })
-    : null;
+  // Both dates always, so a company's posting date is never confused with the
+  // day it reached this page.
+  const datesNote = el("p", {
+    className: "dates-note",
+    text: job.posted_at
+      ? t("dates_both", { posted: formatDay(job.posted_at), seen: formatDay(job.first_seen) })
+      : t("dates_seen_only", { seen: formatDay(job.first_seen) }),
+  });
 
   const title = url
     ? el("a", { href: url, target: "_blank", rel: "noopener noreferrer", text: job.title })
@@ -225,6 +230,30 @@ function renderJob(job) {
   ]);
 }
 
+function jobsWithoutUserFilters(tab) {
+  // Same tab, without the choices made in this browser, so the page can say
+  // how many its own filters are hiding.
+  const saved = { ...state.ui };
+  state.ui.search = "";
+  state.ui.group = "";
+  state.ui.showHidden = true;
+  const count = jobsForTab(tab).length;
+  state.ui = saved;
+  return count;
+}
+
+function clearFilters() {
+  state.ui.search = "";
+  state.ui.group = "";
+  $("search").value = "";
+  $("group").value = "";
+  // Keyword edits live in this browser only, so clearing them restores the
+  // list everyone else would see.
+  state.filters = structuredClone(state.defaultFilters);
+  writeStorage(STORAGE_FILTERS, null);
+  render();
+}
+
 function renderJobs() {
   const list = $("list");
   if (!state.generatedAt) {
@@ -233,7 +262,17 @@ function renderJobs() {
     return;
   }
   const jobs = jobsForTab(state.ui.tab);
-  $("count").textContent = jobs.length === 1 ? t("count_showing_one") : t("count_showing", { n: jobs.length });
+  const unfiltered = jobsWithoutUserFilters(state.ui.tab);
+  const hiddenByFilters = Math.max(0, unfiltered - jobs.length);
+  const count = $("count");
+  count.replaceChildren(document.createTextNode(
+    jobs.length === 1 ? t("count_showing_one") : t("count_showing", { n: jobs.length })));
+  if (hiddenByFilters > 0) {
+    count.append(document.createTextNode(". " + t("filters_narrowing", { n: hiddenByFilters })));
+    count.append(el("button", {
+      type: "button", className: "linklike", text: t("clear_filters"), onclick: clearFilters,
+    }));
+  }
   if (!jobs.length) {
     list.replaceChildren(el("p", { className: "empty", text: state.ui.tab === "new" ? t("empty_new") : t("empty_filtered") }));
     return;
@@ -251,34 +290,78 @@ function sourceStatusText(source) {
   return base;
 }
 
+function matchesPerCompany() {
+  // Count, per company, the jobs that pass your keywords. This is what tells a
+  // company that was read and has nothing for you apart from one that failed.
+  const counts = new Map();
+  for (const job of state.jobs) {
+    const company = state.companies.get(job.company_id) || {};
+    if (!isSuitable(job.title, state.filters, company.extra_keywords || [])) continue;
+    if (isAirOrOceanOnly(job.title, state.filters) && !state.ui.airOcean) continue;
+    counts.set(job.company_id, (counts.get(job.company_id) || 0) + 1);
+  }
+  return counts;
+}
+
+function sourceBucket(source, matching) {
+  if (source.status !== "ok") return "not_read";
+  return matching > 0 ? "read_with_matches" : "read_no_matches";
+}
+
+function renderSourceRow(source, matching) {
+  const kind = source.status === "ok" ? "ok" : (source.status === "read_failed" ? "failed" : "");
+  const link = safeUrl(source.careers_link);
+  return el("article", { className: "source" }, [
+    el("span", { className: `dot ${kind}`, "aria-hidden": "true" }),
+    el("div", {}, [
+      el("h3", { text: source.name }),
+      el("p", { className: "entities", text: [t(`groups.${source.group}`), ...(source.entities || [])].join(", ") }),
+      el("p", { className: "status", text: sourceStatusText(source) }),
+    ]),
+    el("div", { className: "meta" }, [
+      el("div", { text: t("sources_jobs", { n: source.nl_jobs || 0 }) }),
+      source.status === "ok"
+        ? el("div", { text: matching > 0 ? t("sources_matching", { n: matching }) : t("sources_none_matching") })
+        : null,
+      el("div", { text: source.last_success ? t("sources_last_success", { date: formatDay(source.last_success) }) : t("sources_never") }),
+      // Any company we could not read is still one click away.
+      link && source.status !== "ok"
+        ? el("a", { className: "quiet", href: link, target: "_blank",
+                    rel: "noopener noreferrer", text: t("open_careers_page") })
+        : null,
+    ]),
+  ]);
+}
+
 function renderSources() {
   $("count").textContent = "";
+  const matches = matchesPerCompany();
+  const buckets = { not_read: [], read_no_matches: [], read_with_matches: [] };
+  for (const source of state.sources) {
+    buckets[sourceBucket(source, matches.get(source.id) || 0)].push(source);
+  }
+
   const order = (s) => {
     const index = SOURCE_PROBLEM_ORDER.indexOf(s.status);
     return index === -1 ? 0 : index;
   };
-  const sorted = [...state.sources].sort((a, b) => order(a) - order(b) || a.name.localeCompare(b.name));
-  const rows = sorted.map((source) => {
-    const kind = source.status === "ok" ? "ok" : (source.status === "read_failed" ? "failed" : "");
-    return el("article", { className: "source" }, [
-      el("span", { className: `dot ${kind}`, "aria-hidden": "true" }),
-      el("div", {}, [
-        el("h3", { text: source.name }),
-        el("p", { className: "entities", text: [t(`groups.${source.group}`), ...(source.entities || [])].join(", ") }),
-        el("p", { className: "status", text: sourceStatusText(source) }),
-      ]),
-      el("div", { className: "meta" }, [
-        el("div", { text: t("sources_jobs", { n: source.nl_jobs || 0 }) }),
-        el("div", { text: source.last_success ? t("sources_last_success", { date: formatDay(source.last_success) }) : t("sources_never") }),
-        // When we cannot read a company, the user can still check it in one click.
-        source.status !== "ok" && safeUrl(source.careers_link)
-          ? el("a", { className: "quiet", href: safeUrl(source.careers_link), target: "_blank",
-                      rel: "noopener noreferrer", text: t("open_careers_page") })
-          : null,
-      ]),
-    ]);
-  });
-  $("list").replaceChildren(el("p", { className: "sources-intro", text: t("sources_intro") }), ...rows);
+  const sections = [
+    ["not_read", "group_not_read", (a, b) => order(a) - order(b) || a.name.localeCompare(b.name)],
+    ["read_no_matches", "group_read_no_matches", (a, b) => a.name.localeCompare(b.name)],
+    ["read_with_matches", "group_read_with_matches",
+      (a, b) => (matches.get(b.id) || 0) - (matches.get(a.id) || 0) || a.name.localeCompare(b.name)],
+  ];
+
+  const children = [el("p", { className: "sources-intro", text: t("tab_sources_hint") })];
+  for (const [key, heading, sort] of sections) {
+    const group = buckets[key];
+    if (!group.length) continue;
+    children.push(el("h2", { className: "sources-heading", text: `${t(heading)} (${group.length})` }));
+    for (const source of [...group].sort(sort)) {
+      children.push(renderSourceRow(source, matches.get(source.id) || 0));
+    }
+  }
+  $("list").replaceChildren(...children);
 }
 
 function render() {
