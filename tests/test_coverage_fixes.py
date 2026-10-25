@@ -487,3 +487,67 @@ class PlatformsHiddenBehindJavaScript(unittest.TestCase):
         found = discovery.discover(FakeNet(routes=self.routes({})), self.company())
         self.assertIsNone(found["source"])
         self.assertEqual(found["reason"], "no_careers_system_found")
+
+
+class LinkReadJobsNeedAConfirmedDutchLocation(unittest.TestCase):
+    """A global company lists its foreign vacancies beside its Dutch ones.
+
+    Reading that page as links says nothing about where a job is, so a job we
+    cannot place must not be presented as a Dutch opening. A Dutch-only site
+    needs no such proof.
+    """
+
+    listing = ('<a href="/careers/transport-planner">Transport Planner</a>'
+               '<a href="/careers/demand-planner">Demand Planner</a>')
+
+    def build(self, domain):
+        self.tmp = tempfile.TemporaryDirectory()
+        base = Path(self.tmp.name)
+        (base / "data").mkdir()
+        self.paths = {
+            "COMPANIES_FILE": base / "companies.json",
+            "JOBS_FILE": base / "data/jobs.json",
+            "SOURCES_FILE": base / "data/sources.json",
+            "DISCOVERY_FILE": base / "data/discovery.json",
+            "FILTERS_FILE": Path(run.FILTERS_FILE),
+        }
+        self.paths["COMPANIES_FILE"].write_text(_json.dumps({"companies": [{
+            "id": "acme", "name": "Acme", "group": "road_rail", "domain": domain,
+            "careers_url": f"https://{domain}/careers",
+        }]}))
+        self.paths["DISCOVERY_FILE"].write_text("{}")
+
+    def collect(self, domain, postings):
+        self.build(domain)
+        routes = {f"https://{domain}/careers": self.listing}
+        routes.update(postings)
+        with mock.patch.multiple(run, **self.paths), \
+                mock.patch.object(run, "Net", lambda: FakeNet(routes)):
+            run.main([])
+        jobs = _json.loads(self.paths["JOBS_FILE"].read_text())["jobs"]
+        self.tmp.cleanup()
+        return sorted(j["title"] for j in jobs)
+
+    def test_a_global_company_keeps_only_what_we_can_place_in_the_netherlands(self):
+        body = lambda place: f"<html><body><p>Location: {place}</p></body></html>"
+        titles = self.collect("acme.com", {
+            "https://acme.com/careers/transport-planner": body("Venlo"),
+            "https://acme.com/careers/demand-planner": body("Bangkok"),
+        })
+        self.assertEqual(titles, ["Transport Planner"])
+
+    def test_a_global_company_drops_a_job_it_cannot_place_at_all(self):
+        blank = "<html><body><p>Join our team.</p></body></html>"
+        titles = self.collect("acme.com", {
+            "https://acme.com/careers/transport-planner": blank,
+            "https://acme.com/careers/demand-planner": blank,
+        })
+        self.assertEqual(titles, [])
+
+    def test_a_dutch_only_site_keeps_its_jobs_without_proof(self):
+        blank = "<html><body><p>Kom bij ons werken.</p></body></html>"
+        titles = self.collect("acme.nl", {
+            "https://acme.nl/careers/transport-planner": blank,
+            "https://acme.nl/careers/demand-planner": blank,
+        })
+        self.assertEqual(titles, ["Demand Planner", "Transport Planner"])

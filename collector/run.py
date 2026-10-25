@@ -30,6 +30,7 @@ DISCOVERY_FILE = DATA_DIR / "discovery.json"
 FILTERS_FILE = DATA_DIR / "filters.json"
 
 MAX_DESCRIPTIONS_PER_SOURCE = 60
+MAX_LINK_DESCRIPTIONS = 120
 TIME_BUDGET_SECONDS = 70 * 60
 
 
@@ -194,7 +195,12 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
         else:
             text = raw.get("description") or ""
             describe = getattr(adapter, "describe", None)
-            if (not text and describe and described < MAX_DESCRIPTIONS_PER_SOURCE
+            # Opening a posting is the only way to learn where it is, so a
+            # link-read source is given more of them: without a location its
+            # jobs are discarded above.
+            budget = (MAX_LINK_DESCRIPTIONS if method.endswith("careerpage")
+                      else MAX_DESCRIPTIONS_PER_SOURCE)
+            if (not text and describe and described < budget
                     and is_suitable(title, filters, extra)):
                 described += 1
                 try:
@@ -212,7 +218,14 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
         # A reader that lists links cannot see where a job is until the posting
         # itself is opened. Once the location is known, a foreign one must be
         # dropped, or a Bangkok vacancy sits in a list of Dutch openings.
-        if raw.get("location") and not keep_location(raw["location"], is_strict(company)):
+        place = raw.get("location") or ""
+        if place and not keep_location(place, is_strict(company)):
+            continue
+        # A company that hires across the world lists its foreign vacancies on
+        # the same page as its Dutch ones. Reading that page as links tells us
+        # nothing about where a job is, so an unconfirmed one must not be
+        # presented as a Dutch opening. A Dutch-only site needs no such proof.
+        if not place and method.endswith("careerpage") and is_strict(company):
             continue
 
         jobs[job_id] = {
