@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T08:54+00:00",
+ "generated_at": "2026-10-25T10:09+00:00",
  "jobs": [
   {
    "id": "dsv:/job/Schiphol-IT-Support-Engineer-Nort-1118-AM/1400302933/",
@@ -353,30 +353,6 @@
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Amsterdam/Sr-Key-Account-Manager_31164482-1",
-   "company_id": "abbott",
-   "title": "Sr Key Account Manager",
-   "location": "Netherlands - Amsterdam",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Amsterdam/Sr-Key-Account-Manager_31164482-1",
-   "posted_at": "2026-10-24",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance_31164514",
-   "company_id": "abbott",
-   "title": "Internship Operator Customs & Trade Compliance",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance_31164514",
-   "posted_at": "2026-10-24",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
    "id": "gxo-logistics:/job/Eindhoven-Logistic-Business-Unit-Engineer-5651-GG/1423895200/",
    "company_id": "gxo-logistics",
    "title": "Logistic Business Unit Engineer",
@@ -539,6 +515,30 @@
    "baseline": false
   },
   {
+   "id": "abbott:/job/Netherlands---Amsterdam/Sr-Key-Account-Manager_31164482-1",
+   "company_id": "abbott",
+   "title": "Sr Key Account Manager",
+   "location": "Netherlands - Amsterdam",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Amsterdam/Sr-Key-Account-Manager_31164482-1",
+   "posted_at": "2026-10-23",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance_31164514",
+   "company_id": "abbott",
+   "title": "Internship Operator Customs & Trade Compliance",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance_31164514",
+   "posted_at": "2026-10-23",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
    "id": "amazon:10587421",
    "company_id": "amazon",
    "title": "Program Manager Intern NDL 2027",
@@ -617,54 +617,6 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-23",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Operator-Poederpak_31165321",
-   "company_id": "abbott",
-   "title": "Operator Poederpak",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Poederpak_31165321",
-   "posted_at": "2026-10-23",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-23",
-   "baseline": false
-  },
-  {
-   "id": "apm-terminals:/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
-   "company_id": "apm-terminals",
-   "title": "FCL MOF/LCL Operations Associate",
-   "location": "Netherlands, Amsterdam, 2132 MV",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
-   "posted_at": "2026-10-23",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/FCL-MOF-LCL-Operations-Associate_R199117",
-   "company_id": "apm-terminals",
-   "title": "FCL MOF/LCL Operations Associate",
-   "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/FCL-MOF-LCL-Operations-Associate_R199117",
-   "posted_at": "2026-10-23",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Technical-Warehouse-Operator_31165459",
-   "company_id": "abbott",
-   "title": "Technical Warehouse Operator",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Technical-Warehouse-Operator_31165459",
-   "posted_at": "2026-10-23",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-22",
    "baseline": false
   },
   {
@@ -980,6 +932,18 @@
    "baseline": false
   },
   {
+   "id": "abbott:/job/Netherlands---Zwolle/Operator-Poederpak_31165321",
+   "company_id": "abbott",
+   "title": "Operator Poederpak",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Poederpak_31165321",
+   "posted_at": "2026-10-22",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-23",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-387183",
    "company_id": "dhl-group",
    "title": "Teamleader",
@@ -995,11 +959,11 @@
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Hoofddorp/HIC--Healthcare-Insurance-Companies--Market-Access-Specialist---Diabetes-care---Netherlands_31153296",
-   "company_id": "abbott",
-   "title": "Market Access Manager - Diabetes Care - Netherlands (Hoofddorp)",
-   "location": "Netherlands - Hoofddorp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/HIC--Healthcare-Insurance-Companies--Market-Access-Specialist---Diabetes-care---Netherlands_31153296",
+   "id": "apm-terminals:/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
+   "company_id": "apm-terminals",
+   "title": "FCL MOF/LCL Operations Associate",
+   "location": "Netherlands, Amsterdam, 2132 MV",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
    "posted_at": "2026-10-22",
    "labels": null,
    "labels_checked": false,
@@ -1007,11 +971,11 @@
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Weesp/MBO-Stage--Implementatie---Continuous-Improvement--Maintenance-_31164738",
-   "company_id": "abbott",
-   "title": "MBO Stage: Implementatie & Continuous Improvement (Maintenance)",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/MBO-Stage--Implementatie---Continuous-Improvement--Maintenance-_31164738",
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/FCL-MOF-LCL-Operations-Associate_R199117",
+   "company_id": "apm-terminals",
+   "title": "FCL MOF/LCL Operations Associate",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/FCL-MOF-LCL-Operations-Associate_R199117",
    "posted_at": "2026-10-22",
    "labels": null,
    "labels_checked": false,
@@ -1019,11 +983,11 @@
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-Stage--Data-Management-Verbetering_31164496",
+   "id": "abbott:/job/Netherlands---Zwolle/Technical-Warehouse-Operator_31165459",
    "company_id": "abbott",
-   "title": "HBO/WO Stage: Data Management Verbetering",
+   "title": "Technical Warehouse Operator",
    "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-Stage--Data-Management-Verbetering_31164496",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Technical-Warehouse-Operator_31165459",
    "posted_at": "2026-10-22",
    "labels": null,
    "labels_checked": false,
@@ -1031,63 +995,15 @@
    "baseline": false
   },
   {
-   "id": "stryker:/job/Amsterdam-Netherlands/Intern-Compliance-HR-Operations_R575648",
-   "company_id": "stryker",
-   "title": "Intern Compliance HR Operations",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Intern-Compliance-HR-Operations_R575648",
+   "id": "c-h-robinson:/job/Rotterdam-Netherlands/Account-Executive_R49763",
+   "company_id": "c-h-robinson",
+   "title": "Account Executive- Dutch Speaker",
+   "location": "Rotterdam Netherlands",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Rotterdam-Netherlands/Account-Executive_R49763",
    "posted_at": "2026-10-22",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Weesp/Internship--QA-Supplier-to-Customer-at-Abbott-Olst_31164975",
-   "company_id": "abbott",
-   "title": "Digital Process Improvement & Automation (QA) Intern",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Internship--QA-Supplier-to-Customer-at-Abbott-Olst_31164975",
-   "posted_at": "2026-10-22",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-21",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-Stage--Digitalisering-van-het--Product-Finishing-Plan----Master-Scheduling_31164497",
-   "company_id": "abbott",
-   "title": "HBO/WO Stage: Digitalisering van het ‘Product Finishing Plan’ - Master Scheduling",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-Stage--Digitalisering-van-het--Product-Finishing-Plan----Master-Scheduling_31164497",
-   "posted_at": "2026-10-22",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-21",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance-at-Abbott-Zwolle_31164513",
-   "company_id": "abbott",
-   "title": "Internship Operator Customs & Trade Compliance at Abbott Zwolle",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance-at-Abbott-Zwolle_31164513",
-   "posted_at": "2026-10-22",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-21",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/QA-Design-Assurance-Engineer_31164885",
-   "company_id": "abbott",
-   "title": "QA Design Assurance Engineer",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Design-Assurance-Engineer_31164885",
-   "posted_at": "2026-10-22",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-14",
+   "first_seen": "2026-10-10",
    "baseline": false
   },
   {
@@ -1361,6 +1277,54 @@
    "baseline": false
   },
   {
+   "id": "abbott:/job/Netherlands---Hoofddorp/HIC--Healthcare-Insurance-Companies--Market-Access-Specialist---Diabetes-care---Netherlands_31153296",
+   "company_id": "abbott",
+   "title": "Market Access Manager - Diabetes Care - Netherlands (Hoofddorp)",
+   "location": "Netherlands - Hoofddorp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/HIC--Healthcare-Insurance-Companies--Market-Access-Specialist---Diabetes-care---Netherlands_31153296",
+   "posted_at": "2026-10-21",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Weesp/MBO-Stage--Implementatie---Continuous-Improvement--Maintenance-_31164738",
+   "company_id": "abbott",
+   "title": "MBO Stage: Implementatie & Continuous Improvement (Maintenance)",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/MBO-Stage--Implementatie---Continuous-Improvement--Maintenance-_31164738",
+   "posted_at": "2026-10-21",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-Stage--Data-Management-Verbetering_31164496",
+   "company_id": "abbott",
+   "title": "HBO/WO Stage: Data Management Verbetering",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-Stage--Data-Management-Verbetering_31164496",
+   "posted_at": "2026-10-21",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
+   "id": "stryker:/job/Amsterdam-Netherlands/Intern-Compliance-HR-Operations_R575648",
+   "company_id": "stryker",
+   "title": "Intern Compliance HR Operations",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Intern-Compliance-HR-Operations_R575648",
+   "posted_at": "2026-10-21",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
    "id": "world-courier:R261729",
    "company_id": "world-courier",
    "title": "Beherend Apotheker Boots Sibilo (Heiloo)",
@@ -1376,39 +1340,51 @@
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Trainingsoptimalisatie_31164715",
+   "id": "abbott:/job/Netherlands---Weesp/Internship--QA-Supplier-to-Customer-at-Abbott-Olst_31164975",
    "company_id": "abbott",
-   "title": "HBO Stage: Quality Systems Trainingsoptimalisatie",
+   "title": "Digital Process Improvement & Automation (QA) Intern",
    "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Trainingsoptimalisatie_31164715",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Internship--QA-Supplier-to-Customer-at-Abbott-Olst_31164975",
    "posted_at": "2026-10-21",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-20",
+   "first_seen": "2026-10-21",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Glossery_31164712",
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-Stage--Digitalisering-van-het--Product-Finishing-Plan----Master-Scheduling_31164497",
    "company_id": "abbott",
-   "title": "HBO Stage: Quality Systems Glossery",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Glossery_31164712",
+   "title": "HBO/WO Stage: Digitalisering van het ‘Product Finishing Plan’ - Master Scheduling",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-Stage--Digitalisering-van-het--Product-Finishing-Plan----Master-Scheduling_31164497",
    "posted_at": "2026-10-21",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-20",
+   "first_seen": "2026-10-21",
    "baseline": false
   },
   {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant---FMCG---Chemicals_R193829-1",
-   "company_id": "apm-terminals",
-   "title": "Customer Experience Consultant – FMCG & Chemicals",
-   "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant---FMCG---Chemicals_R193829-1",
+   "id": "abbott:/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance-at-Abbott-Zwolle_31164513",
+   "company_id": "abbott",
+   "title": "Internship Operator Customs & Trade Compliance at Abbott Zwolle",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance-at-Abbott-Zwolle_31164513",
    "posted_at": "2026-10-21",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-17",
+   "first_seen": "2026-10-21",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/QA-Design-Assurance-Engineer_31164885",
+   "company_id": "abbott",
+   "title": "QA Design Assurance Engineer",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Design-Assurance-Engineer_31164885",
+   "posted_at": "2026-10-21",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-14",
    "baseline": false
   },
   {
@@ -1616,6 +1592,30 @@
    "baseline": false
   },
   {
+   "id": "abbott:/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Trainingsoptimalisatie_31164715",
+   "company_id": "abbott",
+   "title": "HBO Stage: Quality Systems Trainingsoptimalisatie",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Trainingsoptimalisatie_31164715",
+   "posted_at": "2026-10-20",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-20",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Glossery_31164712",
+   "company_id": "abbott",
+   "title": "HBO Stage: Quality Systems Glossery",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Glossery_31164712",
+   "posted_at": "2026-10-20",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-20",
+   "baseline": false
+  },
+  {
    "id": "zimmer-biomet:11998",
    "company_id": "zimmer-biomet",
    "title": "Customer Experience - Local Strategic Partner",
@@ -1643,6 +1643,18 @@
    "baseline": false
   },
   {
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant---FMCG---Chemicals_R193829-1",
+   "company_id": "apm-terminals",
+   "title": "Customer Experience Consultant – FMCG & Chemicals",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant---FMCG---Chemicals_R193829-1",
+   "posted_at": "2026-10-20",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-17",
+   "baseline": false
+  },
+  {
    "id": "gxo-logistics:/job/Almere-Site-Controller-1358-CG/1431938800/",
    "company_id": "gxo-logistics",
    "title": "Site Controller",
@@ -1655,16 +1667,19 @@
    "baseline": false
   },
   {
-   "id": "flex:/job/Netherlands-Woerden/Design-Engineer_WD230550",
-   "company_id": "flex",
-   "title": "Mechanical Engineer",
-   "location": "Netherlands, Woerden",
-   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Design-Engineer_WD230550",
+   "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Global-Forwarding-Agent_R49058",
+   "company_id": "c-h-robinson",
+   "title": "Warehouse Operations Agent",
+   "location": "Aalsmeer Netherlands",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Global-Forwarding-Agent_R49058",
    "posted_at": "2026-10-20",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-07",
-   "baseline": false
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
   },
   {
    "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Global-Forwarding-Agent_R49058",
@@ -1799,6 +1814,18 @@
    "baseline": false
   },
   {
+   "id": "flex:/job/Netherlands-Woerden/Design-Engineer_WD230550",
+   "company_id": "flex",
+   "title": "Mechanical Engineer",
+   "location": "Netherlands, Woerden",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Design-Engineer_WD230550",
+   "posted_at": "2026-10-19",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-07",
+   "baseline": false
+  },
+  {
    "id": "gxo-logistics:/job/Nieuwegein-HR-Advisor-3439-JJ/1403209000/",
    "company_id": "gxo-logistics",
    "title": "HR Advisor",
@@ -1872,90 +1899,6 @@
    "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/QC-Analyst-A_31164873",
-   "company_id": "abbott",
-   "title": "QC Analyst A",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/QC-Analyst-A_31164873",
-   "posted_at": "2026-10-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Qualification-and-Validation-Internship--Simplifying-Packaging-Materials_31164501",
-   "company_id": "abbott",
-   "title": "Qualification and Validation Internship: Simplifying Packaging Materials",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Qualification-and-Validation-Internship--Simplifying-Packaging-Materials_31164501",
-   "posted_at": "2026-10-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Weesp/Global-TPM-Supplier-QA-Product-Manager_31152952",
-   "company_id": "abbott",
-   "title": "Global TPM/Supplier QA Product Manager",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Global-TPM-Supplier-QA-Product-Manager_31152952",
-   "posted_at": "2026-10-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Hoofddorp/Executive-Assistant_31164369",
-   "company_id": "abbott",
-   "title": "Executive Assistant",
-   "location": "Netherlands - Hoofddorp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Executive-Assistant_31164369",
-   "posted_at": "2026-10-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/QA-officer-A-B_31164493",
-   "company_id": "abbott",
-   "title": "QA officer A/B",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/QA-officer-A-B_31164493",
-   "posted_at": "2026-10-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
-   "baseline": false
-  },
-  {
-   "id": "apm-terminals:/job/Netherlands-Almere-1332-ED/Forklift-Operator_R200720",
-   "company_id": "apm-terminals",
-   "title": "Forklift Operator",
-   "location": "Netherlands, Almere, 1332 ED",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Almere-1332-ED/Forklift-Operator_R200720",
-   "posted_at": "2026-10-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-17",
-   "baseline": false
-  },
-  {
-   "id": "stryker:/job/Maastricht-Netherlands/Quality-and-Regulatory-Affairs-Specialist_R574373",
-   "company_id": "stryker",
-   "title": "Quality and Regulatory Affairs Specialist",
-   "location": "Maastricht, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Maastricht-Netherlands/Quality-and-Regulatory-Affairs-Specialist_R574373",
-   "posted_at": "2026-10-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-17",
-   "baseline": false
   },
   {
    "id": "gxo-logistics:/job/Hilversum-Process-Controller-I-1216-BL/1431546700/",
@@ -2057,6 +2000,66 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/QC-Analyst-A_31164873",
+   "company_id": "abbott",
+   "title": "QC Analyst A",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/QC-Analyst-A_31164873",
+   "posted_at": "2026-10-16",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-18",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/Qualification-and-Validation-Internship--Simplifying-Packaging-Materials_31164501",
+   "company_id": "abbott",
+   "title": "Qualification and Validation Internship: Simplifying Packaging Materials",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Qualification-and-Validation-Internship--Simplifying-Packaging-Materials_31164501",
+   "posted_at": "2026-10-16",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-18",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Weesp/Global-TPM-Supplier-QA-Product-Manager_31152952",
+   "company_id": "abbott",
+   "title": "Global TPM/Supplier QA Product Manager",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Global-TPM-Supplier-QA-Product-Manager_31152952",
+   "posted_at": "2026-10-16",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-18",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Hoofddorp/Executive-Assistant_31164369",
+   "company_id": "abbott",
+   "title": "Executive Assistant",
+   "location": "Netherlands - Hoofddorp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Executive-Assistant_31164369",
+   "posted_at": "2026-10-16",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-18",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/QA-officer-A-B_31164493",
+   "company_id": "abbott",
+   "title": "QA officer A/B",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/QA-officer-A-B_31164493",
+   "posted_at": "2026-10-16",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-18",
    "baseline": false
   },
   {
@@ -2180,6 +2183,18 @@
    "baseline": false
   },
   {
+   "id": "apm-terminals:/job/Netherlands-Almere-1332-ED/Forklift-Operator_R200720",
+   "company_id": "apm-terminals",
+   "title": "Forklift Operator",
+   "location": "Netherlands, Almere, 1332 ED",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Almere-1332-ED/Forklift-Operator_R200720",
+   "posted_at": "2026-10-16",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-17",
+   "baseline": false
+  },
+  {
    "id": "amazon:10581183",
    "company_id": "amazon",
    "title": "Senior AI/ML Consultant, AWS Professional Services",
@@ -2225,27 +2240,15 @@
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Weesp/Proces-Operator-B-bij-Abbott-Weesp_31164612",
-   "company_id": "abbott",
-   "title": "Proces Operator B bij Abbott Weesp",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Proces-Operator-B-bij-Abbott-Weesp_31164612",
+   "id": "stryker:/job/Maastricht-Netherlands/Quality-and-Regulatory-Affairs-Specialist_R574373",
+   "company_id": "stryker",
+   "title": "Quality and Regulatory Affairs Specialist",
+   "location": "Maastricht, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Maastricht-Netherlands/Quality-and-Regulatory-Affairs-Specialist_R574373",
    "posted_at": "2026-10-16",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-16",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-A_31163767",
-   "company_id": "abbott",
-   "title": "Operator A",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31163767",
-   "posted_at": "2026-10-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-16",
+   "first_seen": "2026-10-17",
    "baseline": false
   },
   {
@@ -2295,18 +2298,6 @@
    "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": true
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Warehouse-Operator-A-Weegcentrum_31162921",
-   "company_id": "abbott",
-   "title": "Warehouse Operator A Weegcentrum",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Warehouse-Operator-A-Weegcentrum_31162921",
-   "posted_at": "2026-10-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-01",
-   "baseline": false
   },
   {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
@@ -2564,6 +2555,30 @@
    "baseline": false
   },
   {
+   "id": "abbott:/job/Netherlands---Weesp/Proces-Operator-B-bij-Abbott-Weesp_31164612",
+   "company_id": "abbott",
+   "title": "Proces Operator B bij Abbott Weesp",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Proces-Operator-B-bij-Abbott-Weesp_31164612",
+   "posted_at": "2026-10-15",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-16",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-A_31163767",
+   "company_id": "abbott",
+   "title": "Operator A",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31163767",
+   "posted_at": "2026-10-15",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-16",
+   "baseline": false
+  },
+  {
    "id": "amazon:10579838",
    "company_id": "amazon",
    "title": "Account Executive , Amazon Ads BLX",
@@ -2579,79 +2594,7 @@
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-Stage--Worksheet-Supply-Planning_31164502",
-   "company_id": "abbott",
-   "title": "HBO/WO Stage: Worksheet Supply Planning",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-Stage--Worksheet-Supply-Planning_31164502",
-   "posted_at": "2026-10-15",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-15",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Powder-Products_31164620",
-   "company_id": "abbott",
-   "title": "HBO/WO-stage: R&D Powder Products",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Powder-Products_31164620",
-   "posted_at": "2026-10-15",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-15",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage-Validatie--Gap-analyse-Validatieprocessen---Quality-optimalisatie-programma_31164623",
-   "company_id": "abbott",
-   "title": "HBO/WO-stage Validatie: Gap-analyse Validatieprocessen & Quality optimalisatie programma",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage-Validatie--Gap-analyse-Validatieprocessen---Quality-optimalisatie-programma_31164623",
-   "posted_at": "2026-10-15",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-15",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage-EHS--Wastewater-Management_31164613",
-   "company_id": "abbott",
-   "title": "HBO/WO-stage EHS: Wastewater Management",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage-EHS--Wastewater-Management_31164613",
-   "posted_at": "2026-10-15",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-15",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage-Operational-Group-Poeder-productie--Optimalisatie-communicatiestandaarden_31164622",
-   "company_id": "abbott",
-   "title": "HBO/WO-stage Operational Group Poeder productie: Optimalisatie communicatiestandaarden",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage-Operational-Group-Poeder-productie--Optimalisatie-communicatiestandaarden_31164622",
-   "posted_at": "2026-10-15",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-15",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/XMLNAME-4-Operator-Poederpak_31164611",
-   "company_id": "abbott",
-   "title": "4 Operator Poederpak",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/XMLNAME-4-Operator-Poederpak_31164611",
-   "posted_at": "2026-10-15",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-15",
-   "baseline": false
-  },
-  {
-   "id": "world-courier:R2610385",
+   "id": "world-courier:R2614063",
    "company_id": "world-courier",
    "title": "Teamleider Productie",
    "location": "Alkmaar, Netherlands, Alkmaar, Netherlands",
@@ -2745,6 +2688,18 @@
    "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Warehouse-Operator-A-Weegcentrum_31162921",
+   "company_id": "abbott",
+   "title": "Warehouse Operator A Weegcentrum",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Warehouse-Operator-A-Weegcentrum_31162921",
+   "posted_at": "2026-10-15",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-01",
+   "baseline": false
   },
   {
    "id": "dsv:/job/Moerdijk-Senior-Manager%2C-Head-of-Legal-for-%28BENLUKIE%29-Cluster-Nort-4782-JA/1447654133/",
@@ -2897,39 +2852,75 @@
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/Team-Lead-Analytisch-Laboratorium_31164354",
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-Stage--Worksheet-Supply-Planning_31164502",
    "company_id": "abbott",
-   "title": "Team Lead Analytisch Laboratorium",
+   "title": "HBO/WO Stage: Worksheet Supply Planning",
    "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Team-Lead-Analytisch-Laboratorium_31164354",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-Stage--Worksheet-Supply-Planning_31164502",
    "posted_at": "2026-10-14",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-14",
+   "first_seen": "2026-10-15",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Weesp/Proces-operator_31162833",
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Powder-Products_31164620",
    "company_id": "abbott",
-   "title": "Proces operator",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Proces-operator_31162833",
+   "title": "HBO/WO-stage: R&D Powder Products",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Powder-Products_31164620",
    "posted_at": "2026-10-14",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-14",
+   "first_seen": "2026-10-15",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/XMLNAME-8-Operator-Poederpak-gezocht---5-Ploegendienst-_31164881",
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage-Validatie--Gap-analyse-Validatieprocessen---Quality-optimalisatie-programma_31164623",
    "company_id": "abbott",
-   "title": "8 Operator Poederpak gezocht! (5-Ploegendienst)",
+   "title": "HBO/WO-stage Validatie: Gap-analyse Validatieprocessen & Quality optimalisatie programma",
    "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/XMLNAME-8-Operator-Poederpak-gezocht---5-Ploegendienst-_31164881",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage-Validatie--Gap-analyse-Validatieprocessen---Quality-optimalisatie-programma_31164623",
    "posted_at": "2026-10-14",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-14",
+   "first_seen": "2026-10-15",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage-EHS--Wastewater-Management_31164613",
+   "company_id": "abbott",
+   "title": "HBO/WO-stage EHS: Wastewater Management",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage-EHS--Wastewater-Management_31164613",
+   "posted_at": "2026-10-14",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-15",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage-Operational-Group-Poeder-productie--Optimalisatie-communicatiestandaarden_31164622",
+   "company_id": "abbott",
+   "title": "HBO/WO-stage Operational Group Poeder productie: Optimalisatie communicatiestandaarden",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage-Operational-Group-Poeder-productie--Optimalisatie-communicatiestandaarden_31164622",
+   "posted_at": "2026-10-14",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-15",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/XMLNAME-4-Operator-Poederpak_31164611",
+   "company_id": "abbott",
+   "title": "4 Operator Poederpak",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/XMLNAME-4-Operator-Poederpak_31164611",
+   "posted_at": "2026-10-14",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-15",
    "baseline": false
   },
   {
@@ -3164,39 +3155,39 @@
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Liquid-Products_31164621",
+   "id": "abbott:/job/Netherlands---Zwolle/Team-Lead-Analytisch-Laboratorium_31164354",
    "company_id": "abbott",
-   "title": "HBO/WO-stage: R&D Liquid Products",
+   "title": "Team Lead Analytisch Laboratorium",
    "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Liquid-Products_31164621",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Team-Lead-Analytisch-Laboratorium_31164354",
    "posted_at": "2026-10-13",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-13",
+   "first_seen": "2026-10-14",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage--Ontwikkelen-leidingspecificatie-voor-onze-voedingsmiddelenfabriek_31164615-1",
+   "id": "abbott:/job/Netherlands---Weesp/Proces-operator_31162833",
    "company_id": "abbott",
-   "title": "HBO/WO-stage: Ontwikkelen leidingspecificatie voor onze voedingsmiddelenfabriek",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage--Ontwikkelen-leidingspecificatie-voor-onze-voedingsmiddelenfabriek_31164615-1",
+   "title": "Proces operator",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Proces-operator_31162833",
    "posted_at": "2026-10-13",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-13",
+   "first_seen": "2026-10-14",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/Operator-Poederpak_31163141",
+   "id": "abbott:/job/Netherlands---Zwolle/XMLNAME-8-Operator-Poederpak-gezocht---5-Ploegendienst-_31164881",
    "company_id": "abbott",
-   "title": "Operator Poederpak",
+   "title": "8 Operator Poederpak gezocht! (5-Ploegendienst)",
    "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Poederpak_31163141",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/XMLNAME-8-Operator-Poederpak-gezocht---5-Ploegendienst-_31164881",
    "posted_at": "2026-10-13",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-13",
+   "first_seen": "2026-10-14",
    "baseline": false
   },
   {
@@ -3406,6 +3397,42 @@
     "written_in_dutch": null
    },
    "labels_checked": true,
+   "first_seen": "2026-10-13",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Liquid-Products_31164621",
+   "company_id": "abbott",
+   "title": "HBO/WO-stage: R&D Liquid Products",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Liquid-Products_31164621",
+   "posted_at": "2026-10-12",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-13",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage--Ontwikkelen-leidingspecificatie-voor-onze-voedingsmiddelenfabriek_31164615-1",
+   "company_id": "abbott",
+   "title": "HBO/WO-stage: Ontwikkelen leidingspecificatie voor onze voedingsmiddelenfabriek",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage--Ontwikkelen-leidingspecificatie-voor-onze-voedingsmiddelenfabriek_31164615-1",
+   "posted_at": "2026-10-12",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-13",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/Operator-Poederpak_31163141",
+   "company_id": "abbott",
+   "title": "Operator Poederpak",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Poederpak_31163141",
+   "posted_at": "2026-10-12",
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-10-13",
    "baseline": false
   },
@@ -3947,18 +3974,6 @@
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Olst/Operator-A_31163763-1",
-   "company_id": "abbott",
-   "title": "Operator A",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31163763-1",
-   "posted_at": "2026-10-10",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-10",
-   "baseline": false
-  },
-  {
    "id": "gxo-logistics:/job/Venray-Logistic-Business-Unit-Engineer-5804-CN/1428956000/",
    "company_id": "gxo-logistics",
    "title": "Logistic Business Unit Engineer",
@@ -4244,6 +4259,18 @@
    "baseline": false
   },
   {
+   "id": "abbott:/job/Netherlands---Olst/Operator-A_31163763-1",
+   "company_id": "abbott",
+   "title": "Operator A",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31163763-1",
+   "posted_at": "2026-10-09",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-10",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-360673",
    "company_id": "dhl-group",
    "title": "Supervisor Transport – DHL eCommerce Arnhem",
@@ -4424,18 +4451,6 @@
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/Kalibratie-Engineer---Abbott-Laboratories-Zwolle_31163947",
-   "company_id": "abbott",
-   "title": "Kalibratie Engineer – Abbott Laboratories Zwolle",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Kalibratie-Engineer---Abbott-Laboratories-Zwolle_31163947",
-   "posted_at": "2026-10-08",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-08",
-   "baseline": false
-  },
-  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Co%C3%B6rdinator-Rangeerders-6902KL/1367687555/",
    "company_id": "dachser",
    "title": "Logistiek Coördinator Rangeerders",
@@ -4610,6 +4625,18 @@
    "baseline": false
   },
   {
+   "id": "abbott:/job/Netherlands---Zwolle/Kalibratie-Engineer---Abbott-Laboratories-Zwolle_31163947",
+   "company_id": "abbott",
+   "title": "Kalibratie Engineer – Abbott Laboratories Zwolle",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Kalibratie-Engineer---Abbott-Laboratories-Zwolle_31163947",
+   "posted_at": "2026-10-07",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-08",
+   "baseline": false
+  },
+  {
    "id": "gxo-logistics:/job/Veenendaal-Coordinator-3905-NN/1385304800/",
    "company_id": "gxo-logistics",
    "title": "Coordinator",
@@ -4644,18 +4671,6 @@
    "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": true
-  },
-  {
-   "id": "flex:/job/Netherlands-Oostrum/Supply-Chain-Analyst_WD230598",
-   "company_id": "flex",
-   "title": "Supply Chain Analyst",
-   "location": "Netherlands, Oostrum",
-   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Oostrum/Supply-Chain-Analyst_WD230598",
-   "posted_at": "2026-10-07",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-01",
-   "baseline": false
   },
   {
    "id": "dsv:/job/Rozenburg-Senior-Project-Manager-Nort-1437-EK/1444746233/",
@@ -4991,6 +5006,33 @@
    "baseline": true
   },
   {
+   "id": "world-courier:R2522848",
+   "company_id": "world-courier",
+   "title": "Apothekersassistent Boots Support regio West Nederland",
+   "location": "Amsterdam, Netherlands, Amsterdam, Netherlands",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Amsterdam-Netherlands/Apothekersassistent-Boots-Support-center-regio-West-Nederland_R2522848-1/apply",
+   "posted_at": "2026-10-06",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": true
+  },
+  {
+   "id": "flex:/job/Netherlands-Oostrum/Supply-Chain-Analyst_WD230598",
+   "company_id": "flex",
+   "title": "Supply Chain Analyst",
+   "location": "Netherlands, Oostrum",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Oostrum/Supply-Chain-Analyst_WD230598",
+   "posted_at": "2026-10-06",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-01",
+   "baseline": false
+  },
+  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Traineeship-logistiek-6902KL/1328985655/",
    "company_id": "dachser",
    "title": "Traineeship logistiek",
@@ -5183,42 +5225,6 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-17",
-   "baseline": false
-  },
-  {
-   "id": "apm-terminals:/job/NLROT01---Rotterdam---Rotterdam/Business-Development-Manager_R196842",
-   "company_id": "apm-terminals",
-   "title": "Growth Enablement Partner - Customs",
-   "location": "NLROT01 - Rotterdam - Rotterdam",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NLROT01---Rotterdam---Rotterdam/Business-Development-Manager_R196842",
-   "posted_at": "2026-10-03",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Hoofddorp/Data-Manager-Benelux---Diabetes-Care_31162291",
-   "company_id": "abbott",
-   "title": "Data Manager Benelux - Diabetes Care",
-   "location": "Netherlands - Hoofddorp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Data-Manager-Benelux---Diabetes-Care_31162291",
-   "posted_at": "2026-10-03",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "stryker:/job/Amsterdam-Netherlands/Lead-Analyst--Treasury-EU-Core-Operations_R573020",
-   "company_id": "stryker",
-   "title": "Lead Analyst, Treasury EU Core Operations",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Lead-Analyst--Treasury-EU-Core-Operations_R573020",
-   "posted_at": "2026-10-03",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-03",
    "baseline": false
   },
   {
@@ -5417,6 +5423,30 @@
    "baseline": true
   },
   {
+   "id": "apm-terminals:/job/NLROT01---Rotterdam---Rotterdam/Business-Development-Manager_R196842",
+   "company_id": "apm-terminals",
+   "title": "Growth Enablement Partner - Customs",
+   "location": "NLROT01 - Rotterdam - Rotterdam",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NLROT01---Rotterdam---Rotterdam/Business-Development-Manager_R196842",
+   "posted_at": "2026-10-02",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Hoofddorp/Data-Manager-Benelux---Diabetes-Care_31162291",
+   "company_id": "abbott",
+   "title": "Data Manager Benelux - Diabetes Care",
+   "location": "Netherlands - Hoofddorp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Data-Manager-Benelux---Diabetes-Care_31162291",
+   "posted_at": "2026-10-02",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
    "id": "amazon:10567827",
    "company_id": "amazon",
    "title": "Principal Technologist, Regulated Industries, Benelux Solutions Architecture",
@@ -5428,6 +5458,18 @@
     "written_in_dutch": false
    },
    "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "stryker:/job/Amsterdam-Netherlands/Lead-Analyst--Treasury-EU-Core-Operations_R573020",
+   "company_id": "stryker",
+   "title": "Lead Analyst, Treasury EU Core Operations",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Lead-Analyst--Treasury-EU-Core-Operations_R573020",
+   "posted_at": "2026-10-02",
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-10-03",
    "baseline": false
   },
@@ -5454,18 +5496,6 @@
    "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": true
-  },
-  {
-   "id": "flex:/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
-   "company_id": "flex",
-   "title": "Head of Project Management",
-   "location": "Netherlands, Woerden",
-   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
-   "posted_at": "2026-10-02",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-01",
-   "baseline": false
   },
   {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Teamleider-Logistiek-2742RD/1341825955/",
@@ -5792,23 +5822,11 @@
    "baseline": true
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/Operator-Liquid-Packaging--------_31163157",
-   "company_id": "abbott",
-   "title": "Operator Liquid Packaging",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Liquid-Packaging--------_31163157",
-   "posted_at": "2026-10-01",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-01",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Production-Optimization-Engineer-B_31163562",
-   "company_id": "abbott",
-   "title": "Production Optimization Engineer B",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Production-Optimization-Engineer-B_31163562",
+   "id": "flex:/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
+   "company_id": "flex",
+   "title": "Head of Project Management",
+   "location": "Netherlands, Woerden",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
    "posted_at": "2026-10-01",
    "labels": null,
    "labels_checked": false,
@@ -6014,99 +6032,27 @@
    "baseline": true
   },
   {
-   "id": "abbott:/job/Netherlands---Olst/Kwaliteitscontroleur-Steriel-Vullen--5-ploegen-_31163587",
+   "id": "abbott:/job/Netherlands---Zwolle/Operator-Liquid-Packaging--------_31163157",
    "company_id": "abbott",
-   "title": "Kwaliteitscontroleur Steriel Vullen (5 ploegen)",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Kwaliteitscontroleur-Steriel-Vullen--5-ploegen-_31163587",
+   "title": "Operator Liquid Packaging",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Liquid-Packaging--------_31163157",
    "posted_at": "2026-09-30",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-09-30",
+   "first_seen": "2026-10-01",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162968",
+   "id": "abbott:/job/Netherlands---Olst/Production-Optimization-Engineer-B_31163562",
    "company_id": "abbott",
-   "title": "Operator B",
+   "title": "Production Optimization Engineer B",
    "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162968",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Production-Optimization-Engineer-B_31163562",
    "posted_at": "2026-09-30",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162962",
-   "company_id": "abbott",
-   "title": "Operator B",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162962",
-   "posted_at": "2026-09-30",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162960",
-   "company_id": "abbott",
-   "title": "Operator B",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162960",
-   "posted_at": "2026-09-30",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162964",
-   "company_id": "abbott",
-   "title": "Operator B",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162964",
-   "posted_at": "2026-09-30",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162958",
-   "company_id": "abbott",
-   "title": "Operator B",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162958",
-   "posted_at": "2026-09-30",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-A_31162959",
-   "company_id": "abbott",
-   "title": "Operator A",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31162959",
-   "posted_at": "2026-09-30",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-A_31162967",
-   "company_id": "abbott",
-   "title": "Operator A",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31162967",
-   "posted_at": "2026-09-30",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
+   "first_seen": "2026-10-01",
    "baseline": false
   },
   {
@@ -6211,6 +6157,102 @@
     "written_in_dutch": false
    },
    "labels_checked": true,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Kwaliteitscontroleur-Steriel-Vullen--5-ploegen-_31163587",
+   "company_id": "abbott",
+   "title": "Kwaliteitscontroleur Steriel Vullen (5 ploegen)",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Kwaliteitscontroleur-Steriel-Vullen--5-ploegen-_31163587",
+   "posted_at": "2026-09-29",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162968",
+   "company_id": "abbott",
+   "title": "Operator B",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162968",
+   "posted_at": "2026-09-29",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162962",
+   "company_id": "abbott",
+   "title": "Operator B",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162962",
+   "posted_at": "2026-09-29",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162960",
+   "company_id": "abbott",
+   "title": "Operator B",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162960",
+   "posted_at": "2026-09-29",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162964",
+   "company_id": "abbott",
+   "title": "Operator B",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162964",
+   "posted_at": "2026-09-29",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162958",
+   "company_id": "abbott",
+   "title": "Operator B",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162958",
+   "posted_at": "2026-09-29",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-A_31162959",
+   "company_id": "abbott",
+   "title": "Operator A",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31162959",
+   "posted_at": "2026-09-29",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-A_31162967",
+   "company_id": "abbott",
+   "title": "Operator A",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31162967",
+   "posted_at": "2026-09-29",
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-09-30",
    "baseline": false
   },
@@ -6349,25 +6391,10 @@
    "title": "Apprentice Production Support Specialist A",
    "location": "Netherlands - Olst",
    "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Apprentice-Production-Support-Specialist-A_31162737",
-   "posted_at": "2026-09-25",
+   "posted_at": null,
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-25",
-   "baseline": false
-  },
-  {
-   "id": "apm-terminals:/job/NL---Rotterdam/Customer-Experience-Team-Leader--4-PL-Control-Tower_R196967-1",
-   "company_id": "apm-terminals",
-   "title": "Customer Experience Team Leader – 4 PL Control Tower",
-   "location": "NL - Rotterdam",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NL---Rotterdam/Customer-Experience-Team-Leader--4-PL-Control-Tower_R196967-1",
-   "posted_at": "2026-09-25",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-24",
    "baseline": false
   },
   {
@@ -6518,6 +6545,21 @@
    },
    "labels_checked": true,
    "first_seen": "2026-09-25",
+   "baseline": false
+  },
+  {
+   "id": "apm-terminals:/job/NL---Rotterdam/Customer-Experience-Team-Leader--4-PL-Control-Tower_R196967-1",
+   "company_id": "apm-terminals",
+   "title": "Customer Experience Team Leader – 4 PL Control Tower",
+   "location": "NL - Rotterdam",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NL---Rotterdam/Customer-Experience-Team-Leader--4-PL-Control-Tower_R196967-1",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-24",
    "baseline": false
   },
   {

@@ -474,12 +474,12 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [
+   "https://www.dimerco.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/",
    "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
    "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
    "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
    "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij",
-   "https://www.dimerco.com/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/werken-bij",
-   "https://www.dimerco.com/vacatures -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/vacatures"
+   "https://www.dimerco.com/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/werken-bij"
   ],
   "checked_at": "2026-10-25"
  },
@@ -2200,10 +2200,10 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://www.careers.tollgroup.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
-   "https://www.tollgroup.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
-   "https://www.tollgroup.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
-   "https://www.tollgroup.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/"
+   "https://www.careers.tollgroup.com/ -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with",
+   "https://www.tollgroup.com/careers -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with",
+   "https://www.tollgroup.com/en/careers -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with",
+   "https://www.tollgroup.com/careers/ -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with"
   ],
   "checked_at": "2026-10-25"
  },
@@ -3684,6 +3684,20 @@
   ],
   "reason": "found",
   "notes": [],
+  "checked_at": "2026-10-25"
+ },
+ "port-of-amsterdam": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://portofamsterdam.com/",
+   "https://www.portofamsterdam.com/"
+  ],
+  "reason": "site_unreachable",
+  "notes": [
+   "https://portofamsterdam.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.portofamsterdam.com/",
+   "https://www.portofamsterdam.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.portofamsterdam.com/"
+  ],
   "checked_at": "2026-10-25"
  }
 }
