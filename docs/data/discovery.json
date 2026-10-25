@@ -474,12 +474,12 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://www.dimerco.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/",
-   "https://dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/careers/",
    "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
    "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
    "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
-   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij"
+   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij",
+   "https://www.dimerco.com/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/werken-bij",
+   "https://www.dimerco.com/vacatures -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/vacatures"
   ],
   "checked_at": "2026-10-25"
  },
@@ -1024,12 +1024,28 @@
   "vendor": null,
   "checked_pages": [
    "https://hmm21.com/",
-   "https://www.hmm21.com/"
+   "https://www.hmm21.com/",
+   "https://www.hmm21.com/careers",
+   "https://www.hmm21.com/en/careers",
+   "https://www.hmm21.com/careers/",
+   "https://www.hmm21.com/nl/werken-bij",
+   "https://www.hmm21.com/werken-bij",
+   "https://www.hmm21.com/vacatures",
+   "https://www.hmm21.com/nl/vacatures",
+   "https://www.hmm21.com/jobs",
+   "https://www.hmm21.com/en/jobs",
+   "https://www.hmm21.com/career",
+   "https://www.hmm21.com/en/career",
+   "https://hmm21.com/careers"
   ],
-  "reason": "site_unreachable",
+  "reason": "no_careers_system_found",
   "notes": [
-   "https://hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)"
+   "https://www.hmm21.com/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/en/careers",
+   "https://www.hmm21.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers/",
+   "https://www.hmm21.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/nl/werken-bij",
+   "https://www.hmm21.com/werken-bij -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/vacatures -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)"
   ],
   "checked_at": "2026-10-25"
  },
@@ -1784,22 +1800,13 @@
   "vendor": null,
   "checked_pages": [
    "https://jdlogistics.com/",
-   "https://www.jdlogistics.com/",
-   "https://www.jdlogistics.com/careers",
-   "https://www.jdlogistics.com/en/careers",
-   "https://www.jdlogistics.com/careers/",
-   "https://www.jdlogistics.com/nl/werken-bij",
-   "https://www.jdlogistics.com/werken-bij",
-   "https://www.jdlogistics.com/vacatures",
-   "https://www.jdlogistics.com/nl/vacatures",
-   "https://www.jdlogistics.com/jobs",
-   "https://www.jdlogistics.com/en/jobs",
-   "https://www.jdlogistics.com/career",
-   "https://www.jdlogistics.com/en/career",
-   "https://jdlogistics.com/careers"
+   "https://www.jdlogistics.com/"
   ],
-  "reason": "no_careers_system_found",
-  "notes": [],
+  "reason": "site_unreachable",
+  "notes": [
+   "https://jdlogistics.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://jdlogistics.com/",
+   "https://www.jdlogistics.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.jdlogistics.com/"
+  ],
   "checked_at": "2026-10-25"
  },
  "koyanagi-worldwide": {
@@ -3305,22 +3312,13 @@
   "vendor": null,
   "checked_pages": [
    "https://edcr.nl/",
-   "https://www.edcr.nl/",
-   "https://www.edcr.nl/careers",
-   "https://www.edcr.nl/en/careers",
-   "https://www.edcr.nl/careers/",
-   "https://www.edcr.nl/nl/werken-bij",
-   "https://www.edcr.nl/werken-bij",
-   "https://www.edcr.nl/vacatures",
-   "https://www.edcr.nl/nl/vacatures",
-   "https://www.edcr.nl/jobs",
-   "https://www.edcr.nl/en/jobs",
-   "https://www.edcr.nl/career",
-   "https://www.edcr.nl/en/career",
-   "https://edcr.nl/careers"
+   "https://www.edcr.nl/"
   ],
-  "reason": "no_careers_system_found",
-  "notes": [],
+  "reason": "site_unreachable",
+  "notes": [
+   "https://edcr.nl/ -> HTTPError: 403 Client Error: Forbidden for url: https://edcr.nl/",
+   "https://www.edcr.nl/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.edcr.nl/"
+  ],
   "checked_at": "2026-10-25"
  },
  "feniks-warehousing-solutions": {
