@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T10:09+00:00",
+ "generated_at": "2026-10-25T11:57+00:00",
  "sources": [
   {
    "id": "a2b-online",
@@ -10,7 +10,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://a2b-online.com/careers/",
@@ -26,7 +26,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://al-international.nl/",
    "nl_jobs": 0,
@@ -41,7 +41,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -52,6 +52,7 @@
     "https://www.barsan.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/werken-bij",
     "https://www.barsan.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.barsan.nl/jobs",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -65,7 +66,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://bertschi.com/",
@@ -81,7 +82,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://boekestijn.com/",
    "nl_jobs": 0,
@@ -96,7 +97,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://boreaslogistics.com/",
    "nl_jobs": 0,
@@ -111,7 +112,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.cabootergroup.com/career/",
@@ -126,7 +127,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "workday",
    "careers_link": "https://rxo.com/join-our-team/",
@@ -142,7 +143,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -153,6 +154,7 @@
     "https://www.zwaluwlogistiek.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://zwaluwlogistiek.nl/werken-bij",
     "https://www.zwaluwlogistiek.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://zwaluwlogistiek.nl/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.zwaluwlogistiek.nl/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -166,7 +168,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://careers.denhartogh.com",
@@ -184,7 +186,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "teamtailor",
    "careers_link": "https://www.dfds.com/en/about/careers",
@@ -201,7 +203,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "oracle",
    "careers_link": "https://www.dpworld.com/en/careers",
@@ -219,7 +221,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "rmk",
    "careers_link": "https://www.dsv.com/en/careers/job-openings",
@@ -234,7 +236,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -245,6 +247,7 @@
     "https://www.emrogers.co.uk/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.emrogers.co.uk/werken-bij",
     "https://www.emrogers.co.uk/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.emrogers.co.uk/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.emrogers.co.uk/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -258,7 +261,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -269,6 +272,7 @@
     "https://www.einride.tech/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.einride.tech/werken-bij",
     "https://www.einride.tech/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.einride.tech/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://careers.einride.tech",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -282,7 +286,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://emons.eu/careers/",
@@ -298,7 +302,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -318,7 +322,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -329,6 +333,7 @@
     "https://www.hoyer-group.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hoyer-group.com/werken-bij",
     "https://www.hoyer-group.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.hoyer-group.com/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://karriere.hoyer-group.com/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -342,7 +347,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -362,7 +367,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.werkenbijklg.nl/",
@@ -377,7 +382,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.ksztransport.nl/nl-nl/vacatures",
@@ -393,7 +398,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -413,7 +418,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://mslogistics.nl/",
    "nl_jobs": 0,
@@ -429,7 +434,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://werkenbijneelevat.com/vacancies/",
@@ -444,7 +449,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.nunner.com/nl/vacatures/",
@@ -460,7 +465,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -471,6 +476,7 @@
     "https://www.oranjetransport.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://oranjetransport.nl/werken-bij",
     "https://www.oranjetransport.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://oranjetransport.nl/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.oranjetransport.nl/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -484,7 +490,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "oracle",
    "careers_link": "https://www.dpworld.com/en/careers",
@@ -499,7 +505,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://prospect-transport.nl/",
    "nl_jobs": 0,
@@ -514,7 +520,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -525,6 +531,7 @@
     "https://www.samskip.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/jobs",
     "https://www.samskip.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/en/jobs"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.samskip.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -538,7 +545,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -549,6 +556,7 @@
     "https://www.sennder.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/werken-bij",
     "https://www.sennder.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.sennder.com/career",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -562,7 +570,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -573,6 +581,7 @@
     "https://www.soderbergtransport.se/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/werken-bij",
     "https://www.soderbergtransport.se/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.soderbergtransport.se/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -586,7 +595,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "greenhouse",
    "careers_link": "https://www.uberfreight.com/en-US/careers",
@@ -601,7 +610,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "jsonld",
    "careers_link": "https://www.vanberkellogistics.nl/werken-bij/",
@@ -616,7 +625,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://aero-express.nl/",
    "nl_jobs": 0,
@@ -631,7 +640,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://aircargo.nl/over-ons/vacatures",
@@ -646,7 +655,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://airtradeholland.nl/",
    "nl_jobs": 0,
@@ -661,7 +670,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.aitworldwide.com/careers/",
@@ -677,7 +686,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -688,6 +697,7 @@
     "https://www.anji-logistics.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.anji-logistics.com/vacatures",
     "https://www.anji-logistics.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.anji-logistics.com/nl/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.anji-logistics.com/contact/jobs",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -701,7 +711,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -712,6 +722,7 @@
     "https://www.apexglobe.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.apexglobe.com/werken-bij",
     "https://www.apexglobe.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.apexglobe.com/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://apexglobe.com/careers.html",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -725,7 +736,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "oracle",
    "careers_link": "https://apllogistics.com/",
@@ -740,7 +751,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://atlanticlogistics.nl/",
    "nl_jobs": 0,
@@ -755,7 +766,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://psabdp.com/careers/employee-experience",
@@ -771,7 +782,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://bergvanrijk.nl/",
    "nl_jobs": 0,
@@ -786,7 +797,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -806,7 +817,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -817,6 +828,7 @@
     "https://www.bws.dk/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.bws.net/da/jobs",
     "https://www.bws.dk/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.bws.net/da/jobs"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.bws.net/da/karriere",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -830,7 +842,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -850,7 +862,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -861,6 +873,7 @@
     "https://www.bring.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.bring.com/werken-bij",
     "https://www.bring.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.bring.com/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.bring.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -874,7 +887,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "workday",
    "careers_link": "https://www.chrobinson.com/en-us/about-us/careers/",
@@ -890,7 +903,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -901,6 +914,7 @@
     "https://www.cainiao.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.cainiao.com/werken-bij",
     "https://www.cainiao.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.cainiao.com/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.cainiao.com/about-us-join-us.html",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -914,7 +928,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://cetlogistics.nl/",
    "nl_jobs": 0,
@@ -931,7 +945,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "rmk",
    "careers_link": "https://jobs.cmacgm-group.com/CEVALogistics/?locale=en_GB",
@@ -946,7 +960,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -956,6 +970,7 @@
     "https://www.cjlogistics.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.cjlogistics.com/en/jobs",
     "https://www.cjlogistics.com/en/career -> HTTPError: 404 Client Error: Not Found for url: https://www.cjlogistics.com/en/career"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.cjlogistics.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -970,7 +985,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -981,6 +996,7 @@
     "https://www.craneww.com/career -> HTTPError: 404 Client Error: Not Found for url: https://www.craneww.com/career",
     "https://www.craneww.com/en/career -> HTTPError: 404 Client Error: Not Found for url: https://www.craneww.com/en/career"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.craneww.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -994,7 +1010,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1005,6 +1021,7 @@
     "https://www.cts-logistics.com/nl/werken-bij -> ConnectionError: HTTPSConnectionPool(host='www.cts-logistics.com', port=443): Max retries exceeded with url",
     "https://www.cts-logistics.com/werken-bij -> ConnectionError: HTTPSConnectionPool(host='www.cts-logistics.com', port=443): Max retries exceeded with url"
    ],
+   "rendering": "rendered 1 page(s), found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.cts-logistics.com/en/careers\nCall log",
    "careers_link": "http://cts-jobs.co.uk",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1018,7 +1035,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://cyberfreight.nl/vacatures/",
@@ -1033,7 +1050,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "rmk",
    "careers_link": "https://www.dachser.com/en/career-management-58.php",
@@ -1048,10 +1065,11 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.delmarcargo.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1065,7 +1083,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1076,6 +1094,7 @@
     "https://www.dho.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.dho.nl/werken-bij",
     "https://www.dho.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.dho.nl/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.dho.nl/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1089,17 +1108,18 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
     "https://www.dimerco.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/",
+    "https://dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/careers/",
     "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
     "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
     "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
-    "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij",
-    "https://www.dimerco.com/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/werken-bij"
+    "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://dimerco.com/careers/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1113,10 +1133,11 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.dutchqargo.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1130,7 +1151,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.vanwijkgroep.com/over-ons/vacatures/",
@@ -1146,7 +1167,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://senko.co.jp/",
    "nl_jobs": 0,
@@ -1161,7 +1182,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1172,6 +1193,7 @@
     "https://www.eusu-logistics.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/nl/werken-bij",
     "https://www.eusu-logistics.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/werken-bij"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.eusu-logistics.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1185,7 +1207,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1196,6 +1218,7 @@
     "https://www.expeditors.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.expeditors.com/nl/vacatures",
     "https://www.expeditors.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.expeditors.com/jobs"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.expeditors.com/careers/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1209,7 +1232,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -1231,7 +1254,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "greenhouse",
    "careers_link": "https://www.flexport.com/careers/",
@@ -1246,7 +1269,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.foxglobal.nl/careers/",
@@ -1261,7 +1284,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://freightinternational.nl/",
    "nl_jobs": 0,
@@ -1276,7 +1299,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -1298,7 +1321,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1309,6 +1332,7 @@
     "https://www.fujitrans.co.jp/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/werken-bij",
     "https://www.fujitrans.co.jp/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.fujitrans.co.jp/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1322,7 +1346,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://gd-its.careers/",
@@ -1338,7 +1362,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1349,6 +1373,7 @@
     "https://www.geodis.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://geodis.com/vacatures",
     "https://www.geodis.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://geodis.com/jobs"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://geodis.com/us-en/career",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1362,7 +1387,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -1382,7 +1407,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1392,6 +1417,7 @@
     "https://www.hanjin.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.hanjin.com/en/jobs",
     "https://www.hanjin.com/en/career -> HTTPError: 404 Client Error: Not Found for url: https://www.hanjin.com/en/career"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.hanjin.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1405,7 +1431,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://hankyu-hanshin-express.com/",
    "nl_jobs": 0,
@@ -1420,7 +1446,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -1440,7 +1466,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1449,6 +1475,7 @@
     "https://www.htns.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.htns.com/werken-bij",
     "https://www.htns.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.htns.com/nl/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.htns.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1462,7 +1489,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://iaa-worldwide.com/",
    "nl_jobs": 0,
@@ -1477,7 +1504,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://janssenairocean.nl/",
    "nl_jobs": 0,
@@ -1492,7 +1519,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "workday",
    "careers_link": "https://www.jas.com/careers/",
@@ -1508,7 +1535,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -1528,7 +1555,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://justride.nl/",
    "nl_jobs": 0,
@@ -1544,7 +1571,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.kwe.com/career/",
@@ -1560,7 +1587,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.kln.com:443/en/careers/working-at-kln/",
@@ -1577,7 +1604,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://koyanagi-ww.com/",
    "nl_jobs": 0,
@@ -1592,7 +1619,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -1613,7 +1640,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "phenom",
    "careers_link": "https://jobs.kuehne-nagel.com/global/en",
@@ -1629,7 +1656,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1640,6 +1667,7 @@
     "https://www.logisteed.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.logisteed.com/jp/werken-bij",
     "https://www.logisteed.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.logisteed.com/jp/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.logisteed.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1653,7 +1681,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://lbp-rotterdam.nl/",
    "nl_jobs": 0,
@@ -1668,7 +1696,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1679,6 +1707,7 @@
     "https://www.lotteglogis.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.lotteglogis.com/werken-bij",
     "https://www.lotteglogis.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.lotteglogis.com/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.lotteglogis.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1692,7 +1721,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://loyalcargo.nl/",
    "nl_jobs": 0,
@@ -1707,10 +1736,11 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.lxpantos.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1724,7 +1754,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1735,6 +1765,7 @@
     "https://www.mach2.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/werken-bij",
     "https://www.mach2.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.mach2.nl/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1751,7 +1782,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.maersk.com/careers",
@@ -1769,7 +1800,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.mainfreight.com/mainfreight-careers",
@@ -1785,7 +1816,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://marinetrans.com/careers/",
@@ -1801,7 +1832,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1812,6 +1843,7 @@
     "https://www.mitsubishi-logistics.co.jp/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.mitsubishi-logistics.co.jp/nl/werken-bij",
     "https://www.mitsubishi-logistics.co.jp/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.mitsubishi-logistics.co.jp/werken-bij"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.mitsubishi-logistics.co.jp/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1825,7 +1857,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://mnlogistics.nl/",
    "nl_jobs": 0,
@@ -1841,7 +1873,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1852,6 +1884,7 @@
     "https://www.mol-logistics-group.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.mol-logistics-group.com/werken-bij",
     "https://www.mol-logistics-group.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.mol-logistics-group.com/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.mol-logistics-group.com/recruit/career/?hsLang=ja",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1865,7 +1898,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -1885,10 +1918,11 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.morrisonexpress.com/careers/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1902,7 +1936,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://mpc-sl.com/",
    "nl_jobs": 0,
@@ -1917,7 +1951,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -1928,6 +1962,7 @@
     "https://www.myon.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://myon.nl/werken-bij",
     "https://www.myon.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://myon.nl/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.myon.nl/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1941,7 +1976,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.nedair.nl/werken-bij-ned-air/",
@@ -1956,7 +1991,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.nipponexpress.com/search/?query=Jobs&amp;start=0&amp;count=10&amp;group=2&amp;site=S2H5HJIF&amp;charset=utf-8",
@@ -1972,10 +2007,11 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.nnrglobal.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -1990,7 +2026,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -2010,7 +2046,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://pmtcargo.nl/",
    "nl_jobs": 0,
@@ -2025,7 +2061,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "oracle",
    "careers_link": "https://penske.jobs/",
@@ -2040,7 +2076,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2051,6 +2087,7 @@
     "https://www.qbex.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.qbex.nl/vacatures",
     "https://www.qbex.nl/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.qbex.nl/nl/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://qbex.nl/about-us/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2064,7 +2101,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2075,6 +2112,7 @@
     "https://www.rapidlogistics.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/werken-bij",
     "https://www.rapidlogistics.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.rapidlogistics.nl/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2089,7 +2127,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.rhenus.group/career/",
@@ -2105,7 +2143,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2116,6 +2154,7 @@
     "https://www.rotra.eu/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://rotra.eu/nl/vacatures",
     "https://www.rotra.eu/jobs -> HTTPError: 404 Client Error: Not Found for url: https://rotra.eu/jobs"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://rotra.eu/vacatures",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2129,10 +2168,11 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.samsungsds.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2146,7 +2186,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://samyanglogistics.com/",
    "nl_jobs": 0,
@@ -2161,7 +2201,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2172,6 +2212,7 @@
     "https://www.sankyu.co.jp/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sankyu.co.jp/nl/werken-bij",
     "https://www.sankyu.co.jp/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sankyu.co.jp/werken-bij"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.sankyu.co.jp/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2185,7 +2226,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.santova.com/careers",
@@ -2202,7 +2243,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://dbschenker.com/",
@@ -2218,7 +2259,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2229,6 +2270,7 @@
     "https://www.sevenhills.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/werken-bij",
     "https://www.sevenhills.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.sevenhills.nl/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2242,7 +2284,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -2262,7 +2304,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://jusda.com/",
    "nl_jobs": 0,
@@ -2277,7 +2319,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "recruitee",
    "careers_link": "https://www.shypple.com/careers/working-at-shypple",
@@ -2292,7 +2334,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -2312,7 +2354,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2323,6 +2365,7 @@
     "https://www.sinotrans.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/nl/werken-bij",
     "https://www.sinotrans.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/werken-bij"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.sinotrans.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2336,7 +2379,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2347,6 +2390,7 @@
     "https://www.smsgloballogistics.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://smsglobal-group.com/werken-bij",
     "https://www.smsgloballogistics.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://smsglobal-group.com/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.smsglobal-forwarding.com/vacancies/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2360,7 +2404,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -2380,7 +2424,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2391,6 +2435,7 @@
     "https://www.titologistics.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.titologistics.com/werken-bij",
     "https://www.titologistics.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.titologistics.com/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.titologistics.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2404,7 +2449,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -2424,15 +2469,16 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
-    "https://www.careers.tollgroup.com/ -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with",
-    "https://www.tollgroup.com/careers -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with",
-    "https://www.tollgroup.com/en/careers -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with",
-    "https://www.tollgroup.com/careers/ -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with"
+    "https://www.careers.tollgroup.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
+    "https://www.tollgroup.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
+    "https://www.tollgroup.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
+    "https://www.tollgroup.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.careers.tollgroup.com/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2447,10 +2493,11 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [],
+   "rendering": "rendered 0 page(s), found 0 link(s); Error: Page.goto: Download is starting\nCall log:\n  - navigating to \"https://www.ups.com/careers/\"",
    "careers_link": "https://www.ups.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2464,7 +2511,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://worldasialogistics.nl/",
    "nl_jobs": 0,
@@ -2479,7 +2526,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2490,6 +2537,7 @@
     "https://www.worldfreight.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/werken-bij",
     "https://www.worldfreight.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/vacatures"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.worldfreight.nl/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2503,7 +2551,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2514,6 +2562,7 @@
     "https://www.yamatoeurope.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/vacatures",
     "https://www.yamatoeurope.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/nl/vacatures"
    ],
+   "rendering": "rendered 2 page(s), found 0 link(s); TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.yamatoeurope",
    "careers_link": "https://www.yamatoeurope.com/vacancies",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2528,7 +2577,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -2548,7 +2597,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2559,6 +2608,7 @@
     "https://www.zencargo.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.zencargo.com/nl/vacatures",
     "https://www.zencargo.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.zencargo.com/jobs"
    ],
+   "rendering": "rendered 3 page(s), found 0 link(s)",
    "careers_link": "https://www.zencargo.com/careers/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2572,7 +2622,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "oracle",
    "careers_link": "https://careers.americold.com",
@@ -2587,7 +2637,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://career.arvato.com/",
@@ -2604,7 +2654,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.bleckmann.com/careers",
@@ -2620,7 +2670,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.broekmancareers.com/en",
@@ -2636,7 +2686,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.steinweg.com/careers/",
@@ -2652,7 +2702,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://centurydistribution.com/",
    "nl_jobs": 0,
@@ -2667,10 +2717,11 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [],
+   "rendering": "skipped: budget spent",
    "careers_link": "https://www.clg.nl/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2684,7 +2735,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -2704,7 +2755,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -2724,7 +2775,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://feniks-warehousing.nl/",
    "nl_jobs": 0,
@@ -2739,7 +2790,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.fulfilmentsolutions.nl/careers",
@@ -2754,7 +2805,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2765,6 +2816,7 @@
     "https://www.grolleman.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.grolleman.nl/werken-bij",
     "https://www.grolleman.nl/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.grolleman.nl/jobs"
    ],
+   "rendering": "skipped: budget spent",
    "careers_link": "https://www.grolleman.nl/vacatures",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2780,7 +2832,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "rmk",
    "careers_link": "https://gxo.com/careers/",
@@ -2795,7 +2847,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://icecoldstorage.nl/",
    "nl_jobs": 0,
@@ -2810,7 +2862,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -2832,7 +2884,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "phenom",
    "careers_link": "https://careers.onelineage.com/",
@@ -2848,7 +2900,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.moduslink.com/careers/",
@@ -2864,10 +2916,11 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [],
+   "rendering": "skipped: budget spent",
    "careers_link": "https://www.werkenbijmonta.nl/vacatures/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2881,7 +2934,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2892,6 +2945,7 @@
     "https://www.movianto.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://movianto.com/jobs",
     "https://www.movianto.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://movianto.com/en/jobs"
    ],
+   "rendering": "skipped: budget spent",
    "careers_link": "https://movianto.com/careers/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2908,7 +2962,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -2919,6 +2973,7 @@
     "https://www.newcold.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.newcold.com/nl/vacatures",
     "https://www.newcold.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.newcold.com/jobs"
    ],
+   "rendering": "skipped: budget spent",
    "careers_link": "https://newcold.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -2932,7 +2987,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_address",
    "careers_link": "https://odin-warehousing.nl/",
    "nl_jobs": 0,
@@ -2947,7 +3002,7 @@
    "group": "contract",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.re-teck.com/job-opportunities/",
@@ -2969,7 +3024,7 @@
    "group": "parcel",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "phenom",
    "careers_link": "https://careers.dhl.com",
@@ -2985,7 +3040,7 @@
    "group": "parcel",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -3006,7 +3061,7 @@
    "group": "parcel",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://careers.fedex.com",
@@ -3022,10 +3077,11 @@
    "group": "parcel",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [],
+   "rendering": "skipped: budget spent",
    "careers_link": "https://www.gls-group.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -3039,7 +3095,7 @@
    "group": "parcel",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -3059,7 +3115,7 @@
    "group": "parcel",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -3070,6 +3126,7 @@
     "https://www.sf-express.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sf-express.com/nl/werken-bij",
     "https://www.sf-express.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sf-express.com/werken-bij"
    ],
+   "rendering": "skipped: budget spent",
    "careers_link": "https://www.sf-express.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -3083,7 +3140,7 @@
    "group": "parcel",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "phenom",
    "careers_link": "https://careers.cencora.com/",
@@ -3098,7 +3155,7 @@
    "group": "shipping",
    "extra_keywords": [],
    "last_success": "2026-10-25",
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "ok",
    "method": "rmk",
    "careers_link": "https://jobs.cmacgm-group.com/CMACGM/?locale=en_GB",
@@ -3113,7 +3170,7 @@
    "group": "shipping",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
@@ -3133,7 +3190,7 @@
    "group": "shipping",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -3144,6 +3201,7 @@
     "https://www.lines.coscoshipping.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.lines.coscoshipping.com/werken-bij",
     "https://www.lines.coscoshipping.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.lines.coscoshipping.com/vacatures"
    ],
+   "rendering": "skipped: budget spent",
    "careers_link": "https://www.lines.coscoshipping.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -3157,7 +3215,7 @@
    "group": "shipping",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
+   "checked_at": "2026-10-25T11:57+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -3168,6 +3226,7 @@
     "https://www.one-line.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/jobs",
     "https://www.one-line.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/jobs"
    ],
+   "rendering": "skipped: budget spent",
    "careers_link": "https://www.one-line.com/en/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -3181,17 +3240,18 @@
    "group": "shipping",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-25T10:09+00:00",
-   "status": "site_unreachable",
+   "checked_at": "2026-10-25T11:57+00:00",
+   "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
+    "https://hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
     "https://www.hmm21.com/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
     "https://www.hmm21.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/en/careers",
-    "https://www.hmm21.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers/",
-    "https://www.hmm21.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/nl/werken-bij",
-    "https://www.hmm21.com/werken-bij -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-    "https://www.hmm21.com/vacatures -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)"
+    "https://www.hmm21.com/careers/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+    "https://www.hmm21.com/nl/werken-bij -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+    "https://www.hmm21.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/werken-bij"
    ],
+   "rendering": "skipped: budget spent",
    "careers_link": "https://www.hmm21.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
