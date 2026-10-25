@@ -160,7 +160,7 @@ import tempfile
 from pathlib import Path
 from unittest import mock
 
-from collector import run
+from collector import discovery, run
 
 
 class GuessedSourceIsReconsidered(unittest.TestCase):
@@ -442,3 +442,48 @@ class ForeignJobsAreDroppedOnceTheirLocationIsKnown(unittest.TestCase):
             run.main([])
         jobs = _json.loads(self.paths["JOBS_FILE"].read_text())["jobs"]
         self.assertEqual([j["title"] for j in jobs], ["Transport Planner Venlo"])
+
+
+class PlatformsHiddenBehindJavaScript(unittest.TestCase):
+    """A careers page that builds its list in the browser looks empty to us.
+
+    Many such pages still run on a platform we can read, and its address
+    answers directly even when the page gives nothing away.
+    """
+
+    def company(self):
+        return {"id": "einride", "domain": "einride.tech"}
+
+    def routes(self, extra):
+        base = {
+            "https://einride.tech/": '<a href="https://careers.einride.tech">Careers</a>',
+            "https://www.einride.tech/": '<a href="https://careers.einride.tech">Careers</a>',
+            "https://careers.einride.tech": "<html><body><div id=app></div></body></html>",
+        }
+        base.update(extra)
+        return base
+
+    def test_a_feed_answering_on_the_careers_host_identifies_the_platform(self):
+        feed = ('<?xml version="1.0"?><rss><channel><item><title>Planner</title>'
+                '<link>https://careers.einride.tech/jobs/1</link></item></channel></rss>')
+        net = FakeNet(routes=self.routes({"https://careers.einride.tech/jobs.rss": feed}))
+        found = discovery.discover(net, self.company())
+        self.assertEqual(found["source"],
+                         {"type": "teamtailor", "base_url": "https://careers.einride.tech"})
+
+    def test_a_recruitee_account_is_found_the_same_way(self):
+        net = FakeNet(routes=self.routes(
+            {"https://careers.einride.tech/api/offers/": {"offers": [{"id": 1}]}}))
+        found = discovery.discover(net, self.company())
+        self.assertEqual(found["source"]["type"], "recruitee")
+
+    def test_the_company_front_page_is_never_probed(self):
+        """Probing the front page would pick up unrelated feeds."""
+        net = FakeNet(routes=self.routes({"https://einride.tech/jobs.rss": "<item>news</item>"}))
+        found = discovery.discover(net, self.company())
+        self.assertIsNone(found["source"])
+
+    def test_an_empty_page_with_no_platform_behind_it_still_reports_nothing(self):
+        found = discovery.discover(FakeNet(routes=self.routes({})), self.company())
+        self.assertIsNone(found["source"])
+        self.assertEqual(found["reason"], "no_careers_system_found")

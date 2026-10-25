@@ -169,6 +169,28 @@ def homepages(domain):
     return [f"https://{bare}/", f"https://www.{bare}/"]
 
 
+# A careers page that builds its list in the browser looks empty to us, even
+# when it runs on a platform we can read. These addresses answer directly, so
+# they identify the platform where the page itself gives nothing away.
+KNOWN_ENDPOINTS = [
+    ("teamtailor", "/jobs.rss", lambda body: "<item" in body[:4000].lower()),
+    ("recruitee", "/api/offers/", lambda body: '"offers"' in body[:4000]),
+    ("personio", "/xml?language=en", lambda body: "<position" in body[:4000].lower()),
+]
+
+
+def probe_known_endpoints(net, origin):
+    """Return a source when a careers host answers on a platform address we know."""
+    for adapter, path, looks_right in KNOWN_ENDPOINTS:
+        try:
+            body = net.get(origin.rstrip("/") + path).text
+        except Exception:
+            continue
+        if looks_right(body or ""):
+            return {"type": adapter, "base_url": origin.rstrip("/")}
+    return None
+
+
 def discover(net, company):
     """Return a dict: {source, vendor, checked_pages, reason, notes}."""
     start_pages = []
@@ -208,6 +230,18 @@ def discover(net, company):
             for prefix in (f"https://www.{bare}", f"https://{bare}"):
                 queue.extend(prefix + path for path in COMMON_PATHS)
             queue.extend("https://" + host.format(domain=bare) + "/" for host in COMMON_HOSTS)
+
+    # Nothing recognised on any page. Before giving up, ask the careers hosts
+    # themselves whether they run on a platform we can read.
+    for page in visited:
+        parsed = urlparse(page)
+        origin = f"{parsed.scheme}://{parsed.netloc}"
+        if origin in {f"{urlparse(f).scheme}://{urlparse(f).netloc}" for f in fronts}:
+            continue
+        source = probe_known_endpoints(net, origin)
+        if source:
+            return {"source": source, "vendor": None, "checked_pages": visited,
+                    "reason": "found", "notes": notes}
 
     if not reachable:
         reason = "site_unreachable"
