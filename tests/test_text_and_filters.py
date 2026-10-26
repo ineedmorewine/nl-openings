@@ -4,7 +4,8 @@ from datetime import date
 from pathlib import Path
 
 from collector.filters import is_air_or_ocean_only, is_suitable
-from collector.text import (dutch_required, keep_location, location_status, normalize_date,
+from collector.text import (dutch_required, international_labels, keep_location,
+                            location_status, normalize_date,
                             parse_relative_posted, strip_html, written_in_dutch)
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -97,3 +98,35 @@ class Dates(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class WhatAnAdSaysAboutHiringFromAbroad(unittest.TestCase):
+    def labels(self, text):
+        return international_labels(text + " " * 0 + " padding text to clear the minimum length "
+                                    "so the reader treats this as a real advertisement body.")
+
+    def test_a_permit_offer_is_recorded(self):
+        found = self.labels("We support visa sponsorship and arrange the work permit for you.")
+        self.assertTrue(found["sponsorship"])
+        self.assertFalse(found["no_sponsorship"])
+
+    def test_a_refusal_is_not_read_as_an_offer(self):
+        found = self.labels("Please note that we cannot offer visa sponsorship for this role.")
+        self.assertFalse(found["sponsorship"])
+        self.assertTrue(found["no_sponsorship"])
+
+    def test_moving_costs_are_recorded(self):
+        self.assertTrue(self.labels("You receive a relocation package when you move.")["relocation"])
+
+    def test_dutch_moving_costs_are_recorded(self):
+        self.assertTrue(self.labels("Wij vergoeden de verhuiskosten bij indiensttreding.")["relocation"])
+
+    def test_an_english_workplace_is_recorded(self):
+        self.assertTrue(self.labels("Our working language is English across all teams.")["english_workplace"])
+
+    def test_an_ordinary_ad_claims_nothing(self):
+        found = self.labels("Je plant ritten, overlegt met chauffeurs en bewaakt de planning.")
+        self.assertEqual([k for k, v in found.items() if v], [])
+
+    def test_too_little_text_is_not_judged(self):
+        self.assertIsNone(international_labels("Transportplanner"))

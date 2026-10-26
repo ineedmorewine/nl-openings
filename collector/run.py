@@ -21,7 +21,7 @@ from .discovery import career_links, discover, homepages
 from .render import BrowserUnavailable, PageRenderer
 from .filters import is_suitable
 from .net import Net
-from .text import dutch_required, keep_location, written_in_dutch
+from .text import dutch_required, international_labels, keep_location, written_in_dutch
 
 ROOT = Path(__file__).resolve().parent.parent
 COMPANIES_FILE = ROOT / "config" / "companies.json"
@@ -76,7 +76,24 @@ def make_job_id(company_id, raw):
 def language_labels(text):
     if not text:
         return None
-    return {"dutch_required": dutch_required(text), "written_in_dutch": written_in_dutch(text)}
+    return {"dutch_required": dutch_required(text), "written_in_dutch": written_in_dutch(text),
+            **(international_labels(text) or {})}
+
+
+def labels_are_current(labels):
+    """Whether a label set an earlier run saved was read with today's questions.
+
+    When a new question is added, such as whether the ad mentions a work permit,
+    the postings already in the list were never asked it. Rather than leave them
+    blank for as long as they stay open, they are read once more.
+    """
+    if not isinstance(labels, dict):
+        return False
+    return all(key in labels for key in LABEL_KEYS)
+
+
+LABEL_KEYS = ("dutch_required", "written_in_dutch", "sponsorship", "no_sponsorship",
+              "relocation", "english_workplace")
 
 
 def careers_link(company, discovery_cache):
@@ -269,13 +286,14 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
         job_id = make_job_id(company["id"], raw)
         previous = previous_by_id.get(job_id)
 
-        if previous and previous.get("labels_checked"):
+        # Carry forward what an earlier run learned by opening this posting.
+        # Without this the location is lost and the job is then discarded as one
+        # we cannot place.
+        if previous and previous.get("location") and not raw.get("location"):
+            raw["location"] = previous["location"]
+
+        if previous and previous.get("labels_checked") and labels_are_current(previous.get("labels")):
             labels, checked = previous.get("labels"), True
-            # The posting is not opened again, so carry forward what the earlier
-            # run learned from it. Without this the location is lost and the job
-            # is then discarded as one we cannot place.
-            if previous.get("location") and not raw.get("location"):
-                raw["location"] = previous["location"]
         else:
             text = raw.get("description") or ""
             describe = getattr(adapter, "describe", None)

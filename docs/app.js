@@ -15,7 +15,7 @@ const state = {
   defaultFilters: {},
   filters: {},
   marks: {},
-  ui: { tab: "new", search: "", group: "", sort: "newest", airOcean: false, everything: false, showHidden: false },
+  ui: { tab: "new", search: "", group: "", sort: "newest", airOcean: false, abroad: false, everything: false, showHidden: false },
 };
 
 const $ = (id) => document.getElementById(id);
@@ -100,6 +100,13 @@ function arrivedOnLastRun(job) {
   return !job.baseline && job.first_seen === runDay();
 }
 
+// The three things an ad can say that matter to someone applying from outside
+// the country. Said, not implied: silence is not a no.
+function mentionsAbroad(job) {
+  const lab = job.labels || {};
+  return Boolean(lab.sponsorship || lab.relocation || lab.english_workplace);
+}
+
 function passesFilters(job) {
   const company = state.companies.get(job.company_id) || {};
   const { ui, filters } = state;
@@ -108,6 +115,7 @@ function passesFilters(job) {
   if (ui.group && company.group !== ui.group) return false;
   if (!ui.everything && !isSuitable(job.title, filters, company.extra_keywords || [])) return false;
   if (!ui.everything && !ui.airOcean && isAirOrOceanOnly(job.title, filters)) return false;
+  if (ui.abroad && !mentionsAbroad(job)) return false;
   if (ui.search) {
     const haystack = fold(`${job.title} ${company.name || ""} ${job.location || ""}`);
     if (!fold(ui.search).split(/\s+/).every((word) => haystack.includes(word))) return false;
@@ -187,6 +195,14 @@ function renderJob(job) {
   if (job.labels && job.labels.written_in_dutch && !job.labels.dutch_required) {
     labels.push(el("span", { className: "label", text: t("label_written_in_dutch") }));
   }
+  // What the ad itself says about hiring someone who is not already in the
+  // country. Nothing here is inferred: a job without these labels simply did
+  // not raise the subject, which is the usual case.
+  const lab = job.labels || {};
+  if (lab.sponsorship) labels.push(el("span", { className: "label abroad", text: t("label_sponsorship") }));
+  if (lab.relocation) labels.push(el("span", { className: "label abroad", text: t("label_relocation") }));
+  if (lab.english_workplace) labels.push(el("span", { className: "label abroad", text: t("label_english_workplace") }));
+  if (lab.no_sponsorship) labels.push(el("span", { className: "label dutch", text: t("label_no_sponsorship") }));
   if (!job.location) labels.push(el("span", { className: "label", text: t("label_location_missing") }));
 
   const where = el("p", { className: "where" }, [
@@ -450,6 +466,7 @@ function bindEvents() {
   $("group").addEventListener("change", (event) => { state.ui.group = event.target.value; render(); });
   $("sort").addEventListener("change", (event) => { state.ui.sort = event.target.value; render(); });
   $("air-ocean").addEventListener("change", (event) => { state.ui.airOcean = event.target.checked; render(); });
+  $("abroad").addEventListener("change", (event) => { state.ui.abroad = event.target.checked; render(); });
   $("everything").addEventListener("change", (event) => { state.ui.everything = event.target.checked; render(); });
   $("show-hidden").addEventListener("change", (event) => { state.ui.showHidden = event.target.checked; render(); });
   $("edit-keywords").addEventListener("click", openKeywords);

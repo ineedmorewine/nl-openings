@@ -164,6 +164,60 @@ def dutch_required(text):
     return False
 
 
+# ------------------------------------------------- open to people from abroad
+
+# An ad almost never says "we hire non-EU candidates". What it does say, when it
+# is open to them, is that it arranges the permit, pays to move you, or runs in
+# English. Each of these is reported separately so nothing is inferred.
+
+_SPONSORSHIP = re.compile(
+    r"visa\s+(sponsor|support|application|arrange)|sponsor(ship|ing)?\s+(of\s+)?(a\s+)?(visa|work\s+permit)"
+    r"|work(ing)?\s+permit|werkvergunning|tewerkstellingsvergunning"
+    r"|highly\s+skilled\s+migrant|kennismigrant|ind\s+(recognised|recognized|erkend)"
+    r"|30%\s*(tax\s+)?(ruling|regeling)|30%-regeling"
+)
+_RELOCATION = re.compile(
+    r"relocation\s+(package|support|assistance|allowance|bonus|costs?)"
+    r"|(support|help|assist)\w*\s+(you\s+)?(with\s+)?(your\s+)?relocat"
+    r"|verhuiskosten|verhuisvergoeding|verhuizing\s+(vergoed|ondersteun)"
+    r"|(temporary\s+)?housing\s+(support|provided|arranged|allowance)|huisvesting\s+(geregeld|verzorgd)"
+)
+_ENGLISH_WORKPLACE = re.compile(
+    r"(our|the|company)\s+(working|business|office|corporate)\s+language\s+is\s+english"
+    r"|working\s+language\s+is\s+english|english\s+is\s+our\s+(working|office|company)\s+language"
+    r"|dutch\s+is\s+not\s+(required|necessary|needed)|no\s+dutch\s+(is\s+)?(required|needed|necessary)"
+    r"|voertaal\s+is\s+engels"
+)
+# "Sponsorship" also appears as a refusal. Catch the refusal so it is not read
+# as an offer.
+_NO_SPONSORSHIP = re.compile(
+    r"(cannot|can\s?not|do\s+not|does\s+not|unable\s+to|no)\s+(offer\s+|provide\s+|support\s+)?"
+    r"(visa\s+)?sponsor(ship)?"
+    r"|must\s+(already\s+)?(have|hold)\s+(a\s+)?(valid\s+)?(eu\s+)?(work\s+permit|right\s+to\s+work)"
+    r"|(eu|eea)\s+(citizenship|nationality|passport)\s+(is\s+)?required"
+)
+
+
+def international_labels(text):
+    """What the ad itself says about hiring someone who is not already here.
+
+    Three separate observations, never merged into a verdict: the employer
+    mentions arranging a permit, mentions paying to move you, or says the
+    workplace runs in English. A refusal to sponsor is recorded too, because an
+    ad that rules it out is worth seeing before applying.
+    """
+    folded = fold(text or "")
+    if len(folded) < 80:
+        return None
+    refuses = bool(_NO_SPONSORSHIP.search(folded))
+    return {
+        "sponsorship": bool(_SPONSORSHIP.search(folded)) and not refuses,
+        "no_sponsorship": refuses,
+        "relocation": bool(_RELOCATION.search(folded)),
+        "english_workplace": bool(_ENGLISH_WORKPLACE.search(folded)),
+    }
+
+
 # ---------------------------------------------------------------- dates
 
 _TEXT_DATE_FORMATS = ["%B %d, %Y", "%b %d, %Y", "%d %B %Y", "%d %b %Y", "%d-%m-%Y", "%d/%m/%Y"]

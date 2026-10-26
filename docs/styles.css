@@ -405,3 +405,5 @@ button.linklike {
   text-underline-offset: 3px;
   cursor: pointer;
 }
+
+.label.abroad { border-color: var(--moss); color: var(--moss); font-weight: 600; }
