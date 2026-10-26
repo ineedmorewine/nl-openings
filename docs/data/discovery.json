@@ -92,6 +92,11 @@
    "https://einride.tech/werken-bij",
    "https://einride.tech/vacatures"
   ],
+  "reached_pages": [
+   "https://einride.tech/",
+   "https://www.einride.tech/",
+   "https://careers.einride.tech"
+  ],
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.einride.tech/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.einride.tech/careers",
@@ -110,6 +115,7 @@
    "https://gvt.nl/",
    "https://www.gvt.nl/"
   ],
+  "reached_pages": [],
   "reason": "site_unreachable",
   "notes": [
    "https://gvt.nl/ -> SSLError: HTTPSConnectionPool(host='gvt.nl', port=443): Max retries exceeded with url: / (Caused by ",
@@ -156,6 +162,16 @@
    "https://samskip.com/vacatures",
    "https://samskip.com/nl/vacatures"
   ],
+  "reached_pages": [
+   "https://samskip.com/",
+   "https://www.samskip.com/",
+   "https://www.samskip.com/careers",
+   "https://www.samskip.com/en/careers",
+   "https://www.samskip.com/careers/",
+   "https://samskip.com/careers",
+   "https://samskip.com/en/careers",
+   "https://samskip.com/careers/"
+  ],
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.samskip.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/nl/werken-bij",
@@ -191,6 +207,12 @@
    "https://sennder.com/werken-bij",
    "https://sennder.com/vacatures",
    "https://sennder.com/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://sennder.com/",
+   "https://www.sennder.com/",
+   "https://www.sennder.com/career",
+   "https://www.sennder.com/en/career"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -1350,6 +1372,11 @@
    "https://boekestijntransport.com/werken-bij",
    "https://boekestijntransport.com/vacatures"
   ],
+  "reached_pages": [
+   "https://boekestijntransport.com/",
+   "https://www.boekestijntransport.com/",
+   "https://www.boekestijntransport.com/vacancies"
+  ],
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.boekestijntransport.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.boekestijntransport.com/careers",
@@ -1383,37 +1410,40 @@
  },
  "airtrade-holland": {
   "source": null,
-  "vendor": "Homerun",
+  "vendor": null,
   "checked_pages": [
-   "https://werkenbij.airtrade.nl/",
-   "https://www.werkenbij.airtrade.nl/",
-   "https://www.werkenbij.airtrade.nl/careers",
-   "https://www.werkenbij.airtrade.nl/en/careers",
-   "https://www.werkenbij.airtrade.nl/careers/",
-   "https://www.werkenbij.airtrade.nl/nl/werken-bij",
-   "https://www.werkenbij.airtrade.nl/werken-bij",
-   "https://www.werkenbij.airtrade.nl/vacatures",
-   "https://www.werkenbij.airtrade.nl/nl/vacatures",
-   "https://www.werkenbij.airtrade.nl/jobs",
-   "https://www.werkenbij.airtrade.nl/en/jobs",
-   "https://www.werkenbij.airtrade.nl/career",
-   "https://www.werkenbij.airtrade.nl/en/career",
-   "https://werkenbij.airtrade.nl/careers",
-   "https://werkenbij.airtrade.nl/en/careers",
-   "https://werkenbij.airtrade.nl/careers/",
-   "https://werkenbij.airtrade.nl/nl/werken-bij",
-   "https://werkenbij.airtrade.nl/werken-bij",
-   "https://werkenbij.airtrade.nl/vacatures",
-   "https://werkenbij.airtrade.nl/nl/vacatures"
+   "https://travelservices.airtrade.com/",
+   "https://www.travelservices.airtrade.com/",
+   "https://www.travelservices.airtrade.com/careers",
+   "https://www.travelservices.airtrade.com/en/careers",
+   "https://www.travelservices.airtrade.com/careers/",
+   "https://www.travelservices.airtrade.com/nl/werken-bij",
+   "https://www.travelservices.airtrade.com/werken-bij",
+   "https://www.travelservices.airtrade.com/vacatures",
+   "https://www.travelservices.airtrade.com/nl/vacatures",
+   "https://www.travelservices.airtrade.com/jobs",
+   "https://www.travelservices.airtrade.com/en/jobs",
+   "https://www.travelservices.airtrade.com/career",
+   "https://www.travelservices.airtrade.com/en/career",
+   "https://travelservices.airtrade.com/careers",
+   "https://travelservices.airtrade.com/en/careers",
+   "https://travelservices.airtrade.com/careers/",
+   "https://travelservices.airtrade.com/nl/werken-bij",
+   "https://travelservices.airtrade.com/werken-bij",
+   "https://travelservices.airtrade.com/vacatures",
+   "https://travelservices.airtrade.com/nl/vacatures"
   ],
-  "reason": "unsupported_vendor",
+  "reached_pages": [
+   "https://travelservices.airtrade.com/"
+  ],
+  "reason": "no_careers_system_found",
   "notes": [
-   "https://www.werkenbij.airtrade.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.werkenbij.airtrade.nl', port=443): Max retries exceeded with",
-   "https://www.werkenbij.airtrade.nl/careers -> ConnectionError: HTTPSConnectionPool(host='www.werkenbij.airtrade.nl', port=443): Max retries exceeded with",
-   "https://www.werkenbij.airtrade.nl/en/careers -> ConnectionError: HTTPSConnectionPool(host='www.werkenbij.airtrade.nl', port=443): Max retries exceeded with",
-   "https://www.werkenbij.airtrade.nl/careers/ -> ConnectionError: HTTPSConnectionPool(host='www.werkenbij.airtrade.nl', port=443): Max retries exceeded with",
-   "https://www.werkenbij.airtrade.nl/nl/werken-bij -> ConnectionError: HTTPSConnectionPool(host='www.werkenbij.airtrade.nl', port=443): Max retries exceeded with",
-   "https://www.werkenbij.airtrade.nl/werken-bij -> ConnectionError: HTTPSConnectionPool(host='www.werkenbij.airtrade.nl', port=443): Max retries exceeded with"
+   "https://www.travelservices.airtrade.com/ -> ConnectionError: HTTPSConnectionPool(host='www.travelservices.airtrade.com', port=443): Max retries exceede",
+   "https://www.travelservices.airtrade.com/careers -> ConnectionError: HTTPSConnectionPool(host='www.travelservices.airtrade.com', port=443): Max retries exceede",
+   "https://www.travelservices.airtrade.com/en/careers -> ConnectionError: HTTPSConnectionPool(host='www.travelservices.airtrade.com', port=443): Max retries exceede",
+   "https://www.travelservices.airtrade.com/careers/ -> ConnectionError: HTTPSConnectionPool(host='www.travelservices.airtrade.com', port=443): Max retries exceede",
+   "https://www.travelservices.airtrade.com/nl/werken-bij -> ConnectionError: HTTPSConnectionPool(host='www.travelservices.airtrade.com', port=443): Max retries exceede",
+   "https://www.travelservices.airtrade.com/werken-bij -> ConnectionError: HTTPSConnectionPool(host='www.travelservices.airtrade.com', port=443): Max retries exceede"
   ],
   "checked_at": "2026-10-26"
  },
@@ -1441,6 +1471,12 @@
    "https://anji-logistics.com/nl/werken-bij",
    "https://anji-logistics.com/werken-bij",
    "https://anji-logistics.com/vacatures"
+  ],
+  "reached_pages": [
+   "https://www.anji-logistics.com/",
+   "https://www.anji-logistics.com/contact/jobs",
+   "https://www.anji-logistics.com/nl/werken-bij",
+   "https://www.anji-logistics.com/werken-bij"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -1478,6 +1514,12 @@
    "https://apexglobe.com/nl/werken-bij",
    "https://apexglobe.com/werken-bij"
   ],
+  "reached_pages": [
+   "https://apexglobe.com/",
+   "https://www.apexglobe.com/",
+   "https://apexglobe.com/careers.html",
+   "https://www.apexglobe.com/careers.html"
+  ],
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.apexglobe.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.apexglobe.com/careers",
@@ -1513,6 +1555,22 @@
    "https://www.bws.dk/nl/vacatures",
    "https://www.bws.dk/jobs",
    "https://www.bws.dk/en/jobs"
+  ],
+  "reached_pages": [
+   "https://bws.dk/",
+   "https://www.bws.dk/",
+   "https://www.bws.net/da/karriere",
+   "https://www.bws.net/career",
+   "https://bwsglobal.career.emply.com/da/karriere",
+   "https://bwsglobal.career.emply.com/en/career",
+   "https://bwsglobal.career.emply.com/en/apply/unsolicited-applications/jbscip/da",
+   "https://bwsglobal.career.emply.com/apply/unsolicited-applications/jbscip/en",
+   "https://bwsglobal.career.emply.com/apply/unsolicited-applications/jbscip",
+   "https://bwsglobal.career.emply.com/da/apply/internship-student-job/092qm5",
+   "https://bwsglobal.career.emply.com/da/apply/internship-student-job/092qm5/en",
+   "https://www.bws.dk/careers",
+   "https://www.bws.dk/en/careers",
+   "https://www.bws.dk/careers/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -2289,6 +2347,10 @@
    "https://boreas-offshore.com/vacatures",
    "https://boreas-offshore.com/nl/vacatures"
   ],
+  "reached_pages": [
+   "https://boreas-offshore.com/",
+   "https://www.boreas-offshore.com/"
+  ],
   "reason": "no_careers_system_found",
   "notes": [
    "https://boreas-offshore.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/careers",
@@ -2325,6 +2387,10 @@
    "https://zwaluwlogistiek.nl/vacatures",
    "https://zwaluwlogistiek.nl/nl/vacatures"
   ],
+  "reached_pages": [
+   "https://zwaluwlogistiek.nl/",
+   "https://www.zwaluwlogistiek.nl/"
+  ],
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.zwaluwlogistiek.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://zwaluwlogistiek.nl/careers",
@@ -2343,6 +2409,7 @@
    "https://jona.nl/",
    "https://www.jona.nl/"
   ],
+  "reached_pages": [],
   "reason": "site_unreachable",
   "notes": [
    "https://jona.nl/ -> SSLError: HTTPSConnectionPool(host='jona.nl', port=443): Max retries exceeded with url: / (Caused by",
@@ -2372,6 +2439,7 @@
    "https://lilymaas.nl/",
    "https://www.lilymaas.nl/"
   ],
+  "reached_pages": [],
   "reason": "site_unreachable",
   "notes": [
    "https://lilymaas.nl/ -> SSLError: HTTPSConnectionPool(host='lilymaas.nl', port=443): Max retries exceeded with url: / (Cause",
@@ -2403,6 +2471,10 @@
    "https://oranjetransport.nl/werken-bij",
    "https://oranjetransport.nl/vacatures",
    "https://oranjetransport.nl/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://oranjetransport.nl/",
+   "https://www.oranjetransport.nl/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -2440,6 +2512,10 @@
    "https://soderbergtransport.se/vacatures",
    "https://soderbergtransport.se/nl/vacatures"
   ],
+  "reached_pages": [
+   "https://soderbergtransport.se/",
+   "https://www.soderbergtransport.se/"
+  ],
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.soderbergtransport.se/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/careers",
@@ -2476,6 +2552,12 @@
    "https://aeroexpressgroup.com/nl/werken-bij",
    "https://aeroexpressgroup.com/werken-bij"
   ],
+  "reached_pages": [
+   "https://aeroexpressgroup.com/",
+   "https://www.aeroexpressgroup.com/",
+   "https://aeroexpressgroup.com/vacancies",
+   "https://www.aeroexpressgroup.com/vacancies"
+  ],
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.aeroexpressgroup.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.aeroexpressgroup.com/careers",
@@ -2511,6 +2593,20 @@
    "https://atlantlogistics.nl/werken-bij",
    "https://atlantlogistics.nl/vacatures",
    "https://atlantlogistics.nl/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://atlantlogistics.nl/",
+   "https://www.atlantlogistics.nl/",
+   "https://www.atlantlogistics.nl/careers",
+   "https://www.atlantlogistics.nl/careers/",
+   "https://www.atlantlogistics.nl/werken-bij",
+   "https://www.atlantlogistics.nl/vacatures",
+   "https://www.atlantlogistics.nl/jobs",
+   "https://www.atlantlogistics.nl/career",
+   "https://atlantlogistics.nl/careers",
+   "https://atlantlogistics.nl/careers/",
+   "https://atlantlogistics.nl/werken-bij",
+   "https://atlantlogistics.nl/vacatures"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -2582,6 +2678,7 @@
    "https://bfglobal.nl/",
    "https://www.bfglobal.nl/"
   ],
+  "reached_pages": [],
   "reason": "site_unreachable",
   "notes": [
    "https://bfglobal.nl/ -> SSLError: HTTPSConnectionPool(host='bfglobal.nl', port=443): Max retries exceeded with url: / (Cause",
@@ -2596,6 +2693,7 @@
    "https://bluerocklogistics.nl/",
    "https://www.bluerocklogistics.nl/"
   ],
+  "reached_pages": [],
   "reason": "site_unreachable",
   "notes": [
    "https://bluerocklogistics.nl/ -> ConnectTimeout: HTTPSConnectionPool(host='bluerocklogistics.nl', port=443): Max retries exceeded with url:",
@@ -3612,6 +3710,11 @@
    "https://barsan.com/werken-bij",
    "https://barsan.com/vacatures"
   ],
+  "reached_pages": [
+   "https://www.barsan.nl/jobs",
+   "https://barsan.com/",
+   "https://www.barsan.com/"
+  ],
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.barsan.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.barsan.com/careers",
@@ -3683,6 +3786,26 @@
    "https://www.emons.eu/vacatures",
    "https://emons.eu/vacatures/"
   ],
+  "reached_pages": [
+   "https://emons.eu/",
+   "https://www.emons.eu/",
+   "https://emons.eu/careers/",
+   "https://emons.eu/careers/drivers/",
+   "https://emons.eu/careers/mechanics/",
+   "https://emons.eu/careers/office/",
+   "https://emons.eu/de/karriere/",
+   "https://emons.eu/de/karriere/fahrer/",
+   "https://emons.eu/de/karriere/mechaniker/",
+   "https://emons.eu/de/karriere/buero/",
+   "https://emons.eu/karriere/drivers/",
+   "https://emons.eu/karriere/mechanics/",
+   "https://emons.eu/karriere/office/",
+   "https://www.emons.eu/careers",
+   "https://www.emons.eu/en/careers",
+   "https://www.emons.eu/careers/",
+   "https://www.emons.eu/vacatures",
+   "https://emons.eu/vacatures/"
+  ],
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.emons.eu/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://emons.eu/nl/werken-bij",
@@ -3694,6 +3817,28 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
+   "https://bdpint.com/",
+   "https://www.bdpint.com/",
+   "https://psabdp.com/careers/employee-experience",
+   "https://psabdp.com/careers/career-opportunities",
+   "https://psabdp.com/careers",
+   "https://psabdp.com/careers/training-education-development-ted",
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/index",
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/index/",
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll",
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSeeker/createAccount",
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/index/searchType:quick",
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/index/searchType:advanced",
+   "https://www.bdpinternational.com/careers/employee-experience",
+   "https://www.bdpinternational.com/careers/career-opportunities",
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_page:2",
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_page:3",
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_page:4",
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_page:5",
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_page:9",
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_pageSize:10/jobSearchPaginationExternal_page:1"
+  ],
+  "reached_pages": [
    "https://bdpint.com/",
    "https://www.bdpint.com/",
    "https://psabdp.com/careers/employee-experience",
@@ -3928,28 +4073,62 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://northdata.de/",
-   "https://www.northdata.de/",
-   "https://www.northdata.de/_career?utm_source=banner&amp;utm_medium=website&amp;utm_campaign=jobs_de",
-   "https://www.northdata.de/_career",
-   "https://www.northdata.de/_login?targetUrl=https%3A%2F%2Fwww.northdata.de%2F_career",
-   "https://www.northdata.com/_career",
-   "https://www.northdata.com/_login?targetUrl=https%3A%2F%2Fwww.northdata.com%2F_career",
-   "https://www.northdata.de/careers",
-   "https://www.northdata.de/_login?targetUrl=https%3A%2F%2Fwww.northdata.de%2Fcareers",
-   "https://www.northdata.de/Careers%20N%C2%B7V%C2%B7,%20Bruxelles/KBO%200428.005.768",
-   "https://www.northdata.de/SL%20Careers,%20Utrecht/KVK%2098805274",
-   "https://www.northdata.de/C-Careers%20SAS,%20Chatou/Siren%20903722064",
-   "https://www.northdata.de/Career%20Squad%20B%C2%B7V%C2%B7,%20Antwerpen/KBO%200749.713.196",
-   "https://www.northdata.de/CareerSwitch%20B%C2%B7V%C2%B7,%20Aalter/KBO%200543.502.480",
-   "https://www.northdata.de/STP%20Careers%20S%C3%A0rl,%20Villennes-sur-Seine/Siren%20501953186",
-   "https://www.northdata.de/Axon%20Careers%20B%C2%B7V%C2%B7,%20Antwerpen/KBO%200755.684.339",
-   "https://www.northdata.de/NEW%20Careers%20CVBA,%20Waterloo/KBO%200432.899.518",
-   "https://www.northdata.de/A&amp;S%20Careers%20B%C2%B7V%C2%B7,%20Hamme/KBO%200897.635.228",
-   "https://www.northdata.de/Eurocareers%20CVBA,%20Sint-Pieters-Woluwe/KBO%200437.449.214",
-   "https://www.northdata.de/Jobs4Careers%20B%C2%B7V%C2%B7,%20Schoten/KBO%201030.400.415"
+   "https://atllogistics.nl/",
+   "https://www.atllogistics.nl/",
+   "https://www.atllogistics.nl/careers",
+   "https://www.atllogistics.nl/en/careers",
+   "https://www.atllogistics.nl/careers/",
+   "https://www.atllogistics.nl/nl/werken-bij",
+   "https://www.atllogistics.nl/werken-bij",
+   "https://www.atllogistics.nl/vacatures",
+   "https://www.atllogistics.nl/nl/vacatures",
+   "https://www.atllogistics.nl/jobs",
+   "https://www.atllogistics.nl/en/jobs",
+   "https://www.atllogistics.nl/career",
+   "https://www.atllogistics.nl/en/career",
+   "https://atllogistics.nl/careers",
+   "https://atllogistics.nl/en/careers",
+   "https://atllogistics.nl/careers/",
+   "https://atllogistics.nl/nl/werken-bij",
+   "https://atllogistics.nl/werken-bij",
+   "https://atllogistics.nl/vacatures",
+   "https://atllogistics.nl/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://atllogistics.nl/",
+   "https://atllogistics.nl/nl/werken-bij",
+   "https://atllogistics.nl/nl/vacatures"
   ],
   "reason": "no_careers_system_found",
+  "notes": [
+   "https://www.atllogistics.nl/ -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+   "https://www.atllogistics.nl/careers -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+   "https://www.atllogistics.nl/en/careers -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+   "https://www.atllogistics.nl/careers/ -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+   "https://www.atllogistics.nl/nl/werken-bij -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+   "https://www.atllogistics.nl/werken-bij -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: "
+  ],
+  "checked_at": "2026-10-26"
+ },
+ "prospect-transport-logistiek": {
+  "source": {
+   "type": "careerpage",
+   "url": "https://prospect-logistiek.nl/werk-met-ons-samen/"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://prospect-logistiek.nl/",
+   "https://www.prospect-logistiek.nl/",
+   "https://prospect-logistiek.nl/vacature/chauffeur-c/",
+   "https://prospect-logistiek.nl/werk-met-ons-samen/"
+  ],
+  "reached_pages": [
+   "https://prospect-logistiek.nl/",
+   "https://www.prospect-logistiek.nl/",
+   "https://prospect-logistiek.nl/vacature/chauffeur-c/",
+   "https://prospect-logistiek.nl/werk-met-ons-samen/"
+  ],
+  "reason": "found",
   "notes": [],
   "checked_at": "2026-10-26"
  }
