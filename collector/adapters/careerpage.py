@@ -27,7 +27,17 @@ _JOB_PATH = re.compile(
 _NOT_A_POSTING = re.compile(
     r"/(?:vacatures|vacancies|jobs|careers)/?$|"
     r"(?:category|categorie|filter|page|pagina|tag|search|zoeken|overzicht|"
-    r"sollicitatie|open-sollicitatie|privacy|cookie)", re.I)
+    r"sollicitatie|open-sollicitatie|privacy|cookie|"
+    # A company page about what the company sells sits under the same careers
+    # section on some sites. Cabooter's "Road Transport" and "Railcargo
+    # Solutions" are services, not openings.
+    r"our-services|onze-diensten|/services/|/diensten/|/over-ons/|/about-us/)", re.I)
+
+# A path that names a vacancy section is proof enough on its own. Without one,
+# the link's text has to read like a role, or a company's "Silk Road" service
+# page sitting under /career/ is listed as an opening.
+_VACANCY_SEGMENT = re.compile(
+    r"/(?:vacature|vacatures|vacancy|vacancies|job|jobs|job-openings|stelle|offre)s?[/-]", re.I)
 _ANCHOR = re.compile(r"<a\b[^>]*href=[\"']([^\"'>]+)[\"'][^>]*>(.*?)</a>", re.I | re.S)
 _TAGS = re.compile(r"<[^>]+>")
 
@@ -72,6 +82,8 @@ def _looks_like_a_posting(url, title):
     if not _JOB_PATH.search(url) or _NOT_A_POSTING.search(url):
         return False
     if fold(title) in _NAVIGATION:
+        return False
+    if not _VACANCY_SEGMENT.search(url) and not _ROLE_WORDS.search(f"{title} {url}"):
         return False
     return 6 <= len(title) <= 120 and len(title.split()) >= 2
 

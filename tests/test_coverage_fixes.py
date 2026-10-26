@@ -1,6 +1,7 @@
 import unittest
 
 from collector.adapters import careerpage, rmk, vendors
+from collector.adapters.careerpage import _looks_like_a_posting
 from collector.discovery import detect_source
 from tests.fakes import FakeNet
 
@@ -895,3 +896,20 @@ class OneVacancyListedTwiceAppearsOnce(unittest.TestCase):
                                 strict=False)
         self.assertEqual(sorted(j["title"] for j in jobs),
                          ["Chauffeur Koeltransport", "Medewerker Overslag"])
+
+
+class AServicePageIsNotAVacancy(unittest.TestCase):
+    """Cabooter keeps its service pages under /career/, where they read as jobs."""
+
+    def test_a_service_page_is_rejected(self):
+        self.assertFalse(_looks_like_a_posting(
+            "https://www.cabootergroup.com/career/silk-road", "Silk Road"))
+        self.assertFalse(_looks_like_a_posting(
+            "https://www.cabootergroup.com/career/our-services/road-transport", "Road Transport"))
+
+    def test_a_real_opening_still_passes(self):
+        self.assertTrue(_looks_like_a_posting(
+            "https://www.cabootergroup.com/career/career/jobs/intermodal-planner",
+            "Intermodal Planner"))
+        self.assertTrue(_looks_like_a_posting(
+            "https://werkenbijneelevat.com/vacancies/container-planner/", "Container Planner"))
