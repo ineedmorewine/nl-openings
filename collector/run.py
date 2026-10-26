@@ -39,7 +39,7 @@ RENDER_PAGE_BUDGET = 500
 RENDER_PAGES_PER_COMPANY = 4
 # Extra pages allowed when a rendered page points at the real careers page.
 RENDER_FOLLOWED_PAGES = 3
-TIME_BUDGET_SECONDS = 70 * 60
+TIME_BUDGET_SECONDS = 240 * 60
 
 
 def load_json(path, default):
@@ -149,6 +149,21 @@ def second_opinion(net, company, discovery_cache, source=None):
     except Exception:
         return None
     return {"jobs": jobs, "params": params} if jobs else None
+
+
+def least_recently_checked_first(companies, previous_sources):
+    """Order the run so the same companies are not always the ones left out.
+
+    A run can end before the list does. In a fixed order that means the tail is
+    skipped every time, and those companies are never looked at again, however
+    many runs go by: forty of them had not been touched since the morning.
+    Starting with whoever waited longest gives every company its turn.
+    """
+    def waited_longest(company):
+        before = previous_sources.get(company["id"]) or {}
+        return (before.get("checked_at") or "", company["id"])
+
+    return sorted(companies, key=waited_longest)
 
 
 def rendering_order(company, discovery_cache, source=None):
@@ -452,6 +467,8 @@ def main(argv=None):
     net = Net()
     renderer = PageRenderer(RENDER_PAGE_BUDGET)
     all_jobs, sources = [], []
+
+    companies = least_recently_checked_first(companies, previous_sources)
 
     for company in companies:
         cid = company["id"]

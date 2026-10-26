@@ -1018,3 +1018,15 @@ class TheBrowserOnlyOpensAddressesThatAnswered(unittest.TestCase):
                                             "https://acme.nl/over-ons"]}}
         order = run.rendering_order({"id": "acme", "domain": "acme.nl"}, cache)
         self.assertEqual(order, ["https://acme.nl/", "https://acme.nl/over-ons"])
+
+
+class EveryCompanyGetsItsTurn(unittest.TestCase):
+    """A run that ends early always skipped the same tail of the list."""
+
+    def test_the_longest_waiting_company_goes_first(self):
+        companies = [{"id": "a"}, {"id": "b"}, {"id": "c"}]
+        previous = {"a": {"checked_at": "2026-10-26T20:00+00:00"},
+                    "b": {"checked_at": "2026-10-20T09:00+00:00"}}
+        order = [c["id"] for c in run.least_recently_checked_first(companies, previous)]
+        # "c" has never been checked at all, so it waited longest of the three.
+        self.assertEqual(order, ["c", "b", "a"])
