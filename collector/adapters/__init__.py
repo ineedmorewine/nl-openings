@@ -10,7 +10,7 @@ Only Dutch jobs are returned; 'strict' means unknown locations are dropped.
 from types import SimpleNamespace
 
 from . import (amazon, careerpage, greenhouse, jsonld, lever, personio, recruitee, rmk,
-               smartrecruiters, teamtailor, vendors, workable, workday)
+               sitemap, smartrecruiters, teamtailor, vendors, workable, workday)
 
 ADAPTERS = {
     "amazon": amazon,
@@ -23,6 +23,7 @@ ADAPTERS = {
     "personio": personio,
     "phenom": SimpleNamespace(fetch=vendors.phenom_fetch),
     "recruitee": recruitee,
+    "sitemap": sitemap,
     "rmk": rmk,
     "smartrecruiters": smartrecruiters,
     "teamtailor": teamtailor,

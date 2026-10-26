@@ -5,10 +5,11 @@ Flow: homepage -> links that look like a careers page (plus a few common paths)
 in docs/data/discovery.json so the next run goes straight to the adapter.
 """
 import re
-from urllib.parse import urljoin, urlparse
+from urllib.parse import unquote, urljoin, urlparse
 
 from .adapters.careerpage import find_posting_links
 from .adapters.jsonld import extract_job_postings
+from .text import fold
 
 CAREER_WORDS = re.compile(
     r"(careers?|jobs|vacatures?|vacancies|vacancy|werken[\s\-]?bij|werkenbij|join[\s\-]us|"
@@ -16,8 +17,13 @@ CAREER_WORDS = re.compile(
 COMMON_PATHS = ["/careers", "/en/careers", "/careers/", "/nl/werken-bij", "/werken-bij",
                 "/vacatures", "/nl/vacatures", "/jobs", "/en/jobs", "/career", "/en/career"]
 # Careers sites very often live on their own host rather than a path.
-COMMON_HOSTS = ["jobs.{domain}", "careers.{domain}", "werkenbij.{domain}", "career.{domain}"]
-MAX_PAGES = 14
+# Careers sites very often live on their own host rather than a path. Dutch
+# employers in particular put theirs on werkenbij<brand>.nl, a separate site
+# from the company's own.
+COMMON_HOSTS = ["jobs.{domain}", "careers.{domain}", "werkenbij.{domain}", "career.{domain}",
+                "vacatures.{domain}", "karriere.{domain}", "werkenbij{brand}.nl",
+                "werkenbij{brand}.com", "jobs.{brand}.nl"]
+MAX_PAGES = 20
 
 _ANCHOR = re.compile(r"<a\b[^>]*href=[\"']([^\"'#]+)[\"'][^>]*>(.*?)</a>", re.I | re.S)
 _TAGS = re.compile(r"<[^>]+>")
@@ -191,6 +197,78 @@ def probe_known_endpoints(net, origin):
     return None
 
 
+SEARCH_URL = "https://html.duckduckgo.com/html/"
+# The result link, written with class and href in either order.
+_RESULT_HREF = re.compile(
+    r'<a[^>]*class="[^"]*result__a[^"]*"[^>]*href="([^"]+)"'
+    r'|<a[^>]*href="([^"]+)"[^>]*class="[^"]*result__a', re.I)
+# The search page often hands out its own redirect, with the real address inside.
+_REDIRECTED = re.compile(r"[?&]uddg=([^&]+)")
+_NOT_A_COMPANY_SITE = ("linkedin.", "facebook.", "indeed.", "glassdoor.", "kvk.nl",
+                       "bedrijvenpagina", "companyinfo", "opencorporates", "youtube.",
+                       "dnb.com", "trustpilot.", "wikipedia.", "duckduckgo.", "bing.",
+                       "google.", "werkzoeken.", "nationalevacaturebank.", "jobbird.")
+
+
+def find_domain(net, name):
+    """Look up a company's own website, and only accept one that names it back.
+
+    Addresses guessed from a company name were wrong often enough to be worse
+    than nothing, so a candidate is kept only if its front page actually
+    mentions the company. An address we cannot confirm is left empty.
+    """
+    try:
+        markup = net.get(SEARCH_URL, params={"q": f"{name} B.V. Nederland officiële website"}).text
+    except Exception:
+        return None
+    candidates = [first or second for first, second in _RESULT_HREF.findall(markup or "")]
+    words = [word for word in re.findall(r"[a-z]+", fold(name)) if len(word) > 2]
+    for link in candidates[:8]:
+        redirected = _REDIRECTED.search(link)
+        link = unquote(redirected.group(1)) if redirected else link
+        host = urlparse(link).netloc.lower()
+        if not host or any(skip in host for skip in _NOT_A_COMPANY_SITE):
+            continue
+        bare = host.replace("www.", "")
+        try:
+            body = fold(net.get(f"https://{bare}/").text)
+        except Exception:
+            continue
+        if sum(word in body for word in words) >= max(1, len(words) - 1):
+            return bare
+    return None
+
+
+_SITEMAP_URL = re.compile(r"<loc>\s*([^<\s]+)\s*</loc>", re.I)
+_VACANCY_URL = re.compile(r"/(vacature|vacatures|vacancy|vacancies|job|jobs|werken-bij)[/-]", re.I)
+SITEMAP_PATHS = ["/sitemap.xml", "/sitemap_index.xml", "/wp-sitemap.xml"]
+
+
+def careers_page_from_sitemap(net, origin):
+    """Find the vacancy section from the site's own map of itself.
+
+    A page that builds its list in the browser hides its vacancies from us, but
+    the sitemap still lists them, and it is a file written for machines to read.
+    """
+    for path in SITEMAP_PATHS:
+        try:
+            body = net.get(origin.rstrip("/") + path).text
+        except Exception:
+            continue
+        locations = _SITEMAP_URL.findall(body or "")
+        # A sitemap index points at further sitemaps; follow one that sounds right.
+        nested = [loc for loc in locations if loc.endswith(".xml") and _VACANCY_URL.search(loc)]
+        for loc in nested[:2]:
+            try:
+                locations += _SITEMAP_URL.findall(net.get(loc).text or "")
+            except Exception:
+                continue
+        vacancies = [loc for loc in locations if _VACANCY_URL.search(loc)]
+        if len(vacancies) >= 2:
+            return vacancies
+    return []
+
+
 def discover(net, company):
     """Return a dict: {source, vendor, checked_pages, reason, notes}."""
     start_pages = []
@@ -198,13 +276,17 @@ def discover(net, company):
         start_pages.append(company["careers_url"])
     start_pages.extend(homepages(company.get("domain")))
 
-    queue, visited, weak_vendor = list(start_pages), [], None
+    # Two queues, and the guessed addresses are always read last. A company's
+    # own "Werken bij" link is worth more than eleven guessed paths, and when
+    # the guesses went first they used up the page budget on 404s before the
+    # real careers page was ever opened.
+    queue, guesses, visited, weak_vendor = list(start_pages), [], [], None
     fronts = set(homepages(company.get("domain")))
     reachable = False
     notes = []
 
-    while queue and len(visited) < MAX_PAGES:
-        url = queue.pop(0)
+    while (queue or guesses) and len(visited) < MAX_PAGES:
+        url = queue.pop(0) if queue else guesses.pop(0)
         if url in visited:
             continue
         visited.append(url)
@@ -227,9 +309,11 @@ def discover(net, company):
                 queue.append(link)
         if url in fronts and company.get("domain"):
             bare = company["domain"].replace("www.", "")
+            brand = bare.split(".")[0]
             for prefix in (f"https://www.{bare}", f"https://{bare}"):
-                queue.extend(prefix + path for path in COMMON_PATHS)
-            queue.extend("https://" + host.format(domain=bare) + "/" for host in COMMON_HOSTS)
+                guesses.extend(prefix + path for path in COMMON_PATHS)
+            guesses.extend("https://" + host.format(domain=bare, brand=brand) + "/"
+                           for host in COMMON_HOSTS)
 
     # Nothing recognised on any page. Before giving up, ask the careers hosts
     # themselves whether they run on a platform we can read.
@@ -242,6 +326,15 @@ def discover(net, company):
         if source:
             return {"source": source, "vendor": None, "checked_pages": visited,
                     "reason": "found", "notes": notes}
+
+    # Still nothing. The site's own map of itself names its vacancy pages even
+    # when no link to them survives in the markup we can download.
+    for page in list(fronts) + visited[:3]:
+        parsed = urlparse(page)
+        vacancies = careers_page_from_sitemap(net, f"{parsed.scheme}://{parsed.netloc}")
+        if vacancies:
+            return {"source": {"type": "sitemap", "urls": vacancies[:40]}, "vendor": None,
+                    "checked_pages": visited, "reason": "found", "notes": notes}
 
     if not reachable:
         reason = "site_unreachable"

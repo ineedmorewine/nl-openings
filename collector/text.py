@@ -135,6 +135,15 @@ _DUTCH_REQUIRED = [
     r"nederlands(e\s+taal)?\s+(en\s+engels\s+)?(in\s+woord\s+en\s+geschrift|vloeiend|vereist)",
     r"vloeiend\s+nederlands",
     r"(spreekt|beheerst)\s+(vloeiend\s+|goed\s+)?nederlands",
+    # "You communicate professionally in Dutch and English" asks for Dutch as
+    # plainly as "Dutch is required" does, and Dachser's ads are written this way.
+    r"communicat\w*[^.]{0,60}\bin\s+(the\s+)?dutch",
+    r"\bdutch\s+and\s+english\b|\benglish\s+and\s+dutch\b",
+    r"\bnederlands\s+en\s+engels\b|\bengels\s+en\s+nederlands\b",
+    r"fluency\s+in\s+(the\s+)?dutch",
+    r"dutch\s+(and\s+english\s+)?(language\s+)?skills",
+    r"(goede|uitstekende)\s+(mondelinge\s+en\s+schriftelijke\s+)?"
+    r"(communicatie\s+)?(vaardigheden\s+)?in\s+het\s+nederlands",
 ]
 _DUTCH_OPTIONAL = re.compile(
     r"(\bplus\b|advantage|nice\s+to\s+have|\bpre\b|preferred|pluspunt|is\s+een\s+pre|\basset\b)"

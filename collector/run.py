@@ -17,7 +17,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from .adapters import ADAPTERS, careerpage
-from .discovery import career_links, discover, homepages
+from .discovery import career_links, discover, find_domain, homepages
 from .render import BrowserUnavailable, PageRenderer
 from .filters import is_suitable
 from .net import Net
@@ -73,10 +73,16 @@ def make_job_id(company_id, raw):
     return f"{company_id}:{raw.get('ext_id') or raw.get('url')}"
 
 
+# Raised whenever the reading rules change, so postings already on the list are
+# read again with the new rules instead of keeping an answer from the old ones.
+LABEL_RULES = 2
+
+
 def language_labels(text):
     if not text:
         return None
-    return {"dutch_required": dutch_required(text), "written_in_dutch": written_in_dutch(text),
+    return {"rules": LABEL_RULES,
+            "dutch_required": dutch_required(text), "written_in_dutch": written_in_dutch(text),
             **(international_labels(text) or {})}
 
 
@@ -87,13 +93,7 @@ def labels_are_current(labels):
     the postings already in the list were never asked it. Rather than leave them
     blank for as long as they stay open, they are read once more.
     """
-    if not isinstance(labels, dict):
-        return False
-    return all(key in labels for key in LABEL_KEYS)
-
-
-LABEL_KEYS = ("dutch_required", "written_in_dutch", "sponsorship", "no_sponsorship",
-              "relocation", "english_workplace")
+    return isinstance(labels, dict) and labels.get("rules") == LABEL_RULES
 
 
 def careers_link(company, discovery_cache):
@@ -213,7 +213,19 @@ def resolve_source(net, company, discovery_cache, today):
     if cached and cached.get("source"):
         return cached["source"], True, None
     if not company.get("domain") and not company.get("careers_url"):
-        return None, False, {"status": "no_address"}
+        # No website on file. Look one up, and keep it only if the page names
+        # the company back, so a wrong address is never written down as fact.
+        looked_up = (cached or {}).get("looked_up_domain")
+        if not looked_up:
+            # A failed look-up is not remembered, so a search that was merely
+            # unavailable today is tried again tomorrow.
+            looked_up = find_domain(net, company["name"])
+            if looked_up:
+                discovery_cache[company["id"]] = dict(cached or {}, looked_up_domain=looked_up,
+                                                      checked_at=today)
+        if not looked_up:
+            return None, False, {"status": "no_address"}
+        company = dict(company, domain=looked_up)
     result = discover(net, company)
     discovery_cache[company["id"]] = dict(result, checked_at=today)
     if result["source"]:
@@ -227,13 +239,17 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
     """Return (status_entry, jobs). jobs is None when the company could not be read today."""
     source, discovered, failure = resolve_source(net, company, discovery_cache, today)
     if failure:
-        if failure["status"] != "no_careers_system_found":
+        # A site that refuses our download often answers a real browser, so an
+        # unreachable site is worth one rendered attempt before it is written
+        # off. Only an address we do not have is hopeless here.
+        if failure["status"] not in ("no_careers_system_found", "site_unreachable"):
             return failure, None
         # No recruitment system recognised, but the careers pages we reached may
         # still list vacancies as ordinary links. Giving up here is what kept
         # most of the list unread: a company without a known system was never
         # read at all, however plainly its vacancies were published.
-        fallback = second_opinion(net, company, discovery_cache)
+        blocked = failure["status"] == "site_unreachable"
+        fallback = None if blocked else second_opinion(net, company, discovery_cache)
         rendered = False
         if not fallback:
             attempt = rendered_second_opinion(renderer, company, discovery_cache)

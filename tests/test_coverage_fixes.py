@@ -2,7 +2,8 @@ import unittest
 
 from collector.adapters import careerpage, rmk, vendors
 from collector.adapters.careerpage import _looks_like_a_posting
-from collector.discovery import detect_source
+from collector.adapters import sitemap
+from collector.discovery import detect_source, discover, find_domain
 from tests.fakes import FakeNet
 
 # ---------------------------------------------------------------- silent zeros
@@ -913,3 +914,69 @@ class AServicePageIsNotAVacancy(unittest.TestCase):
             "Intermodal Planner"))
         self.assertTrue(_looks_like_a_posting(
             "https://werkenbijneelevat.com/vacancies/container-planner/", "Container Planner"))
+
+
+# ------------------------------------------------- finding the careers page
+
+class TheCompanysOwnLinkIsTriedBeforeGuessedAddresses(unittest.TestCase):
+    """Eleven guessed paths used to spend the page budget before the real link."""
+
+    def test_the_real_link_is_read_even_though_guesses_exist(self):
+        net = FakeNet({
+            "https://acme.nl/": '<a href="/over-ons/werken-bij">Werken bij</a>',
+            "https://www.acme.nl/": '<a href="/over-ons/werken-bij">Werken bij</a>',
+            "https://acme.nl/over-ons/werken-bij":
+                '<script src="https://boards.greenhouse.io/embed/job_board/js?for=acme"></script>',
+        })
+        found = discover(net, {"id": "acme", "domain": "acme.nl"})
+        self.assertEqual(found["reason"], "found")
+        self.assertEqual(found["source"]["type"], "greenhouse")
+
+
+class TheSiteMapNamesVacanciesThePageHides(unittest.TestCase):
+    def test_vacancy_addresses_are_taken_from_the_sitemap(self):
+        net = FakeNet({
+            "https://acme.nl/": "<html>nothing here</html>",
+            "https://www.acme.nl/": "<html>nothing here</html>",
+            "https://acme.nl/sitemap.xml":
+                "<urlset><url><loc>https://acme.nl/vacatures/transportplanner</loc></url>"
+                "<url><loc>https://acme.nl/vacatures/expediteur</loc></url>"
+                "<url><loc>https://acme.nl/contact</loc></url></urlset>",
+        })
+        found = discover(net, {"id": "acme", "domain": "acme.nl"})
+        self.assertEqual(found["reason"], "found")
+        self.assertEqual(found["source"]["type"], "sitemap")
+        self.assertEqual(len(found["source"]["urls"]), 2)
+
+    def test_a_vacancy_page_is_read_as_one_posting(self):
+        net = FakeNet({
+            "https://acme.nl/vacatures/transportplanner":
+                "<html><h1>Transportplanner Rotterdam</h1><p>Standplaats: Rotterdam. "
+                "Je plant ritten voor onze klanten in Europa.</p></html>",
+        })
+        jobs = sitemap.fetch(net, {"urls": ["https://acme.nl/vacatures/transportplanner"]}, True)
+        self.assertEqual(jobs[0]["title"], "Transportplanner Rotterdam")
+        self.assertEqual(jobs[0]["location"], "Rotterdam")
+
+
+class AnAddressIsLookedUpButOnlyKeptIfTheSiteNamesTheCompany(unittest.TestCase):
+    SEARCH = ("https://html.duckduckgo.com/html/?q=Boreas+Logistics+B.V."
+              "+Nederland+offici%C3%ABle+website")
+
+    def results(self, *links):
+        return "".join(f'<a class="result__a" href="{link}">x</a>' for link in links)
+
+    def test_a_confirmed_site_is_accepted(self):
+        net = FakeNet({
+            self.SEARCH: self.results("https://www.linkedin.com/company/boreas",
+                                      "https://boreaslogistics.nl/"),
+            "https://boreaslogistics.nl/": "<html>Boreas Logistics verzorgt transport.</html>",
+        })
+        self.assertEqual(find_domain(net, "Boreas Logistics"), "boreaslogistics.nl")
+
+    def test_a_site_that_does_not_name_the_company_is_refused(self):
+        net = FakeNet({
+            self.SEARCH: self.results("https://someoneelse.nl/"),
+            "https://someoneelse.nl/": "<html>Wij verkopen fietsen.</html>",
+        })
+        self.assertIsNone(find_domain(net, "Boreas Logistics"))

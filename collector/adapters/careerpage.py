@@ -244,7 +244,10 @@ def _guess_location(text):
     fall back to the first word.
     """
     for match in _DUTCH_PLACE.finditer(text or ""):
-        words = match.group(1).strip(" .,-").split()
+        # Punctuation clings to the last word ("Rotterdam."), and a place name
+        # carrying a full stop is recognised as neither Dutch nor foreign.
+        words = [word.strip(".,;:") for word in match.group(1).strip(" .,-").split()]
+        words = [word for word in words if word]
         if not words:
             continue
         for length in range(1, len(words) + 1):
