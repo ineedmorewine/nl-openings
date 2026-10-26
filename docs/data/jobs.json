@@ -1,30 +1,6 @@
 {
- "generated_at": "2026-10-26T01:04+00:00",
+ "generated_at": "2026-10-26T09:48+00:00",
  "jobs": [
-  {
-   "id": "dsv:/job/Venlo-Customer-Service-Representative-LI-5928-SC/1431830233/",
-   "company_id": "dsv",
-   "title": "Customer Service Representative",
-   "location": "Venlo, LI, NL, 5928 SC",
-   "url": "https://jobs.dsv.com/job/Venlo-Customer-Service-Representative-LI-5928-SC/1431830233/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-26",
-   "baseline": false
-  },
-  {
-   "id": "dsv:/job/Venlo-Warehouse-Supervisor-LI-5928-SC/1432300133/",
-   "company_id": "dsv",
-   "title": "Warehouse Supervisor",
-   "location": "Venlo, LI, NL, 5928 SC",
-   "url": "https://jobs.dsv.com/job/Venlo-Warehouse-Supervisor-LI-5928-SC/1432300133/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-26",
-   "baseline": false
-  },
   {
    "id": "dsv:/job/Moerdijk-Supervisor-Application-Engineering-Nort-4782-JA/1442206033/",
    "company_id": "dsv",
@@ -38,40 +14,40 @@
    "baseline": false
   },
   {
-   "id": "dsv:/job/Moerdijk-Warehouse-Teamleider-Nort-4782-JA/1410698533/",
+   "id": "dsv:/job/Moerdijk-Warehouse-Supervisor-Nort-4782-JA/1410863633/",
    "company_id": "dsv",
-   "title": "Warehouse Teamleider",
+   "title": "Warehouse Supervisor",
    "location": "Moerdijk, North Brabant, NL, 4782 JA",
-   "url": "https://jobs.dsv.com/job/Moerdijk-Warehouse-Teamleider-Nort-4782-JA/1410698533/",
-   "posted_at": null,
+   "url": "https://jobs.dsv.com/job/Moerdijk-Warehouse-Supervisor-Nort-4782-JA/1410863633/",
+   "posted_at": "2026-10-26",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-26",
+   "first_seen": "2026-10-23",
    "baseline": false
   },
   {
-   "id": "dsv:/job/Moerdijk-Supervisor-Applicatie-Engineering-Nort-4782-JA/1442206133/",
-   "company_id": "dsv",
-   "title": "Supervisor Applicatie Engineering",
-   "location": "Moerdijk, North Brabant, NL, 4782 JA",
-   "url": "https://jobs.dsv.com/job/Moerdijk-Supervisor-Applicatie-Engineering-Nort-4782-JA/1442206133/",
-   "posted_at": null,
+   "id": "gxo-logistics:/job/Dordrecht-HR-Adviseur-3316-GD/1396241000/",
+   "company_id": "gxo-logistics",
+   "title": "HR Adviseur",
+   "location": "Dordrecht, NL, 3316 GD",
+   "url": "https://jobs.gxo.com/job/Dordrecht-HR-Adviseur-3316-GD/1396241000/",
+   "posted_at": "2026-10-26",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-26",
-   "baseline": false
+   "first_seen": "2026-10-01",
+   "baseline": true
   },
   {
-   "id": "dsv:/job/Venlo-Inventory-Controller-LI-5928-SC/1399787733/",
-   "company_id": "dsv",
-   "title": "Inventory Controller",
-   "location": "Venlo, LI, NL, 5928 SC",
-   "url": "https://jobs.dsv.com/job/Venlo-Inventory-Controller-LI-5928-SC/1399787733/",
-   "posted_at": "2026-10-25",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Customer-Service-Key-Account-6902KL/1325145855/",
+   "company_id": "dachser",
+   "title": "Customer Service Key Account",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Customer-Service-Key-Account-6902KL/1325145855/",
+   "posted_at": "2026-10-26",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-26",
-   "baseline": false
+   "first_seen": "2026-09-17",
+   "baseline": true
   },
   {
    "id": "dsv:/job/Venlo-Troubleshooter-LI-5928-SG/1420852633/",
@@ -141,26 +117,173 @@
    "baseline": false
   },
   {
-   "id": "dsv:/job/Schiphol-IT-Support-Engineer-Nort-1118-AM/1400302933/",
-   "company_id": "dsv",
-   "title": "IT Support Engineer",
-   "location": "Schiphol, North Holland, NL, 1118 AM",
-   "url": "https://jobs.dsv.com/job/Schiphol-IT-Support-Engineer-Nort-1118-AM/1400302933/",
+   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
+   "company_id": "klg-europe",
+   "title": "Transport Planner Hongarije",
+   "location": "Venlo, Nederland",
+   "url": "https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
    "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
    "first_seen": "2026-10-25",
    "baseline": false
   },
   {
-   "id": "dsv:/job/Moerdijk-Customer-Care-&-Support-Nederlands-Franstalig-Nort-4782-JA/1410857933/",
-   "company_id": "dsv",
-   "title": "Customer Care & Support Nederlands-Franstalig",
-   "location": "Moerdijk, North Brabant, NL, 4782 JA",
-   "url": "https://jobs.dsv.com/job/Moerdijk-Customer-Care-&-Support-Nederlands-Franstalig-Nort-4782-JA/1410857933/",
+   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/orderplanner-warehouse-192",
+   "company_id": "klg-europe",
+   "title": "Orderplanner Warehouse",
+   "location": "Venlo, Nederland",
+   "url": "https://www.werkenbijklg.nl/vacatures/orderplanner-warehouse-192",
    "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
+   "company_id": "neele-vat",
+   "title": "Freight Forwarder Road Transport Uk",
+   "location": "Rotterdam Hoogvliet",
+   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
+   "company_id": "neele-vat",
+   "title": "All Round Sea Freight Forwarder",
+   "location": "rotterdam Spaanse Polder",
+   "url": "https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/container-planner/",
+   "company_id": "neele-vat",
+   "title": "Container Planner",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/container-planner/",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
+   "company_id": "neele-vat",
+   "title": "Transportplanner Ftl",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
+   "company_id": "neele-vat",
+   "title": "Freight Forwarder Shiproad",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
+   "company_id": "neele-vat",
+   "title": "Customer Operations Specialist",
+   "location": "City Terminal; Rotterdam Maasvlakte",
+   "url": "https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
+   "company_id": "neele-vat",
+   "title": "Export Forwarder",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
    "first_seen": "2026-10-25",
    "baseline": false
   },
@@ -596,11 +719,11 @@
    "baseline": true
   },
   {
-   "id": "dsv:/job/Haps-Customer-Service-Representative-Nort-5443-PV/1450710633/",
+   "id": "dsv:/job/Haps-Customer-Service-Representative-Nort-5443-PV/1450710533/",
    "company_id": "dsv",
    "title": "Customer Service Representative",
    "location": "Haps, North Brabant, NL, 5443 PV",
-   "url": "https://jobs.dsv.com/job/Haps-Customer-Service-Representative-Nort-5443-PV/1450710633/",
+   "url": "https://jobs.dsv.com/job/Haps-Customer-Service-Representative-Nort-5443-PV/1450710533/",
    "posted_at": "2026-10-23",
    "labels": null,
    "labels_checked": false,
@@ -760,18 +883,6 @@
    "baseline": false
   },
   {
-   "id": "dsv:/job/Moerdijk-Warehouse-Supervisor-Nort-4782-JA/1410863633/",
-   "company_id": "dsv",
-   "title": "Warehouse Supervisor",
-   "location": "Moerdijk, North Brabant, NL, 4782 JA",
-   "url": "https://jobs.dsv.com/job/Moerdijk-Warehouse-Supervisor-Nort-4782-JA/1410863633/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-23",
-   "baseline": false
-  },
-  {
    "id": "p-o-ferrymasters:24428",
    "company_id": "p-o-ferrymasters",
    "title": "Global Manager - Performance Management CL",
@@ -815,30 +926,6 @@
    "baseline": false
   },
   {
-   "id": "apm-terminals:/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
-   "company_id": "apm-terminals",
-   "title": "FCL MOF/LCL Operations Associate",
-   "location": "Netherlands, Amsterdam, 2132 MV",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
-   "posted_at": "2026-10-23",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/FCL-MOF-LCL-Operations-Associate_R199117",
-   "company_id": "apm-terminals",
-   "title": "FCL MOF/LCL Operations Associate",
-   "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/FCL-MOF-LCL-Operations-Associate_R199117",
-   "posted_at": "2026-10-23",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
    "id": "abbott:/job/Netherlands---Zwolle/Technical-Warehouse-Operator_31165459",
    "company_id": "abbott",
    "title": "Technical Warehouse Operator",
@@ -872,18 +959,6 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-21",
-   "baseline": false
-  },
-  {
-   "id": "c-h-robinson:/job/Rotterdam-Netherlands/Account-Executive_R49763",
-   "company_id": "c-h-robinson",
-   "title": "Account Executive- Dutch Speaker",
-   "location": "Rotterdam Netherlands",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Rotterdam-Netherlands/Account-Executive_R49763",
-   "posted_at": "2026-10-23",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-10",
    "baseline": false
   },
   {
@@ -954,23 +1029,68 @@
    "baseline": true
   },
   {
-   "id": "dsv:/job/Venlo-Junior-Technician-Facilities-&-Technical-Services-LI-5928-SC/1370013533/",
-   "company_id": "dsv",
-   "title": "Junior Technician Facilities & Technical Services",
-   "location": "Venlo, LI, NL, 5928 SC",
-   "url": "https://jobs.dsv.com/job/Venlo-Junior-Technician-Facilities-&-Technical-Services-LI-5928-SC/1370013533/",
+   "id": "den-hartogh:2793411",
+   "company_id": "den-hartogh",
+   "title": "Chauffeur 5-ploegendienst",
+   "location": "Botlek Rotterdam",
+   "url": "https://careers.denhartogh.com/o/chauffeur-5-ploegendienst-3",
    "posted_at": "2026-10-22",
-   "labels": null,
-   "labels_checked": false,
+   "labels": {
+    "dutch_required": true,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2793402",
+   "company_id": "den-hartogh",
+   "title": "Chauffeur Internationaal (schaal E)",
+   "location": "Rozenburg",
+   "url": "https://careers.denhartogh.com/o/chauffeur-internationaal-schaal-e-5",
+   "posted_at": "2026-10-22",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2793400",
+   "company_id": "den-hartogh",
+   "title": "Driver International",
+   "location": "Rozenburg",
+   "url": "https://careers.denhartogh.com/o/driver-international-7",
+   "posted_at": "2026-10-22",
+   "labels": {
+    "dutch_required": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
    "first_seen": "2026-10-26",
    "baseline": false
   },
   {
    "id": "dsv:/job/Rotterdam-Junior-Supply-Chain-Consultant-ZH-3089-JW/1402941733/",
    "company_id": "dsv",
-   "title": "Junior Technician Facilities & Technical Services",
-   "location": "Venlo, LI, NL, 5928 SC",
-   "url": "https://jobs.dsv.com/job/Venlo-Junior-Technician-Facilities-&-Technical-Services-LI-5928-SC/1370013533/",
+   "title": "Junior Supply Chain Consultant",
+   "location": "Rotterdam, ZH, NL, 3089 JW",
+   "url": "https://jobs.dsv.com/job/Rotterdam-Junior-Supply-Chain-Consultant-ZH-3089-JW/1402941733/",
    "posted_at": "2026-10-22",
    "labels": null,
    "labels_checked": false,
@@ -1086,11 +1206,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-387388",
+   "id": "dhl-group:AV-387555",
    "company_id": "dhl-group",
-   "title": "Finance Manager",
-   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387388&source=careers.dhl.com",
+   "title": "Senior Java Developer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387555&source=careers.dhl.com",
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
@@ -1105,11 +1225,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-387555",
+   "id": "dhl-group:AV-387388",
    "company_id": "dhl-group",
-   "title": "Senior Java Developer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387555&source=careers.dhl.com",
+   "title": "Finance Manager",
+   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=387388&source=careers.dhl.com",
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
@@ -1219,6 +1339,30 @@
    "baseline": false
   },
   {
+   "id": "apm-terminals:/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
+   "company_id": "apm-terminals",
+   "title": "FCL MOF/LCL Operations Associate",
+   "location": "Netherlands, Amsterdam, 2132 MV",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
+   "posted_at": "2026-10-22",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/FCL-MOF-LCL-Operations-Associate_R199117",
+   "company_id": "apm-terminals",
+   "title": "FCL MOF/LCL Operations Associate",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/FCL-MOF-LCL-Operations-Associate_R199117",
+   "posted_at": "2026-10-22",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
    "id": "abbott:/job/Netherlands---Hoofddorp/HIC--Healthcare-Insurance-Companies--Market-Access-Specialist---Diabetes-care---Netherlands_31153296",
    "company_id": "abbott",
    "title": "Market Access Manager - Diabetes Care - Netherlands (Hoofddorp)",
@@ -1303,6 +1447,18 @@
    "baseline": false
   },
   {
+   "id": "c-h-robinson:/job/Rotterdam-Netherlands/Account-Executive_R49763",
+   "company_id": "c-h-robinson",
+   "title": "Account Executive- Dutch Speaker",
+   "location": "Rotterdam Netherlands",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Rotterdam-Netherlands/Account-Executive_R49763",
+   "posted_at": "2026-10-22",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-10",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-356229",
    "company_id": "dhl-group",
    "title": "Teamleider Logistiek",
@@ -1365,22 +1521,22 @@
    "baseline": true
   },
   {
-   "id": "dsv:/job/Rotterdam-Senior-Expediteur-Key-Accounts-ZH-3089-JW/1449690533/",
+   "id": "dsv:/job/Rotterdam-Senior-Forwarder-Key-Accounts-ZH-3089-JW/1449690633/",
    "company_id": "dsv",
-   "title": "Senior Expediteur Key Accounts",
+   "title": "Senior Forwarder Key Accounts",
    "location": "Rotterdam, ZH, NL, 3089 JW",
-   "url": "https://jobs.dsv.com/job/Rotterdam-Senior-Expediteur-Key-Accounts-ZH-3089-JW/1449690533/",
+   "url": "https://jobs.dsv.com/job/Rotterdam-Senior-Forwarder-Key-Accounts-ZH-3089-JW/1449690633/",
    "posted_at": "2026-10-21",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true,
+    "written_in_dutch": false,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
     "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -1500,21 +1656,6 @@
     "no_sponsorship": false,
     "relocation": false,
     "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-365441",
-   "company_id": "dhl-group",
-   "title": "Product Owner – Internal Integrations | Architect",
-   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365441&source=careers.dhl.com",
-   "posted_at": "2026-10-21",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
    },
    "labels_checked": true,
    "first_seen": "2026-10-22",
@@ -1652,18 +1793,6 @@
    "baseline": false
   },
   {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant---FMCG---Chemicals_R193829-1",
-   "company_id": "apm-terminals",
-   "title": "Customer Experience Consultant – FMCG & Chemicals",
-   "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant---FMCG---Chemicals_R193829-1",
-   "posted_at": "2026-10-21",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-17",
-   "baseline": false
-  },
-  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Assistent-Planner-Binnenland-6902KL/1330136655/",
    "company_id": "dachser",
    "title": "Assistent Planner Binnenland",
@@ -1683,21 +1812,14 @@
    "baseline": false
   },
   {
-   "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Global-Forwarding-Agent_R49058",
-   "company_id": "c-h-robinson",
-   "title": "Warehouse Operations Agent",
-   "location": "Aalsmeer Netherlands",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Global-Forwarding-Agent_R49058",
+   "id": "dachser:/dachser_europe/job/Zevenaar-Open-Sollicitatie-6902KL/1326923255/",
+   "company_id": "dachser",
+   "title": "Open Sollicitatie",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Open-Sollicitatie-6902KL/1326923255/",
    "posted_at": "2026-10-21",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
   },
@@ -1714,16 +1836,23 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Open-Sollicitatie-6902KL/1326923255/",
-   "company_id": "dachser",
-   "title": "Open Sollicitatie",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Open-Sollicitatie-6902KL/1326923255/",
-   "posted_at": "2026-10-21",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
+   "id": "den-hartogh:2790858",
+   "company_id": "den-hartogh",
+   "title": "Stage Facility Management",
+   "location": "Rotterdam",
+   "url": "https://careers.denhartogh.com/o/stage-facility-management",
+   "posted_at": "2026-10-20",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
   },
   {
    "id": "dsv:/job/Moerdijk-Customer-Service-Representative-Nort-4761-RL/1368956033/",
@@ -1751,21 +1880,6 @@
     "no_sponsorship": false,
     "relocation": false,
     "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-26",
-   "baseline": false
-  },
-  {
-   "id": "dsv:/job/Rotterdam-Senior-Freight-Forwarder-ZH-3089-JW/1449432133/",
-   "company_id": "dsv",
-   "title": "Senior Freight Forwarder",
-   "location": "Rotterdam, ZH, NL, 3089 JW",
-   "url": "https://jobs.dsv.com/job/Rotterdam-Senior-Freight-Forwarder-ZH-3089-JW/1449432133/",
-   "posted_at": "2026-10-20",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -1952,6 +2066,18 @@
    "baseline": false
   },
   {
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant---FMCG---Chemicals_R193829-1",
+   "company_id": "apm-terminals",
+   "title": "Customer Experience Consultant – FMCG & Chemicals",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant---FMCG---Chemicals_R193829-1",
+   "posted_at": "2026-10-20",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-17",
+   "baseline": false
+  },
+  {
    "id": "gxo-logistics:/job/Almere-Site-Controller-1358-CG/1431938800/",
    "company_id": "gxo-logistics",
    "title": "Site Controller",
@@ -1964,7 +2090,26 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376163",
+   "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Global-Forwarding-Agent_R49058",
+   "company_id": "c-h-robinson",
+   "title": "Warehouse Operations Agent",
+   "location": "Aalsmeer Netherlands",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Global-Forwarding-Agent_R49058",
+   "posted_at": "2026-10-20",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dhl-group:AV-385633",
    "company_id": "dhl-group",
    "title": "Global Project Manager (GTOM)",
    "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
@@ -1979,7 +2124,7 @@
     "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-20",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -2086,21 +2231,6 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-358786",
-   "company_id": "dhl-group",
-   "title": "Senior Data Engineer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358786&source=careers.dhl.com",
-   "posted_at": "2026-10-19",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-19",
-   "baseline": false
-  },
-  {
    "id": "world-courier:R2617782",
    "company_id": "world-courier",
    "title": "Customer Service Representative",
@@ -2168,11 +2298,23 @@
    "baseline": true
   },
   {
-   "id": "dsv:/job/Venlo-Warehouse-Manager-LI-5928-SG/1428564833/",
+   "id": "dsv:/job/Venlo-Facility-Supervisor-LI-5928-SC/1428566833/",
+   "company_id": "dsv",
+   "title": "Facility Supervisor",
+   "location": "Venlo, LI, NL, 5928 SC",
+   "url": "https://jobs.dsv.com/job/Venlo-Facility-Supervisor-LI-5928-SC/1428566833/",
+   "posted_at": "2026-10-18",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Venlo-Warehouse-Manager-LI-5928-SG/1428564933/",
    "company_id": "dsv",
    "title": "Warehouse Manager",
    "location": "Venlo, LI, NL, 5928 SG",
-   "url": "https://jobs.dsv.com/job/Venlo-Warehouse-Manager-LI-5928-SG/1428564833/",
+   "url": "https://jobs.dsv.com/job/Venlo-Warehouse-Manager-LI-5928-SG/1428564933/",
    "posted_at": "2026-10-18",
    "labels": null,
    "labels_checked": false,
@@ -2267,18 +2409,6 @@
    "baseline": false
   },
   {
-   "id": "apm-terminals:/job/Netherlands-Almere-1332-ED/Forklift-Operator_R200720",
-   "company_id": "apm-terminals",
-   "title": "Forklift Operator",
-   "location": "Netherlands, Almere, 1332 ED",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Almere-1332-ED/Forklift-Operator_R200720",
-   "posted_at": "2026-10-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-17",
-   "baseline": false
-  },
-  {
    "id": "gxo-logistics:/job/Hilversum-Process-Controller-I-1216-BL/1431546700/",
    "company_id": "gxo-logistics",
    "title": "Process Controller I",
@@ -2325,6 +2455,215 @@
    "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
+  },
+  {
+   "id": "den-hartogh:2787281",
+   "company_id": "den-hartogh",
+   "title": "Chauffeur Tankwagen (4 op 4 af)",
+   "location": "Veghel",
+   "url": "https://careers.denhartogh.com/o/chauffeur-tankwagen-4-op-4-af-9",
+   "posted_at": "2026-10-16",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2787284",
+   "company_id": "den-hartogh",
+   "title": "Chauffeur Ploegendienst",
+   "location": "Veghel",
+   "url": "https://careers.denhartogh.com/o/chauffeur-ploegendienst-10",
+   "posted_at": "2026-10-16",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2786913",
+   "company_id": "den-hartogh",
+   "title": "Accountmanager Logistiek",
+   "location": "Rotterdam",
+   "url": "https://careers.denhartogh.com/o/accountmanager-logistiek-1",
+   "posted_at": "2026-10-16",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2786898",
+   "company_id": "den-hartogh",
+   "title": "Customer service medewerker",
+   "location": "Rotterdam",
+   "url": "https://careers.denhartogh.com/o/customer-service-medewerker-48",
+   "posted_at": "2026-10-16",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2786892",
+   "company_id": "den-hartogh",
+   "title": "Transportplanner",
+   "location": "Rotterdam",
+   "url": "https://careers.denhartogh.com/o/transportplanner-28",
+   "posted_at": "2026-10-16",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2786862",
+   "company_id": "den-hartogh",
+   "title": "National Truck Driver",
+   "location": "Rozenburg",
+   "url": "https://careers.denhartogh.com/o/national-truck-driver-5",
+   "posted_at": "2026-10-16",
+   "labels": {
+    "dutch_required": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2786787",
+   "company_id": "den-hartogh",
+   "title": "Medewerker Global Export",
+   "location": "Rotterdam",
+   "url": "https://careers.denhartogh.com/o/medewerker-global-export-3",
+   "posted_at": "2026-10-16",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2786749",
+   "company_id": "den-hartogh",
+   "title": "Medewerker Deepsea Logistics",
+   "location": "Rotterdam",
+   "url": "https://careers.denhartogh.com/o/medewerker-deepsea-logistics-6",
+   "posted_at": "2026-10-16",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2786508",
+   "company_id": "den-hartogh",
+   "title": "Logistiek Planner (Ferry & Rail)",
+   "location": "Rotterdam",
+   "url": "https://careers.denhartogh.com/o/logistiek-planner-ferry-rail-6",
+   "posted_at": "2026-10-16",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2786478",
+   "company_id": "den-hartogh",
+   "title": "Teamleider HR Operations",
+   "location": "Rotterdam",
+   "url": "https://careers.denhartogh.com/o/teamleider-hr-operations-3",
+   "posted_at": "2026-10-16",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2786439",
+   "company_id": "den-hartogh",
+   "title": "Data Engineer",
+   "location": "Rotterdam",
+   "url": "https://careers.denhartogh.com/o/data-engineer-3",
+   "posted_at": "2026-10-16",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
   },
   {
    "id": "dsv:/job/S-Heerenberg-Warehouse-Teamleider-GE-7041-KK/1448587233/",
@@ -2494,6 +2833,18 @@
    "baseline": false
   },
   {
+   "id": "apm-terminals:/job/Netherlands-Almere-1332-ED/Forklift-Operator_R200720",
+   "company_id": "apm-terminals",
+   "title": "Forklift Operator",
+   "location": "Netherlands, Almere, 1332 ED",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Almere-1332-ED/Forklift-Operator_R200720",
+   "posted_at": "2026-10-16",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-17",
+   "baseline": false
+  },
+  {
    "id": "amazon:10581183",
    "company_id": "amazon",
    "title": "Senior AI/ML Consultant, AWS Professional Services",
@@ -2575,11 +2926,11 @@
    "baseline": false
   },
   {
-   "id": "gxo-logistics:/job/Lelystad-Site-Controller-I-8218-MC/1359930700/",
+   "id": "gxo-logistics:/job/Eindhoven-Business-Support-Manager-II-5651-GH/1430971700/",
    "company_id": "gxo-logistics",
-   "title": "Site Controller I",
-   "location": "Lelystad, NL, 8218 MC",
-   "url": "https://jobs.gxo.com/job/Lelystad-Site-Controller-I-8218-MC/1359930700/",
+   "title": "Business Support Manager II",
+   "location": "Eindhoven, NL, 5651 GH",
+   "url": "https://jobs.gxo.com/job/Eindhoven-Business-Support-Manager-II-5651-GH/1430971700/",
    "posted_at": "2026-10-16",
    "labels": null,
    "labels_checked": false,
@@ -2587,11 +2938,11 @@
    "baseline": true
   },
   {
-   "id": "gxo-logistics:/job/Eindhoven-Business-Support-Manager-II-5651-GH/1430971700/",
+   "id": "gxo-logistics:/job/Lelystad-Site-Controller-I-8218-MC/1359930700/",
    "company_id": "gxo-logistics",
-   "title": "Business Support Manager II",
-   "location": "Eindhoven, NL, 5651 GH",
-   "url": "https://jobs.gxo.com/job/Eindhoven-Business-Support-Manager-II-5651-GH/1430971700/",
+   "title": "Site Controller I",
+   "location": "Lelystad, NL, 8218 MC",
+   "url": "https://jobs.gxo.com/job/Lelystad-Site-Controller-I-8218-MC/1359930700/",
    "posted_at": "2026-10-16",
    "labels": null,
    "labels_checked": false,
@@ -2635,6 +2986,18 @@
    "baseline": false
   },
   {
+   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
+   "company_id": "dachser",
+   "title": "Logistiek Medewerker Ochtend en Nacht",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
+   "posted_at": "2026-10-16",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
    "company_id": "dachser",
    "title": "Logistiek Medewerker",
@@ -2647,16 +3010,23 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
-   "company_id": "dachser",
-   "title": "Logistiek Medewerker Ochtend en Nacht",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Logistiek-Medewerker-Ochtend-en-Nacht-6902KL/1336921655/",
-   "posted_at": "2026-10-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
+   "id": "den-hartogh:2785808",
+   "company_id": "den-hartogh",
+   "title": "Data Engineer Logistics",
+   "location": "Rotterdam",
+   "url": "https://careers.denhartogh.com/o/data-engineer-logistics",
+   "posted_at": "2026-10-15",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
   },
   {
    "id": "dsv:/job/Rotterdam-Logistiek-Co%C3%B6rdinator-ZH-3089-KC/1448146833/",
@@ -2686,6 +3056,37 @@
    "posted_at": "2026-10-15",
    "labels": null,
    "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "gxo-logistics:/job/Lelystad-Corporate-Recruiter-8218-MC/1440426500/",
+   "company_id": "gxo-logistics",
+   "title": "Corporate Recruiter",
+   "location": "Lelystad, NL, 8218 MC",
+   "url": "https://jobs.gxo.com/job/Lelystad-Corporate-Recruiter-8218-MC/1440426500/",
+   "posted_at": "2026-10-15",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "world-courier:R269834",
+   "company_id": "world-courier",
+   "title": "Assistent Teamleider Spits Alkmaar",
+   "location": "Alkmaar, Netherlands, Alkmaar, Netherlands",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Alkmaar/Assistent-Teamleider_R269834/apply",
+   "posted_at": "2026-10-15",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
    "first_seen": "2026-10-26",
    "baseline": false
   },
@@ -2726,18 +3127,6 @@
    "title": "Sales and Operations Management Trainee",
    "location": "South Holland, IL, United States",
    "url": "https://fa-euyk-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/PenskeCareers/job/2612482",
-   "posted_at": "2026-10-15",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-16",
-   "baseline": false
-  },
-  {
-   "id": "gxo-logistics:/job/Eindhoven-Corporate-Recruiter-5651-GG/1440426500/",
-   "company_id": "gxo-logistics",
-   "title": "Corporate Recruiter",
-   "location": "Eindhoven, NL, 5651 GG",
-   "url": "https://jobs.gxo.com/job/Eindhoven-Corporate-Recruiter-5651-GG/1440426500/",
    "posted_at": "2026-10-15",
    "labels": null,
    "labels_checked": false,
@@ -2874,21 +3263,6 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-385830",
-   "company_id": "dhl-group",
-   "title": "Customer Relations Specialist Ocean Freight",
-   "location": "Ridderkerk, Zuid-Holland, Netherlands, Ridderkerk, Zuid-Holland, Ridderkerk",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385830&source=careers.dhl.com",
-   "posted_at": "2026-10-15",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-16",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-386178",
    "company_id": "dhl-group",
    "title": "Supervisor Stock Control",
@@ -2908,26 +3282,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-381580",
+   "id": "dhl-group:AV-385830",
    "company_id": "dhl-group",
-   "title": "Senior Analyst Strategic Pricing",
-   "location": "Maastricht, Limburg, Netherlands, Maastricht, Limburg, Maastricht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=381580&source=careers.dhl.com",
-   "posted_at": "2026-10-15",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-16",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-385603",
-   "company_id": "dhl-group",
-   "title": "Commercial Trainee",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385603&source=careers.dhl.com",
+   "title": "Customer Relations Specialist Ocean Freight",
+   "location": "Ridderkerk, Zuid-Holland, Netherlands, Ridderkerk, Zuid-Holland, Ridderkerk",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385830&source=careers.dhl.com",
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
@@ -3084,21 +3443,6 @@
    "labels_checked": false,
    "first_seen": "2026-10-15",
    "baseline": false
-  },
-  {
-   "id": "world-courier:R2614063",
-   "company_id": "world-courier",
-   "title": "Assistent Teamleider Spits Alkmaar",
-   "location": "Alkmaar, Netherlands, Alkmaar, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Alkmaar/Assistent-Teamleider_R269834/apply",
-   "posted_at": "2026-10-15",
-   "labels": {
-    "dutch_required": null,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": true
   },
   {
    "id": "world-courier:R2614063",
@@ -3472,30 +3816,6 @@
    "baseline": false
   },
   {
-   "id": "dsv:/job/Hapert-Administratief-Medewerker-Nort-5527LC/1436644533/",
-   "company_id": "dsv",
-   "title": "Administratief Medewerker",
-   "location": "Hapert, North Brabant, NL, 5527LC",
-   "url": "https://jobs.dsv.com/job/Hapert-Administratief-Medewerker-Nort-5527LC/1436644533/",
-   "posted_at": "2026-10-13",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-26",
-   "baseline": false
-  },
-  {
-   "id": "dsv:/job/Maastricht-Airport-Control-Room-Specialist-LI-6199-AR/1436709033/",
-   "company_id": "dsv",
-   "title": "Control Room Specialist",
-   "location": "Maastricht-Airport, LI, NL, 6199 AR",
-   "url": "https://jobs.dsv.com/job/Maastricht-Airport-Control-Room-Specialist-LI-6199-AR/1436709033/",
-   "posted_at": "2026-10-13",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-26",
-   "baseline": false
-  },
-  {
    "id": "dsv:/job/Hapert-Junior-Freight-Forwarder-Export-Air-Nort-5527LC/1436641333/",
    "company_id": "dsv",
    "title": "Junior Freight Forwarder Export Air",
@@ -3618,11 +3938,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-348454",
+   "id": "dhl-group:AV-384753",
    "company_id": "dhl-group",
-   "title": "Koerier Breda",
-   "location": "Breda, Noord-Brabant, Netherlands, Breda, Noord-Brabant, Breda",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=348454&source=careers.dhl.com",
+   "title": "Chauffeur CE dag",
+   "location": "Arnhem, Gelderland, Netherlands, Arnhem, Gelderland, Arnhem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=384753&source=careers.dhl.com",
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
@@ -3637,11 +3957,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-384753",
+   "id": "dhl-group:AV-348454",
    "company_id": "dhl-group",
-   "title": "Chauffeur CE dag",
-   "location": "Arnhem, Gelderland, Netherlands, Arnhem, Gelderland, Arnhem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=384753&source=careers.dhl.com",
+   "title": "Koerier Breda",
+   "location": "Breda, Noord-Brabant, Netherlands, Breda, Noord-Brabant, Breda",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=348454&source=careers.dhl.com",
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
@@ -3766,6 +4086,18 @@
    "title": "Financial Administrative Assistant",
    "location": "Venlo, LI, NL, 5928 SC",
    "url": "https://jobs.dsv.com/job/Venlo-Financial-Administrative-Assistant-LI-5928-SC/1416254133/",
+   "posted_at": "2026-10-12",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Venlo-Financieel-Administratief-Medewerker-LI-5928-SC/1416254233/",
+   "company_id": "dsv",
+   "title": "Financieel Administratief Medewerker",
+   "location": "Venlo, LI, NL, 5928 SC",
+   "url": "https://jobs.dsv.com/job/Venlo-Financieel-Administratief-Medewerker-LI-5928-SC/1416254233/",
    "posted_at": "2026-10-12",
    "labels": null,
    "labels_checked": false,
@@ -3923,11 +4255,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376947",
+   "id": "dhl-group:AV-376098",
    "company_id": "dhl-group",
-   "title": "Project Engineer Automation",
-   "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376947&source=careers.dhl.com",
+   "title": "HR Officer",
+   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376098&source=careers.dhl.com",
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
@@ -3961,11 +4293,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376098",
+   "id": "dhl-group:AV-376947",
    "company_id": "dhl-group",
-   "title": "HR Officer",
-   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376098&source=careers.dhl.com",
+   "title": "Project Engineer Automation",
+   "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376947&source=careers.dhl.com",
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
@@ -4026,11 +4358,11 @@
    "baseline": true
   },
   {
-   "id": "gxo-logistics:/job/Dordrecht-Servicemonteur-consumentenelektronica-regio-Rotterdam-1-3316-GD/1410140600/",
+   "id": "gxo-logistics:/job/Dordrecht-Repair-Technician-3316-GD/1410139100/",
    "company_id": "gxo-logistics",
-   "title": "Servicemonteur consumentenelektronica regio Rotterdam 1",
+   "title": "Repair Technician",
    "location": "Dordrecht, NL, 3316 GD",
-   "url": "https://jobs.gxo.com/job/Dordrecht-Servicemonteur-consumentenelektronica-regio-Rotterdam-1-3316-GD/1410140600/",
+   "url": "https://jobs.gxo.com/job/Dordrecht-Repair-Technician-3316-GD/1410139100/",
    "posted_at": "2026-10-12",
    "labels": null,
    "labels_checked": false,
@@ -4038,11 +4370,11 @@
    "baseline": true
   },
   {
-   "id": "gxo-logistics:/job/Dordrecht-Repair-Technician-3316-GD/1410139100/",
+   "id": "gxo-logistics:/job/Dordrecht-Servicemonteur-consumentenelektronica-regio-Rotterdam-1-3316-GD/1410140600/",
    "company_id": "gxo-logistics",
-   "title": "Repair Technician",
+   "title": "Servicemonteur consumentenelektronica regio Rotterdam 1",
    "location": "Dordrecht, NL, 3316 GD",
-   "url": "https://jobs.gxo.com/job/Dordrecht-Repair-Technician-3316-GD/1410139100/",
+   "url": "https://jobs.gxo.com/job/Dordrecht-Servicemonteur-consumentenelektronica-regio-Rotterdam-1-3316-GD/1410140600/",
    "posted_at": "2026-10-12",
    "labels": null,
    "labels_checked": false,
@@ -4084,54 +4416,6 @@
    "labels_checked": false,
    "first_seen": "2026-10-24",
    "baseline": false
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/our-services/",
-   "company_id": "cabooter",
-   "title": "Our Services",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/our-services/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/green-logistics/",
-   "company_id": "cabooter",
-   "title": "Green Logistics",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/green-logistics/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/our-history",
-   "company_id": "cabooter",
-   "title": "Our History",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/our-history",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/cabooter-hubs/",
-   "company_id": "cabooter",
-   "title": "Cabooter Hubs",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/cabooter-hubs/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
   },
   {
    "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/intermodal-planner",
@@ -4206,138 +4490,6 @@
    "baseline": true
   },
   {
-   "id": "cabooter:https://www.cabootergroup.com/career/career/internships/internship-(open-application)",
-   "company_id": "cabooter",
-   "title": "Internship (open Application)",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/career/internships/internship-(open-application)",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/silk-road",
-   "company_id": "cabooter",
-   "title": "Silk Road",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/silk-road",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/our-services/railcargo-solutions",
-   "company_id": "cabooter",
-   "title": "Railcargo Solutions",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/our-services/railcargo-solutions",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/our-services/road-transport",
-   "company_id": "cabooter",
-   "title": "Road Transport",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/our-services/road-transport",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/our-services/multimodal",
-   "company_id": "cabooter",
-   "title": "Multimodal Solutions",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/our-services/multimodal",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/our-services/retail-logistics",
-   "company_id": "cabooter",
-   "title": "Retail Logistics",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/our-services/retail-logistics",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/our-services/ocean-solutions",
-   "company_id": "cabooter",
-   "title": "Ocean Solutions",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/our-services/ocean-solutions",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/complementary-businesses",
-   "company_id": "cabooter",
-   "title": "Complementary Businesses",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/complementary-businesses",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "aircargo-nl:https://aircargo.nl/over-ons/vacatures/junior-inside-sales-pricing-medewerker",
-   "company_id": "aircargo-nl",
-   "title": "(Junior) Inside Sales & Pricing Medewerker 7 maanden geleden",
-   "location": "",
-   "url": "https://aircargo.nl/over-ons/vacatures/junior-inside-sales-pricing-medewerker",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "aircargo-nl:https://aircargo.nl/over-ons/vacatures/warehouse-medewerker",
-   "company_id": "aircargo-nl",
-   "title": "Warehouse Medewerker (fulltime Aalsmeer) 3 maanden geleden",
-   "location": "",
-   "url": "https://aircargo.nl/over-ons/vacatures/warehouse-medewerker",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "aircargo-nl:https://aircargo.nl/over-ons/vacatures/medewerker-orderprocessing-warehouse-support",
-   "company_id": "aircargo-nl",
-   "title": "Medewerker Orderprocessing & Warehouse Support 5 maanden geleden",
-   "location": "",
-   "url": "https://aircargo.nl/over-ons/vacatures/medewerker-orderprocessing-warehouse-support",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
    "id": "cyber-freight-amsterdam:https://cyberfreight.nl/vacatures/wend-medewerker-warehousing/",
    "company_id": "cyber-freight-amsterdam",
    "title": "Wend Medewerker Warehousing",
@@ -4358,6 +4510,25 @@
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
+   "first_seen": "2026-10-11",
+   "baseline": true
+  },
+  {
+   "id": "fox-global-logistics:https://www.foxglobal.nl/vacancies/business-development-manager-forwarding/",
+   "company_id": "fox-global-logistics",
+   "title": "Business Development Manager Forwarding",
+   "location": "",
+   "url": "https://www.foxglobal.nl/vacancies/business-development-manager-forwarding/",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
    "first_seen": "2026-10-11",
    "baseline": true
   },
@@ -4432,6 +4603,25 @@
    "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
+  },
+  {
+   "id": "dsv:/job/Rotterdam-Senior-Freight-Forwarder-Import-ZH-3089-JW/1425954633/",
+   "company_id": "dsv",
+   "title": "Senior Freight Forwarder Import",
+   "location": "Rotterdam, ZH, NL, 3089 JW",
+   "url": "https://jobs.dsv.com/job/Rotterdam-Senior-Freight-Forwarder-Import-ZH-3089-JW/1425954633/",
+   "posted_at": "2026-10-10",
+   "labels": {
+    "dutch_required": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
   },
   {
    "id": "dsv:/job/Maastricht-Airport-Freight-Forwarder-Luchtvracht-Healthcare-LI-6199-AR/1436272133/",
@@ -4520,11 +4710,11 @@
    "baseline": true
   },
   {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
-   "company_id": "klg-europe",
-   "title": "Transport Planner Hongarije",
-   "location": "Venlo, Nederland",
-   "url": "https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
+   "id": "den-hartogh:2770602",
+   "company_id": "den-hartogh",
+   "title": "Trucking Coordinator",
+   "location": "Coevorden",
+   "url": "https://careers.denhartogh.com/o/trucking-coordinator-9",
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
@@ -4535,7 +4725,7 @@
     "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -4651,21 +4841,6 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-365199",
-   "company_id": "dhl-group",
-   "title": "Process Engineer",
-   "location": "Bemmel, Gelderland, Netherlands, Bemmel, Gelderland, Bemmel",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365199&source=careers.dhl.com",
-   "posted_at": "2026-10-09",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-10",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-355733",
    "company_id": "dhl-group",
    "title": "Tech Lead Infra",
@@ -4723,11 +4898,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-384398",
+   "id": "dhl-group:AV-375104",
    "company_id": "dhl-group",
-   "title": "Lead Qualifier",
-   "location": "Schiphol, Noord-Holland, Netherlands, Schiphol, Noord-Holland, Schiphol",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=384398&source=careers.dhl.com",
+   "title": "Forecaster Workforce Management Customer Service",
+   "location": "Arnhem, Gelderland, Netherlands, Arnhem, Gelderland, Arnhem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=375104&source=careers.dhl.com",
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
@@ -4761,11 +4936,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-375104",
+   "id": "dhl-group:AV-384398",
    "company_id": "dhl-group",
-   "title": "Forecaster Workforce Management Customer Service",
-   "location": "Arnhem, Gelderland, Netherlands, Arnhem, Gelderland, Arnhem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=375104&source=careers.dhl.com",
+   "title": "Lead Qualifier",
+   "location": "Schiphol, Noord-Holland, Netherlands, Schiphol, Noord-Holland, Schiphol",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=384398&source=careers.dhl.com",
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
@@ -4894,11 +5069,11 @@
    "baseline": false
   },
   {
-   "id": "gxo-logistics:/job/Hoogeveen-Operations-Manager-Hoogeveen-7903-BE/1428454900/",
+   "id": "gxo-logistics:/job/Heerlen-Site-Engineer-6422-PB/1375285400/",
    "company_id": "gxo-logistics",
-   "title": "Operations Manager - Hoogeveen",
-   "location": "Hoogeveen, NL, 7903 BE",
-   "url": "https://jobs.gxo.com/job/Hoogeveen-Operations-Manager-Hoogeveen-7903-BE/1428454900/",
+   "title": "Site Engineer",
+   "location": "Heerlen, NL, 6422 PB",
+   "url": "https://jobs.gxo.com/job/Heerlen-Site-Engineer-6422-PB/1375285400/",
    "posted_at": "2026-10-09",
    "labels": null,
    "labels_checked": false,
@@ -4906,11 +5081,11 @@
    "baseline": true
   },
   {
-   "id": "gxo-logistics:/job/Heerlen-Site-Engineer-6422-PB/1375285400/",
+   "id": "gxo-logistics:/job/Hoogeveen-Operations-Manager-Hoogeveen-7903-BE/1428454900/",
    "company_id": "gxo-logistics",
-   "title": "Site Engineer",
-   "location": "Heerlen, NL, 6422 PB",
-   "url": "https://jobs.gxo.com/job/Heerlen-Site-Engineer-6422-PB/1375285400/",
+   "title": "Operations Manager - Hoogeveen",
+   "location": "Hoogeveen, NL, 7903 BE",
+   "url": "https://jobs.gxo.com/job/Hoogeveen-Operations-Manager-Hoogeveen-7903-BE/1428454900/",
    "posted_at": "2026-10-09",
    "labels": null,
    "labels_checked": false,
@@ -4930,6 +5105,25 @@
    "baseline": true
   },
   {
+   "id": "den-hartogh:2776907",
+   "company_id": "den-hartogh",
+   "title": "Chauffeur Nationaal",
+   "location": "Rozenburg",
+   "url": "https://careers.denhartogh.com/o/chauffeur-nationaal-109",
+   "posted_at": "2026-10-08",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
    "id": "dsv:/job/Venlo-Account-Manager-LI-5928-SC/1375752933/",
    "company_id": "dsv",
    "title": "Account Manager",
@@ -4947,6 +5141,18 @@
    "title": "Customer Services Supervisor",
    "location": "Moerdijk, North Brabant, NL, 4782 JA",
    "url": "https://jobs.dsv.com/job/Moerdijk-Customer-Services-Supervisor-Nort-4782-JA/1445685133/",
+   "posted_at": "2026-10-08",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Venlo-Account-Manager-LI-5928-SC/1375752833/",
+   "company_id": "dsv",
+   "title": "Account Manager",
+   "location": "Venlo, LI, NL, 5928 SC",
+   "url": "https://jobs.dsv.com/job/Venlo-Account-Manager-LI-5928-SC/1375752833/",
    "posted_at": "2026-10-08",
    "labels": null,
    "labels_checked": false,
@@ -5314,21 +5520,6 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-355426",
-   "company_id": "dhl-group",
-   "title": "Gateway Service Specialist",
-   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=355426&source=careers.dhl.com",
-   "posted_at": "2026-10-07",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-08",
-   "baseline": false
-  },
-  {
    "id": "world-courier:R2617501",
    "company_id": "world-courier",
    "title": "Apothekers Assistent Supportafdeling Hoofdkantoor Veghel",
@@ -5348,11 +5539,11 @@
    "baseline": false
   },
   {
-   "id": "gxo-logistics:/job/Veenendaal-Coordinator-3905-NN/1385304800/",
+   "id": "gxo-logistics:/job/Lelystad-HR-Manager-Site-8218-MC/1377419200/",
    "company_id": "gxo-logistics",
-   "title": "Coordinator",
-   "location": "Veenendaal, NL, 3905 NN",
-   "url": "https://jobs.gxo.com/job/Veenendaal-Coordinator-3905-NN/1385304800/",
+   "title": "HR Manager Site",
+   "location": "Lelystad, NL, 8218 MC",
+   "url": "https://jobs.gxo.com/job/Lelystad-HR-Manager-Site-8218-MC/1377419200/",
    "posted_at": "2026-10-07",
    "labels": null,
    "labels_checked": false,
@@ -5360,11 +5551,11 @@
    "baseline": true
   },
   {
-   "id": "gxo-logistics:/job/Lelystad-HR-Manager-Site-8218-MC/1377419200/",
+   "id": "gxo-logistics:/job/Veenendaal-Coordinator-3905-NN/1385304800/",
    "company_id": "gxo-logistics",
-   "title": "HR Manager Site",
-   "location": "Lelystad, NL, 8218 MC",
-   "url": "https://jobs.gxo.com/job/Lelystad-HR-Manager-Site-8218-MC/1377419200/",
+   "title": "Coordinator",
+   "location": "Veenendaal, NL, 3905 NN",
+   "url": "https://jobs.gxo.com/job/Veenendaal-Coordinator-3905-NN/1385304800/",
    "posted_at": "2026-10-07",
    "labels": null,
    "labels_checked": false,
@@ -5384,6 +5575,37 @@
    "baseline": true
   },
   {
+   "id": "den-hartogh:2773528",
+   "company_id": "den-hartogh",
+   "title": "Chauffeur Internationaal",
+   "location": "Rozenburg",
+   "url": "https://careers.denhartogh.com/o/chauffeur-internationaal-113",
+   "posted_at": "2026-10-06",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Tholen-Operational-Key-Account-Manager-ZE-4691-SV/1444858533/",
+   "company_id": "dsv",
+   "title": "Operational Key Account Manager",
+   "location": "Tholen, ZE, NL, 4691 SV",
+   "url": "https://jobs.dsv.com/job/Tholen-Operational-Key-Account-Manager-ZE-4691-SV/1444858533/",
+   "posted_at": "2026-10-06",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
    "id": "dsv:/job/Moerdijk-Management-Assistant-Nort-4782-JA/1403807633/",
    "company_id": "dsv",
    "title": "Management Assistant",
@@ -5396,11 +5618,11 @@
    "baseline": false
   },
   {
-   "id": "dsv:/job/Hapert-Customer-Service-Specialist-Nort-5527LC/1434038133/",
+   "id": "dsv:/job/Rozenburg-Senior-Project-Manager-Nort-1437-EK/1444746233/",
    "company_id": "dsv",
-   "title": "Customer Service Specialist",
-   "location": "Hapert, North Brabant, NL, 5527LC",
-   "url": "https://jobs.dsv.com/job/Hapert-Customer-Service-Specialist-Nort-5527LC/1434038133/",
+   "title": "Senior Project Manager",
+   "location": "Rozenburg, North Holland, NL, 1437 EK",
+   "url": "https://jobs.dsv.com/job/Rozenburg-Senior-Project-Manager-Nort-1437-EK/1444746233/",
    "posted_at": "2026-10-06",
    "labels": null,
    "labels_checked": false,
@@ -5408,14 +5630,21 @@
    "baseline": false
   },
   {
-   "id": "dsv:/job/Rozenburg-Senior-Project-Manager-Nort-1437-EK/1444746133/",
+   "id": "dsv:/job/Sevenum-Control-Tower-Specialist-LI-5975-WG/1444752633/",
    "company_id": "dsv",
-   "title": "Senior Project Manager",
-   "location": "Rozenburg, North Holland, NL, 1437 EK",
-   "url": "https://jobs.dsv.com/job/Rozenburg-Senior-Project-Manager-Nort-1437-EK/1444746133/",
+   "title": "Control Tower Specialist",
+   "location": "Sevenum, LI, NL, 5975 WG",
+   "url": "https://jobs.dsv.com/job/Sevenum-Control-Tower-Specialist-LI-5975-WG/1444752633/",
    "posted_at": "2026-10-06",
-   "labels": null,
-   "labels_checked": false,
+   "labels": {
+    "dutch_required": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
    "first_seen": "2026-10-26",
    "baseline": false
   },
@@ -5470,11 +5699,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-362085",
+   "id": "dhl-group:AV-318094",
    "company_id": "dhl-group",
-   "title": "Process Innovation Engineer",
+   "title": "Facility Area Manager",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=362085&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=318094&source=careers.dhl.com",
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
@@ -5489,11 +5718,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-318094",
+   "id": "dhl-group:AV-362085",
    "company_id": "dhl-group",
-   "title": "Facility Area Manager",
+   "title": "Process Innovation Engineer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=318094&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=362085&source=careers.dhl.com",
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
@@ -5659,7 +5888,11 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5685,49 +5918,11 @@
    "baseline": true
   },
   {
-   "id": "world-courier:R2614257",
-   "company_id": "world-courier",
-   "title": "Apothekers assistente - Supportafdeling Hoofdkantoor Veghel",
-   "location": "Veghel, Netherlands, Veghel, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Veghel-Campus/apothekers-assistente_R2614257/apply",
-   "posted_at": "2026-10-06",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": true
-  },
-  {
    "id": "world-courier:R2522380",
    "company_id": "world-courier",
    "title": "Support Assistent regio Midden Nederland (afwisselend werken voor diverse Boots Apotheken/ het hoofdkantoor)",
    "location": "AZ Utrecht, Netherlands, AZ Utrecht, Netherlands",
    "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Utrecht/Support-Assistent-regio-Midden-Nederland--afwisselend-werken-voor-diverse-Boots-Apotheken--het-hoofdkantoor-_R2522380/apply",
-   "posted_at": "2026-10-06",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": true
-  },
-  {
-   "id": "world-courier:R2522848",
-   "company_id": "world-courier",
-   "title": "Apothekersassistent Boots Support regio West Nederland",
-   "location": "Amsterdam, Netherlands, Amsterdam, Netherlands",
-   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Amsterdam-Netherlands/Apothekersassistent-Boots-Support-center-regio-West-Nederland_R2522848-1/apply",
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
@@ -5824,6 +6019,21 @@
    "baseline": false
   },
   {
+   "id": "dhl-group:AV-382880",
+   "company_id": "dhl-group",
+   "title": "Chauffeur CE zaterdag",
+   "location": "Drachten, Friesland, Netherlands, Drachten, Friesland, Drachten",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382880&source=careers.dhl.com",
+   "posted_at": "2026-10-05",
+   "labels": {
+    "dutch_required": null,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-06",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-382786",
    "company_id": "dhl-group",
    "title": "Operational Research Specialist",
@@ -5837,21 +6047,6 @@
     "no_sponsorship": false,
     "relocation": false,
     "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-06",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-382880",
-   "company_id": "dhl-group",
-   "title": "Chauffeur CE zaterdag",
-   "location": "Drachten, Friesland, Netherlands, Drachten, Friesland, Drachten",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382880&source=careers.dhl.com",
-   "posted_at": "2026-10-05",
-   "labels": {
-    "dutch_required": null,
-    "written_in_dutch": null
    },
    "labels_checked": true,
    "first_seen": "2026-10-06",
@@ -5920,6 +6115,18 @@
    "baseline": false
   },
   {
+   "id": "dsv:/job/Moerdijk-Manager-Customer-Service-Nort-4782-JA/1412591333/",
+   "company_id": "dsv",
+   "title": "Manager Customer Service",
+   "location": "Moerdijk, North Brabant, NL, 4782 JA",
+   "url": "https://jobs.dsv.com/job/Moerdijk-Manager-Customer-Service-Nort-4782-JA/1412591333/",
+   "posted_at": "2026-10-03",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
    "id": "gxo-logistics:/job/Bergen-op-Zoom-Lean-Specialist-4622-RD/1397958300/",
    "company_id": "gxo-logistics",
    "title": "Lean Specialist",
@@ -5929,18 +6136,6 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-17",
-   "baseline": false
-  },
-  {
-   "id": "apm-terminals:/job/NLROT01---Rotterdam---Rotterdam/Business-Development-Manager_R196842",
-   "company_id": "apm-terminals",
-   "title": "Growth Enablement Partner - Customs",
-   "location": "NLROT01 - Rotterdam - Rotterdam",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NLROT01---Rotterdam---Rotterdam/Business-Development-Manager_R196842",
-   "posted_at": "2026-10-03",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-03",
    "baseline": false
   },
   {
@@ -5956,11 +6151,11 @@
    "baseline": false
   },
   {
-   "id": "gxo-logistics:/job/Tilburg-HR-Business-Partner-5047-TH/1389794900/",
+   "id": "gxo-logistics:/job/Dordrecht-HR-Advisor-3316-GD/1389701600/",
    "company_id": "gxo-logistics",
-   "title": "HR Business Partner",
-   "location": "Tilburg, NL, 5047 TH",
-   "url": "https://jobs.gxo.com/job/Tilburg-HR-Business-Partner-5047-TH/1389794900/",
+   "title": "HR Advisor",
+   "location": "Dordrecht, NL, 3316 GD",
+   "url": "https://jobs.gxo.com/job/Dordrecht-HR-Advisor-3316-GD/1389701600/",
    "posted_at": "2026-10-03",
    "labels": null,
    "labels_checked": false,
@@ -5968,11 +6163,11 @@
    "baseline": true
   },
   {
-   "id": "gxo-logistics:/job/Dordrecht-HR-Advisor-3316-GD/1389701600/",
+   "id": "gxo-logistics:/job/Tilburg-HR-Business-Partner-5047-TH/1389794900/",
    "company_id": "gxo-logistics",
-   "title": "HR Advisor",
-   "location": "Dordrecht, NL, 3316 GD",
-   "url": "https://jobs.gxo.com/job/Dordrecht-HR-Advisor-3316-GD/1389701600/",
+   "title": "HR Business Partner",
+   "location": "Tilburg, NL, 5047 TH",
+   "url": "https://jobs.gxo.com/job/Tilburg-HR-Business-Partner-5047-TH/1389794900/",
    "posted_at": "2026-10-03",
    "labels": null,
    "labels_checked": false,
@@ -6040,84 +6235,15 @@
    "baseline": false
   },
   {
-   "id": "dsv:/job/Venlo-Technician-Facilities-&-Technical-Services-LI-5928-SC/1373455633/",
+   "id": "dsv:/job/Almelo-Senior-WMS-Engineer-OV-7609RM/1443652133/",
    "company_id": "dsv",
-   "title": "Technician Facilities & Technical Services",
-   "location": "Venlo, LI, NL, 5928 SC",
-   "url": "https://jobs.dsv.com/job/Venlo-Technician-Facilities-&-Technical-Services-LI-5928-SC/1373455633/",
+   "title": "Senior WMS Engineer",
+   "location": "Almelo, OV, NL, 7609RM",
+   "url": "https://jobs.dsv.com/job/Almelo-Senior-WMS-Engineer-OV-7609RM/1443652133/",
    "posted_at": "2026-10-02",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-26",
-   "baseline": false
-  },
-  {
-   "id": "dsv:/job/Venlo-Transport-Coordinator-LI-5928-PR/1433270633/",
-   "company_id": "dsv",
-   "title": "Transport Coordinator",
-   "location": "Venlo, LI, NL, 5928 PR",
-   "url": "https://jobs.dsv.com/job/Venlo-Transport-Coordinator-LI-5928-PR/1433270633/",
-   "posted_at": "2026-10-02",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-26",
-   "baseline": false
-  },
-  {
-   "id": "dsv:/job/Venlo-Monteur-Facility-&-Technische-Dienst-LI-5928-SC/1373455733/",
-   "company_id": "dsv",
-   "title": "Monteur Facility & Technische Dienst",
-   "location": "Venlo, LI, NL, 5928 SC",
-   "url": "https://jobs.dsv.com/job/Venlo-Monteur-Facility-&-Technische-Dienst-LI-5928-SC/1373455733/",
-   "posted_at": "2026-10-02",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-26",
-   "baseline": false
-  },
-  {
-   "id": "dsv:/job/Venlo-Transport-Planner-LI-5928-PR/1433274933/",
-   "company_id": "dsv",
-   "title": "Transport Planner",
-   "location": "Venlo, LI, NL, 5928 PR",
-   "url": "https://jobs.dsv.com/job/Venlo-Transport-Planner-LI-5928-PR/1433274933/",
-   "posted_at": "2026-10-02",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-26",
-   "baseline": false
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/orderplanner-warehouse-192",
-   "company_id": "klg-europe",
-   "title": "Orderplanner Warehouse",
-   "location": "Venlo, Nederland",
-   "url": "https://www.werkenbijklg.nl/vacatures/orderplanner-warehouse-192",
-   "posted_at": "2026-10-02",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
    "baseline": false
   },
   {
@@ -6129,21 +6255,6 @@
    "posted_at": "2026-10-02",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "dsv:/job/Venlo-Transport-Coordinator-LI-5928-PR/1433270633/",
-   "company_id": "dsv",
-   "title": "Transport Coordinator",
-   "location": "Venlo, LI, NL, 5928 PR",
-   "url": "https://jobs.dsv.com/job/Venlo-Transport-Coordinator-LI-5928-PR/1433270633/",
-   "posted_at": "2026-10-02",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
    "first_seen": "2026-10-25",
    "baseline": false
   },
@@ -6168,7 +6279,11 @@
    "posted_at": "2026-10-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -6400,9 +6515,9 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-330285",
+   "id": "dhl-group:AV-350949",
    "company_id": "dhl-group",
-   "title": "Senior IT Security Officer",
+   "title": "Senior Test Engineer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
    "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=350949&source=careers.dhl.com",
    "posted_at": "2026-10-01",
@@ -6533,131 +6648,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-286776",
+   "id": "dhl-group:AV-330285",
    "company_id": "dhl-group",
-   "title": "Cloud Engineer",
+   "title": "Senior IT Security Officer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=286776&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-382152",
-   "company_id": "dhl-group",
-   "title": "Senior Java developer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382152&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-292302",
-   "company_id": "dhl-group",
-   "title": "CI/CD Engineer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=292302&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-297072",
-   "company_id": "dhl-group",
-   "title": "Medior Test Engineer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=297072&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-350949",
-   "company_id": "dhl-group",
-   "title": "Senior Test Engineer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=350949&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-361369",
-   "company_id": "dhl-group",
-   "title": "Senior IT Security Engineer DevSecOps",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=361369&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-374180",
-   "company_id": "dhl-group",
-   "title": "Backend Developer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=374180&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-379466",
-   "company_id": "dhl-group",
-   "title": "Teamleider Transport",
-   "location": "Rotterdam, Zuid-Holland, Netherlands, Rotterdam, Zuid-Holland, Rotterdam",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=379466&source=careers.dhl.com",
-   "posted_at": "2026-10-01",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-366491",
-   "company_id": "dhl-group",
-   "title": "Senior IAM Engineer",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=366491&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=330285&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -6710,7 +6705,7 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-358767",
+   "id": "dhl-group:AV-379466",
    "company_id": "dhl-group",
    "title": "Teamleider Transport",
    "location": "Rotterdam, Zuid-Holland, Netherlands, Rotterdam, Zuid-Holland, Rotterdam",
@@ -6733,7 +6728,7 @@
    "company_id": "dhl-group",
    "title": "Backend Developer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358767&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=374180&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
@@ -6862,25 +6857,6 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-01",
-   "baseline": false
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
-   "company_id": "neele-vat",
-   "title": "Freight Forwarder Road Transport Uk",
-   "location": "Rotterdam Hoogvliet",
-   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
-   "posted_at": "2026-09-30",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
    "baseline": false
   },
   {
@@ -7198,30 +7174,6 @@
    "baseline": true
   },
   {
-   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
-   "company_id": "dachser",
-   "title": "Customer Service",
-   "location": "Waddinxveen, NL, 2742RD",
-   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
-   "posted_at": "2026-09-30",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
-   "company_id": "dachser",
-   "title": "Financiele Administratie",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
-   "posted_at": "2026-09-30",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Transportplanner-2742RD/1327573155/",
    "company_id": "dachser",
    "title": "Transportplanner",
@@ -7241,23 +7193,28 @@
    "baseline": true
   },
   {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
-   "company_id": "neele-vat",
-   "title": "All Round Sea Freight Forwarder",
-   "location": "rotterdam Spaanse Polder",
-   "url": "https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
-   "posted_at": "2026-09-29",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
+   "id": "dachser:/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
+   "company_id": "dachser",
+   "title": "Financiele Administratie",
+   "location": "Zevenaar, NL, 6902KL",
+   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Financiele-Administratie-6902KL/1366212455/",
+   "posted_at": "2026-09-30",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
+  },
+  {
+   "id": "dachser:/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
+   "company_id": "dachser",
+   "title": "Customer Service",
+   "location": "Waddinxveen, NL, 2742RD",
+   "url": "https://careers.dachser.com/dachser_europe/job/Waddinxveen-Customer-Service-2742RD/1341329855/",
+   "posted_at": "2026-09-30",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-17",
+   "baseline": true
   },
   {
    "id": "portbase:2183138",
@@ -7275,11 +7232,11 @@
    "baseline": true
   },
   {
-   "id": "gxo-logistics:/job/Lelystad-Warehouse-Manager-Lelystad-8218-MC/1424842200/",
+   "id": "gxo-logistics:/job/Rijsbergen-Quality%2C-Environmental%2C-Safety-and-Health-Specialist-4891-PZ/1397204000/",
    "company_id": "gxo-logistics",
-   "title": "Warehouse Manager - Lelystad",
-   "location": "Lelystad, NL, 8218 MC",
-   "url": "https://jobs.gxo.com/job/Lelystad-Warehouse-Manager-Lelystad-8218-MC/1424842200/",
+   "title": "Quality, Environmental, Safety and Health Specialist",
+   "location": "Rijsbergen, NL, 4891 PZ",
+   "url": "https://jobs.gxo.com/job/Rijsbergen-Quality%2C-Environmental%2C-Safety-and-Health-Specialist-4891-PZ/1397204000/",
    "posted_at": "2026-09-29",
    "labels": null,
    "labels_checked": false,
@@ -7287,11 +7244,11 @@
    "baseline": true
   },
   {
-   "id": "gxo-logistics:/job/Rijsbergen-Quality%2C-Environmental%2C-Safety-and-Health-Specialist-4891-PZ/1397204000/",
+   "id": "gxo-logistics:/job/Lelystad-Warehouse-Manager-Lelystad-8218-MC/1424842200/",
    "company_id": "gxo-logistics",
-   "title": "Quality, Environmental, Safety and Health Specialist",
-   "location": "Rijsbergen, NL, 4891 PZ",
-   "url": "https://jobs.gxo.com/job/Rijsbergen-Quality%2C-Environmental%2C-Safety-and-Health-Specialist-4891-PZ/1397204000/",
+   "title": "Warehouse Manager - Lelystad",
+   "location": "Lelystad, NL, 8218 MC",
+   "url": "https://jobs.gxo.com/job/Lelystad-Warehouse-Manager-Lelystad-8218-MC/1424842200/",
    "posted_at": "2026-09-29",
    "labels": null,
    "labels_checked": false,
@@ -7328,25 +7285,6 @@
    "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/container-planner/",
-   "company_id": "neele-vat",
-   "title": "Container Planner",
-   "location": "Rotterdam Pernis",
-   "url": "https://werkenbijneelevat.com/vacancies/container-planner/",
-   "posted_at": "2026-09-28",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
   },
   {
    "id": "dp-world:27139",
@@ -7391,30 +7329,6 @@
    "location": "Zevenaar, NL, 6902KL",
    "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Assistent-teamleider-logistiek-6902KL/1351363055/",
    "posted_at": "2026-09-28",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "gxo-logistics:/job/Dordrecht-HR-Adviseur-3316-GD/1396241000/",
-   "company_id": "gxo-logistics",
-   "title": "HR Adviseur",
-   "location": "Dordrecht, NL, 3316 GD",
-   "url": "https://jobs.gxo.com/job/Dordrecht-HR-Adviseur-3316-GD/1396241000/",
-   "posted_at": "2026-09-27",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-01",
-   "baseline": true
-  },
-  {
-   "id": "dachser:/dachser_europe/job/Zevenaar-Customer-Service-Key-Account-6902KL/1325145855/",
-   "company_id": "dachser",
-   "title": "Customer Service Key Account",
-   "location": "Zevenaar, NL, 6902KL",
-   "url": "https://careers.dachser.com/dachser_europe/job/Zevenaar-Customer-Service-Key-Account-6902KL/1325145855/",
-   "posted_at": "2026-09-27",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-09-17",
@@ -7547,7 +7461,7 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-365195",
+   "id": "dhl-group:AV-380249",
    "company_id": "dhl-group",
    "title": "SQL Developer",
    "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
@@ -7604,26 +7518,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-380249",
+   "id": "dhl-group:AV-365195",
    "company_id": "dhl-group",
-   "title": "SQL Developer",
-   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=380249&source=careers.dhl.com",
-   "posted_at": "2026-09-24",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "dhl-group:AV-379906",
-   "company_id": "dhl-group",
-   "title": "Teamleider Cityhub",
-   "location": "Zwolle, Overijssel, Netherlands, Zwolle, Overijssel, Zwolle",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=379906&source=careers.dhl.com",
+   "title": "Business Development Manager",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365195&source=careers.dhl.com",
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
@@ -7696,7 +7595,7 @@
    "title": "Customer Experience Team Leader – 4 PL Control Tower",
    "location": "NL - Rotterdam",
    "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NL---Rotterdam/Customer-Experience-Team-Leader--4-PL-Control-Tower_R196967-1",
-   "posted_at": "2026-09-24",
+   "posted_at": null,
    "labels": {
     "dutch_required": false,
     "written_in_dutch": false,
@@ -8079,6 +7978,25 @@
    "labels_checked": true,
    "first_seen": "2026-10-03",
    "baseline": false
+  },
+  {
+   "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Air-Export-Operations-Agent_R49030",
+   "company_id": "c-h-robinson",
+   "title": "Air Export Operations Agent",
+   "location": "Aalsmeer Netherlands",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Air-Export-Operations-Agent_R49030",
+   "posted_at": null,
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
   },
   {
    "id": "apm-terminals:/job/Netherlands-Rotterdam-3199-KD/Maintenance-Technician--Warehouse---Facilities-_R197369",
@@ -8652,25 +8570,6 @@
    "baseline": true
   },
   {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
-   "company_id": "neele-vat",
-   "title": "Transportplanner Ftl",
-   "location": "Rotterdam Pernis",
-   "url": "https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
-   "posted_at": "2026-09-14",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-376721",
    "company_id": "dhl-group",
    "title": "Control Tower Officer",
@@ -8735,11 +8634,11 @@
    "baseline": true
   },
   {
-   "id": "dhl-group:AV-368445",
+   "id": "dhl-group:AV-341247",
    "company_id": "dhl-group",
-   "title": "Customer Service Representative",
-   "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=368445&source=careers.dhl.com",
+   "title": "Chauffeur CE",
+   "location": "Roosendaal, Noord-Brabant, Netherlands, Roosendaal, Noord-Brabant, Roosendaal",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=341247&source=careers.dhl.com",
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
@@ -8754,11 +8653,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-341247",
+   "id": "dhl-group:AV-368445",
    "company_id": "dhl-group",
-   "title": "Chauffeur CE",
-   "location": "Roosendaal, Noord-Brabant, Netherlands, Roosendaal, Noord-Brabant, Roosendaal",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=341247&source=careers.dhl.com",
+   "title": "Customer Service Representative",
+   "location": "Eindhoven, Noord-Brabant, Netherlands, Eindhoven, Noord-Brabant, Eindhoven",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=368445&source=careers.dhl.com",
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
@@ -8963,11 +8862,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376206",
+   "id": "dhl-group:AV-376656",
    "company_id": "dhl-group",
-   "title": "Supervisor Logistiek",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376206&source=careers.dhl.com",
+   "title": "Shiftmanager",
+   "location": "Tiel, Gelderland, Netherlands, Tiel, Gelderland, Tiel",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376656&source=careers.dhl.com",
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
@@ -8982,11 +8881,11 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-376656",
+   "id": "dhl-group:AV-376206",
    "company_id": "dhl-group",
-   "title": "Shiftmanager",
-   "location": "Tiel, Gelderland, Netherlands, Tiel, Gelderland, Tiel",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376656&source=careers.dhl.com",
+   "title": "Supervisor Logistiek",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=376206&source=careers.dhl.com",
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
@@ -9306,25 +9205,6 @@
    "baseline": true
   },
   {
-   "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Air-Export-Operations-Agent_R49030",
-   "company_id": "c-h-robinson",
-   "title": "Air Export Operations Agent",
-   "location": "Aalsmeer Netherlands",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Air-Export-Operations-Agent_R49030",
-   "posted_at": "2026-09-07",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
    "id": "amazon:10531075",
    "company_id": "amazon",
    "title": "Senior Account Manager, AWS Benelux",
@@ -9546,25 +9426,6 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
-   "company_id": "neele-vat",
-   "title": "Freight Forwarder Shiproad",
-   "location": "Rotterdam Pernis",
-   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
-   "posted_at": "2026-09-02",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
    "baseline": false
   },
   {
@@ -10426,25 +10287,6 @@
    "baseline": false
   },
   {
-   "id": "fox-global-logistics:https://www.foxglobal.nl/vacancies/business-development-manager-forwarding/",
-   "company_id": "fox-global-logistics",
-   "title": "Business Development Manager Forwarding",
-   "location": "",
-   "url": "https://www.foxglobal.nl/vacancies/business-development-manager-forwarding/",
-   "posted_at": "2026-08-05",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
    "id": "dhl-group:AV-350570",
    "company_id": "dhl-group",
    "title": "Supervisor Logistiek",
@@ -10661,25 +10503,6 @@
    "baseline": true
   },
   {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
-   "company_id": "neele-vat",
-   "title": "Customer Operations Specialist",
-   "location": "City Terminal; Rotterdam Maasvlakte",
-   "url": "https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
-   "posted_at": "2026-07-21",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
    "id": "portbase:1441847",
    "company_id": "portbase",
    "title": "DevOps Engineer",
@@ -10874,6 +10697,25 @@
    "baseline": false
   },
   {
+   "id": "dhl-group:AV-361677",
+   "company_id": "dhl-group",
+   "title": "Vrachtwagenchauffeur C(E) Eindhoven/Beringe",
+   "location": "Beringe, Limburg, Netherlands, Beringe, Limburg, Beringe",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=361677&source=careers.dhl.com",
+   "posted_at": "2026-07-02",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-361764",
    "company_id": "dhl-group",
    "title": "Vrachtwagenchauffeur C(E) Hoofddorp",
@@ -10893,22 +10735,41 @@
    "baseline": false
   },
   {
-   "id": "dhl-group:AV-361677",
-   "company_id": "dhl-group",
-   "title": "Vrachtwagenchauffeur C(E) Eindhoven/Beringe",
-   "location": "Beringe, Limburg, Netherlands, Beringe, Limburg, Beringe",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=361677&source=careers.dhl.com",
-   "posted_at": "2026-07-02",
+   "id": "den-hartogh:2660663",
+   "company_id": "den-hartogh",
+   "title": "Chauffeur CE/Operator",
+   "location": "Coevorden",
+   "url": "https://careers.denhartogh.com/o/chauffeur-ceoperator-8",
+   "posted_at": "2026-06-30",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null,
+    "written_in_dutch": true,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
     "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-03",
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "den-hartogh:2659592",
+   "company_id": "den-hartogh",
+   "title": "Chauffeur CE Tanktransport (Liquid & Gas)",
+   "location": "Zwijndrecht",
+   "url": "https://careers.denhartogh.com/o/chauffeur-ce-tanktransport-liquid-gas",
+   "posted_at": "2026-06-30",
+   "labels": {
+    "dutch_required": true,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -10933,7 +10794,7 @@
   {
    "id": "apl-logistics:4404",
    "company_id": "apl-logistics",
-   "title": "Allround Logistiek Medewerker – Amsterdam",
+   "title": "Allround Logistics Employee – Amsterdam",
    "location": "Amsterdam, Noord-Holland, Netherlands",
    "url": "https://hcut.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4404",
    "posted_at": "2026-06-12",
@@ -10941,25 +10802,6 @@
    "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
-   "company_id": "neele-vat",
-   "title": "Export Forwarder",
-   "location": "Rotterdam Pernis",
-   "url": "https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
-   "posted_at": "2026-06-10",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
   },
   {
    "id": "world-courier:R269845",
@@ -11054,25 +10896,6 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
-   "baseline": true
-  },
-  {
-   "id": "aircargo-nl:https://aircargo.nl/over-ons/vacatures/operations-agent-export",
-   "company_id": "aircargo-nl",
-   "title": "Operations Agent Export 5 maanden geleden",
-   "location": "Aalsmeer, NL",
-   "url": "https://aircargo.nl/over-ons/vacatures/operations-agent-export",
-   "posted_at": "2026-06-02",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-11",
    "baseline": true
   },
   {

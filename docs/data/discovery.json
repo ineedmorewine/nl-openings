@@ -291,7 +291,6 @@
   "checked_pages": [
    "https://cainiao.com/",
    "https://www.cainiao.com/",
-   "https://www.cainiao.com/about-us-join-us.html",
    "https://www.cainiao.com/careers",
    "https://www.cainiao.com/en/careers",
    "https://www.cainiao.com/careers/",
@@ -302,7 +301,8 @@
    "https://www.cainiao.com/jobs",
    "https://www.cainiao.com/en/jobs",
    "https://www.cainiao.com/career",
-   "https://www.cainiao.com/en/career"
+   "https://www.cainiao.com/en/career",
+   "https://cainiao.com/careers"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -391,12 +391,12 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://www.dimerco.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/",
    "https://dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/careers/",
    "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
    "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
    "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
-   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij"
+   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij",
+   "https://www.dimerco.com/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/werken-bij"
   ],
   "checked_at": "2026-10-26"
  },
@@ -2025,10 +2025,10 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://www.careers.tollgroup.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
-   "https://www.tollgroup.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
-   "https://www.tollgroup.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
-   "https://www.tollgroup.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/"
+   "https://www.careers.tollgroup.com/ -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with",
+   "https://www.tollgroup.com/careers -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with",
+   "https://www.tollgroup.com/en/careers -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with",
+   "https://www.tollgroup.com/careers/ -> SSLError: HTTPSConnectionPool(host='www.careers.tollgroup.com', port=443): Max retries exceeded with"
   ],
   "checked_at": "2026-10-26"
  },
@@ -3537,6 +3537,285 @@
    "https://nunner.com/ -> HTTPError: 429 Client Error: Too Many Requests for url: https://nunner.com/",
    "https://www.nunner.com/ -> HTTPError: 429 Client Error: Too Many Requests for url: https://www.nunner.com/"
   ],
+  "checked_at": "2026-10-26"
+ },
+ "den-hartogh": {
+  "source": {
+   "type": "recruitee",
+   "base_url": "https://careers.denhartogh.com"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://denhartogh.com/",
+   "https://www.denhartogh.com/",
+   "https://careers.denhartogh.com",
+   "https://www.denhartogh.com/careers/our_teams",
+   "https://www.denhartogh.com/careers",
+   "https://www.denhartogh.com/en/careers",
+   "https://www.denhartogh.com/careers/",
+   "https://www.denhartogh.com/nl/werken-bij",
+   "https://www.denhartogh.com/werken-bij",
+   "https://www.denhartogh.com/vacatures",
+   "https://www.denhartogh.com/nl/vacatures",
+   "https://www.denhartogh.com/jobs",
+   "https://www.denhartogh.com/en/jobs",
+   "https://www.denhartogh.com/career"
+  ],
+  "reason": "found",
+  "notes": [
+   "https://www.denhartogh.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.denhartogh.com/en/careers",
+   "https://www.denhartogh.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.denhartogh.com/nl/werken-bij",
+   "https://www.denhartogh.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.denhartogh.com/werken-bij",
+   "https://www.denhartogh.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.denhartogh.com/vacatures",
+   "https://www.denhartogh.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.denhartogh.com/nl/vacatures",
+   "https://www.denhartogh.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.denhartogh.com/jobs",
+   "https://www.denhartogh.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.denhartogh.com/en/jobs",
+   "https://www.denhartogh.com/career -> HTTPError: 404 Client Error: Not Found for url: https://www.denhartogh.com/career"
+  ],
+  "checked_at": "2026-10-26"
+ },
+ "emons-group": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://emons.eu/",
+   "https://www.emons.eu/",
+   "https://emons.eu/careers/",
+   "https://emons.eu/careers/drivers/",
+   "https://emons.eu/careers/mechanics/",
+   "https://emons.eu/careers/office/",
+   "https://www.emons.eu/careers",
+   "https://www.emons.eu/en/careers",
+   "https://www.emons.eu/careers/",
+   "https://www.emons.eu/nl/werken-bij",
+   "https://www.emons.eu/werken-bij",
+   "https://www.emons.eu/vacatures",
+   "https://www.emons.eu/nl/vacatures",
+   "https://www.emons.eu/jobs"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://www.emons.eu/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://emons.eu/nl/werken-bij",
+   "https://www.emons.eu/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://emons.eu/werken-bij",
+   "https://www.emons.eu/jobs -> HTTPError: 404 Client Error: Not Found for url: https://emons.eu/jobs"
+  ],
+  "checked_at": "2026-10-26"
+ },
+ "bdp-international": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://bdpint.com/",
+   "https://www.bdpint.com/",
+   "https://psabdp.com/careers/employee-experience",
+   "https://psabdp.com/careers/career-opportunities",
+   "https://www.bdpint.com/careers",
+   "https://www.bdpint.com/en/careers",
+   "https://www.bdpint.com/careers/",
+   "https://www.bdpint.com/nl/werken-bij",
+   "https://www.bdpint.com/werken-bij",
+   "https://www.bdpint.com/vacatures",
+   "https://www.bdpint.com/nl/vacatures",
+   "https://www.bdpint.com/jobs",
+   "https://www.bdpint.com/en/jobs",
+   "https://www.bdpint.com/career"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://www.bdpint.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://psabdp.com/en/careers",
+   "https://www.bdpint.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://psabdp.com/nl/werken-bij",
+   "https://www.bdpint.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://psabdp.com/werken-bij",
+   "https://www.bdpint.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://psabdp.com/vacatures",
+   "https://www.bdpint.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://psabdp.com/nl/vacatures",
+   "https://www.bdpint.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://psabdp.com/jobs"
+  ],
+  "checked_at": "2026-10-26"
+ },
+ "kintetsu-world-express": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://kwe.com/",
+   "https://www.kwe.com/",
+   "https://www.kwe.com/career/",
+   "https://www.kwe.com/careers",
+   "https://www.kwe.com/en/careers",
+   "https://www.kwe.com/careers/",
+   "https://www.kwe.com/nl/werken-bij",
+   "https://www.kwe.com/werken-bij",
+   "https://www.kwe.com/vacatures",
+   "https://www.kwe.com/nl/vacatures",
+   "https://www.kwe.com/jobs",
+   "https://www.kwe.com/en/jobs",
+   "https://www.kwe.com/career",
+   "https://www.kwe.com/en/career"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://kwe.com/ -> ConnectionError: HTTPSConnectionPool(host='kwe.com', port=443): Max retries exceeded with url: / (Caused by",
+   "https://www.kwe.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.kwe.com/careers",
+   "https://www.kwe.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.kwe.com/en/careers",
+   "https://www.kwe.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.kwe.com/careers/",
+   "https://www.kwe.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.kwe.com/nl/werken-bij",
+   "https://www.kwe.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.kwe.com/werken-bij"
+  ],
+  "checked_at": "2026-10-26"
+ },
+ "maersk": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://maersk.com/",
+   "https://www.maersk.com/",
+   "https://www.maersk.com/careers",
+   "https://www.maersk.com/en/careers",
+   "https://www.maersk.com/careers/",
+   "https://www.maersk.com/nl/werken-bij",
+   "https://www.maersk.com/werken-bij",
+   "https://www.maersk.com/vacatures",
+   "https://www.maersk.com/nl/vacatures",
+   "https://www.maersk.com/jobs",
+   "https://www.maersk.com/en/jobs",
+   "https://www.maersk.com/career",
+   "https://www.maersk.com/en/career",
+   "https://maersk.com/careers"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://www.maersk.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.maersk.com/werken-bij",
+   "https://www.maersk.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.maersk.com/vacatures",
+   "https://www.maersk.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.maersk.com/jobs",
+   "https://www.maersk.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.maersk.com/jobs"
+  ],
+  "checked_at": "2026-10-26"
+ },
+ "nippon-express": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://nipponexpress.com/",
+   "https://www.nipponexpress.com/",
+   "https://www.nipponexpress.com/search/?query=Jobs&amp;start=0&amp;count=10&amp;group=2&amp;site=S2H5HJIF&amp;charset=utf-8",
+   "https://www.nipponexpress.com/careers/",
+   "https://www.nipponexpress.com/careers",
+   "https://www.nipponexpress.com/en/careers",
+   "https://www.nipponexpress.com/nl/werken-bij",
+   "https://www.nipponexpress.com/werken-bij",
+   "https://www.nipponexpress.com/vacatures",
+   "https://www.nipponexpress.com/nl/vacatures",
+   "https://www.nipponexpress.com/jobs",
+   "https://www.nipponexpress.com/en/jobs",
+   "https://www.nipponexpress.com/career",
+   "https://www.nipponexpress.com/en/career"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://nipponexpress.com/ -> ConnectionError: HTTPSConnectionPool(host='nipponexpress.com', port=443): Max retries exceeded with url: / ",
+   "https://www.nipponexpress.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.nipponexpress.com/en/careers/",
+   "https://www.nipponexpress.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.nipponexpress.com/nl/werken-bij/",
+   "https://www.nipponexpress.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.nipponexpress.com/werken-bij/",
+   "https://www.nipponexpress.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.nipponexpress.com/vacatures/",
+   "https://www.nipponexpress.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.nipponexpress.com/nl/vacatures/"
+  ],
+  "checked_at": "2026-10-26"
+ },
+ "samsung-sds": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://samsungsds.com/",
+   "https://www.samsungsds.com/",
+   "https://www.samsungsds.com/careers",
+   "https://www.samsungsds.com/en/careers",
+   "https://www.samsungsds.com/careers/",
+   "https://www.samsungsds.com/nl/werken-bij",
+   "https://www.samsungsds.com/werken-bij",
+   "https://www.samsungsds.com/vacatures",
+   "https://www.samsungsds.com/nl/vacatures",
+   "https://www.samsungsds.com/jobs",
+   "https://www.samsungsds.com/en/jobs",
+   "https://www.samsungsds.com/career",
+   "https://www.samsungsds.com/en/career",
+   "https://samsungsds.com/careers"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [],
+  "checked_at": "2026-10-26"
+ },
+ "santova-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://santova.com/",
+   "https://www.santova.com/",
+   "https://www.santova.com/careers",
+   "https://www.santova.com/en/careers",
+   "https://www.santova.com/careers/",
+   "https://www.santova.com/nl/werken-bij",
+   "https://www.santova.com/werken-bij",
+   "https://www.santova.com/vacatures",
+   "https://www.santova.com/nl/vacatures",
+   "https://www.santova.com/jobs",
+   "https://www.santova.com/en/jobs",
+   "https://www.santova.com/career",
+   "https://www.santova.com/en/career",
+   "https://santova.com/careers"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://www.santova.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/nl/werken-bij",
+   "https://www.santova.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/werken-bij",
+   "https://www.santova.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/vacatures",
+   "https://www.santova.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/nl/vacatures",
+   "https://www.santova.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/jobs",
+   "https://www.santova.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/en/jobs"
+  ],
+  "checked_at": "2026-10-26"
+ },
+ "fedex": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://careers.fedex.com",
+   "https://fedex.com/",
+   "https://www.fedex.com/",
+   "https://www.fedex.com/careers",
+   "https://www.fedex.com/en/careers",
+   "https://www.fedex.com/careers/",
+   "https://www.fedex.com/nl/werken-bij",
+   "https://www.fedex.com/werken-bij",
+   "https://www.fedex.com/vacatures",
+   "https://www.fedex.com/nl/vacatures",
+   "https://www.fedex.com/jobs",
+   "https://www.fedex.com/en/jobs",
+   "https://www.fedex.com/career",
+   "https://www.fedex.com/en/career"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [],
+  "checked_at": "2026-10-26"
+ },
+ "gls": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://gls-group.com/",
+   "https://www.gls-group.com/",
+   "https://www.gls-group.com/careers",
+   "https://www.gls-group.com/en/careers",
+   "https://www.gls-group.com/careers/",
+   "https://www.gls-group.com/nl/werken-bij",
+   "https://www.gls-group.com/werken-bij",
+   "https://www.gls-group.com/vacatures",
+   "https://www.gls-group.com/nl/vacatures",
+   "https://www.gls-group.com/jobs",
+   "https://www.gls-group.com/en/jobs",
+   "https://www.gls-group.com/career",
+   "https://www.gls-group.com/en/career",
+   "https://gls-group.com/careers"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [],
   "checked_at": "2026-10-26"
  }
 }
