@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-10-25T23:39+00:00",
+ "generated_at": "2026-10-26T01:04+00:00",
  "jobs": [
+  {
+   "id": "dsv:/job/Venlo-Customer-Service-Representative-LI-5928-SC/1431830233/",
+   "company_id": "dsv",
+   "title": "Customer Service Representative",
+   "location": "Venlo, LI, NL, 5928 SC",
+   "url": "https://jobs.dsv.com/job/Venlo-Customer-Service-Representative-LI-5928-SC/1431830233/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Venlo-Warehouse-Supervisor-LI-5928-SC/1432300133/",
+   "company_id": "dsv",
+   "title": "Warehouse Supervisor",
+   "location": "Venlo, LI, NL, 5928 SC",
+   "url": "https://jobs.dsv.com/job/Venlo-Warehouse-Supervisor-LI-5928-SC/1432300133/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Moerdijk-Supervisor-Application-Engineering-Nort-4782-JA/1442206033/",
+   "company_id": "dsv",
+   "title": "Supervisor Application Engineering",
+   "location": "Moerdijk, North Brabant, NL, 4782 JA",
+   "url": "https://jobs.dsv.com/job/Moerdijk-Supervisor-Application-Engineering-Nort-4782-JA/1442206033/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Moerdijk-Warehouse-Teamleider-Nort-4782-JA/1410698533/",
+   "company_id": "dsv",
+   "title": "Warehouse Teamleider",
+   "location": "Moerdijk, North Brabant, NL, 4782 JA",
+   "url": "https://jobs.dsv.com/job/Moerdijk-Warehouse-Teamleider-Nort-4782-JA/1410698533/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Moerdijk-Supervisor-Applicatie-Engineering-Nort-4782-JA/1442206133/",
+   "company_id": "dsv",
+   "title": "Supervisor Applicatie Engineering",
+   "location": "Moerdijk, North Brabant, NL, 4782 JA",
+   "url": "https://jobs.dsv.com/job/Moerdijk-Supervisor-Applicatie-Engineering-Nort-4782-JA/1442206133/",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Venlo-Inventory-Controller-LI-5928-SC/1399787733/",
+   "company_id": "dsv",
+   "title": "Inventory Controller",
+   "location": "Venlo, LI, NL, 5928 SC",
+   "url": "https://jobs.dsv.com/job/Venlo-Inventory-Controller-LI-5928-SC/1399787733/",
+   "posted_at": "2026-10-25",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Venlo-Troubleshooter-LI-5928-SG/1420852633/",
+   "company_id": "dsv",
+   "title": "Troubleshooter",
+   "location": "Venlo, LI, NL, 5928 SG",
+   "url": "https://jobs.dsv.com/job/Venlo-Troubleshooter-LI-5928-SG/1420852633/",
+   "posted_at": "2026-10-25",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
   {
    "id": "barsan-global-logistics:https://www.barsan.nl/jobs#senior-transport-planner",
    "company_id": "barsan-global-logistics",
@@ -10,7 +94,11 @@
    "posted_at": null,
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -65,54 +153,6 @@
    "baseline": false
   },
   {
-   "id": "dsv:/job/Moerdijk-Supervisor-Application-Engineering-Nort-4782-JA/1442206033/",
-   "company_id": "dsv",
-   "title": "Supervisor Application Engineering",
-   "location": "Moerdijk, North Brabant, NL, 4782 JA",
-   "url": "https://jobs.dsv.com/job/Moerdijk-Supervisor-Application-Engineering-Nort-4782-JA/1442206033/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "dsv:/job/Venlo-Troubleshooter-LI-5928-SG/1420852633/",
-   "company_id": "dsv",
-   "title": "Troubleshooter",
-   "location": "Venlo, LI, NL, 5928 SG",
-   "url": "https://jobs.dsv.com/job/Venlo-Troubleshooter-LI-5928-SG/1420852633/",
-   "posted_at": "2026-10-25",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "dsv:/job/Moerdijk-Warehouse-Teamleider-Nort-4782-JA/1410698533/",
-   "company_id": "dsv",
-   "title": "Warehouse Teamleider",
-   "location": "Moerdijk, North Brabant, NL, 4782 JA",
-   "url": "https://jobs.dsv.com/job/Moerdijk-Warehouse-Teamleider-Nort-4782-JA/1410698533/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "dsv:/job/Moerdijk-Supervisor-Applicatie-Engineering-Nort-4782-JA/1442206133/",
-   "company_id": "dsv",
-   "title": "Supervisor Applicatie Engineering",
-   "location": "Moerdijk, North Brabant, NL, 4782 JA",
-   "url": "https://jobs.dsv.com/job/Moerdijk-Supervisor-Applicatie-Engineering-Nort-4782-JA/1442206133/",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
    "id": "dsv:/job/Moerdijk-Customer-Care-&-Support-Nederlands-Franstalig-Nort-4782-JA/1410857933/",
    "company_id": "dsv",
    "title": "Customer Care & Support Nederlands-Franstalig",
@@ -125,141 +165,6 @@
    "baseline": false
   },
   {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
-   "company_id": "klg-europe",
-   "title": "Transport Planner Hongarije",
-   "location": "Venlo, Nederland",
-   "url": "https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/orderplanner-warehouse-192",
-   "company_id": "klg-europe",
-   "title": "Orderplanner Warehouse",
-   "location": "Venlo, Nederland",
-   "url": "https://www.werkenbijklg.nl/vacatures/orderplanner-warehouse-192",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
-   "company_id": "neele-vat",
-   "title": "Freight Forwarder Road Transport Uk",
-   "location": "Rotterdam Hoogvliet",
-   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
-   "company_id": "neele-vat",
-   "title": "All Round Sea Freight Forwarder",
-   "location": "rotterdam Spaanse Polder",
-   "url": "https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/container-planner/",
-   "company_id": "neele-vat",
-   "title": "Container Planner",
-   "location": "Rotterdam Pernis",
-   "url": "https://werkenbijneelevat.com/vacancies/container-planner/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
-   "company_id": "neele-vat",
-   "title": "Transportplanner Ftl",
-   "location": "Rotterdam Pernis",
-   "url": "https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
-   "company_id": "neele-vat",
-   "title": "Freight Forwarder Shiproad",
-   "location": "Rotterdam Pernis",
-   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
-   "company_id": "neele-vat",
-   "title": "Customer Operations Specialist",
-   "location": "City Terminal; Rotterdam Maasvlakte",
-   "url": "https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
-   "company_id": "neele-vat",
-   "title": "Export Forwarder",
-   "location": "Rotterdam Pernis",
-   "url": "https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
    "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/expediteur-luchtvracht-2/",
    "company_id": "gd-its-forwarding",
    "title": "Expediteur Luchtvracht",
@@ -268,7 +173,11 @@
    "posted_at": null,
    "labels": {
     "dutch_required": true,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -283,7 +192,11 @@
    "posted_at": null,
    "labels": {
     "dutch_required": true,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -310,7 +223,11 @@
    "posted_at": null,
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -361,7 +278,11 @@
    "posted_at": null,
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -508,7 +429,7 @@
    "posted_at": "2026-10-24",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -544,7 +465,11 @@
    "posted_at": null,
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-24",
@@ -593,6 +518,30 @@
    "location": "",
    "url": "https://aircargo.nl/fr/apropos/offres-demploi",
    "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Amsterdam/Sr-Key-Account-Manager_31164482-1",
+   "company_id": "abbott",
+   "title": "Sr Key Account Manager",
+   "location": "Netherlands - Amsterdam",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Amsterdam/Sr-Key-Account-Manager_31164482-1",
+   "posted_at": "2026-10-24",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance_31164514",
+   "company_id": "abbott",
+   "title": "Internship Operator Customs & Trade Compliance",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance_31164514",
+   "posted_at": "2026-10-24",
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-24",
@@ -655,7 +604,7 @@
    "posted_at": "2026-10-23",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -739,7 +688,11 @@
    "posted_at": "2026-10-23",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-24",
@@ -754,33 +707,13 @@
    "posted_at": "2026-10-23",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Amsterdam/Sr-Key-Account-Manager_31164482-1",
-   "company_id": "abbott",
-   "title": "Sr Key Account Manager",
-   "location": "Netherlands - Amsterdam",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Amsterdam/Sr-Key-Account-Manager_31164482-1",
-   "posted_at": "2026-10-23",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance_31164514",
-   "company_id": "abbott",
-   "title": "Internship Operator Customs & Trade Compliance",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance_31164514",
-   "posted_at": "2026-10-23",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-10-24",
    "baseline": false
   },
@@ -859,10 +792,62 @@
    "posted_at": "2026-10-23",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-23",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/Operator-Poederpak_31165321",
+   "company_id": "abbott",
+   "title": "Operator Poederpak",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Poederpak_31165321",
+   "posted_at": "2026-10-23",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-23",
+   "baseline": false
+  },
+  {
+   "id": "apm-terminals:/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
+   "company_id": "apm-terminals",
+   "title": "FCL MOF/LCL Operations Associate",
+   "location": "Netherlands, Amsterdam, 2132 MV",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
+   "posted_at": "2026-10-23",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/FCL-MOF-LCL-Operations-Associate_R199117",
+   "company_id": "apm-terminals",
+   "title": "FCL MOF/LCL Operations Associate",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/FCL-MOF-LCL-Operations-Associate_R199117",
+   "posted_at": "2026-10-23",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/Technical-Warehouse-Operator_31165459",
+   "company_id": "abbott",
+   "title": "Technical Warehouse Operator",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Technical-Warehouse-Operator_31165459",
+   "posted_at": "2026-10-23",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-22",
    "baseline": false
   },
   {
@@ -887,6 +872,18 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-21",
+   "baseline": false
+  },
+  {
+   "id": "c-h-robinson:/job/Rotterdam-Netherlands/Account-Executive_R49763",
+   "company_id": "c-h-robinson",
+   "title": "Account Executive- Dutch Speaker",
+   "location": "Rotterdam Netherlands",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Rotterdam-Netherlands/Account-Executive_R49763",
+   "posted_at": "2026-10-23",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-10",
    "baseline": false
   },
   {
@@ -934,7 +931,11 @@
    "posted_at": "2026-10-23",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-17",
@@ -961,15 +962,15 @@
    "posted_at": "2026-10-22",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
    "id": "dsv:/job/Rotterdam-Junior-Supply-Chain-Consultant-ZH-3089-JW/1402941733/",
    "company_id": "dsv",
-   "title": "Junior Supply Chain Consultant",
-   "location": "Rotterdam, ZH, NL, 3089 JW",
-   "url": "https://jobs.dsv.com/job/Rotterdam-Junior-Supply-Chain-Consultant-ZH-3089-JW/1402941733/",
+   "title": "Junior Technician Facilities & Technical Services",
+   "location": "Venlo, LI, NL, 5928 SC",
+   "url": "https://jobs.dsv.com/job/Venlo-Junior-Technician-Facilities-&-Technical-Services-LI-5928-SC/1370013533/",
    "posted_at": "2026-10-22",
    "labels": null,
    "labels_checked": false,
@@ -985,7 +986,11 @@
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -1000,7 +1005,11 @@
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-23",
@@ -1051,7 +1060,11 @@
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-23",
@@ -1081,7 +1094,11 @@
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-23",
@@ -1096,7 +1113,11 @@
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-23",
@@ -1111,7 +1132,11 @@
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-23",
@@ -1126,7 +1151,11 @@
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-23",
@@ -1141,7 +1170,11 @@
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-23",
@@ -1156,21 +1189,13 @@
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-23",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Operator-Poederpak_31165321",
-   "company_id": "abbott",
-   "title": "Operator Poederpak",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Poederpak_31165321",
-   "posted_at": "2026-10-22",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-10-23",
    "baseline": false
   },
@@ -1183,42 +1208,22 @@
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-22",
    "baseline": false
   },
   {
-   "id": "apm-terminals:/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
-   "company_id": "apm-terminals",
-   "title": "FCL MOF/LCL Operations Associate",
-   "location": "Netherlands, Amsterdam, 2132 MV",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Amsterdam-2132-MV/FCL-MOF-LCL-Operations-Associate_R190036-1",
-   "posted_at": "2026-10-22",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/FCL-MOF-LCL-Operations-Associate_R199117",
-   "company_id": "apm-terminals",
-   "title": "FCL MOF/LCL Operations Associate",
-   "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/FCL-MOF-LCL-Operations-Associate_R199117",
-   "posted_at": "2026-10-22",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Technical-Warehouse-Operator_31165459",
+   "id": "abbott:/job/Netherlands---Hoofddorp/HIC--Healthcare-Insurance-Companies--Market-Access-Specialist---Diabetes-care---Netherlands_31153296",
    "company_id": "abbott",
-   "title": "Technical Warehouse Operator",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Technical-Warehouse-Operator_31165459",
+   "title": "Market Access Manager - Diabetes Care - Netherlands (Hoofddorp)",
+   "location": "Netherlands - Hoofddorp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/HIC--Healthcare-Insurance-Companies--Market-Access-Specialist---Diabetes-care---Netherlands_31153296",
    "posted_at": "2026-10-22",
    "labels": null,
    "labels_checked": false,
@@ -1226,15 +1231,75 @@
    "baseline": false
   },
   {
-   "id": "c-h-robinson:/job/Rotterdam-Netherlands/Account-Executive_R49763",
-   "company_id": "c-h-robinson",
-   "title": "Account Executive- Dutch Speaker",
-   "location": "Rotterdam Netherlands",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Rotterdam-Netherlands/Account-Executive_R49763",
+   "id": "abbott:/job/Netherlands---Weesp/MBO-Stage--Implementatie---Continuous-Improvement--Maintenance-_31164738",
+   "company_id": "abbott",
+   "title": "MBO Stage: Implementatie & Continuous Improvement (Maintenance)",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/MBO-Stage--Implementatie---Continuous-Improvement--Maintenance-_31164738",
    "posted_at": "2026-10-22",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-10",
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-Stage--Data-Management-Verbetering_31164496",
+   "company_id": "abbott",
+   "title": "HBO/WO Stage: Data Management Verbetering",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-Stage--Data-Management-Verbetering_31164496",
+   "posted_at": "2026-10-22",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Weesp/Internship--QA-Supplier-to-Customer-at-Abbott-Olst_31164975",
+   "company_id": "abbott",
+   "title": "Digital Process Improvement & Automation (QA) Intern",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Internship--QA-Supplier-to-Customer-at-Abbott-Olst_31164975",
+   "posted_at": "2026-10-22",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-21",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-Stage--Digitalisering-van-het--Product-Finishing-Plan----Master-Scheduling_31164497",
+   "company_id": "abbott",
+   "title": "HBO/WO Stage: Digitalisering van het ‘Product Finishing Plan’ - Master Scheduling",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-Stage--Digitalisering-van-het--Product-Finishing-Plan----Master-Scheduling_31164497",
+   "posted_at": "2026-10-22",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-21",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance-at-Abbott-Zwolle_31164513",
+   "company_id": "abbott",
+   "title": "Internship Operator Customs & Trade Compliance at Abbott Zwolle",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance-at-Abbott-Zwolle_31164513",
+   "posted_at": "2026-10-22",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-21",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/QA-Design-Assurance-Engineer_31164885",
+   "company_id": "abbott",
+   "title": "QA Design Assurance Engineer",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Design-Assurance-Engineer_31164885",
+   "posted_at": "2026-10-22",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-14",
    "baseline": false
   },
   {
@@ -1246,7 +1311,11 @@
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -1261,7 +1330,11 @@
    "posted_at": "2026-10-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -1300,7 +1373,11 @@
    "posted_at": "2026-10-21",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -1315,7 +1392,11 @@
    "posted_at": "2026-10-21",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-22",
@@ -1414,7 +1495,11 @@
    "posted_at": "2026-10-21",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-22",
@@ -1444,7 +1529,11 @@
    "posted_at": "2026-10-21",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-22",
@@ -1459,7 +1548,30 @@
    "posted_at": "2026-10-21",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-22",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-365441",
+   "company_id": "dhl-group",
+   "title": "Product Owner – Internal Integrations | Architect",
+   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365441&source=careers.dhl.com",
+   "posted_at": "2026-10-21",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-22",
@@ -1474,45 +1586,13 @@
    "posted_at": "2026-10-21",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Hoofddorp/HIC--Healthcare-Insurance-Companies--Market-Access-Specialist---Diabetes-care---Netherlands_31153296",
-   "company_id": "abbott",
-   "title": "Market Access Manager - Diabetes Care - Netherlands (Hoofddorp)",
-   "location": "Netherlands - Hoofddorp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/HIC--Healthcare-Insurance-Companies--Market-Access-Specialist---Diabetes-care---Netherlands_31153296",
-   "posted_at": "2026-10-21",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Weesp/MBO-Stage--Implementatie---Continuous-Improvement--Maintenance-_31164738",
-   "company_id": "abbott",
-   "title": "MBO Stage: Implementatie & Continuous Improvement (Maintenance)",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/MBO-Stage--Implementatie---Continuous-Improvement--Maintenance-_31164738",
-   "posted_at": "2026-10-21",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-Stage--Data-Management-Verbetering_31164496",
-   "company_id": "abbott",
-   "title": "HBO/WO Stage: Data Management Verbetering",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-Stage--Data-Management-Verbetering_31164496",
-   "posted_at": "2026-10-21",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-10-22",
    "baseline": false
   },
@@ -1537,58 +1617,50 @@
    "posted_at": "2026-10-21",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-21",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Weesp/Internship--QA-Supplier-to-Customer-at-Abbott-Olst_31164975",
+   "id": "abbott:/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Trainingsoptimalisatie_31164715",
    "company_id": "abbott",
-   "title": "Digital Process Improvement & Automation (QA) Intern",
+   "title": "HBO Stage: Quality Systems Trainingsoptimalisatie",
    "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Internship--QA-Supplier-to-Customer-at-Abbott-Olst_31164975",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Trainingsoptimalisatie_31164715",
    "posted_at": "2026-10-21",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-21",
+   "first_seen": "2026-10-20",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-Stage--Digitalisering-van-het--Product-Finishing-Plan----Master-Scheduling_31164497",
+   "id": "abbott:/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Glossery_31164712",
    "company_id": "abbott",
-   "title": "HBO/WO Stage: Digitalisering van het ‘Product Finishing Plan’ - Master Scheduling",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-Stage--Digitalisering-van-het--Product-Finishing-Plan----Master-Scheduling_31164497",
+   "title": "HBO Stage: Quality Systems Glossery",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Glossery_31164712",
    "posted_at": "2026-10-21",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-21",
+   "first_seen": "2026-10-20",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance-at-Abbott-Zwolle_31164513",
-   "company_id": "abbott",
-   "title": "Internship Operator Customs & Trade Compliance at Abbott Zwolle",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance-at-Abbott-Zwolle_31164513",
+   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant---FMCG---Chemicals_R193829-1",
+   "company_id": "apm-terminals",
+   "title": "Customer Experience Consultant – FMCG & Chemicals",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant---FMCG---Chemicals_R193829-1",
    "posted_at": "2026-10-21",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-21",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/QA-Design-Assurance-Engineer_31164885",
-   "company_id": "abbott",
-   "title": "QA Design Assurance Engineer",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Design-Assurance-Engineer_31164885",
-   "posted_at": "2026-10-21",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-14",
+   "first_seen": "2026-10-17",
    "baseline": false
   },
   {
@@ -1600,11 +1672,34 @@
    "posted_at": "2026-10-21",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-22",
    "baseline": false
+  },
+  {
+   "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Global-Forwarding-Agent_R49058",
+   "company_id": "c-h-robinson",
+   "title": "Warehouse Operations Agent",
+   "location": "Aalsmeer Netherlands",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Global-Forwarding-Agent_R49058",
+   "posted_at": "2026-10-21",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
   },
   {
    "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Medewerker-6902KL/1350811155/",
@@ -1639,7 +1734,26 @@
    "posted_at": "2026-10-20",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Rotterdam-Senior-Freight-Forwarder-ZH-3089-JW/1449432133/",
+   "company_id": "dsv",
+   "title": "Senior Freight Forwarder",
+   "location": "Rotterdam, ZH, NL, 3089 JW",
+   "url": "https://jobs.dsv.com/job/Rotterdam-Senior-Freight-Forwarder-ZH-3089-JW/1449432133/",
+   "posted_at": "2026-10-20",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -1705,7 +1819,11 @@
    "posted_at": "2026-10-20",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-21",
@@ -1720,7 +1838,11 @@
    "posted_at": "2026-10-20",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-21",
@@ -1735,7 +1857,11 @@
    "posted_at": "2026-10-20",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-21",
@@ -1750,7 +1876,11 @@
    "posted_at": "2026-10-20",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-21",
@@ -1765,7 +1895,11 @@
    "posted_at": "2026-10-20",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-20",
@@ -1780,33 +1914,13 @@
    "posted_at": "2026-10-20",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-20",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Trainingsoptimalisatie_31164715",
-   "company_id": "abbott",
-   "title": "HBO Stage: Quality Systems Trainingsoptimalisatie",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Trainingsoptimalisatie_31164715",
-   "posted_at": "2026-10-20",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-20",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Glossery_31164712",
-   "company_id": "abbott",
-   "title": "HBO Stage: Quality Systems Glossery",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/HBO-Stage--Quality-Systems-Glossery_31164712",
-   "posted_at": "2026-10-20",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-10-20",
    "baseline": false
   },
@@ -1838,18 +1952,6 @@
    "baseline": false
   },
   {
-   "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant---FMCG---Chemicals_R193829-1",
-   "company_id": "apm-terminals",
-   "title": "Customer Experience Consultant – FMCG & Chemicals",
-   "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant---FMCG---Chemicals_R193829-1",
-   "posted_at": "2026-10-20",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-17",
-   "baseline": false
-  },
-  {
    "id": "gxo-logistics:/job/Almere-Site-Controller-1358-CG/1431938800/",
    "company_id": "gxo-logistics",
    "title": "Site Controller",
@@ -1862,22 +1964,7 @@
    "baseline": false
   },
   {
-   "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Global-Forwarding-Agent_R49058",
-   "company_id": "c-h-robinson",
-   "title": "Warehouse Operations Agent",
-   "location": "Aalsmeer Netherlands",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Global-Forwarding-Agent_R49058",
-   "posted_at": "2026-10-20",
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "dhl-group:AV-385633",
+   "id": "dhl-group:AV-376163",
    "company_id": "dhl-group",
    "title": "Global Project Manager (GTOM)",
    "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
@@ -1885,7 +1972,11 @@
    "posted_at": "2026-10-19",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-20",
@@ -1900,7 +1991,11 @@
    "posted_at": "2026-10-19",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-20",
@@ -1915,7 +2010,11 @@
    "posted_at": "2026-10-19",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-20",
@@ -1930,7 +2029,11 @@
    "posted_at": "2026-10-19",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-20",
@@ -1945,6 +2048,25 @@
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
+   "first_seen": "2026-10-19",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-358786",
+   "company_id": "dhl-group",
+   "title": "Senior Data Engineer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358786&source=careers.dhl.com",
+   "posted_at": "2026-10-19",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
    "first_seen": "2026-10-19",
    "baseline": false
   },
@@ -1987,7 +2109,11 @@
    "posted_at": "2026-10-19",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-19",
@@ -2050,7 +2176,7 @@
    "posted_at": "2026-10-18",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -2079,6 +2205,78 @@
    "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": true
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/QC-Analyst-A_31164873",
+   "company_id": "abbott",
+   "title": "QC Analyst A",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/QC-Analyst-A_31164873",
+   "posted_at": "2026-10-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-18",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/Qualification-and-Validation-Internship--Simplifying-Packaging-Materials_31164501",
+   "company_id": "abbott",
+   "title": "Qualification and Validation Internship: Simplifying Packaging Materials",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Qualification-and-Validation-Internship--Simplifying-Packaging-Materials_31164501",
+   "posted_at": "2026-10-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-18",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Weesp/Global-TPM-Supplier-QA-Product-Manager_31152952",
+   "company_id": "abbott",
+   "title": "Global TPM/Supplier QA Product Manager",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Global-TPM-Supplier-QA-Product-Manager_31152952",
+   "posted_at": "2026-10-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-18",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Hoofddorp/Executive-Assistant_31164369",
+   "company_id": "abbott",
+   "title": "Executive Assistant",
+   "location": "Netherlands - Hoofddorp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Executive-Assistant_31164369",
+   "posted_at": "2026-10-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-18",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/QA-officer-A-B_31164493",
+   "company_id": "abbott",
+   "title": "QA officer A/B",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/QA-officer-A-B_31164493",
+   "posted_at": "2026-10-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-18",
+   "baseline": false
+  },
+  {
+   "id": "apm-terminals:/job/Netherlands-Almere-1332-ED/Forklift-Operator_R200720",
+   "company_id": "apm-terminals",
+   "title": "Forklift Operator",
+   "location": "Netherlands, Almere, 1332 ED",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Almere-1332-ED/Forklift-Operator_R200720",
+   "posted_at": "2026-10-17",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-17",
+   "baseline": false
   },
   {
    "id": "gxo-logistics:/job/Hilversum-Process-Controller-I-1216-BL/1431546700/",
@@ -2149,70 +2347,14 @@
    "posted_at": "2026-10-16",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-24",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/QC-Analyst-A_31164873",
-   "company_id": "abbott",
-   "title": "QC Analyst A",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/QC-Analyst-A_31164873",
-   "posted_at": "2026-10-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Qualification-and-Validation-Internship--Simplifying-Packaging-Materials_31164501",
-   "company_id": "abbott",
-   "title": "Qualification and Validation Internship: Simplifying Packaging Materials",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Qualification-and-Validation-Internship--Simplifying-Packaging-Materials_31164501",
-   "posted_at": "2026-10-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Weesp/Global-TPM-Supplier-QA-Product-Manager_31152952",
-   "company_id": "abbott",
-   "title": "Global TPM/Supplier QA Product Manager",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Global-TPM-Supplier-QA-Product-Manager_31152952",
-   "posted_at": "2026-10-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Hoofddorp/Executive-Assistant_31164369",
-   "company_id": "abbott",
-   "title": "Executive Assistant",
-   "location": "Netherlands - Hoofddorp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Executive-Assistant_31164369",
-   "posted_at": "2026-10-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/QA-officer-A-B_31164493",
-   "company_id": "abbott",
-   "title": "QA officer A/B",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/QA-officer-A-B_31164493",
-   "posted_at": "2026-10-16",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-18",
    "baseline": false
   },
   {
@@ -2284,7 +2426,11 @@
    "posted_at": "2026-10-16",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-17",
@@ -2299,7 +2445,11 @@
    "posted_at": "2026-10-16",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-17",
@@ -2314,7 +2464,11 @@
    "posted_at": "2026-10-16",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-17",
@@ -2329,21 +2483,13 @@
    "posted_at": "2026-10-16",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-17",
-   "baseline": false
-  },
-  {
-   "id": "apm-terminals:/job/Netherlands-Almere-1332-ED/Forklift-Operator_R200720",
-   "company_id": "apm-terminals",
-   "title": "Forklift Operator",
-   "location": "Netherlands, Almere, 1332 ED",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Almere-1332-ED/Forklift-Operator_R200720",
-   "posted_at": "2026-10-16",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-10-17",
    "baseline": false
   },
@@ -2405,6 +2551,30 @@
    "baseline": false
   },
   {
+   "id": "abbott:/job/Netherlands---Weesp/Proces-Operator-B-bij-Abbott-Weesp_31164612",
+   "company_id": "abbott",
+   "title": "Proces Operator B bij Abbott Weesp",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Proces-Operator-B-bij-Abbott-Weesp_31164612",
+   "posted_at": "2026-10-16",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-16",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-A_31163767",
+   "company_id": "abbott",
+   "title": "Operator A",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31163767",
+   "posted_at": "2026-10-16",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-16",
+   "baseline": false
+  },
+  {
    "id": "gxo-logistics:/job/Lelystad-Site-Controller-I-8218-MC/1359930700/",
    "company_id": "gxo-logistics",
    "title": "Site Controller I",
@@ -2453,6 +2623,18 @@
    "baseline": true
   },
   {
+   "id": "abbott:/job/Netherlands---Olst/Warehouse-Operator-A-Weegcentrum_31162921",
+   "company_id": "abbott",
+   "title": "Warehouse Operator A Weegcentrum",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Warehouse-Operator-A-Weegcentrum_31162921",
+   "posted_at": "2026-10-16",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-01",
+   "baseline": false
+  },
+  {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Logistiek-Medewerker-2742RD/1169902555/",
    "company_id": "dachser",
    "title": "Logistiek Medewerker",
@@ -2477,18 +2659,6 @@
    "baseline": true
   },
   {
-   "id": "dsv:/job/Moerdijk-Operations-Manager-Transport-Solutions-Nort-4782-JA/1416617433/",
-   "company_id": "dsv",
-   "title": "Operations Manager Transport Solutions",
-   "location": "Moerdijk, North Brabant, NL, 4782 JA",
-   "url": "https://jobs.dsv.com/job/Moerdijk-Operations-Manager-Transport-Solutions-Nort-4782-JA/1416617433/",
-   "posted_at": "2026-10-15",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
    "id": "dsv:/job/Rotterdam-Logistiek-Co%C3%B6rdinator-ZH-3089-KC/1448146833/",
    "company_id": "dsv",
    "title": "Logistiek Coördinator",
@@ -2497,10 +2667,14 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -2509,6 +2683,18 @@
    "title": "Operations Manager Transport Solutions",
    "location": "Moerdijk, North Brabant, NL, 4782 JA",
    "url": "https://jobs.dsv.com/job/Moerdijk-Operations-Manager-Transport-Solutions-Nort-4782-JA/1416617533/",
+   "posted_at": "2026-10-15",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Moerdijk-Operations-Manager-Transport-Solutions-Nort-4782-JA/1416617433/",
+   "company_id": "dsv",
+   "title": "Operations Manager Transport Solutions",
+   "location": "Moerdijk, North Brabant, NL, 4782 JA",
+   "url": "https://jobs.dsv.com/job/Moerdijk-Operations-Manager-Transport-Solutions-Nort-4782-JA/1416617433/",
    "posted_at": "2026-10-15",
    "labels": null,
    "labels_checked": false,
@@ -2524,7 +2710,11 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -2563,7 +2753,11 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-16",
@@ -2578,7 +2772,11 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-16",
@@ -2593,7 +2791,11 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-16",
@@ -2608,7 +2810,49 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-16",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-381580",
+   "company_id": "dhl-group",
+   "title": "Senior Analyst Strategic Pricing",
+   "location": "Maastricht, Limburg, Netherlands, Maastricht, Limburg, Maastricht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=381580&source=careers.dhl.com",
+   "posted_at": "2026-10-15",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-16",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-385603",
+   "company_id": "dhl-group",
+   "title": "Commercial Trainee",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=385603&source=careers.dhl.com",
+   "posted_at": "2026-10-15",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-16",
@@ -2653,7 +2897,11 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-16",
@@ -2683,7 +2931,11 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-16",
@@ -2698,7 +2950,11 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-16",
@@ -2713,7 +2969,11 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-16",
@@ -2728,33 +2988,13 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-16",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Weesp/Proces-Operator-B-bij-Abbott-Weesp_31164612",
-   "company_id": "abbott",
-   "title": "Proces Operator B bij Abbott Weesp",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Proces-Operator-B-bij-Abbott-Weesp_31164612",
-   "posted_at": "2026-10-15",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-16",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-A_31163767",
-   "company_id": "abbott",
-   "title": "Operator A",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31163767",
-   "posted_at": "2026-10-15",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-10-16",
    "baseline": false
   },
@@ -2774,14 +3014,86 @@
    "baseline": false
   },
   {
-   "id": "world-courier:R269834",
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-Stage--Worksheet-Supply-Planning_31164502",
+   "company_id": "abbott",
+   "title": "HBO/WO Stage: Worksheet Supply Planning",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-Stage--Worksheet-Supply-Planning_31164502",
+   "posted_at": "2026-10-15",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-15",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Powder-Products_31164620",
+   "company_id": "abbott",
+   "title": "HBO/WO-stage: R&D Powder Products",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Powder-Products_31164620",
+   "posted_at": "2026-10-15",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-15",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage-Validatie--Gap-analyse-Validatieprocessen---Quality-optimalisatie-programma_31164623",
+   "company_id": "abbott",
+   "title": "HBO/WO-stage Validatie: Gap-analyse Validatieprocessen & Quality optimalisatie programma",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage-Validatie--Gap-analyse-Validatieprocessen---Quality-optimalisatie-programma_31164623",
+   "posted_at": "2026-10-15",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-15",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage-EHS--Wastewater-Management_31164613",
+   "company_id": "abbott",
+   "title": "HBO/WO-stage EHS: Wastewater Management",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage-EHS--Wastewater-Management_31164613",
+   "posted_at": "2026-10-15",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-15",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage-Operational-Group-Poeder-productie--Optimalisatie-communicatiestandaarden_31164622",
+   "company_id": "abbott",
+   "title": "HBO/WO-stage Operational Group Poeder productie: Optimalisatie communicatiestandaarden",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage-Operational-Group-Poeder-productie--Optimalisatie-communicatiestandaarden_31164622",
+   "posted_at": "2026-10-15",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-15",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Zwolle/XMLNAME-4-Operator-Poederpak_31164611",
+   "company_id": "abbott",
+   "title": "4 Operator Poederpak",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/XMLNAME-4-Operator-Poederpak_31164611",
+   "posted_at": "2026-10-15",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-15",
+   "baseline": false
+  },
+  {
+   "id": "world-courier:R2614063",
    "company_id": "world-courier",
    "title": "Assistent Teamleider Spits Alkmaar",
    "location": "Alkmaar, Netherlands, Alkmaar, Netherlands",
    "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/WEMEA--Netherlands--Alkmaar/Assistent-Teamleider_R269834/apply",
    "posted_at": "2026-10-15",
    "labels": {
-    "dutch_required": false,
+    "dutch_required": null,
     "written_in_dutch": null
    },
    "labels_checked": true,
@@ -2797,7 +3109,11 @@
    "posted_at": "2026-10-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -2855,18 +3171,6 @@
    "baseline": true
   },
   {
-   "id": "abbott:/job/Netherlands---Olst/Warehouse-Operator-A-Weegcentrum_31162921",
-   "company_id": "abbott",
-   "title": "Warehouse Operator A Weegcentrum",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Warehouse-Operator-A-Weegcentrum_31162921",
-   "posted_at": "2026-10-15",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-01",
-   "baseline": false
-  },
-  {
    "id": "dsv:/job/Sevenum-Project-Trainer-LI-5975-WG/1447487833/",
    "company_id": "dsv",
    "title": "Project Trainer",
@@ -2875,7 +3179,7 @@
    "posted_at": "2026-10-14",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -2887,10 +3191,14 @@
    "posted_at": "2026-10-14",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -2902,7 +3210,7 @@
    "posted_at": "2026-10-14",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -2962,7 +3270,11 @@
    "posted_at": "2026-10-14",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-15",
@@ -2977,7 +3289,11 @@
    "posted_at": "2026-10-14",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-15",
@@ -2992,7 +3308,11 @@
    "posted_at": "2026-10-14",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-15",
@@ -3007,7 +3327,11 @@
    "posted_at": "2026-10-14",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-15",
@@ -3022,7 +3346,11 @@
    "posted_at": "2026-10-14",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-15",
@@ -3037,82 +3365,50 @@
    "posted_at": "2026-10-14",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-15",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-Stage--Worksheet-Supply-Planning_31164502",
+   "id": "abbott:/job/Netherlands---Zwolle/Team-Lead-Analytisch-Laboratorium_31164354",
    "company_id": "abbott",
-   "title": "HBO/WO Stage: Worksheet Supply Planning",
+   "title": "Team Lead Analytisch Laboratorium",
    "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-Stage--Worksheet-Supply-Planning_31164502",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Team-Lead-Analytisch-Laboratorium_31164354",
    "posted_at": "2026-10-14",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-15",
+   "first_seen": "2026-10-14",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Powder-Products_31164620",
+   "id": "abbott:/job/Netherlands---Weesp/Proces-operator_31162833",
    "company_id": "abbott",
-   "title": "HBO/WO-stage: R&D Powder Products",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Powder-Products_31164620",
+   "title": "Proces operator",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Proces-operator_31162833",
    "posted_at": "2026-10-14",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-15",
+   "first_seen": "2026-10-14",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage-Validatie--Gap-analyse-Validatieprocessen---Quality-optimalisatie-programma_31164623",
+   "id": "abbott:/job/Netherlands---Zwolle/XMLNAME-8-Operator-Poederpak-gezocht---5-Ploegendienst-_31164881",
    "company_id": "abbott",
-   "title": "HBO/WO-stage Validatie: Gap-analyse Validatieprocessen & Quality optimalisatie programma",
+   "title": "8 Operator Poederpak gezocht! (5-Ploegendienst)",
    "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage-Validatie--Gap-analyse-Validatieprocessen---Quality-optimalisatie-programma_31164623",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/XMLNAME-8-Operator-Poederpak-gezocht---5-Ploegendienst-_31164881",
    "posted_at": "2026-10-14",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-15",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage-EHS--Wastewater-Management_31164613",
-   "company_id": "abbott",
-   "title": "HBO/WO-stage EHS: Wastewater Management",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage-EHS--Wastewater-Management_31164613",
-   "posted_at": "2026-10-14",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-15",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage-Operational-Group-Poeder-productie--Optimalisatie-communicatiestandaarden_31164622",
-   "company_id": "abbott",
-   "title": "HBO/WO-stage Operational Group Poeder productie: Optimalisatie communicatiestandaarden",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage-Operational-Group-Poeder-productie--Optimalisatie-communicatiestandaarden_31164622",
-   "posted_at": "2026-10-14",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-15",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/XMLNAME-4-Operator-Poederpak_31164611",
-   "company_id": "abbott",
-   "title": "4 Operator Poederpak",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/XMLNAME-4-Operator-Poederpak_31164611",
-   "posted_at": "2026-10-14",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-15",
+   "first_seen": "2026-10-14",
    "baseline": false
   },
   {
@@ -3148,7 +3444,7 @@
    "posted_at": "2026-10-13",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -3160,7 +3456,7 @@
    "posted_at": "2026-10-13",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -3172,7 +3468,31 @@
    "posted_at": "2026-10-13",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Hapert-Administratief-Medewerker-Nort-5527LC/1436644533/",
+   "company_id": "dsv",
+   "title": "Administratief Medewerker",
+   "location": "Hapert, North Brabant, NL, 5527LC",
+   "url": "https://jobs.dsv.com/job/Hapert-Administratief-Medewerker-Nort-5527LC/1436644533/",
+   "posted_at": "2026-10-13",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Maastricht-Airport-Control-Room-Specialist-LI-6199-AR/1436709033/",
+   "company_id": "dsv",
+   "title": "Control Room Specialist",
+   "location": "Maastricht-Airport, LI, NL, 6199 AR",
+   "url": "https://jobs.dsv.com/job/Maastricht-Airport-Control-Room-Specialist-LI-6199-AR/1436709033/",
+   "posted_at": "2026-10-13",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -3184,7 +3504,11 @@
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -3223,7 +3547,11 @@
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": true,
+    "no_sponsorship": false,
+    "relocation": true,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -3298,7 +3626,11 @@
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-14",
@@ -3313,7 +3645,11 @@
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-14",
@@ -3328,7 +3664,11 @@
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-14",
@@ -3343,46 +3683,50 @@
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-14",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/Team-Lead-Analytisch-Laboratorium_31164354",
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Liquid-Products_31164621",
    "company_id": "abbott",
-   "title": "Team Lead Analytisch Laboratorium",
+   "title": "HBO/WO-stage: R&D Liquid Products",
    "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Team-Lead-Analytisch-Laboratorium_31164354",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Liquid-Products_31164621",
    "posted_at": "2026-10-13",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-14",
+   "first_seen": "2026-10-13",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Weesp/Proces-operator_31162833",
+   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage--Ontwikkelen-leidingspecificatie-voor-onze-voedingsmiddelenfabriek_31164615-1",
    "company_id": "abbott",
-   "title": "Proces operator",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Proces-operator_31162833",
+   "title": "HBO/WO-stage: Ontwikkelen leidingspecificatie voor onze voedingsmiddelenfabriek",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage--Ontwikkelen-leidingspecificatie-voor-onze-voedingsmiddelenfabriek_31164615-1",
    "posted_at": "2026-10-13",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-14",
+   "first_seen": "2026-10-13",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/XMLNAME-8-Operator-Poederpak-gezocht---5-Ploegendienst-_31164881",
+   "id": "abbott:/job/Netherlands---Zwolle/Operator-Poederpak_31163141",
    "company_id": "abbott",
-   "title": "8 Operator Poederpak gezocht! (5-Ploegendienst)",
+   "title": "Operator Poederpak",
    "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/XMLNAME-8-Operator-Poederpak-gezocht---5-Ploegendienst-_31164881",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Poederpak_31163141",
    "posted_at": "2026-10-13",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-14",
+   "first_seen": "2026-10-13",
    "baseline": false
   },
   {
@@ -3406,7 +3750,11 @@
    "posted_at": "2026-10-13",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-17",
@@ -3421,7 +3769,7 @@
    "posted_at": "2026-10-12",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -3433,10 +3781,14 @@
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -3448,7 +3800,7 @@
    "posted_at": "2026-10-12",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -3472,7 +3824,11 @@
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-13",
@@ -3487,7 +3843,11 @@
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": true,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-13",
@@ -3514,7 +3874,11 @@
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-13",
@@ -3529,7 +3893,11 @@
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-13",
@@ -3544,7 +3912,11 @@
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-13",
@@ -3559,7 +3931,11 @@
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-13",
@@ -3574,7 +3950,11 @@
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-13",
@@ -3589,7 +3969,11 @@
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-13",
@@ -3604,45 +3988,13 @@
    "posted_at": "2026-10-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-13",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Liquid-Products_31164621",
-   "company_id": "abbott",
-   "title": "HBO/WO-stage: R&D Liquid Products",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage--R-D-Liquid-Products_31164621",
-   "posted_at": "2026-10-12",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-13",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/HBO-WO-stage--Ontwikkelen-leidingspecificatie-voor-onze-voedingsmiddelenfabriek_31164615-1",
-   "company_id": "abbott",
-   "title": "HBO/WO-stage: Ontwikkelen leidingspecificatie voor onze voedingsmiddelenfabriek",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/HBO-WO-stage--Ontwikkelen-leidingspecificatie-voor-onze-voedingsmiddelenfabriek_31164615-1",
-   "posted_at": "2026-10-12",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-13",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Operator-Poederpak_31163141",
-   "company_id": "abbott",
-   "title": "Operator Poederpak",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Poederpak_31163141",
-   "posted_at": "2026-10-12",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-10-13",
    "baseline": false
   },
@@ -3962,21 +4314,6 @@
    "baseline": true
   },
   {
-   "id": "aircargo-nl:https://aircargo.nl/over-ons/vacatures/operations-agent-export",
-   "company_id": "aircargo-nl",
-   "title": "Operations Agent Export 5 maanden geleden",
-   "location": "",
-   "url": "https://aircargo.nl/over-ons/vacatures/operations-agent-export",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
    "id": "aircargo-nl:https://aircargo.nl/over-ons/vacatures/warehouse-medewerker",
    "company_id": "aircargo-nl",
    "title": "Warehouse Medewerker (fulltime Aalsmeer) 3 maanden geleden",
@@ -4021,21 +4358,6 @@
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "fox-global-logistics:https://www.foxglobal.nl/vacancies/business-development-manager-forwarding/",
-   "company_id": "fox-global-logistics",
-   "title": "Business Development Manager Forwarding",
-   "location": "",
-   "url": "https://www.foxglobal.nl/vacancies/business-development-manager-forwarding/",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": true
-   },
-   "labels_checked": true,
    "first_seen": "2026-10-11",
    "baseline": true
   },
@@ -4120,7 +4442,11 @@
    "posted_at": "2026-10-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -4135,7 +4461,11 @@
    "posted_at": "2026-10-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-24",
@@ -4147,6 +4477,18 @@
    "title": "Business Development Manager",
    "location": "Eindhoven, NL, 5651 GG",
    "url": "https://jobs.gxo.com/job/Eindhoven-Business-Development-Manager-5651-GG/1346028700/",
+   "posted_at": "2026-10-10",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-10",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-A_31163763-1",
+   "company_id": "abbott",
+   "title": "Operator A",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31163763-1",
    "posted_at": "2026-10-10",
    "labels": null,
    "labels_checked": false,
@@ -4176,6 +4518,25 @@
    "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
+  },
+  {
+   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
+   "company_id": "klg-europe",
+   "title": "Transport Planner Hongarije",
+   "location": "Venlo, Nederland",
+   "url": "https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
+   "posted_at": "2026-10-09",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
   },
   {
    "id": "dp-world:27383",
@@ -4210,7 +4571,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": true,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4229,6 +4594,25 @@
    "baseline": false
   },
   {
+   "id": "dhl-group:AV-365199",
+   "company_id": "dhl-group",
+   "title": "Process Engineer",
+   "location": "Bemmel, Gelderland, Netherlands, Bemmel, Gelderland, Bemmel",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365199&source=careers.dhl.com",
+   "posted_at": "2026-10-09",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-10",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-384870",
    "company_id": "dhl-group",
    "title": "Teamleader Nijmegen 3",
@@ -4237,7 +4621,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4252,7 +4640,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4282,7 +4674,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4297,7 +4693,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4312,7 +4712,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4327,7 +4731,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4342,7 +4750,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4357,7 +4769,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4372,7 +4788,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4387,7 +4807,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4402,7 +4826,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4417,7 +4845,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-10",
@@ -4432,21 +4864,13 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-10",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-A_31163763-1",
-   "company_id": "abbott",
-   "title": "Operator A",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31163763-1",
-   "posted_at": "2026-10-09",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-10-10",
    "baseline": false
   },
@@ -4459,7 +4883,11 @@
    "posted_at": "2026-10-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -4510,7 +4938,7 @@
    "posted_at": "2026-10-08",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -4522,7 +4950,7 @@
    "posted_at": "2026-10-08",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -4546,7 +4974,11 @@
    "posted_at": "2026-10-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-09",
@@ -4561,7 +4993,11 @@
    "posted_at": "2026-10-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-09",
@@ -4576,7 +5012,11 @@
    "posted_at": "2026-10-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-09",
@@ -4591,7 +5031,11 @@
    "posted_at": "2026-10-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-09",
@@ -4606,7 +5050,11 @@
    "posted_at": "2026-10-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-09",
@@ -4621,7 +5069,11 @@
    "posted_at": "2026-10-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-09",
@@ -4643,6 +5095,18 @@
    "baseline": false
   },
   {
+   "id": "abbott:/job/Netherlands---Zwolle/Kalibratie-Engineer---Abbott-Laboratories-Zwolle_31163947",
+   "company_id": "abbott",
+   "title": "Kalibratie Engineer – Abbott Laboratories Zwolle",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Kalibratie-Engineer---Abbott-Laboratories-Zwolle_31163947",
+   "posted_at": "2026-10-08",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-08",
+   "baseline": false
+  },
+  {
    "id": "dachser:/dachser_europe/job/Zevenaar-Logistiek-Co%C3%B6rdinator-Rangeerders-6902KL/1367687555/",
    "company_id": "dachser",
    "title": "Logistiek Coördinator Rangeerders",
@@ -4651,7 +5115,11 @@
    "posted_at": "2026-10-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-17",
@@ -4666,7 +5134,7 @@
    "posted_at": "2026-10-07",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -4678,7 +5146,7 @@
    "posted_at": "2026-10-07",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -4690,7 +5158,7 @@
    "posted_at": "2026-10-07",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -4702,7 +5170,11 @@
    "posted_at": "2026-10-07",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -4717,7 +5189,11 @@
    "posted_at": "2026-10-07",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-08",
@@ -4732,7 +5208,11 @@
    "posted_at": "2026-10-07",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-08",
@@ -4747,7 +5227,11 @@
    "posted_at": "2026-10-07",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-08",
@@ -4762,7 +5246,30 @@
    "posted_at": "2026-10-07",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-08",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-355426",
+   "company_id": "dhl-group",
+   "title": "Gateway Service Specialist",
+   "location": "Hoofddorp, Noord-Holland, Netherlands, Hoofddorp, Noord-Holland, Hoofddorp",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=355426&source=careers.dhl.com",
+   "posted_at": "2026-10-07",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-08",
@@ -4777,7 +5284,11 @@
    "posted_at": "2026-10-07",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-08",
@@ -4792,7 +5303,11 @@
    "posted_at": "2026-10-07",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-08",
@@ -4822,21 +5337,13 @@
    "posted_at": "2026-10-07",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-08",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Zwolle/Kalibratie-Engineer---Abbott-Laboratories-Zwolle_31163947",
-   "company_id": "abbott",
-   "title": "Kalibratie Engineer – Abbott Laboratories Zwolle",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Kalibratie-Engineer---Abbott-Laboratories-Zwolle_31163947",
-   "posted_at": "2026-10-07",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-10-08",
    "baseline": false
   },
@@ -4885,7 +5392,7 @@
    "posted_at": "2026-10-06",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -4897,7 +5404,7 @@
    "posted_at": "2026-10-06",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -4909,7 +5416,7 @@
    "posted_at": "2026-10-06",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -4933,7 +5440,11 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-07",
@@ -4948,7 +5459,11 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-07",
@@ -4963,7 +5478,11 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-07",
@@ -4978,7 +5497,11 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-07",
@@ -4993,7 +5516,11 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-07",
@@ -5008,7 +5535,11 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-07",
@@ -5023,7 +5554,11 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-07",
@@ -5038,7 +5573,11 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-07",
@@ -5053,7 +5592,11 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-07",
@@ -5131,7 +5674,11 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5146,7 +5693,11 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5161,7 +5712,30 @@
    "posted_at": "2026-10-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": true
+  },
+  {
+   "id": "world-courier:R2522848",
+   "company_id": "world-courier",
+   "title": "Apothekersassistent Boots Support regio West Nederland",
+   "location": "Amsterdam, Netherlands, Amsterdam, Netherlands",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Amsterdam-Netherlands/Apothekersassistent-Boots-Support-center-regio-West-Nederland_R2522848-1/apply",
+   "posted_at": "2026-10-06",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5192,18 +5766,6 @@
    "baseline": true
   },
   {
-   "id": "dsv:/job/Sevenum-Global-Business-Development-Director-%28TECH%29-LI-5975-WG/1444353733/",
-   "company_id": "dsv",
-   "title": "Global Business Development Director (TECH)",
-   "location": "Sevenum, LI, NL, 5975 WG",
-   "url": "https://jobs.dsv.com/job/Sevenum-Global-Business-Development-Director-%28TECH%29-LI-5975-WG/1444353733/",
-   "posted_at": "2026-10-05",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
    "id": "dsv:/job/Moerdijk-Manager-Operations-Support-Nort-4782-JA/1444400033/",
    "company_id": "dsv",
    "title": "Manager Operations Support",
@@ -5212,7 +5774,7 @@
    "posted_at": "2026-10-05",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -5224,9 +5786,25 @@
    "posted_at": "2026-10-05",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Sevenum-Global-Business-Development-Director-%28TECH%29-LI-5975-WG/1444353733/",
+   "company_id": "dsv",
+   "title": "Global Business Development Director (TECH)",
+   "location": "Sevenum, LI, NL, 5975 WG",
+   "url": "https://jobs.dsv.com/job/Sevenum-Global-Business-Development-Director-%28TECH%29-LI-5975-WG/1444353733/",
+   "posted_at": "2026-10-05",
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-10-25",
    "baseline": false
   },
@@ -5254,7 +5832,11 @@
    "posted_at": "2026-10-05",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-06",
@@ -5284,7 +5866,11 @@
    "posted_at": "2026-10-05",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-06",
@@ -5323,7 +5909,11 @@
    "posted_at": "2026-10-04",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-22",
@@ -5339,6 +5929,30 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-17",
+   "baseline": false
+  },
+  {
+   "id": "apm-terminals:/job/NLROT01---Rotterdam---Rotterdam/Business-Development-Manager_R196842",
+   "company_id": "apm-terminals",
+   "title": "Growth Enablement Partner - Customs",
+   "location": "NLROT01 - Rotterdam - Rotterdam",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NLROT01---Rotterdam---Rotterdam/Business-Development-Manager_R196842",
+   "posted_at": "2026-10-03",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Hoofddorp/Data-Manager-Benelux---Diabetes-Care_31162291",
+   "company_id": "abbott",
+   "title": "Data Manager Benelux - Diabetes Care",
+   "location": "Netherlands - Hoofddorp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Data-Manager-Benelux---Diabetes-Care_31162291",
+   "posted_at": "2026-10-03",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-03",
    "baseline": false
   },
   {
@@ -5422,6 +6036,87 @@
    "posted_at": "2026-10-02",
    "labels": null,
    "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Venlo-Technician-Facilities-&-Technical-Services-LI-5928-SC/1373455633/",
+   "company_id": "dsv",
+   "title": "Technician Facilities & Technical Services",
+   "location": "Venlo, LI, NL, 5928 SC",
+   "url": "https://jobs.dsv.com/job/Venlo-Technician-Facilities-&-Technical-Services-LI-5928-SC/1373455633/",
+   "posted_at": "2026-10-02",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Venlo-Transport-Coordinator-LI-5928-PR/1433270633/",
+   "company_id": "dsv",
+   "title": "Transport Coordinator",
+   "location": "Venlo, LI, NL, 5928 PR",
+   "url": "https://jobs.dsv.com/job/Venlo-Transport-Coordinator-LI-5928-PR/1433270633/",
+   "posted_at": "2026-10-02",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Venlo-Monteur-Facility-&-Technische-Dienst-LI-5928-SC/1373455733/",
+   "company_id": "dsv",
+   "title": "Monteur Facility & Technische Dienst",
+   "location": "Venlo, LI, NL, 5928 SC",
+   "url": "https://jobs.dsv.com/job/Venlo-Monteur-Facility-&-Technische-Dienst-LI-5928-SC/1373455733/",
+   "posted_at": "2026-10-02",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "dsv:/job/Venlo-Transport-Planner-LI-5928-PR/1433274933/",
+   "company_id": "dsv",
+   "title": "Transport Planner",
+   "location": "Venlo, LI, NL, 5928 PR",
+   "url": "https://jobs.dsv.com/job/Venlo-Transport-Planner-LI-5928-PR/1433274933/",
+   "posted_at": "2026-10-02",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/orderplanner-warehouse-192",
+   "company_id": "klg-europe",
+   "title": "Orderplanner Warehouse",
+   "location": "Venlo, Nederland",
+   "url": "https://www.werkenbijklg.nl/vacatures/orderplanner-warehouse-192",
+   "posted_at": "2026-10-02",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
    "first_seen": "2026-10-25",
    "baseline": false
   },
@@ -5524,7 +6219,11 @@
    "posted_at": "2026-10-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5539,7 +6238,11 @@
    "posted_at": "2026-10-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5554,7 +6257,11 @@
    "posted_at": "2026-10-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5569,7 +6276,11 @@
    "posted_at": "2026-10-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5584,35 +6295,15 @@
    "posted_at": "2026-10-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
    "baseline": true
-  },
-  {
-   "id": "apm-terminals:/job/NLROT01---Rotterdam---Rotterdam/Business-Development-Manager_R196842",
-   "company_id": "apm-terminals",
-   "title": "Growth Enablement Partner - Customs",
-   "location": "NLROT01 - Rotterdam - Rotterdam",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NLROT01---Rotterdam---Rotterdam/Business-Development-Manager_R196842",
-   "posted_at": "2026-10-02",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Hoofddorp/Data-Manager-Benelux---Diabetes-Care_31162291",
-   "company_id": "abbott",
-   "title": "Data Manager Benelux - Diabetes Care",
-   "location": "Netherlands - Hoofddorp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Data-Manager-Benelux---Diabetes-Care_31162291",
-   "posted_at": "2026-10-02",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-03",
-   "baseline": false
   },
   {
    "id": "amazon:10567827",
@@ -5698,7 +6389,11 @@
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5709,11 +6404,110 @@
    "company_id": "dhl-group",
    "title": "Senior IT Security Officer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=330285&source=careers.dhl.com",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=350949&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-297072",
+   "company_id": "dhl-group",
+   "title": "Medior Test Engineer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=297072&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-382152",
+   "company_id": "dhl-group",
+   "title": "Senior Java developer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=382152&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-361369",
+   "company_id": "dhl-group",
+   "title": "Senior IT Security Engineer DevSecOps",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=361369&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-292302",
+   "company_id": "dhl-group",
+   "title": "CI/CD Engineer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=292302&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-286776",
+   "company_id": "dhl-group",
+   "title": "Cloud Engineer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=286776&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5728,7 +6522,11 @@
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5863,7 +6661,11 @@
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5878,7 +6680,11 @@
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5893,7 +6699,11 @@
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5902,13 +6712,36 @@
   {
    "id": "dhl-group:AV-358767",
    "company_id": "dhl-group",
-   "title": "Product Owner",
+   "title": "Teamleider Transport",
+   "location": "Rotterdam, Zuid-Holland, Netherlands, Rotterdam, Zuid-Holland, Rotterdam",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=379466&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-374180",
+   "company_id": "dhl-group",
+   "title": "Backend Developer",
    "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
    "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358767&source=careers.dhl.com",
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5923,7 +6756,49 @@
    "posted_at": "2026-10-01",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-366491",
+   "company_id": "dhl-group",
+   "title": "Senior IAM Engineer",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=366491&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-358767",
+   "company_id": "dhl-group",
+   "title": "Product Owner",
+   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=358767&source=careers.dhl.com",
+   "posted_at": "2026-10-01",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5954,6 +6829,30 @@
    "baseline": true
   },
   {
+   "id": "abbott:/job/Netherlands---Zwolle/Operator-Liquid-Packaging--------_31163157",
+   "company_id": "abbott",
+   "title": "Operator Liquid Packaging",
+   "location": "Netherlands - Zwolle",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Liquid-Packaging--------_31163157",
+   "posted_at": "2026-10-01",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-01",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Production-Optimization-Engineer-B_31163562",
+   "company_id": "abbott",
+   "title": "Production Optimization Engineer B",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Production-Optimization-Engineer-B_31163562",
+   "posted_at": "2026-10-01",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-01",
+   "baseline": false
+  },
+  {
    "id": "flex:/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
    "company_id": "flex",
    "title": "Head of Project Management",
@@ -5966,6 +6865,25 @@
    "baseline": false
   },
   {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
+   "company_id": "neele-vat",
+   "title": "Freight Forwarder Road Transport Uk",
+   "location": "Rotterdam Hoogvliet",
+   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
+   "posted_at": "2026-09-30",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-366972",
    "company_id": "dhl-group",
    "title": "Chauffeur CE nacht",
@@ -5974,7 +6892,11 @@
    "posted_at": "2026-09-30",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -5989,7 +6911,11 @@
    "posted_at": "2026-09-30",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6164,27 +7090,99 @@
    "baseline": true
   },
   {
-   "id": "abbott:/job/Netherlands---Zwolle/Operator-Liquid-Packaging--------_31163157",
+   "id": "abbott:/job/Netherlands---Olst/Kwaliteitscontroleur-Steriel-Vullen--5-ploegen-_31163587",
    "company_id": "abbott",
-   "title": "Operator Liquid Packaging",
-   "location": "Netherlands - Zwolle",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Operator-Liquid-Packaging--------_31163157",
+   "title": "Kwaliteitscontroleur Steriel Vullen (5 ploegen)",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Kwaliteitscontroleur-Steriel-Vullen--5-ploegen-_31163587",
    "posted_at": "2026-09-30",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-01",
+   "first_seen": "2026-09-30",
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Olst/Production-Optimization-Engineer-B_31163562",
+   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162968",
    "company_id": "abbott",
-   "title": "Production Optimization Engineer B",
+   "title": "Operator B",
    "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Production-Optimization-Engineer-B_31163562",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162968",
    "posted_at": "2026-09-30",
    "labels": null,
    "labels_checked": false,
-   "first_seen": "2026-10-01",
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162962",
+   "company_id": "abbott",
+   "title": "Operator B",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162962",
+   "posted_at": "2026-09-30",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162960",
+   "company_id": "abbott",
+   "title": "Operator B",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162960",
+   "posted_at": "2026-09-30",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162964",
+   "company_id": "abbott",
+   "title": "Operator B",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162964",
+   "posted_at": "2026-09-30",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162958",
+   "company_id": "abbott",
+   "title": "Operator B",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162958",
+   "posted_at": "2026-09-30",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-A_31162959",
+   "company_id": "abbott",
+   "title": "Operator A",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31162959",
+   "posted_at": "2026-09-30",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
+   "baseline": false
+  },
+  {
+   "id": "abbott:/job/Netherlands---Olst/Operator-A_31162967",
+   "company_id": "abbott",
+   "title": "Operator A",
+   "location": "Netherlands - Olst",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31162967",
+   "posted_at": "2026-09-30",
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-09-30",
    "baseline": false
   },
   {
@@ -6232,11 +7230,34 @@
    "posted_at": "2026-09-30",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-17",
    "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
+   "company_id": "neele-vat",
+   "title": "All Round Sea Freight Forwarder",
+   "location": "rotterdam Spaanse Polder",
+   "url": "https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
+   "posted_at": "2026-09-29",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
   },
   {
    "id": "portbase:2183138",
@@ -6286,105 +7307,13 @@
    "posted_at": "2026-09-29",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Kwaliteitscontroleur-Steriel-Vullen--5-ploegen-_31163587",
-   "company_id": "abbott",
-   "title": "Kwaliteitscontroleur Steriel Vullen (5 ploegen)",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Kwaliteitscontroleur-Steriel-Vullen--5-ploegen-_31163587",
-   "posted_at": "2026-09-29",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162968",
-   "company_id": "abbott",
-   "title": "Operator B",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162968",
-   "posted_at": "2026-09-29",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162962",
-   "company_id": "abbott",
-   "title": "Operator B",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162962",
-   "posted_at": "2026-09-29",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162960",
-   "company_id": "abbott",
-   "title": "Operator B",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162960",
-   "posted_at": "2026-09-29",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162964",
-   "company_id": "abbott",
-   "title": "Operator B",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162964",
-   "posted_at": "2026-09-29",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-B_31162958",
-   "company_id": "abbott",
-   "title": "Operator B",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-B_31162958",
-   "posted_at": "2026-09-29",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-A_31162959",
-   "company_id": "abbott",
-   "title": "Operator A",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31162959",
-   "posted_at": "2026-09-29",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-09-30",
-   "baseline": false
-  },
-  {
-   "id": "abbott:/job/Netherlands---Olst/Operator-A_31162967",
-   "company_id": "abbott",
-   "title": "Operator A",
-   "location": "Netherlands - Olst",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Operator-A_31162967",
-   "posted_at": "2026-09-29",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-09-30",
    "baseline": false
   },
@@ -6399,6 +7328,25 @@
    "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/container-planner/",
+   "company_id": "neele-vat",
+   "title": "Container Planner",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/container-planner/",
+   "posted_at": "2026-09-28",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
   },
   {
    "id": "dp-world:27139",
@@ -6481,7 +7429,11 @@
    "posted_at": "2026-09-25",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6496,7 +7448,11 @@
    "posted_at": "2026-09-25",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6511,7 +7467,11 @@
    "posted_at": "2026-09-25",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-01",
@@ -6538,7 +7498,11 @@
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6553,7 +7517,11 @@
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6568,7 +7536,11 @@
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6577,13 +7549,36 @@
   {
    "id": "dhl-group:AV-365195",
    "company_id": "dhl-group",
-   "title": "Business Development Manager",
-   "location": "Utrecht, Utrecht, Netherlands, Utrecht, Utrecht, Utrecht",
-   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=365195&source=careers.dhl.com",
+   "title": "SQL Developer",
+   "location": "Haarlem, Noord-Holland, Netherlands, Haarlem, Noord-Holland, Haarlem",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=380249&source=careers.dhl.com",
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "dhl-group:AV-379906",
+   "company_id": "dhl-group",
+   "title": "Teamleider Cityhub",
+   "location": "Zwolle, Overijssel, Netherlands, Zwolle, Overijssel, Zwolle",
+   "url": "https://dpdhlgroup.avature.net/nl_NL/jobs/ApplicationMethods?jobId=379906&source=careers.dhl.com",
+   "posted_at": "2026-09-24",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6598,7 +7593,11 @@
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6628,7 +7627,11 @@
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6643,7 +7646,11 @@
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6658,7 +7665,11 @@
    "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-25",
@@ -6685,10 +7696,14 @@
    "title": "Customer Experience Team Leader – 4 PL Control Tower",
    "location": "NL - Rotterdam",
    "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NL---Rotterdam/Customer-Experience-Team-Leader--4-PL-Control-Tower_R196967-1",
-   "posted_at": null,
+   "posted_at": "2026-09-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-24",
@@ -6703,7 +7718,11 @@
    "posted_at": "2026-09-23",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6718,7 +7737,11 @@
    "posted_at": "2026-09-23",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6760,7 +7783,11 @@
    "posted_at": "2026-09-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6775,7 +7802,11 @@
    "posted_at": "2026-09-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6790,7 +7821,11 @@
    "posted_at": "2026-09-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -6922,7 +7957,11 @@
    "posted_at": "2026-09-18",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7012,7 +8051,11 @@
    "posted_at": "2026-09-17",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7027,26 +8070,15 @@
    "posted_at": "2026-09-17",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
    "baseline": false
-  },
-  {
-   "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Air-Export-Operations-Agent_R49030",
-   "company_id": "c-h-robinson",
-   "title": "Air Export Operations Agent",
-   "location": "Aalsmeer Netherlands",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Air-Export-Operations-Agent_R49030",
-   "posted_at": null,
-   "labels": {
-    "dutch_required": false,
-    "written_in_dutch": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
   },
   {
    "id": "apm-terminals:/job/Netherlands-Rotterdam-3199-KD/Maintenance-Technician--Warehouse---Facilities-_R197369",
@@ -7504,7 +8536,11 @@
    "posted_at": "2026-09-16",
    "labels": {
     "dutch_required": true,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -7519,7 +8555,11 @@
    "posted_at": "2026-09-16",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7558,7 +8598,11 @@
    "posted_at": "2026-09-16",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-18",
@@ -7573,7 +8617,11 @@
    "posted_at": "2026-09-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7602,6 +8650,25 @@
    "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
+   "company_id": "neele-vat",
+   "title": "Transportplanner Ftl",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
+   "posted_at": "2026-09-14",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
   },
   {
    "id": "dhl-group:AV-376721",
@@ -7642,7 +8709,11 @@
    "posted_at": "2026-09-11",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7672,7 +8743,11 @@
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7687,7 +8762,11 @@
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7702,7 +8781,11 @@
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7717,7 +8800,11 @@
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7732,7 +8819,11 @@
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7747,7 +8838,11 @@
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7762,7 +8857,11 @@
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7777,7 +8876,11 @@
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7792,7 +8895,11 @@
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7807,7 +8914,11 @@
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7822,7 +8933,11 @@
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7837,7 +8952,11 @@
    "posted_at": "2026-09-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7852,7 +8971,11 @@
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7867,7 +8990,11 @@
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7882,7 +9009,11 @@
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7897,7 +9028,11 @@
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7912,7 +9047,11 @@
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7927,7 +9066,11 @@
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7942,7 +9085,11 @@
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7957,7 +9104,11 @@
    "posted_at": "2026-09-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -7999,7 +9150,11 @@
    "posted_at": "2026-09-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8014,7 +9169,11 @@
    "posted_at": "2026-09-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8029,7 +9188,11 @@
    "posted_at": "2026-09-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8044,7 +9207,11 @@
    "posted_at": "2026-09-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8059,7 +9226,11 @@
    "posted_at": "2026-09-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8074,7 +9245,11 @@
    "posted_at": "2026-09-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8101,7 +9276,11 @@
    "posted_at": "2026-09-07",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8116,10 +9295,33 @@
    "posted_at": "2026-09-07",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
+   "baseline": true
+  },
+  {
+   "id": "c-h-robinson:/job/Aalsmeer-Netherlands/Air-Export-Operations-Agent_R49030",
+   "company_id": "c-h-robinson",
+   "title": "Air Export Operations Agent",
+   "location": "Aalsmeer Netherlands",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Aalsmeer-Netherlands/Air-Export-Operations-Agent_R49030",
+   "posted_at": "2026-09-07",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-17",
    "baseline": true
   },
   {
@@ -8146,7 +9348,11 @@
    "posted_at": "2026-09-04",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8161,7 +9367,11 @@
    "posted_at": "2026-09-04",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8176,7 +9386,11 @@
    "posted_at": "2026-09-04",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8191,7 +9405,11 @@
    "posted_at": "2026-09-04",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8206,7 +9424,11 @@
    "posted_at": "2026-09-03",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-13",
@@ -8221,7 +9443,11 @@
    "posted_at": "2026-09-03",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8236,7 +9462,11 @@
    "posted_at": "2026-09-03",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8251,7 +9481,11 @@
    "posted_at": "2026-09-03",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8266,7 +9500,11 @@
    "posted_at": "2026-09-03",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8281,7 +9519,11 @@
    "posted_at": "2026-09-03",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8296,10 +9538,33 @@
    "posted_at": "2026-09-03",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
+   "company_id": "neele-vat",
+   "title": "Freight Forwarder Shiproad",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
+   "posted_at": "2026-09-02",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
    "baseline": false
   },
   {
@@ -8311,7 +9576,11 @@
    "posted_at": "2026-09-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8326,7 +9595,11 @@
    "posted_at": "2026-09-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8341,7 +9614,11 @@
    "posted_at": "2026-09-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8356,7 +9633,11 @@
    "posted_at": "2026-09-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8371,7 +9652,11 @@
    "posted_at": "2026-09-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8386,7 +9671,11 @@
    "posted_at": "2026-09-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8401,7 +9690,11 @@
    "posted_at": "2026-09-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8416,7 +9709,11 @@
    "posted_at": "2026-09-01",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8431,7 +9728,11 @@
    "posted_at": "2026-09-01",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8446,7 +9747,11 @@
    "posted_at": "2026-09-01",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8461,7 +9766,11 @@
    "posted_at": "2026-09-01",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8530,7 +9839,11 @@
    "posted_at": "2026-08-27",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -8545,7 +9858,11 @@
    "posted_at": "2026-08-27",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-16",
@@ -8560,7 +9877,11 @@
    "posted_at": "2026-08-27",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8575,7 +9896,11 @@
    "posted_at": "2026-08-27",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8590,7 +9915,11 @@
    "posted_at": "2026-08-26",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8605,7 +9934,11 @@
    "posted_at": "2026-08-26",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8620,7 +9953,11 @@
    "posted_at": "2026-08-26",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8635,7 +9972,11 @@
    "posted_at": "2026-08-26",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8650,7 +9991,11 @@
    "posted_at": "2026-08-25",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8665,7 +10010,11 @@
    "posted_at": "2026-08-25",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-17",
@@ -8695,7 +10044,11 @@
    "posted_at": "2026-08-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8740,7 +10093,11 @@
    "posted_at": "2026-08-20",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8755,7 +10112,11 @@
    "posted_at": "2026-08-20",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8770,7 +10131,11 @@
    "posted_at": "2026-08-20",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8800,7 +10165,11 @@
    "posted_at": "2026-08-19",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-18",
@@ -8860,7 +10229,11 @@
    "posted_at": "2026-08-14",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8875,7 +10248,11 @@
    "posted_at": "2026-08-14",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8905,7 +10282,11 @@
    "posted_at": "2026-08-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8920,7 +10301,11 @@
    "posted_at": "2026-08-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8935,7 +10320,11 @@
    "posted_at": "2026-08-12",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8950,7 +10339,11 @@
    "posted_at": "2026-08-11",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8965,7 +10358,11 @@
    "posted_at": "2026-08-11",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8980,7 +10377,11 @@
    "posted_at": "2026-08-07",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -8995,7 +10396,11 @@
    "posted_at": "2026-08-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9010,11 +10415,34 @@
    "posted_at": "2026-08-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
    "baseline": false
+  },
+  {
+   "id": "fox-global-logistics:https://www.foxglobal.nl/vacancies/business-development-manager-forwarding/",
+   "company_id": "fox-global-logistics",
+   "title": "Business Development Manager Forwarding",
+   "location": "",
+   "url": "https://www.foxglobal.nl/vacancies/business-development-manager-forwarding/",
+   "posted_at": "2026-08-05",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-11",
+   "baseline": true
   },
   {
    "id": "dhl-group:AV-350570",
@@ -9025,7 +10453,11 @@
    "posted_at": "2026-08-05",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9070,7 +10502,11 @@
    "posted_at": "2026-07-31",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9085,7 +10521,11 @@
    "posted_at": "2026-07-30",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9100,7 +10540,11 @@
    "posted_at": "2026-07-30",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9115,7 +10559,11 @@
    "posted_at": "2026-07-30",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9130,7 +10578,11 @@
    "posted_at": "2026-07-30",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9145,7 +10597,11 @@
    "posted_at": "2026-07-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9160,7 +10616,11 @@
    "posted_at": "2026-07-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9175,7 +10635,11 @@
    "posted_at": "2026-07-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9195,6 +10659,25 @@
    "labels_checked": true,
    "first_seen": "2026-09-17",
    "baseline": true
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
+   "company_id": "neele-vat",
+   "title": "Customer Operations Specialist",
+   "location": "City Terminal; Rotterdam Maasvlakte",
+   "url": "https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
+   "posted_at": "2026-07-21",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
   },
   {
    "id": "portbase:1441847",
@@ -9235,7 +10718,11 @@
    "posted_at": "2026-07-15",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9250,7 +10737,11 @@
    "posted_at": "2026-07-13",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9265,7 +10756,11 @@
    "posted_at": "2026-07-13",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9280,7 +10775,11 @@
    "posted_at": "2026-07-13",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9295,7 +10794,11 @@
    "posted_at": "2026-07-10",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9322,7 +10825,11 @@
    "posted_at": "2026-07-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9337,7 +10844,11 @@
    "posted_at": "2026-07-06",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9352,7 +10863,11 @@
    "posted_at": "2026-07-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9367,7 +10882,11 @@
    "posted_at": "2026-07-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9382,7 +10901,11 @@
    "posted_at": "2026-07-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9397,7 +10920,11 @@
    "posted_at": "2026-06-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-17",
@@ -9416,6 +10943,25 @@
    "baseline": true
   },
   {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
+   "company_id": "neele-vat",
+   "title": "Export Forwarder",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
+   "posted_at": "2026-06-10",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
    "id": "world-courier:R269845",
    "company_id": "world-courier",
    "title": "Algemeen ondersteunend medewerker en/of BBL-er-3",
@@ -9424,7 +10970,11 @@
    "posted_at": "2026-06-09",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9439,7 +10989,11 @@
    "posted_at": "2026-06-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9454,7 +11008,11 @@
    "posted_at": "2026-06-08",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9469,7 +11027,11 @@
    "posted_at": "2026-06-04",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9484,10 +11046,33 @@
    "posted_at": "2026-06-03",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
+   "baseline": true
+  },
+  {
+   "id": "aircargo-nl:https://aircargo.nl/over-ons/vacatures/operations-agent-export",
+   "company_id": "aircargo-nl",
+   "title": "Operations Agent Export 5 maanden geleden",
+   "location": "Aalsmeer, NL",
+   "url": "https://aircargo.nl/over-ons/vacatures/operations-agent-export",
+   "posted_at": "2026-06-02",
+   "labels": {
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-11",
    "baseline": true
   },
   {
@@ -9499,7 +11084,11 @@
    "posted_at": "2026-06-02",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9541,7 +11130,11 @@
    "posted_at": "2026-05-29",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9571,7 +11164,11 @@
    "posted_at": "2026-05-26",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-18",
@@ -9586,7 +11183,11 @@
    "posted_at": "2026-05-22",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9601,7 +11202,11 @@
    "posted_at": "2026-05-21",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9616,7 +11221,11 @@
    "posted_at": "2026-05-19",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
@@ -9685,7 +11294,11 @@
    "posted_at": "2026-05-18",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-18",
@@ -9727,7 +11340,11 @@
    "posted_at": "2026-04-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9742,7 +11359,11 @@
    "posted_at": "2026-04-21",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9757,7 +11378,11 @@
    "posted_at": "2026-04-20",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-17",
@@ -9787,7 +11412,11 @@
    "posted_at": "2026-04-07",
    "labels": {
     "dutch_required": true,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-18",
@@ -9817,7 +11446,11 @@
    "posted_at": "2026-03-20",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9832,7 +11465,11 @@
    "posted_at": "2026-03-19",
    "labels": {
     "dutch_required": true,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-18",
@@ -9847,7 +11484,11 @@
    "posted_at": "2026-03-17",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9862,7 +11503,11 @@
    "posted_at": "2026-03-16",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9877,7 +11522,11 @@
    "posted_at": "2026-03-16",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9892,7 +11541,11 @@
    "posted_at": "2026-03-16",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9907,7 +11560,11 @@
    "posted_at": "2026-03-16",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": null
+    "written_in_dutch": null,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
@@ -9922,7 +11579,11 @@
    "posted_at": "2026-03-11",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-17",
@@ -9937,7 +11598,11 @@
    "posted_at": "2026-03-05",
    "labels": {
     "dutch_required": true,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-18",
@@ -9952,7 +11617,11 @@
    "posted_at": "2025-11-24",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": true
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-01",
@@ -9967,7 +11636,11 @@
    "posted_at": "2025-11-18",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-10-09",
@@ -9982,7 +11655,11 @@
    "posted_at": "2025-11-11",
    "labels": {
     "dutch_required": false,
-    "written_in_dutch": false
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
    },
    "labels_checked": true,
    "first_seen": "2026-09-18",
