@@ -724,7 +724,8 @@ class RenderingReportsWhatHappened(unittest.TestCase):
                 return "<html><body><p>Geen vacatures.</p></body></html>"
         attempt = self.attempt(Renderer())
         self.assertEqual(attempt["jobs"], [])
-        self.assertEqual(attempt["report"], "rendered 1 page(s), found 0 link(s)")
+        self.assertEqual(attempt["report"],
+                         "rendered ['https://acme.nl/vacatures'], found 0 link(s)")
 
     def test_a_spent_budget_is_distinguished_from_a_failure(self):
         class Renderer:

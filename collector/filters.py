@@ -32,3 +32,15 @@ def is_suitable(title, filters, extra_include=()):
 
 def is_air_or_ocean_only(title, filters):
     return any_match(title, filters.get("air_ocean", [])) and not any_match(title, filters.get("land", []))
+
+
+def is_worth_reading(title, filters, extra_include=()):
+    """Whether a posting should be opened and read, which is a wider net than the list.
+
+    The excluded words are a matter of taste and are edited in the browser, so a
+    job this run would leave out may be one she has chosen to see. Opening it
+    costs one page and is what gives the posting its language and location
+    labels, so inclusion alone decides.
+    """
+    include = list(filters.get("include", [])) + list(extra_include)
+    return any_match(title, include)

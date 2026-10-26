@@ -19,7 +19,7 @@ from urllib.parse import urlparse
 from .adapters import ADAPTERS, careerpage
 from .discovery import career_links, detect_source, discover, find_domain, homepages
 from .render import BrowserUnavailable, PageRenderer
-from .filters import is_suitable
+from .filters import is_suitable, is_worth_reading
 from .net import Net
 from .text import dutch_required, international_labels, keep_location, written_in_dutch
 
@@ -36,9 +36,9 @@ MAX_LINK_DESCRIPTIONS = 120
 # Rendering is slow, so it is reserved for companies that would otherwise be
 # reported as unreadable, and capped for the run as a whole.
 RENDER_PAGE_BUDGET = 500
-RENDER_PAGES_PER_COMPANY = 3
+RENDER_PAGES_PER_COMPANY = 4
 # Extra pages allowed when a rendered page points at the real careers page.
-RENDER_FOLLOWED_PAGES = 2
+RENDER_FOLLOWED_PAGES = 3
 TIME_BUDGET_SECONDS = 70 * 60
 
 
@@ -182,13 +182,16 @@ def rendered_second_opinion(renderer, company, discovery_cache, source=None):
         return None
     if renderer.exhausted:
         return {"jobs": [], "params": {}, "report": f"skipped: {renderer.last_error or 'budget spent'}"}
-    jobs, seen, pages, trouble, samples = [], set(), 0, None, []
+    jobs, seen, pages, trouble, samples, opened = [], set(), 0, None, [], []
     queue = rendering_order(company, discovery_cache, source)[:RENDER_PAGES_PER_COMPANY]
     followed = 0
     for url in queue:
         try:
             markup = renderer.render(url)
             pages += 1
+            # Which addresses were actually opened, so a company that comes back
+            # empty can be told apart from one the browser never reached.
+            opened.append(url)
         except BrowserUnavailable as error:
             return {"jobs": [], "params": {}, "report": f"no browser: {error}"}
         except Exception as error:
@@ -230,7 +233,7 @@ def rendered_second_opinion(renderer, company, discovery_cache, source=None):
                          "url": link, "posted_at": None})
         if jobs:
             break
-    report = (f"rendered {pages} page(s), found {len(jobs)} link(s)"
+    report = (f"rendered {opened}, found {len(jobs)} link(s)"
               + (f"; {trouble}" if trouble else "")
               + (f"; saw {samples}" if samples and not jobs else ""))
     return {"jobs": jobs, "params": {"urls": [j["url"] for j in jobs]}, "report": report}
@@ -282,7 +285,10 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
         blocked = failure["status"] == "site_unreachable"
         fallback = None if blocked else second_opinion(net, company, discovery_cache)
         rendered = False
-        if not fallback:
+        # An empty answer is not an answer. Reading the page as plain text can
+        # return a result carrying no vacancies at all, and that was being
+        # treated as success, so thirteen companies never reached the browser.
+        if not (fallback and fallback["jobs"]):
             attempt = rendered_second_opinion(renderer, company, discovery_cache)
             failure["rendering"] = attempt["report"] if attempt else "not attempted"
             fallback = attempt
@@ -368,7 +374,7 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
             budget = (MAX_LINK_DESCRIPTIONS if "careerpage" in method
                       else MAX_DESCRIPTIONS_PER_SOURCE)
             if (not text and describe and described < budget
-                    and is_suitable(title, filters, extra)):
+                    and is_worth_reading(title, filters, extra)):
                 described += 1
                 try:
                     details = describe(net, params, raw)
