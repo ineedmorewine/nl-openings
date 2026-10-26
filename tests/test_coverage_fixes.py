@@ -800,8 +800,16 @@ class RenderingFollowsTheRealCareersPage(unittest.TestCase):
         _, rendered = self.attempt(pages)
         self.assertLessEqual(len(rendered), 1 + run.RENDER_FOLLOWED_PAGES)
 
-    def test_a_link_to_another_company_is_not_followed(self):
-        pages = {"https://acme.nl/careers": '<a href="https://jobboard.example/jobs">Jobs</a>'}
+    def test_a_vacancy_site_on_another_host_is_followed(self):
+        """Dutch employers keep theirs on werkenbij<brand>.nl, a different host."""
+        pages = {"https://acme.nl/careers":
+                 '<a href="https://werkenbijacme.nl/vacatures">Werken bij Acme</a>'}
+        _, rendered = self.attempt(pages)
+        self.assertIn("https://werkenbijacme.nl/vacatures", rendered)
+
+    def test_a_job_board_is_not_followed(self):
+        pages = {"https://acme.nl/careers":
+                 '<a href="https://nl.indeed.com/jobs?q=acme">Vacatures op Indeed</a>'}
         _, rendered = self.attempt(pages)
         self.assertEqual(rendered, ["https://acme.nl/careers"])
 
@@ -980,3 +988,21 @@ class AnAddressIsLookedUpButOnlyKeptIfTheSiteNamesTheCompany(unittest.TestCase):
             "https://someoneelse.nl/": "<html>Wij verkopen fietsen.</html>",
         })
         self.assertIsNone(find_domain(net, "Boreas Logistics"))
+
+
+class TheBrowserCanNameTheRecruitmentSystem(unittest.TestCase):
+    """A page that loads its system in the browser hid it from the plain read."""
+
+    def test_a_system_found_while_rendering_is_reported(self):
+        pages = {"https://acme.nl/": '<div data-src="https://acme.recruitee.com/"></div>'}
+
+        class Renderer:
+            exhausted = False
+            last_error = None
+
+            def render(self, url):
+                return pages[url]
+
+        with mock.patch.object(run, "second_opinion_pages", lambda *a, **k: ["https://acme.nl/"]):
+            attempt = run.rendered_second_opinion(Renderer(), {"id": "acme"}, {})
+        self.assertEqual(attempt["source"], {"type": "recruitee", "subdomain": "acme"})

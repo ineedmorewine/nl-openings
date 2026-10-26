@@ -17,7 +17,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from .adapters import ADAPTERS, careerpage
-from .discovery import career_links, discover, find_domain, homepages
+from .discovery import career_links, detect_source, discover, find_domain, homepages
 from .render import BrowserUnavailable, PageRenderer
 from .filters import is_suitable
 from .net import Net
@@ -35,7 +35,7 @@ MAX_DESCRIPTIONS_PER_SOURCE = 60
 MAX_LINK_DESCRIPTIONS = 120
 # Rendering is slow, so it is reserved for companies that would otherwise be
 # reported as unreadable, and capped for the run as a whole.
-RENDER_PAGE_BUDGET = 400
+RENDER_PAGE_BUDGET = 500
 RENDER_PAGES_PER_COMPANY = 3
 # Extra pages allowed when a rendered page points at the real careers page.
 RENDER_FOLLOWED_PAGES = 2
@@ -151,6 +151,26 @@ def second_opinion(net, company, discovery_cache, source=None):
     return {"jobs": jobs, "params": params} if jobs else None
 
 
+def rendering_order(company, discovery_cache, source=None):
+    """Pages worth opening in a browser, best first.
+
+    Different from reading a page as plain text. The addresses that look most
+    like careers pages are usually the guessed ones that returned 404, and
+    rendering a 404 teaches nothing. The front page is the one page we know
+    answers, and when it is built in the browser it is also the page holding
+    the careers link we could not see.
+    """
+    pages, seen = [], set()
+    failed = {note.split(" -> ")[0] for note in
+              (discovery_cache.get(company["id"]) or {}).get("notes") or []}
+    for url in (homepages(company.get("domain"))[:1]
+                + second_opinion_pages(company, discovery_cache, source)):
+        if url and url not in seen and url not in failed:
+            seen.add(url)
+            pages.append(url)
+    return pages
+
+
 def rendered_second_opinion(renderer, company, discovery_cache, source=None):
     """Last resort: open the careers pages in a browser and read what appears.
 
@@ -163,7 +183,7 @@ def rendered_second_opinion(renderer, company, discovery_cache, source=None):
     if renderer.exhausted:
         return {"jobs": [], "params": {}, "report": f"skipped: {renderer.last_error or 'budget spent'}"}
     jobs, seen, pages, trouble, samples = [], set(), 0, None, []
-    queue = second_opinion_pages(company, discovery_cache, source)[:RENDER_PAGES_PER_COMPANY]
+    queue = rendering_order(company, discovery_cache, source)[:RENDER_PAGES_PER_COMPANY]
     followed = 0
     for url in queue:
         try:
@@ -174,6 +194,14 @@ def rendered_second_opinion(renderer, company, discovery_cache, source=None):
         except Exception as error:
             trouble = f"{type(error).__name__}: {str(error)[:90]}"
             continue
+        # The page we could not read may simply have loaded its recruitment
+        # system in the browser. If it did, say which one: the proper reader
+        # gives locations and dates that scraped links never do.
+        rendered_source, _ = detect_source(markup, url)
+        if rendered_source and rendered_source["type"] not in ("jsonld", "careerpage"):
+            return {"jobs": [], "params": {}, "source": rendered_source,
+                    "report": f"rendered {pages} page(s), found a {rendered_source['type']} site"}
+
         found = careerpage.find_posting_links(markup, url)
         if not found:
             found = careerpage.find_posting_headings(markup, url)
@@ -185,8 +213,11 @@ def rendered_second_opinion(renderer, company, discovery_cache, source=None):
             # Often this is a homepage or a dead guess that simply points at the
             # real careers page. Follow that rather than give up on the company.
             if followed < RENDER_FOLLOWED_PAGES:
+                # Not restricted to the same site: Dutch employers routinely
+                # keep their vacancies on werkenbij<brand>.nl, a different host
+                # from the company's own, and that link was being discarded.
                 for link in career_links(markup, url):
-                    if link not in queue and careerpage.same_site(link, url):
+                    if link not in queue:
                         queue.append(link)
                         followed += 1
                         if followed >= RENDER_FOLLOWED_PAGES:
@@ -256,13 +287,31 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
             failure["rendering"] = attempt["report"] if attempt else "not attempted"
             fallback = attempt
             rendered = bool(attempt and attempt["jobs"])
-        if not fallback or not fallback["jobs"]:
+            # The browser recognised a recruitment system the plain page hid.
+            # Remember it, so from the next run on this company is read
+            # properly, by its own system, with no browser needed.
+            if attempt and attempt.get("source"):
+                discovery_cache[company["id"]] = dict(discovery_cache.get(company["id"]) or {},
+                                                      source=attempt["source"], checked_at=today)
+                source, failure, fallback = attempt["source"], None, None
+        if failure and (not fallback or not fallback["jobs"]):
             return failure, None
-        source, adapter = {"type": "careerpage"}, careerpage
-        params = fallback["params"]
-        method = "careerpage (rendered)" if rendered else "careerpage"
-        discovered = True
-        raw_jobs = fallback["jobs"]
+        if fallback and fallback["jobs"]:
+            source, adapter = {"type": "careerpage"}, careerpage
+            params = fallback["params"]
+            method = "careerpage (rendered)" if rendered else "careerpage"
+            discovered = True
+            raw_jobs = fallback["jobs"]
+        else:
+            # The browser named the recruitment system; read it properly below.
+            adapter = ADAPTERS.get(source.get("type"))
+            if adapter is None:
+                return {"status": "read_failed",
+                        "detail": f"unknown source type {source.get('type')}"}, None
+            params = {key: value for key, value in source.items() if key != "type"}
+            method = f"{source['type']} (found by browser)"
+            discovered = True
+            raw_jobs = None
     else:
         adapter = ADAPTERS.get(source.get("type"))
         if adapter is None:
