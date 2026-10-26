@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T17:41+00:00",
+ "generated_at": "2026-10-26T19:16+00:00",
  "jobs": [
   {
    "id": "a2b-online:https://a2b-online.com/nl/vacatures/intermodal-coordinator-40-uur/",
@@ -124,6 +124,86 @@
    "labels_checked": false,
    "first_seen": "2026-10-26",
    "baseline": false
+  },
+  {
+   "id": "berg-van-rijk-logistics:https://www.bergeijk.eu/nl/werken-bij/",
+   "company_id": "berg-van-rijk-logistics",
+   "title": "Werken bij - Bergeijk Logistics",
+   "location": "",
+   "url": "https://www.bergeijk.eu/nl/werken-bij/",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": true
+  },
+  {
+   "id": "berg-van-rijk-logistics:https://www.bergeijk.eu/nl/vacatures/transportplanner/",
+   "company_id": "berg-van-rijk-logistics",
+   "title": "Wat ga je doen?",
+   "location": "",
+   "url": "https://www.bergeijk.eu/nl/vacatures/transportplanner/",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": true
+  },
+  {
+   "id": "berg-van-rijk-logistics:https://www.bergeijk.eu/de/vacatures/fahrer-in-ce/",
+   "company_id": "berg-van-rijk-logistics",
+   "title": "Was werden Sie tun?",
+   "location": "",
+   "url": "https://www.bergeijk.eu/de/vacatures/fahrer-in-ce/",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": true
+  },
+  {
+   "id": "berg-van-rijk-logistics:https://www.bergeijk.eu/nl/vacatures/chauffeur-ce/",
+   "company_id": "berg-van-rijk-logistics",
+   "title": "Wat ga je doen?",
+   "location": "",
+   "url": "https://www.bergeijk.eu/nl/vacatures/chauffeur-ce/",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": true
   },
   {
    "id": "dsv:/job/Moerdijk-Warehouse-Supervisor-Nort-4782-JA/1410863633/",
@@ -732,8 +812,16 @@
    "location": "",
    "url": "https://www.ksztransport.nl/nl-nl/vacature/vrachtwagenchauffeur-ce-–-trekker-huifoplegger",
    "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
    "first_seen": "2026-10-24",
    "baseline": true
   },
@@ -4412,8 +4500,16 @@
    "location": "Oude Meer, North Holland, NL, 1438 AN",
    "url": "https://jobs.dsv.com/job/Oude-Meer-Inside-Sales-Luchtvracht-Nort-1438-AN/1415776133/",
    "posted_at": "2026-10-11",
-   "labels": null,
-   "labels_checked": false,
+   "labels": {
+    "rules": 2,
+    "dutch_required": true,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
    "first_seen": "2026-10-24",
    "baseline": false
   },
