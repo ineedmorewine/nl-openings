@@ -281,6 +281,9 @@ def discover(net, company):
     # the guesses went first they used up the page budget on 404s before the
     # real careers page was ever opened.
     queue, guesses, visited, weak_vendor = list(start_pages), [], [], None
+    # Pages that actually answered. Opening a page in a browser is slow, so the
+    # browser is only ever sent to an address we know exists.
+    reached = []
     fronts = set(homepages(company.get("domain")))
     reachable = False
     notes = []
@@ -297,12 +300,13 @@ def discover(net, company):
             notes.append(f"{url} -> {type(error).__name__}: {str(error)[:90]}")
             continue
         reachable = True
+        reached.append(url)
         markup = response.text
         final_url = getattr(response, "url", None) or url
         source, vendor = detect_source(markup, final_url)
         if source and not (source["type"] == "jsonld" and url in fronts):
             return {"source": source, "vendor": None, "checked_pages": visited,
-                    "reason": "found", "notes": notes}
+                    "reached_pages": reached, "reason": "found", "notes": notes}
         weak_vendor = weak_vendor or vendor
         for link in career_links(markup, final_url):
             if link not in visited and link not in queue:
@@ -325,7 +329,7 @@ def discover(net, company):
         source = probe_known_endpoints(net, origin)
         if source:
             return {"source": source, "vendor": None, "checked_pages": visited,
-                    "reason": "found", "notes": notes}
+                    "reached_pages": reached, "reason": "found", "notes": notes}
 
     # Still nothing. The site's own map of itself names its vacancy pages even
     # when no link to them survives in the markup we can download.
@@ -334,7 +338,8 @@ def discover(net, company):
         vacancies = careers_page_from_sitemap(net, f"{parsed.scheme}://{parsed.netloc}")
         if vacancies:
             return {"source": {"type": "sitemap", "urls": vacancies[:40]}, "vendor": None,
-                    "checked_pages": visited, "reason": "found", "notes": notes}
+                    "checked_pages": visited, "reached_pages": reached,
+                    "reason": "found", "notes": notes}
 
     if not reachable:
         reason = "site_unreachable"
@@ -343,4 +348,4 @@ def discover(net, company):
     else:
         reason = "no_careers_system_found"
     return {"source": None, "vendor": weak_vendor, "checked_pages": visited,
-            "reason": reason, "notes": notes[:6]}
+            "reached_pages": reached, "reason": reason, "notes": notes[:6]}

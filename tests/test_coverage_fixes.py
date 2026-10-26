@@ -1007,3 +1007,14 @@ class TheBrowserCanNameTheRecruitmentSystem(unittest.TestCase):
         with mock.patch.object(run, "second_opinion_pages", lambda *a, **k: ["https://acme.nl/"]):
             attempt = run.rendered_second_opinion(Renderer(), {"id": "acme"}, {})
         self.assertEqual(attempt["source"], {"type": "recruitee", "subdomain": "acme"})
+
+
+class TheBrowserOnlyOpensAddressesThatAnswered(unittest.TestCase):
+    """Rendering guessed 404s spent the budget before most companies were tried."""
+
+    def test_only_reached_pages_are_offered(self):
+        cache = {"acme": {"reached_pages": ["https://acme.nl/", "https://acme.nl/over-ons"],
+                          "checked_pages": ["https://acme.nl/", "https://acme.nl/careers",
+                                            "https://acme.nl/over-ons"]}}
+        order = run.rendering_order({"id": "acme", "domain": "acme.nl"}, cache)
+        self.assertEqual(order, ["https://acme.nl/", "https://acme.nl/over-ons"])

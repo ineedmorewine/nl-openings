@@ -19,7 +19,7 @@ from urllib.parse import urlparse
 from .adapters import ADAPTERS, careerpage
 from .discovery import career_links, detect_source, discover, find_domain, homepages
 from .render import BrowserUnavailable, PageRenderer
-from .filters import is_suitable, is_worth_reading
+from .filters import is_suitable
 from .net import Net
 from .text import dutch_required, international_labels, keep_location, written_in_dutch
 
@@ -31,8 +31,8 @@ SOURCES_FILE = DATA_DIR / "sources.json"
 DISCOVERY_FILE = DATA_DIR / "discovery.json"
 FILTERS_FILE = DATA_DIR / "filters.json"
 
-MAX_DESCRIPTIONS_PER_SOURCE = 60
-MAX_LINK_DESCRIPTIONS = 120
+MAX_DESCRIPTIONS_PER_SOURCE = 150
+MAX_LINK_DESCRIPTIONS = 200
 # Rendering is slow, so it is reserved for companies that would otherwise be
 # reported as unreadable, and capped for the run as a whole.
 RENDER_PAGE_BUDGET = 500
@@ -159,13 +159,20 @@ def rendering_order(company, discovery_cache, source=None):
     rendering a 404 teaches nothing. The front page is the one page we know
     answers, and when it is built in the browser it is also the page holding
     the careers link we could not see.
+
+    Only addresses that answered when read as text are offered. Rendering a
+    guessed address that returned 404 spends the browser budget to learn
+    nothing, and it was spending so much of it that forty companies got no
+    browser attempt at all.
     """
+    cached = discovery_cache.get(company["id"]) or {}
+    reached = cached.get("reached_pages")
+    if reached is None:
+        # An older cache entry does not record this; fall back to the old order.
+        reached = second_opinion_pages(company, discovery_cache, source)
     pages, seen = [], set()
-    failed = {note.split(" -> ")[0] for note in
-              (discovery_cache.get(company["id"]) or {}).get("notes") or []}
-    for url in (homepages(company.get("domain"))[:1]
-                + second_opinion_pages(company, discovery_cache, source)):
-        if url and url not in seen and url not in failed:
+    for url in homepages(company.get("domain"))[:1] + list(reached):
+        if url and url not in seen:
             seen.add(url)
             pages.append(url)
     return pages
@@ -240,7 +247,11 @@ def rendered_second_opinion(renderer, company, discovery_cache, source=None):
 
 
 def resolve_source(net, company, discovery_cache, today):
-    """Return (source, discovered, failure_status). failure_status is None when a source exists."""
+    """Return (source, discovered, failure_status). failure_status is None when a source exists.
+
+    Mutates nothing: a company whose address had to be looked up carries it in
+    the dict returned to the caller through ``company["domain"]``.
+    """
     if company.get("source"):
         return company["source"], False, None
     cached = discovery_cache.get(company["id"])
@@ -259,7 +270,7 @@ def resolve_source(net, company, discovery_cache, today):
                                                       checked_at=today)
         if not looked_up:
             return None, False, {"status": "no_address"}
-        company = dict(company, domain=looked_up)
+        company["domain"] = looked_up
     result = discover(net, company)
     discovery_cache[company["id"]] = dict(result, checked_at=today)
     if result["source"]:
@@ -373,8 +384,12 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
             # jobs are discarded above.
             budget = (MAX_LINK_DESCRIPTIONS if "careerpage" in method
                       else MAX_DESCRIPTIONS_PER_SOURCE)
-            if (not text and describe and described < budget
-                    and is_worth_reading(title, filters, extra)):
+            # Every posting is opened once. Which ones are shown is a matter of
+            # keywords, edited in the browser and changeable; whether an ad asks
+            # for Dutch is a fact about the ad, and it is only learnt by reading
+            # it. A posting read once keeps its labels, so this costs one page
+            # in the posting's life, not one page a day.
+            if not text and describe and described < budget:
                 described += 1
                 try:
                     details = describe(net, params, raw)
