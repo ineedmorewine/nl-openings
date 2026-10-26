@@ -1,6 +1,26 @@
 {
- "generated_at": "2026-10-26T16:13+00:00",
+ "generated_at": "2026-10-26T17:41+00:00",
  "jobs": [
+  {
+   "id": "a2b-online:https://a2b-online.com/nl/vacatures/intermodal-coordinator-40-uur/",
+   "company_id": "a2b-online",
+   "title": "Intermodal Coordinator (40 uur)",
+   "location": "Moerdijk, NL",
+   "url": "https://a2b-online.com/nl/vacatures/intermodal-coordinator-40-uur/",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
   {
    "id": "dp-world:26842",
    "company_id": "dp-world",
@@ -58,6 +78,26 @@
    "posted_at": "2026-10-26",
    "labels": null,
    "labels_checked": false,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "uber-freight:5450135008",
+   "company_id": "uber-freight",
+   "title": "Customer Support Specialist I - TP Laser",
+   "location": "Monterrey, NL 64640, Mexico",
+   "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5450135008",
+   "posted_at": "2026-10-26",
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
    "first_seen": "2026-10-26",
    "baseline": false
   },
@@ -198,6 +238,166 @@
    "posted_at": null,
    "labels": null,
    "labels_checked": false,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
+   "company_id": "klg-europe",
+   "title": "Transport Planner Hongarije",
+   "location": "Venlo, Nederland",
+   "url": "https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
+   "company_id": "neele-vat",
+   "title": "Freight Forwarder Road Transport Uk",
+   "location": "Rotterdam Hoogvliet",
+   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
+   "company_id": "neele-vat",
+   "title": "All Round Sea Freight Forwarder",
+   "location": "rotterdam Spaanse Polder",
+   "url": "https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/container-planner/",
+   "company_id": "neele-vat",
+   "title": "Container Planner",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/container-planner/",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
+   "company_id": "neele-vat",
+   "title": "Transportplanner Ftl",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
+   "company_id": "neele-vat",
+   "title": "Freight Forwarder Shiproad",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
+   "company_id": "neele-vat",
+   "title": "Customer Operations Specialist",
+   "location": "City Terminal; Rotterdam Maasvlakte",
+   "url": "https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
+   "company_id": "neele-vat",
+   "title": "Export Forwarder",
+   "location": "Rotterdam Pernis",
+   "url": "https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
+   "posted_at": null,
+   "labels": {
+    "rules": 2,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false
+   },
+   "labels_checked": true,
    "first_seen": "2026-10-25",
    "baseline": false
   },
@@ -862,30 +1062,6 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-10-22",
-   "baseline": false
-  },
-  {
-   "id": "dp-world:27181",
-   "company_id": "dp-world",
-   "title": "First Operator",
-   "location": "Tilburg, North Brabant, Netherlands",
-   "url": "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27181",
-   "posted_at": "2026-10-23",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-21",
-   "baseline": false
-  },
-  {
-   "id": "p-o-ferrymasters:27181",
-   "company_id": "p-o-ferrymasters",
-   "title": "First Operator",
-   "location": "Tilburg, North Brabant, Netherlands",
-   "url": "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27181",
-   "posted_at": "2026-10-23",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-21",
    "baseline": false
   },
   {
@@ -4517,26 +4693,6 @@
    "baseline": false
   },
   {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
-   "company_id": "klg-europe",
-   "title": "Transport Planner Hongarije",
-   "location": "Venlo, Nederland",
-   "url": "https://www.werkenbijklg.nl/vacatures/transport-planner-hongarije-195",
-   "posted_at": "2026-10-09",
-   "labels": {
-    "rules": 2,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
    "id": "dp-world:27383",
    "company_id": "dp-world",
    "title": "Supply Chain Supervisor",
@@ -6704,46 +6860,6 @@
    "baseline": false
   },
   {
-   "id": "a2b-online:https://a2b-online.com/nl/vacatures/intermodal-coordinator-40-uur/",
-   "company_id": "a2b-online",
-   "title": "Intermodal Coordinator (40 uur)",
-   "location": "Moerdijk, NL",
-   "url": "https://a2b-online.com/nl/vacatures/intermodal-coordinator-40-uur/",
-   "posted_at": "2026-09-30",
-   "labels": {
-    "rules": 2,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-26",
-   "baseline": false
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
-   "company_id": "neele-vat",
-   "title": "Freight Forwarder Road Transport Uk",
-   "location": "Rotterdam Hoogvliet",
-   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-road-transport-uk/",
-   "posted_at": "2026-09-30",
-   "labels": {
-    "rules": 2,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-366972",
    "company_id": "dhl-group",
    "title": "Chauffeur CE nacht",
@@ -7077,26 +7193,6 @@
    "baseline": true
   },
   {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
-   "company_id": "neele-vat",
-   "title": "All Round Sea Freight Forwarder",
-   "location": "rotterdam Spaanse Polder",
-   "url": "https://werkenbijneelevat.com/vacancies/all-round-sea-freight-forwarder/",
-   "posted_at": "2026-09-29",
-   "labels": {
-    "rules": 2,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
    "id": "portbase:2183138",
    "company_id": "portbase",
    "title": "Python Developer",
@@ -7165,26 +7261,6 @@
    "labels_checked": false,
    "first_seen": "2026-09-17",
    "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/container-planner/",
-   "company_id": "neele-vat",
-   "title": "Container Planner",
-   "location": "Rotterdam Pernis",
-   "url": "https://werkenbijneelevat.com/vacancies/container-planner/",
-   "posted_at": "2026-09-28",
-   "labels": {
-    "rules": 2,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
   },
   {
    "id": "dp-world:27139",
@@ -8471,26 +8547,6 @@
    "baseline": true
   },
   {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
-   "company_id": "neele-vat",
-   "title": "Transportplanner Ftl",
-   "location": "Rotterdam Pernis",
-   "url": "https://werkenbijneelevat.com/vacancies/transportplanner-ftl/",
-   "posted_at": "2026-09-14",
-   "labels": {
-    "rules": 2,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-376721",
    "company_id": "dhl-group",
    "title": "Control Tower Officer",
@@ -9347,26 +9403,6 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-03",
-   "baseline": false
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
-   "company_id": "neele-vat",
-   "title": "Freight Forwarder Shiproad",
-   "location": "Rotterdam Pernis",
-   "url": "https://werkenbijneelevat.com/vacancies/freight-forwarder-shiproad/",
-   "posted_at": "2026-09-02",
-   "labels": {
-    "rules": 2,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
    "baseline": false
   },
   {
@@ -10445,26 +10481,6 @@
    "baseline": true
   },
   {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
-   "company_id": "neele-vat",
-   "title": "Customer Operations Specialist",
-   "location": "City Terminal; Rotterdam Maasvlakte",
-   "url": "https://werkenbijneelevat.com/vacancies/customer-operations-specialist/",
-   "posted_at": "2026-07-21",
-   "labels": {
-    "rules": 2,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
    "id": "portbase:1441847",
    "company_id": "portbase",
    "title": "DevOps Engineer",
@@ -10767,26 +10783,6 @@
    "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": true
-  },
-  {
-   "id": "neele-vat:https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
-   "company_id": "neele-vat",
-   "title": "Export Forwarder",
-   "location": "Rotterdam Pernis",
-   "url": "https://werkenbijneelevat.com/vacancies/export-forwarder-3/",
-   "posted_at": "2026-06-10",
-   "labels": {
-    "rules": 2,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
   },
   {
    "id": "world-courier:R269845",

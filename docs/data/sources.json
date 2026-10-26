@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T16:13+00:00",
+ "generated_at": "2026-10-26T17:41+00:00",
  "sources": [
   {
    "id": "a2b-online",
@@ -10,7 +10,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://a2b-online.com/careers/",
@@ -25,12 +25,14 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://alpi.nl/",
+   "checked_at": "2026-10-26T17:41+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [],
+   "rendering": "rendered 5 page(s), found 0 link(s); saw ['/_premium', '/_data', '/_login', '[other host] /_career', '[other host] void(0);', '[other host] /de/center/kennzahlenfilter']",
+   "careers_link": "https://northdata.de/",
    "nl_jobs": 0,
-   "retry_discovery": true
+   "showing_old_data": false
   },
   {
    "id": "barsan-global-logistics",
@@ -41,7 +43,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.barsan.nl/jobs",
@@ -56,7 +58,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://bertschi.com/",
@@ -72,7 +74,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -97,7 +99,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -108,7 +110,7 @@
     "https://www.boreas-offshore.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/nl/werken-bij",
     "https://www.boreas-offshore.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/werken-bij"
    ],
-   "rendering": "rendered 3 page(s), found 0 link(s); saw ['/cookiebeleid-eu/', '[other host] /tcf/purposes/', '/careers', '/contact', '/services/', '/about-us/']",
+   "rendering": "rendered 4 page(s), found 0 link(s); saw ['/cookiebeleid-eu/', '[other host] /tcf/purposes/', '/vacatures', '/contact', '/services/', '/about-us/']",
    "careers_link": "https://boreas-offshore.com/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -122,7 +124,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.cabootergroup.com/career/",
@@ -137,7 +139,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "workday",
    "careers_link": "https://rxo.com/join-our-team/",
@@ -153,7 +155,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -164,7 +166,7 @@
     "https://www.zwaluwlogistiek.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://zwaluwlogistiek.nl/werken-bij",
     "https://www.zwaluwlogistiek.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://zwaluwlogistiek.nl/vacatures"
    ],
-   "rendering": "rendered 3 page(s), found 0 link(s)",
+   "rendering": "rendered 3 page(s), found 0 link(s); saw ['[other host] +31614857312', '[other host] /maps/search/', '[other host] info@zwaluwlogistiek.nl']",
    "careers_link": "https://www.zwaluwlogistiek.nl/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -178,7 +180,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "recruitee",
    "careers_link": "https://careers.denhartogh.com",
@@ -195,7 +197,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "teamtailor",
    "careers_link": "https://www.dfds.com/en/about/careers",
@@ -212,11 +214,11 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "oracle",
    "careers_link": "https://www.dpworld.com/en/careers",
-   "nl_jobs": 26
+   "nl_jobs": 25
   },
   {
    "id": "dsv",
@@ -230,7 +232,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "rmk",
    "careers_link": "https://www.dsv.com/en/careers/job-openings",
@@ -244,22 +246,13 @@
    ],
    "group": "road_rail",
    "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.emrogers.co.uk/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.emrogers.co.uk/careers",
-    "https://www.emrogers.co.uk/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.emrogers.co.uk/en/careers",
-    "https://www.emrogers.co.uk/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.emrogers.co.uk/careers/",
-    "https://www.emrogers.co.uk/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.emrogers.co.uk/nl/werken-bij",
-    "https://www.emrogers.co.uk/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.emrogers.co.uk/werken-bij",
-    "https://www.emrogers.co.uk/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.emrogers.co.uk/vacatures"
-   ],
-   "rendering": "rendered 3 page(s), found 0 link(s); saw ['/careers', '/contact-us/', '[other host] /vehicles/', '[other host] /sell-to-us/', '[other host] /about-us/', '[other host] /exports/']",
+   "last_success": "2026-10-26",
+   "checked_at": "2026-10-26T17:41+00:00",
+   "status": "ok",
+   "method": "careerpage (rendered)",
    "careers_link": "https://www.emrogers.co.uk/careers",
    "nl_jobs": 0,
-   "showing_old_data": false
+   "retry_discovery": true
   },
   {
    "id": "einride",
@@ -270,7 +263,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -281,7 +274,7 @@
     "https://www.einride.tech/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.einride.tech/werken-bij",
     "https://www.einride.tech/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.einride.tech/vacatures"
    ],
-   "rendering": "rendered 3 page(s), found 0 link(s); saw ['[other host] /wp-content/uploads/2022/02/jlogo.svg']",
+   "rendering": "rendered 3 page(s), found 0 link(s); saw ['[other host] /en/what-is-behind-powered-by-cookiebot/', '[other host] /privacy.html', '[other host] /legal/privacy-policy', '[other host] /privacy/', '[other host] /privacy-policy', '[other host] /privacy-policy/']",
    "careers_link": "https://careers.einride.tech",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -295,7 +288,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -316,14 +309,14 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
     "https://gvt.nl/ -> SSLError: HTTPSConnectionPool(host='gvt.nl', port=443): Max retries exceeded with url: / (Caused by ",
     "https://www.gvt.nl/ -> SSLError: HTTPSConnectionPool(host='www.gvt.nl', port=443): Max retries exceeded with url: / (Caused"
    ],
-   "rendering": "rendered 0 page(s), found 0 link(s); Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.gvt.nl/\nCall log:\n  - navigati",
+   "rendering": "rendered 0 page(s), found 0 link(s)",
    "careers_link": "https://gvt.nl/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -337,7 +330,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://karriere.hoyer-group.com/",
@@ -353,14 +346,14 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
     "https://jona.nl/ -> SSLError: HTTPSConnectionPool(host='jona.nl', port=443): Max retries exceeded with url: / (Caused by",
     "https://www.jona.nl/ -> SSLError: HTTPSConnectionPool(host='www.jona.nl', port=443): Max retries exceeded with url: / (Cause"
    ],
-   "rendering": "rendered 0 page(s), found 0 link(s); Error: Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://www.jona.nl/\nCall log:\n  - navigating to",
+   "rendering": "rendered 0 page(s), found 0 link(s)",
    "careers_link": "https://jona.nl/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -374,7 +367,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.werkenbijklg.nl/",
@@ -389,7 +382,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.ksztransport.nl/nl-nl/vacatures",
@@ -405,14 +398,14 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
     "https://lilymaas.nl/ -> SSLError: HTTPSConnectionPool(host='lilymaas.nl', port=443): Max retries exceeded with url: / (Cause",
     "https://www.lilymaas.nl/ -> SSLError: HTTPSConnectionPool(host='www.lilymaas.nl', port=443): Max retries exceeded with url: / (C"
    ],
-   "rendering": "rendered 0 page(s), found 0 link(s); Error: Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://www.lilymaas.nl/\nCall log:\n ",
+   "rendering": "rendered 0 page(s), found 0 link(s)",
    "careers_link": "https://lilymaas.nl/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -426,7 +419,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "careerpage (rendered)",
    "careers_link": "https://mslogisticsltd.com/",
@@ -443,7 +436,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://werkenbijneelevat.com/vacancies/",
@@ -458,7 +451,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://www.nunner.com/nl/vacatures/",
@@ -474,7 +467,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -485,7 +478,7 @@
     "https://www.oranjetransport.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://oranjetransport.nl/werken-bij",
     "https://www.oranjetransport.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://oranjetransport.nl/vacatures"
    ],
-   "rendering": "rendered 3 page(s), found 0 link(s); saw ['/careers', '/white-glove-delivery/', '/warehousing/', '/distribution/', '/about-us/', '/news/']",
+   "rendering": "rendered 3 page(s), found 0 link(s); saw ['/nl/', '/nl/white-glove-delivery/', '/nl/warehousing/', '/nl/distributie/', '/nl/over-ons/', '/nl/nieuws/']",
    "careers_link": "https://www.oranjetransport.nl/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -499,11 +492,11 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "oracle",
    "careers_link": "https://www.dpworld.com/en/careers",
-   "nl_jobs": 26
+   "nl_jobs": 25
   },
   {
    "id": "prospect-transport-logistiek",
@@ -514,7 +507,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://prospect-logistiek.nl/",
@@ -530,7 +523,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -541,7 +534,7 @@
     "https://www.samskip.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/jobs",
     "https://www.samskip.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/en/jobs"
    ],
-   "rendering": "rendered 3 page(s), found 0 link(s)",
+   "rendering": "rendered 3 page(s), found 0 link(s); saw ['/logistics-services/', '/logistics-services/multimodal-network/', '/logistics-services/door-to-door/', '/logistics-services/terminal-to-terminal/', '/flatrack/', '/logistics-services/global-forwarding/']",
    "careers_link": "https://www.samskip.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -555,7 +548,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -566,7 +559,7 @@
     "https://www.sennder.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/werken-bij",
     "https://www.sennder.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/vacatures"
    ],
-   "rendering": "rendered 3 page(s), found 0 link(s); saw ['/press/sennder-achieves-profitability-and-hit-euro1-billion-in-annual-', '/en', '/carriers', '/shippers', '/green-business', '/control-tower']",
+   "rendering": "rendered 5 page(s), found 0 link(s); saw ['/press/sennder-achieves-profitability-and-hit-euro1-billion-in-annual-', '/en', '/carriers', '/shippers', '/green-business', '/control-tower']",
    "careers_link": "https://www.sennder.com/career",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -580,7 +573,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -591,7 +584,7 @@
     "https://www.soderbergtransport.se/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/werken-bij",
     "https://www.soderbergtransport.se/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/vacatures"
    ],
-   "rendering": "rendered 3 page(s), found 0 link(s); saw ['/om-oss/', '/vara-tjanster/', '/kontakta-oss/', '[other host] info@soderbergtransport.se', '[other host] +46706360875', '[other host] sandra@soderbergtransport.se']",
+   "rendering": "rendered 3 page(s), found 0 link(s); saw ['/om-oss/', '/vara-tjanster/', '/kontakta-oss/', '/wp-content/uploads/2026/01/481659292_1150942026445565_34461.png', '/wp-content/uploads/2026/01/279435110_3173535319561989_64987.png', '/wp-content/uploads/2026/01/480812372_1146750840198017_60486.png']",
    "careers_link": "https://www.soderbergtransport.se/careers",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -605,11 +598,11 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "greenhouse",
    "careers_link": "https://www.uberfreight.com/en-US/careers",
-   "nl_jobs": 10
+   "nl_jobs": 11
   },
   {
    "id": "van-berkel-logistics",
@@ -620,7 +613,7 @@
    "group": "road_rail",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "jsonld",
    "careers_link": "https://www.vanberkellogistics.nl/werken-bij/",
@@ -635,7 +628,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -660,7 +653,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "careerpage",
    "careers_link": "https://aircargo.nl/over-ons/vacatures",
@@ -675,7 +668,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -686,7 +679,7 @@
     "https://www.travelservices.airtrade.com/nl/werken-bij -> ConnectionError: HTTPSConnectionPool(host='www.travelservices.airtrade.com', port=443): Max retries exceede",
     "https://www.travelservices.airtrade.com/werken-bij -> ConnectionError: HTTPSConnectionPool(host='www.travelservices.airtrade.com', port=443): Max retries exceede"
    ],
-   "rendering": "rendered 0 page(s), found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.travelservices.airtrade.com/careers/\n",
+   "rendering": "rendered 0 page(s), found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.travelservices.airtrade.com/jobs\nCall",
    "careers_link": "https://travelservices.airtrade.com/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -700,7 +693,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "read_failed",
    "method": "icims",
    "detail": "RuntimeError: iCIMS portal refused every search URL we know",
@@ -717,7 +710,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -742,7 +735,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -767,7 +760,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "ok",
    "method": "oracle",
    "careers_link": "https://apllogistics.com/",
@@ -782,19 +775,19 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
-    "https://www.atlantlogistics.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://atlantlogistics.nl/en/careers",
-    "https://www.atlantlogistics.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://atlantlogistics.nl/nl/werken-bij",
-    "https://www.atlantlogistics.nl/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://atlantlogistics.nl/nl/vacatures",
-    "https://www.atlantlogistics.nl/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://atlantlogistics.nl/en/jobs",
-    "https://www.atlantlogistics.nl/en/career -> HTTPError: 404 Client Error: Not Found for url: https://atlantlogistics.nl/en/career",
-    "https://atlantlogistics.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://atlantlogistics.nl/en/careers"
+    "https://www.atllogistics.nl/ -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+    "https://www.atllogistics.nl/careers -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+    "https://www.atllogistics.nl/en/careers -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+    "https://www.atllogistics.nl/careers/ -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+    "https://www.atllogistics.nl/nl/werken-bij -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+    "https://www.atllogistics.nl/werken-bij -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: "
    ],
-   "rendering": "rendered 3 page(s), found 0 link(s); saw ['/new', '/new/', '/new/services/', '/new/about/', '/new/contact/', '[other host] /privacy-policy/']",
-   "careers_link": "https://atlantlogistics.nl/",
+   "rendering": "rendered 0 page(s), found 0 link(s); Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.atllogistics.nl/jobs\nCall log:",
+   "careers_link": "https://atllogistics.nl/",
    "nl_jobs": 0,
    "showing_old_data": false
   },
@@ -807,11 +800,11 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [],
-   "rendering": "rendered 4 page(s), found 0 link(s); saw ['[other host] /en/what-is-behind-powered-by-cookiebot/', '/careers/employee-experience', '[other host] /goto/privacy-policy/', '[other host] /s/e3ac42ea-21ac-4fd3-8f4b-20a55a3eaefc/ryfryqgrv.html', '[other host] /privacy/', '[other host] /legal/privacy-policy']",
+   "rendering": "rendered 5 page(s), found 0 link(s); saw ['[other host] /en/what-is-behind-powered-by-cookiebot/', '[other host] /goto/privacy-policy/', '[other host] /s/e3ac42ea-21ac-4fd3-8f4b-20a55a3eaefc/ryfryqgrv.html', '[other host] /privacy/', '[other host] /legal/privacy-policy', '[other host] /policies/privacy-policy/']",
    "careers_link": "https://psabdp.com/careers/employee-experience",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -825,7 +818,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -850,14 +843,14 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
     "https://bfglobal.nl/ -> SSLError: HTTPSConnectionPool(host='bfglobal.nl', port=443): Max retries exceeded with url: / (Cause",
     "https://www.bfglobal.nl/ -> SSLError: HTTPSConnectionPool(host='www.bfglobal.nl', port=443): Max retries exceeded with url: / (C"
    ],
-   "rendering": "rendered 0 page(s), found 0 link(s); Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.bfglobal.nl/\nCall log:\n  - nav",
+   "rendering": "rendered 0 page(s), found 0 link(s)",
    "careers_link": "https://bfglobal.nl/",
    "nl_jobs": 0,
    "showing_old_data": false
@@ -871,7 +864,7 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
@@ -896,14 +889,14 @@
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-26T16:13+00:00",
+   "checked_at": "2026-10-26T17:41+00:00",
    "status": "site_unreachable",
    "vendor": null,
    "notes": [
     "https://bluerocklogistics.nl/ -> ConnectTimeout: HTTPSConnectionPool(host='bluerocklogistics.nl', port=443): Max retries exceeded with url:",
     "https://www.bluerocklogistics.nl/ -> ConnectTimeout: HTTPSConnectionPool(host='www.bluerocklogistics.nl', port=443): Max retries exceeded with "
    ],
-   "rendering": "rendered 0 page(s), found 0 link(s); TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.bluerocklogi",
+   "rendering": "rendered 0 page(s), found 0 link(s)",
    "careers_link": "https://bluerocklogistics.nl/",
    "nl_jobs": 0,
    "showing_old_data": false
