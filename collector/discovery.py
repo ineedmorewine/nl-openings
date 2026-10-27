@@ -12,8 +12,10 @@ from .adapters.jsonld import extract_job_postings
 from .text import fold
 
 CAREER_WORDS = re.compile(
-    r"(careers?|jobs|vacatures?|vacancies|vacancy|werken[\s\-]?bij|werkenbij|join[\s\-]us|"
-    r"work[\s\-]with[\s\-]us|karriere|job[\s\-]openings)", re.I)
+    r"(careers?|jobs|vacatures?|vacancies|vacancy|werken[\s\-]?bij|werkenbij|"
+    r"join[\s\-](us|our[\s\-]team|the[\s\-]team)|work[\s\-](with|for|at)[\s\-]us|"
+    r"karriere|job[\s\-]openings|recruit(ment)?|sollicit|"
+    r"ons[\s\-]team|onze[\s\-]mensen|wie[\s\-]zijn[\s\-]wij)", re.I)
 COMMON_PATHS = ["/careers", "/en/careers", "/careers/", "/nl/werken-bij", "/werken-bij",
                 "/vacatures", "/nl/vacatures", "/jobs", "/en/jobs", "/career", "/en/career"]
 # Careers sites very often live on their own host rather than a path.

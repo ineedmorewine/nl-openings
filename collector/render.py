@@ -10,9 +10,9 @@ collector, and its tests, run without a browser installed.
 """
 import os
 
-DEFAULT_TIMEOUT_MS = 20000
+DEFAULT_TIMEOUT_MS = 15000
 # Waiting for the network to fall quiet is what lets a job list appear.
-QUIET_NETWORK_MS = 3500
+QUIET_NETWORK_MS = 2500
 DISABLED = os.environ.get("NL_OPENINGS_NO_BROWSER") == "1"
 
 

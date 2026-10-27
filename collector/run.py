@@ -36,7 +36,7 @@ MAX_LINK_DESCRIPTIONS = 200
 # Rendering is slow, so it is reserved for companies that would otherwise be
 # reported as unreadable, and capped for the run as a whole.
 RENDER_PAGE_BUDGET = 500
-RENDER_PAGES_PER_COMPANY = 4
+RENDER_PAGES_PER_COMPANY = 3
 # Extra pages allowed when a rendered page points at the real careers page.
 RENDER_FOLLOWED_PAGES = 3
 TIME_BUDGET_SECONDS = 240 * 60
@@ -187,8 +187,11 @@ def rendering_order(company, discovery_cache, source=None):
         reached = second_opinion_pages(company, discovery_cache, source)
     pages, seen = [], set()
     for url in homepages(company.get("domain"))[:1] + list(reached):
-        if url and url not in seen:
-            seen.add(url)
+        # One page, not two: a site answers on both www and the bare name, and
+        # rendering each twice spent half the browser budget on a copy.
+        key = url.replace("://www.", "://").rstrip("/") if url else url
+        if url and key not in seen:
+            seen.add(key)
             pages.append(url)
     return pages
 
