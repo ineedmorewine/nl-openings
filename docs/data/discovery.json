@@ -428,46 +428,6 @@
   "reason": "found",
   "checked_at": "2026-09-17"
  },
- "dimerco-express": {
-  "source": null,
-  "vendor": null,
-  "checked_pages": [
-   "https://dimerco.com/",
-   "https://www.dimerco.com/",
-   "https://dimerco.com/careers/",
-   "https://www.dimerco.com/careers",
-   "https://www.dimerco.com/en/careers",
-   "https://www.dimerco.com/careers/",
-   "https://www.dimerco.com/nl/werken-bij",
-   "https://www.dimerco.com/werken-bij",
-   "https://www.dimerco.com/vacatures",
-   "https://www.dimerco.com/nl/vacatures",
-   "https://www.dimerco.com/jobs",
-   "https://www.dimerco.com/en/jobs",
-   "https://www.dimerco.com/career",
-   "https://www.dimerco.com/en/career",
-   "https://dimerco.com/careers",
-   "https://dimerco.com/en/careers",
-   "https://dimerco.com/nl/werken-bij",
-   "https://dimerco.com/werken-bij",
-   "https://dimerco.com/vacatures",
-   "https://dimerco.com/nl/vacatures"
-  ],
-  "reached_pages": [
-   "https://dimerco.com/",
-   "https://www.dimerco.com/"
-  ],
-  "reason": "no_careers_system_found",
-  "notes": [
-   "https://dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/careers/",
-   "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
-   "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
-   "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
-   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij",
-   "https://www.dimerco.com/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/werken-bij"
-  ],
-  "checked_at": "2026-10-27"
- },
  "expeditors": {
   "source": {
    "type": "smartrecruiters",
@@ -1430,7 +1390,7 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [],
-  "checked_at": "2026-10-26"
+  "checked_at": "2026-10-27"
  },
  "nextlogic": {
   "source": null,
@@ -2656,21 +2616,6 @@
   ],
   "checked_at": "2026-10-27"
  },
- "cycleon": {
-  "source": null,
-  "vendor": null,
-  "checked_pages": [
-   "https://cycleon.com/",
-   "https://www.cycleon.com/"
-  ],
-  "reached_pages": [],
-  "reason": "site_unreachable",
-  "notes": [
-   "https://cycleon.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.reboundreturns.com",
-   "https://www.cycleon.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.reboundreturns.com"
-  ],
-  "checked_at": "2026-10-27"
- },
  "grolleman-vrieshuis": {
   "source": null,
   "vendor": null,
@@ -3669,26 +3614,6 @@
   ],
   "checked_at": "2026-10-27"
  },
- "mn-logistics-international": {
-  "source": {
-   "type": "careerpage",
-   "url": "https://logisticsmn.nl/vacatures/"
-  },
-  "vendor": null,
-  "checked_pages": [
-   "https://logisticsmn.nl/",
-   "https://www.logisticsmn.nl/",
-   "https://logisticsmn.nl/vacatures/"
-  ],
-  "reached_pages": [
-   "https://logisticsmn.nl/",
-   "https://www.logisticsmn.nl/",
-   "https://logisticsmn.nl/vacatures/"
-  ],
-  "reason": "found",
-  "notes": [],
-  "checked_at": "2026-10-27"
- },
  "mpc-shipping-logistics": {
   "source": {
    "type": "personio",
@@ -4482,7 +4407,7 @@
    "https://www.topcargo.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/werken-bij",
    "https://www.topcargo.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/vacatures"
   ],
-  "checked_at": "2026-10-26"
+  "checked_at": "2026-10-27"
  },
  "transporting-wheels": {
   "source": null,
@@ -4497,7 +4422,7 @@
    "https://transportingwheels.nl/ -> ConnectionError: HTTPSConnectionPool(host='transportingwheels.nl', port=443): Max retries exceeded with url",
    "https://www.transportingwheels.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.transportingwheels.nl', port=443): Max retries exceeded with"
   ],
-  "checked_at": "2026-10-26"
+  "checked_at": "2026-10-27"
  },
  "c-h-robinson": {
   "source": {
@@ -5242,6 +5167,68 @@
    "https://www.rhenus.group/career/office-worker/",
    "https://www.rhenus.group/career/it-tech-experts/",
    "https://www.rhenus.group/career/jobboard/"
+  ],
+  "reason": "found",
+  "notes": [],
+  "checked_at": "2026-10-27"
+ },
+ "century-distribution-systems": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://centuryvms.com/",
+   "https://www.centuryvms.com/",
+   "https://www.centuryvms.com/careers",
+   "https://www.centuryvms.com/en/careers",
+   "https://www.centuryvms.com/careers/",
+   "https://www.centuryvms.com/nl/werken-bij",
+   "https://www.centuryvms.com/werken-bij",
+   "https://www.centuryvms.com/vacatures",
+   "https://www.centuryvms.com/nl/vacatures",
+   "https://www.centuryvms.com/jobs",
+   "https://www.centuryvms.com/en/jobs",
+   "https://www.centuryvms.com/career",
+   "https://www.centuryvms.com/en/career",
+   "https://centuryvms.com/careers",
+   "https://centuryvms.com/en/careers",
+   "https://centuryvms.com/careers/",
+   "https://centuryvms.com/nl/werken-bij",
+   "https://centuryvms.com/werken-bij",
+   "https://centuryvms.com/vacatures",
+   "https://centuryvms.com/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://centuryvms.com/",
+   "https://www.centuryvms.com/"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://www.centuryvms.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.centuryvms.com/careers",
+   "https://www.centuryvms.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.centuryvms.com/en/careers",
+   "https://www.centuryvms.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.centuryvms.com/careers/",
+   "https://www.centuryvms.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.centuryvms.com/nl/werken-bij",
+   "https://www.centuryvms.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.centuryvms.com/werken-bij",
+   "https://www.centuryvms.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.centuryvms.com/vacatures"
+  ],
+  "checked_at": "2026-10-27"
+ },
+ "prospect-transport-logistiek": {
+  "source": {
+   "type": "careerpage",
+   "url": "https://prospect-logistiek.nl/werk-met-ons-samen/"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://prospect-logistiek.nl/",
+   "https://www.prospect-logistiek.nl/",
+   "https://prospect-logistiek.nl/vacature/chauffeur-c/",
+   "https://prospect-logistiek.nl/werk-met-ons-samen/"
+  ],
+  "reached_pages": [
+   "https://prospect-logistiek.nl/",
+   "https://www.prospect-logistiek.nl/",
+   "https://prospect-logistiek.nl/vacature/chauffeur-c/",
+   "https://prospect-logistiek.nl/werk-met-ons-samen/"
   ],
   "reason": "found",
   "notes": [],
