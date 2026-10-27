@@ -78,6 +78,11 @@ class PageRenderer:
                 page.wait_for_load_state("networkidle", timeout=QUIET_NETWORK_MS)
             except Exception:
                 pass  # A page that never goes quiet may still have its list by now.
+            if accept_cookies(page):
+                try:
+                    page.wait_for_load_state("networkidle", timeout=QUIET_NETWORK_MS)
+                except Exception:
+                    pass
             return page.content()
         finally:
             page.close()
@@ -90,3 +95,31 @@ class PageRenderer:
             except Exception:
                 pass
         self._browser = self._playwright = None
+
+
+# A consent wall is not decoration: on some careers pages the vacancy list is
+# not built until it is answered, so what we read is the cookie notice itself.
+# ECT's vacancy page is all consent text and no vacancies until this is clicked.
+CONSENT_LABELS = ["Alles accepteren", "Alle cookies accepteren", "Accepteren", "Akkoord",
+                  "Ik ga akkoord", "Accept all", "Accept All Cookies", "Allow all",
+                  "I agree", "Zustimmen", "Alle akzeptieren"]
+CONSENT_CLICK_MS = 1200
+
+
+def accept_cookies(page):
+    """Answer a cookie notice if one is in the way. True when something was clicked.
+
+    The notice is often inside a frame of its own, so every frame is tried.
+    Failure is ordinary and silent: most pages have nothing to click.
+    """
+    for frame in [page] + list(getattr(page, "frames", []) or []):
+        for label in CONSENT_LABELS:
+            try:
+                button = frame.get_by_role("button", name=label, exact=False)
+                if button.count() == 0:
+                    continue
+                button.first.click(timeout=CONSENT_CLICK_MS)
+                return True
+            except Exception:
+                continue
+    return False
