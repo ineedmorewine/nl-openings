@@ -1,0 +1,54 @@
+# A one-off look at pages the collector cannot read.
+#
+# Run by hand with a list of addresses. Each one is opened in a browser and its
+# finished HTML is committed to the "diagnostics" branch, so the markup can be
+# studied instead of guessed at. Nothing here touches the site or its data.
+name: Inspect pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: Addresses to open, separated by spaces
+        required: true
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r collector/requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Open each page
+        env:
+          URLS: ${{ inputs.urls }}
+        run: |
+          python - <<'PY'
+          import os, pathlib, re
+          from collector.render import PageRenderer
+
+          out = pathlib.Path("diagnostics")
+          out.mkdir(exist_ok=True)
+          renderer = PageRenderer(len(os.environ["URLS"].split()) + 2)
+          for url in os.environ["URLS"].split():
+              name = re.sub(r"[^a-z0-9]+", "-", url.lower()).strip("-")[:90]
+              try:
+                  markup = renderer.render(url)
+              except Exception as error:
+                  markup = f"FAILED {type(error).__name__}: {error}"
+              (out / f"{name}.html").write_text(markup[:400000], encoding="utf-8")
+              print(f"{url} -> {len(markup)} characters", flush=True)
+          renderer.close()
+          PY
+      - name: Keep the pages on a branch of their own
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B diagnostics
+          git add -f diagnostics
+          git commit -m "Pages opened for inspection" || exit 0
+          git push -f origin diagnostics
