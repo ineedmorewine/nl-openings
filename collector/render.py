@@ -104,6 +104,7 @@ CONSENT_LABELS = ["Alles accepteren", "Alle cookies accepteren", "Accepteren", "
                   "Ik ga akkoord", "Accept all", "Accept All Cookies", "Allow all",
                   "I agree", "Zustimmen", "Alle akzeptieren"]
 CONSENT_CLICK_MS = 1200
+MAX_CONSENT_FRAMES = 4
 
 
 def accept_cookies(page):
@@ -112,7 +113,9 @@ def accept_cookies(page):
     The notice is often inside a frame of its own, so every frame is tried.
     Failure is ordinary and silent: most pages have nothing to click.
     """
-    for frame in [page] + list(getattr(page, "frames", []) or []):
+    # Bounded on purpose: a page with many frames must not turn one click into
+    # a minute of searching.
+    for frame in ([page] + list(getattr(page, "frames", []) or []))[:MAX_CONSENT_FRAMES]:
         for label in CONSENT_LABELS:
             try:
                 button = frame.get_by_role("button", name=label, exact=False)
