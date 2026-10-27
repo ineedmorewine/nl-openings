@@ -39,7 +39,9 @@ RENDER_PAGE_BUDGET = 500
 RENDER_PAGES_PER_COMPANY = 3
 # Extra pages allowed when a rendered page points at the real careers page.
 RENDER_FOLLOWED_PAGES = 3
-TIME_BUDGET_SECONDS = 240 * 60
+# Well inside the job's own limit. A run that is killed saves nothing at all,
+# and the companies it did not reach go first in the next run anyway.
+TIME_BUDGET_SECONDS = 150 * 60
 
 
 def load_json(path, default):
