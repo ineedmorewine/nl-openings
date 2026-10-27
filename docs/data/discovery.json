@@ -428,6 +428,46 @@
   "reason": "found",
   "checked_at": "2026-09-17"
  },
+ "dimerco-express": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://dimerco.com/",
+   "https://www.dimerco.com/",
+   "https://dimerco.com/careers/",
+   "https://www.dimerco.com/careers",
+   "https://www.dimerco.com/en/careers",
+   "https://www.dimerco.com/careers/",
+   "https://www.dimerco.com/nl/werken-bij",
+   "https://www.dimerco.com/werken-bij",
+   "https://www.dimerco.com/vacatures",
+   "https://www.dimerco.com/nl/vacatures",
+   "https://www.dimerco.com/jobs",
+   "https://www.dimerco.com/en/jobs",
+   "https://www.dimerco.com/career",
+   "https://www.dimerco.com/en/career",
+   "https://dimerco.com/careers",
+   "https://dimerco.com/en/careers",
+   "https://dimerco.com/nl/werken-bij",
+   "https://dimerco.com/werken-bij",
+   "https://dimerco.com/vacatures",
+   "https://dimerco.com/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://dimerco.com/",
+   "https://www.dimerco.com/"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/careers/",
+   "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
+   "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
+   "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
+   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij",
+   "https://www.dimerco.com/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/werken-bij"
+  ],
+  "checked_at": "2026-10-27"
+ },
  "expeditors": {
   "source": {
    "type": "smartrecruiters",
@@ -2805,6 +2845,46 @@
   "reason": "found",
   "checked_at": "2026-10-03"
  },
+ "boreas-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://boreas-offshore.com/",
+   "https://www.boreas-offshore.com/",
+   "https://boreas-offshore.com/careers",
+   "https://www.boreas-offshore.com/careers",
+   "https://www.boreas-offshore.com/en/careers",
+   "https://www.boreas-offshore.com/careers/",
+   "https://www.boreas-offshore.com/nl/werken-bij",
+   "https://www.boreas-offshore.com/werken-bij",
+   "https://www.boreas-offshore.com/vacatures",
+   "https://www.boreas-offshore.com/nl/vacatures",
+   "https://www.boreas-offshore.com/jobs",
+   "https://www.boreas-offshore.com/en/jobs",
+   "https://www.boreas-offshore.com/career",
+   "https://www.boreas-offshore.com/en/career",
+   "https://boreas-offshore.com/en/careers",
+   "https://boreas-offshore.com/careers/",
+   "https://boreas-offshore.com/nl/werken-bij",
+   "https://boreas-offshore.com/werken-bij",
+   "https://boreas-offshore.com/vacatures",
+   "https://boreas-offshore.com/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://boreas-offshore.com/",
+   "https://www.boreas-offshore.com/"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://boreas-offshore.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/careers",
+   "https://www.boreas-offshore.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/careers",
+   "https://www.boreas-offshore.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/en/careers",
+   "https://www.boreas-offshore.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/careers/",
+   "https://www.boreas-offshore.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/nl/werken-bij",
+   "https://www.boreas-offshore.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/werken-bij"
+  ],
+  "checked_at": "2026-10-27"
+ },
  "de-zwaluw-logistiek": {
   "source": null,
   "vendor": null,
@@ -5052,24 +5132,45 @@
   "checked_at": "2026-10-26"
  },
  "al-international-transport-logistics": {
-  "source": {
-   "type": "careerpage",
-   "url": "https://alpi.nl/vacature/"
-  },
+  "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://alpi.nl/",
-   "https://www.alpi.nl/",
-   "https://alpi.nl/vacature/"
+   "https://atllogistics.nl/",
+   "https://www.atllogistics.nl/",
+   "https://www.atllogistics.nl/careers",
+   "https://www.atllogistics.nl/en/careers",
+   "https://www.atllogistics.nl/careers/",
+   "https://www.atllogistics.nl/nl/werken-bij",
+   "https://www.atllogistics.nl/werken-bij",
+   "https://www.atllogistics.nl/vacatures",
+   "https://www.atllogistics.nl/nl/vacatures",
+   "https://www.atllogistics.nl/jobs",
+   "https://www.atllogistics.nl/en/jobs",
+   "https://www.atllogistics.nl/career",
+   "https://www.atllogistics.nl/en/career",
+   "https://atllogistics.nl/careers",
+   "https://atllogistics.nl/en/careers",
+   "https://atllogistics.nl/careers/",
+   "https://atllogistics.nl/nl/werken-bij",
+   "https://atllogistics.nl/werken-bij",
+   "https://atllogistics.nl/vacatures",
+   "https://atllogistics.nl/nl/vacatures"
   ],
   "reached_pages": [
-   "https://alpi.nl/",
-   "https://www.alpi.nl/",
-   "https://alpi.nl/vacature/"
+   "https://atllogistics.nl/",
+   "https://atllogistics.nl/nl/werken-bij",
+   "https://atllogistics.nl/nl/vacatures"
   ],
-  "reason": "found",
-  "notes": [],
-  "checked_at": "2026-10-27"
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://www.atllogistics.nl/ -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+   "https://www.atllogistics.nl/careers -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+   "https://www.atllogistics.nl/en/careers -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+   "https://www.atllogistics.nl/careers/ -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+   "https://www.atllogistics.nl/nl/werken-bij -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: ",
+   "https://www.atllogistics.nl/werken-bij -> SSLError: HTTPSConnectionPool(host='www.atllogistics.nl', port=443): Max retries exceeded with url: "
+  ],
+  "checked_at": "2026-10-26"
  },
  "arvato": {
   "source": {
