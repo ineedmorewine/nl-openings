@@ -1,446 +1,1708 @@
 {
- "generated_at": "2026-10-28T10:17+00:00",
+ "generated_at": "2026-10-28T20:44+00:00",
  "sources": [
   {
-   "id": "janssen-air-ocean",
-   "name": "Janssen Air & Ocean",
+   "id": "rapid-logistics",
+   "name": "Rapid Logistics",
    "entities": [
-    "Janssen Air & Ocean B.V."
+    "Rapid Logistics B.V."
    ],
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": null,
-   "checked_at": "2026-10-28T10:17+00:00",
+   "checked_at": "2026-10-28T20:44+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [
-    "https://www.forwarderspages.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/careers",
-    "https://www.forwarderspages.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/en/careers",
-    "https://www.forwarderspages.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/careers/",
-    "https://www.forwarderspages.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/nl/werken-bij",
-    "https://www.forwarderspages.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/werken-bij",
-    "https://www.forwarderspages.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/vacatures"
+    "https://www.rapidlogistics.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/careers",
+    "https://www.rapidlogistics.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/en/careers",
+    "https://www.rapidlogistics.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/careers/",
+    "https://www.rapidlogistics.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/nl/werken-bij",
+    "https://www.rapidlogistics.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/werken-bij",
+    "https://www.rapidlogistics.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/vacatures"
    ],
-   "rendering": "rendered ['https://forwarderspages.com/', 'https://www.forwarderspages.com/join-us'], found 0 link(s); saw ['/company-directory', '/container-tracking', '/air-cargo-tracking', '/vessel-tracking', '/join-us', '/contact']",
-   "careers_link": "https://www.forwarderspages.com/join-us",
+   "rendering": "rendered ['https://rapidlogistics.nl/'], found 0 link(s); saw ['[other host] /en/what-is-behind-powered-by-cookiebot/', '[other host] /goto/privacy-policy/', '[other host] /privacy/', '/cases/', '/about/', '/services/']",
+   "careers_link": "https://www.rapidlogistics.nl/careers",
    "nl_jobs": 0,
    "showing_old_data": false
   },
   {
-   "id": "jas-worldwide",
-   "name": "JAS Worldwide",
+   "id": "re-teck",
+   "name": "Re-Teck",
    "entities": [
-    "JAS Forwarding (Netherlands) B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "ok",
-   "method": "workday",
-   "careers_link": "https://www.jas.com/careers/",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "jd-logistics",
-   "name": "JD Logistics",
-   "entities": [
-    "JINGDONG LOGISTICS (NETHERLANDS) B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.jdlogistics.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/nl/werken-bij",
-    "https://www.jdlogistics.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/werken-bij",
-    "https://www.jdlogistics.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/vacatures",
-    "https://www.jdlogistics.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/nl/vacatures",
-    "https://www.jdlogistics.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/jobs",
-    "https://www.jdlogistics.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/en/jobs"
-   ],
-   "rendering": "rendered ['https://jdlogistics.com/', 'https://jdlogistics.com/careers/', 'https://www.jdlogistics.com/en/careers'], found 0 link(s); saw ['/shipping-services/', '/shipping-quote/', '/testimonials/', '/careers/', '/contact-us/']",
-   "careers_link": "https://jdlogistics.com/careers/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "just-ride-logistics",
-   "name": "Just Ride Logistics",
-   "entities": [
-    "Just Ride Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.just-ride.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/careers",
-    "https://www.just-ride.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/en/careers",
-    "https://www.just-ride.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/careers/",
-    "https://www.just-ride.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/nl/werken-bij",
-    "https://www.just-ride.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/werken-bij",
-    "https://www.just-ride.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/vacatures"
-   ],
-   "rendering": "rendered ['https://just-ride.nl/'], found 0 link(s); saw ['/boekingen', '/services', '/about', '/contact', '[other host] info@just-ride.nl', '[other host] 06%20266%2072%20362']",
-   "careers_link": "https://www.just-ride.nl/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "kintetsu-world-express",
-   "name": "Kintetsu World Express",
-   "entities": [
-    "Kintetsu World Express (Benelux) B.V.",
-    "Kintetsu World Express (EA) B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-26",
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://kwe.com/ -> ConnectionError: HTTPSConnectionPool(host='kwe.com', port=443): Max retries exceeded with url: / (Caused by"
-   ],
-   "rendering": "rendered ['https://www.kwe.com/career/', 'https://www.kwe.com/local/cambodia/en/careers/index.html', 'https://www.kwe.com/local/china_hongkong/en/careers/index.html', 'https://www.kwe.com/local/india/en/careers/index.html', 'https://www.kwe.com/local/japan/en/careers/index.html'], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://kwe.com/\nCall log:\n  - navigating to \"htt; saw ['/about/', '/about/whoweare/profile/', '/about/whoweare/policy/', '/about/whoweare/leadership/', '/about/whoweare/history/', '/about/whoweare/innovation/']",
-   "careers_link": "https://www.kwe.com/career/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "kln-logistics",
-   "name": "KLN Logistics",
-   "entities": [
-    "KLN Logistics Holding B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://www.kln.com:443/en/careers/working-at-kln/",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "koyanagi-worldwide",
-   "name": "Koyanagi Worldwide",
-   "entities": [
-    "Koyanagi Worldwide B.V.",
-    "Koyanagi Worldwide Ltd"
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [],
-   "rendering": "rendered ['https://koyanagiworldwide.com/', 'https://koyanagiworldwide.com/pages/company/recruit.html', 'https://www.koyanagiworldwide.com/careers'], found 0 link(s); saw ['/index.html', '/pages/company/company-profile_germany.html', '/pages/company/company-profile_france.html', '/pages/company/company-profile_thenetherlands.html', '/pages/company/company-profile_belgium.html', '/privacy.pdf']",
-   "careers_link": "https://koyanagiworldwide.com/pages/company/recruit.html",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "kroog-logistics",
-   "name": "Kroog Logistics",
-   "entities": [
-    "Kroog Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://kroog.nl/ -> SSLError: HTTPSConnectionPool(host='kroog.nl', port=443): Max retries exceeded with url: / (Caused b",
-    "https://www.kroog.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.kroog.nl', port=443): Max retries exceeded with url: / (Caus"
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://kroog.nl/\nCall log:\n  - navigating t",
-   "careers_link": "https://kroog.nl/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "kuehne-nagel",
-   "name": "Kuehne+Nagel",
-   "entities": [
-    "Kuehne + Nagel N.V.",
-    "Kuehne + Nagel Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "ok",
-   "method": "phenom",
-   "careers_link": "https://jobs.kuehne-nagel.com/global/en",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "lineage",
-   "name": "Lineage",
-   "entities": [
-    "Lineage Dutch Coöperatief U.A.",
-    "Lineage NL 3 TRS B.V.",
-    "Lineage Rotterdam Maasvlakte B.V."
+    "Re-Teck Reverse Supply Chain Management B.V."
    ],
    "group": "contract",
    "extra_keywords": [],
    "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T10:17+00:00",
+   "checked_at": "2026-10-28T20:44+00:00",
    "status": "ok",
-   "method": "phenom",
-   "careers_link": "https://careers.onelineage.com/",
+   "method": "careerpage",
+   "careers_link": "https://www.re-teck.com/job-opportunities/",
    "nl_jobs": 0,
    "retry_discovery": true
   },
   {
-   "id": "loadmaster-ai",
-   "name": "loadmaster.ai",
+   "id": "rhenus",
+   "name": "Rhenus",
    "entities": [
-    "loadmaster.ai B.V."
+    "Rhenus Air & Ocean B.V.",
+    "Rhenus Warehousing Solutions Netherlands B.V."
    ],
-   "group": "software",
-   "extra_keywords": [
-    "implementation",
-    "onboarding"
-   ],
+   "group": "forwarders",
+   "extra_keywords": [],
    "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T10:17+00:00",
+   "checked_at": "2026-10-28T20:44+00:00",
    "status": "ok",
-   "method": "careerpage (rendered)",
-   "careers_link": "https://www.loadmaster.ai/careers",
+   "method": "workday",
+   "careers_link": "https://www.rhenus.group/career/",
+   "nl_jobs": 40
+  },
+  {
+   "id": "rotra",
+   "name": "Rotra",
+   "entities": [
+    "Rotra Air & Ocean B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "jsonld",
+   "careers_link": "https://rotra.eu/vacatures",
+   "nl_jobs": 1
+  },
+  {
+   "id": "samskip",
+   "name": "Samskip",
+   "entities": [
+    "Samskip Services B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.samskip.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/nl/werken-bij",
+    "https://www.samskip.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/werken-bij",
+    "https://www.samskip.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/vacatures",
+    "https://www.samskip.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/nl/vacatures",
+    "https://www.samskip.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/jobs",
+    "https://www.samskip.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/en/jobs"
+   ],
+   "rendering": "rendered ['https://samskip.com/', 'https://www.samskip.com/careers', 'https://www.samskip.com/en/careers'], found 0 link(s); saw ['/logistics-services/', '/logistics-services/multimodal-network/', '/logistics-services/door-to-door/', '/logistics-services/terminal-to-terminal/', '/flatrack/', '/logistics-services/global-forwarding/']",
+   "careers_link": "https://www.samskip.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "samsung-electronics-europe-logistics",
+   "name": "Samsung Electronics Europe Logistics",
+   "entities": [
+    "Samsung Electronics Europe Logistics B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "workday",
+   "careers_link": "https://www.samsung.com/us/careers/",
    "nl_jobs": 0,
    "retry_discovery": true
   },
   {
-   "id": "logisteed-europe",
-   "name": "LOGISTEED Europe",
+   "id": "samsung-sds",
+   "name": "Samsung SDS",
    "entities": [
-    "LOGISTEED Europe B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.logisteed.com/jp/recruit/company/message/ -> HTTPError: 404 Client Error: Not Found for url: https://www.logisteed.com/jp/recruit/company/message/",
-    "https://www.logisteed.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.logisteed.com/jp/careers",
-    "https://www.logisteed.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.logisteed.com/en/careers"
-   ],
-   "rendering": "rendered ['https://logisteed.com/', 'https://www.logisteed.com/jp/recruit/', 'https://www.logisteed.com/jp/recruit/company/', 'https://logisteed.com/jp/recruit/', 'https://www.logisteed.com/jp/recruit/company/logisteed/', 'https://www.logisteed.com/jp/recruit/company/message/'], found 0 link(s); saw ['/jp/', '/jp/profile/', '/jp/service/', '/jp/network/', '[other host] /jp/csr/', '/jp/recruit/']",
-   "careers_link": "https://www.logisteed.com/jp/recruit/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "logistic-business-partners",
-   "name": "Logistic Business Partners",
-   "entities": [
-    "Logistic Business Partners (Rotterdam) B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.courierslist.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/careers",
-    "https://www.courierslist.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/en/careers",
-    "https://www.courierslist.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/careers/",
-    "https://www.courierslist.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/nl/werken-bij",
-    "https://www.courierslist.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/werken-bij",
-    "https://www.courierslist.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/vacatures"
-   ],
-   "rendering": "rendered ['https://courierslist.com/'], found 0 link(s); saw ['/company/new-listing', '/add', '/about', '/services', '/contact', '/country/afghanistan']",
-   "careers_link": "https://www.courierslist.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "lotte-global-logistics",
-   "name": "LOTTE Global Logistics",
-   "entities": [
-    "LOTTE Global Logistics Hungary KFT, Netherlands Branch"
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [],
-   "rendering": "rendered ['https://lotteglogis.com/', 'https://lotteglogis.com/home/company/recruit/hr', 'https://lotteglogis.com/home/company/recruit/education', 'https://lotteglogis.com/home/company/recruit/notice', 'https://lotteglogis.com/home/company/recruit/updateApply', 'https://lotteglogis.com/home/company/recruit/confirmApply'], found 0 link(s); saw ['/home/main', '/home/company/info/overview', '/home/company/invest/disclosure', '/home/company/recruit/hr', '/home/company/pr/video', '/home/business/parcel/parcel']",
-   "careers_link": "https://lotteglogis.com/home/company/recruit/hr",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "loyal-cargo-services",
-   "name": "Loyal Cargo Services",
-   "entities": [
-    "Loyal Cargo Services B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.loyalcargoservices.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://loyalcargoservices.com/careers",
-    "https://www.loyalcargoservices.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://loyalcargoservices.com/en/careers",
-    "https://www.loyalcargoservices.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://loyalcargoservices.com/careers/",
-    "https://www.loyalcargoservices.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://loyalcargoservices.com/nl/werken-bij",
-    "https://www.loyalcargoservices.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://loyalcargoservices.com/werken-bij",
-    "https://www.loyalcargoservices.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://loyalcargoservices.com/vacatures"
-   ],
-   "rendering": "rendered ['https://loyalcargoservices.com/'], found 0 link(s); saw ['/air-freight/', '/sea-freight/', '/road-transport/', '/cross-trade/', '/about-us/', '/contact/']",
-   "careers_link": "https://www.loyalcargoservices.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "lx-pantos",
-   "name": "LX Pantos",
-   "entities": [
-    "LX Pantos Netherlands B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [],
-   "rendering": "rendered ['https://lxpantos.com/', 'https://www.lxpantos.com/careers', 'https://www.lxpantos.com/en/careers', 'https://lxpantos.com/en/company/recruitment/ideal-talent.do', 'https://lxpantos.com/en/company/recruitment/hr-structure-and-procedure.do', 'https://lxpantos.com/en/company/recruitment/hr-development-and-welfare.do'], found 0 link(s); saw ['/en/main.do', '[other host] ;', '/en/business/sea-freight.do', '/en/business/air-freight.do', '/en/business/rail-freight.do', '/en/business/contract-logistics/contract-logistics.do']",
-   "careers_link": "https://www.lxpantos.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "mach-2-pharmafreight",
-   "name": "Mach 2 Pharmafreight",
-   "entities": [
-    "Mach 2 Pharmafreight B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.mach2.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/careers",
-    "https://www.mach2.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/en/careers",
-    "https://www.mach2.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/careers/",
-    "https://www.mach2.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/nl/werken-bij",
-    "https://www.mach2.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/werken-bij",
-    "https://www.mach2.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/vacatures"
-   ],
-   "rendering": "rendered ['https://mach2.nl/'], found 0 link(s); saw ['/sample-page/', '/2023/10/17/hello-world/']",
-   "careers_link": "https://www.mach2.nl/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "maersk",
-   "name": "Maersk",
-   "entities": [
-    "Maersk Logistics & Services International B.V.",
-    "Maersk Logistics and Services Netherlands B.V.",
-    "Maersk Line Netherlands B.V.",
-    "Hamburg Sud Nederland"
+    "Samsung SDS Global SCL Netherlands Coöperatief U.A."
    ],
    "group": "forwarders",
    "extra_keywords": [],
    "last_success": "2026-10-26",
-   "checked_at": "2026-10-28T10:17+00:00",
+   "checked_at": "2026-10-28T20:44+00:00",
    "status": "no_careers_system_found",
    "vendor": null,
    "notes": [],
-   "rendering": "rendered [], found 0 link(s); TimeoutError: Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.maersk.com/s",
-   "careers_link": "https://www.maersk.com/careers",
+   "rendering": "rendered ['https://samsungsds.com/', 'https://www.samsungsds.com/careers', 'https://www.samsungsds.com/en/careers', 'https://samsungsds.com/eu/careers/careers.html', 'https://www.samsungsds.com/eu/careers/careers.html'], found 0 link(s); saw ['/eu/index.html', '[other host] void(0)', '/eu/why-sds-ai/why-sds-ai.html', '/eu/ai-fabrix/fabrix.html', '/eu/copilot/brity-copilot.html', '/eu/ai-automation/brity-automation.html']",
+   "careers_link": "https://www.samsungsds.com/careers",
    "nl_jobs": 0,
    "showing_old_data": false
   },
   {
-   "id": "mendrix",
-   "name": "MendriX",
+   "id": "samyang-logistics-europe",
+   "name": "Samyang Logistics Europe",
    "entities": [
-    "MendriX B.V."
+    "Samyang Logistics Europe B.V."
    ],
-   "group": "software",
-   "extra_keywords": [
-    "implementation",
-    "onboarding"
-   ],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://werkenbijmendrix.nl/",
-   "nl_jobs": 1
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_address",
+   "careers_link": "https://samyanglogistics.com/",
+   "nl_jobs": 0,
+   "showing_old_data": false
   },
   {
-   "id": "nextlogic",
-   "name": "Nextlogic",
+   "id": "sankyu-europe",
+   "name": "Sankyu Europe",
    "entities": [
-    "Nextlogic B.V."
+    "Sankyu (Europe) B.V."
    ],
-   "group": "software",
-   "extra_keywords": [
-    "implementation",
-    "onboarding"
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://sankyu.co.jp/ -> ConnectionError: HTTPSConnectionPool(host='sankyu.co.jp', port=443): Max retries exceeded with url: / (Caus"
    ],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T10:17+00:00",
-   "status": "ok",
-   "method": "careerpage (rendered)",
-   "careers_link": "https://www.nextlogic.nl/vacatures/",
-   "nl_jobs": 4
+   "rendering": "rendered ['https://www.sankyu.co.jp/recruit/index.html', 'https://www.sankyu.co.jp/company/index.html', 'https://www.sankyu.co.jp/recruit/', 'https://www.sankyu.co.jp/recruit/entry/', 'https://www.sankyu.co.jp/recruit/about/'], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sankyu.co.jp/\nCall log:\n  - navigating to; saw ['/recruit/', '/recruit/entry/', '/recruit/about/', '/recruit/business/', '/recruit/business/plantengineering/', '/recruit/business/plantengineering/supervisor/']",
+   "careers_link": "https://www.sankyu.co.jp/recruit/index.html",
+   "nl_jobs": 0,
+   "showing_old_data": false
   },
   {
-   "id": "port-of-amsterdam",
-   "name": "Port of Amsterdam",
+   "id": "santova-logistics",
+   "name": "Santova Logistics",
    "entities": [
-    "Port of Amsterdam"
+    "Santova Logistics B.V."
    ],
-   "group": "ports",
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-26",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.santova.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/nl/werken-bij",
+    "https://www.santova.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/werken-bij",
+    "https://www.santova.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/vacatures",
+    "https://www.santova.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/nl/vacatures",
+    "https://www.santova.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/jobs",
+    "https://www.santova.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/en/jobs"
+   ],
+   "rendering": "rendered ['https://santova.com/', 'https://www.santova.com/careers', 'https://www.santova.com/en/careers', 'https://santova.bamboohr.com/careers/40', 'https://santova.bamboohr.com/careers/45', 'https://santova.bamboohr.com/careers/37'], found 0 link(s); saw ['/0027313747000', '[other host] enquiries@santova.com', '/office-directory/', '/key-service-offerings', '/key-differentiators', '/technological-advancements']",
+   "careers_link": "https://www.santova.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "scania",
+   "name": "Scania",
+   "entities": [
+    "Scania Logistics Netherlands B.V."
+   ],
+   "group": "in_house",
    "extra_keywords": [],
    "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T10:17+00:00",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "rmk+careerpage",
+   "careers_link": "https://www.scania.com/career.html",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "sennder",
+   "name": "sennder",
+   "entities": [
+    "sennder Benelux B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.sennder.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/careers",
+    "https://www.sennder.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/en/careers",
+    "https://www.sennder.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/careers",
+    "https://www.sennder.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/nl/werken-bij",
+    "https://www.sennder.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/werken-bij",
+    "https://www.sennder.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/vacatures"
+   ],
+   "rendering": "rendered ['https://sennder.com/', 'https://www.sennder.com/career', 'https://www.sennder.com/en/career', 'https://sennder.com/career'], found 0 link(s); saw ['/press/sennder-achieves-profitability-and-hit-euro1-billion-in-annual-', '/en', '/carriers', '/shippers', '/green-business', '/control-tower']",
+   "careers_link": "https://www.sennder.com/career",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "shipsy",
+   "name": "Shipsy",
+   "entities": [
+    "Shipsy B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "jsonld+careerpage",
+   "careers_link": "https://www.shipsy.ai/careers",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "simacan",
+   "name": "Simacan",
+   "entities": [
+    "Simacan B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [],
+   "rendering": "rendered ['https://simacan.com/', 'https://www.simacan.com/careers', 'https://www.simacan.com/en/careers'], found 0 link(s); saw ['/cookie-policy-eu/', '[other host] /tcf/purposes/', '/privacy/', '[other host] 0031338874000', '[other host] info@simacan.com', '/nl/']",
+   "careers_link": "https://www.simacan.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "stryker",
+   "name": "Stryker",
+   "entities": [
+    "Stryker EMEA Supply Chain Services B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "workday",
+   "careers_link": "https://stryker.com/careers",
+   "nl_jobs": 8
+  },
+  {
+   "id": "tiktok",
+   "name": "TikTok",
+   "entities": [
+    "TikTok Logistics Netherlands B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage (rendered)",
+   "careers_link": "https://lifeattiktok.com",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "top-cargo",
+   "name": "Top Cargo",
+   "entities": [
+    "Top Cargo B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.topcargo.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/careers",
+    "https://www.topcargo.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/en/careers",
+    "https://www.topcargo.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/careers/",
+    "https://www.topcargo.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/nl/werken-bij",
+    "https://www.topcargo.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/werken-bij",
+    "https://www.topcargo.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/vacatures"
+   ],
+   "rendering": "rendered ['https://topcargo.nl/', 'https://topcargo.nl/Career.cshtml', 'https://www.topcargo.nl/career', 'https://www.topcargo.nl/Career.cshtml'], found 0 link(s); saw ['/Default.cshtml', '/Quotation.cshtml', '/About.cshtml', '/Career.cshtml', '/Resources.cshtml', '/Contact.cshtml']",
+   "careers_link": "https://topcargo.nl/Career.cshtml",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "transporting-wheels",
+   "name": "Transporting Wheels",
+   "entities": [
+    "Transporting Wheels B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://transportingwheels.nl/ -> ConnectionError: HTTPSConnectionPool(host='transportingwheels.nl', port=443): Max retries exceeded with url",
+    "https://www.transportingwheels.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.transportingwheels.nl', port=443): Max retries exceeded with"
+   ],
+   "rendering": "rendered [], found 0 link(s); TimeoutError: Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://transportingwhee",
+   "careers_link": "https://transportingwheels.nl/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "wispex-transit-nl",
+   "name": "Wispex Transit NL",
+   "entities": [
+    "Wispex Transit NL B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": "2026-10-26",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "read_failed",
+   "method": "recruitee",
+   "detail": "HTTPError: 400 Client Error: Bad Request for url: https://tagging-server.recruitee.com/api/offers/",
+   "careers_link": "https://wispex.nl/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "zalando",
+   "name": "Zalando",
+   "entities": [
+    "Zalando Logistics Operations Netherlands B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
    "status": "ok",
    "method": "careerpage",
-   "careers_link": "https://werkenbij.portofamsterdam.com/vacatures",
+   "careers_link": "https://jobs.zalando.com",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "zimmer-biomet",
+   "name": "Zimmer Biomet",
+   "entities": [
+    "Biomet Global Supply Chain Center B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "phenom",
+   "careers_link": "https://careers.zimmerbiomet.com/us/en?utm_source=CorporateSite&utm_medium=Nav",
    "nl_jobs": 3
   },
   {
-   "id": "port-of-rotterdam",
-   "name": "Port of Rotterdam",
+   "id": "ecom-clear",
+   "name": "Ecom Clear",
    "entities": [
-    "Havenbedrijf Rotterdam N.V."
+    "Ecom Clear B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://ecomclear.com/ -> ConnectionError: HTTPSConnectionPool(host='ecomclear.com', port=443): Max retries exceeded with url: / (Cau",
+    "https://www.ecomclear.com/ -> ConnectionError: HTTPSConnectionPool(host='www.ecomclear.com', port=443): Max retries exceeded with url: / "
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ecomclear.com/\nCall log:\n  - navigating t",
+   "careers_link": "https://ecomclear.com/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "ect-delta-terminal",
+   "name": "ECT Delta Terminal",
+   "entities": [
+    "ECT Delta Terminal B.V."
    ],
    "group": "ports",
    "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [],
+   "rendering": "rendered ['https://ect.nl/', 'https://www.werkenbiject.nl', 'https://werkenbiject.nl/Www.werkenbiject.nl/', 'https://www.werkenbiject.nl/Www.werkenbiject.nl/', 'https://www.werkenbiject.nl/vacatures', 'https://www.werkenbiject.nl/vacatures/jobalert'], found 0 link(s); saw ['/nl', '/en', '/nl/search/node', '/nl/media-centre', '/nl/contact/klantenservice', '/nl/services']",
+   "careers_link": "https://www.werkenbiject.nl",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "eimskip",
+   "name": "Eimskip",
+   "entities": [
+    "Eimskip Nederland B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.eimskip.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.eimskip.com/careers",
+    "https://www.eimskip.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.eimskip.com/en/careers",
+    "https://www.eimskip.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.eimskip.com/careers/",
+    "https://www.eimskip.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.eimskip.com/nl/werken-bij",
+    "https://www.eimskip.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.eimskip.com/werken-bij",
+    "https://www.eimskip.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.eimskip.com/vacatures"
+   ],
+   "rendering": "rendered ['https://eimskip.com/'], found 0 link(s); saw ['/services/liner-services/', '/services/warehousing/', '/services/global-forwarding/', '/services/terminal-operations/', '/services/other-services/', '/offices/']",
+   "careers_link": "https://www.eimskip.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "emtransit",
+   "name": "emTransit",
+   "entities": [
+    "emTransit B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://emtransit.com/ -> SSLError: HTTPSConnectionPool(host='emtransit.com', port=443): Max retries exceeded with url: / (Cau",
+    "https://www.emtransit.com/ -> SSLError: HTTPSConnectionPool(host='www.emtransit.com', port=443): Max retries exceeded with url: / "
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://emtransit.com/\nCall log:\n  - navig",
+   "careers_link": "https://emtransit.com/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "euro-senko",
+   "name": "Euro Senko",
+   "entities": [
+    "Euro Senko"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-27",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.senco.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/careers",
+    "https://www.senco.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/en/careers",
+    "https://www.senco.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/careers/",
+    "https://www.senco.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/werken-bij",
+    "https://www.senco.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/werken-bij",
+    "https://www.senco.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/vacatures"
+   ],
+   "rendering": "rendered ['https://senco.nl/'], found 0 link(s); saw ['/nl', '/nl/', '/nl/vind-een-dealer', '/nl/brand-assets', '/nl/contact', '/nl/producten/c/machines']",
+   "careers_link": "https://www.senco.nl/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "european-distribution-centre-roosendaal",
+   "name": "European Distribution Centre Roosendaal",
+   "entities": [
+    "European Distribution Centre Roosendaal (E.D.C.R.) B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
    "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T10:17+00:00",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage",
+   "careers_link": "https://edcr.nl/werken-bij-edcr/",
+   "nl_jobs": 4
+  },
+  {
+   "id": "eusu-logistics",
+   "name": "Eusu Logistics",
+   "entities": [
+    "Eusu Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://eusu-logistics.com/ -> ConnectionError: HTTPSConnectionPool(host='eusu-logistics.com', port=443): Max retries exceeded with url: /",
+    "https://www.eusu-logistics.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/careers",
+    "https://www.eusu-logistics.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/en/careers",
+    "https://www.eusu-logistics.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/careers/",
+    "https://www.eusu-logistics.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/nl/werken-bij",
+    "https://www.eusu-logistics.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/werken-bij"
+   ],
+   "rendering": "rendered ['https://www.eusu-logistics.com/kr/sub/recruit/interview.asp', 'https://www.eusu-logistics.com/kr/sub/recruit/recruit.asp', 'https://www.eusu-logistics.com/kr/sub/recruit/welfare.asp'], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://eusu-logistics.com/\nCall log:\n  - navigat; saw ['/kr/', '/kr/sub/company/summary.asp', '/kr/sub/company/history.asp', '/kr/sub/company/ci.asp', '/kr/sub/company/network.asp', '/kr/sub/company/authentication.asp']",
+   "careers_link": "https://www.eusu-logistics.com/kr/sub/recruit/interview.asp",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "evergreen",
+   "name": "Evergreen",
+   "entities": [
+    "Evergreen Shipping Agency (Europe) GMBH"
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://evergreen-marine.com/ -> ConnectionError: HTTPSConnectionPool(host='evergreen-marine.com', port=443): Max retries exceeded with url:",
+    "https://www.evergreen-marine.com/careers -> HTTPError: 404 Client Error: 404 for url: https://www.evergreen-marine.com/careers",
+    "https://www.evergreen-marine.com/en/careers -> HTTPError: 404 Client Error: 404 for url: https://www.evergreen-marine.com/en/careers",
+    "https://www.evergreen-marine.com/careers/ -> HTTPError: 404 Client Error: 404 for url: https://www.evergreen-marine.com/careers/",
+    "https://www.evergreen-marine.com/nl/werken-bij -> HTTPError: 404 Client Error: 404 for url: https://www.evergreen-marine.com/nl/werken-bij",
+    "https://www.evergreen-marine.com/werken-bij -> HTTPError: 404 Client Error: 404 for url: https://www.evergreen-marine.com/werken-bij"
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://evergreen-marine.com/\nCall log:\n  - navi",
+   "careers_link": "https://www.evergreen-marine.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "expeditors",
+   "name": "Expeditors",
+   "entities": [
+    "Expeditors International B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "smartrecruiters",
+   "careers_link": "https://www.expeditors.com/careers/",
+   "nl_jobs": 1
+  },
+  {
+   "id": "fairways-logistics",
+   "name": "Fairways Logistics",
+   "entities": [
+    "Fairways Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://fairways.nl/ -> SSLError: HTTPSConnectionPool(host='fairways.nl', port=443): Max retries exceeded with url: / (Cause",
+    "https://www.fairways.nl/ -> SSLError: HTTPSConnectionPool(host='www.fairways.nl', port=443): Max retries exceeded with url: / (C"
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://fairways.nl/\nCall log:\n  - navigatin",
+   "careers_link": "https://fairways.nl/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "fedex",
+   "name": "FedEx",
+   "entities": [
+    "FedEx Express International B.V.",
+    "FedEx Express Netherlands B.V."
+   ],
+   "group": "parcel",
+   "extra_keywords": [],
+   "last_success": "2026-10-26",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [],
+   "rendering": "rendered ['https://fedex.com/', 'https://careers.fedex.com', 'https://www.fedex.com/careers'], found 0 link(s); Error: Page.goto: Download is starting\nCall log:\n  - navigating to \"https://d2xra9v1z0mbwm.cloudf; saw ['/en/', '/es/', '/fr-ca/', '/fr/', '/de/', '/it/']",
+   "careers_link": "https://careers.fedex.com",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "feniks-warehousing-solutions",
+   "name": "Feniks Warehousing Solutions",
+   "entities": [
+    "Feniks Warehousing Solutions B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.feniks-logistics.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/careers",
+    "https://www.feniks-logistics.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/en/careers",
+    "https://www.feniks-logistics.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/careers/",
+    "https://www.feniks-logistics.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/vacatures",
+    "https://www.feniks-logistics.nl/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/nl/vacatures",
+    "https://www.feniks-logistics.nl/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/jobs"
+   ],
+   "rendering": "rendered ['https://feniks-logistics.nl/', 'https://feniks-logistics.nl/werken-bij', 'https://www.feniks-logistics.nl/en/werken-bij/', 'https://www.feniks-logistics.nl/werken-bij/'], found 0 link(s); saw ['/diensten/', '/dienst/aangepaste-logistiek-slimme-oplossingen/', '/dienst/boekhouding-fiscale-naleving/', '/dienst/chauffeursdocumentatie-en-check-in/', '/dienst/containerverwerking-opslag/', '/dienst/cross-docking-operaties/']",
+   "careers_link": "https://feniks-logistics.nl/werken-bij",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "fenix-outdoor",
+   "name": "Fenix Outdoor",
+   "entities": [
+    "Fenix Outdoor Logistics B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "read_failed",
+   "method": "teamtailor",
+   "detail": "RuntimeError: not a usable job feed (not well-formed (invalid token): line 14, column 88)",
+   "careers_link": "https://fenixoutdoor.se/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "flash-shipping",
+   "name": "Flash Shipping",
+   "entities": [
+    "Flash Shipping B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.flash.com.tr/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.flash.com.tr/careers",
+    "https://www.flash.com.tr/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.flash.com.tr/en/careers",
+    "https://www.flash.com.tr/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.flash.com.tr/careers/",
+    "https://www.flash.com.tr/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.flash.com.tr/nl/werken-bij",
+    "https://www.flash.com.tr/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.flash.com.tr/werken-bij",
+    "https://www.flash.com.tr/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.flash.com.tr/vacatures"
+   ],
+   "rendering": "rendered ['https://flash.com.tr/'], found 0 link(s)",
+   "careers_link": "https://www.flash.com.tr/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "flex",
+   "name": "Flex",
+   "entities": [
+    "Flextronics Logistics B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "workday",
+   "careers_link": "https://flex.com/",
+   "nl_jobs": 9
+  },
+  {
+   "id": "flexport",
+   "name": "Flexport",
+   "entities": [
+    "Flexport Group B.V.",
+    "Flexport International B.V.",
+    "Flexport Customs B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "greenhouse",
+   "careers_link": "https://www.flexport.com/careers/",
+   "nl_jobs": 18
+  },
+  {
+   "id": "fourkites",
+   "name": "FourKites",
+   "entities": [
+    "FourKites B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.fourkites.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/en/careers",
+    "https://www.fourkites.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/werken-bij",
+    "https://www.fourkites.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/vacatures",
+    "https://www.fourkites.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/en/jobs",
+    "https://www.fourkites.com/career -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/career",
+    "https://www.fourkites.com/en/career -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/en/career"
+   ],
+   "rendering": "rendered ['https://fourkites.com/', 'https://www.fourkites.ai/careers', 'https://www.fourkites.com/careers', 'https://fourkites.com/careers'], found 0 link(s); saw ['/platform', '/platform/network', '/platform/digital-twins/order-twin', '/platform/digital-twins/shipment-twin', '/platform/digital-twins/inventory-twin', '/platform/digital-twins/facility-twin']",
+   "careers_link": "https://www.fourkites.ai/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "fox-global-logistics",
+   "name": "FOX Global Logistics",
+   "entities": [
+    "FOX Global Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage",
+   "careers_link": "https://www.foxglobal.nl/careers/",
+   "nl_jobs": 5
+  },
+  {
+   "id": "freight-international-holding",
+   "name": "Freight International Holding",
+   "entities": [
+    "Freight International Holding B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage",
+   "careers_link": "https://cyberfreight.nl/vacatures/",
+   "nl_jobs": 3
+  },
+  {
+   "id": "freightlive",
+   "name": "Freightlive",
+   "entities": [
+    "Freightlive B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://freightlive.nl/ -> ConnectTimeout: HTTPSConnectionPool(host='freightlive.nl', port=443): Max retries exceeded with url: / (Ca",
+    "https://www.freightlive.nl/ -> ConnectTimeout: HTTPSConnectionPool(host='www.freightlive.nl', port=443): Max retries exceeded with url: /"
+   ],
+   "rendering": "rendered [], found 0 link(s); TimeoutError: Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://freightlive.nl/\"",
+   "careers_link": "https://freightlive.nl/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "fuji-logistics-fujitrans",
+   "name": "Fuji Logistics / Fujitrans",
+   "entities": [
+    "Fuji Logistics Europe B.V.",
+    "Fuji Transport Systems (Rotterdam) B.V.",
+    "FUJITRANS (EUROPE) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.fujitrans.co.jp/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/careers",
+    "https://www.fujitrans.co.jp/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/en/careers",
+    "https://www.fujitrans.co.jp/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/careers/",
+    "https://www.fujitrans.co.jp/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/nl/werken-bij"
+   ],
+   "rendering": "rendered ['https://fujitrans.co.jp/', 'https://recruit.fujitrans.co.jp/', 'https://recruit.fujitrans.co.jp/recruit/', 'https://recruit.fujitrans.co.jp', 'https://recruit.fujitrans.co.jp/sailor_recruitment/', 'https://recruit.fujitrans.co.jp/driver_recruitment/'], found 0 link(s); saw ['/consolidation/import_schedule.pdf', '/glossary/', '/movie/', '/company/', '/business/', '/facility/']",
+   "careers_link": "https://recruit.fujitrans.co.jp/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "fulfilment-solutions",
+   "name": "Fulfilment Solutions",
+   "entities": [
+    "Fulfilment Solutions B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage",
+   "careers_link": "https://www.fulfilmentsolutions.nl/careers",
+   "nl_jobs": 1
+  },
+  {
+   "id": "gd-its-forwarding",
+   "name": "GD-iTS Forwarding",
+   "entities": [
+    "GD-iTS Forwarding B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage",
+   "careers_link": "https://gd-its.careers/",
+   "nl_jobs": 2
+  },
+  {
+   "id": "geodis",
+   "name": "GEODIS",
+   "entities": [
+    "GEODIS FF Netherlands B.V.",
+    "Geodis C.L. Netherlands B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage",
+   "careers_link": "https://geodis.com/us-en/career",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "gerlach",
+   "name": "Gerlach",
+   "entities": [
+    "Gerlach & Co. Internationale Expediteurs B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://gerlachcs.com/ -> SSLError: HTTPSConnectionPool(host='gerlachcs.com', port=443): Max retries exceeded with url: / (Cau",
+    "https://www.gerlachcs.com/ -> SSLError: HTTPSConnectionPool(host='www.gerlachcs.com', port=443): Max retries exceeded with url: / "
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://gerlachcs.com/\nCall log:\n  -",
+   "careers_link": "https://gerlachcs.com/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "gl-link-europe",
+   "name": "GL Link (Europe)",
+   "entities": [
+    "GL Link (Europe) B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.gl-link.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/careers",
+    "https://www.gl-link.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/en/careers",
+    "https://www.gl-link.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/careers/",
+    "https://www.gl-link.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/nl/werken-bij",
+    "https://www.gl-link.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/werken-bij",
+    "https://www.gl-link.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/vacatures"
+   ],
+   "rendering": "rendered ['https://gl-link.com/', 'https://gl-link.com/recruitment.html', 'https://gl-link.com/engineer-recruit.html'], found 0 link(s); saw ['/index.html', '/company.html', '/privacy.html', '/service.html', '/news.html', '/engineer-recruit.html']",
+   "careers_link": "https://gl-link.com/recruitment.html",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "gls",
+   "name": "GLS",
+   "entities": [
+    "General Logistics Systems B.V."
+   ],
+   "group": "parcel",
+   "extra_keywords": [],
+   "last_success": "2026-10-26",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [],
+   "rendering": "rendered ['https://gls-group.com/', 'https://www.gls-group.com/careers', 'https://gls-group.eu/GROUP/en/careers/', 'https://www.gls-group.com/GROUP/en/careers/', 'https://gls-group.eu/GROUP/en/careers/global-vacancies/', 'https://gls-group.eu/GROUP/en/it-careers/'], found 0 link(s); saw ['[other host] /company/gls', '[other host] /channel/UCnucRdFC8TSPop5KrGlcFxA', '/GROUP/en/privacy-policy/', '/GROUP/en/data-protection/', '/GROUP/en/corporate-information/', '/GROUP/en/disclaimer/']",
+   "careers_link": "https://www.gls-group.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "grolleman-vrieshuis",
+   "name": "Grolleman Vrieshuis",
+   "entities": [
+    "Grolleman Vrieshuis Exploitatie Maatschappij B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage",
+   "careers_link": "https://www.grolleman.nl/vacatures",
+   "nl_jobs": 3
+  },
+  {
+   "id": "gxo-logistics",
+   "name": "GXO Logistics",
+   "entities": [
+    "GXO LOGISTICS NETHERLANDS B.V.",
+    "GXO LOGISTICS NETHERLANDS III B.V.",
+    "GXO LOGISTICS SERVICES NETHERLANDS B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
    "status": "ok",
    "method": "rmk",
-   "careers_link": "https://www.portofrotterdam.com/nl/over-het-havenbedrijf/werken-bij-het-havenbedrijf",
+   "careers_link": "https://gxo.com/careers/",
+   "nl_jobs": 56
+  },
+  {
+   "id": "hanjin-global-logistics",
+   "name": "Hanjin Global Logistics",
+   "entities": [
+    "Hanjin Global Logistics Europe Sro."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.hanjin.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hanjin.com/en/careers",
+    "https://www.hanjin.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hanjin.com/nl/werken-bij",
+    "https://www.hanjin.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.hanjin.com/nl/vacatures",
+    "https://www.hanjin.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.hanjin.com/en/jobs"
+   ],
+   "rendering": "rendered ['https://hanjin.com/', 'https://www.hanjin.com/kor/CMS/RecruitMgr/list.do?mCode=MN052', 'https://www.hanjin.com/kor/CMS/RecruitMgr/agree.do?mCode=MN019', 'https://www.hanjin.com/kor/CMS/RecruitMgr/checkSubmitStatus.do?mCode=MN066', 'https://www.hanjin.com/kor/CMS/RecruitMgr/checkResult.do?mCode=MN096', 'https://www.hanjin.com/kor/CMS/RecruitMgr/docReturnWrite.do?mCode=MN099'], found 0 link(s); saw ['/kor/CMS/Contents/Contents.do', '/kor/CMS/DeliveryMgr/WaybillSch.do', '/kor/CMS/DeliveryMgr/Reserve1.do', '/kor/CMS/DeliveryMgr/Reserve3.do', '/kor/CMS/DeliveryMgr/Reserve4.do', '/kor/CMS/DeliveryMgr/Reserve5.do']",
+   "careers_link": "https://www.hanjin.com/kor/CMS/RecruitMgr/list.do?mCode=MN052",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "hankyu-hanshin-express",
+   "name": "Hankyu Hanshin Express",
+   "entities": [
+    "Hankyu Hanshin Express (Netherlands) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_address",
+   "careers_link": "https://hankyu-hanshin-express.com/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "hellmann-worldwide-logistics",
+   "name": "Hellmann Worldwide Logistics",
+   "entities": [
+    "Hellmann Worldwide Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "workday",
+   "careers_link": "https://www.hellmann.com/careers",
+   "nl_jobs": 2
+  },
+  {
+   "id": "henkel",
+   "name": "Henkel",
+   "entities": [
+    "Henkel Global Supply Chain B.V."
+   ],
+   "group": "in_house",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "jsonld+careerpage",
+   "careers_link": "https://www.henkel.com/careers",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "hl-terminal-holding",
+   "name": "HL Terminal Holding",
+   "entities": [
+    "HL Terminal Holding B.V."
+   ],
+   "group": "check",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://hlterminal.nl/ -> ConnectionError: HTTPSConnectionPool(host='hlterminal.nl', port=443): Max retries exceeded with url: / (Cau",
+    "https://www.hlterminal.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.hlterminal.nl', port=443): Max retries exceeded with url: / "
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://hlterminal.nl/\nCall log:\n  - navigating t",
+   "careers_link": "https://hlterminal.nl/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "hmm",
+   "name": "HMM",
+   "entities": [
+    "HMM (Netherlands) shipping B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+    "https://www.hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)"
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://hmm21.com/\nCall log:\n  - navigating to",
+   "careers_link": "https://hmm21.com/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "htns-benelux",
+   "name": "HTNS Benelux",
+   "entities": [
+    "HTNS Benelux B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.htns.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.htns.com/careers/",
+    "https://www.htns.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.htns.com/nl/werken-bij",
+    "https://www.htns.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.htns.com/werken-bij",
+    "https://www.htns.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.htns.com/nl/vacatures",
+    "https://htns.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://htns.com/careers/",
+    "https://htns.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://htns.com/nl/werken-bij"
+   ],
+   "rendering": "rendered ['https://htns.com/', 'https://www.htns.com/careers', 'https://www.htns.com/en/careers'], found 0 link(s); saw ['/business/air_freight.php', '/business/sea_freight.php', '/business/inland_transportation.php', '/business/rail_transportation.php', '/business/warehouse_storage.php', '/business/e_commerce.php']",
+   "careers_link": "https://www.htns.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "ice-cold-storage",
+   "name": "Ice Cold Storage",
+   "entities": [
+    "Ice Cold Storage Holding B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage (rendered)",
+   "careers_link": "https://www.nedcool.nl/careers",
+   "nl_jobs": 1
+  },
+  {
+   "id": "id-logistics",
+   "name": "ID Logistics",
+   "entities": [
+    "ID Logistics Tilburg B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage (rendered)",
+   "careers_link": "https://id-logistics.com/",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "intermodal-telematics",
+   "name": "Intermodal Telematics",
+   "entities": [
+    "Intermodal Telematics B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.intermodaltelematics.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/careers",
+    "https://www.intermodaltelematics.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/en/careers",
+    "https://www.intermodaltelematics.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/careers/",
+    "https://www.intermodaltelematics.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/nl/werken-bij",
+    "https://www.intermodaltelematics.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/werken-bij",
+    "https://www.intermodaltelematics.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/vacatures"
+   ],
+   "rendering": "rendered ['https://intermodaltelematics.com/'], found 0 link(s); saw ['[other host] /documentation/article/faq-troubleshooting/']",
+   "careers_link": "https://www.intermodaltelematics.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "international-airfreight-associates",
+   "name": "International Airfreight Associates",
+   "entities": [
+    "International Airfreight Associates B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.iaa-airfreight.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://iaa-airfreight.com/careers",
+    "https://www.iaa-airfreight.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://iaa-airfreight.com/en/careers",
+    "https://www.iaa-airfreight.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://iaa-airfreight.com/careers/",
+    "https://www.iaa-airfreight.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://iaa-airfreight.com/nl/werken-bij",
+    "https://www.iaa-airfreight.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://iaa-airfreight.com/werken-bij",
+    "https://www.iaa-airfreight.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://iaa-airfreight.com/vacatures"
+   ],
+   "rendering": "rendered ['https://iaa-airfreight.com/'], found 0 link(s); saw ['/services/', '/service/export/', '/service/import/', '/service/time-critical/', '/service/warehousing/', '/about-us/']",
+   "careers_link": "https://www.iaa-airfreight.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "sevenhills-logistics",
+   "name": "Sevenhills Logistics",
+   "entities": [
+    "Sevenhills Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.sevenhills.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/careers",
+    "https://www.sevenhills.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/en/careers",
+    "https://www.sevenhills.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/careers/",
+    "https://www.sevenhills.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/nl/werken-bij",
+    "https://www.sevenhills.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/werken-bij",
+    "https://www.sevenhills.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/vacatures"
+   ],
+   "rendering": "rendered ['https://sevenhills.nl/'], found 0 link(s); saw ['/Diensten', '/Methodieken', '/Referenties', '/Contact']",
+   "careers_link": "https://www.sevenhills.nl/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "sf-express",
+   "name": "SF Express",
+   "entities": [
+    "SF Express (Netherlands) B.V."
+   ],
+   "group": "parcel",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://sf-express.com/ -> ConnectionError: HTTPSConnectionPool(host='sf-express.com', port=443): Max retries exceeded with url: / (Ca",
+    "https://www.sf-express.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sf-express.com/careers",
+    "https://www.sf-express.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sf-express.com/en/careers",
+    "https://www.sf-express.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.sf-express.com/careers/",
+    "https://www.sf-express.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sf-express.com/nl/werken-bij",
+    "https://www.sf-express.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sf-express.com/werken-bij"
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sf-express.com/\nCall log:\n  - navigating ",
+   "careers_link": "https://www.sf-express.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "shaoke-logistics",
+   "name": "Shaoke Logistics",
+   "entities": [
+    "Shaoke Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://shaoke.nl/ -> SSLError: HTTPSConnectionPool(host='shaoke.nl', port=443): Max retries exceeded with url: / (Caused ",
+    "https://www.shaoke.nl/ -> SSLError: HTTPSConnectionPool(host='www.shaoke.nl', port=443): Max retries exceeded with url: / (Cau"
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CONNECTION_CLOSED at https://shaoke.nl/\nCall log:\n  - navigating to \"h",
+   "careers_link": "https://shaoke.nl/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "sharp-jusda-logistics",
+   "name": "Sharp Jusda Logistics",
+   "entities": [
+    "Sharp Jusda Logistics (Netherlands) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.jusda.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.jusda.nl/careers",
+    "https://www.jusda.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.jusda.nl/en/careers",
+    "https://www.jusda.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.jusda.nl/careers/",
+    "https://www.jusda.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.jusda.nl/nl/werken-bij",
+    "https://www.jusda.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.jusda.nl/werken-bij",
+    "https://www.jusda.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.jusda.nl/vacatures"
+   ],
+   "rendering": "rendered ['https://jusda.nl/'], found 0 link(s); saw ['/index.html', '/about.html', '/services.html', '/storage-tank-leasing.html', '/railway-transportation.html', '/pipeline-transportation.html']",
+   "careers_link": "https://www.jusda.nl/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "shypple",
+   "name": "Shypple",
+   "entities": [
+    "Shypple B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "recruitee",
+   "careers_link": "https://www.shypple.com/careers/working-at-shypple",
+   "nl_jobs": 4
+  },
+  {
+   "id": "simex-transport-and-forwarding",
+   "name": "Simex Transport and Forwarding",
+   "entities": [
+    "Simex Transport and Forwarding B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://simex.nl/ -> SSLError: HTTPSConnectionPool(host='simex.nl', port=443): Max retries exceeded with url: / (Caused b",
+    "https://www.simex.nl/ -> SSLError: HTTPSConnectionPool(host='www.simex.nl', port=443): Max retries exceeded with url: / (Caus"
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://simex.nl/\nCall log:\n  - navigating",
+   "careers_link": "https://simex.nl/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "sinotrans",
+   "name": "Sinotrans",
+   "entities": [
+    "Sinotrans Air Transportation GmbH Netherlands Branch"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://sinotrans.com/ -> ConnectionError: HTTPSConnectionPool(host='sinotrans.com', port=443): Max retries exceeded with url: / (Cau",
+    "https://www.sinotrans.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/careers",
+    "https://www.sinotrans.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/en/careers",
+    "https://www.sinotrans.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/careers/",
+    "https://www.sinotrans.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/nl/werken-bij",
+    "https://www.sinotrans.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/werken-bij"
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sinotrans.com/\nCall log:\n  - navigating t",
+   "careers_link": "https://www.sinotrans.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "sms-global-logistics",
+   "name": "SMS Global Logistics",
+   "entities": [
+    "SMS Global Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "jsonld",
+   "careers_link": "https://www.smsglobal-forwarding.com/vacancies/",
+   "nl_jobs": 1
+  },
+  {
+   "id": "soderberg-transport",
+   "name": "Soderberg Transport",
+   "entities": [
+    "Soderberg Transport"
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.soderbergtransport.se/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/careers",
+    "https://www.soderbergtransport.se/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/en/careers",
+    "https://www.soderbergtransport.se/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/careers/",
+    "https://www.soderbergtransport.se/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/nl/werken-bij",
+    "https://www.soderbergtransport.se/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/werken-bij",
+    "https://www.soderbergtransport.se/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/vacatures"
+   ],
+   "rendering": "rendered ['https://soderbergtransport.se/'], found 0 link(s); saw ['/om-oss/', '/vara-tjanster/', '/kontakta-oss/', '/wp-content/uploads/2026/01/481659292_1150942026445565_34461.png', '/wp-content/uploads/2026/01/279435110_3173535319561989_64987.png', '/wp-content/uploads/2026/01/480812372_1146750840198017_60486.png']",
+   "careers_link": "https://www.soderbergtransport.se/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "steinweg",
+   "name": "Steinweg",
+   "entities": [
+    "C. Steinweg-Handelsveem B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage",
+   "careers_link": "https://www.steinweg.com/careers/",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "stena-line",
+   "name": "Stena Line",
+   "entities": [
+    "Stena Line B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage",
+   "careers_link": "https://stenaline.com/job-openings/",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "t-w-s-transit-world-service",
+   "name": "T.W.S. Transit World Service",
+   "entities": [
+    "T.W.S. Transit World Service B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://tws.nl/ -> SSLError: HTTPSConnectionPool(host='tws.nl', port=443): Max retries exceeded with url: / (Caused by ",
+    "https://www.tws.nl/ -> SSLError: HTTPSConnectionPool(host='www.tws.nl', port=443): Max retries exceeded with url: / (Caused"
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://tws.nl/\nCall log:\n  - navigating t",
+   "careers_link": "https://tws.nl/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "tito-smart-modal-logistics",
+   "name": "Tito Smart Modal Logistics",
+   "entities": [
+    "Tito Smart Modal Logistics Europe"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "careerpage (rendered)",
+   "careers_link": "https://www.titologistics.com/careers",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "tlogistics",
+   "name": "TLogistics",
+   "entities": [
+    "TLogistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://tlogistics.nl/ -> SSLError: HTTPSConnectionPool(host='tlogistics.nl', port=443): Max retries exceeded with url: / (Cau",
+    "https://www.tlogistics.nl/ -> SSLError: HTTPSConnectionPool(host='www.tlogistics.nl', port=443): Max retries exceeded with url: / "
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://tlogistics.nl/\nCall log:\n  - navigat",
+   "careers_link": "https://tlogistics.nl/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "toll-global-forwarding",
+   "name": "Toll Global Forwarding",
+   "entities": [
+    "Toll Global Forwarding"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.careers.tollgroup.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
+    "https://www.tollgroup.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
+    "https://www.tollgroup.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
+    "https://www.tollgroup.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/"
+   ],
+   "rendering": "rendered ['https://tollgroup.com/', 'https://www.tollgroup.com/solutions/supply-chain-logistics/recruitment-labour-hire', 'https://www.tollgroup.com/solutions/supply-chain-logistics/recruitment-labour-hire/toll-people', 'https://tollgroup.com/solutions/supply-chain-logistics/recruitment-labour-hire', 'https://www.careers.tollgroup.com/', 'https://www.tollgroup.com/solutions/supply-chain-logistics/recruitment-labour-hire/locations-contact'], found 0 link(s); saw ['/about/news-and-media/scam-alert-websites-and-platforms-impersonating-', '/solutions', '/solutions/transportation', '/solutions/transportation/ocean', '/solutions/transportation/air', '/solutions/transportation/road']",
+   "careers_link": "https://www.tollgroup.com/solutions/supply-chain-logistics/recruitment-labour-hire",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "uber-freight",
+   "name": "Uber Freight",
+   "entities": [
+    "Uber Freight Europe Holdings B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "greenhouse",
+   "careers_link": "https://www.uberfreight.com/en-US/careers",
+   "nl_jobs": 11
+  },
+  {
+   "id": "ups",
+   "name": "UPS",
+   "entities": [
+    "UPS SCS (Nederland) B.V.",
+    "United Parcel Service Nederland B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: Download is starting\nCall log:\n  - navigating to \"https://www.ups.com/en/career",
+   "careers_link": "https://www.ups.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "van-berkel-logistics",
+   "name": "Van Berkel Logistics",
+   "entities": [
+    "Van Berkel Logistics B.V."
+   ],
+   "group": "road_rail",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "jsonld",
+   "careers_link": "https://www.vanberkellogistics.nl/werken-bij/",
+   "nl_jobs": 1
+  },
+  {
+   "id": "world-asia-logistics",
+   "name": "World Asia Logistics",
+   "entities": [
+    "World Asia Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.myworldasia.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.myworldasia.com/careers",
+    "https://www.myworldasia.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.myworldasia.com/en/careers",
+    "https://www.myworldasia.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.myworldasia.com/careers",
+    "https://www.myworldasia.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.myworldasia.com/nl/werken-bij",
+    "https://www.myworldasia.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.myworldasia.com/werken-bij",
+    "https://www.myworldasia.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.myworldasia.com/vacatures"
+   ],
+   "rendering": "rendered ['https://myworldasia.com/'], found 0 link(s); saw ['/global-offices', '/management', '/contact', '/tracking', '/freight-forwarding', '/customs']",
+   "careers_link": "https://www.myworldasia.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "world-courier",
+   "name": "World Courier",
+   "entities": [
+    "World Courier Holland B.V."
+   ],
+   "group": "parcel",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "ok",
+   "method": "phenom",
+   "careers_link": "https://careers.cencora.com/",
+   "nl_jobs": 49
+  },
+  {
+   "id": "world-freight-logistics",
+   "name": "World Freight Logistics",
+   "entities": [
+    "World Freight Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.worldfreight.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/careers",
+    "https://www.worldfreight.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/en/careers",
+    "https://www.worldfreight.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/careers/",
+    "https://www.worldfreight.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/nl/werken-bij",
+    "https://www.worldfreight.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/werken-bij",
+    "https://www.worldfreight.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/vacatures"
+   ],
+   "rendering": "rendered ['https://worldfreight.nl/'], found 0 link(s); saw ['/blog/lancering-website', '[other host] +31629120619', '/blog.html', '/setup-menu.html', '[other host] /onderwerpen/brexit', '/backfuture.html']",
+   "careers_link": "https://www.worldfreight.nl/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "yamato-transport-europe",
+   "name": "Yamato Transport Europe",
+   "entities": [
+    "Yamato Transport Europe B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.yamatoeurope.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/careers",
+    "https://www.yamatoeurope.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/careers/",
+    "https://www.yamatoeurope.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/nl/werken-bij",
+    "https://www.yamatoeurope.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/werken-bij",
+    "https://www.yamatoeurope.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/vacatures",
+    "https://www.yamatoeurope.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/nl/vacatures"
+   ],
+   "rendering": "rendered ['https://yamatoeurope.com/', 'https://www.yamatoeurope.com/vacancies'], found 0 link(s); TimeoutError: Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://yamatoeurope.com; saw ['/yamato-news/', '/yamato-en-france/', '/yamato-deutschland/', '/access-to-europe/grow-your-business-in-europe/', '/yamato-nederland/', '/yamato-italia/']",
+   "careers_link": "https://www.yamatoeurope.com/vacancies",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "yang-ming",
+   "name": "Yang Ming",
+   "entities": [
+    "Yang Ming (Netherlands) B.V."
+   ],
+   "group": "shipping",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T20:44+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://yangming.com/ -> ConnectionError: HTTPSConnectionPool(host='yangming.com', port=443): Max retries exceeded with url: / (Caus",
+    "https://www.yangming.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.yangming.com/en/careers",
+    "https://www.yangming.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.yangming.com/en/careers",
+    "https://www.yangming.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.yangming.com/en/careers",
+    "https://www.yangming.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.yangming.com/en/nl/werken-bij",
+    "https://www.yangming.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.yangming.com/en/werken-bij"
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://yangming.com/\nCall log:\n  - navigating to",
+   "careers_link": "https://www.yangming.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "yusen-logistics",
+   "name": "Yusen Logistics",
+   "entities": [
+    "Yusen Logistics (Benelux) B.V.",
+    "Yusen Logistics (Europe) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T00:13+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://nl.yusen-logistics.com/ -> ConnectionError: HTTPSConnectionPool(host='nl.yusen-logistics.com', port=443): Max retries exceeded with ur",
+    "https://www.nl.yusen-logistics.com/ -> ConnectionError: HTTPSConnectionPool(host='www.nl.yusen-logistics.com', port=443): Max retries exceeded wit"
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://nl.yusen-logistics.com/\nCall log:\n  - nav",
+   "careers_link": "https://nl.yusen-logistics.com/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "zencargo",
+   "name": "Zencargo",
+   "entities": [
+    "Zencargo NL B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T00:13+00:00",
+   "status": "ok",
+   "method": "jsonld+careerpage",
+   "careers_link": "https://www.zencargo.com/careers/",
    "nl_jobs": 0,
    "retry_discovery": true
   },
@@ -1700,6 +2962,72 @@
    "retry_discovery": true
   },
   {
+   "id": "janssen-air-ocean",
+   "name": "Janssen Air & Ocean",
+   "entities": [
+    "Janssen Air & Ocean B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.forwarderspages.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/careers",
+    "https://www.forwarderspages.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/en/careers",
+    "https://www.forwarderspages.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/careers/",
+    "https://www.forwarderspages.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/nl/werken-bij",
+    "https://www.forwarderspages.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/werken-bij",
+    "https://www.forwarderspages.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/vacatures"
+   ],
+   "rendering": "rendered ['https://forwarderspages.com/', 'https://www.forwarderspages.com/join-us'], found 0 link(s); saw ['/company-directory', '/container-tracking', '/air-cargo-tracking', '/vessel-tracking', '/join-us', '/contact']",
+   "careers_link": "https://www.forwarderspages.com/join-us",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "jas-worldwide",
+   "name": "JAS Worldwide",
+   "entities": [
+    "JAS Forwarding (Netherlands) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "ok",
+   "method": "workday",
+   "careers_link": "https://www.jas.com/careers/",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "jd-logistics",
+   "name": "JD Logistics",
+   "entities": [
+    "JINGDONG LOGISTICS (NETHERLANDS) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.jdlogistics.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/nl/werken-bij",
+    "https://www.jdlogistics.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/werken-bij",
+    "https://www.jdlogistics.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/vacatures",
+    "https://www.jdlogistics.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/nl/vacatures",
+    "https://www.jdlogistics.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/jobs",
+    "https://www.jdlogistics.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/en/jobs"
+   ],
+   "rendering": "rendered ['https://jdlogistics.com/', 'https://jdlogistics.com/careers/', 'https://www.jdlogistics.com/en/careers'], found 0 link(s); saw ['/shipping-services/', '/shipping-quote/', '/testimonials/', '/careers/', '/contact-us/']",
+   "careers_link": "https://jdlogistics.com/careers/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
    "id": "jona-international-transport",
    "name": "Jona International Transport",
    "entities": [
@@ -1721,6 +3049,52 @@
    "showing_old_data": false
   },
   {
+   "id": "just-ride-logistics",
+   "name": "Just Ride Logistics",
+   "entities": [
+    "Just Ride Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.just-ride.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/careers",
+    "https://www.just-ride.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/en/careers",
+    "https://www.just-ride.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/careers/",
+    "https://www.just-ride.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/nl/werken-bij",
+    "https://www.just-ride.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/werken-bij",
+    "https://www.just-ride.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/vacatures"
+   ],
+   "rendering": "rendered ['https://just-ride.nl/'], found 0 link(s); saw ['/boekingen', '/services', '/about', '/contact', '[other host] info@just-ride.nl', '[other host] 06%20266%2072%20362']",
+   "careers_link": "https://www.just-ride.nl/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "kintetsu-world-express",
+   "name": "Kintetsu World Express",
+   "entities": [
+    "Kintetsu World Express (Benelux) B.V.",
+    "Kintetsu World Express (EA) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-26",
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://kwe.com/ -> ConnectionError: HTTPSConnectionPool(host='kwe.com', port=443): Max retries exceeded with url: / (Caused by"
+   ],
+   "rendering": "rendered ['https://www.kwe.com/career/', 'https://www.kwe.com/local/cambodia/en/careers/index.html', 'https://www.kwe.com/local/china_hongkong/en/careers/index.html', 'https://www.kwe.com/local/india/en/careers/index.html', 'https://www.kwe.com/local/japan/en/careers/index.html'], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://kwe.com/\nCall log:\n  - navigating to \"htt; saw ['/about/', '/about/whoweare/profile/', '/about/whoweare/policy/', '/about/whoweare/leadership/', '/about/whoweare/history/', '/about/whoweare/innovation/']",
+   "careers_link": "https://www.kwe.com/career/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
    "id": "klg-europe",
    "name": "KLG Europe",
    "entities": [
@@ -1736,6 +3110,62 @@
    "nl_jobs": 8
   },
   {
+   "id": "kln-logistics",
+   "name": "KLN Logistics",
+   "entities": [
+    "KLN Logistics Holding B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "ok",
+   "method": "careerpage",
+   "careers_link": "https://www.kln.com:443/en/careers/working-at-kln/",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "koyanagi-worldwide",
+   "name": "Koyanagi Worldwide",
+   "entities": [
+    "Koyanagi Worldwide B.V.",
+    "Koyanagi Worldwide Ltd"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [],
+   "rendering": "rendered ['https://koyanagiworldwide.com/', 'https://koyanagiworldwide.com/pages/company/recruit.html', 'https://www.koyanagiworldwide.com/careers'], found 0 link(s); saw ['/index.html', '/pages/company/company-profile_germany.html', '/pages/company/company-profile_france.html', '/pages/company/company-profile_thenetherlands.html', '/pages/company/company-profile_belgium.html', '/privacy.pdf']",
+   "careers_link": "https://koyanagiworldwide.com/pages/company/recruit.html",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "kroog-logistics",
+   "name": "Kroog Logistics",
+   "entities": [
+    "Kroog Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "site_unreachable",
+   "vendor": null,
+   "notes": [
+    "https://kroog.nl/ -> SSLError: HTTPSConnectionPool(host='kroog.nl', port=443): Max retries exceeded with url: / (Caused b",
+    "https://www.kroog.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.kroog.nl', port=443): Max retries exceeded with url: / (Caus"
+   ],
+   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://kroog.nl/\nCall log:\n  - navigating t",
+   "careers_link": "https://kroog.nl/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
    "id": "ksz-transport",
    "name": "KSZ Transport",
    "entities": [
@@ -1749,6 +3179,23 @@
    "method": "careerpage",
    "careers_link": "https://www.ksztransport.nl/nl-nl/vacatures",
    "nl_jobs": 6
+  },
+  {
+   "id": "kuehne-nagel",
+   "name": "Kuehne+Nagel",
+   "entities": [
+    "Kuehne + Nagel N.V.",
+    "Kuehne + Nagel Logistics B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "ok",
+   "method": "phenom",
+   "careers_link": "https://jobs.kuehne-nagel.com/global/en",
+   "nl_jobs": 0,
+   "retry_discovery": true
   },
   {
    "id": "lily-maas",
@@ -1773,6 +3220,151 @@
    "showing_old_data": false
   },
   {
+   "id": "lineage",
+   "name": "Lineage",
+   "entities": [
+    "Lineage Dutch Coöperatief U.A.",
+    "Lineage NL 3 TRS B.V.",
+    "Lineage Rotterdam Maasvlakte B.V."
+   ],
+   "group": "contract",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "ok",
+   "method": "phenom",
+   "careers_link": "https://careers.onelineage.com/",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "loadmaster-ai",
+   "name": "loadmaster.ai",
+   "entities": [
+    "loadmaster.ai B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "ok",
+   "method": "careerpage (rendered)",
+   "careers_link": "https://www.loadmaster.ai/careers",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
+   "id": "logisteed-europe",
+   "name": "LOGISTEED Europe",
+   "entities": [
+    "LOGISTEED Europe B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.logisteed.com/jp/recruit/company/message/ -> HTTPError: 404 Client Error: Not Found for url: https://www.logisteed.com/jp/recruit/company/message/",
+    "https://www.logisteed.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.logisteed.com/jp/careers",
+    "https://www.logisteed.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.logisteed.com/en/careers"
+   ],
+   "rendering": "rendered ['https://logisteed.com/', 'https://www.logisteed.com/jp/recruit/', 'https://www.logisteed.com/jp/recruit/company/', 'https://logisteed.com/jp/recruit/', 'https://www.logisteed.com/jp/recruit/company/logisteed/', 'https://www.logisteed.com/jp/recruit/company/message/'], found 0 link(s); saw ['/jp/', '/jp/profile/', '/jp/service/', '/jp/network/', '[other host] /jp/csr/', '/jp/recruit/']",
+   "careers_link": "https://www.logisteed.com/jp/recruit/",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "logistic-business-partners",
+   "name": "Logistic Business Partners",
+   "entities": [
+    "Logistic Business Partners (Rotterdam) B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.courierslist.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/careers",
+    "https://www.courierslist.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/en/careers",
+    "https://www.courierslist.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/careers/",
+    "https://www.courierslist.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/nl/werken-bij",
+    "https://www.courierslist.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/werken-bij",
+    "https://www.courierslist.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/vacatures"
+   ],
+   "rendering": "rendered ['https://courierslist.com/'], found 0 link(s); saw ['/company/new-listing', '/add', '/about', '/services', '/contact', '/country/afghanistan']",
+   "careers_link": "https://www.courierslist.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "lotte-global-logistics",
+   "name": "LOTTE Global Logistics",
+   "entities": [
+    "LOTTE Global Logistics Hungary KFT, Netherlands Branch"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [],
+   "rendering": "rendered ['https://lotteglogis.com/', 'https://lotteglogis.com/home/company/recruit/hr', 'https://lotteglogis.com/home/company/recruit/education', 'https://lotteglogis.com/home/company/recruit/notice', 'https://lotteglogis.com/home/company/recruit/updateApply', 'https://lotteglogis.com/home/company/recruit/confirmApply'], found 0 link(s); saw ['/home/main', '/home/company/info/overview', '/home/company/invest/disclosure', '/home/company/recruit/hr', '/home/company/pr/video', '/home/business/parcel/parcel']",
+   "careers_link": "https://lotteglogis.com/home/company/recruit/hr",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "loyal-cargo-services",
+   "name": "Loyal Cargo Services",
+   "entities": [
+    "Loyal Cargo Services B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.loyalcargoservices.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://loyalcargoservices.com/careers",
+    "https://www.loyalcargoservices.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://loyalcargoservices.com/en/careers",
+    "https://www.loyalcargoservices.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://loyalcargoservices.com/careers/",
+    "https://www.loyalcargoservices.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://loyalcargoservices.com/nl/werken-bij",
+    "https://www.loyalcargoservices.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://loyalcargoservices.com/werken-bij",
+    "https://www.loyalcargoservices.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://loyalcargoservices.com/vacatures"
+   ],
+   "rendering": "rendered ['https://loyalcargoservices.com/'], found 0 link(s); saw ['/air-freight/', '/sea-freight/', '/road-transport/', '/cross-trade/', '/about-us/', '/contact/']",
+   "careers_link": "https://www.loyalcargoservices.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "lx-pantos",
+   "name": "LX Pantos",
+   "entities": [
+    "LX Pantos Netherlands B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [],
+   "rendering": "rendered ['https://lxpantos.com/', 'https://www.lxpantos.com/careers', 'https://www.lxpantos.com/en/careers', 'https://lxpantos.com/en/company/recruitment/ideal-talent.do', 'https://lxpantos.com/en/company/recruitment/hr-structure-and-procedure.do', 'https://lxpantos.com/en/company/recruitment/hr-development-and-welfare.do'], found 0 link(s); saw ['/en/main.do', '[other host] ;', '/en/business/sea-freight.do', '/en/business/air-freight.do', '/en/business/rail-freight.do', '/en/business/contract-logistics/contract-logistics.do']",
+   "careers_link": "https://www.lxpantos.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
    "id": "m-s-logistics",
    "name": "M & S Logistics",
    "entities": [
@@ -1787,6 +3379,52 @@
    "careers_link": "https://www.mslogisticsltd.com/careers",
    "nl_jobs": 0,
    "retry_discovery": true
+  },
+  {
+   "id": "mach-2-pharmafreight",
+   "name": "Mach 2 Pharmafreight",
+   "entities": [
+    "Mach 2 Pharmafreight B.V."
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": null,
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [
+    "https://www.mach2.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/careers",
+    "https://www.mach2.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/en/careers",
+    "https://www.mach2.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/careers/",
+    "https://www.mach2.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/nl/werken-bij",
+    "https://www.mach2.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/werken-bij",
+    "https://www.mach2.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://mach2.nl/vacatures"
+   ],
+   "rendering": "rendered ['https://mach2.nl/'], found 0 link(s); saw ['/sample-page/', '/2023/10/17/hello-world/']",
+   "careers_link": "https://www.mach2.nl/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
+  },
+  {
+   "id": "maersk",
+   "name": "Maersk",
+   "entities": [
+    "Maersk Logistics & Services International B.V.",
+    "Maersk Logistics and Services Netherlands B.V.",
+    "Maersk Line Netherlands B.V.",
+    "Hamburg Sud Nederland"
+   ],
+   "group": "forwarders",
+   "extra_keywords": [],
+   "last_success": "2026-10-26",
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "no_careers_system_found",
+   "vendor": null,
+   "notes": [],
+   "rendering": "rendered [], found 0 link(s); TimeoutError: Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.maersk.com/s",
+   "careers_link": "https://www.maersk.com/careers",
+   "nl_jobs": 0,
+   "showing_old_data": false
   },
   {
    "id": "mainfreight",
@@ -1822,6 +3460,24 @@
    "careers_link": "https://marinetrans.com/careers/",
    "nl_jobs": 0,
    "retry_discovery": true
+  },
+  {
+   "id": "mendrix",
+   "name": "MendriX",
+   "entities": [
+    "MendriX B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "ok",
+   "method": "careerpage",
+   "careers_link": "https://werkenbijmendrix.nl/",
+   "nl_jobs": 1
   },
   {
    "id": "mitsubishi-logistics-europe",
@@ -2091,6 +3747,24 @@
    "showing_old_data": false
   },
   {
+   "id": "nextlogic",
+   "name": "Nextlogic",
+   "entities": [
+    "Nextlogic B.V."
+   ],
+   "group": "software",
+   "extra_keywords": [
+    "implementation",
+    "onboarding"
+   ],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "ok",
+   "method": "careerpage (rendered)",
+   "careers_link": "https://www.nextlogic.nl/vacatures/",
+   "nl_jobs": 4
+  },
+  {
    "id": "nippon-express",
    "name": "Nippon Express",
    "entities": [
@@ -2275,6 +3949,37 @@
    "nl_jobs": 1
   },
   {
+   "id": "port-of-amsterdam",
+   "name": "Port of Amsterdam",
+   "entities": [
+    "Port of Amsterdam"
+   ],
+   "group": "ports",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "ok",
+   "method": "careerpage",
+   "careers_link": "https://werkenbij.portofamsterdam.com/vacatures",
+   "nl_jobs": 3
+  },
+  {
+   "id": "port-of-rotterdam",
+   "name": "Port of Rotterdam",
+   "entities": [
+    "Havenbedrijf Rotterdam N.V."
+   ],
+   "group": "ports",
+   "extra_keywords": [],
+   "last_success": "2026-10-28",
+   "checked_at": "2026-10-28T10:17+00:00",
+   "status": "ok",
+   "method": "rmk",
+   "careers_link": "https://www.portofrotterdam.com/nl/over-het-havenbedrijf/werken-bij-het-havenbedrijf",
+   "nl_jobs": 0,
+   "retry_discovery": true
+  },
+  {
    "id": "portbase",
    "name": "Portbase",
    "entities": [
@@ -2373,1718 +4078,6 @@
    "careers_link": "https://qbex.nl/about-us/careers",
    "nl_jobs": 0,
    "showing_old_data": false
-  },
-  {
-   "id": "rapid-logistics",
-   "name": "Rapid Logistics",
-   "entities": [
-    "Rapid Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.rapidlogistics.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/careers",
-    "https://www.rapidlogistics.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/en/careers",
-    "https://www.rapidlogistics.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/careers/",
-    "https://www.rapidlogistics.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/nl/werken-bij",
-    "https://www.rapidlogistics.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/werken-bij",
-    "https://www.rapidlogistics.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://rapidlogistics.nl/vacatures"
-   ],
-   "rendering": "rendered ['https://rapidlogistics.nl/'], found 0 link(s); saw ['[other host] /en/what-is-behind-powered-by-cookiebot/', '[other host] /goto/privacy-policy/', '[other host] /privacy/', '/cases/', '/about/', '/services/']",
-   "careers_link": "https://www.rapidlogistics.nl/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "re-teck",
-   "name": "Re-Teck",
-   "entities": [
-    "Re-Teck Reverse Supply Chain Management B.V."
-   ],
-   "group": "contract",
-   "extra_keywords": [],
-   "last_success": "2026-10-27",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://www.re-teck.com/job-opportunities/",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "rhenus",
-   "name": "Rhenus",
-   "entities": [
-    "Rhenus Air & Ocean B.V.",
-    "Rhenus Warehousing Solutions Netherlands B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-27",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "ok",
-   "method": "workday",
-   "careers_link": "https://www.rhenus.group/career/",
-   "nl_jobs": 39
-  },
-  {
-   "id": "rotra",
-   "name": "Rotra",
-   "entities": [
-    "Rotra Air & Ocean B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-27",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "ok",
-   "method": "jsonld",
-   "careers_link": "https://rotra.eu/vacatures",
-   "nl_jobs": 1
-  },
-  {
-   "id": "samskip",
-   "name": "Samskip",
-   "entities": [
-    "Samskip Services B.V."
-   ],
-   "group": "road_rail",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.samskip.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/nl/werken-bij",
-    "https://www.samskip.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/werken-bij",
-    "https://www.samskip.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/vacatures",
-    "https://www.samskip.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/nl/vacatures",
-    "https://www.samskip.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/jobs",
-    "https://www.samskip.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.samskip.com/en/jobs"
-   ],
-   "rendering": "rendered ['https://samskip.com/', 'https://www.samskip.com/careers', 'https://www.samskip.com/en/careers'], found 0 link(s); saw ['/logistics-services/', '/logistics-services/multimodal-network/', '/logistics-services/door-to-door/', '/logistics-services/terminal-to-terminal/', '/flatrack/', '/logistics-services/global-forwarding/']",
-   "careers_link": "https://www.samskip.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "samsung-electronics-europe-logistics",
-   "name": "Samsung Electronics Europe Logistics",
-   "entities": [
-    "Samsung Electronics Europe Logistics B.V."
-   ],
-   "group": "in_house",
-   "extra_keywords": [],
-   "last_success": "2026-10-27",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "ok",
-   "method": "workday",
-   "careers_link": "https://www.samsung.com/us/careers/",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "samsung-sds",
-   "name": "Samsung SDS",
-   "entities": [
-    "Samsung SDS Global SCL Netherlands Coöperatief U.A."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-26",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [],
-   "rendering": "rendered ['https://samsungsds.com/', 'https://www.samsungsds.com/careers', 'https://www.samsungsds.com/en/careers', 'https://samsungsds.com/eu/careers/careers.html', 'https://www.samsungsds.com/eu/careers/careers.html'], found 0 link(s); saw ['/eu/index.html', '[other host] void(0)', '/eu/why-sds-ai/why-sds-ai.html', '/eu/ai-fabrix/fabrix.html', '/eu/copilot/brity-copilot.html', '/eu/ai-automation/brity-automation.html']",
-   "careers_link": "https://www.samsungsds.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "samyang-logistics-europe",
-   "name": "Samyang Logistics Europe",
-   "entities": [
-    "Samyang Logistics Europe B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "no_address",
-   "careers_link": "https://samyanglogistics.com/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "sankyu-europe",
-   "name": "Sankyu Europe",
-   "entities": [
-    "Sankyu (Europe) B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://sankyu.co.jp/ -> ConnectionError: HTTPSConnectionPool(host='sankyu.co.jp', port=443): Max retries exceeded with url: / (Caus"
-   ],
-   "rendering": "rendered ['https://www.sankyu.co.jp/recruit/index.html', 'https://www.sankyu.co.jp/company/index.html', 'https://www.sankyu.co.jp/recruit/', 'https://www.sankyu.co.jp/recruit/entry/', 'https://www.sankyu.co.jp/recruit/about/'], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sankyu.co.jp/\nCall log:\n  - navigating to; saw ['/recruit/', '/recruit/entry/', '/recruit/about/', '/recruit/business/', '/recruit/business/plantengineering/', '/recruit/business/plantengineering/supervisor/']",
-   "careers_link": "https://www.sankyu.co.jp/recruit/index.html",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "santova-logistics",
-   "name": "Santova Logistics",
-   "entities": [
-    "Santova Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-26",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.santova.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/nl/werken-bij",
-    "https://www.santova.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/werken-bij",
-    "https://www.santova.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/vacatures",
-    "https://www.santova.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/nl/vacatures",
-    "https://www.santova.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/jobs",
-    "https://www.santova.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.santova.com/en/jobs"
-   ],
-   "rendering": "rendered ['https://santova.com/', 'https://www.santova.com/careers', 'https://www.santova.com/en/careers', 'https://santova.bamboohr.com/careers/40', 'https://santova.bamboohr.com/careers/45', 'https://santova.bamboohr.com/careers/37'], found 0 link(s); saw ['/0027313747000', '[other host] enquiries@santova.com', '/office-directory/', '/key-service-offerings', '/key-differentiators', '/technological-advancements']",
-   "careers_link": "https://www.santova.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "scania",
-   "name": "Scania",
-   "entities": [
-    "Scania Logistics Netherlands B.V."
-   ],
-   "group": "in_house",
-   "extra_keywords": [],
-   "last_success": "2026-10-27",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "ok",
-   "method": "rmk+careerpage",
-   "careers_link": "https://www.scania.com/career.html",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "sennder",
-   "name": "sennder",
-   "entities": [
-    "sennder Benelux B.V."
-   ],
-   "group": "road_rail",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.sennder.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/careers",
-    "https://www.sennder.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/en/careers",
-    "https://www.sennder.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/careers",
-    "https://www.sennder.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/nl/werken-bij",
-    "https://www.sennder.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/werken-bij",
-    "https://www.sennder.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.sennder.com/vacatures"
-   ],
-   "rendering": "rendered ['https://sennder.com/', 'https://www.sennder.com/career', 'https://www.sennder.com/en/career', 'https://sennder.com/career'], found 0 link(s); saw ['/press/sennder-achieves-profitability-and-hit-euro1-billion-in-annual-', '/en', '/carriers', '/shippers', '/green-business', '/control-tower']",
-   "careers_link": "https://www.sennder.com/career",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "shipsy",
-   "name": "Shipsy",
-   "entities": [
-    "Shipsy B.V."
-   ],
-   "group": "software",
-   "extra_keywords": [
-    "implementation",
-    "onboarding"
-   ],
-   "last_success": "2026-10-27",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "ok",
-   "method": "jsonld+careerpage",
-   "careers_link": "https://www.shipsy.ai/careers",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "simacan",
-   "name": "Simacan",
-   "entities": [
-    "Simacan B.V."
-   ],
-   "group": "software",
-   "extra_keywords": [
-    "implementation",
-    "onboarding"
-   ],
-   "last_success": null,
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [],
-   "rendering": "rendered ['https://simacan.com/', 'https://www.simacan.com/careers', 'https://www.simacan.com/en/careers'], found 0 link(s); saw ['/cookie-policy-eu/', '[other host] /tcf/purposes/', '/privacy/', '[other host] 0031338874000', '[other host] info@simacan.com', '/nl/']",
-   "careers_link": "https://www.simacan.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "stryker",
-   "name": "Stryker",
-   "entities": [
-    "Stryker EMEA Supply Chain Services B.V."
-   ],
-   "group": "in_house",
-   "extra_keywords": [],
-   "last_success": "2026-10-27",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "ok",
-   "method": "workday",
-   "careers_link": "https://stryker.com/careers",
-   "nl_jobs": 8
-  },
-  {
-   "id": "tiktok",
-   "name": "TikTok",
-   "entities": [
-    "TikTok Logistics Netherlands B.V."
-   ],
-   "group": "in_house",
-   "extra_keywords": [],
-   "last_success": "2026-10-27",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "ok",
-   "method": "careerpage (rendered)",
-   "careers_link": "https://lifeattiktok.com",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "top-cargo",
-   "name": "Top Cargo",
-   "entities": [
-    "Top Cargo B.V."
-   ],
-   "group": "check",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.topcargo.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/careers",
-    "https://www.topcargo.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/en/careers",
-    "https://www.topcargo.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/careers/",
-    "https://www.topcargo.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/nl/werken-bij",
-    "https://www.topcargo.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/werken-bij",
-    "https://www.topcargo.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.topcargo.nl/vacatures"
-   ],
-   "rendering": "rendered ['https://topcargo.nl/', 'https://topcargo.nl/Career.cshtml', 'https://www.topcargo.nl/career', 'https://www.topcargo.nl/Career.cshtml'], found 0 link(s); saw ['/Default.cshtml', '/Quotation.cshtml', '/About.cshtml', '/Career.cshtml', '/Resources.cshtml', '/Contact.cshtml']",
-   "careers_link": "https://topcargo.nl/Career.cshtml",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "transporting-wheels",
-   "name": "Transporting Wheels",
-   "entities": [
-    "Transporting Wheels B.V."
-   ],
-   "group": "check",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://transportingwheels.nl/ -> ConnectionError: HTTPSConnectionPool(host='transportingwheels.nl', port=443): Max retries exceeded with url",
-    "https://www.transportingwheels.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.transportingwheels.nl', port=443): Max retries exceeded with"
-   ],
-   "rendering": "rendered [], found 0 link(s); TimeoutError: Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://transportingwhee",
-   "careers_link": "https://transportingwheels.nl/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "wispex-transit-nl",
-   "name": "Wispex Transit NL",
-   "entities": [
-    "Wispex Transit NL B.V."
-   ],
-   "group": "check",
-   "extra_keywords": [],
-   "last_success": "2026-10-26",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "read_failed",
-   "method": "recruitee",
-   "detail": "HTTPError: 400 Client Error: Bad Request for url: https://tagging-server.recruitee.com/api/offers/",
-   "careers_link": "https://wispex.nl/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "zalando",
-   "name": "Zalando",
-   "entities": [
-    "Zalando Logistics Operations Netherlands B.V."
-   ],
-   "group": "in_house",
-   "extra_keywords": [],
-   "last_success": "2026-10-27",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://jobs.zalando.com",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "zimmer-biomet",
-   "name": "Zimmer Biomet",
-   "entities": [
-    "Biomet Global Supply Chain Center B.V."
-   ],
-   "group": "in_house",
-   "extra_keywords": [],
-   "last_success": "2026-10-27",
-   "checked_at": "2026-10-27T20:23+00:00",
-   "status": "ok",
-   "method": "phenom",
-   "careers_link": "https://careers.zimmerbiomet.com/us/en?utm_source=CorporateSite&utm_medium=Nav",
-   "nl_jobs": 3
-  },
-  {
-   "id": "ecom-clear",
-   "name": "Ecom Clear",
-   "entities": [
-    "Ecom Clear B.V."
-   ],
-   "group": "check",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://ecomclear.com/ -> ConnectionError: HTTPSConnectionPool(host='ecomclear.com', port=443): Max retries exceeded with url: / (Cau",
-    "https://www.ecomclear.com/ -> ConnectionError: HTTPSConnectionPool(host='www.ecomclear.com', port=443): Max retries exceeded with url: / "
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ecomclear.com/\nCall log:\n  - navigating t",
-   "careers_link": "https://ecomclear.com/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "ect-delta-terminal",
-   "name": "ECT Delta Terminal",
-   "entities": [
-    "ECT Delta Terminal B.V."
-   ],
-   "group": "ports",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [],
-   "rendering": "rendered ['https://ect.nl/', 'https://www.werkenbiject.nl', 'https://werkenbiject.nl/Www.werkenbiject.nl/', 'https://www.werkenbiject.nl/Www.werkenbiject.nl/', 'https://www.werkenbiject.nl/vacatures', 'https://www.werkenbiject.nl/vacatures/jobalert'], found 0 link(s); saw ['/nl', '/en', '/nl/search/node', '/nl/media-centre', '/nl/contact/klantenservice', '/nl/services']",
-   "careers_link": "https://www.werkenbiject.nl",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "eimskip",
-   "name": "Eimskip",
-   "entities": [
-    "Eimskip Nederland B.V."
-   ],
-   "group": "shipping",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.eimskip.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.eimskip.com/careers",
-    "https://www.eimskip.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.eimskip.com/en/careers",
-    "https://www.eimskip.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.eimskip.com/careers/",
-    "https://www.eimskip.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.eimskip.com/nl/werken-bij",
-    "https://www.eimskip.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.eimskip.com/werken-bij",
-    "https://www.eimskip.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.eimskip.com/vacatures"
-   ],
-   "rendering": "rendered ['https://eimskip.com/'], found 0 link(s); saw ['/services/liner-services/', '/services/warehousing/', '/services/global-forwarding/', '/services/terminal-operations/', '/services/other-services/', '/offices/']",
-   "careers_link": "https://www.eimskip.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "emtransit",
-   "name": "emTransit",
-   "entities": [
-    "emTransit B.V."
-   ],
-   "group": "check",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://emtransit.com/ -> SSLError: HTTPSConnectionPool(host='emtransit.com', port=443): Max retries exceeded with url: / (Cau",
-    "https://www.emtransit.com/ -> SSLError: HTTPSConnectionPool(host='www.emtransit.com', port=443): Max retries exceeded with url: / "
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://emtransit.com/\nCall log:\n  - navig",
-   "careers_link": "https://emtransit.com/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "euro-senko",
-   "name": "Euro Senko",
-   "entities": [
-    "Euro Senko"
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-27",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.senco.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/careers",
-    "https://www.senco.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/en/careers",
-    "https://www.senco.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/careers/",
-    "https://www.senco.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/werken-bij",
-    "https://www.senco.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/werken-bij",
-    "https://www.senco.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/vacatures"
-   ],
-   "rendering": "rendered ['https://senco.nl/'], found 0 link(s); saw ['/nl', '/nl/', '/nl/vind-een-dealer', '/nl/brand-assets', '/nl/contact', '/nl/producten/c/machines']",
-   "careers_link": "https://www.senco.nl/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "european-distribution-centre-roosendaal",
-   "name": "European Distribution Centre Roosendaal",
-   "entities": [
-    "European Distribution Centre Roosendaal (E.D.C.R.) B.V."
-   ],
-   "group": "contract",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://edcr.nl/werken-bij-edcr/",
-   "nl_jobs": 4
-  },
-  {
-   "id": "eusu-logistics",
-   "name": "Eusu Logistics",
-   "entities": [
-    "Eusu Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://eusu-logistics.com/ -> ConnectionError: HTTPSConnectionPool(host='eusu-logistics.com', port=443): Max retries exceeded with url: /",
-    "https://www.eusu-logistics.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/careers",
-    "https://www.eusu-logistics.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/en/careers",
-    "https://www.eusu-logistics.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/careers/",
-    "https://www.eusu-logistics.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/nl/werken-bij",
-    "https://www.eusu-logistics.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/werken-bij"
-   ],
-   "rendering": "rendered ['https://www.eusu-logistics.com/kr/sub/recruit/interview.asp', 'https://www.eusu-logistics.com/kr/sub/recruit/recruit.asp', 'https://www.eusu-logistics.com/kr/sub/recruit/welfare.asp'], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://eusu-logistics.com/\nCall log:\n  - navigat; saw ['/kr/', '/kr/sub/company/summary.asp', '/kr/sub/company/history.asp', '/kr/sub/company/ci.asp', '/kr/sub/company/network.asp', '/kr/sub/company/authentication.asp']",
-   "careers_link": "https://www.eusu-logistics.com/kr/sub/recruit/interview.asp",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "evergreen",
-   "name": "Evergreen",
-   "entities": [
-    "Evergreen Shipping Agency (Europe) GMBH"
-   ],
-   "group": "shipping",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://evergreen-marine.com/ -> ConnectionError: HTTPSConnectionPool(host='evergreen-marine.com', port=443): Max retries exceeded with url:",
-    "https://www.evergreen-marine.com/careers -> HTTPError: 404 Client Error: 404 for url: https://www.evergreen-marine.com/careers",
-    "https://www.evergreen-marine.com/en/careers -> HTTPError: 404 Client Error: 404 for url: https://www.evergreen-marine.com/en/careers",
-    "https://www.evergreen-marine.com/careers/ -> HTTPError: 404 Client Error: 404 for url: https://www.evergreen-marine.com/careers/",
-    "https://www.evergreen-marine.com/nl/werken-bij -> HTTPError: 404 Client Error: 404 for url: https://www.evergreen-marine.com/nl/werken-bij",
-    "https://www.evergreen-marine.com/werken-bij -> HTTPError: 404 Client Error: 404 for url: https://www.evergreen-marine.com/werken-bij"
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://evergreen-marine.com/\nCall log:\n  - navi",
-   "careers_link": "https://www.evergreen-marine.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "expeditors",
-   "name": "Expeditors",
-   "entities": [
-    "Expeditors International B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "smartrecruiters",
-   "careers_link": "https://www.expeditors.com/careers/",
-   "nl_jobs": 1
-  },
-  {
-   "id": "fairways-logistics",
-   "name": "Fairways Logistics",
-   "entities": [
-    "Fairways Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://fairways.nl/ -> SSLError: HTTPSConnectionPool(host='fairways.nl', port=443): Max retries exceeded with url: / (Cause",
-    "https://www.fairways.nl/ -> SSLError: HTTPSConnectionPool(host='www.fairways.nl', port=443): Max retries exceeded with url: / (C"
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://fairways.nl/\nCall log:\n  - navigatin",
-   "careers_link": "https://fairways.nl/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "fedex",
-   "name": "FedEx",
-   "entities": [
-    "FedEx Express International B.V.",
-    "FedEx Express Netherlands B.V."
-   ],
-   "group": "parcel",
-   "extra_keywords": [],
-   "last_success": "2026-10-26",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [],
-   "rendering": "rendered ['https://fedex.com/', 'https://careers.fedex.com', 'https://www.fedex.com/careers'], found 0 link(s); Error: Page.goto: Download is starting\nCall log:\n  - navigating to \"https://d2xra9v1z0mbwm.cloudf; saw ['/en/', '/es/', '/fr-ca/', '/fr/', '/de/', '/it/']",
-   "careers_link": "https://careers.fedex.com",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "feniks-warehousing-solutions",
-   "name": "Feniks Warehousing Solutions",
-   "entities": [
-    "Feniks Warehousing Solutions B.V."
-   ],
-   "group": "contract",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.feniks-logistics.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/careers",
-    "https://www.feniks-logistics.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/en/careers",
-    "https://www.feniks-logistics.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/careers/",
-    "https://www.feniks-logistics.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/vacatures",
-    "https://www.feniks-logistics.nl/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/nl/vacatures",
-    "https://www.feniks-logistics.nl/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/jobs"
-   ],
-   "rendering": "rendered ['https://feniks-logistics.nl/', 'https://feniks-logistics.nl/werken-bij', 'https://www.feniks-logistics.nl/en/werken-bij/', 'https://www.feniks-logistics.nl/werken-bij/'], found 0 link(s); saw ['/diensten/', '/dienst/aangepaste-logistiek-slimme-oplossingen/', '/dienst/boekhouding-fiscale-naleving/', '/dienst/chauffeursdocumentatie-en-check-in/', '/dienst/containerverwerking-opslag/', '/dienst/cross-docking-operaties/']",
-   "careers_link": "https://feniks-logistics.nl/werken-bij",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "fenix-outdoor",
-   "name": "Fenix Outdoor",
-   "entities": [
-    "Fenix Outdoor Logistics B.V."
-   ],
-   "group": "in_house",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "read_failed",
-   "method": "teamtailor",
-   "detail": "RuntimeError: not a usable job feed (not well-formed (invalid token): line 14, column 88)",
-   "careers_link": "https://fenixoutdoor.se/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "flash-shipping",
-   "name": "Flash Shipping",
-   "entities": [
-    "Flash Shipping B.V."
-   ],
-   "group": "check",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.flash.com.tr/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.flash.com.tr/careers",
-    "https://www.flash.com.tr/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.flash.com.tr/en/careers",
-    "https://www.flash.com.tr/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.flash.com.tr/careers/",
-    "https://www.flash.com.tr/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.flash.com.tr/nl/werken-bij",
-    "https://www.flash.com.tr/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.flash.com.tr/werken-bij",
-    "https://www.flash.com.tr/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.flash.com.tr/vacatures"
-   ],
-   "rendering": "rendered ['https://flash.com.tr/'], found 0 link(s)",
-   "careers_link": "https://www.flash.com.tr/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "flex",
-   "name": "Flex",
-   "entities": [
-    "Flextronics Logistics B.V."
-   ],
-   "group": "in_house",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "workday",
-   "careers_link": "https://flex.com/",
-   "nl_jobs": 10
-  },
-  {
-   "id": "flexport",
-   "name": "Flexport",
-   "entities": [
-    "Flexport Group B.V.",
-    "Flexport International B.V.",
-    "Flexport Customs B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "greenhouse",
-   "careers_link": "https://www.flexport.com/careers/",
-   "nl_jobs": 18
-  },
-  {
-   "id": "fourkites",
-   "name": "FourKites",
-   "entities": [
-    "FourKites B.V."
-   ],
-   "group": "software",
-   "extra_keywords": [
-    "implementation",
-    "onboarding"
-   ],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.fourkites.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/en/careers",
-    "https://www.fourkites.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/werken-bij",
-    "https://www.fourkites.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/vacatures",
-    "https://www.fourkites.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/en/jobs",
-    "https://www.fourkites.com/career -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/career",
-    "https://www.fourkites.com/en/career -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/en/career"
-   ],
-   "rendering": "rendered ['https://fourkites.com/', 'https://www.fourkites.ai/careers', 'https://www.fourkites.com/careers', 'https://fourkites.com/careers'], found 0 link(s); saw ['/platform', '/platform/network', '/platform/digital-twins/order-twin', '/platform/digital-twins/shipment-twin', '/platform/digital-twins/inventory-twin', '/platform/digital-twins/facility-twin']",
-   "careers_link": "https://www.fourkites.ai/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "fox-global-logistics",
-   "name": "FOX Global Logistics",
-   "entities": [
-    "FOX Global Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://www.foxglobal.nl/careers/",
-   "nl_jobs": 5
-  },
-  {
-   "id": "freight-international-holding",
-   "name": "Freight International Holding",
-   "entities": [
-    "Freight International Holding B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-27",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [],
-   "rendering": "rendered ['https://northdata.com/', 'https://www.northdata.com/_career', 'https://www.northdata.com/_login?targetUrl=https%3A%2F%2Fwww.northdata.com%2F_career', 'https://northdata.com/_career', 'https://www.northdata.de/_career', 'https://northdata.com/_login?targetUrl=https%3A%2F%2Fwww.northdata.com%2F_career'], found 0 link(s); saw ['/_premium', '/_data', '/_login', '[other host] /en/center/power-search-performance-indicator', '[other host] /en/center/event-filter', '/_countries']",
-   "careers_link": "https://www.northdata.com/_career",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "freightlive",
-   "name": "Freightlive",
-   "entities": [
-    "Freightlive B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://freightlive.nl/ -> ConnectTimeout: HTTPSConnectionPool(host='freightlive.nl', port=443): Max retries exceeded with url: / (Ca",
-    "https://www.freightlive.nl/ -> ConnectTimeout: HTTPSConnectionPool(host='www.freightlive.nl', port=443): Max retries exceeded with url: /"
-   ],
-   "rendering": "rendered [], found 0 link(s); TimeoutError: Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://freightlive.nl/\"",
-   "careers_link": "https://freightlive.nl/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "fuji-logistics-fujitrans",
-   "name": "Fuji Logistics / Fujitrans",
-   "entities": [
-    "Fuji Logistics Europe B.V.",
-    "Fuji Transport Systems (Rotterdam) B.V.",
-    "FUJITRANS (EUROPE) B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.fujitrans.co.jp/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/careers",
-    "https://www.fujitrans.co.jp/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/en/careers",
-    "https://www.fujitrans.co.jp/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/careers/",
-    "https://www.fujitrans.co.jp/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/nl/werken-bij"
-   ],
-   "rendering": "rendered ['https://fujitrans.co.jp/', 'https://recruit.fujitrans.co.jp/', 'https://recruit.fujitrans.co.jp/recruit/', 'https://recruit.fujitrans.co.jp', 'https://recruit.fujitrans.co.jp/sailor_recruitment/', 'https://recruit.fujitrans.co.jp/driver_recruitment/'], found 0 link(s); saw ['/consolidation/import_schedule.pdf', '/glossary/', '/movie/', '/company/', '/business/', '/facility/']",
-   "careers_link": "https://recruit.fujitrans.co.jp/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "fulfilment-solutions",
-   "name": "Fulfilment Solutions",
-   "entities": [
-    "Fulfilment Solutions B.V."
-   ],
-   "group": "contract",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://www.fulfilmentsolutions.nl/careers",
-   "nl_jobs": 1
-  },
-  {
-   "id": "gd-its-forwarding",
-   "name": "GD-iTS Forwarding",
-   "entities": [
-    "GD-iTS Forwarding B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://gd-its.careers/",
-   "nl_jobs": 2
-  },
-  {
-   "id": "geodis",
-   "name": "GEODIS",
-   "entities": [
-    "GEODIS FF Netherlands B.V.",
-    "Geodis C.L. Netherlands B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://geodis.com/us-en/career",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "gerlach",
-   "name": "Gerlach",
-   "entities": [
-    "Gerlach & Co. Internationale Expediteurs B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://gerlachcs.com/ -> SSLError: HTTPSConnectionPool(host='gerlachcs.com', port=443): Max retries exceeded with url: / (Cau",
-    "https://www.gerlachcs.com/ -> SSLError: HTTPSConnectionPool(host='www.gerlachcs.com', port=443): Max retries exceeded with url: / "
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://gerlachcs.com/\nCall log:\n  -",
-   "careers_link": "https://gerlachcs.com/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "gl-link-europe",
-   "name": "GL Link (Europe)",
-   "entities": [
-    "GL Link (Europe) B.V."
-   ],
-   "group": "check",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.gl-link.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/careers",
-    "https://www.gl-link.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/en/careers",
-    "https://www.gl-link.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/careers/",
-    "https://www.gl-link.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/nl/werken-bij",
-    "https://www.gl-link.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/werken-bij",
-    "https://www.gl-link.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/vacatures"
-   ],
-   "rendering": "rendered ['https://gl-link.com/', 'https://gl-link.com/recruitment.html', 'https://gl-link.com/engineer-recruit.html'], found 0 link(s); saw ['/index.html', '/company.html', '/privacy.html', '/service.html', '/news.html', '/engineer-recruit.html']",
-   "careers_link": "https://gl-link.com/recruitment.html",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "gls",
-   "name": "GLS",
-   "entities": [
-    "General Logistics Systems B.V."
-   ],
-   "group": "parcel",
-   "extra_keywords": [],
-   "last_success": "2026-10-26",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [],
-   "rendering": "rendered ['https://gls-group.com/', 'https://www.gls-group.com/careers', 'https://gls-group.eu/GROUP/en/careers/', 'https://www.gls-group.com/GROUP/en/careers/', 'https://gls-group.eu/GROUP/en/careers/global-vacancies/', 'https://gls-group.eu/GROUP/en/it-careers/'], found 0 link(s); saw ['[other host] /company/gls', '[other host] /channel/UCnucRdFC8TSPop5KrGlcFxA', '/GROUP/en/privacy-policy/', '/GROUP/en/data-protection/', '/GROUP/en/corporate-information/', '/GROUP/en/disclaimer/']",
-   "careers_link": "https://www.gls-group.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "grolleman-vrieshuis",
-   "name": "Grolleman Vrieshuis",
-   "entities": [
-    "Grolleman Vrieshuis Exploitatie Maatschappij B.V."
-   ],
-   "group": "contract",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://www.grolleman.nl/vacatures",
-   "nl_jobs": 3
-  },
-  {
-   "id": "gxo-logistics",
-   "name": "GXO Logistics",
-   "entities": [
-    "GXO LOGISTICS NETHERLANDS B.V.",
-    "GXO LOGISTICS NETHERLANDS III B.V.",
-    "GXO LOGISTICS SERVICES NETHERLANDS B.V."
-   ],
-   "group": "contract",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "rmk",
-   "careers_link": "https://gxo.com/careers/",
-   "nl_jobs": 55
-  },
-  {
-   "id": "hanjin-global-logistics",
-   "name": "Hanjin Global Logistics",
-   "entities": [
-    "Hanjin Global Logistics Europe Sro."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.hanjin.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hanjin.com/en/careers",
-    "https://www.hanjin.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hanjin.com/nl/werken-bij",
-    "https://www.hanjin.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.hanjin.com/nl/vacatures",
-    "https://www.hanjin.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.hanjin.com/en/jobs"
-   ],
-   "rendering": "rendered ['https://hanjin.com/', 'https://www.hanjin.com/kor/CMS/RecruitMgr/list.do?mCode=MN052', 'https://www.hanjin.com/kor/CMS/RecruitMgr/agree.do?mCode=MN019', 'https://www.hanjin.com/kor/CMS/RecruitMgr/checkSubmitStatus.do?mCode=MN066', 'https://www.hanjin.com/kor/CMS/RecruitMgr/checkResult.do?mCode=MN096', 'https://www.hanjin.com/kor/CMS/RecruitMgr/docReturnWrite.do?mCode=MN099'], found 0 link(s); saw ['/kor/CMS/Contents/Contents.do', '/kor/CMS/DeliveryMgr/WaybillSch.do', '/kor/CMS/DeliveryMgr/Reserve1.do', '/kor/CMS/DeliveryMgr/Reserve3.do', '/kor/CMS/DeliveryMgr/Reserve4.do', '/kor/CMS/DeliveryMgr/Reserve5.do']",
-   "careers_link": "https://www.hanjin.com/kor/CMS/RecruitMgr/list.do?mCode=MN052",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "hankyu-hanshin-express",
-   "name": "Hankyu Hanshin Express",
-   "entities": [
-    "Hankyu Hanshin Express (Netherlands) B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_address",
-   "careers_link": "https://hankyu-hanshin-express.com/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "hellmann-worldwide-logistics",
-   "name": "Hellmann Worldwide Logistics",
-   "entities": [
-    "Hellmann Worldwide Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "workday",
-   "careers_link": "https://www.hellmann.com/careers",
-   "nl_jobs": 2
-  },
-  {
-   "id": "henkel",
-   "name": "Henkel",
-   "entities": [
-    "Henkel Global Supply Chain B.V."
-   ],
-   "group": "in_house",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "jsonld+careerpage",
-   "careers_link": "https://www.henkel.com/careers",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "hl-terminal-holding",
-   "name": "HL Terminal Holding",
-   "entities": [
-    "HL Terminal Holding B.V."
-   ],
-   "group": "check",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://hlterminal.nl/ -> ConnectionError: HTTPSConnectionPool(host='hlterminal.nl', port=443): Max retries exceeded with url: / (Cau",
-    "https://www.hlterminal.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.hlterminal.nl', port=443): Max retries exceeded with url: / "
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://hlterminal.nl/\nCall log:\n  - navigating t",
-   "careers_link": "https://hlterminal.nl/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "hmm",
-   "name": "HMM",
-   "entities": [
-    "HMM (Netherlands) shipping B.V."
-   ],
-   "group": "shipping",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.hmm21.com/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-    "https://www.hmm21.com/en/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-    "https://www.hmm21.com/careers/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-    "https://www.hmm21.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/nl/werken-bij",
-    "https://www.hmm21.com/werken-bij -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-    "https://www.hmm21.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/vacatures"
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://hmm21.com/\nCall log:\n  - navigating to",
-   "careers_link": "https://www.hmm21.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "htns-benelux",
-   "name": "HTNS Benelux",
-   "entities": [
-    "HTNS Benelux B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.htns.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.htns.com/careers/",
-    "https://www.htns.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.htns.com/nl/werken-bij",
-    "https://www.htns.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.htns.com/werken-bij",
-    "https://www.htns.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.htns.com/nl/vacatures",
-    "https://htns.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://htns.com/careers/",
-    "https://htns.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://htns.com/nl/werken-bij"
-   ],
-   "rendering": "rendered ['https://htns.com/', 'https://www.htns.com/careers', 'https://www.htns.com/en/careers'], found 0 link(s); saw ['/business/air_freight.php', '/business/sea_freight.php', '/business/inland_transportation.php', '/business/rail_transportation.php', '/business/warehouse_storage.php', '/business/e_commerce.php']",
-   "careers_link": "https://www.htns.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "ice-cold-storage",
-   "name": "Ice Cold Storage",
-   "entities": [
-    "Ice Cold Storage Holding B.V."
-   ],
-   "group": "contract",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "careerpage (rendered)",
-   "careers_link": "https://www.nedcool.nl/careers",
-   "nl_jobs": 1
-  },
-  {
-   "id": "id-logistics",
-   "name": "ID Logistics",
-   "entities": [
-    "ID Logistics Tilburg B.V."
-   ],
-   "group": "contract",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "careerpage (rendered)",
-   "careers_link": "https://id-logistics.com/",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "intermodal-telematics",
-   "name": "Intermodal Telematics",
-   "entities": [
-    "Intermodal Telematics B.V."
-   ],
-   "group": "software",
-   "extra_keywords": [
-    "implementation",
-    "onboarding"
-   ],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.intermodaltelematics.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/careers",
-    "https://www.intermodaltelematics.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/en/careers",
-    "https://www.intermodaltelematics.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/careers/",
-    "https://www.intermodaltelematics.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/nl/werken-bij",
-    "https://www.intermodaltelematics.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/werken-bij",
-    "https://www.intermodaltelematics.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/vacatures"
-   ],
-   "rendering": "rendered ['https://intermodaltelematics.com/'], found 0 link(s); saw ['/de/', '/zh-hans/', '/wp-content/uploads/IMT-film.mp4', '[other host] /454683861', '[other host] /454683991', '/wp-content/uploads/Introduction_video_IMT_webapplication_telematics_f']",
-   "careers_link": "https://www.intermodaltelematics.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "international-airfreight-associates",
-   "name": "International Airfreight Associates",
-   "entities": [
-    "International Airfreight Associates B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.forwarderspages.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/careers",
-    "https://www.forwarderspages.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/en/careers",
-    "https://www.forwarderspages.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/careers/",
-    "https://www.forwarderspages.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/nl/werken-bij",
-    "https://www.forwarderspages.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/werken-bij",
-    "https://www.forwarderspages.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.forwarderspages.com/vacatures"
-   ],
-   "rendering": "rendered ['https://forwarderspages.com/', 'https://www.forwarderspages.com/join-us'], found 0 link(s); saw ['/company-directory', '/container-tracking', '/air-cargo-tracking', '/vessel-tracking', '/join-us', '/contact']",
-   "careers_link": "https://www.forwarderspages.com/join-us",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "sevenhills-logistics",
-   "name": "Sevenhills Logistics",
-   "entities": [
-    "Sevenhills Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.sevenhills.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/careers",
-    "https://www.sevenhills.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/en/careers",
-    "https://www.sevenhills.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/careers/",
-    "https://www.sevenhills.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/nl/werken-bij",
-    "https://www.sevenhills.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/werken-bij",
-    "https://www.sevenhills.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.sevenhills.nl/vacatures"
-   ],
-   "rendering": "rendered ['https://sevenhills.nl/'], found 0 link(s); saw ['/Diensten', '/Methodieken', '/Referenties', '/Contact']",
-   "careers_link": "https://www.sevenhills.nl/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "sf-express",
-   "name": "SF Express",
-   "entities": [
-    "SF Express (Netherlands) B.V."
-   ],
-   "group": "parcel",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://sf-express.com/ -> ConnectionError: HTTPSConnectionPool(host='sf-express.com', port=443): Max retries exceeded with url: / (Ca",
-    "https://www.sf-express.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sf-express.com/careers",
-    "https://www.sf-express.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sf-express.com/en/careers",
-    "https://www.sf-express.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.sf-express.com/careers/",
-    "https://www.sf-express.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sf-express.com/nl/werken-bij",
-    "https://www.sf-express.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sf-express.com/werken-bij"
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sf-express.com/\nCall log:\n  - navigating ",
-   "careers_link": "https://www.sf-express.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "shaoke-logistics",
-   "name": "Shaoke Logistics",
-   "entities": [
-    "Shaoke Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://shaoke.nl/ -> ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-    "https://www.shaoke.nl/ -> ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CONNECTION_RESET at https://shaoke.nl/\nCall log:\n  - navigating to \"ht",
-   "careers_link": "https://shaoke.nl/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "sharp-jusda-logistics",
-   "name": "Sharp Jusda Logistics",
-   "entities": [
-    "Sharp Jusda Logistics (Netherlands) B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.jusda.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.jusda.nl/careers",
-    "https://www.jusda.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.jusda.nl/en/careers",
-    "https://www.jusda.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.jusda.nl/careers/",
-    "https://www.jusda.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.jusda.nl/nl/werken-bij",
-    "https://www.jusda.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.jusda.nl/werken-bij",
-    "https://www.jusda.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.jusda.nl/vacatures"
-   ],
-   "rendering": "rendered ['https://jusda.nl/'], found 0 link(s); saw ['/index.html', '/about.html', '/services.html', '/storage-tank-leasing.html', '/railway-transportation.html', '/pipeline-transportation.html']",
-   "careers_link": "https://www.jusda.nl/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "shypple",
-   "name": "Shypple",
-   "entities": [
-    "Shypple B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "recruitee",
-   "careers_link": "https://www.shypple.com/careers/working-at-shypple",
-   "nl_jobs": 5
-  },
-  {
-   "id": "simex-transport-and-forwarding",
-   "name": "Simex Transport and Forwarding",
-   "entities": [
-    "Simex Transport and Forwarding B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://simex.nl/ -> SSLError: HTTPSConnectionPool(host='simex.nl', port=443): Max retries exceeded with url: / (Caused b",
-    "https://www.simex.nl/ -> SSLError: HTTPSConnectionPool(host='www.simex.nl', port=443): Max retries exceeded with url: / (Caus"
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://simex.nl/\nCall log:\n  - navigating",
-   "careers_link": "https://simex.nl/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "sinotrans",
-   "name": "Sinotrans",
-   "entities": [
-    "Sinotrans Air Transportation GmbH Netherlands Branch"
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://sinotrans.com/ -> ConnectionError: HTTPSConnectionPool(host='sinotrans.com', port=443): Max retries exceeded with url: / (Cau",
-    "https://www.sinotrans.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/careers",
-    "https://www.sinotrans.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/en/careers",
-    "https://www.sinotrans.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/careers/",
-    "https://www.sinotrans.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/nl/werken-bij",
-    "https://www.sinotrans.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/werken-bij"
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sinotrans.com/\nCall log:\n  - navigating t",
-   "careers_link": "https://www.sinotrans.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "sms-global-logistics",
-   "name": "SMS Global Logistics",
-   "entities": [
-    "SMS Global Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "jsonld",
-   "careers_link": "https://www.smsglobal-forwarding.com/vacancies/",
-   "nl_jobs": 1
-  },
-  {
-   "id": "soderberg-transport",
-   "name": "Soderberg Transport",
-   "entities": [
-    "Soderberg Transport"
-   ],
-   "group": "road_rail",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.soderbergtransport.se/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/careers",
-    "https://www.soderbergtransport.se/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/en/careers",
-    "https://www.soderbergtransport.se/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/careers/",
-    "https://www.soderbergtransport.se/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/nl/werken-bij",
-    "https://www.soderbergtransport.se/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/werken-bij",
-    "https://www.soderbergtransport.se/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.soderbergtransport.se/vacatures"
-   ],
-   "rendering": "rendered ['https://soderbergtransport.se/'], found 0 link(s); saw ['/om-oss/', '/vara-tjanster/', '/kontakta-oss/', '/wp-content/uploads/2026/01/481659292_1150942026445565_34461.png', '/wp-content/uploads/2026/01/279435110_3173535319561989_64987.png', '/wp-content/uploads/2026/01/480812372_1146750840198017_60486.png']",
-   "careers_link": "https://www.soderbergtransport.se/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "steinweg",
-   "name": "Steinweg",
-   "entities": [
-    "C. Steinweg-Handelsveem B.V."
-   ],
-   "group": "contract",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://www.steinweg.com/careers/",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "stena-line",
-   "name": "Stena Line",
-   "entities": [
-    "Stena Line B.V."
-   ],
-   "group": "shipping",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "careerpage",
-   "careers_link": "https://stenaline.com/job-openings/",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "t-w-s-transit-world-service",
-   "name": "T.W.S. Transit World Service",
-   "entities": [
-    "T.W.S. Transit World Service B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://tws.nl/ -> SSLError: HTTPSConnectionPool(host='tws.nl', port=443): Max retries exceeded with url: / (Caused by ",
-    "https://www.tws.nl/ -> SSLError: HTTPSConnectionPool(host='www.tws.nl', port=443): Max retries exceeded with url: / (Caused"
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://tws.nl/\nCall log:\n  - navigating t",
-   "careers_link": "https://tws.nl/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "tito-smart-modal-logistics",
-   "name": "Tito Smart Modal Logistics",
-   "entities": [
-    "Tito Smart Modal Logistics Europe"
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "careerpage (rendered)",
-   "careers_link": "https://www.titologistics.com/careers",
-   "nl_jobs": 0,
-   "retry_discovery": true
-  },
-  {
-   "id": "tlogistics",
-   "name": "TLogistics",
-   "entities": [
-    "TLogistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://tlogistics.nl/ -> SSLError: HTTPSConnectionPool(host='tlogistics.nl', port=443): Max retries exceeded with url: / (Cau",
-    "https://www.tlogistics.nl/ -> SSLError: HTTPSConnectionPool(host='www.tlogistics.nl', port=443): Max retries exceeded with url: / "
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://tlogistics.nl/\nCall log:\n  - navigat",
-   "careers_link": "https://tlogistics.nl/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "toll-global-forwarding",
-   "name": "Toll Global Forwarding",
-   "entities": [
-    "Toll Global Forwarding"
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.careers.tollgroup.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
-    "https://www.tollgroup.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
-    "https://www.tollgroup.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
-    "https://www.tollgroup.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/"
-   ],
-   "rendering": "rendered ['https://tollgroup.com/', 'https://www.tollgroup.com/solutions/supply-chain-logistics/recruitment-labour-hire', 'https://www.tollgroup.com/solutions/supply-chain-logistics/recruitment-labour-hire/toll-people', 'https://tollgroup.com/solutions/supply-chain-logistics/recruitment-labour-hire', 'https://www.careers.tollgroup.com/', 'https://www.tollgroup.com/solutions/supply-chain-logistics/recruitment-labour-hire/locations-contact'], found 0 link(s); saw ['/about/news-and-media/scam-alert-websites-and-platforms-impersonating-', '/solutions', '/solutions/transportation', '/solutions/transportation/ocean', '/solutions/transportation/air', '/solutions/transportation/road']",
-   "careers_link": "https://www.tollgroup.com/solutions/supply-chain-logistics/recruitment-labour-hire",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "uber-freight",
-   "name": "Uber Freight",
-   "entities": [
-    "Uber Freight Europe Holdings B.V."
-   ],
-   "group": "road_rail",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "greenhouse",
-   "careers_link": "https://www.uberfreight.com/en-US/careers",
-   "nl_jobs": 11
-  },
-  {
-   "id": "ups",
-   "name": "UPS",
-   "entities": [
-    "UPS SCS (Nederland) B.V.",
-    "United Parcel Service Nederland B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: Download is starting\nCall log:\n  - navigating to \"https://www.ups.com/en/career",
-   "careers_link": "https://www.ups.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "van-berkel-logistics",
-   "name": "Van Berkel Logistics",
-   "entities": [
-    "Van Berkel Logistics B.V."
-   ],
-   "group": "road_rail",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "jsonld",
-   "careers_link": "https://www.vanberkellogistics.nl/werken-bij/",
-   "nl_jobs": 1
-  },
-  {
-   "id": "world-asia-logistics",
-   "name": "World Asia Logistics",
-   "entities": [
-    "World Asia Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.myworldasia.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.myworldasia.com/careers",
-    "https://www.myworldasia.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.myworldasia.com/en/careers",
-    "https://www.myworldasia.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.myworldasia.com/careers",
-    "https://www.myworldasia.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.myworldasia.com/nl/werken-bij",
-    "https://www.myworldasia.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.myworldasia.com/werken-bij",
-    "https://www.myworldasia.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.myworldasia.com/vacatures"
-   ],
-   "rendering": "rendered ['https://myworldasia.com/'], found 0 link(s); saw ['/global-offices', '/management', '/contact', '/tracking', '/freight-forwarding', '/customs']",
-   "careers_link": "https://www.myworldasia.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "world-courier",
-   "name": "World Courier",
-   "entities": [
-    "World Courier Holland B.V."
-   ],
-   "group": "parcel",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "phenom",
-   "careers_link": "https://careers.cencora.com/",
-   "nl_jobs": 49
-  },
-  {
-   "id": "world-freight-logistics",
-   "name": "World Freight Logistics",
-   "entities": [
-    "World Freight Logistics B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.worldfreight.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/careers",
-    "https://www.worldfreight.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/en/careers",
-    "https://www.worldfreight.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/careers/",
-    "https://www.worldfreight.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/nl/werken-bij",
-    "https://www.worldfreight.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/werken-bij",
-    "https://www.worldfreight.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.worldfreight.nl/vacatures"
-   ],
-   "rendering": "rendered ['https://worldfreight.nl/'], found 0 link(s); saw ['/blog/lancering-website', '[other host] +31629120619', '/blog.html', '/setup-menu.html', '[other host] /onderwerpen/brexit', '/backfuture.html']",
-   "careers_link": "https://www.worldfreight.nl/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "yamato-transport-europe",
-   "name": "Yamato Transport Europe",
-   "entities": [
-    "Yamato Transport Europe B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://www.yamatoeurope.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/careers",
-    "https://www.yamatoeurope.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/careers/",
-    "https://www.yamatoeurope.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/nl/werken-bij",
-    "https://www.yamatoeurope.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/werken-bij",
-    "https://www.yamatoeurope.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/vacatures",
-    "https://www.yamatoeurope.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.yamatoeurope.com/nl/vacatures"
-   ],
-   "rendering": "rendered ['https://yamatoeurope.com/', 'https://www.yamatoeurope.com/vacancies', 'https://www.yamatoeurope.com/en/careers', 'https://yamatoeurope.com/vacancies', 'https://www.yamatoeurope.com/wp-content/uploads/2018/05/careers.jpg'], found 0 link(s); saw ['/yamato-news/', '/yamato-en-france/', '/yamato-deutschland/', '/access-to-europe/grow-your-business-in-europe/', '/yamato-nederland/', '/yamato-italia/']",
-   "careers_link": "https://www.yamatoeurope.com/vacancies",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "yang-ming",
-   "name": "Yang Ming",
-   "entities": [
-    "Yang Ming (Netherlands) B.V."
-   ],
-   "group": "shipping",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "no_careers_system_found",
-   "vendor": null,
-   "notes": [
-    "https://yangming.com/ -> ConnectionError: HTTPSConnectionPool(host='yangming.com', port=443): Max retries exceeded with url: / (Caus",
-    "https://www.yangming.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.yangming.com/en/careers",
-    "https://www.yangming.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.yangming.com/en/careers",
-    "https://www.yangming.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.yangming.com/en/careers",
-    "https://www.yangming.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.yangming.com/en/nl/werken-bij",
-    "https://www.yangming.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.yangming.com/en/werken-bij"
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://yangming.com/\nCall log:\n  - navigating to",
-   "careers_link": "https://www.yangming.com/careers",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "yusen-logistics",
-   "name": "Yusen Logistics",
-   "entities": [
-    "Yusen Logistics (Benelux) B.V.",
-    "Yusen Logistics (Europe) B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": null,
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "site_unreachable",
-   "vendor": null,
-   "notes": [
-    "https://nl.yusen-logistics.com/ -> ConnectionError: HTTPSConnectionPool(host='nl.yusen-logistics.com', port=443): Max retries exceeded with ur",
-    "https://www.nl.yusen-logistics.com/ -> ConnectionError: HTTPSConnectionPool(host='www.nl.yusen-logistics.com', port=443): Max retries exceeded wit"
-   ],
-   "rendering": "rendered [], found 0 link(s); Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://nl.yusen-logistics.com/\nCall log:\n  - nav",
-   "careers_link": "https://nl.yusen-logistics.com/",
-   "nl_jobs": 0,
-   "showing_old_data": false
-  },
-  {
-   "id": "zencargo",
-   "name": "Zencargo",
-   "entities": [
-    "Zencargo NL B.V."
-   ],
-   "group": "forwarders",
-   "extra_keywords": [],
-   "last_success": "2026-10-28",
-   "checked_at": "2026-10-28T00:13+00:00",
-   "status": "ok",
-   "method": "jsonld+careerpage",
-   "careers_link": "https://www.zencargo.com/careers/",
-   "nl_jobs": 0,
-   "retry_discovery": true
   }
  ]
 }
