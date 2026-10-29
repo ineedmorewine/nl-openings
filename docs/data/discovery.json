@@ -1937,6 +1937,7 @@
   "checked_pages": [
    "https://jdlogistics.com/",
    "https://www.jdlogistics.com/",
+   "https://jdlogistics.com/careers/",
    "https://www.jdlogistics.com/careers",
    "https://www.jdlogistics.com/en/careers",
    "https://www.jdlogistics.com/careers/",
@@ -1950,7 +1951,6 @@
    "https://www.jdlogistics.com/en/career",
    "https://jdlogistics.com/careers",
    "https://jdlogistics.com/en/careers",
-   "https://jdlogistics.com/careers/",
    "https://jdlogistics.com/nl/werken-bij",
    "https://jdlogistics.com/werken-bij",
    "https://jdlogistics.com/vacatures",
@@ -1959,27 +1959,24 @@
   "reached_pages": [
    "https://jdlogistics.com/",
    "https://www.jdlogistics.com/",
+   "https://jdlogistics.com/careers/",
    "https://www.jdlogistics.com/careers",
    "https://www.jdlogistics.com/en/careers",
    "https://www.jdlogistics.com/careers/",
-   "https://www.jdlogistics.com/nl/werken-bij",
-   "https://www.jdlogistics.com/werken-bij",
-   "https://www.jdlogistics.com/vacatures",
-   "https://www.jdlogistics.com/nl/vacatures",
-   "https://www.jdlogistics.com/jobs",
-   "https://www.jdlogistics.com/en/jobs",
    "https://www.jdlogistics.com/career",
    "https://www.jdlogistics.com/en/career",
    "https://jdlogistics.com/careers",
-   "https://jdlogistics.com/en/careers",
-   "https://jdlogistics.com/careers/",
-   "https://jdlogistics.com/nl/werken-bij",
-   "https://jdlogistics.com/werken-bij",
-   "https://jdlogistics.com/vacatures",
-   "https://jdlogistics.com/nl/vacatures"
+   "https://jdlogistics.com/en/careers"
   ],
   "reason": "no_careers_system_found",
-  "notes": [],
+  "notes": [
+   "https://www.jdlogistics.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/nl/werken-bij",
+   "https://www.jdlogistics.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/werken-bij",
+   "https://www.jdlogistics.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/vacatures",
+   "https://www.jdlogistics.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/nl/vacatures",
+   "https://www.jdlogistics.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/jobs",
+   "https://www.jdlogistics.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://jdlogistics.com/en/jobs"
+  ],
   "checked_at": "2026-10-29"
  },
  "koyanagi-worldwide": {
@@ -3393,39 +3390,39 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://janssen-air.nl/",
-   "https://www.janssen-air.nl/",
-   "https://www.janssen-air.nl/careers",
-   "https://www.janssen-air.nl/en/careers",
-   "https://www.janssen-air.nl/careers/",
-   "https://www.janssen-air.nl/nl/werken-bij",
-   "https://www.janssen-air.nl/werken-bij",
-   "https://www.janssen-air.nl/vacatures",
-   "https://www.janssen-air.nl/nl/vacatures",
-   "https://www.janssen-air.nl/jobs",
-   "https://www.janssen-air.nl/en/jobs",
-   "https://www.janssen-air.nl/career",
-   "https://www.janssen-air.nl/en/career",
-   "https://janssen-air.nl/careers",
-   "https://janssen-air.nl/en/careers",
-   "https://janssen-air.nl/careers/",
-   "https://janssen-air.nl/nl/werken-bij",
-   "https://janssen-air.nl/werken-bij",
-   "https://janssen-air.nl/vacatures",
-   "https://janssen-air.nl/nl/vacatures"
+   "https://courierslist.com/",
+   "https://www.courierslist.com/",
+   "https://www.courierslist.com/careers",
+   "https://www.courierslist.com/en/careers",
+   "https://www.courierslist.com/careers/",
+   "https://www.courierslist.com/nl/werken-bij",
+   "https://www.courierslist.com/werken-bij",
+   "https://www.courierslist.com/vacatures",
+   "https://www.courierslist.com/nl/vacatures",
+   "https://www.courierslist.com/jobs",
+   "https://www.courierslist.com/en/jobs",
+   "https://www.courierslist.com/career",
+   "https://www.courierslist.com/en/career",
+   "https://courierslist.com/careers",
+   "https://courierslist.com/en/careers",
+   "https://courierslist.com/careers/",
+   "https://courierslist.com/nl/werken-bij",
+   "https://courierslist.com/werken-bij",
+   "https://courierslist.com/vacatures",
+   "https://courierslist.com/nl/vacatures"
   ],
   "reached_pages": [
-   "https://janssen-air.nl/",
-   "https://www.janssen-air.nl/"
+   "https://courierslist.com/",
+   "https://www.courierslist.com/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://www.janssen-air.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.janssen-air.nl/careers",
-   "https://www.janssen-air.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.janssen-air.nl/en/careers",
-   "https://www.janssen-air.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.janssen-air.nl/careers/",
-   "https://www.janssen-air.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.janssen-air.nl/nl/werken-bij",
-   "https://www.janssen-air.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.janssen-air.nl/werken-bij",
-   "https://www.janssen-air.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.janssen-air.nl/vacatures"
+   "https://www.courierslist.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/careers",
+   "https://www.courierslist.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/en/careers",
+   "https://www.courierslist.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/careers/",
+   "https://www.courierslist.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/nl/werken-bij",
+   "https://www.courierslist.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/werken-bij",
+   "https://www.courierslist.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/vacatures"
   ],
   "checked_at": "2026-10-29"
  },
@@ -3467,7 +3464,7 @@
    "https://www.just-ride.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/werken-bij",
    "https://www.just-ride.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/vacatures"
   ],
-  "checked_at": "2026-10-28"
+  "checked_at": "2026-10-29"
  },
  "kroog-logistics": {
   "source": null,
@@ -5214,68 +5211,6 @@
   "notes": [],
   "checked_at": "2026-10-28"
  },
- "century-distribution-systems": {
-  "source": null,
-  "vendor": null,
-  "checked_pages": [
-   "https://centuryvms.com/",
-   "https://www.centuryvms.com/",
-   "https://www.centuryvms.com/careers",
-   "https://www.centuryvms.com/en/careers",
-   "https://www.centuryvms.com/careers/",
-   "https://www.centuryvms.com/nl/werken-bij",
-   "https://www.centuryvms.com/werken-bij",
-   "https://www.centuryvms.com/vacatures",
-   "https://www.centuryvms.com/nl/vacatures",
-   "https://www.centuryvms.com/jobs",
-   "https://www.centuryvms.com/en/jobs",
-   "https://www.centuryvms.com/career",
-   "https://www.centuryvms.com/en/career",
-   "https://centuryvms.com/careers",
-   "https://centuryvms.com/en/careers",
-   "https://centuryvms.com/careers/",
-   "https://centuryvms.com/nl/werken-bij",
-   "https://centuryvms.com/werken-bij",
-   "https://centuryvms.com/vacatures",
-   "https://centuryvms.com/nl/vacatures"
-  ],
-  "reached_pages": [
-   "https://centuryvms.com/",
-   "https://www.centuryvms.com/"
-  ],
-  "reason": "no_careers_system_found",
-  "notes": [
-   "https://www.centuryvms.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.centuryvms.com/careers",
-   "https://www.centuryvms.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.centuryvms.com/en/careers",
-   "https://www.centuryvms.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.centuryvms.com/careers/",
-   "https://www.centuryvms.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.centuryvms.com/nl/werken-bij",
-   "https://www.centuryvms.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.centuryvms.com/werken-bij",
-   "https://www.centuryvms.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.centuryvms.com/vacatures"
-  ],
-  "checked_at": "2026-10-29"
- },
- "prospect-transport-logistiek": {
-  "source": {
-   "type": "careerpage",
-   "url": "https://prospect-logistiek.nl/werk-met-ons-samen/"
-  },
-  "vendor": null,
-  "checked_pages": [
-   "https://prospect-logistiek.nl/",
-   "https://www.prospect-logistiek.nl/",
-   "https://prospect-logistiek.nl/vacature/chauffeur-c/",
-   "https://prospect-logistiek.nl/werk-met-ons-samen/"
-  ],
-  "reached_pages": [
-   "https://prospect-logistiek.nl/",
-   "https://www.prospect-logistiek.nl/",
-   "https://prospect-logistiek.nl/vacature/chauffeur-c/",
-   "https://prospect-logistiek.nl/werk-met-ons-samen/"
-  ],
-  "reason": "found",
-  "notes": [],
-  "checked_at": "2026-10-29"
- },
  "stena-line": {
   "source": {
    "type": "careerpage",
@@ -5291,6 +5226,66 @@
    "https://stenaline.com/",
    "https://www.stenaline.com/",
    "https://stenaline.com/job-openings/"
+  ],
+  "reason": "found",
+  "notes": [],
+  "checked_at": "2026-10-29"
+ },
+ "dimerco-express": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://dimerco.com/",
+   "https://www.dimerco.com/",
+   "https://dimerco.com/careers/",
+   "https://www.dimerco.com/careers",
+   "https://www.dimerco.com/en/careers",
+   "https://www.dimerco.com/careers/",
+   "https://www.dimerco.com/nl/werken-bij",
+   "https://www.dimerco.com/werken-bij",
+   "https://www.dimerco.com/vacatures",
+   "https://www.dimerco.com/nl/vacatures",
+   "https://www.dimerco.com/jobs",
+   "https://www.dimerco.com/en/jobs",
+   "https://www.dimerco.com/career",
+   "https://www.dimerco.com/en/career",
+   "https://dimerco.com/careers",
+   "https://dimerco.com/en/careers",
+   "https://dimerco.com/nl/werken-bij",
+   "https://dimerco.com/werken-bij",
+   "https://dimerco.com/vacatures",
+   "https://dimerco.com/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://dimerco.com/",
+   "https://www.dimerco.com/"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/careers/",
+   "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
+   "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
+   "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
+   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij",
+   "https://www.dimerco.com/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/werken-bij"
+  ],
+  "checked_at": "2026-10-29"
+ },
+ "mn-logistics-international": {
+  "source": {
+   "type": "careerpage",
+   "url": "https://logisticsmn.nl/vacatures/"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://logisticsmn.nl/",
+   "https://www.logisticsmn.nl/",
+   "https://logisticsmn.nl/vacatures/"
+  ],
+  "reached_pages": [
+   "https://logisticsmn.nl/",
+   "https://www.logisticsmn.nl/",
+   "https://logisticsmn.nl/vacatures/"
   ],
   "reason": "found",
   "notes": [],
