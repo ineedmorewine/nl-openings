@@ -1025,9 +1025,9 @@
   "reason": "no_careers_system_found",
   "notes": [
    "https://hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/en/careers",
-   "https://www.hmm21.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers/",
+   "https://www.hmm21.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers",
+   "https://www.hmm21.com/en/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/careers/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
    "https://www.hmm21.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/nl/werken-bij",
    "https://www.hmm21.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/werken-bij"
   ],
@@ -3237,13 +3237,50 @@
   "vendor": null,
   "checked_pages": [
    "https://fujitrans.co.jp/",
-   "https://www.fujitrans.co.jp/"
+   "https://www.fujitrans.co.jp/",
+   "https://recruit.fujitrans.co.jp/",
+   "https://recruit.fujitrans.co.jp",
+   "https://recruit.fujitrans.co.jp/recruit/",
+   "https://recruit.fujitrans.co.jp/sailor_recruitment/",
+   "https://recruit.fujitrans.co.jp/driver_recruitment/",
+   "https://recruit.fujitrans.co.jp/recruit/office/",
+   "https://recruit.fujitrans.co.jp/recruit/current/",
+   "https://recruit.fujitrans.co.jp/recruit/packaging/",
+   "https://recruit.fujitrans.co.jp/driver_recruitment/fujitrans_liner/",
+   "https://recruit.fujitrans.co.jp/mechanic_recruitment/fujitrans_liner2/",
+   "https://recruit.fujitrans.co.jp/driver_recruitment/fujitrans_loadservice/",
+   "https://recruit.fujitrans.co.jp/driver_recruitment/koukoku_kaiun/",
+   "https://recruit.fujitrans.co.jp/sailor_recruitment/engineer/",
+   "https://recruit.fujitrans.co.jp/sailor_recruitment/crew/",
+   "https://www.fujitrans.co.jp/careers",
+   "https://www.fujitrans.co.jp/en/careers",
+   "https://www.fujitrans.co.jp/careers/",
+   "https://www.fujitrans.co.jp/nl/werken-bij"
   ],
-  "reached_pages": [],
-  "reason": "site_unreachable",
+  "reached_pages": [
+   "https://fujitrans.co.jp/",
+   "https://www.fujitrans.co.jp/",
+   "https://recruit.fujitrans.co.jp/",
+   "https://recruit.fujitrans.co.jp",
+   "https://recruit.fujitrans.co.jp/recruit/",
+   "https://recruit.fujitrans.co.jp/sailor_recruitment/",
+   "https://recruit.fujitrans.co.jp/driver_recruitment/",
+   "https://recruit.fujitrans.co.jp/recruit/office/",
+   "https://recruit.fujitrans.co.jp/recruit/current/",
+   "https://recruit.fujitrans.co.jp/recruit/packaging/",
+   "https://recruit.fujitrans.co.jp/driver_recruitment/fujitrans_liner/",
+   "https://recruit.fujitrans.co.jp/mechanic_recruitment/fujitrans_liner2/",
+   "https://recruit.fujitrans.co.jp/driver_recruitment/fujitrans_loadservice/",
+   "https://recruit.fujitrans.co.jp/driver_recruitment/koukoku_kaiun/",
+   "https://recruit.fujitrans.co.jp/sailor_recruitment/engineer/",
+   "https://recruit.fujitrans.co.jp/sailor_recruitment/crew/"
+  ],
+  "reason": "no_careers_system_found",
   "notes": [
-   "https://fujitrans.co.jp/ -> ConnectTimeout: HTTPSConnectionPool(host='fujitrans.co.jp', port=443): Max retries exceeded with url: / (C",
-   "https://www.fujitrans.co.jp/ -> ConnectTimeout: HTTPSConnectionPool(host='www.fujitrans.co.jp', port=443): Max retries exceeded with url: "
+   "https://www.fujitrans.co.jp/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/careers",
+   "https://www.fujitrans.co.jp/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/en/careers",
+   "https://www.fujitrans.co.jp/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/careers/",
+   "https://www.fujitrans.co.jp/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/nl/werken-bij"
   ],
   "checked_at": "2026-10-31"
  },
@@ -4904,26 +4941,6 @@
   "reason": "found",
   "notes": [],
   "checked_at": "2026-10-26"
- },
- "al-international-transport-logistics": {
-  "source": {
-   "type": "careerpage",
-   "url": "https://alpi.nl/vacature/"
-  },
-  "vendor": null,
-  "checked_pages": [
-   "https://alpi.nl/",
-   "https://www.alpi.nl/",
-   "https://alpi.nl/vacature/"
-  ],
-  "reached_pages": [
-   "https://alpi.nl/",
-   "https://www.alpi.nl/",
-   "https://alpi.nl/vacature/"
-  ],
-  "reason": "found",
-  "notes": [],
-  "checked_at": "2026-10-31"
  },
  "arvato": {
   "source": {
