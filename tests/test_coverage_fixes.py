@@ -3,7 +3,7 @@ import unittest
 from collector.adapters import careerpage, rmk, vendors
 from collector.adapters.careerpage import _looks_like_a_posting
 from collector.adapters import sitemap
-from collector.discovery import detect_source, discover, find_domain
+from collector.discovery import detect_source, discover, find_domain, search_careers_pages
 from tests.fakes import FakeNet
 
 # ---------------------------------------------------------------- silent zeros
@@ -1030,3 +1030,33 @@ class EveryCompanyGetsItsTurn(unittest.TestCase):
         order = [c["id"] for c in run.least_recently_checked_first(companies, previous)]
         # "c" has never been checked at all, so it waited longest of the three.
         self.assertEqual(order, ["c", "b", "a"])
+
+
+class TheCareersPageIsSearchedForWhenTheSiteHidesIt(unittest.TestCase):
+    SEARCH = "https://html.duckduckgo.com/html/?q=Acme+Logistics+vacatures+werken+bij"
+
+    def results(self, *links):
+        return "".join(f'<a class="result__a" href="{link}">x</a>' for link in links)
+
+    def test_a_vacancy_site_named_after_the_company_is_accepted(self):
+        net = FakeNet({self.SEARCH: self.results(
+            "https://nl.indeed.com/acme-jobs",
+            "https://werkenbijacme.nl/vacatures")})
+        found = search_careers_pages(net, {"name": "Acme Logistics", "domain": "acme.nl"})
+        self.assertEqual(found, ["https://werkenbijacme.nl/vacatures"])
+
+    def test_someone_elses_site_is_refused(self):
+        net = FakeNet({self.SEARCH: self.results("https://anothercompany.nl/vacatures")})
+        self.assertEqual(search_careers_pages(net, {"name": "Acme Logistics", "domain": "acme.nl"}), [])
+
+    def test_the_search_result_is_read_when_the_site_gave_nothing(self):
+        net = FakeNet({
+            "https://acme.nl/": "<html>nothing</html>",
+            "https://www.acme.nl/": "<html>nothing</html>",
+            self.SEARCH: self.results("https://werkenbijacme.nl/vacatures"),
+            "https://werkenbijacme.nl/vacatures":
+                '<script src="https://boards.greenhouse.io/embed/job_board/js?for=acme"></script>',
+        })
+        found = discover(net, {"id": "acme", "name": "Acme Logistics", "domain": "acme.nl"})
+        self.assertEqual(found["reason"], "found")
+        self.assertEqual(found["source"]["type"], "greenhouse")

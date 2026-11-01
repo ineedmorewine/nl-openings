@@ -36,7 +36,9 @@ IGNORED_SLUGS = {"api", "static", "assets", "cdn", "js", "css", "embed", "onecli
                  "this_part", "your-company", "yourcompany", "company-name", "example",
                  "demo", "test", "token", "board-token", "your_token",
                  # shared vendor infrastructure, not a customer account
-                 "careers-analytics", "analytics", "cdn-assets", "help", "support"}
+                 "careers-analytics", "analytics", "cdn-assets", "help", "support",
+                 # tracking and tag hosts that merely borrow a vendor's domain
+                 "tagging-server", "tagging", "tracking", "tag", "pixel", "events"}
 
 # (adapter, regex, builder) in priority order; builders turn a match into adapter params.
 STRONG_SIGNATURES = [
@@ -241,6 +243,38 @@ def find_domain(net, name):
     return None
 
 
+def search_careers_pages(net, company):
+    """Look up a company's careers page the way a person would: search for it.
+
+    Guessing addresses and following links finds the tidy sites. It misses the
+    employer whose vacancies live on werkenbij<brand>.nl, on a jobs subdomain,
+    or behind a page whose link never appears in markup we can download. A
+    search engine already knows where these are.
+
+    Only pages on the company's own site, or on a host built from its name, are
+    accepted: a vacancy on a job board is not the employer publishing it.
+    """
+    name = company.get("name") or ""
+    domain = (company.get("domain") or "").replace("www.", "")
+    brand = re.sub(r"[^a-z0-9]", "", fold(domain.split(".")[0] if domain else name))[:18]
+    try:
+        markup = net.get(SEARCH_URL, params={"q": f"{name} vacatures werken bij"}).text
+    except Exception:
+        return []
+    found = []
+    for link in [first or second for first, second in _RESULT_HREF.findall(markup or "")][:10]:
+        redirected = _REDIRECTED.search(link)
+        link = unquote(redirected.group(1)) if redirected else link
+        host = urlparse(link).netloc.lower().replace("www.", "")
+        if not host or any(skip in host for skip in _NOT_A_COMPANY_SITE):
+            continue
+        own_site = domain and (host == domain or host.endswith("." + domain))
+        named_after_it = brand and len(brand) > 3 and brand in host.replace("-", "")
+        if (own_site or named_after_it) and link not in found:
+            found.append(link)
+    return found[:4]
+
+
 _SITEMAP_URL = re.compile(r"<loc>\s*([^<\s]+)\s*</loc>", re.I)
 _VACANCY_URL = re.compile(r"/(vacature|vacatures|vacancy|vacancies|job|jobs|werken-bij)[/-]", re.I)
 SITEMAP_PATHS = ["/sitemap.xml", "/sitemap_index.xml", "/wp-sitemap.xml"]
@@ -342,6 +376,27 @@ def discover(net, company):
             return {"source": {"type": "sitemap", "urls": vacancies[:40]}, "vendor": None,
                     "checked_pages": visited, "reached_pages": reached,
                     "reason": "found", "notes": notes}
+
+    # Nothing on the site, and nothing in its sitemap. Ask a search engine where
+    # the company's vacancies are, and read what it points at: a careers page on
+    # a host of its own is invisible to everything above.
+    for page in search_careers_pages(net, company):
+        if page in visited:
+            continue
+        visited.append(page)
+        try:
+            response = net.get(page)
+        except Exception as error:
+            notes.append(f"{page} -> {type(error).__name__}: {str(error)[:90]}")
+            continue
+        reachable = True
+        reached.append(page)
+        final_url = getattr(response, "url", None) or page
+        source, vendor = detect_source(response.text, final_url)
+        if source:
+            return {"source": source, "vendor": None, "checked_pages": visited,
+                    "reached_pages": reached, "reason": "found", "notes": notes}
+        weak_vendor = weak_vendor or vendor
 
     if not reachable:
         reason = "site_unreachable"

@@ -365,8 +365,16 @@ def collect_company(net, company, discovery_cache, filters, previous_by_id, toda
             if discovered:
                 # Forget the guess so the next run looks for the careers system again.
                 discovery_cache.pop(company["id"], None)
-            return {"status": "read_failed", "method": method,
-                    "detail": f"{type(error).__name__}: {str(error)[:160]}"}, None
+            # A recruitment system that refuses us is not the end of the company.
+            # Its vacancies are usually also published as ordinary pages, and
+            # four companies were being written off on a wrong guess alone.
+            detail = f"{type(error).__name__}: {str(error)[:160]}"
+            rescue = (second_opinion(net, company, discovery_cache)
+                      or rendered_second_opinion(renderer, company, discovery_cache))
+            if not (rescue and rescue["jobs"]):
+                return {"status": "read_failed", "method": method, "detail": detail}, None
+            raw_jobs, adapter, params = rescue["jobs"], careerpage, rescue["params"]
+            method = "careerpage (after {} failed)".format(source.get("type"))
 
     if not raw_jobs:
         # The recruitment system answered but listed nothing. That is sometimes

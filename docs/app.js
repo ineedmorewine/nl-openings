@@ -123,8 +123,29 @@ function passesFilters(job) {
   return true;
 }
 
+// A posting she is not eliminated from on the first read. Two things decide
+// it, both taken from the advertisement's own words: it does not ask for
+// Dutch, and it is written in English, which is what an employer does when it
+// expects to read applications from outside the country. An ad that names a
+// permit, relocation or an English workplace counts whatever language it is in.
+function openToHer(job) {
+  const lab = job.labels || {};
+  if (lab.no_sponsorship) return false;
+  if (lab.sponsorship || lab.relocation || lab.english_workplace) return true;
+  return lab.dutch_required === false && lab.written_in_dutch === false;
+}
+
 function jobsForTab(tab) {
   const matching = state.jobs.filter(passesFilters);
+  if (tab === "open-to-you") {
+    // Best first: what the employer said out loud, then the rest.
+    const weight = (job) => {
+      const lab = job.labels || {};
+      return (lab.sponsorship ? 0 : lab.relocation ? 1 : lab.english_workplace ? 2 : 3);
+    };
+    return matching.filter(openToHer)
+      .sort((a, b) => weight(a) - weight(b) || recencyDay(b).localeCompare(recencyDay(a)));
+  }
   if (tab === "new") {
     return matching.filter(isNew).sort((a, b) =>
       (b.baseline ? b.posted_at : b.first_seen).localeCompare(a.baseline ? a.posted_at : a.first_seen)
@@ -168,7 +189,8 @@ function renderMasthead() {
 }
 
 function renderTabs() {
-  const counts = { new: jobsForTab("new").length, all: jobsForTab("all").length };
+  const counts = { new: jobsForTab("new").length, all: jobsForTab("all").length,
+                   "open-to-you": jobsForTab("open-to-you").length };
   for (const button of document.querySelectorAll(".tabs button")) {
     const tab = button.dataset.tab;
     const selected = tab === state.ui.tab;
@@ -278,6 +300,10 @@ function renderJobs() {
     return;
   }
   const jobs = jobsForTab(state.ui.tab);
+  // This tab needs saying what it is, since its rule is not obvious from a list.
+  const lede = $("lede");
+  lede.textContent = state.ui.tab === "open-to-you" ? t("lede_open_to_you") : "";
+  lede.hidden = state.ui.tab !== "open-to-you";
   const unfiltered = jobsWithoutUserFilters(state.ui.tab);
   const hiddenByFilters = Math.max(0, unfiltered - jobs.length);
   const count = $("count");
@@ -290,7 +316,9 @@ function renderJobs() {
     }));
   }
   if (!jobs.length) {
-    list.replaceChildren(el("p", { className: "empty", text: state.ui.tab === "new" ? t("empty_new") : t("empty_filtered") }));
+    const empty = state.ui.tab === "new" ? t("empty_new")
+      : state.ui.tab === "open-to-you" ? t("empty_open_to_you") : t("empty_filtered");
+    list.replaceChildren(el("p", { className: "empty", text: empty }));
     return;
   }
   list.replaceChildren(...jobs.map(renderJob));

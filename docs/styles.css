@@ -407,3 +407,11 @@ button.linklike {
 }
 
 .label.abroad { border-color: var(--moss); color: var(--moss); font-weight: 600; }
+
+.lede {
+  max-width: 68ch;
+  margin: 16px 0 0;
+  color: var(--muted);
+}
+
+.lede[hidden] { display: none; }
