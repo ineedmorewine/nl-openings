@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T18:37+00:00",
+ "generated_at": "2026-11-01T21:13+00:00",
  "jobs": [
   {
    "id": "dsv:/job/Moerdijk-Manager-Customer-Service-Nort-4782-JA/1412591333/",
@@ -8695,26 +8695,6 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "amazon:10579838",
-   "company_id": "amazon",
-   "title": "Account Executive , Amazon Ads BLX",
-   "location": "Amsterdam",
-   "url": "https://www.amazon.jobs/en/jobs/10579838/account-executive-amazon-ads-blx",
-   "posted_at": "2026-10-15",
-   "labels": {
-    "rules": 2,
-    "dutch_required": true,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-16",
    "baseline": false
   },
   {

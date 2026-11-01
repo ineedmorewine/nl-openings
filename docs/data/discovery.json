@@ -1536,13 +1536,15 @@
    "https://apexglobe.com/en/careers",
    "https://apexglobe.com/careers/",
    "https://apexglobe.com/nl/werken-bij",
-   "https://apexglobe.com/werken-bij"
+   "https://apexglobe.com/werken-bij",
+   "https://www.apexglobe.com/About_3/56294.html"
   ],
   "reached_pages": [
    "https://apexglobe.com/",
    "https://www.apexglobe.com/",
    "https://apexglobe.com/careers.html",
-   "https://www.apexglobe.com/careers.html"
+   "https://www.apexglobe.com/careers.html",
+   "https://www.apexglobe.com/About_3/56294.html"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -2268,13 +2270,13 @@
    "https://simex-na.com/en-us/job-opportunities"
   ],
   "reached_pages": [
-   "https://www.simex-transport.com/",
    "https://simex-na.com/en-us/job-opportunities"
   ],
   "reason": "found",
   "notes": [
    "https://simex.nl/ -> SSLError: HTTPSConnectionPool(host='simex.nl', port=443): Max retries exceeded with url: / (Caused b",
-   "https://www.simex.nl/ -> SSLError: HTTPSConnectionPool(host='www.simex.nl', port=443): Max retries exceeded with url: / (Caus"
+   "https://www.simex.nl/ -> SSLError: HTTPSConnectionPool(host='www.simex.nl', port=443): Max retries exceeded with url: / (Caus",
+   "https://www.simex-transport.com/ -> ConnectionError: HTTPSConnectionPool(host='www.simex-transport.com', port=443): Max retries exceeded with u"
   ],
   "checked_at": "2026-11-01"
  },
@@ -2302,8 +2304,8 @@
    "https://www.tollgroup.com/jobs",
    "https://www.tollgroup.com/en/jobs",
    "https://www.tollgroup.com/career",
-   "https://www.careers.tollgroup.com/careers/areas-work/global-forwarding",
-   "https://www.careers.tollgroup.com/careers/discover-careers-location/Netherlands"
+   "https://www.careers.tollgroup.com/careers/discover-careers-location/Netherlands",
+   "https://www.careers.tollgroup.com/careers/areas-work/global-forwarding"
   ],
   "reached_pages": [
    "https://tollgroup.com/",
@@ -2329,8 +2331,8 @@
    "https://www.tollgroup.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
    "https://www.tollgroup.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
    "https://www.tollgroup.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/",
-   "https://www.careers.tollgroup.com/careers/areas-work/global-forwarding -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/careers/areas-work/",
-   "https://www.careers.tollgroup.com/careers/discover-careers-location/Netherlands -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/careers/discover-ca"
+   "https://www.careers.tollgroup.com/careers/discover-careers-location/Netherlands -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/careers/discover-ca",
+   "https://www.careers.tollgroup.com/careers/areas-work/global-forwarding -> HTTPError: 403 Client Error: Forbidden for url: https://www.careers.tollgroup.com/careers/areas-work/"
   ],
   "checked_at": "2026-11-01"
  },
@@ -2462,8 +2464,7 @@
    "https://lines.coscoshipping.com/vacatures",
    "https://lines.coscoshipping.com/nl/vacatures",
    "https://lines.coscoshipping.com/homeen/karriere.html",
-   "https://world.lines.coscoshipping.com/home/Recruiting/recruiting/",
-   "http://elines.coscoshipping.com/ebusiness/category/jobs"
+   "https://world.lines.coscoshipping.com/home/Recruiting/recruiting/"
   ],
   "reached_pages": [
    "https://lines.coscoshipping.com/",
@@ -2476,8 +2477,7 @@
    "https://lines.coscoshipping.com/vacatures",
    "https://lines.coscoshipping.com/nl/vacatures",
    "https://lines.coscoshipping.com/homeen/karriere.html",
-   "https://world.lines.coscoshipping.com/home/Recruiting/recruiting/",
-   "http://elines.coscoshipping.com/ebusiness/category/jobs"
+   "https://world.lines.coscoshipping.com/home/Recruiting/recruiting/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -2718,11 +2718,13 @@
    "https://oranjetransport.nl/nl/werken-bij",
    "https://oranjetransport.nl/werken-bij",
    "https://oranjetransport.nl/vacatures",
-   "https://oranjetransport.nl/nl/vacatures"
+   "https://oranjetransport.nl/nl/vacatures",
+   "https://oranjetransport.nl/nl/"
   ],
   "reached_pages": [
    "https://oranjetransport.nl/",
-   "https://www.oranjetransport.nl/"
+   "https://www.oranjetransport.nl/",
+   "https://oranjetransport.nl/nl/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -2976,13 +2978,13 @@
    "https://cet-logistics.com/vacatures",
    "https://cet-logistics.com/nl/vacatures",
    "https://www.cet-logistics.com/en/carreiras",
-   "https://www.cet-logistics.com/carreiras"
+   "https://www.cet-logistics.com/en"
   ],
   "reached_pages": [
    "https://cet-logistics.com/",
    "https://www.cet-logistics.com/",
    "https://www.cet-logistics.com/en/carreiras",
-   "https://www.cet-logistics.com/carreiras"
+   "https://www.cet-logistics.com/en"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -3728,11 +3730,11 @@
    "https://tlogistics.nl/",
    "https://www.tlogistics.nl/",
    "https://tlogistics.eu/category/vacancies/",
-   "https://tlogistics.eu/"
+   "https://tlogistics.eu/orderpickers-orderpackers/"
   ],
   "reached_pages": [
    "https://tlogistics.eu/category/vacancies/",
-   "https://tlogistics.eu/"
+   "https://tlogistics.eu/orderpickers-orderpackers/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -4049,10 +4051,15 @@
   "vendor": null,
   "checked_pages": [
    "https://cargoking.nl/",
-   "https://www.cargoking.nl/"
+   "https://www.cargoking.nl/",
+   "http://www.cargoking.eu/page/recruit01_en",
+   "https://cargoking.pl/en/careers/"
   ],
-  "reached_pages": [],
-  "reason": "site_unreachable",
+  "reached_pages": [
+   "http://www.cargoking.eu/page/recruit01_en",
+   "https://cargoking.pl/en/careers/"
+  ],
+  "reason": "no_careers_system_found",
   "notes": [
    "https://cargoking.nl/ -> SSLError: HTTPSConnectionPool(host='cargoking.nl', port=443): Max retries exceeded with url: / (Caus",
    "https://www.cargoking.nl/ -> SSLError: HTTPSConnectionPool(host='www.cargoking.nl', port=443): Max retries exceeded with url: / ("
@@ -5149,6 +5156,46 @@
    "https://www.dfds.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.dfds.com/en/vacatures",
    "https://www.dfds.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.dfds.com/en/nl/vacatures",
    "https://www.dfds.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.dfds.com/en/jobs"
+  ],
+  "checked_at": "2026-11-01"
+ },
+ "dimerco-express": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://dimerco.com/",
+   "https://www.dimerco.com/",
+   "https://dimerco.com/careers/",
+   "https://www.dimerco.com/careers",
+   "https://www.dimerco.com/en/careers",
+   "https://www.dimerco.com/careers/",
+   "https://www.dimerco.com/nl/werken-bij",
+   "https://www.dimerco.com/werken-bij",
+   "https://www.dimerco.com/vacatures",
+   "https://www.dimerco.com/nl/vacatures",
+   "https://www.dimerco.com/jobs",
+   "https://www.dimerco.com/en/jobs",
+   "https://www.dimerco.com/career",
+   "https://www.dimerco.com/en/career",
+   "https://dimerco.com/careers",
+   "https://dimerco.com/en/careers",
+   "https://dimerco.com/nl/werken-bij",
+   "https://dimerco.com/werken-bij",
+   "https://dimerco.com/vacatures",
+   "https://dimerco.com/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://dimerco.com/",
+   "https://www.dimerco.com/"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/careers/",
+   "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
+   "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
+   "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
+   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij",
+   "https://www.dimerco.com/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/werken-bij"
   ],
   "checked_at": "2026-11-01"
  }
