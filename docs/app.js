@@ -15,6 +15,7 @@ const state = {
   defaultFilters: {},
   filters: {},
   marks: {},
+  board: [],
   ui: { tab: "new", search: "", group: "", sort: "newest", airOcean: false, abroad: false, everything: false, showHidden: false },
 };
 
@@ -190,7 +191,8 @@ function renderMasthead() {
 
 function renderTabs() {
   const counts = { new: jobsForTab("new").length, all: jobsForTab("all").length,
-                   "open-to-you": jobsForTab("open-to-you").length };
+                   "open-to-you": jobsForTab("open-to-you").length,
+                   board: state.board.length };
   for (const button of document.querySelectorAll(".tabs button")) {
     const tab = button.dataset.tab;
     const selected = tab === state.ui.tab;
@@ -199,7 +201,7 @@ function renderTabs() {
     button.replaceChildren(document.createTextNode(label));
     if (tab in counts) button.append(el("span", { className: "tab-count", text: String(counts[tab]) }));
   }
-  $("toolbar").hidden = state.ui.tab === "sources";
+  $("toolbar").hidden = state.ui.tab === "sources" || state.ui.tab === "board";
   $("sort").hidden = state.ui.tab !== "all";
 }
 
@@ -292,7 +294,47 @@ function clearFilters() {
   render();
 }
 
+function boardJobs() {
+  // Newest first. The toolbar's keyword and company controls belong to the
+  // sponsor-list jobs, so they are not offered here and not applied.
+  return state.board.slice()
+    .sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || ""));
+}
+
+function renderBoardJob(job) {
+  const [dayNumber, month] = formatDay(job.first_seen).split(" ");
+  return el("article", { className: "job" }, [
+    el("div", { className: "plate" }, [
+      el("span", { className: "day", text: dayNumber }),
+      el("span", { className: "month", text: month }),
+      el("span", { className: "kind", text: t("seen") }),
+    ]),
+    el("div", {}, [
+      el("h3", {}, [el("a", { href: safeUrl(job.url), target: "_blank", rel: "noopener", text: job.title })]),
+      el("p", { className: "where" }, [
+        el("span", { className: "company", text: job.company }),
+        job.location ? document.createTextNode(`, ${job.location}`) : null,
+      ]),
+    ]),
+    el("div", { className: "actions" }, [
+      el("a", { className: "primary", href: safeUrl(job.url), target: "_blank", rel: "noopener", text: t("open_posting") }),
+    ]),
+  ]);
+}
+
+function renderBoard() {
+  const lede = $("lede");
+  lede.textContent = t("lede_board");
+  lede.hidden = false;
+  const jobs = boardJobs();
+  $("count").replaceChildren(document.createTextNode(
+    jobs.length === 1 ? t("count_showing_one") : t("count_showing", { n: jobs.length })));
+  $("list").replaceChildren(...(jobs.length ? jobs.map(renderBoardJob)
+    : [el("p", { className: "empty", text: t("empty_board") })]));
+}
+
 function renderJobs() {
+  if (state.ui.tab === "board") return renderBoard();
   const list = $("list");
   if (!state.generatedAt) {
     $("count").textContent = "";
@@ -515,6 +557,9 @@ async function start() {
     const [jobs, sources, filters] = await Promise.all([
       loadJson("data/jobs.json"), loadJson("data/sources.json"), loadJson("data/filters.json"),
     ]);
+    // A second source, added later: an older collection has no file for it yet.
+    const board = await loadJson("data/board_jobs.json").catch(() => ({ jobs: [] }));
+    state.board = board.jobs || [];
     state.jobs = jobs.jobs || [];
     state.generatedAt = jobs.generated_at;
     state.sources = sources.sources || [];

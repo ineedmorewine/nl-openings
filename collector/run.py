@@ -17,6 +17,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from .adapters import ADAPTERS, careerpage
+from . import expatboard
 from .discovery import career_links, detect_source, discover, find_domain, homepages
 from .render import BrowserUnavailable, PageRenderer
 from .filters import is_suitable
@@ -30,6 +31,7 @@ JOBS_FILE = DATA_DIR / "jobs.json"
 SOURCES_FILE = DATA_DIR / "sources.json"
 DISCOVERY_FILE = DATA_DIR / "discovery.json"
 FILTERS_FILE = DATA_DIR / "filters.json"
+BOARD_FILE = DATA_DIR / "board_jobs.json"
 
 MAX_DESCRIPTIONS_PER_SOURCE = 150
 MAX_LINK_DESCRIPTIONS = 200
@@ -532,11 +534,30 @@ def main(argv=None):
         sources.append(entry)
         print(f"{cid:<32} {entry['status']:<24} {entry.get('nl_jobs', 0):>4} jobs", flush=True)
 
-    renderer.close()
     all_jobs.sort(key=lambda j: (j.get("posted_at") or j["first_seen"], j["first_seen"]), reverse=True)
     save_json(JOBS_FILE, {"generated_at": now, "jobs": all_jobs})
     save_json(SOURCES_FILE, {"generated_at": now, "sources": sources})
     save_json(DISCOVERY_FILE, discovery_cache)
+
+    # The Welcome to NL board, read after the companies and kept in its own
+    # file: a separate source, and a failure there must not cost the day's work.
+    try:
+        # A browser of its own, so the board is read whatever the companies
+        # spent, and so nothing here can disturb their collection.
+        board_browser = PageRenderer(expatboard.PAGES)
+        try:
+            if board_browser.exhausted:
+                raise RuntimeError(board_browser.last_error or "no browser")
+            was = load_json(BOARD_FILE, {"jobs": []}).get("jobs", [])
+            board = expatboard.merge(was, expatboard.collect(board_browser, filters, today), today)
+            save_json(BOARD_FILE, {"generated_at": now, "jobs": board})
+            print(f"Welcome to NL board: {len(board)} suitable jobs.")
+        finally:
+            board_browser.close()
+    except Exception as error:
+        print(f"Welcome to NL board: not read ({type(error).__name__}: {str(error)[:90]})")
+
+    renderer.close()
     readable = sum(1 for s in sources if s.get("status") == "ok")
     print(f"Done: {readable} of {len(sources)} sources read, {len(all_jobs)} Dutch jobs stored.")
 

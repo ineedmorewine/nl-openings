@@ -2,6 +2,7 @@ import unittest
 
 from collector.adapters import careerpage, rmk, vendors
 from collector.adapters.careerpage import _looks_like_a_posting
+from collector import expatboard
 from collector.adapters import sitemap
 from collector.discovery import detect_source, discover, find_domain, search_careers_pages
 from tests.fakes import FakeNet
@@ -1060,3 +1061,37 @@ class TheCareersPageIsSearchedForWhenTheSiteHidesIt(unittest.TestCase):
         found = discover(net, {"id": "acme", "name": "Acme Logistics", "domain": "acme.nl"})
         self.assertEqual(found["reason"], "found")
         self.assertEqual(found["source"]["type"], "greenhouse")
+
+
+class TheWelcomeToNlBoardIsReadOnItsOwn(unittest.TestCase):
+    CARD = ('<div class="job"><div class="top-card">'
+            '<div class="company-name h6"><div class="job-company"><span>{company}</span></div></div></div>'
+            '<div class="h6 job-title"><div>{title}</div></div>'
+            '<div><span class="tag">{place}</span></div></div>')
+
+    def page(self, *cards):
+        return "<html>" + "".join(self.CARD.format(**c) for c in cards) + "</html>"
+
+    def test_a_suitable_dutch_job_is_kept_and_an_unsuitable_one_is_not(self):
+        markup = self.page(
+            {"company": "DSV", "title": "Transport Planner", "place": "Rotterdam, Netherlands"},
+            {"company": "Trimble", "title": "Software Engineer", "place": "Netherlands"},
+            {"company": "Acme", "title": "Transport Planner", "place": "Berlin, Germany"})
+
+        class Renderer:
+            exhausted = False
+            calls = 0
+
+            def render(self, url):
+                Renderer.calls += 1
+                return markup if Renderer.calls == 1 else "<html></html>"
+
+        filters = {"include": ["planner"], "exclude": []}
+        jobs = expatboard.collect(Renderer(), filters, "2026-11-02")
+        self.assertEqual([(j["company"], j["title"]) for j in jobs], [("DSV", "Transport Planner")])
+        self.assertIn("welcome-to-nl.nl/jobs/?search=", jobs[0]["url"])
+
+    def test_the_day_a_job_first_appeared_is_kept(self):
+        was = [{"id": "welcome-to-nl:dsv:transport planner", "first_seen": "2026-10-20"}]
+        found = [{"id": "welcome-to-nl:dsv:transport planner", "first_seen": "2026-11-02"}]
+        self.assertEqual(expatboard.merge(was, found, "2026-11-02")[0]["first_seen"], "2026-10-20")
