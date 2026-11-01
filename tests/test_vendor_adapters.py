@@ -1,7 +1,7 @@
 import json
 import unittest
 
-from collector.adapters import ADAPTERS
+from collector.adapters import bamboohr, ADAPTERS
 from collector.adapters import vendors
 from collector.discovery import detect_source
 from tests.fakes import FakeNet
@@ -243,3 +243,21 @@ class OracleShowsTheDutchLocation(unittest.TestCase):
         jobs = vendors.oracle_fetch(FakeNet(routes={url: payload}),
                                     {"host": self.host, "site": "CX_1"}, strict=True)
         self.assertEqual(jobs, [])
+
+
+class BambooHrListsItsOpeningsAsData(unittest.TestCase):
+    LIST = "https://acme.bamboohr.com/careers/list"
+
+    def rows(self):
+        return {"result": [
+            {"id": 42, "jobOpeningName": "Transport Planner",
+             "location": {"city": "Rotterdam", "country": "Netherlands"}},
+            {"id": 43, "jobOpeningName": "Transport Planner",
+             "location": {"city": "Chicago", "state": "IL", "country": "United States"}},
+        ]}
+
+    def test_only_the_dutch_opening_is_kept(self):
+        jobs = bamboohr.fetch(FakeNet({self.LIST: self.rows()}), {"account": "acme"}, True)
+        self.assertEqual([j["title"] for j in jobs], ["Transport Planner"])
+        self.assertEqual(jobs[0]["location"], "Rotterdam, Netherlands")
+        self.assertEqual(jobs[0]["url"], "https://acme.bamboohr.com/careers/42")
