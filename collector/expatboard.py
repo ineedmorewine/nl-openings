@@ -12,10 +12,16 @@ import re
 from urllib.parse import quote
 
 from .filters import is_suitable
+from .render import search_board
 from .text import keep_location
 
 BOARD_URL = "https://www.welcome-to-nl.nl/jobs/"
-PAGES = 3
+# The board holds thousands of jobs and shows eighteen at a time, so reading
+# its front page finds whatever is newest, which is rarely logistics. Her own
+# words are typed into its search box instead, one at a time.
+SEARCHES = ["transport planner", "forwarder", "expediteur", "logistics coordinator",
+            "transport coordinator", "supply chain", "freight"]
+PAGES = len(SEARCHES)
 MAX_JOBS = 120
 
 _CARD = re.compile(r'<div class="job">(.*?)(?=<div class="job">|$)', re.S)
@@ -42,25 +48,22 @@ def read_cards(markup):
 
 
 def collect(renderer, filters, today):
-    """Read the board and keep the jobs in the Netherlands that suit her.
+    """Search the board for her work and keep the Dutch jobs that suit her.
 
     Returns [] rather than raising when no browser is available: the board is a
     second source, and the day's collection must not fail over it.
     """
     jobs, seen = [], set()
-    for page in range(1, PAGES + 1):
-        url = BOARD_URL if page == 1 else f"{BOARD_URL}?page={page}"
+    for query in SEARCHES:
         try:
-            markup = renderer.render(url)
+            markup = search_board(renderer, BOARD_URL, query)
         except Exception:
-            break
-        new_on_this_page = 0
+            continue
         for company, title, place in read_cards(markup):
             key = (company.lower(), title.lower())
             if key in seen:
                 continue
             seen.add(key)
-            new_on_this_page += 1
             if not is_suitable(title, filters):
                 continue
             if place and not keep_location(place, True):
@@ -73,8 +76,6 @@ def collect(renderer, filters, today):
                 "url": f"{BOARD_URL}?search={quote(title)}",
                 "first_seen": today,
             })
-        if not new_on_this_page:
-            break  # The same page again: the board has no more to give.
     return jobs[:MAX_JOBS]
 
 

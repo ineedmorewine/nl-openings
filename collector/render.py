@@ -126,3 +126,72 @@ def accept_cookies(page):
             except Exception:
                 continue
     return False
+
+
+SEARCH_WAIT_MS = 3500
+MORE_LABELS = ["Show more jobs", "Load more", "Show more"]
+
+
+def search_board(renderer, url, query, more_clicks=2):
+    """Type a search into a job board and read the results it draws.
+
+    A board that keeps its listings behind a script ignores a query in the
+    address: the Welcome to NL board answers ?search= with its front page. The
+    only way in is the search box itself.
+    """
+    renderer._start()
+    if renderer.budget <= 0:
+        raise BrowserUnavailable("no rendering budget left")
+    renderer.budget -= 1
+    renderer.pages_rendered += 1
+    page = renderer._browser.new_page(
+        user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"),
+        locale="nl-NL",
+    )
+    try:
+        page.goto(url, timeout=renderer.timeout_ms, wait_until="domcontentloaded")
+        try:
+            page.wait_for_load_state("networkidle", timeout=QUIET_NETWORK_MS)
+        except Exception:
+            pass
+        accept_cookies(page)
+        box = _search_box(page)
+        if box is None:
+            raise RuntimeError("no search box on the board")
+        box.fill(query)
+        box.press("Enter")
+        page.wait_for_timeout(SEARCH_WAIT_MS)
+        for _ in range(more_clicks):
+            if not _click_more(page):
+                break
+            page.wait_for_timeout(SEARCH_WAIT_MS)
+        return page.content()
+    finally:
+        page.close()
+
+
+def _search_box(page):
+    for find in (lambda: page.get_by_role("searchbox"),
+                 lambda: page.locator("input[type='search']"),
+                 lambda: page.locator("input[type='text']")):
+        try:
+            box = find()
+            if box.count():
+                return box.first
+        except Exception:
+            continue
+    return None
+
+
+def _click_more(page):
+    for label in MORE_LABELS:
+        try:
+            button = page.get_by_role("button", name=label, exact=False)
+            if button.count() == 0:
+                continue
+            button.first.click(timeout=CONSENT_CLICK_MS)
+            return True
+        except Exception:
+            continue
+    return False

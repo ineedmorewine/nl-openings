@@ -1078,16 +1078,14 @@ class TheWelcomeToNlBoardIsReadOnItsOwn(unittest.TestCase):
             {"company": "Trimble", "title": "Software Engineer", "place": "Netherlands"},
             {"company": "Acme", "title": "Transport Planner", "place": "Berlin, Germany"})
 
-        class Renderer:
-            exhausted = False
-            calls = 0
+        pages = iter([markup])
 
-            def render(self, url):
-                Renderer.calls += 1
-                return markup if Renderer.calls == 1 else "<html></html>"
+        def fake_search(renderer, url, query):
+            return next(pages, "<html></html>")
 
         filters = {"include": ["planner"], "exclude": []}
-        jobs = expatboard.collect(Renderer(), filters, "2026-11-02")
+        with mock.patch.object(expatboard, "search_board", fake_search):
+            jobs = expatboard.collect(object(), filters, "2026-11-02")
         self.assertEqual([(j["company"], j["title"]) for j in jobs], [("DSV", "Transport Planner")])
         self.assertIn("welcome-to-nl.nl/jobs/?search=", jobs[0]["url"])
 
