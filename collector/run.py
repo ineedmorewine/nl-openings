@@ -11,6 +11,7 @@ never wipes the list or makes old jobs look new tomorrow.
 import argparse
 import re
 import json
+import signal
 import time
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -32,6 +33,11 @@ SOURCES_FILE = DATA_DIR / "sources.json"
 DISCOVERY_FILE = DATA_DIR / "discovery.json"
 FILTERS_FILE = DATA_DIR / "filters.json"
 BOARD_FILE = DATA_DIR / "board_jobs.json"
+BOARD_SECONDS = 300
+
+
+def _out_of_time(signum, frame):
+    raise TimeoutError("the board took too long")
 
 MAX_DESCRIPTIONS_PER_SOURCE = 150
 MAX_LINK_DESCRIPTIONS = 200
@@ -541,7 +547,12 @@ def main(argv=None):
 
     # The Welcome to NL board, read after the companies and kept in its own
     # file: a separate source, and a failure there must not cost the day's work.
+    # Driving a page's search box can wait for something that never comes, and
+    # the day's results are not committed until this process ends, so the board
+    # is given a few minutes and no more.
     try:
+        signal.signal(signal.SIGALRM, _out_of_time)
+        signal.alarm(BOARD_SECONDS)
         # A browser of its own, so the board is read whatever the companies
         # spent, and so nothing here can disturb their collection.
         board_browser = PageRenderer(expatboard.PAGES)
@@ -556,6 +567,8 @@ def main(argv=None):
             board_browser.close()
     except Exception as error:
         print(f"Welcome to NL board: not read ({type(error).__name__}: {str(error)[:90]})")
+    finally:
+        signal.alarm(0)
 
     renderer.close()
     readable = sum(1 for s in sources if s.get("status") == "ok")

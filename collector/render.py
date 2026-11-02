@@ -128,7 +128,8 @@ def accept_cookies(page):
     return False
 
 
-SEARCH_WAIT_MS = 3500
+SEARCH_WAIT_MS = 3000
+ACTION_TIMEOUT_MS = 8000
 MORE_LABELS = ["Show more jobs", "Load more", "Show more"]
 
 
@@ -150,6 +151,7 @@ def search_board(renderer, url, query, more_clicks=2):
         locale="nl-NL",
     )
     try:
+        page.set_default_timeout(ACTION_TIMEOUT_MS)
         page.goto(url, timeout=renderer.timeout_ms, wait_until="domcontentloaded")
         try:
             page.wait_for_load_state("networkidle", timeout=QUIET_NETWORK_MS)
@@ -159,8 +161,8 @@ def search_board(renderer, url, query, more_clicks=2):
         box = _search_box(page)
         if box is None:
             raise RuntimeError("no search box on the board")
-        box.fill(query)
-        box.press("Enter")
+        box.fill(query, timeout=ACTION_TIMEOUT_MS)
+        box.press("Enter", timeout=ACTION_TIMEOUT_MS)
         page.wait_for_timeout(SEARCH_WAIT_MS)
         for _ in range(more_clicks):
             if not _click_more(page):
