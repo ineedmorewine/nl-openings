@@ -514,53 +514,22 @@
   "checked_at": "2026-11-01"
  },
  "morrison-express": {
-  "source": null,
+  "source": {
+   "type": "bamboohr",
+   "account": "morrisonexpress"
+  },
   "vendor": null,
   "checked_pages": [
    "https://morrisonexpress.com/",
    "https://www.morrisonexpress.com/",
-   "https://www.morrisonexpress.com/careers/",
-   "https://www.morrisonexpress.com/zh-hant/careers/",
-   "https://www.morrisonexpress.com/zh-hans/careers/",
-   "https://morrisonexpress.bamboohr.com/careers/1345",
-   "https://morrisonexpress.bamboohr.com/careers/1107",
-   "https://morrisonexpress.bamboohr.com/careers/1194",
-   "https://morrisonexpress.bamboohr.com/careers/1313",
-   "https://morrisonexpress.bamboohr.com/careers/990",
-   "https://morrisonexpress.bamboohr.com/careers/965",
-   "https://morrisonexpress.bamboohr.com/careers/953",
-   "https://morrisonexpress.bamboohr.com/careers/936",
-   "https://www.morrisonexpress.com/careers",
-   "https://www.morrisonexpress.com/en/careers",
-   "https://www.morrisonexpress.com/nl/werken-bij",
-   "https://www.morrisonexpress.com/werken-bij",
-   "https://www.morrisonexpress.com/vacatures",
-   "https://www.morrisonexpress.com/nl/vacatures",
-   "https://www.morrisonexpress.com/jobs"
+   "https://www.morrisonexpress.com/careers/"
   ],
   "reached_pages": [
    "https://morrisonexpress.com/",
    "https://www.morrisonexpress.com/",
-   "https://www.morrisonexpress.com/careers/",
-   "https://www.morrisonexpress.com/zh-hant/careers/",
-   "https://www.morrisonexpress.com/zh-hans/careers/",
-   "https://morrisonexpress.bamboohr.com/careers/1345",
-   "https://morrisonexpress.bamboohr.com/careers/1107",
-   "https://morrisonexpress.bamboohr.com/careers/1194",
-   "https://morrisonexpress.bamboohr.com/careers/1313",
-   "https://morrisonexpress.bamboohr.com/careers/990",
-   "https://morrisonexpress.bamboohr.com/careers/965",
-   "https://morrisonexpress.bamboohr.com/careers/953",
-   "https://morrisonexpress.bamboohr.com/careers/936",
-   "https://www.morrisonexpress.com/careers",
-   "https://www.morrisonexpress.com/en/careers",
-   "https://www.morrisonexpress.com/nl/werken-bij",
-   "https://www.morrisonexpress.com/werken-bij",
-   "https://www.morrisonexpress.com/vacatures",
-   "https://www.morrisonexpress.com/nl/vacatures",
-   "https://www.morrisonexpress.com/jobs"
+   "https://www.morrisonexpress.com/careers/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "notes": [],
   "checked_at": "2026-11-01"
  },
@@ -797,8 +766,8 @@
    "https://newcold.com/nl/werken-bij",
    "https://newcold.com/werken-bij",
    "https://jobs.newcold.com/nl/",
-   "https://jobs.newcold.com/",
-   "https://newcold.com/jobs-rheine"
+   "https://jobs.newcold.nl/",
+   "https://jobs.newcold.com/"
   ],
   "reached_pages": [
    "https://newcold.com/",
@@ -810,8 +779,7 @@
    "https://www.newcold.com/careers/",
    "https://newcold.com/careers/",
    "https://jobs.newcold.com/nl/",
-   "https://jobs.newcold.com/",
-   "https://newcold.com/jobs-rheine"
+   "https://jobs.newcold.com/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -928,13 +896,38 @@
   "vendor": null,
   "checked_pages": [
    "https://hmm21.com/",
+   "https://www.hmm21.com/",
+   "https://www.hmm21.com/careers",
+   "https://www.hmm21.com/en/careers",
+   "https://www.hmm21.com/careers/",
+   "https://www.hmm21.com/nl/werken-bij",
+   "https://www.hmm21.com/werken-bij",
+   "https://www.hmm21.com/vacatures",
+   "https://www.hmm21.com/nl/vacatures",
+   "https://www.hmm21.com/jobs",
+   "https://www.hmm21.com/en/jobs",
+   "https://www.hmm21.com/career",
+   "https://www.hmm21.com/en/career",
+   "https://hmm21.com/careers",
+   "https://hmm21.com/en/careers",
+   "https://hmm21.com/careers/",
+   "https://hmm21.com/nl/werken-bij",
+   "https://hmm21.com/werken-bij",
+   "https://hmm21.com/vacatures",
+   "https://hmm21.com/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://hmm21.com/",
    "https://www.hmm21.com/"
   ],
-  "reached_pages": [],
-  "reason": "site_unreachable",
+  "reason": "no_careers_system_found",
   "notes": [
-   "https://hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)"
+   "https://www.hmm21.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers",
+   "https://www.hmm21.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/en/careers",
+   "https://www.hmm21.com/careers/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/nl/werken-bij",
+   "https://www.hmm21.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/werken-bij",
+   "https://www.hmm21.com/vacatures -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)"
   ],
   "checked_at": "2026-11-01"
  },
@@ -1633,14 +1626,16 @@
    "https://eusu-logistics.com/en/careers",
    "https://eusu-logistics.com/careers/",
    "https://eusu-logistics.com/nl/werken-bij",
-   "https://www.eusu-logistics.com/en/sub/recruit/interview.asp"
+   "https://www.eusu-logistics.com/en/sub/recruit/interview.asp",
+   "https://www.eusu-logistics.com/en/"
   ],
   "reached_pages": [
    "https://www.eusu-logistics.com/",
    "https://www.eusu-logistics.com/kr/sub/recruit/interview.asp",
    "https://www.eusu-logistics.com/kr/sub/recruit/recruit.asp",
    "https://www.eusu-logistics.com/kr/sub/recruit/welfare.asp",
-   "https://www.eusu-logistics.com/en/sub/recruit/interview.asp"
+   "https://www.eusu-logistics.com/en/sub/recruit/interview.asp",
+   "https://www.eusu-logistics.com/en/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -1691,8 +1686,7 @@
    "https://www.hanjin.com/en/careers",
    "https://www.hanjin.com/careers/",
    "https://www.hanjin.com/nl/werken-bij",
-   "https://www.hanjin.com/werken-bij",
-   "https://www.hanjinusa.com/"
+   "https://www.hanjin.com/werken-bij"
   ],
   "reached_pages": [
    "https://hanjin.com/",
@@ -1712,8 +1706,7 @@
    "https://www.hanjin.com/kor/CMS/RecruitMgr/agree.do?mCode=MN019&recruit_seq=142",
    "https://www.hanjin.com/careers",
    "https://www.hanjin.com/careers/",
-   "https://www.hanjin.com/werken-bij",
-   "https://www.hanjinusa.com/"
+   "https://www.hanjin.com/werken-bij"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -3209,39 +3202,39 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://courierslist.com/",
-   "https://www.courierslist.com/",
-   "https://www.courierslist.com/careers",
-   "https://www.courierslist.com/en/careers",
-   "https://www.courierslist.com/careers/",
-   "https://www.courierslist.com/nl/werken-bij",
-   "https://www.courierslist.com/werken-bij",
-   "https://www.courierslist.com/vacatures",
-   "https://www.courierslist.com/nl/vacatures",
-   "https://www.courierslist.com/jobs",
-   "https://www.courierslist.com/en/jobs",
-   "https://www.courierslist.com/career",
-   "https://www.courierslist.com/en/career",
-   "https://courierslist.com/careers",
-   "https://courierslist.com/en/careers",
-   "https://courierslist.com/careers/",
-   "https://courierslist.com/nl/werken-bij",
-   "https://courierslist.com/werken-bij",
-   "https://courierslist.com/vacatures",
-   "https://courierslist.com/nl/vacatures"
+   "https://janssen-air.nl/",
+   "https://www.janssen-air.nl/",
+   "https://www.janssen-air.nl/careers",
+   "https://www.janssen-air.nl/en/careers",
+   "https://www.janssen-air.nl/careers/",
+   "https://www.janssen-air.nl/nl/werken-bij",
+   "https://www.janssen-air.nl/werken-bij",
+   "https://www.janssen-air.nl/vacatures",
+   "https://www.janssen-air.nl/nl/vacatures",
+   "https://www.janssen-air.nl/jobs",
+   "https://www.janssen-air.nl/en/jobs",
+   "https://www.janssen-air.nl/career",
+   "https://www.janssen-air.nl/en/career",
+   "https://janssen-air.nl/careers",
+   "https://janssen-air.nl/en/careers",
+   "https://janssen-air.nl/careers/",
+   "https://janssen-air.nl/nl/werken-bij",
+   "https://janssen-air.nl/werken-bij",
+   "https://janssen-air.nl/vacatures",
+   "https://janssen-air.nl/nl/vacatures"
   ],
   "reached_pages": [
-   "https://courierslist.com/",
-   "https://www.courierslist.com/"
+   "https://janssen-air.nl/",
+   "https://www.janssen-air.nl/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://www.courierslist.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/careers",
-   "https://www.courierslist.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/en/careers",
-   "https://www.courierslist.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/careers/",
-   "https://www.courierslist.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/nl/werken-bij",
-   "https://www.courierslist.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/werken-bij",
-   "https://www.courierslist.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/vacatures"
+   "https://www.janssen-air.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.janssen-air.nl/careers",
+   "https://www.janssen-air.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.janssen-air.nl/en/careers",
+   "https://www.janssen-air.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.janssen-air.nl/careers/",
+   "https://www.janssen-air.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.janssen-air.nl/nl/werken-bij",
+   "https://www.janssen-air.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.janssen-air.nl/werken-bij",
+   "https://www.janssen-air.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.janssen-air.nl/vacatures"
   ],
   "checked_at": "2026-11-01"
  },
@@ -5052,53 +5045,22 @@
   "checked_at": "2026-11-01"
  },
  "freight-international-holding": {
-  "source": null,
+  "source": {
+   "type": "careerpage",
+   "url": "https://cyberfreight.nl/vacatures/"
+  },
   "vendor": null,
   "checked_pages": [
-   "https://northdata.com/",
-   "https://www.northdata.com/",
-   "https://www.northdata.com/_career",
-   "https://www.northdata.com/_login?targetUrl=https%3A%2F%2Fwww.northdata.com%2F_career",
-   "https://www.northdata.de/_career",
-   "https://www.northdata.de/_login?targetUrl=https%3A%2F%2Fwww.northdata.de%2F_career",
-   "https://www.northdata.com/careers",
-   "https://www.northdata.com/_login?targetUrl=https%3A%2F%2Fwww.northdata.com%2Fcareers",
-   "https://www.northdata.com/Careers%20N%C2%B7V%C2%B7,%20Bruxelles/KBO%200428.005.768",
-   "https://www.northdata.com/SL%20Careers,%20Utrecht/KVK%2098805274",
-   "https://www.northdata.com/C-Careers%20SAS,%20Chatou/Siren%20903722064",
-   "https://www.northdata.com/Career%20Squad%20B%C2%B7V%C2%B7,%20Antwerpen/KBO%200749.713.196",
-   "https://www.northdata.com/CareerSwitch%20B%C2%B7V%C2%B7,%20Aalter/KBO%200543.502.480",
-   "https://www.northdata.com/STP%20Careers%20S%C3%A0rl,%20Villennes-sur-Seine/Siren%20501953186",
-   "https://www.northdata.com/Axon%20Careers%20B%C2%B7V%C2%B7,%20Antwerpen/KBO%200755.684.339",
-   "https://www.northdata.com/NEW%20Careers%20CVBA,%20Waterloo/KBO%200432.899.518",
-   "https://www.northdata.com/Sportcareers%20B%C2%B7V%C2%B7,%20Hasselt/KBO%200786.325.946",
-   "https://www.northdata.com/Crown%20Careers%20BVBA,%20Zaventem/KBO%200461.200.158",
-   "https://www.northdata.com/A&amp;S%20Careers%20B%C2%B7V%C2%B7,%20Hamme/KBO%200897.635.228",
-   "https://www.northdata.com/Jobs4Careers%20B%C2%B7V%C2%B7,%20Schoten/KBO%201030.400.415"
+   "https://cyberfreight.nl/",
+   "https://www.cyberfreight.nl/",
+   "https://cyberfreight.nl/vacatures/"
   ],
   "reached_pages": [
-   "https://northdata.com/",
-   "https://www.northdata.com/",
-   "https://www.northdata.com/_career",
-   "https://www.northdata.com/_login?targetUrl=https%3A%2F%2Fwww.northdata.com%2F_career",
-   "https://www.northdata.de/_career",
-   "https://www.northdata.de/_login?targetUrl=https%3A%2F%2Fwww.northdata.de%2F_career",
-   "https://www.northdata.com/careers",
-   "https://www.northdata.com/_login?targetUrl=https%3A%2F%2Fwww.northdata.com%2Fcareers",
-   "https://www.northdata.com/Careers%20N%C2%B7V%C2%B7,%20Bruxelles/KBO%200428.005.768",
-   "https://www.northdata.com/SL%20Careers,%20Utrecht/KVK%2098805274",
-   "https://www.northdata.com/C-Careers%20SAS,%20Chatou/Siren%20903722064",
-   "https://www.northdata.com/Career%20Squad%20B%C2%B7V%C2%B7,%20Antwerpen/KBO%200749.713.196",
-   "https://www.northdata.com/CareerSwitch%20B%C2%B7V%C2%B7,%20Aalter/KBO%200543.502.480",
-   "https://www.northdata.com/STP%20Careers%20S%C3%A0rl,%20Villennes-sur-Seine/Siren%20501953186",
-   "https://www.northdata.com/Axon%20Careers%20B%C2%B7V%C2%B7,%20Antwerpen/KBO%200755.684.339",
-   "https://www.northdata.com/NEW%20Careers%20CVBA,%20Waterloo/KBO%200432.899.518",
-   "https://www.northdata.com/Sportcareers%20B%C2%B7V%C2%B7,%20Hasselt/KBO%200786.325.946",
-   "https://www.northdata.com/Crown%20Careers%20BVBA,%20Zaventem/KBO%200461.200.158",
-   "https://www.northdata.com/A&amp;S%20Careers%20B%C2%B7V%C2%B7,%20Hamme/KBO%200897.635.228",
-   "https://www.northdata.com/Jobs4Careers%20B%C2%B7V%C2%B7,%20Schoten/KBO%201030.400.415"
+   "https://cyberfreight.nl/",
+   "https://www.cyberfreight.nl/",
+   "https://cyberfreight.nl/vacatures/"
   ],
-  "reason": "no_careers_system_found",
+  "reason": "found",
   "notes": [],
   "checked_at": "2026-11-01"
  },
