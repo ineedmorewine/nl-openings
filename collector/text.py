@@ -179,11 +179,32 @@ def dutch_required(text):
 # is open to them, is that it arranges the permit, pays to move you, or runs in
 # English. Each of these is reported separately so nothing is inferred.
 
+# An employer offering to arrange a permit says so with a verb. Naming a work
+# permit on its own is usually the opposite, a demand that the applicant
+# already holds one, which is how an advertisement asking for fluent Chinese
+# ended up marked as open to her.
 _SPONSORSHIP = re.compile(
-    r"visa\s+(sponsor|support|application|arrange)|sponsor(ship|ing)?\s+(of\s+)?(a\s+)?(visa|work\s+permit)"
-    r"|work(ing)?\s+permit|werkvergunning|tewerkstellingsvergunning"
+    r"visa\s+(sponsor|support|application)"
+    r"|sponsor(ship|ing)?\s+(of\s+)?(a\s+)?(visa|work\s+permit|residence)"
+    r"|(we|company|employer)\s+(can\s+|will\s+|also\s+)*"
+    r"(sponsor|arrange|apply\s+for|provide|support|assist\s+with|take\s+care\s+of)"
+    r"[^.]{0,40}(visa|work\s+permit|residence\s+permit|werkvergunning|verblijfsvergunning)"
+    r"|(sponsor|arrange|apply\s+for|assist\s+with)\s+(your\s+|the\s+|a\s+)?"
+    r"(visa|work\s+permit|residence\s+permit)"
     r"|highly\s+skilled\s+migrant|kennismigrant|ind\s+(recognised|recognized|erkend)"
     r"|30%\s*(tax\s+)?(ruling|regeling)|30%-regeling"
+)
+
+# Some advertisements ask for a language she does not have. They are open to
+# people from abroad, just not to her, so they are recorded rather than hidden.
+_OTHER_LANGUAGE = re.compile(
+    r"(fluent|native|proficient|proficiency|good\s+command|business\s+level|"
+    r"vloeiend|goede\s+beheersing)[^.]{0,40}"
+    r"\b(chinese|mandarin|cantonese|japanese|korean|arabic|russian|polish|turkish|"
+    r"spanish|italian|portuguese|hungarian|romanian|czech|chinees|japans|koreaans|"
+    r"pools|russisch|spaans|italiaans)\b"
+    r"|\b(chinese|mandarin|japanese|korean|arabic|russian|polish)\s+"
+    r"(language\s+)?(skills\s+)?(is\s+|are\s+)?(required|mandatory|a\s+must)"
 )
 _RELOCATION = re.compile(
     r"relocation\s+(package|support|assistance|allowance|bonus|costs?)"
@@ -224,6 +245,7 @@ def international_labels(text):
         "no_sponsorship": refuses,
         "relocation": bool(_RELOCATION.search(folded)),
         "english_workplace": bool(_ENGLISH_WORKPLACE.search(folded)),
+        "other_language": bool(_OTHER_LANGUAGE.search(folded)),
     }
 
 

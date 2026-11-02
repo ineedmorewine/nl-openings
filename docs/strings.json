@@ -39,6 +39,7 @@
   "label_relocation": "Mentions relocation",
   "label_english_workplace": "Works in English",
   "label_no_sponsorship": "No sponsorship",
+  "label_other_language": "Another language required",
   "label_location_missing": "Location not stated",
   "arrived_last_run": "Arrived on the last run",
   "count_showing": "{n} postings",

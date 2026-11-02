@@ -79,7 +79,7 @@ def make_job_id(company_id, raw):
 
 # Raised whenever the reading rules change, so postings already on the list are
 # read again with the new rules instead of keeping an answer from the old ones.
-LABEL_RULES = 2
+LABEL_RULES = 3
 
 
 def language_labels(text):

@@ -130,3 +130,27 @@ class WhatAnAdSaysAboutHiringFromAbroad(unittest.TestCase):
 
     def test_too_little_text_is_not_judged(self):
         self.assertIsNone(international_labels("Transportplanner"))
+
+
+class AdsThatOnlyLookOpen(unittest.TestCase):
+    """Two advertisements reached the "Open to you" list that did not belong."""
+
+    def labels(self, text):
+        return international_labels(text + " padding text so the reader treats this "
+                                           "as a real advertisement body, long enough to judge.")
+
+    def test_demanding_a_permit_is_not_offering_one(self):
+        found = self.labels("You must have a valid work permit for the Netherlands.")
+        self.assertFalse(found["sponsorship"])
+
+    def test_naming_a_permit_without_an_offer_is_not_an_offer(self):
+        self.assertFalse(self.labels("A work permit is needed for this position.")["sponsorship"])
+
+    def test_an_offer_to_arrange_one_still_counts(self):
+        self.assertTrue(self.labels("We arrange the work permit for the right candidate.")["sponsorship"])
+
+    def test_a_demand_for_another_language_is_recorded(self):
+        self.assertTrue(self.labels("Fluent English and fluent Chinese are required.")["other_language"])
+
+    def test_an_ordinary_english_ad_demands_no_other_language(self):
+        self.assertFalse(self.labels("You plan loads and speak with carriers daily.")["other_language"])

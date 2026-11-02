@@ -132,6 +132,9 @@ function passesFilters(job) {
 function openToHer(job) {
   const lab = job.labels || {};
   if (lab.no_sponsorship) return false;
+  // Open to people from abroad, but not to her: an advertisement asking for
+  // fluent Chinese is not an opening she can take.
+  if (lab.other_language) return false;
   if (lab.sponsorship || lab.relocation || lab.english_workplace) return true;
   return lab.dutch_required === false && lab.written_in_dutch === false;
 }
@@ -227,6 +230,7 @@ function renderJob(job) {
   if (lab.relocation) labels.push(el("span", { className: "label abroad", text: t("label_relocation") }));
   if (lab.english_workplace) labels.push(el("span", { className: "label abroad", text: t("label_english_workplace") }));
   if (lab.no_sponsorship) labels.push(el("span", { className: "label dutch", text: t("label_no_sponsorship") }));
+  if (lab.other_language) labels.push(el("span", { className: "label dutch", text: t("label_other_language") }));
   if (!job.location) labels.push(el("span", { className: "label", text: t("label_location_missing") }));
 
   const where = el("p", { className: "where" }, [

@@ -144,18 +144,39 @@ _ROLE_WORDS = re.compile(
 MAX_HEADING_POSTINGS = 25
 
 
+# A heading is only a vacancy on a page that is about vacancies. Read on a
+# company's front page, the same rule turned "I am a freight forwarder or
+# logistics partner", one of Lily Maas's audience headings, into an opening.
+_VACANCY_PAGE = re.compile(
+    r"/(vacature|vacatures|vacancy|vacancies|job|jobs|career|careers|werken|"
+    r"werkenbij|join|recruit)", re.I)
+_VACANCY_HOST = re.compile(r"(werkenbij|werken-bij|jobs?\.|careers?\.|vacature)", re.I)
+# A job title is a role, not a sentence someone speaks.
+_NOT_A_TITLE = re.compile(
+    r"^(i|we|you|ik|wij|je|jij|u)\b|\?$|^(onze|our|about|over)\b", re.I)
+
+
 def find_posting_headings(markup, page_url):
     """Vacancies written as headings on the careers page itself.
 
     The page is its own application page, so every one of these points back at
     it. Returns [(url, title)] with a fragment that keeps them apart.
     """
+    parsed = urlparse(page_url or "")
+    # Either the path says so, or the site itself does: werkenbij<brand>.nl is
+    # a careers site from its front page down.
+    on_a_vacancy_page = bool(_VACANCY_PAGE.search(parsed.path or "")
+                             or _VACANCY_HOST.search(parsed.netloc or ""))
+    if not on_a_vacancy_page:
+        return []
     found, seen = [], set()
     for _, raw in _HEADING.findall(markup or ""):
         title = _clean_title(raw)
         if not title or len(title) > 90 or len(title.split()) < 2:
             continue
         if not _ROLE_WORDS.search(title) or fold(title) in _NAVIGATION:
+            continue
+        if _NOT_A_TITLE.search(title):
             continue
         key = fold(title)
         if key in seen:
