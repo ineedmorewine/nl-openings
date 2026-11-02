@@ -11,6 +11,9 @@ on:
       urls:
         description: Addresses to open, separated by spaces
         required: true
+      query:
+        description: Optional search to type into the page's own search box
+        required: false
 
 jobs:
   inspect:
@@ -26,18 +29,21 @@ jobs:
       - name: Open each page
         env:
           URLS: ${{ inputs.urls }}
+          QUERY: ${{ inputs.query }}
         run: |
           python - <<'PY'
           import os, pathlib, re
-          from collector.render import PageRenderer
+          from collector.render import PageRenderer, search_board
 
           out = pathlib.Path("diagnostics")
           out.mkdir(exist_ok=True)
           renderer = PageRenderer(len(os.environ["URLS"].split()) + 2)
           for url in os.environ["URLS"].split():
               name = re.sub(r"[^a-z0-9]+", "-", url.lower()).strip("-")[:90]
+              query = os.environ.get("QUERY") or ""
               try:
-                  markup = renderer.render(url)
+                  markup = (search_board(renderer, url, query) if query
+                            else renderer.render(url))
               except Exception as error:
                   markup = f"FAILED {type(error).__name__}: {error}"
               (out / f"{name}.html").write_text(markup[:400000], encoding="utf-8")
