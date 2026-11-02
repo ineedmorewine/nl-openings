@@ -540,6 +540,10 @@ def main(argv=None):
         sources.append(entry)
         print(f"{cid:<32} {entry['status']:<24} {entry.get('nl_jobs', 0):>4} jobs", flush=True)
 
+    # The companies are done with the browser, so close it before the board
+    # opens one of its own: two browsers at once is how the board came back
+    # empty while the same search worked perfectly on its own.
+    renderer.close()
     all_jobs.sort(key=lambda j: (j.get("posted_at") or j["first_seen"], j["first_seen"]), reverse=True)
     save_json(JOBS_FILE, {"generated_at": now, "jobs": all_jobs})
     save_json(SOURCES_FILE, {"generated_at": now, "sources": sources})
@@ -562,7 +566,8 @@ def main(argv=None):
             was = load_json(BOARD_FILE, {"jobs": []}).get("jobs", [])
             board = expatboard.merge(was, expatboard.collect(board_browser, filters, today), today)
             save_json(BOARD_FILE, {"generated_at": now, "jobs": board})
-            print(f"Welcome to NL board: {len(board)} suitable jobs.")
+            print(f"Welcome to NL board: {len(board)} suitable jobs"
+                  f" from {board_browser.pages_rendered} searches.")
         finally:
             board_browser.close()
     except Exception as error:
@@ -570,7 +575,6 @@ def main(argv=None):
     finally:
         signal.alarm(0)
 
-    renderer.close()
     readable = sum(1 for s in sources if s.get("status") == "ok")
     print(f"Done: {readable} of {len(sources)} sources read, {len(all_jobs)} Dutch jobs stored.")
 
