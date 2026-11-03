@@ -128,10 +128,7 @@
    "https://samskip.com/nl/werken-bij",
    "https://samskip.com/werken-bij",
    "https://samskip.com/vacatures",
-   "https://samskip.com/nl/vacatures",
-   "https://www.samskip.com/working-at-samskip/",
-   "https://samskip.careers.hibob.com/",
-   "https://samskip.careers.hibob.com/jobs"
+   "https://samskip.com/nl/vacatures"
   ],
   "reached_pages": [
    "https://samskip.com/",
@@ -141,10 +138,7 @@
    "https://www.samskip.com/careers/",
    "https://samskip.com/careers",
    "https://samskip.com/en/careers",
-   "https://samskip.com/careers/",
-   "https://www.samskip.com/working-at-samskip/",
-   "https://samskip.careers.hibob.com/",
-   "https://samskip.careers.hibob.com/jobs"
+   "https://samskip.com/careers/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -180,15 +174,13 @@
    "https://sennder.com/nl/werken-bij",
    "https://sennder.com/werken-bij",
    "https://sennder.com/vacatures",
-   "https://sennder.com/nl/vacatures",
-   "https://www.sennder.com/nl/open-positions"
+   "https://sennder.com/nl/vacatures"
   ],
   "reached_pages": [
    "https://sennder.com/",
    "https://www.sennder.com/",
    "https://www.sennder.com/career",
-   "https://www.sennder.com/en/career",
-   "https://www.sennder.com/nl/open-positions"
+   "https://www.sennder.com/en/career"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -560,8 +552,7 @@
    "https://nnrglobal.com/nl/werken-bij",
    "https://nnrglobal.com/werken-bij",
    "https://nnrglobal.com/vacatures",
-   "https://nnrglobal.com/nl/vacatures",
-   "https://www.nnrglobal.com/faq/how-can-i-join-the-nnrs-team/"
+   "https://nnrglobal.com/nl/vacatures"
   ],
   "reached_pages": [
    "https://nnrglobal.com/",
@@ -583,8 +574,7 @@
    "https://nnrglobal.com/nl/werken-bij",
    "https://nnrglobal.com/werken-bij",
    "https://nnrglobal.com/vacatures",
-   "https://nnrglobal.com/nl/vacatures",
-   "https://www.nnrglobal.com/faq/how-can-i-join-the-nnrs-team/"
+   "https://nnrglobal.com/nl/vacatures"
   ],
   "reason": "no_careers_system_found",
   "notes": [],
@@ -846,12 +836,10 @@
    "https://sf-express.com/nl/werken-bij",
    "https://sf-express.com/werken-bij",
    "https://sf-express.com/vacatures",
-   "https://sf-express.com/nl/vacatures",
-   "https://htm.sf-express.com/tw/en/talent_recruitment/"
+   "https://sf-express.com/nl/vacatures"
   ],
   "reached_pages": [
-   "https://www.sf-express.com/",
-   "https://htm.sf-express.com/tw/en/talent_recruitment/"
+   "https://www.sf-express.com/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -928,8 +916,8 @@
    "https://hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
    "https://www.hmm21.com/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
    "https://www.hmm21.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/en/careers",
-   "https://www.hmm21.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/careers/",
-   "https://www.hmm21.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/nl/werken-bij",
+   "https://www.hmm21.com/careers/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/nl/werken-bij -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
    "https://www.hmm21.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/werken-bij"
   ],
   "checked_at": "2026-11-02"
@@ -957,18 +945,10 @@
    "https://yangming.com/nl/werken-bij",
    "https://yangming.com/werken-bij",
    "https://yangming.com/vacatures",
-   "https://yangming.com/nl/vacatures",
-   "https://www.yangming.com/en/about_us/jobs_and_career/work_at_yang_ming",
-   "https://e-solution.yangming.com/LocalSite/Local_News_Info_Rwd_Country.aspx?funcDTL_Key=316&localver=NL",
-   "https://www.yangming.com/Netherlands",
-   "https://e-solution.yangming.com/LocalSite/Local_News_Info_Rwd_Country.aspx?funcDTL_Key=331&localver=BE"
+   "https://yangming.com/nl/vacatures"
   ],
   "reached_pages": [
-   "https://www.yangming.com/",
-   "https://www.yangming.com/en/about_us/jobs_and_career/work_at_yang_ming",
-   "https://e-solution.yangming.com/LocalSite/Local_News_Info_Rwd_Country.aspx?funcDTL_Key=316&localver=NL",
-   "https://www.yangming.com/Netherlands",
-   "https://e-solution.yangming.com/LocalSite/Local_News_Info_Rwd_Country.aspx?funcDTL_Key=331&localver=BE"
+   "https://www.yangming.com/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -1059,8 +1039,7 @@
    "https://werkenbiject.nl/job-not-found/open-sollicitatie/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/",
    "https://werkenbiject.nl/job-not-found/open-sollicitatie/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/",
    "https://werkenbiject.nl/job-not-found/open-sollicitatie/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/",
-   "https://www.ect.nl/nl/werken-bij-ect",
-   "https://www.ect.nl/en/about-us/working-ect"
+   "https://www.ect.nl/nl/werken-bij-ect"
   ],
   "reached_pages": [
    "https://ect.nl/",
@@ -1083,8 +1062,7 @@
    "https://werkenbiject.nl/job-not-found/open-sollicitatie/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/",
    "https://werkenbiject.nl/job-not-found/open-sollicitatie/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/",
    "https://werkenbiject.nl/job-not-found/open-sollicitatie/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/Www.werkenbiject.nl/",
-   "https://www.ect.nl/nl/werken-bij-ect",
-   "https://www.ect.nl/en/about-us/working-ect"
+   "https://www.ect.nl/nl/werken-bij-ect"
   ],
   "reason": "no_careers_system_found",
   "notes": [],
@@ -1148,8 +1126,7 @@
    "https://simacan.com/careers/",
    "https://simacan.com/nl/werken-bij",
    "https://simacan.com/werken-bij",
-   "https://simacan.com/vacatures",
-   "https://simacan.com/about-us/working-at-simacan/"
+   "https://simacan.com/vacatures"
   ],
   "reached_pages": [
    "https://simacan.com/",
@@ -1171,8 +1148,7 @@
    "https://simacan.com/careers/",
    "https://simacan.com/nl/werken-bij",
    "https://simacan.com/werken-bij",
-   "https://simacan.com/vacatures",
-   "https://simacan.com/about-us/working-at-simacan/"
+   "https://simacan.com/vacatures"
   ],
   "reason": "no_careers_system_found",
   "notes": [],
@@ -2181,9 +2157,7 @@
    "https://www.sankyu.co.jp/recruit/project/",
    "https://www.sankyu.co.jp/recruit/benefit/",
    "https://www.sankyu.co.jp/recruit/education/",
-   "https://sankyugroup-recruit.com/brand-jobfind/",
-   "https://www.sankyu.co.jp/en/company/",
-   "https://www.sankyu.com.sg/Career/Public/Jobs.aspx"
+   "https://sankyugroup-recruit.com/brand-jobfind/"
   ],
   "reached_pages": [
    "https://www.sankyu.co.jp/",
@@ -2195,6 +2169,7 @@
    "https://www.sankyu.co.jp/recruit/career/",
    "https://sankyu-recruit.com/jobfind-pc/",
    "https://www.sankyu.co.jp/recruit/career/entry/index.php",
+   "https://sankyu-recruit.com/jobfind-pc/area/All?brand=1",
    "https://www.sankyu.co.jp/recruit/career/interview/",
    "https://www.sankyu.co.jp/recruit/career/requirements/",
    "https://www.sankyu.co.jp/recruit/gradu/",
@@ -2203,14 +2178,11 @@
    "https://www.sankyu.co.jp/recruit/project/",
    "https://www.sankyu.co.jp/recruit/benefit/",
    "https://www.sankyu.co.jp/recruit/education/",
-   "https://sankyugroup-recruit.com/brand-jobfind/",
-   "https://www.sankyu.co.jp/en/company/",
-   "https://www.sankyu.com.sg/Career/Public/Jobs.aspx"
+   "https://sankyugroup-recruit.com/brand-jobfind/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://sankyu.co.jp/ -> ConnectionError: HTTPSConnectionPool(host='sankyu.co.jp', port=443): Max retries exceeded with url: / (Caus",
-   "https://sankyu-recruit.com/jobfind-pc/area/All?brand=1 -> HTTPError: 405 Client Error: Not Allowed for url: https://sankyu-recruit.com/jobfind-pc/area/All?bran"
+   "https://sankyu.co.jp/ -> ConnectionError: HTTPSConnectionPool(host='sankyu.co.jp', port=443): Max retries exceeded with url: / (Caus"
   ],
   "checked_at": "2026-11-02"
  },
@@ -2297,7 +2269,8 @@
    "https://www.tollgroup.com/en/jobs",
    "https://www.tollgroup.com/career",
    "https://www.careers.tollgroup.com/careers/areas-work/global-forwarding",
-   "https://www.careers.tollgroup.com/careers/discover-careers-location/Netherlands"
+   "https://www.careers.tollgroup.com/careers/discover-careers-location/Netherlands",
+   "https://www.tollgroup.com/contact-us/employment-opportunities"
   ],
   "reached_pages": [
    "https://tollgroup.com/",
@@ -2315,7 +2288,8 @@
    "https://www.tollgroup.com/nl/vacatures",
    "https://www.tollgroup.com/jobs",
    "https://www.tollgroup.com/en/jobs",
-   "https://www.tollgroup.com/career"
+   "https://www.tollgroup.com/career",
+   "https://www.tollgroup.com/contact-us/employment-opportunities"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -2351,8 +2325,7 @@
    "https://yamatoeurope.com/en/careers",
    "https://yamatoeurope.com/careers/",
    "https://yamatoeurope.com/nl/werken-bij",
-   "https://yamatoeurope.com/werken-bij",
-   "https://www.yamatoeurope.com/about-yamato/careers-2/"
+   "https://yamatoeurope.com/werken-bij"
   ],
   "reached_pages": [
    "https://yamatoeurope.com/",
@@ -2360,8 +2333,7 @@
    "https://www.yamatoeurope.com/vacancies",
    "https://www.yamatoeurope.com/en/careers",
    "https://www.yamatoeurope.com/wp-content/uploads/2018/05/careers.jpg",
-   "https://yamatoeurope.com/en/careers",
-   "https://www.yamatoeurope.com/about-yamato/careers-2/"
+   "https://yamatoeurope.com/en/careers"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -2508,7 +2480,8 @@
    "https://fourkites.com/nl/werken-bij",
    "https://fourkites.com/werken-bij",
    "https://fourkites.com/vacatures",
-   "https://www.fourkites.ai/current-openings"
+   "https://www.fourkites.ai/current-openings",
+   "https://fourkites.careers/"
   ],
   "reached_pages": [
    "https://fourkites.com/",
@@ -2709,13 +2682,11 @@
    "https://oranjetransport.nl/nl/werken-bij",
    "https://oranjetransport.nl/werken-bij",
    "https://oranjetransport.nl/vacatures",
-   "https://oranjetransport.nl/nl/vacatures",
-   "https://oranjetransport.nl/nl/"
+   "https://oranjetransport.nl/nl/vacatures"
   ],
   "reached_pages": [
    "https://oranjetransport.nl/",
-   "https://www.oranjetransport.nl/",
-   "https://oranjetransport.nl/nl/"
+   "https://www.oranjetransport.nl/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -3059,13 +3030,11 @@
    "https://fairways.nl/",
    "https://www.fairways.nl/",
    "http://www.fairways-logistics.com/",
-   "https://www.fairways.co/careers/",
-   "https://www.fairwayshipping.com/vacancies"
+   "https://www.fairwayshipping.com/vacancies/operator-waterklerk"
   ],
   "reached_pages": [
    "http://www.fairways-logistics.com/",
-   "https://www.fairways.co/careers/",
-   "https://www.fairwayshipping.com/vacancies"
+   "https://www.fairwayshipping.com/vacancies/operator-waterklerk"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -3126,9 +3095,9 @@
    "https://www.fujitrans.co.jp/en/careers",
    "https://www.fujitrans.co.jp/careers/",
    "https://www.fujitrans.co.jp/nl/werken-bij",
-   "https://www.fujitrans.co.jp/en/news/",
-   "https://www.fujitrans.co.jp/en/",
-   "https://www.fujitrans-europe.com/index.php?page=vacancies"
+   "https://www.fujitrans-europe.com/index.php?page=vacancies",
+   "https://fujitrans-europe.com/",
+   "https://www.fujitrans.co.jp/en/"
   ],
   "reached_pages": [
    "https://fujitrans.co.jp/",
@@ -3147,9 +3116,9 @@
    "https://recruit.fujitrans.co.jp/driver_recruitment/koukoku_kaiun/",
    "https://recruit.fujitrans.co.jp/sailor_recruitment/engineer/",
    "https://recruit.fujitrans.co.jp/sailor_recruitment/crew/",
-   "https://www.fujitrans.co.jp/en/news/",
-   "https://www.fujitrans.co.jp/en/",
-   "https://www.fujitrans-europe.com/index.php?page=vacancies"
+   "https://www.fujitrans-europe.com/index.php?page=vacancies",
+   "https://fujitrans-europe.com/",
+   "https://www.fujitrans.co.jp/en/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -3506,14 +3475,11 @@
    "https://rapidlogistics.nl/nl/werken-bij",
    "https://rapidlogistics.nl/werken-bij",
    "https://rapidlogistics.nl/vacatures",
-   "https://rapidlogistics.nl/nl/vacatures",
-   "https://rapidlogistics.nl/working-at/",
-   "https://rapid-logistics.com/careers_archive/"
+   "https://rapidlogistics.nl/nl/vacatures"
   ],
   "reached_pages": [
    "https://rapidlogistics.nl/",
-   "https://www.rapidlogistics.nl/",
-   "https://rapidlogistics.nl/working-at/"
+   "https://www.rapidlogistics.nl/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -3595,9 +3561,7 @@
    "https://sevenhills.nl/nl/werken-bij",
    "https://sevenhills.nl/werken-bij",
    "https://sevenhills.nl/vacatures",
-   "https://sevenhills.nl/nl/vacatures",
-   "https://sevenhillslogistics.nl/vacatures/",
-   "https://sevenhillslogistics.nl/"
+   "https://sevenhills.nl/nl/vacatures"
   ],
   "reached_pages": [
    "https://sevenhills.nl/",
@@ -3723,11 +3687,11 @@
    "https://tlogistics.nl/",
    "https://www.tlogistics.nl/",
    "https://tlogistics.eu/category/vacancies/",
-   "https://tlogistics.eu/"
+   "https://tlogistics.eu/orderpickers-orderpackers/"
   ],
   "reached_pages": [
    "https://tlogistics.eu/category/vacancies/",
-   "https://tlogistics.eu/"
+   "https://tlogistics.eu/orderpickers-orderpackers/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -4627,9 +4591,7 @@
    "https://samsungsds.com/nl/werken-bij",
    "https://samsungsds.com/werken-bij",
    "https://samsungsds.com/vacatures",
-   "https://samsungsds.com/nl/vacatures",
-   "https://www.samsungsds.com/eu/careers/careers.html",
-   "https://www.samsungsds.com/eu/careers/about_careers.html"
+   "https://samsungsds.com/nl/vacatures"
   ],
   "reached_pages": [
    "https://samsungsds.com/",
@@ -4651,9 +4613,7 @@
    "https://samsungsds.com/nl/werken-bij",
    "https://samsungsds.com/werken-bij",
    "https://samsungsds.com/vacatures",
-   "https://samsungsds.com/nl/vacatures",
-   "https://www.samsungsds.com/eu/careers/careers.html",
-   "https://www.samsungsds.com/eu/careers/about_careers.html"
+   "https://samsungsds.com/nl/vacatures"
   ],
   "reason": "no_careers_system_found",
   "notes": [],
@@ -4964,46 +4924,6 @@
   ],
   "checked_at": "2026-11-02"
  },
- "euro-senko": {
-  "source": null,
-  "vendor": null,
-  "checked_pages": [
-   "https://senkoltd.com/",
-   "https://www.senkoltd.com/",
-   "https://www.senkoltd.com/careers",
-   "https://www.senkoltd.com/en/careers",
-   "https://www.senkoltd.com/careers/",
-   "https://www.senkoltd.com/nl/werken-bij",
-   "https://www.senkoltd.com/werken-bij",
-   "https://www.senkoltd.com/vacatures",
-   "https://www.senkoltd.com/nl/vacatures",
-   "https://www.senkoltd.com/jobs",
-   "https://www.senkoltd.com/en/jobs",
-   "https://www.senkoltd.com/career",
-   "https://www.senkoltd.com/en/career",
-   "https://senkoltd.com/careers",
-   "https://senkoltd.com/en/careers",
-   "https://senkoltd.com/careers/",
-   "https://senkoltd.com/nl/werken-bij",
-   "https://senkoltd.com/werken-bij",
-   "https://senkoltd.com/vacatures",
-   "https://senkoltd.com/nl/vacatures"
-  ],
-  "reached_pages": [
-   "https://senkoltd.com/",
-   "https://www.senkoltd.com/"
-  ],
-  "reason": "no_careers_system_found",
-  "notes": [
-   "https://www.senkoltd.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.senkoltd.com/careers",
-   "https://www.senkoltd.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.senkoltd.com/en/careers",
-   "https://www.senkoltd.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.senkoltd.com/careers/",
-   "https://www.senkoltd.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.senkoltd.com/nl/werken-bij",
-   "https://www.senkoltd.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.senkoltd.com/werken-bij",
-   "https://www.senkoltd.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.senkoltd.com/vacatures"
-  ],
-  "checked_at": "2026-11-02"
- },
  "dfds": {
   "source": {
    "type": "teamtailor",
@@ -5060,28 +4980,6 @@
    "https://www.dfds.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.dfds.com/en/jobs"
   ],
   "checked_at": "2026-11-01"
- },
- "prospect-transport-logistiek": {
-  "source": {
-   "type": "careerpage",
-   "url": "https://prospect-logistiek.nl/werk-met-ons-samen/"
-  },
-  "vendor": null,
-  "checked_pages": [
-   "https://prospect-logistiek.nl/",
-   "https://www.prospect-logistiek.nl/",
-   "https://prospect-logistiek.nl/vacature/chauffeur-c/",
-   "https://prospect-logistiek.nl/werk-met-ons-samen/"
-  ],
-  "reached_pages": [
-   "https://prospect-logistiek.nl/",
-   "https://www.prospect-logistiek.nl/",
-   "https://prospect-logistiek.nl/vacature/chauffeur-c/",
-   "https://prospect-logistiek.nl/werk-met-ons-samen/"
-  ],
-  "reason": "found",
-  "notes": [],
-  "checked_at": "2026-11-02"
  },
  "tito-smart-modal-logistics": {
   "source": null,
@@ -5422,6 +5320,126 @@
    "https://www.boreas-offshore.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/nl/werken-bij",
    "https://www.boreas-offshore.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/werken-bij"
   ],
+  "checked_at": "2026-11-02"
+ },
+ "ocean-network-express": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://one-line.com/",
+   "https://www.one-line.com/",
+   "https://www.one-line.com/en/careers",
+   "https://www.one-line.com/careers",
+   "https://www.one-line.com/careers/",
+   "https://www.one-line.com/nl/werken-bij",
+   "https://www.one-line.com/werken-bij",
+   "https://www.one-line.com/vacatures",
+   "https://www.one-line.com/nl/vacatures",
+   "https://www.one-line.com/jobs",
+   "https://www.one-line.com/en/jobs",
+   "https://www.one-line.com/career",
+   "https://www.one-line.com/en/career",
+   "https://one-line.com/careers",
+   "https://one-line.com/en/careers",
+   "https://one-line.com/careers/",
+   "https://one-line.com/nl/werken-bij",
+   "https://one-line.com/werken-bij",
+   "https://one-line.com/vacatures",
+   "https://one-line.com/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://one-line.com/",
+   "https://www.one-line.com/",
+   "https://www.one-line.com/en/careers",
+   "https://www.one-line.com/careers",
+   "https://www.one-line.com/careers/",
+   "https://one-line.com/careers",
+   "https://one-line.com/en/careers",
+   "https://one-line.com/careers/"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://www.one-line.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/nl/werken-bij",
+   "https://www.one-line.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/werken-bij",
+   "https://www.one-line.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/vacatures",
+   "https://www.one-line.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/nl/vacatures",
+   "https://www.one-line.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/jobs",
+   "https://www.one-line.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/jobs"
+  ],
+  "checked_at": "2026-11-02"
+ },
+ "oocl": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://oocl.com/",
+   "https://www.oocl.com/"
+  ],
+  "reached_pages": [],
+  "reason": "site_unreachable",
+  "notes": [
+   "https://oocl.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.oocl.com/",
+   "https://www.oocl.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.oocl.com/"
+  ],
+  "checked_at": "2026-11-02"
+ },
+ "sinotrans": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://sinotrans.com/",
+   "https://www.sinotrans.com/",
+   "https://www.sinotrans.com/careers",
+   "https://www.sinotrans.com/en/careers",
+   "https://www.sinotrans.com/careers/",
+   "https://www.sinotrans.com/nl/werken-bij",
+   "https://www.sinotrans.com/werken-bij",
+   "https://www.sinotrans.com/vacatures",
+   "https://www.sinotrans.com/nl/vacatures",
+   "https://www.sinotrans.com/jobs",
+   "https://www.sinotrans.com/en/jobs",
+   "https://www.sinotrans.com/career",
+   "https://www.sinotrans.com/en/career",
+   "https://sinotrans.com/careers",
+   "https://sinotrans.com/en/careers",
+   "https://sinotrans.com/careers/",
+   "https://sinotrans.com/nl/werken-bij",
+   "https://sinotrans.com/werken-bij",
+   "https://sinotrans.com/vacatures",
+   "https://sinotrans.com/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://www.sinotrans.com/"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://sinotrans.com/ -> ConnectionError: HTTPSConnectionPool(host='sinotrans.com', port=443): Max retries exceeded with url: / (Cau",
+   "https://www.sinotrans.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/careers",
+   "https://www.sinotrans.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/en/careers",
+   "https://www.sinotrans.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/careers/",
+   "https://www.sinotrans.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/nl/werken-bij",
+   "https://www.sinotrans.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.sinotrans.com/werken-bij"
+  ],
+  "checked_at": "2026-11-02"
+ },
+ "freight-international-holding": {
+  "source": {
+   "type": "careerpage",
+   "url": "https://cyberfreight.nl/vacatures/"
+  },
+  "vendor": null,
+  "checked_pages": [
+   "https://cyberfreight.nl/",
+   "https://www.cyberfreight.nl/",
+   "https://cyberfreight.nl/vacatures/"
+  ],
+  "reached_pages": [
+   "https://cyberfreight.nl/",
+   "https://www.cyberfreight.nl/",
+   "https://cyberfreight.nl/vacatures/"
+  ],
+  "reason": "found",
+  "notes": [],
   "checked_at": "2026-11-02"
  }
 }
