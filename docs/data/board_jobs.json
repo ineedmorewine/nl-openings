@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T21:28+00:00",
+ "generated_at": "2026-11-04T11:49+00:00",
  "jobs": [
   {
    "id": "welcome-to-nl:dsv:forwarder oil &amp; gas",
@@ -7,7 +7,7 @@
    "title": "Forwarder Oil &amp; Gas",
    "location": "Rotterdam, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Forwarder%20Oil%20%26amp%3B%20Gas",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-04"
   },
   {
    "id": "welcome-to-nl:dsv:freight forwarder airfreight healthcare export",
@@ -15,39 +15,15 @@
    "title": "Freight Forwarder Airfreight Healthcare Export",
    "location": "North Holland, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder%20Airfreight%20Healthcare%20Export",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-04"
   },
   {
-   "id": "welcome-to-nl:dsv:senior forwarder key accounts",
+   "id": "welcome-to-nl:dsv:senior forwarder export",
    "company": "DSV",
-   "title": "Senior Forwarder Key Accounts",
+   "title": "Senior Forwarder Export",
    "location": "Rotterdam, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Forwarder%20Key%20Accounts",
-   "first_seen": "2026-11-03"
-  },
-  {
-   "id": "welcome-to-nl:dsv:senior freight forwarder",
-   "company": "DSV",
-   "title": "Senior Freight Forwarder",
-   "location": "Rotterdam, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Freight%20Forwarder",
-   "first_seen": "2026-11-03"
-  },
-  {
-   "id": "welcome-to-nl:dsv:senior import forwarder",
-   "company": "DSV",
-   "title": "Senior Import Forwarder",
-   "location": "Rotterdam, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Import%20Forwarder",
-   "first_seen": "2026-11-03"
-  },
-  {
-   "id": "welcome-to-nl:dsv:freight forwarder",
-   "company": "DSV",
-   "title": "Freight Forwarder",
-   "location": "7041 's-Heerenberg, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder",
-   "first_seen": "2026-11-03"
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Forwarder%20Export",
+   "first_seen": "2026-11-04"
   },
   {
    "id": "welcome-to-nl:dsv:junior freight forwarder export air",
@@ -55,7 +31,31 @@
    "title": "Junior Freight Forwarder Export Air",
    "location": "North Brabant, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Junior%20Freight%20Forwarder%20Export%20Air",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "welcome-to-nl:dsv:freight forwarder airfreight healthcare",
+   "company": "DSV",
+   "title": "Freight Forwarder Airfreight Healthcare",
+   "location": "6199 Maastricht Airport, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder%20Airfreight%20Healthcare",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "welcome-to-nl:dsv:freight forwarder luchtvracht healthcare",
+   "company": "DSV",
+   "title": "Freight Forwarder Luchtvracht Healthcare",
+   "location": "6199 Maastricht Airport, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder%20Luchtvracht%20Healthcare",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "welcome-to-nl:dsv:logistics coordinator",
+   "company": "DSV",
+   "title": "Logistics Coordinator",
+   "location": "Rotterdam, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Logistics%20Coordinator",
+   "first_seen": "2026-11-04"
   },
   {
    "id": "welcome-to-nl:royal ihc:logistics coordinator",
@@ -63,7 +63,15 @@
    "title": "Logistics Coordinator",
    "location": "Sliedrecht, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Logistics%20Coordinator",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "welcome-to-nl:mcdermott international:principal quality operations specialist",
+   "company": "McDermott International",
+   "title": "Principal Quality Operations Specialist",
+   "location": "The Hague, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Principal%20Quality%20Operations%20Specialist",
+   "first_seen": "2026-11-04"
   },
   {
    "id": "welcome-to-nl:maersk:dispatcher - rail/ett",
@@ -71,7 +79,7 @@
    "title": "Dispatcher - Rail/ETT",
    "location": "Rotterdam, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Dispatcher%20-%20Rail/ETT",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-04"
   }
  ]
 }
