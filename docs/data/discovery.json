@@ -74,7 +74,7 @@
    "https://www.einride.tech/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.einride.tech/nl/vacatures",
    "https://www.einride.tech/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.einride.tech/jobs"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "gvt-intermodal": {
   "source": null,
@@ -89,7 +89,7 @@
    "https://gvt.nl/ -> SSLError: HTTPSConnectionPool(host='gvt.nl', port=443): Max retries exceeded with url: / (Caused by ",
    "https://www.gvt.nl/ -> SSLError: HTTPSConnectionPool(host='www.gvt.nl', port=443): Max retries exceeded with url: / (Caused"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "p-o-ferrymasters": {
   "source": {
@@ -898,15 +898,39 @@
   "vendor": null,
   "checked_pages": [
    "https://hmm21.com/",
-   "https://www.hmm21.com/"
+   "https://www.hmm21.com/",
+   "https://www.hmm21.com/careers",
+   "https://www.hmm21.com/en/careers",
+   "https://www.hmm21.com/careers/",
+   "https://www.hmm21.com/nl/werken-bij",
+   "https://www.hmm21.com/werken-bij",
+   "https://www.hmm21.com/vacatures",
+   "https://www.hmm21.com/nl/vacatures",
+   "https://www.hmm21.com/jobs",
+   "https://www.hmm21.com/en/jobs",
+   "https://www.hmm21.com/career",
+   "https://www.hmm21.com/en/career",
+   "https://hmm21.com/careers",
+   "https://hmm21.com/en/careers",
+   "https://hmm21.com/careers/",
+   "https://hmm21.com/nl/werken-bij",
+   "https://hmm21.com/werken-bij",
+   "https://hmm21.com/vacatures",
+   "https://hmm21.com/nl/vacatures"
   ],
-  "reached_pages": [],
-  "reason": "site_unreachable",
+  "reached_pages": [
+   "https://hmm21.com/"
+  ],
+  "reason": "no_careers_system_found",
   "notes": [
-   "https://hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
-   "https://www.hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)"
+   "https://www.hmm21.com/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/careers -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hmm21.com/en/careers",
+   "https://www.hmm21.com/careers/ -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/nl/werken-bij -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)",
+   "https://www.hmm21.com/werken-bij -> ReadTimeout: HTTPSConnectionPool(host='www.hmm21.com', port=443): Read timed out. (read timeout=30)"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "yang-ming": {
   "source": null,
@@ -990,7 +1014,7 @@
    "https://www.evergreen-marine.com/nl/werken-bij -> HTTPError: 404 Client Error: 404 for url: https://www.evergreen-marine.com/nl/werken-bij",
    "https://www.evergreen-marine.com/werken-bij -> HTTPError: 404 Client Error: 404 for url: https://www.evergreen-marine.com/werken-bij"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "apm-terminals": {
   "source": {
@@ -1060,7 +1084,7 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "flex": {
   "source": {
@@ -1613,7 +1637,7 @@
    "https://www.eusu-logistics.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/nl/werken-bij",
    "https://www.eusu-logistics.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.eusu-logistics.com/werken-bij"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "gerlach": {
   "source": null,
@@ -1628,7 +1652,7 @@
    "https://gerlachcs.com/ -> SSLError: HTTPSConnectionPool(host='gerlachcs.com', port=443): Max retries exceeded with url: / (Cau",
    "https://www.gerlachcs.com/ -> SSLError: HTTPSConnectionPool(host='www.gerlachcs.com', port=443): Max retries exceeded with url: / "
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "hanjin-global-logistics": {
   "source": null,
@@ -1654,8 +1678,7 @@
    "https://www.hanjin.com/careers/",
    "https://www.hanjin.com/nl/werken-bij",
    "https://www.hanjin.com/werken-bij",
-   "https://www.hanjinusa.com/board/careers",
-   "https://www.hanjinusa.com/"
+   "https://www.hanjinusa.com/board/careers"
   ],
   "reached_pages": [
    "https://hanjin.com/",
@@ -1676,15 +1699,14 @@
    "https://www.hanjin.com/careers",
    "https://www.hanjin.com/careers/",
    "https://www.hanjin.com/werken-bij",
-   "https://www.hanjinusa.com/board/careers",
-   "https://www.hanjinusa.com/"
+   "https://www.hanjinusa.com/board/careers"
   ],
   "reason": "no_careers_system_found",
   "notes": [
    "https://www.hanjin.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.hanjin.com/en/careers",
    "https://www.hanjin.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.hanjin.com/nl/werken-bij"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "hankyu-hanshin-express": {
   "source": null,
@@ -1818,7 +1840,7 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "logisteed-europe": {
   "source": {
@@ -2501,7 +2523,7 @@
    "https://www.fourkites.com/career -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/career",
    "https://www.fourkites.com/en/career -> HTTPError: 404 Client Error: Not Found for url: https://www.fourkites.ai/en/career"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "portbase": {
   "source": {
@@ -2605,7 +2627,7 @@
    "https://www.zwaluwlogistiek.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://zwaluwlogistiek.nl/werken-bij",
    "https://www.zwaluwlogistiek.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://zwaluwlogistiek.nl/vacatures"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "jona-international-transport": {
   "source": null,
@@ -2655,7 +2677,7 @@
    "https://lilymaas.nl/ -> SSLError: HTTPSConnectionPool(host='lilymaas.nl', port=443): Max retries exceeded with url: / (Cause",
    "https://www.lilymaas.nl/ -> SSLError: HTTPSConnectionPool(host='www.lilymaas.nl', port=443): Max retries exceeded with url: / (C"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "oranje-transport": {
   "source": null,
@@ -3019,7 +3041,7 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "fairways-logistics": {
   "source": null,
@@ -3028,18 +3050,22 @@
    "https://fairways.nl/",
    "https://www.fairways.nl/",
    "http://www.fairways-logistics.com/",
-   "https://www.fairwayshipping.com/vacancies/operator-waterklerk"
+   "https://www.fairwayshipping.com/vacancies/operator-waterklerk",
+   "https://fairwayslogistics.us/",
+   "https://www.fairwayshipping.com/vacancies"
   ],
   "reached_pages": [
    "http://www.fairways-logistics.com/",
-   "https://www.fairwayshipping.com/vacancies/operator-waterklerk"
+   "https://www.fairwayshipping.com/vacancies/operator-waterklerk",
+   "https://fairwayslogistics.us/",
+   "https://www.fairwayshipping.com/vacancies"
   ],
   "reason": "no_careers_system_found",
   "notes": [
    "https://fairways.nl/ -> SSLError: HTTPSConnectionPool(host='fairways.nl', port=443): Max retries exceeded with url: / (Cause",
    "https://www.fairways.nl/ -> SSLError: HTTPSConnectionPool(host='www.fairways.nl', port=443): Max retries exceeded with url: / (C"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "fox-global-logistics": {
   "source": {
@@ -3067,7 +3093,7 @@
    "https://freightlive.nl/ -> ConnectTimeout: HTTPSConnectionPool(host='freightlive.nl', port=443): Max retries exceeded with url: / (Ca",
    "https://www.freightlive.nl/ -> ConnectTimeout: HTTPSConnectionPool(host='www.freightlive.nl', port=443): Max retries exceeded with url: /"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "fuji-logistics-fujitrans": {
   "source": null,
@@ -3094,7 +3120,8 @@
    "https://www.fujitrans.co.jp/careers/",
    "https://www.fujitrans.co.jp/nl/werken-bij",
    "https://www.fujitrans-europe.com/index.php?page=vacancies",
-   "https://www.fujitrans.co.jp/en/"
+   "https://global.fujitrans.com/",
+   "https://www.fujitrans.co.jp/en/news/"
   ],
   "reached_pages": [
    "https://fujitrans.co.jp/",
@@ -3114,7 +3141,8 @@
    "https://recruit.fujitrans.co.jp/sailor_recruitment/engineer/",
    "https://recruit.fujitrans.co.jp/sailor_recruitment/crew/",
    "https://www.fujitrans-europe.com/index.php?page=vacancies",
-   "https://www.fujitrans.co.jp/en/"
+   "https://global.fujitrans.com/",
+   "https://www.fujitrans.co.jp/en/news/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -3123,7 +3151,7 @@
    "https://www.fujitrans.co.jp/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/careers/",
    "https://www.fujitrans.co.jp/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.fujitrans.co.jp/nl/werken-bij"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "international-airfreight-associates": {
   "source": null,
@@ -3259,47 +3287,47 @@
    "https://kroog.nl/ -> SSLError: HTTPSConnectionPool(host='kroog.nl', port=443): Max retries exceeded with url: / (Caused b",
    "https://www.kroog.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.kroog.nl', port=443): Max retries exceeded with url: / (Caus"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "logistic-business-partners": {
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://rotterdamtransport.com/",
-   "https://www.rotterdamtransport.com/",
-   "https://www.rotterdamtransport.com/careers",
-   "https://www.rotterdamtransport.com/en/careers",
-   "https://www.rotterdamtransport.com/careers/",
-   "https://www.rotterdamtransport.com/nl/werken-bij",
-   "https://www.rotterdamtransport.com/werken-bij",
-   "https://www.rotterdamtransport.com/vacatures",
-   "https://www.rotterdamtransport.com/nl/vacatures",
-   "https://www.rotterdamtransport.com/jobs",
-   "https://www.rotterdamtransport.com/en/jobs",
-   "https://www.rotterdamtransport.com/career",
-   "https://www.rotterdamtransport.com/en/career",
-   "https://rotterdamtransport.com/careers",
-   "https://rotterdamtransport.com/en/careers",
-   "https://rotterdamtransport.com/careers/",
-   "https://rotterdamtransport.com/nl/werken-bij",
-   "https://rotterdamtransport.com/werken-bij",
-   "https://rotterdamtransport.com/vacatures",
-   "https://rotterdamtransport.com/nl/vacatures"
+   "https://lbp.co.za/",
+   "https://www.lbp.co.za/",
+   "https://www.lbp.co.za/careers",
+   "https://www.lbp.co.za/en/careers",
+   "https://www.lbp.co.za/careers/",
+   "https://www.lbp.co.za/nl/werken-bij",
+   "https://www.lbp.co.za/werken-bij",
+   "https://www.lbp.co.za/vacatures",
+   "https://www.lbp.co.za/nl/vacatures",
+   "https://www.lbp.co.za/jobs",
+   "https://www.lbp.co.za/en/jobs",
+   "https://www.lbp.co.za/career",
+   "https://www.lbp.co.za/en/career",
+   "https://lbp.co.za/careers",
+   "https://lbp.co.za/en/careers",
+   "https://lbp.co.za/careers/",
+   "https://lbp.co.za/nl/werken-bij",
+   "https://lbp.co.za/werken-bij",
+   "https://lbp.co.za/vacatures",
+   "https://lbp.co.za/nl/vacatures"
   ],
   "reached_pages": [
-   "https://rotterdamtransport.com/",
-   "https://www.rotterdamtransport.com/"
+   "https://lbp.co.za/",
+   "https://www.lbp.co.za/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://www.rotterdamtransport.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://rotterdamtransport.com/careers",
-   "https://www.rotterdamtransport.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://rotterdamtransport.com/en/careers",
-   "https://www.rotterdamtransport.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://rotterdamtransport.com/careers/",
-   "https://www.rotterdamtransport.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://rotterdamtransport.com/nl/werken-bij",
-   "https://www.rotterdamtransport.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://rotterdamtransport.com/werken-bij",
-   "https://www.rotterdamtransport.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://rotterdamtransport.com/vacatures"
+   "https://www.lbp.co.za/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/careers",
+   "https://www.lbp.co.za/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/en/careers",
+   "https://www.lbp.co.za/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/careers/",
+   "https://www.lbp.co.za/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/nl/werken-bij",
+   "https://www.lbp.co.za/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/werken-bij",
+   "https://www.lbp.co.za/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/vacatures"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "loyal-cargo-services": {
   "source": null,
@@ -3879,7 +3907,7 @@
    "https://www.feniks-logistics.nl/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/nl/vacatures",
    "https://www.feniks-logistics.nl/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.feniks-logistics.nl/jobs"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "fulfilment-solutions": {
   "source": null,
@@ -3925,7 +3953,7 @@
    "https://www.fulfilmentsolutions.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.fulfilmentsolutions.nl/werken-bij",
    "https://www.fulfilmentsolutions.nl/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.fulfilmentsolutions.nl/nl/vacatures"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "ice-cold-storage": {
   "source": null,
@@ -4040,7 +4068,7 @@
    "https://ecomclear.com/ -> ConnectionError: HTTPSConnectionPool(host='ecomclear.com', port=443): Max retries exceeded with url: / (Cau",
    "https://www.ecomclear.com/ -> ConnectionError: HTTPSConnectionPool(host='www.ecomclear.com', port=443): Max retries exceeded with url: / "
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "emtransit": {
   "source": null,
@@ -4055,7 +4083,7 @@
    "https://emtransit.com/ -> SSLError: HTTPSConnectionPool(host='emtransit.com', port=443): Max retries exceeded with url: / (Cau",
    "https://www.emtransit.com/ -> SSLError: HTTPSConnectionPool(host='www.emtransit.com', port=443): Max retries exceeded with url: / "
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "gl-link-europe": {
   "source": null,
@@ -4081,8 +4109,7 @@
    "https://gl-link.com/careers/",
    "https://gl-link.com/nl/werken-bij",
    "https://gl-link.com/werken-bij",
-   "https://gllink.nl/",
-   "https://gllink.nl/over-ons/"
+   "https://gllink.nl/"
   ],
   "reached_pages": [
    "https://gl-link.com/",
@@ -4099,7 +4126,7 @@
    "https://www.gl-link.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/werken-bij",
    "https://www.gl-link.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://gl-link.com/vacatures"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "hl-terminal-holding": {
   "source": null,
@@ -4114,7 +4141,7 @@
    "https://hlterminal.nl/ -> ConnectionError: HTTPSConnectionPool(host='hlterminal.nl', port=443): Max retries exceeded with url: / (Cau",
    "https://www.hlterminal.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.hlterminal.nl', port=443): Max retries exceeded with url: / "
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "top-cargo": {
   "source": null,
@@ -4519,7 +4546,7 @@
   "notes": [
    "https://kwe.com/ -> ConnectionError: HTTPSConnectionPool(host='kwe.com', port=443): Max retries exceeded with url: / (Caused by"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "maersk": {
   "source": null,
@@ -4848,7 +4875,7 @@
    "https://www.edcr.nl/ -> ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'",
    "https://edcr.nl/werken-bij-edcr/ -> ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "mn-logistics-international": {
   "source": null,
@@ -5054,8 +5081,7 @@
    "https://dutchqargo.com/nl/werken-bij",
    "https://dutchqargo.com/werken-bij",
    "https://dutchqargo.com/vacatures",
-   "https://dutchqargo.com/nl/vacatures",
-   "https://dutchqargo.com/en"
+   "https://dutchqargo.com/nl/vacatures"
   ],
   "reached_pages": [
    "https://dutchqargo.com/",
@@ -5077,12 +5103,11 @@
    "https://dutchqargo.com/nl/werken-bij",
    "https://dutchqargo.com/werken-bij",
    "https://dutchqargo.com/vacatures",
-   "https://dutchqargo.com/nl/vacatures",
-   "https://dutchqargo.com/en"
+   "https://dutchqargo.com/nl/vacatures"
   ],
   "reason": "no_careers_system_found",
   "notes": [],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "e-m-rogers-transport": {
   "source": null,
@@ -5123,7 +5148,7 @@
    "https://www.emrogers.co.uk/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.emrogers.co.uk/werken-bij",
    "https://www.emrogers.co.uk/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.emrogers.co.uk/vacatures"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "fedex": {
   "source": {
@@ -5227,7 +5252,7 @@
    "https://www.loadmaster.ai/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.loadmaster.ai/werken-bij",
    "https://www.loadmaster.ai/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.loadmaster.ai/vacatures"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "action": {
   "source": {
@@ -5358,41 +5383,42 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://senco.nl/",
-   "https://www.senco.nl/",
-   "https://www.senco.nl/careers",
-   "https://www.senco.nl/en/careers",
-   "https://www.senco.nl/careers/",
-   "https://www.senco.nl/nl/werken-bij",
-   "https://www.senco.nl/werken-bij",
-   "https://www.senco.nl/vacatures",
-   "https://www.senco.nl/nl/vacatures",
-   "https://www.senco.nl/jobs",
-   "https://www.senco.nl/en/jobs",
-   "https://www.senco.nl/career",
-   "https://www.senco.nl/en/career",
-   "https://senco.nl/careers",
-   "https://senco.nl/en/careers",
-   "https://senco.nl/careers/",
-   "https://senco.nl/nl/werken-bij",
-   "https://senco.nl/werken-bij",
-   "https://senco.nl/vacatures",
-   "https://senco.nl/nl/vacatures"
+   "https://en.senko.co.kr/",
+   "https://www.en.senko.co.kr/",
+   "https://www.en.senko.co.kr/careers",
+   "https://www.en.senko.co.kr/en/careers",
+   "https://www.en.senko.co.kr/careers/",
+   "https://www.en.senko.co.kr/nl/werken-bij",
+   "https://www.en.senko.co.kr/werken-bij",
+   "https://www.en.senko.co.kr/vacatures",
+   "https://www.en.senko.co.kr/nl/vacatures",
+   "https://www.en.senko.co.kr/jobs",
+   "https://www.en.senko.co.kr/en/jobs",
+   "https://www.en.senko.co.kr/career",
+   "https://www.en.senko.co.kr/en/career",
+   "https://en.senko.co.kr/careers",
+   "https://en.senko.co.kr/en/careers",
+   "https://en.senko.co.kr/careers/",
+   "https://en.senko.co.kr/nl/werken-bij",
+   "https://en.senko.co.kr/werken-bij",
+   "https://en.senko.co.kr/vacatures",
+   "https://en.senko.co.kr/nl/vacatures"
   ],
   "reached_pages": [
-   "https://senco.nl/",
-   "https://www.senco.nl/"
+   "https://en.senko.co.kr/",
+   "https://en.senko.co.kr/careers",
+   "https://en.senko.co.kr/vacatures"
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://www.senco.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/careers",
-   "https://www.senco.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/en/careers",
-   "https://www.senco.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/careers/",
-   "https://www.senco.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/werken-bij",
-   "https://www.senco.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/werken-bij",
-   "https://www.senco.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.senco.nl/nl/vacatures"
+   "https://www.en.senko.co.kr/ -> ConnectionError: HTTPSConnectionPool(host='www.en.senko.co.kr', port=443): Max retries exceeded with url: /",
+   "https://www.en.senko.co.kr/careers -> ConnectionError: HTTPSConnectionPool(host='www.en.senko.co.kr', port=443): Max retries exceeded with url: /",
+   "https://www.en.senko.co.kr/en/careers -> ConnectionError: HTTPSConnectionPool(host='www.en.senko.co.kr', port=443): Max retries exceeded with url: /",
+   "https://www.en.senko.co.kr/careers/ -> ConnectionError: HTTPSConnectionPool(host='www.en.senko.co.kr', port=443): Max retries exceeded with url: /",
+   "https://www.en.senko.co.kr/nl/werken-bij -> ConnectionError: HTTPSConnectionPool(host='www.en.senko.co.kr', port=443): Max retries exceeded with url: /",
+   "https://www.en.senko.co.kr/werken-bij -> ConnectionError: HTTPSConnectionPool(host='www.en.senko.co.kr', port=443): Max retries exceeded with url: /"
   ],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
  },
  "freight-international-holding": {
   "source": null,
@@ -5400,8 +5426,9 @@
   "checked_pages": [
    "https://northdata.com/",
    "https://www.northdata.com/",
+   "https://www.northdata.com/_career?utm_source=banner&amp;utm_medium=website&amp;utm_campaign=jobs_en",
    "https://www.northdata.com/_career",
-   "https://www.northdata.com/_login?targetUrl=https%3A%2F%2Fwww.northdata.com%2F_career",
+   "https://www.northdata.com/_login?targetUrl=https%3A%2F%2Fwww.northdata.com%2F_career%3Futm_source%3Dbanner%26utm_medium%3Dwebsite%26utm_campaign%3Djobs_en",
    "https://www.northdata.de/_career",
    "https://www.northdata.de/_login?targetUrl=https%3A%2F%2Fwww.northdata.de%2F_career",
    "https://www.northdata.com/careers",
@@ -5409,21 +5436,21 @@
    "https://www.northdata.com/Careers%20N%C2%B7V%C2%B7,%20Bruxelles/KBO%200428.005.768",
    "https://www.northdata.com/SL%20Careers,%20Utrecht/KVK%2098805274",
    "https://www.northdata.com/C-Careers%20SAS,%20Chatou/Siren%20903722064",
-   "https://www.northdata.com/CareerSwipe%20S%C3%A0rl,%20Ivry-sur-Seine/Siren%20109133496",
    "https://www.northdata.com/Career%20Squad%20B%C2%B7V%C2%B7,%20Antwerpen/KBO%200749.713.196",
    "https://www.northdata.com/CareerSwitch%20B%C2%B7V%C2%B7,%20Aalter/KBO%200543.502.480",
    "https://www.northdata.com/STP%20Careers%20S%C3%A0rl,%20Villennes-sur-Seine/Siren%20501953186",
    "https://www.northdata.com/Axon%20Careers%20B%C2%B7V%C2%B7,%20Antwerpen/KBO%200755.684.339",
    "https://www.northdata.com/NEW%20Careers%20CVBA,%20Waterloo/KBO%200432.899.518",
    "https://www.northdata.com/Sportcareers%20B%C2%B7V%C2%B7,%20Hasselt/KBO%200786.325.946",
-   "https://www.northdata.com/A&amp;S%20Careers%20B%C2%B7V%C2%B7,%20Hamme/KBO%200897.635.228",
-   "https://www.northdata.com/Jobs4Careers%20B%C2%B7V%C2%B7,%20Schoten/KBO%201030.400.415"
+   "https://www.northdata.com/Crown%20Careers%20BVBA,%20Zaventem/KBO%200461.200.158",
+   "https://www.northdata.com/A&amp;S%20Careers%20B%C2%B7V%C2%B7,%20Hamme/KBO%200897.635.228"
   ],
   "reached_pages": [
    "https://northdata.com/",
    "https://www.northdata.com/",
+   "https://www.northdata.com/_career?utm_source=banner&amp;utm_medium=website&amp;utm_campaign=jobs_en",
    "https://www.northdata.com/_career",
-   "https://www.northdata.com/_login?targetUrl=https%3A%2F%2Fwww.northdata.com%2F_career",
+   "https://www.northdata.com/_login?targetUrl=https%3A%2F%2Fwww.northdata.com%2F_career%3Futm_source%3Dbanner%26utm_medium%3Dwebsite%26utm_campaign%3Djobs_en",
    "https://www.northdata.de/_career",
    "https://www.northdata.de/_login?targetUrl=https%3A%2F%2Fwww.northdata.de%2F_career",
    "https://www.northdata.com/careers",
@@ -5431,18 +5458,57 @@
    "https://www.northdata.com/Careers%20N%C2%B7V%C2%B7,%20Bruxelles/KBO%200428.005.768",
    "https://www.northdata.com/SL%20Careers,%20Utrecht/KVK%2098805274",
    "https://www.northdata.com/C-Careers%20SAS,%20Chatou/Siren%20903722064",
-   "https://www.northdata.com/CareerSwipe%20S%C3%A0rl,%20Ivry-sur-Seine/Siren%20109133496",
    "https://www.northdata.com/Career%20Squad%20B%C2%B7V%C2%B7,%20Antwerpen/KBO%200749.713.196",
    "https://www.northdata.com/CareerSwitch%20B%C2%B7V%C2%B7,%20Aalter/KBO%200543.502.480",
    "https://www.northdata.com/STP%20Careers%20S%C3%A0rl,%20Villennes-sur-Seine/Siren%20501953186",
    "https://www.northdata.com/Axon%20Careers%20B%C2%B7V%C2%B7,%20Antwerpen/KBO%200755.684.339",
    "https://www.northdata.com/NEW%20Careers%20CVBA,%20Waterloo/KBO%200432.899.518",
    "https://www.northdata.com/Sportcareers%20B%C2%B7V%C2%B7,%20Hasselt/KBO%200786.325.946",
-   "https://www.northdata.com/A&amp;S%20Careers%20B%C2%B7V%C2%B7,%20Hamme/KBO%200897.635.228",
-   "https://www.northdata.com/Jobs4Careers%20B%C2%B7V%C2%B7,%20Schoten/KBO%201030.400.415"
+   "https://www.northdata.com/Crown%20Careers%20BVBA,%20Zaventem/KBO%200461.200.158",
+   "https://www.northdata.com/A&amp;S%20Careers%20B%C2%B7V%C2%B7,%20Hamme/KBO%200897.635.228"
   ],
   "reason": "no_careers_system_found",
   "notes": [],
-  "checked_at": "2026-11-04"
+  "checked_at": "2026-11-05"
+ },
+ "dimerco-express": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://dimerco.com/",
+   "https://www.dimerco.com/",
+   "https://dimerco.com/careers/",
+   "https://www.dimerco.com/careers",
+   "https://www.dimerco.com/en/careers",
+   "https://www.dimerco.com/careers/",
+   "https://www.dimerco.com/nl/werken-bij",
+   "https://www.dimerco.com/werken-bij",
+   "https://www.dimerco.com/vacatures",
+   "https://www.dimerco.com/nl/vacatures",
+   "https://www.dimerco.com/jobs",
+   "https://www.dimerco.com/en/jobs",
+   "https://www.dimerco.com/career",
+   "https://www.dimerco.com/en/career",
+   "https://dimerco.com/careers",
+   "https://dimerco.com/en/careers",
+   "https://dimerco.com/nl/werken-bij",
+   "https://dimerco.com/werken-bij",
+   "https://dimerco.com/vacatures",
+   "https://dimerco.com/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://dimerco.com/",
+   "https://www.dimerco.com/"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/careers/",
+   "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
+   "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
+   "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
+   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij",
+   "https://www.dimerco.com/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/werken-bij"
+  ],
+  "checked_at": "2026-11-05"
  }
 }
