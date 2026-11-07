@@ -1,45 +1,21 @@
 {
- "generated_at": "2026-11-06T21:14+00:00",
+ "generated_at": "2026-11-07T10:51+00:00",
  "jobs": [
-  {
-   "id": "welcome-to-nl:dsv:senior forwarder import",
-   "company": "DSV",
-   "title": "Senior Forwarder Import",
-   "location": "Rotterdam, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Forwarder%20Import",
-   "first_seen": "2026-11-06"
-  },
   {
    "id": "welcome-to-nl:dsv:freight forwarder airfreight healthcare export",
    "company": "DSV",
    "title": "Freight Forwarder Airfreight Healthcare Export",
    "location": "North Holland, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder%20Airfreight%20Healthcare%20Export",
-   "first_seen": "2026-11-06"
+   "first_seen": "2026-11-07"
   },
   {
-   "id": "welcome-to-nl:dsv:senior forwarder export",
+   "id": "welcome-to-nl:dsv:freight forwarder",
    "company": "DSV",
-   "title": "Senior Forwarder Export",
-   "location": "Rotterdam, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Forwarder%20Export",
-   "first_seen": "2026-11-06"
-  },
-  {
-   "id": "welcome-to-nl:dsv:senior forwarder key accounts",
-   "company": "DSV",
-   "title": "Senior Forwarder Key Accounts",
-   "location": "Rotterdam, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Forwarder%20Key%20Accounts",
-   "first_seen": "2026-11-06"
-  },
-  {
-   "id": "welcome-to-nl:dsv:senior freight forwarder",
-   "company": "DSV",
-   "title": "Senior Freight Forwarder",
-   "location": "Rotterdam, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Freight%20Forwarder",
-   "first_seen": "2026-11-06"
+   "title": "Freight Forwarder",
+   "location": "7041 's-Heerenberg, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder",
+   "first_seen": "2026-11-07"
   },
   {
    "id": "welcome-to-nl:dsv:junior freight forwarder export air",
@@ -47,31 +23,23 @@
    "title": "Junior Freight Forwarder Export Air",
    "location": "North Brabant, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Junior%20Freight%20Forwarder%20Export%20Air",
-   "first_seen": "2026-11-06"
+   "first_seen": "2026-11-07"
   },
   {
-   "id": "welcome-to-nl:dsv:freight forwarder luchtvracht healthcare",
+   "id": "welcome-to-nl:dsv:freight forwarder airfreight healthcare",
    "company": "DSV",
-   "title": "Freight Forwarder Luchtvracht Healthcare",
+   "title": "Freight Forwarder Airfreight Healthcare",
    "location": "6199 Maastricht Airport, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder%20Luchtvracht%20Healthcare",
-   "first_seen": "2026-11-06"
-  },
-  {
-   "id": "welcome-to-nl:ups:logistics coordinator",
-   "company": "UPS",
-   "title": "Logistics Coordinator",
-   "location": "Lijnden, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Logistics%20Coordinator",
-   "first_seen": "2026-11-06"
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder%20Airfreight%20Healthcare",
+   "first_seen": "2026-11-07"
   },
   {
    "id": "welcome-to-nl:dsv:logistics coordinator",
    "company": "DSV",
    "title": "Logistics Coordinator",
-   "location": "Rotterdam, Netherlands",
+   "location": "Moerdijk, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Logistics%20Coordinator",
-   "first_seen": "2026-11-06"
+   "first_seen": "2026-11-07"
   },
   {
    "id": "welcome-to-nl:royal ihc:logistics coordinator",
@@ -79,7 +47,15 @@
    "title": "Logistics Coordinator",
    "location": "Sliedrecht, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Logistics%20Coordinator",
-   "first_seen": "2026-11-06"
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "welcome-to-nl:dsv:transport coordinator",
+   "company": "DSV",
+   "title": "Transport Coordinator",
+   "location": "Venlo, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Transport%20Coordinator",
+   "first_seen": "2026-11-07"
   }
  ]
 }
