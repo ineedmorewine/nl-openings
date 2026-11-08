@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-08T00:09+00:00",
+ "generated_at": "2026-11-08T11:00+00:00",
  "jobs": [
   {
-   "id": "welcome-to-nl:dsv:freight forwarder airfreight healthcare export",
+   "id": "welcome-to-nl:dsv:senior forwarder export",
    "company": "DSV",
-   "title": "Freight Forwarder Airfreight Healthcare Export",
-   "location": "North Holland, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder%20Airfreight%20Healthcare%20Export",
+   "title": "Senior Forwarder Export",
+   "location": "Rotterdam, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Forwarder%20Export",
    "first_seen": "2026-11-08"
   },
   {
@@ -18,27 +18,11 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "welcome-to-nl:dsv:junior freight forwarder export air",
+   "id": "welcome-to-nl:dsv:freight forwarder luchtvracht healthcare",
    "company": "DSV",
-   "title": "Junior Freight Forwarder Export Air",
-   "location": "North Brabant, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Junior%20Freight%20Forwarder%20Export%20Air",
-   "first_seen": "2026-11-08"
-  },
-  {
-   "id": "welcome-to-nl:dsv:freight forwarder airfreight healthcare",
-   "company": "DSV",
-   "title": "Freight Forwarder Airfreight Healthcare",
+   "title": "Freight Forwarder Luchtvracht Healthcare",
    "location": "6199 Maastricht Airport, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder%20Airfreight%20Healthcare",
-   "first_seen": "2026-11-08"
-  },
-  {
-   "id": "welcome-to-nl:dsv:logistics coordinator",
-   "company": "DSV",
-   "title": "Logistics Coordinator",
-   "location": "Moerdijk, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Logistics%20Coordinator",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder%20Luchtvracht%20Healthcare",
    "first_seen": "2026-11-08"
   },
   {
