@@ -335,7 +335,8 @@
    "https://cjlogistics.com/vacatures",
    "https://cjlogistics.com/nl/vacatures",
    "https://www.cjlogistics.com/en/page/about/cj-way",
-   "https://www.cjlogistics.com/en/network/en-nl"
+   "https://www.cjlogistics.com/en/network/en-nl",
+   "https://america.cjlogistics.com/careers"
   ],
   "reached_pages": [
    "https://cjlogistics.com/",
@@ -351,7 +352,8 @@
    "https://cjlogistics.com/werken-bij",
    "https://cjlogistics.com/vacatures",
    "https://www.cjlogistics.com/en/page/about/cj-way",
-   "https://www.cjlogistics.com/en/network/en-nl"
+   "https://www.cjlogistics.com/en/network/en-nl",
+   "https://america.cjlogistics.com/careers"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -486,8 +488,7 @@
    "https://lxpantos.com/werken-bij",
    "https://lxpantos.com/vacatures",
    "https://lxpantos.com/nl/vacatures",
-   "https://www.lxpantos.com/en/company/recruitment/ideal-talent.do",
-   "https://www.lxpantos.com/kr/company/recruitment/recruiting.do"
+   "https://www.lxpantos.com/en/company/recruitment/ideal-talent.do"
   ],
   "reached_pages": [
    "https://lxpantos.com/",
@@ -510,8 +511,7 @@
    "https://lxpantos.com/werken-bij",
    "https://lxpantos.com/vacatures",
    "https://lxpantos.com/nl/vacatures",
-   "https://www.lxpantos.com/en/company/recruitment/ideal-talent.do",
-   "https://www.lxpantos.com/kr/company/recruitment/recruiting.do"
+   "https://www.lxpantos.com/en/company/recruitment/ideal-talent.do"
   ],
   "reason": "no_careers_system_found",
   "notes": [],
@@ -560,8 +560,7 @@
    "https://nnrglobal.com/nl/werken-bij",
    "https://nnrglobal.com/werken-bij",
    "https://nnrglobal.com/vacatures",
-   "https://nnrglobal.com/nl/vacatures",
-   "https://www.nnrglobal.com/faq/how-can-i-join-the-nnrs-team/"
+   "https://nnrglobal.com/nl/vacatures"
   ],
   "reached_pages": [
    "https://nnrglobal.com/",
@@ -583,8 +582,7 @@
    "https://nnrglobal.com/nl/werken-bij",
    "https://nnrglobal.com/werken-bij",
    "https://nnrglobal.com/vacatures",
-   "https://nnrglobal.com/nl/vacatures",
-   "https://www.nnrglobal.com/faq/how-can-i-join-the-nnrs-team/"
+   "https://nnrglobal.com/nl/vacatures"
   ],
   "reason": "no_careers_system_found",
   "notes": [],
@@ -1487,16 +1485,16 @@
    "https://anji-logistics.com/nl/werken-bij",
    "https://anji-logistics.com/werken-bij",
    "https://anji-logistics.com/vacatures",
-   "https://www.anji-logistics.com/en/contact/jobs",
-   "http://www.anji-logistics.com/en/"
+   "http://www.anji-logistics.com/en/",
+   "https://www.anji-logistics.com/en/contact/jobs"
   ],
   "reached_pages": [
    "https://www.anji-logistics.com/",
    "https://www.anji-logistics.com/contact/jobs",
    "https://www.anji-logistics.com/nl/werken-bij",
    "https://www.anji-logistics.com/werken-bij",
-   "https://www.anji-logistics.com/en/contact/jobs",
-   "http://www.anji-logistics.com/en/"
+   "http://www.anji-logistics.com/en/",
+   "https://www.anji-logistics.com/en/contact/jobs"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -1935,10 +1933,10 @@
    "https://www.lotteglogis.com/home/company/recruit/resultApply",
    "https://lotteglogis.com/home/company/recruit/inProcNotice",
    "https://lotteglogis.com/home/company/recruit/completedNotice",
-   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0070&page=1",
    "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0067&page=1",
    "https://www.lotteglogis.com/home/company/recruit/inProcNotice",
-   "https://www.lotteglogis.com/home/company/recruit/completedNotice"
+   "https://www.lotteglogis.com/home/company/recruit/completedNotice",
+   "https://www.lotteglogis.com/home/company/recruit/notice/view?key=2026A0067&page=1"
   ],
   "reached_pages": [
    "https://lotteglogis.com/",
@@ -1957,10 +1955,10 @@
    "https://www.lotteglogis.com/home/company/recruit/resultApply",
    "https://lotteglogis.com/home/company/recruit/inProcNotice",
    "https://lotteglogis.com/home/company/recruit/completedNotice",
-   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0070&page=1",
    "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0067&page=1",
    "https://www.lotteglogis.com/home/company/recruit/inProcNotice",
-   "https://www.lotteglogis.com/home/company/recruit/completedNotice"
+   "https://www.lotteglogis.com/home/company/recruit/completedNotice",
+   "https://www.lotteglogis.com/home/company/recruit/notice/view?key=2026A0067&page=1"
   ],
   "reason": "no_careers_system_found",
   "notes": [],
@@ -2456,7 +2454,8 @@
    "https://lines.coscoshipping.com/vacatures",
    "https://lines.coscoshipping.com/nl/vacatures",
    "https://lines.coscoshipping.com/homeen/karriere.html",
-   "https://world.lines.coscoshipping.com/home/Recruiting/recruiting/recruiting"
+   "https://world.lines.coscoshipping.com/home/Recruiting/recruiting/recruiting",
+   "https://world.lines.coscoshipping.com/home/Recruiting/recruiting/"
   ],
   "reached_pages": [
    "https://lines.coscoshipping.com/",
@@ -2469,7 +2468,8 @@
    "https://lines.coscoshipping.com/vacatures",
    "https://lines.coscoshipping.com/nl/vacatures",
    "https://lines.coscoshipping.com/homeen/karriere.html",
-   "https://world.lines.coscoshipping.com/home/Recruiting/recruiting/recruiting"
+   "https://world.lines.coscoshipping.com/home/Recruiting/recruiting/recruiting",
+   "https://world.lines.coscoshipping.com/home/Recruiting/recruiting/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -3306,39 +3306,39 @@
   "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://courierslist.com/",
-   "https://www.courierslist.com/",
-   "https://www.courierslist.com/careers",
-   "https://www.courierslist.com/en/careers",
-   "https://www.courierslist.com/careers/",
-   "https://www.courierslist.com/nl/werken-bij",
-   "https://www.courierslist.com/werken-bij",
-   "https://www.courierslist.com/vacatures",
-   "https://www.courierslist.com/nl/vacatures",
-   "https://www.courierslist.com/jobs",
-   "https://www.courierslist.com/en/jobs",
-   "https://www.courierslist.com/career",
-   "https://www.courierslist.com/en/career",
-   "https://courierslist.com/careers",
-   "https://courierslist.com/en/careers",
-   "https://courierslist.com/careers/",
-   "https://courierslist.com/nl/werken-bij",
-   "https://courierslist.com/werken-bij",
-   "https://courierslist.com/vacatures",
-   "https://courierslist.com/nl/vacatures"
+   "https://lbp.co.za/",
+   "https://www.lbp.co.za/",
+   "https://www.lbp.co.za/careers",
+   "https://www.lbp.co.za/en/careers",
+   "https://www.lbp.co.za/careers/",
+   "https://www.lbp.co.za/nl/werken-bij",
+   "https://www.lbp.co.za/werken-bij",
+   "https://www.lbp.co.za/vacatures",
+   "https://www.lbp.co.za/nl/vacatures",
+   "https://www.lbp.co.za/jobs",
+   "https://www.lbp.co.za/en/jobs",
+   "https://www.lbp.co.za/career",
+   "https://www.lbp.co.za/en/career",
+   "https://lbp.co.za/careers",
+   "https://lbp.co.za/en/careers",
+   "https://lbp.co.za/careers/",
+   "https://lbp.co.za/nl/werken-bij",
+   "https://lbp.co.za/werken-bij",
+   "https://lbp.co.za/vacatures",
+   "https://lbp.co.za/nl/vacatures"
   ],
   "reached_pages": [
-   "https://courierslist.com/",
-   "https://www.courierslist.com/"
+   "https://lbp.co.za/",
+   "https://www.lbp.co.za/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://www.courierslist.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/careers",
-   "https://www.courierslist.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/en/careers",
-   "https://www.courierslist.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/careers/",
-   "https://www.courierslist.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/nl/werken-bij",
-   "https://www.courierslist.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/werken-bij",
-   "https://www.courierslist.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.courierslist.com/vacatures"
+   "https://www.lbp.co.za/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/careers",
+   "https://www.lbp.co.za/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/en/careers",
+   "https://www.lbp.co.za/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/careers/",
+   "https://www.lbp.co.za/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/nl/werken-bij",
+   "https://www.lbp.co.za/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/werken-bij",
+   "https://www.lbp.co.za/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/vacatures"
   ],
   "checked_at": "2026-11-08"
  },
@@ -4477,8 +4477,7 @@
    "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_page:4",
    "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_page:5",
    "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_page:9",
-   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_pageSize:10/jobSearchPaginationExternal_page:1",
-   "https://bdpinternational.mua.hrdepartment.com/hr/ats/Posting/view/7157"
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_pageSize:10/jobSearchPaginationExternal_page:1"
   ],
   "reached_pages": [
    "https://bdpint.com/",
@@ -4500,8 +4499,7 @@
    "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_page:4",
    "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_page:5",
    "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_page:9",
-   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_pageSize:10/jobSearchPaginationExternal_page:1",
-   "https://bdpinternational.mua.hrdepartment.com/hr/ats/Posting/view/7157"
+   "https://bdpinternational.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_pageSize:10/jobSearchPaginationExternal_page:1"
   ],
   "reason": "no_careers_system_found",
   "notes": [],
@@ -5113,11 +5111,12 @@
    "https://emrogers.co.uk/werken-bij",
    "https://emrogers.co.uk/vacatures",
    "https://emrogers.co.uk/nl/vacatures",
-   "https://emrogerstransport.com/"
+   "https://emrogers.com/"
   ],
   "reached_pages": [
    "https://emrogers.co.uk/",
-   "https://www.emrogers.co.uk/"
+   "https://www.emrogers.co.uk/",
+   "https://emrogers.com/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -5381,65 +5380,6 @@
   "notes": [],
   "checked_at": "2026-11-08"
  },
- "al-international-transport-logistics": {
-  "source": {
-   "type": "careerpage",
-   "url": "https://alpi.nl/vacature/"
-  },
-  "vendor": null,
-  "checked_pages": [
-   "https://alpi.nl/",
-   "https://www.alpi.nl/",
-   "https://alpi.nl/vacature/"
-  ],
-  "reached_pages": [
-   "https://alpi.nl/",
-   "https://www.alpi.nl/",
-   "https://alpi.nl/vacature/"
-  ],
-  "reason": "found",
-  "notes": [],
-  "checked_at": "2026-11-08"
- },
- "dimerco-express": {
-  "source": null,
-  "vendor": null,
-  "checked_pages": [
-   "https://dimerco.com/",
-   "https://www.dimerco.com/",
-   "https://dimerco.com/careers/",
-   "https://www.dimerco.com/careers",
-   "https://www.dimerco.com/en/careers",
-   "https://www.dimerco.com/careers/",
-   "https://www.dimerco.com/nl/werken-bij",
-   "https://www.dimerco.com/werken-bij",
-   "https://www.dimerco.com/vacatures",
-   "https://www.dimerco.com/nl/vacatures",
-   "https://www.dimerco.com/jobs",
-   "https://www.dimerco.com/en/jobs",
-   "https://www.dimerco.com/career",
-   "https://www.dimerco.com/en/career",
-   "https://dimerco.com/careers",
-   "https://dimerco.com/en/careers",
-   "https://dimerco.com/nl/werken-bij",
-   "https://dimerco.com/werken-bij",
-   "https://dimerco.com/vacatures",
-   "https://dimerco.com/nl/vacatures"
-  ],
-  "reached_pages": [
-   "https://dimerco.com/"
-  ],
-  "reason": "no_careers_system_found",
-  "notes": [
-   "https://www.dimerco.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/",
-   "https://dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://dimerco.com/careers/",
-   "https://www.dimerco.com/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers",
-   "https://www.dimerco.com/en/careers -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/en/careers",
-   "https://www.dimerco.com/careers/ -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/careers/",
-   "https://www.dimerco.com/nl/werken-bij -> HTTPError: 403 Client Error: Forbidden for url: https://www.dimerco.com/nl/werken-bij"
-  ],
-  "checked_at": "2026-11-08"
- },
  "freight-international-holding": {
   "source": null,
   "vendor": null,
@@ -5489,6 +5429,96 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [],
+  "checked_at": "2026-11-08"
+ },
+ "boreas-logistics": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://boreas-offshore.com/",
+   "https://www.boreas-offshore.com/",
+   "https://boreas-offshore.com/careers",
+   "https://www.boreas-offshore.com/careers",
+   "https://www.boreas-offshore.com/en/careers",
+   "https://www.boreas-offshore.com/careers/",
+   "https://www.boreas-offshore.com/nl/werken-bij",
+   "https://www.boreas-offshore.com/werken-bij",
+   "https://www.boreas-offshore.com/vacatures",
+   "https://www.boreas-offshore.com/nl/vacatures",
+   "https://www.boreas-offshore.com/jobs",
+   "https://www.boreas-offshore.com/en/jobs",
+   "https://www.boreas-offshore.com/career",
+   "https://www.boreas-offshore.com/en/career",
+   "https://boreas-offshore.com/en/careers",
+   "https://boreas-offshore.com/careers/",
+   "https://boreas-offshore.com/nl/werken-bij",
+   "https://boreas-offshore.com/werken-bij",
+   "https://boreas-offshore.com/vacatures",
+   "https://boreas-offshore.com/nl/vacatures"
+  ],
+  "reached_pages": [
+   "https://boreas-offshore.com/",
+   "https://www.boreas-offshore.com/"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://boreas-offshore.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/careers",
+   "https://www.boreas-offshore.com/careers -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/careers",
+   "https://www.boreas-offshore.com/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/en/careers",
+   "https://www.boreas-offshore.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/careers/",
+   "https://www.boreas-offshore.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/nl/werken-bij",
+   "https://www.boreas-offshore.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://boreas-offshore.com/werken-bij"
+  ],
+  "checked_at": "2026-11-08"
+ },
+ "ocean-network-express": {
+  "source": null,
+  "vendor": null,
+  "checked_pages": [
+   "https://one-line.com/",
+   "https://www.one-line.com/",
+   "https://www.one-line.com/en/careers",
+   "https://www.one-line.com/careers",
+   "https://www.one-line.com/careers/",
+   "https://www.one-line.com/nl/werken-bij",
+   "https://www.one-line.com/werken-bij",
+   "https://www.one-line.com/vacatures",
+   "https://www.one-line.com/nl/vacatures",
+   "https://www.one-line.com/jobs",
+   "https://www.one-line.com/en/jobs",
+   "https://www.one-line.com/career",
+   "https://www.one-line.com/en/career",
+   "https://one-line.com/careers",
+   "https://one-line.com/en/careers",
+   "https://one-line.com/careers/",
+   "https://one-line.com/nl/werken-bij",
+   "https://one-line.com/werken-bij",
+   "https://one-line.com/vacatures",
+   "https://one-line.com/nl/vacatures",
+   "https://careers.eua.one-line.com/",
+   "https://careers.eua.one-line.com/Department/All%20Vacancies"
+  ],
+  "reached_pages": [
+   "https://one-line.com/",
+   "https://www.one-line.com/",
+   "https://www.one-line.com/en/careers",
+   "https://www.one-line.com/careers",
+   "https://www.one-line.com/careers/",
+   "https://one-line.com/careers",
+   "https://one-line.com/en/careers",
+   "https://one-line.com/careers/",
+   "https://careers.eua.one-line.com/",
+   "https://careers.eua.one-line.com/Department/All%20Vacancies"
+  ],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://www.one-line.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/nl/werken-bij",
+   "https://www.one-line.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/werken-bij",
+   "https://www.one-line.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/vacatures",
+   "https://www.one-line.com/nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/nl/vacatures",
+   "https://www.one-line.com/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/jobs",
+   "https://www.one-line.com/en/jobs -> HTTPError: 404 Client Error: Not Found for url: https://www.one-line.com/en/jobs"
+  ],
   "checked_at": "2026-11-08"
  }
 }
