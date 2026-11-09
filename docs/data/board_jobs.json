@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T20:07+00:00",
+ "generated_at": "2026-11-09T00:27+00:00",
  "jobs": [
   {
    "id": "welcome-to-nl:dsv:senior forwarder export",
@@ -7,7 +7,7 @@
    "title": "Senior Forwarder Export",
    "location": "Rotterdam, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Forwarder%20Export",
-   "first_seen": "2026-11-08"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "welcome-to-nl:dsv:freight forwarder",
@@ -15,15 +15,15 @@
    "title": "Freight Forwarder",
    "location": "7041 's-Heerenberg, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder",
-   "first_seen": "2026-11-08"
+   "first_seen": "2026-11-09"
   },
   {
-   "id": "welcome-to-nl:dsv:freight forwarder luchtvracht healthcare",
+   "id": "welcome-to-nl:dsv:junior freight forwarder export air",
    "company": "DSV",
-   "title": "Freight Forwarder Luchtvracht Healthcare",
-   "location": "6199 Maastricht Airport, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder%20Luchtvracht%20Healthcare",
-   "first_seen": "2026-11-08"
+   "title": "Junior Freight Forwarder Export Air",
+   "location": "North Brabant, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Junior%20Freight%20Forwarder%20Export%20Air",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "welcome-to-nl:royal ihc:logistics coordinator",
@@ -31,15 +31,7 @@
    "title": "Logistics Coordinator",
    "location": "Sliedrecht, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Logistics%20Coordinator",
-   "first_seen": "2026-11-08"
-  },
-  {
-   "id": "welcome-to-nl:dsv:transport coordinator",
-   "company": "DSV",
-   "title": "Transport Coordinator",
-   "location": "Venlo, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Transport%20Coordinator",
-   "first_seen": "2026-11-08"
+   "first_seen": "2026-11-09"
   }
  ]
 }
