@@ -1,6 +1,48 @@
 {
- "generated_at": "2026-11-15T20:44+00:00",
+ "generated_at": "2026-11-16T00:40+00:00",
  "jobs": [
+  {
+   "id": "fairways-logistics:https://www.fairwayshipping.com/vacancies/operator-waterklerk",
+   "company_id": "fairways-logistics",
+   "title": "Ga terug",
+   "location": "",
+   "url": "https://www.fairwayshipping.com/vacancies/operator-waterklerk",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-16",
+   "baseline": false
+  },
+  {
+   "id": "expeditors:744000161680069",
+   "company_id": "expeditors",
+   "title": "Trade Compliance Coordinator",
+   "location": "Rozenburg",
+   "url": "https://jobs.smartrecruiters.com/Expeditors/744000161680069",
+   "posted_at": "2026-11-15",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-16",
+   "baseline": false
+  },
   {
    "id": "action:/job/Process-Expert-Supply-Chain-Planning/1442635900/",
    "company_id": "action",
@@ -7640,111 +7682,6 @@
    "baseline": false
   },
   {
-   "id": "fairways-logistics:https://isw.changeworknow.co.uk/fair_ways/vms/e/careers/positions/d8oK3GEXXn3zSxn4o2BwQv",
-   "company_id": "fairways-logistics",
-   "title": "Deputy Manager - Residential Family Centre",
-   "location": "Hazel",
-   "url": "https://isw.changeworknow.co.uk/fair_ways/vms/e/careers/positions/d8oK3GEXXn3zSxn4o2BwQv",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-15",
-   "baseline": false
-  },
-  {
-   "id": "fairways-logistics:https://isw.changeworknow.co.uk/fair_ways/vms/e/careers/positions/bI3lwr9QXgvzs2kHMGh9sQ",
-   "company_id": "fairways-logistics",
-   "title": "Deputy Manager - Residential Family Centre - Part Time",
-   "location": "Maple",
-   "url": "https://isw.changeworknow.co.uk/fair_ways/vms/e/careers/positions/bI3lwr9QXgvzs2kHMGh9sQ",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-15",
-   "baseline": false
-  },
-  {
-   "id": "fairways-logistics:https://isw.changeworknow.co.uk/fair_ways/vms/e/careers/positions/b5B5FxiVzi9yKXpX51dttL",
-   "company_id": "fairways-logistics",
-   "title": "Deputy Manager - Residential Family Centre - Part Time",
-   "location": "Blossom",
-   "url": "https://isw.changeworknow.co.uk/fair_ways/vms/e/careers/positions/b5B5FxiVzi9yKXpX51dttL",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-15",
-   "baseline": false
-  },
-  {
-   "id": "fairways-logistics:https://isw.changeworknow.co.uk/fair_ways/vms/e/careers/positions/cMWNJG6HPc47Kd4SdvpfXG",
-   "company_id": "fairways-logistics",
-   "title": "Family Contact Coordinator",
-   "location": "Family",
-   "url": "https://isw.changeworknow.co.uk/fair_ways/vms/e/careers/positions/cMWNJG6HPc47Kd4SdvpfXG",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": true,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-15",
-   "baseline": false
-  },
-  {
-   "id": "fairways-logistics:https://isw.changeworknow.co.uk/fair_ways/vms/e/careers/positions/c6ANMKXZPlTOVr7v33wGEu",
-   "company_id": "fairways-logistics",
-   "title": "Residential Children's Home - Registered Manager",
-   "location": "Portchester",
-   "url": "https://isw.changeworknow.co.uk/fair_ways/vms/e/careers/positions/c6ANMKXZPlTOVr7v33wGEu",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-15",
-   "baseline": false
-  },
-  {
    "id": "gxo-logistics:/job/Hilversum-Process-Controller-I-1216-BL/1431546700/",
    "company_id": "gxo-logistics",
    "title": "Process Controller I",
@@ -8837,27 +8774,6 @@
    "baseline": false
   },
   {
-   "id": "gxo-logistics:/job/Eindhoven-Business-Support-Manager-II-5651-GH/1430971700/",
-   "company_id": "gxo-logistics",
-   "title": "Business Support Manager II",
-   "location": "Eindhoven, NL, 5651 GH",
-   "url": "https://jobs.gxo.com/job/Eindhoven-Business-Support-Manager-II-5651-GH/1430971700/",
-   "posted_at": "2026-11-14",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-01",
-   "baseline": true
-  },
-  {
    "id": "gxo-logistics:/job/Oude-Meer-Teamleader-I-RMA-1438-AN/1421101500/",
    "company_id": "gxo-logistics",
    "title": "Teamleader I - RMA",
@@ -8884,6 +8800,27 @@
    "title": "Teamleader I",
    "location": "Oude Meer, NL, 1438 AN",
    "url": "https://jobs.gxo.com/job/Oude-Meer-Teamleader-I-1438-AN/1421104400/",
+   "posted_at": "2026-11-14",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-01",
+   "baseline": true
+  },
+  {
+   "id": "gxo-logistics:/job/Eindhoven-Business-Support-Manager-II-5651-GH/1430971700/",
+   "company_id": "gxo-logistics",
+   "title": "Business Support Manager II",
+   "location": "Eindhoven, NL, 5651 GH",
+   "url": "https://jobs.gxo.com/job/Eindhoven-Business-Support-Manager-II-5651-GH/1430971700/",
    "posted_at": "2026-11-14",
    "labels": {
     "rules": 3,
@@ -9125,6 +9062,27 @@
    "labels": null,
    "labels_checked": false,
    "first_seen": "2026-11-14",
+   "baseline": false
+  },
+  {
+   "id": "maersk:/job/NLROT22---Rotterdam---Amoerweg-29/Operations-Manager---Cold-Storage---Maasvlakte_R203609",
+   "company_id": "maersk",
+   "title": "Operations Manager – Cold Storage | Maasvlakte",
+   "location": "NLROT22 - Rotterdam - Amoerweg 29",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NLROT22---Rotterdam---Amoerweg-29/Operations-Manager---Cold-Storage---Maasvlakte_R203609",
+   "posted_at": "2026-11-13",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-13",
    "baseline": false
   },
   {
@@ -9668,11 +9626,32 @@
    "baseline": false
   },
   {
-   "id": "maersk:/job/NLROT22---Rotterdam---Amoerweg-29/Operations-Manager---Cold-Storage---Maasvlakte_R203609",
-   "company_id": "maersk",
-   "title": "Operations Manager – Cold Storage | Maasvlakte",
-   "location": "NLROT22 - Rotterdam - Amoerweg 29",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/NLROT22---Rotterdam---Amoerweg-29/Operations-Manager---Cold-Storage---Maasvlakte_R203609",
+   "id": "flex:/job/Netherlands-Woerden/Validation-Testing-Engineer_WD234015",
+   "company_id": "flex",
+   "title": "Test Engineer",
+   "location": "Netherlands, Woerden",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Validation-Testing-Engineer_WD234015",
+   "posted_at": "2026-11-13",
+   "labels": {
+    "rules": 3,
+    "dutch_required": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-12",
+   "baseline": false
+  },
+  {
+   "id": "flex:/job/Netherlands-Woerden/System-Engineer---Automotive-Actuation-Systems_WD233887",
+   "company_id": "flex",
+   "title": "System Engineer – Automotive Actuation Systems",
+   "location": "Netherlands, Woerden",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/System-Engineer---Automotive-Actuation-Systems_WD233887",
    "posted_at": "2026-11-13",
    "labels": {
     "rules": 3,
@@ -9685,7 +9664,7 @@
     "other_language": false
    },
    "labels_checked": true,
-   "first_seen": "2026-11-13",
+   "first_seen": "2026-11-12",
    "baseline": false
   },
   {
@@ -9731,6 +9710,27 @@
    "baseline": false
   },
   {
+   "id": "gxo-logistics:/job/Lelystad-Corporate-Recruiter-8218-MC/1440426500/",
+   "company_id": "gxo-logistics",
+   "title": "Corporate Recruiter",
+   "location": "Lelystad, NL, 8218 MC",
+   "url": "https://jobs.gxo.com/job/Lelystad-Corporate-Recruiter-8218-MC/1440426500/",
+   "posted_at": "2026-11-13",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
    "id": "arvato:/ARVATO/job/Gennep-Technician/1448102533/",
    "company_id": "arvato",
    "title": "Technician",
@@ -9762,27 +9762,6 @@
     "rules": 3,
     "dutch_required": false,
     "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-26",
-   "baseline": false
-  },
-  {
-   "id": "gxo-logistics:/job/Lelystad-Corporate-Recruiter-8218-MC/1440426500/",
-   "company_id": "gxo-logistics",
-   "title": "Corporate Recruiter",
-   "location": "Lelystad, NL, 8218 MC",
-   "url": "https://jobs.gxo.com/job/Lelystad-Corporate-Recruiter-8218-MC/1440426500/",
-   "posted_at": "2026-11-13",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": true,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -10089,48 +10068,6 @@
    "baseline": false
   },
   {
-   "id": "flex:/job/Netherlands-Woerden/Validation-Testing-Engineer_WD234015",
-   "company_id": "flex",
-   "title": "Test Engineer",
-   "location": "Netherlands, Woerden",
-   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Validation-Testing-Engineer_WD234015",
-   "posted_at": "2026-11-12",
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-12",
-   "baseline": false
-  },
-  {
-   "id": "flex:/job/Netherlands-Woerden/System-Engineer---Automotive-Actuation-Systems_WD233887",
-   "company_id": "flex",
-   "title": "System Engineer – Automotive Actuation Systems",
-   "location": "Netherlands, Woerden",
-   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/System-Engineer---Automotive-Actuation-Systems_WD233887",
-   "posted_at": "2026-11-12",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-12",
-   "baseline": false
-  },
-  {
    "id": "arvato:/ARVATO/job/Gennep-Supervisor-Outbound/1447446833/",
    "company_id": "arvato",
    "title": "Supervisor - Outbound",
@@ -10341,6 +10278,27 @@
    "baseline": false
   },
   {
+   "id": "shypple:2824546",
+   "company_id": "shypple",
+   "title": "People & Culture Business Partner",
+   "location": "Rotterdam",
+   "url": "https://careers.shypple.com/o/people-culture-business-partner-1",
+   "posted_at": "2026-11-11",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": true,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-12",
+   "baseline": false
+  },
+  {
    "id": "amazon:10602179",
    "company_id": "amazon",
    "title": "Technical Account Manager (TAM), Public Sector, EMEA North",
@@ -10470,24 +10428,45 @@
    "baseline": false
   },
   {
-   "id": "shypple:2824546",
-   "company_id": "shypple",
-   "title": "People & Culture Business Partner",
-   "location": "Rotterdam",
-   "url": "https://careers.shypple.com/o/people-culture-business-partner-1",
+   "id": "flexport:8378837",
+   "company_id": "flexport",
+   "title": "Global Operations Associate",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8378837",
    "posted_at": "2026-11-11",
    "labels": {
     "rules": 3,
     "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
     "english_workplace": false,
     "other_language": false
    },
    "labels_checked": true,
-   "first_seen": "2026-11-12",
+   "first_seen": "2026-11-11",
+   "baseline": false
+  },
+  {
+   "id": "gxo-logistics:/job/Oss-Shift-leader-5347-JM/1450016100/",
+   "company_id": "gxo-logistics",
+   "title": "Shift leader",
+   "location": "Oss, NL, 5347 JM",
+   "url": "https://jobs.gxo.com/job/Oss-Shift-leader-5347-JM/1450016100/",
+   "posted_at": "2026-11-11",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-11",
    "baseline": false
   },
   {
@@ -10720,32 +10699,11 @@
    "baseline": false
   },
   {
-   "id": "flexport:8378837",
-   "company_id": "flexport",
-   "title": "Global Operations Associate",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8378837",
-   "posted_at": "2026-11-11",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-11",
-   "baseline": false
-  },
-  {
-   "id": "gxo-logistics:/job/Oss-Shift-leader-5347-JM/1450016100/",
+   "id": "gxo-logistics:/job/Bleiswijk-Coordinator-2665/1409470000/",
    "company_id": "gxo-logistics",
-   "title": "Shift leader",
-   "location": "Oss, NL, 5347 JM",
-   "url": "https://jobs.gxo.com/job/Oss-Shift-leader-5347-JM/1450016100/",
+   "title": "Coordinator",
+   "location": "Bleiswijk, NL, 2665",
+   "url": "https://jobs.gxo.com/job/Bleiswijk-Coordinator-2665/1409470000/",
    "posted_at": "2026-11-11",
    "labels": {
     "rules": 3,
@@ -10758,7 +10716,7 @@
     "other_language": false
    },
    "labels_checked": true,
-   "first_seen": "2026-11-11",
+   "first_seen": "2026-11-10",
    "baseline": false
   },
   {
@@ -10772,27 +10730,6 @@
     "rules": 3,
     "dutch_required": false,
     "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-10",
-   "baseline": false
-  },
-  {
-   "id": "gxo-logistics:/job/Bleiswijk-Coordinator-2665/1409470000/",
-   "company_id": "gxo-logistics",
-   "title": "Coordinator",
-   "location": "Bleiswijk, NL, 2665",
-   "url": "https://jobs.gxo.com/job/Bleiswijk-Coordinator-2665/1409470000/",
-   "posted_at": "2026-11-11",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -10822,6 +10759,27 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "flex:/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
+   "company_id": "flex",
+   "title": "Head of Project Management",
+   "location": "Netherlands, Woerden",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
+   "posted_at": "2026-11-11",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-01",
    "baseline": false
   },
   {
@@ -10885,6 +10843,111 @@
    },
    "labels_checked": true,
    "first_seen": "2026-11-11",
+   "baseline": false
+  },
+  {
+   "id": "gxo-logistics:/job/Eindhoven-Case-Manager-5651-GG/1449290700/",
+   "company_id": "gxo-logistics",
+   "title": "Case Manager",
+   "location": "Eindhoven, NL, 5651 GG",
+   "url": "https://jobs.gxo.com/job/Eindhoven-Case-Manager-5651-GG/1449290700/",
+   "posted_at": "2026-11-10",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-10",
+   "baseline": false
+  },
+  {
+   "id": "sharp-jusda-logistics:https://jusdausa.com/careers/#senior-freight-operations-manager",
+   "company_id": "sharp-jusda-logistics",
+   "title": "Senior Freight Operations Manager",
+   "location": "",
+   "url": "https://jusdausa.com/careers/#senior-freight-operations-manager",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-10",
+   "baseline": true
+  },
+  {
+   "id": "sharp-jusda-logistics:https://jusdausa.com/careers/#warehouse-operations-manager-mandarin-fluency",
+   "company_id": "sharp-jusda-logistics",
+   "title": "Warehouse Operations Manager Mandarin Fluency",
+   "location": "",
+   "url": "https://jusdausa.com/careers/#warehouse-operations-manager-mandarin-fluency",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-10",
+   "baseline": true
+  },
+  {
+   "id": "sharp-jusda-logistics:https://jusdausa.com/careers/#customs-compliance-coordinator-mandarin-fluency",
+   "company_id": "sharp-jusda-logistics",
+   "title": "Customs Compliance Coordinator Mandarin Fluency",
+   "location": "",
+   "url": "https://jusdausa.com/careers/#customs-compliance-coordinator-mandarin-fluency",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-10",
+   "baseline": true
+  },
+  {
+   "id": "stryker:/job/Amsterdam-Netherlands/Human-Resources-Intern_R576472-1",
+   "company_id": "stryker",
+   "title": "Human Resources Intern",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Human-Resources-Intern_R576472-1",
+   "posted_at": "2026-11-10",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-10",
    "baseline": false
   },
   {
@@ -11089,111 +11152,6 @@
    "baseline": false
   },
   {
-   "id": "gxo-logistics:/job/Eindhoven-Case-Manager-5651-GG/1449290700/",
-   "company_id": "gxo-logistics",
-   "title": "Case Manager",
-   "location": "Eindhoven, NL, 5651 GG",
-   "url": "https://jobs.gxo.com/job/Eindhoven-Case-Manager-5651-GG/1449290700/",
-   "posted_at": "2026-11-10",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-10",
-   "baseline": false
-  },
-  {
-   "id": "sharp-jusda-logistics:https://jusdausa.com/careers/#senior-freight-operations-manager",
-   "company_id": "sharp-jusda-logistics",
-   "title": "Senior Freight Operations Manager",
-   "location": "",
-   "url": "https://jusdausa.com/careers/#senior-freight-operations-manager",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-10",
-   "baseline": true
-  },
-  {
-   "id": "sharp-jusda-logistics:https://jusdausa.com/careers/#warehouse-operations-manager-mandarin-fluency",
-   "company_id": "sharp-jusda-logistics",
-   "title": "Warehouse Operations Manager Mandarin Fluency",
-   "location": "",
-   "url": "https://jusdausa.com/careers/#warehouse-operations-manager-mandarin-fluency",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-10",
-   "baseline": true
-  },
-  {
-   "id": "sharp-jusda-logistics:https://jusdausa.com/careers/#customs-compliance-coordinator-mandarin-fluency",
-   "company_id": "sharp-jusda-logistics",
-   "title": "Customs Compliance Coordinator Mandarin Fluency",
-   "location": "",
-   "url": "https://jusdausa.com/careers/#customs-compliance-coordinator-mandarin-fluency",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-10",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Amsterdam-Netherlands/Human-Resources-Intern_R576472-1",
-   "company_id": "stryker",
-   "title": "Human Resources Intern",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Human-Resources-Intern_R576472-1",
-   "posted_at": "2026-11-10",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-10",
-   "baseline": false
-  },
-  {
    "id": "arvato:/ARVATO/job/Gennep-HSE-Internship/1416257933/",
    "company_id": "arvato",
    "title": "HSE Internship",
@@ -11233,27 +11191,6 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-13",
-   "baseline": false
-  },
-  {
-   "id": "flex:/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
-   "company_id": "flex",
-   "title": "Head of Project Management",
-   "location": "Netherlands, Woerden",
-   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Head-of-Project-Management_WD228302",
-   "posted_at": "2026-11-10",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-01",
    "baseline": false
   },
   {
@@ -11506,6 +11443,27 @@
    },
    "labels_checked": true,
    "first_seen": "2026-11-10",
+   "baseline": false
+  },
+  {
+   "id": "gxo-logistics:/job/Venray-Coordinator-5804-AE/1449019600/",
+   "company_id": "gxo-logistics",
+   "title": "Coordinator",
+   "location": "Venray, NL, 5804 AE",
+   "url": "https://jobs.gxo.com/job/Venray-Coordinator-5804-AE/1449019600/",
+   "posted_at": "2026-11-09",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-09",
    "baseline": false
   },
   {
@@ -11852,27 +11810,6 @@
     "rules": 3,
     "dutch_required": false,
     "written_in_dutch": null,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-09",
-   "baseline": false
-  },
-  {
-   "id": "gxo-logistics:/job/Venray-Coordinator-5804-AE/1449019600/",
-   "company_id": "gxo-logistics",
-   "title": "Coordinator",
-   "location": "Venray, NL, 5804 AE",
-   "url": "https://jobs.gxo.com/job/Venray-Coordinator-5804-AE/1449019600/",
-   "posted_at": "2026-11-09",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -12283,72 +12220,6 @@
    "baseline": false
   },
   {
-   "id": "bleckmann:https://www.bleckmann.com/vacancies/freight-forwarding-employee",
-   "company_id": "bleckmann",
-   "title": "Support function Freight Forwarding Employee Almelo, Netherlands",
-   "location": "Netherlands",
-   "url": "https://www.bleckmann.com/vacancies/freight-forwarding-employee",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-07",
-   "baseline": false
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/wagencontroleur-venlo",
-   "company_id": "cabooter",
-   "title": "Wagencontroleur Venlo",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/career/jobs/wagencontroleur-venlo",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-11-07",
-   "baseline": false
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/rangeerder-venlo",
-   "company_id": "cabooter",
-   "title": "Rangeerder Venlo",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/career/jobs/rangeerder-venlo",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-11-07",
-   "baseline": false
-  },
-  {
-   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/transport-coordinator-202",
-   "company_id": "klg-europe",
-   "title": "Transport Coordinator",
-   "location": "Waalwijk, Nederland",
-   "url": "https://www.werkenbijklg.nl/vacatures/transport-coordinator-202",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-07",
-   "baseline": false
-  },
-  {
    "id": "gxo-logistics:/job/Heerlen-Automation-Control-Room-Manager-6422-PB/1448785500/",
    "company_id": "gxo-logistics",
    "title": "Automation Control Room Manager",
@@ -12464,6 +12335,72 @@
     "rules": 3,
     "dutch_required": false,
     "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-07",
+   "baseline": false
+  },
+  {
+   "id": "bleckmann:https://www.bleckmann.com/vacancies/freight-forwarding-employee",
+   "company_id": "bleckmann",
+   "title": "Support function Freight Forwarding Employee Almelo, Netherlands",
+   "location": "Netherlands",
+   "url": "https://www.bleckmann.com/vacancies/freight-forwarding-employee",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-07",
+   "baseline": false
+  },
+  {
+   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/wagencontroleur-venlo",
+   "company_id": "cabooter",
+   "title": "Wagencontroleur Venlo",
+   "location": "",
+   "url": "https://www.cabootergroup.com/career/career/jobs/wagencontroleur-venlo",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-11-07",
+   "baseline": false
+  },
+  {
+   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/rangeerder-venlo",
+   "company_id": "cabooter",
+   "title": "Rangeerder Venlo",
+   "location": "",
+   "url": "https://www.cabootergroup.com/career/career/jobs/rangeerder-venlo",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-11-07",
+   "baseline": false
+  },
+  {
+   "id": "klg-europe:https://www.werkenbijklg.nl/vacatures/transport-coordinator-202",
+   "company_id": "klg-europe",
+   "title": "Transport Coordinator",
+   "location": "Waalwijk, Nederland",
+   "url": "https://www.werkenbijklg.nl/vacatures/transport-coordinator-202",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": true,
+    "written_in_dutch": true,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -12685,6 +12622,69 @@
    "baseline": false
   },
   {
+   "id": "maersk:/job/Netherlands-Rotterdam-3011-XB/Senior-Terminal-Solution-Manager_R201626",
+   "company_id": "maersk",
+   "title": "Senior Terminal Solution Manager",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Senior-Terminal-Solution-Manager_R201626",
+   "posted_at": "2026-11-06",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-07",
+   "baseline": false
+  },
+  {
+   "id": "maersk:/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant_R202242-1",
+   "company_id": "maersk",
+   "title": "Customer Experience Consultant",
+   "location": "Netherlands, Rotterdam, 3011 XB",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant_R202242-1",
+   "posted_at": "2026-11-06",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-07",
+   "baseline": false
+  },
+  {
+   "id": "maersk:/job/Netherlands-The-Hague-2511-DP/XMLNAME--Senior--Cost-Estimating-Lead_R202734",
+   "company_id": "maersk",
+   "title": "(Senior) Cost Estimating Lead",
+   "location": "Netherlands, The Hague, 2511 DP",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-The-Hague-2511-DP/XMLNAME--Senior--Cost-Estimating-Lead_R202734",
+   "posted_at": "2026-11-06",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-07",
+   "baseline": false
+  },
+  {
    "id": "abbott:/job/Netherlands---Zwolle/Operator-Poedertoren_31166916-2",
    "company_id": "abbott",
    "title": "Operator Poedertoren",
@@ -12790,11 +12790,11 @@
    "baseline": false
   },
   {
-   "id": "maersk:/job/Netherlands-Rotterdam-3011-XB/Senior-Terminal-Solution-Manager_R201626",
-   "company_id": "maersk",
-   "title": "Senior Terminal Solution Manager",
-   "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Senior-Terminal-Solution-Manager_R201626",
+   "id": "gxo-logistics:/job/Eindhoven-INTERNSHIP-HR-Admin-for-Site-Support-Center-5651-GG/1448427200/",
+   "company_id": "gxo-logistics",
+   "title": "INTERNSHIP - HR Admin for Site Support Center",
+   "location": "Eindhoven, NL, 5651 GG",
+   "url": "https://jobs.gxo.com/job/Eindhoven-INTERNSHIP-HR-Admin-for-Site-Support-Center-5651-GG/1448427200/",
    "posted_at": "2026-11-06",
    "labels": {
     "rules": 3,
@@ -12807,19 +12807,19 @@
     "other_language": false
    },
    "labels_checked": true,
-   "first_seen": "2026-11-07",
+   "first_seen": "2026-11-06",
    "baseline": false
   },
   {
-   "id": "maersk:/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant_R202242-1",
-   "company_id": "maersk",
-   "title": "Customer Experience Consultant",
-   "location": "Netherlands, Rotterdam, 3011 XB",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-Rotterdam-3011-XB/Customer-Experience-Consultant_R202242-1",
-   "posted_at": "2026-11-06",
+   "id": "stena-line:https://stenaline.com/job-openings/3812/terminalwerker-hoek-van-holland",
+   "company_id": "stena-line",
+   "title": "Terminalwerker Hoek van Holland",
+   "location": "Netherlands",
+   "url": "https://stenaline.com/job-openings/3812/terminalwerker-hoek-van-holland",
+   "posted_at": null,
    "labels": {
     "rules": 3,
-    "dutch_required": false,
+    "dutch_required": true,
     "written_in_dutch": false,
     "sponsorship": false,
     "no_sponsorship": false,
@@ -12828,20 +12828,20 @@
     "other_language": false
    },
    "labels_checked": true,
-   "first_seen": "2026-11-07",
+   "first_seen": "2026-11-06",
    "baseline": false
   },
   {
-   "id": "maersk:/job/Netherlands-The-Hague-2511-DP/XMLNAME--Senior--Cost-Estimating-Lead_R202734",
-   "company_id": "maersk",
-   "title": "(Senior) Cost Estimating Lead",
-   "location": "Netherlands, The Hague, 2511 DP",
-   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-The-Hague-2511-DP/XMLNAME--Senior--Cost-Estimating-Lead_R202734",
-   "posted_at": "2026-11-06",
+   "id": "stena-line:https://stenaline.com/job-openings/3813/zelfstandig-werkend-kok",
+   "company_id": "stena-line",
+   "title": "Zelfstandig Werkend Kok",
+   "location": "Netherlands",
+   "url": "https://stenaline.com/job-openings/3813/zelfstandig-werkend-kok",
+   "posted_at": null,
    "labels": {
     "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
+    "dutch_required": true,
+    "written_in_dutch": true,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -12849,7 +12849,7 @@
     "other_language": false
    },
    "labels_checked": true,
-   "first_seen": "2026-11-07",
+   "first_seen": "2026-11-06",
    "baseline": false
   },
   {
@@ -13294,69 +13294,6 @@
    "baseline": false
   },
   {
-   "id": "gxo-logistics:/job/Eindhoven-INTERNSHIP-HR-Admin-for-Site-Support-Center-5651-GG/1448427200/",
-   "company_id": "gxo-logistics",
-   "title": "INTERNSHIP - HR Admin for Site Support Center",
-   "location": "Eindhoven, NL, 5651 GG",
-   "url": "https://jobs.gxo.com/job/Eindhoven-INTERNSHIP-HR-Admin-for-Site-Support-Center-5651-GG/1448427200/",
-   "posted_at": "2026-11-06",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-06",
-   "baseline": false
-  },
-  {
-   "id": "stena-line:https://stenaline.com/job-openings/3812/terminalwerker-hoek-van-holland",
-   "company_id": "stena-line",
-   "title": "Terminalwerker Hoek van Holland",
-   "location": "Netherlands",
-   "url": "https://stenaline.com/job-openings/3812/terminalwerker-hoek-van-holland",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-06",
-   "baseline": false
-  },
-  {
-   "id": "stena-line:https://stenaline.com/job-openings/3813/zelfstandig-werkend-kok",
-   "company_id": "stena-line",
-   "title": "Zelfstandig Werkend Kok",
-   "location": "Netherlands",
-   "url": "https://stenaline.com/job-openings/3813/zelfstandig-werkend-kok",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-06",
-   "baseline": false
-  },
-  {
    "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Senior-Terminal-Solution-Manager_R201626",
    "company_id": "apm-terminals",
    "title": "Senior Terminal Solution Manager",
@@ -13495,6 +13432,27 @@
    },
    "labels_checked": true,
    "first_seen": "2026-11-06",
+   "baseline": false
+  },
+  {
+   "id": "gxo-logistics:/job/Schiphol-Rijk-QESH-Specialist-Lelystad-1119-ME/1448193500/",
+   "company_id": "gxo-logistics",
+   "title": "QESH Specialist - Lelystad",
+   "location": "Schiphol-Rijk, NL, 1119 ME",
+   "url": "https://jobs.gxo.com/job/Schiphol-Rijk-QESH-Specialist-Lelystad-1119-ME/1448193500/",
+   "posted_at": "2026-11-05",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-05",
    "baseline": false
   },
   {
@@ -13667,27 +13625,6 @@
     "rules": 3,
     "dutch_required": false,
     "written_in_dutch": null,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-05",
-   "baseline": false
-  },
-  {
-   "id": "gxo-logistics:/job/Schiphol-Rijk-QESH-Specialist-Lelystad-1119-ME/1448193500/",
-   "company_id": "gxo-logistics",
-   "title": "QESH Specialist - Lelystad",
-   "location": "Schiphol-Rijk, NL, 1119 ME",
-   "url": "https://jobs.gxo.com/job/Schiphol-Rijk-QESH-Specialist-Lelystad-1119-ME/1448193500/",
-   "posted_at": "2026-11-05",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -14035,6 +13972,27 @@
    "baseline": false
   },
   {
+   "id": "stryker:/job/Amsterdam-Netherlands/HR-Intern--Leaves-Administration-_R576530",
+   "company_id": "stryker",
+   "title": "HR Intern (Leaves Administration)",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/HR-Intern--Leaves-Administration-_R576530",
+   "posted_at": "2026-11-04",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-05",
+   "baseline": false
+  },
+  {
    "id": "apm-terminals:/job/Netherlands-Rotterdam-3011-XB/Customs-Process-Administrator_R201972-1",
    "company_id": "apm-terminals",
    "title": "Customs Process Administrator",
@@ -14066,27 +14024,6 @@
     "rules": 3,
     "dutch_required": false,
     "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-05",
-   "baseline": false
-  },
-  {
-   "id": "stryker:/job/Amsterdam-Netherlands/HR-Intern--Leaves-Administration-_R576530",
-   "company_id": "stryker",
-   "title": "HR Intern (Leaves Administration)",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/HR-Intern--Leaves-Administration-_R576530",
-   "posted_at": "2026-11-04",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -14488,6 +14425,27 @@
    "baseline": false
   },
   {
+   "id": "fedex:/job/FXE-EUNLDARHT8ARHT8Elst/ED780--Handler--ID-_RC777549-1",
+   "company_id": "fedex",
+   "title": "ED780: Handler (ID)",
+   "location": "FXE-EU/NLD/ARHT8/ARHT8/Elst",
+   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDARHT8ARHT8Elst/ED780--Handler--ID-_RC777549-1",
+   "posted_at": "2026-11-04",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-03",
+   "baseline": false
+  },
+  {
    "id": "gxo-logistics:/job/Roermond-Site-Controller-I-6049-GH/1418528700/",
    "company_id": "gxo-logistics",
    "title": "Site Controller I",
@@ -14635,18 +14593,6 @@
    "baseline": true
   },
   {
-   "id": "freight-international-holding:https://cyberfreight.nl/vacatures/transport-coordinator/",
-   "company_id": "freight-international-holding",
-   "title": "Transport Coordinator",
-   "location": "",
-   "url": "https://cyberfreight.nl/vacatures/transport-coordinator/",
-   "posted_at": "2026-11-03",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-11-15",
-   "baseline": false
-  },
-  {
    "id": "dsv:/job/Rotterdam-Senior-Forwarder-Import-ZH-3089-JW/1453822133/",
    "company_id": "dsv",
    "title": "Senior Forwarder Import",
@@ -14749,6 +14695,27 @@
    },
    "labels_checked": true,
    "first_seen": "2026-11-12",
+   "baseline": false
+  },
+  {
+   "id": "gxo-logistics:/job/Schiphol-Rijk-Teamleader-Lelystad-1119-ME/1447154400/",
+   "company_id": "gxo-logistics",
+   "title": "Teamleader - Lelystad",
+   "location": "Schiphol-Rijk, NL, 1119 ME",
+   "url": "https://jobs.gxo.com/job/Schiphol-Rijk-Teamleader-Lelystad-1119-ME/1447154400/",
+   "posted_at": "2026-11-03",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-04",
    "baseline": false
   },
   {
@@ -14878,11 +14845,11 @@
    "baseline": false
   },
   {
-   "id": "gxo-logistics:/job/Schiphol-Rijk-Teamleader-Lelystad-1119-ME/1447154400/",
+   "id": "gxo-logistics:/job/Schiphol-Rijk-Inventory-Controller-1119-ME/1447221700/",
    "company_id": "gxo-logistics",
-   "title": "Teamleader - Lelystad",
+   "title": "Inventory Controller",
    "location": "Schiphol-Rijk, NL, 1119 ME",
-   "url": "https://jobs.gxo.com/job/Schiphol-Rijk-Teamleader-Lelystad-1119-ME/1447154400/",
+   "url": "https://jobs.gxo.com/job/Schiphol-Rijk-Inventory-Controller-1119-ME/1447221700/",
    "posted_at": "2026-11-03",
    "labels": {
     "rules": 3,
@@ -14895,7 +14862,7 @@
     "other_language": false
    },
    "labels_checked": true,
-   "first_seen": "2026-11-04",
+   "first_seen": "2026-11-03",
    "baseline": false
   },
   {
@@ -15029,48 +14996,6 @@
     "rules": 3,
     "dutch_required": false,
     "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-03",
-   "baseline": false
-  },
-  {
-   "id": "fedex:/job/FXE-EUNLDARHT8ARHT8Elst/ED780--Handler--ID-_RC777549-1",
-   "company_id": "fedex",
-   "title": "ED780: Handler (ID)",
-   "location": "FXE-EU/NLD/ARHT8/ARHT8/Elst",
-   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDARHT8ARHT8Elst/ED780--Handler--ID-_RC777549-1",
-   "posted_at": "2026-11-03",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-03",
-   "baseline": false
-  },
-  {
-   "id": "gxo-logistics:/job/Schiphol-Rijk-Inventory-Controller-1119-ME/1447221700/",
-   "company_id": "gxo-logistics",
-   "title": "Inventory Controller",
-   "location": "Schiphol-Rijk, NL, 1119 ME",
-   "url": "https://jobs.gxo.com/job/Schiphol-Rijk-Inventory-Controller-1119-ME/1447221700/",
-   "posted_at": "2026-11-03",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -15250,6 +15175,132 @@
    "baseline": false
   },
   {
+   "id": "fedex:/job/FXE-EUNLDQART7QART7Express-1/Dangerous-Goods-Agent_RC780826",
+   "company_id": "fedex",
+   "title": "Dangerous Goods Agent",
+   "location": "FXE-EU/NLD/QART7/QART7/Express 1",
+   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDQART7QART7Express-1/Dangerous-Goods-Agent_RC780826",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-02",
+   "baseline": false
+  },
+  {
+   "id": "fedex:/job/FXE-EUNLDQART7QART7Express-1/Handler-32-uur_RC785373-1",
+   "company_id": "fedex",
+   "title": "Handler 32 uur",
+   "location": "FXE-EU/NLD/QART7/QART7/Express 1",
+   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDQART7QART7Express-1/Handler-32-uur_RC785373-1",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-02",
+   "baseline": false
+  },
+  {
+   "id": "fedex:/job/FXE-EUNLDQART7QART7Express-1/Handler-24-uur_RC785370",
+   "company_id": "fedex",
+   "title": "Handler 24 uur",
+   "location": "FXE-EU/NLD/QART7/QART7/Express 1",
+   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDQART7QART7Express-1/Handler-24-uur_RC785370",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-02",
+   "baseline": false
+  },
+  {
+   "id": "fedex:/job/FXE-EUNLDAMST6AMST6Fokkerweg-300/Handler-Warehouse-Global-Transit-Hub_RC785610-1",
+   "company_id": "fedex",
+   "title": "Handler Warehouse Global Transit Hub",
+   "location": "FXE-EU/NLD/AMST6/AMST6/Fokkerweg 300",
+   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDAMST6AMST6Fokkerweg-300/Handler-Warehouse-Global-Transit-Hub_RC785610-1",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-02",
+   "baseline": false
+  },
+  {
+   "id": "fedex:/job/FXE-EUNLDQART7QART7Express-1/Handler-3925-uur-locatie-Duiven_RC778519",
+   "company_id": "fedex",
+   "title": "Handler 39.25 uur locatie Duiven.",
+   "location": "FXE-EU/NLD/QART7/QART7/Express 1",
+   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDQART7QART7Express-1/Handler-3925-uur-locatie-Duiven_RC778519",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-02",
+   "baseline": false
+  },
+  {
+   "id": "stena-line:https://stenaline.com/job-openings/3806/terminalwerker-europoort",
+   "company_id": "stena-line",
+   "title": "Terminalwerker Europoort",
+   "location": "Netherlands",
+   "url": "https://stenaline.com/job-openings/3806/terminalwerker-europoort",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-02",
+   "baseline": false
+  },
+  {
    "id": "arvato:/ARVATO/job/Gennep-HSE-Coordinator/1453375533/",
    "company_id": "arvato",
    "title": "HSE Coordinator",
@@ -15421,132 +15472,6 @@
    "baseline": false
   },
   {
-   "id": "fedex:/job/FXE-EUNLDQART7QART7Express-1/Dangerous-Goods-Agent_RC780826",
-   "company_id": "fedex",
-   "title": "Dangerous Goods Agent",
-   "location": "FXE-EU/NLD/QART7/QART7/Express 1",
-   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDQART7QART7Express-1/Dangerous-Goods-Agent_RC780826",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-02",
-   "baseline": false
-  },
-  {
-   "id": "fedex:/job/FXE-EUNLDQART7QART7Express-1/Handler-32-uur_RC785373-1",
-   "company_id": "fedex",
-   "title": "Handler 32 uur",
-   "location": "FXE-EU/NLD/QART7/QART7/Express 1",
-   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDQART7QART7Express-1/Handler-32-uur_RC785373-1",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-02",
-   "baseline": false
-  },
-  {
-   "id": "fedex:/job/FXE-EUNLDQART7QART7Express-1/Handler-24-uur_RC785370",
-   "company_id": "fedex",
-   "title": "Handler 24 uur",
-   "location": "FXE-EU/NLD/QART7/QART7/Express 1",
-   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDQART7QART7Express-1/Handler-24-uur_RC785370",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-02",
-   "baseline": false
-  },
-  {
-   "id": "fedex:/job/FXE-EUNLDAMST6AMST6Fokkerweg-300/Handler-Warehouse-Global-Transit-Hub_RC785610-1",
-   "company_id": "fedex",
-   "title": "Handler Warehouse Global Transit Hub",
-   "location": "FXE-EU/NLD/AMST6/AMST6/Fokkerweg 300",
-   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDAMST6AMST6Fokkerweg-300/Handler-Warehouse-Global-Transit-Hub_RC785610-1",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-02",
-   "baseline": false
-  },
-  {
-   "id": "fedex:/job/FXE-EUNLDQART7QART7Express-1/Handler-3925-uur-locatie-Duiven_RC778519",
-   "company_id": "fedex",
-   "title": "Handler 39.25 uur locatie Duiven.",
-   "location": "FXE-EU/NLD/QART7/QART7/Express 1",
-   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDQART7QART7Express-1/Handler-3925-uur-locatie-Duiven_RC778519",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-02",
-   "baseline": false
-  },
-  {
-   "id": "stena-line:https://stenaline.com/job-openings/3806/terminalwerker-europoort",
-   "company_id": "stena-line",
-   "title": "Terminalwerker Europoort",
-   "location": "Netherlands",
-   "url": "https://stenaline.com/job-openings/3806/terminalwerker-europoort",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-02",
-   "baseline": false
-  },
-  {
    "id": "arvato:/ARVATO/job/Gennep-Project-Manager-Construction/1413150233/",
    "company_id": "arvato",
    "title": "Project Manager Construction",
@@ -15629,154 +15554,6 @@
    "labels_checked": true,
    "first_seen": "2026-11-14",
    "baseline": false
-  },
-  {
-   "id": "emons-group:https://emons.eu/nl/vacatures/planner-agrarisch-transport/",
-   "company_id": "emons-group",
-   "title": "Planner Agrarisch Transport",
-   "location": "Milsbeek",
-   "url": "https://emons.eu/nl/vacatures/planner-agrarisch-transport/",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-01",
-   "baseline": false
-  },
-  {
-   "id": "emons-group:https://emons.eu/nl/vacatures/international-logistics-planner/",
-   "company_id": "emons-group",
-   "title": "International Logistics Planner",
-   "location": "Milsbeek",
-   "url": "https://emons.eu/nl/vacatures/international-logistics-planner/",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-01",
-   "baseline": false
-  },
-  {
-   "id": "morrison-express:875",
-   "company_id": "morrison-express",
-   "title": "(EIN) - Warehouse Team Leader",
-   "location": "Eindhoven, North Brabant",
-   "url": "https://morrisonexpress.bamboohr.com/careers/875",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": null,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-01",
-   "baseline": true
-  },
-  {
-   "id": "morrison-express:931",
-   "company_id": "morrison-express",
-   "title": "(AMS/RTM) Indoor Sales - Hunter Profile",
-   "location": "Amsterdam, Rozenburg",
-   "url": "https://morrisonexpress.bamboohr.com/careers/931",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": null,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-01",
-   "baseline": true
-  },
-  {
-   "id": "morrison-express:990",
-   "company_id": "morrison-express",
-   "title": "(AMS) Air Export - Customer Service Representative",
-   "location": "Amsterdam, Rozenburg",
-   "url": "https://morrisonexpress.bamboohr.com/careers/990",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": null,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-01",
-   "baseline": true
-  },
-  {
-   "id": "morrison-express:1027",
-   "company_id": "morrison-express",
-   "title": "(AMS) HR Support",
-   "location": "Amsterdam, Rozenburg",
-   "url": "https://morrisonexpress.bamboohr.com/careers/1027",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": null,
-    "written_in_dutch": null
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-01",
-   "baseline": true
-  },
-  {
-   "id": "sevenhills-logistics:https://sevenhillslogistics.nl/vacatures/#expediteur-zee",
-   "company_id": "sevenhills-logistics",
-   "title": "Expediteur Zee",
-   "location": "Rotterdam",
-   "url": "https://sevenhillslogistics.nl/vacatures/#expediteur-zee",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-01",
-   "baseline": true
-  },
-  {
-   "id": "sevenhills-logistics:https://sevenhillslogistics.nl/vacatures/#planner-wegtransport",
-   "company_id": "sevenhills-logistics",
-   "title": "Planner Wegtransport",
-   "location": "Rotterdam",
-   "url": "https://sevenhillslogistics.nl/vacatures/#planner-wegtransport",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-01",
-   "baseline": true
   },
   {
    "id": "grolleman-vrieshuis:https://www.grolleman.com/vacatures/lijnoperator",
@@ -16093,6 +15870,154 @@
    "baseline": true
   },
   {
+   "id": "emons-group:https://emons.eu/nl/vacatures/planner-agrarisch-transport/",
+   "company_id": "emons-group",
+   "title": "Planner Agrarisch Transport",
+   "location": "Milsbeek",
+   "url": "https://emons.eu/nl/vacatures/planner-agrarisch-transport/",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-01",
+   "baseline": false
+  },
+  {
+   "id": "emons-group:https://emons.eu/nl/vacatures/international-logistics-planner/",
+   "company_id": "emons-group",
+   "title": "International Logistics Planner",
+   "location": "Milsbeek",
+   "url": "https://emons.eu/nl/vacatures/international-logistics-planner/",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-01",
+   "baseline": false
+  },
+  {
+   "id": "morrison-express:875",
+   "company_id": "morrison-express",
+   "title": "(EIN) - Warehouse Team Leader",
+   "location": "Eindhoven, North Brabant",
+   "url": "https://morrisonexpress.bamboohr.com/careers/875",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": null,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-01",
+   "baseline": true
+  },
+  {
+   "id": "morrison-express:931",
+   "company_id": "morrison-express",
+   "title": "(AMS/RTM) Indoor Sales - Hunter Profile",
+   "location": "Amsterdam, Rozenburg",
+   "url": "https://morrisonexpress.bamboohr.com/careers/931",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": null,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-01",
+   "baseline": true
+  },
+  {
+   "id": "morrison-express:990",
+   "company_id": "morrison-express",
+   "title": "(AMS) Air Export - Customer Service Representative",
+   "location": "Amsterdam, Rozenburg",
+   "url": "https://morrisonexpress.bamboohr.com/careers/990",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": null,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-01",
+   "baseline": true
+  },
+  {
+   "id": "morrison-express:1027",
+   "company_id": "morrison-express",
+   "title": "(AMS) HR Support",
+   "location": "Amsterdam, Rozenburg",
+   "url": "https://morrisonexpress.bamboohr.com/careers/1027",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": null,
+    "written_in_dutch": null
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-01",
+   "baseline": true
+  },
+  {
+   "id": "sevenhills-logistics:https://sevenhillslogistics.nl/vacatures/#expediteur-zee",
+   "company_id": "sevenhills-logistics",
+   "title": "Expediteur Zee",
+   "location": "Rotterdam",
+   "url": "https://sevenhillslogistics.nl/vacatures/#expediteur-zee",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-01",
+   "baseline": true
+  },
+  {
+   "id": "sevenhills-logistics:https://sevenhillslogistics.nl/vacatures/#planner-wegtransport",
+   "company_id": "sevenhills-logistics",
+   "title": "Planner Wegtransport",
+   "location": "Rotterdam",
+   "url": "https://sevenhillslogistics.nl/vacatures/#planner-wegtransport",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-01",
+   "baseline": true
+  },
+  {
    "id": "arvato:/ARVATO/job/Gennep-Project-Manager-Implementations/1412893533/",
    "company_id": "arvato",
    "title": "Project Manager Implementations",
@@ -16348,6 +16273,48 @@
    "baseline": false
   },
   {
+   "id": "hellmann-worldwide-logistics:/job/Aalsmeer/Warehouse-medewerker_R20267271-1",
+   "company_id": "hellmann-worldwide-logistics",
+   "title": "Warehouse Operator (Marine Solutions)",
+   "location": "Aalsmeer",
+   "url": "https://hellmann.wd103.myworkdayjobs.com/hellmannexternaljobs/job/Aalsmeer/Warehouse-medewerker_R20267271-1",
+   "posted_at": "2026-10-31",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-30",
+   "baseline": false
+  },
+  {
+   "id": "hellmann-worldwide-logistics:/job/Aalsmeer/AF-Warehouse-Operator_R20265035",
+   "company_id": "hellmann-worldwide-logistics",
+   "title": "Warehouse Operator",
+   "location": "Aalsmeer",
+   "url": "https://hellmann.wd103.myworkdayjobs.com/hellmannexternaljobs/job/Aalsmeer/AF-Warehouse-Operator_R20265035",
+   "posted_at": "2026-10-31",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": true
+  },
+  {
    "id": "arvato:/ARVATO/job/Gennep-Account-Manager/1423343333/",
    "company_id": "arvato",
    "title": "Account Manager",
@@ -16453,6 +16420,27 @@
    "baseline": false
   },
   {
+   "id": "zimmer-biomet:13258",
+   "company_id": "zimmer-biomet",
+   "title": "Sales Representative SET - Netherlands",
+   "location": "Remote, Remote, Netherlands, Remote, Remote, Remote",
+   "url": "https://career8.successfactors.com/careers?company=zimmerin01&loginFlowRequired=true&career_os=job_listing&career_ns=job_application&career_job_req_id=13258&_s.crb=25fvCmbM9Lad2rza%252fxJs%252fNp1mhY1RYUVrVIMdAiM2RI%253d",
+   "posted_at": "2026-10-30",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-31",
+   "baseline": false
+  },
+  {
    "id": "amazon:10593499",
    "company_id": "amazon",
    "title": "Account Executive , Amazon Ads BLX",
@@ -16544,11 +16532,11 @@
    "baseline": false
   },
   {
-   "id": "zimmer-biomet:13258",
-   "company_id": "zimmer-biomet",
-   "title": "Sales Representative SET - Netherlands",
-   "location": "Remote, Remote, Netherlands, Remote, Remote, Remote",
-   "url": "https://career8.successfactors.com/careers?company=zimmerin01&loginFlowRequired=true&career_os=job_listing&career_ns=job_application&career_job_req_id=13258&_s.crb=25fvCmbM9Lad2rza%252fxJs%252fNp1mhY1RYUVrVIMdAiM2RI%253d",
+   "id": "flexport:8336339",
+   "company_id": "flexport",
+   "title": "Recruiter, EMEA",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8336339",
    "posted_at": "2026-10-30",
    "labels": {
     "rules": 3,
@@ -16561,7 +16549,28 @@
     "other_language": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-31",
+   "first_seen": "2026-10-30",
+   "baseline": false
+  },
+  {
+   "id": "stryker:/job/Amsterdam-Netherlands/Tax-Intern_R575941",
+   "company_id": "stryker",
+   "title": "Tax Intern",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Tax-Intern_R575941",
+   "posted_at": "2026-10-30",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-30",
    "baseline": false
   },
   {
@@ -16797,90 +16806,6 @@
    "labels_checked": true,
    "first_seen": "2026-10-30",
    "baseline": false
-  },
-  {
-   "id": "flexport:8336339",
-   "company_id": "flexport",
-   "title": "Recruiter, EMEA",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8336339",
-   "posted_at": "2026-10-30",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-30",
-   "baseline": false
-  },
-  {
-   "id": "hellmann-worldwide-logistics:/job/Aalsmeer/Warehouse-medewerker_R20267271-1",
-   "company_id": "hellmann-worldwide-logistics",
-   "title": "Warehouse Operator (Marine Solutions)",
-   "location": "Aalsmeer",
-   "url": "https://hellmann.wd103.myworkdayjobs.com/hellmannexternaljobs/job/Aalsmeer/Warehouse-medewerker_R20267271-1",
-   "posted_at": "2026-10-30",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-30",
-   "baseline": false
-  },
-  {
-   "id": "stryker:/job/Amsterdam-Netherlands/Tax-Intern_R575941",
-   "company_id": "stryker",
-   "title": "Tax Intern",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Amsterdam-Netherlands/Tax-Intern_R575941",
-   "posted_at": "2026-10-30",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-30",
-   "baseline": false
-  },
-  {
-   "id": "hellmann-worldwide-logistics:/job/Aalsmeer/AF-Warehouse-Operator_R20265035",
-   "company_id": "hellmann-worldwide-logistics",
-   "title": "Warehouse Operator",
-   "location": "Aalsmeer",
-   "url": "https://hellmann.wd103.myworkdayjobs.com/hellmannexternaljobs/job/Aalsmeer/AF-Warehouse-Operator_R20265035",
-   "posted_at": "2026-10-30",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-26",
-   "baseline": true
   },
   {
    "id": "dp-world:24960",
@@ -17246,6 +17171,48 @@
    "baseline": false
   },
   {
+   "id": "stena-line:https://stenaline.com/job-openings/3799/3e-werktuigkundige-3rd-engineer",
+   "company_id": "stena-line",
+   "title": "3e Werktuigkundige / 3rd engineer",
+   "location": "Netherlands",
+   "url": "https://stenaline.com/job-openings/3799/3e-werktuigkundige-3rd-engineer",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-29",
+   "baseline": false
+  },
+  {
+   "id": "stena-line:https://stenaline.com/job-openings/3800/sales-services-assistant-steward",
+   "company_id": "stena-line",
+   "title": "Sales & Services Assistant (Steward)",
+   "location": "Netherlands",
+   "url": "https://stenaline.com/job-openings/3800/sales-services-assistant-steward",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-29",
+   "baseline": false
+  },
+  {
    "id": "arvato:/ARVATO/job/Gennep-Internship-Customer-Support/1452474133/",
    "company_id": "arvato",
    "title": "Internship Customer Support",
@@ -17519,12 +17486,12 @@
    "baseline": false
   },
   {
-   "id": "stena-line:https://stenaline.com/job-openings/3799/3e-werktuigkundige-3rd-engineer",
-   "company_id": "stena-line",
-   "title": "3e Werktuigkundige / 3rd engineer",
-   "location": "Netherlands",
-   "url": "https://stenaline.com/job-openings/3799/3e-werktuigkundige-3rd-engineer",
-   "posted_at": null,
+   "id": "gxo-logistics:/job/Rijsbergen-HR-adviseur-Parttime-4891-PZ/1435213300/",
+   "company_id": "gxo-logistics",
+   "title": "HR-adviseur - Parttime",
+   "location": "Rijsbergen, NL, 4891 PZ",
+   "url": "https://jobs.gxo.com/job/Rijsbergen-HR-adviseur-Parttime-4891-PZ/1435213300/",
+   "posted_at": "2026-10-29",
    "labels": {
     "rules": 3,
     "dutch_required": false,
@@ -17536,51 +17503,6 @@
     "other_language": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-29",
-   "baseline": false
-  },
-  {
-   "id": "stena-line:https://stenaline.com/job-openings/3800/sales-services-assistant-steward",
-   "company_id": "stena-line",
-   "title": "Sales & Services Assistant (Steward)",
-   "location": "Netherlands",
-   "url": "https://stenaline.com/job-openings/3800/sales-services-assistant-steward",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-29",
-   "baseline": false
-  },
-  {
-   "id": "dp-world:25344",
-   "company_id": "dp-world",
-   "title": "Customer Coördinator Intermodaal Transport",
-   "location": "Rotterdam, Zuid-Holland, Netherlands",
-   "url": "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25344",
-   "posted_at": "2026-10-29",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-01",
-   "baseline": true
-  },
-  {
-   "id": "p-o-ferrymasters:25344",
-   "company_id": "p-o-ferrymasters",
-   "title": "Customer Coördinator Intermodaal Transport",
-   "location": "Rotterdam, Zuid-Holland, Netherlands",
-   "url": "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25344",
-   "posted_at": "2026-10-29",
-   "labels": null,
-   "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": true
   },
@@ -17606,23 +17528,26 @@
    "baseline": true
   },
   {
-   "id": "gxo-logistics:/job/Rijsbergen-HR-adviseur-Parttime-4891-PZ/1435213300/",
-   "company_id": "gxo-logistics",
-   "title": "HR-adviseur - Parttime",
-   "location": "Rijsbergen, NL, 4891 PZ",
-   "url": "https://jobs.gxo.com/job/Rijsbergen-HR-adviseur-Parttime-4891-PZ/1435213300/",
+   "id": "dp-world:25344",
+   "company_id": "dp-world",
+   "title": "Customer Coördinator Intermodaal Transport",
+   "location": "Rotterdam, Zuid-Holland, Netherlands",
+   "url": "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25344",
    "posted_at": "2026-10-29",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-01",
+   "baseline": true
+  },
+  {
+   "id": "p-o-ferrymasters:25344",
+   "company_id": "p-o-ferrymasters",
+   "title": "Customer Coördinator Intermodaal Transport",
+   "location": "Rotterdam, Zuid-Holland, Netherlands",
+   "url": "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25344",
+   "posted_at": "2026-10-29",
+   "labels": null,
+   "labels_checked": false,
    "first_seen": "2026-10-01",
    "baseline": true
   },
@@ -17795,6 +17720,27 @@
    "baseline": false
   },
   {
+   "id": "gxo-logistics:/job/Dordrecht-Coordinator-Warehouse-3316-GD/1444808100/",
+   "company_id": "gxo-logistics",
+   "title": "Coordinator Warehouse",
+   "location": "Dordrecht, NL, 3316 GD",
+   "url": "https://jobs.gxo.com/job/Dordrecht-Coordinator-Warehouse-3316-GD/1444808100/",
+   "posted_at": "2026-10-28",
+   "labels": {
+    "rules": 3,
+    "dutch_required": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-29",
+   "baseline": false
+  },
+  {
    "id": "abbott:/job/Netherlands---Zwolle/QA-Operations-Expert_31159895",
    "company_id": "abbott",
    "title": "QA Operations Expert",
@@ -17825,27 +17771,6 @@
    "labels": {
     "rules": 3,
     "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-29",
-   "baseline": false
-  },
-  {
-   "id": "gxo-logistics:/job/Dordrecht-Coordinator-Warehouse-3316-GD/1444808100/",
-   "company_id": "gxo-logistics",
-   "title": "Coordinator Warehouse",
-   "location": "Dordrecht, NL, 3316 GD",
-   "url": "https://jobs.gxo.com/job/Dordrecht-Coordinator-Warehouse-3316-GD/1444808100/",
-   "posted_at": "2026-10-28",
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
     "written_in_dutch": false,
     "sponsorship": false,
     "no_sponsorship": false,
@@ -18170,6 +18095,69 @@
    },
    "labels_checked": true,
    "first_seen": "2026-11-04",
+   "baseline": false
+  },
+  {
+   "id": "flexport:8287873",
+   "company_id": "flexport",
+   "title": "People Business Partner, EMEA",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8287873",
+   "posted_at": "2026-10-27",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-27",
+   "baseline": false
+  },
+  {
+   "id": "stryker:/job/Venlo-Netherlands/Logistics-Engineer_R570263",
+   "company_id": "stryker",
+   "title": "Logistics Engineer",
+   "location": "Venlo, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Venlo-Netherlands/Logistics-Engineer_R570263",
+   "posted_at": "2026-10-27",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-27",
+   "baseline": false
+  },
+  {
+   "id": "stryker:/job/Venlo-Netherlands/Operations-Manager_R570262",
+   "company_id": "stryker",
+   "title": "Operations Manager",
+   "location": "Venlo, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Venlo-Netherlands/Operations-Manager_R570262",
+   "posted_at": "2026-10-27",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-27",
    "baseline": false
   },
   {
@@ -19053,11 +19041,11 @@
    "baseline": false
   },
   {
-   "id": "flexport:8287873",
-   "company_id": "flexport",
-   "title": "People Business Partner, EMEA",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8287873",
+   "id": "flex:/job/Netherlands-Woerden/Service-Delivery-Analyst_WD229743",
+   "company_id": "flex",
+   "title": "Service Delivery Analyst",
+   "location": "Netherlands, Woerden",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Service-Delivery-Analyst_WD229743",
    "posted_at": "2026-10-27",
    "labels": {
     "rules": 3,
@@ -19070,49 +19058,7 @@
     "other_language": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-27",
-   "baseline": false
-  },
-  {
-   "id": "stryker:/job/Venlo-Netherlands/Logistics-Engineer_R570263",
-   "company_id": "stryker",
-   "title": "Logistics Engineer",
-   "location": "Venlo, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Venlo-Netherlands/Logistics-Engineer_R570263",
-   "posted_at": "2026-10-27",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-27",
-   "baseline": false
-  },
-  {
-   "id": "stryker:/job/Venlo-Netherlands/Operations-Manager_R570262",
-   "company_id": "stryker",
-   "title": "Operations Manager",
-   "location": "Venlo, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Venlo-Netherlands/Operations-Manager_R570262",
-   "posted_at": "2026-10-27",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-27",
+   "first_seen": "2026-10-26",
    "baseline": false
   },
   {
@@ -19762,27 +19708,6 @@
    "baseline": true
   },
   {
-   "id": "flex:/job/Netherlands-Woerden/Service-Delivery-Analyst_WD229743",
-   "company_id": "flex",
-   "title": "Service Delivery Analyst",
-   "location": "Netherlands, Woerden",
-   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Service-Delivery-Analyst_WD229743",
-   "posted_at": "2026-10-26",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-26",
-   "baseline": false
-  },
-  {
    "id": "gxo-logistics:/job/Dordrecht-HR-Adviseur-3316-GD/1396241000/",
    "company_id": "gxo-logistics",
    "title": "HR Adviseur",
@@ -19864,6 +19789,69 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "fulfilment-solutions:https://www.fulfilmentsolutions.nl/blog/vacature-talentplanner-office/",
+   "company_id": "fulfilment-solutions",
+   "title": "Vacature Talentplanner Office",
+   "location": "",
+   "url": "https://www.fulfilmentsolutions.nl/blog/vacature-talentplanner-office/",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": true
+  },
+  {
+   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/expediteur-luchtvracht-2/",
+   "company_id": "gd-its-forwarding",
+   "title": "Expediteur Luchtvracht",
+   "location": "Schiphol",
+   "url": "https://gd-its.nl/werken-bij/expediteur-luchtvracht-2/",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": true,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
+   "baseline": false
+  },
+  {
+   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/expediteur-ocean-import/",
+   "company_id": "gd-its-forwarding",
+   "title": "\"Douane \" Expediteur Ocean",
+   "location": "Alblasserdam",
+   "url": "https://gd-its.nl/werken-bij/expediteur-ocean-import/",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": true,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-25",
    "baseline": false
   },
   {
@@ -20014,69 +20002,6 @@
    "baseline": false
   },
   {
-   "id": "fulfilment-solutions:https://www.fulfilmentsolutions.nl/blog/vacature-talentplanner-office/",
-   "company_id": "fulfilment-solutions",
-   "title": "Vacature Talentplanner Office",
-   "location": "",
-   "url": "https://www.fulfilmentsolutions.nl/blog/vacature-talentplanner-office/",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": true
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/expediteur-luchtvracht-2/",
-   "company_id": "gd-its-forwarding",
-   "title": "Expediteur Luchtvracht",
-   "location": "Schiphol",
-   "url": "https://gd-its.nl/werken-bij/expediteur-luchtvracht-2/",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
-   "id": "gd-its-forwarding:https://gd-its.nl/werken-bij/expediteur-ocean-import/",
-   "company_id": "gd-its-forwarding",
-   "title": "\"Douane \" Expediteur Ocean",
-   "location": "Alblasserdam",
-   "url": "https://gd-its.nl/werken-bij/expediteur-ocean-import/",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-25",
-   "baseline": false
-  },
-  {
    "id": "gxo-logistics:/job/Nieuwegein-Deputy-Site-Manager-3439-JJ/1424477300/",
    "company_id": "gxo-logistics",
    "title": "Deputy Site Manager",
@@ -20179,27 +20104,6 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-26",
-   "baseline": false
-  },
-  {
-   "id": "aircargo-nl:https://aircargo.nl/fr/apropos/offres-demploi",
-   "company_id": "aircargo-nl",
-   "title": "Offres Demploi",
-   "location": "",
-   "url": "https://aircargo.nl/fr/apropos/offres-demploi",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-24",
    "baseline": false
   },
   {
@@ -20329,6 +20233,27 @@
    "baseline": true
   },
   {
+   "id": "aircargo-nl:https://aircargo.nl/fr/apropos/offres-demploi",
+   "company_id": "aircargo-nl",
+   "title": "Offres Demploi",
+   "location": "",
+   "url": "https://aircargo.nl/fr/apropos/offres-demploi",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-24",
+   "baseline": false
+  },
+  {
    "id": "gxo-logistics:/job/Rijsbergen-HR-Advisor-Part-time-4891-PZ/1433805600/",
    "company_id": "gxo-logistics",
    "title": "HR Advisor - Part time",
@@ -20452,6 +20377,27 @@
    },
    "labels_checked": true,
    "first_seen": "2026-11-03",
+   "baseline": false
+  },
+  {
+   "id": "fedex:/job/FXE-EUNLDAMSHQAMSHQTaurusavenue-125/E49K0--National-Account-Executive--ID-_RC774771-1",
+   "company_id": "fedex",
+   "title": "E49K0: National Account Executive (ID)",
+   "location": "FXE-EU/NLD/AMSHQ/AMSHQ/Taurusavenue 125",
+   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDAMSHQAMSHQTaurusavenue-125/E49K0--National-Account-Executive--ID-_RC774771-1",
+   "posted_at": "2026-10-23",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-11-02",
    "baseline": false
   },
   {
@@ -20779,27 +20725,6 @@
    "baseline": true
   },
   {
-   "id": "fedex:/job/FXE-EUNLDAMSHQAMSHQTaurusavenue-125/E49K0--National-Account-Executive--ID-_RC774771-1",
-   "company_id": "fedex",
-   "title": "E49K0: National Account Executive (ID)",
-   "location": "FXE-EU/NLD/AMSHQ/AMSHQ/Taurusavenue 125",
-   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-EU_External/job/FXE-EUNLDAMSHQAMSHQTaurusavenue-125/E49K0--National-Account-Executive--ID-_RC774771-1",
-   "posted_at": "2026-10-22",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-11-02",
-   "baseline": false
-  },
-  {
    "id": "rhenus:/job/Tilburg-Netherlands/administratief-medewerker-HR_JR126674",
    "company_id": "rhenus",
    "title": "administratief medewerker HR",
@@ -20861,6 +20786,27 @@
    "labels_checked": true,
    "first_seen": "2026-10-27",
    "baseline": false
+  },
+  {
+   "id": "hellmann-worldwide-logistics:/job/Rotterdam/Seafreight-Pricing-Specialist_R20266895",
+   "company_id": "hellmann-worldwide-logistics",
+   "title": "Seafreight Pricing Specialist",
+   "location": "Rotterdam",
+   "url": "https://hellmann.wd103.myworkdayjobs.com/hellmannexternaljobs/job/Rotterdam/Seafreight-Pricing-Specialist_R20266895",
+   "posted_at": "2026-10-22",
+   "labels": {
+    "rules": 3,
+    "dutch_required": true,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-26",
+   "baseline": true
   },
   {
    "id": "arvato:/ARVATO/job/Gennep-Security-Coordinator/1450131533/",
@@ -21010,6 +20956,69 @@
    "baseline": false
   },
   {
+   "id": "gxo-logistics:/job/Venray-Warehouse-Manager-II-5804-AP/1442637800/",
+   "company_id": "gxo-logistics",
+   "title": "Warehouse Manager II",
+   "location": "Venray, NL, 5804 AP",
+   "url": "https://jobs.gxo.com/job/Venray-Warehouse-Manager-II-5804-AP/1442637800/",
+   "posted_at": "2026-10-22",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-23",
+   "baseline": false
+  },
+  {
+   "id": "gxo-logistics:/job/Sevenum-Warehouse-Manager-5975-RX/1442778500/",
+   "company_id": "gxo-logistics",
+   "title": "Warehouse Manager",
+   "location": "Sevenum, NL, 5975 RX",
+   "url": "https://jobs.gxo.com/job/Sevenum-Warehouse-Manager-5975-RX/1442778500/",
+   "posted_at": "2026-10-22",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-23",
+   "baseline": false
+  },
+  {
+   "id": "gxo-logistics:/job/Tilburg-Site-Engineer-5047-TH/1442635600/",
+   "company_id": "gxo-logistics",
+   "title": "Site Engineer",
+   "location": "Tilburg, NL, 5047 TH",
+   "url": "https://jobs.gxo.com/job/Tilburg-Site-Engineer-5047-TH/1442635600/",
+   "posted_at": "2026-10-22",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-23",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-387388",
    "company_id": "dhl-group",
    "title": "Finance Manager",
@@ -21125,69 +21134,6 @@
     "rules": 3,
     "dutch_required": false,
     "written_in_dutch": null,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-23",
-   "baseline": false
-  },
-  {
-   "id": "gxo-logistics:/job/Tilburg-Site-Engineer-5047-TH/1442635600/",
-   "company_id": "gxo-logistics",
-   "title": "Site Engineer",
-   "location": "Tilburg, NL, 5047 TH",
-   "url": "https://jobs.gxo.com/job/Tilburg-Site-Engineer-5047-TH/1442635600/",
-   "posted_at": "2026-10-22",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-23",
-   "baseline": false
-  },
-  {
-   "id": "gxo-logistics:/job/Venray-Warehouse-Manager-II-5804-AP/1442637800/",
-   "company_id": "gxo-logistics",
-   "title": "Warehouse Manager II",
-   "location": "Venray, NL, 5804 AP",
-   "url": "https://jobs.gxo.com/job/Venray-Warehouse-Manager-II-5804-AP/1442637800/",
-   "posted_at": "2026-10-22",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-23",
-   "baseline": false
-  },
-  {
-   "id": "gxo-logistics:/job/Sevenum-Warehouse-Manager-5975-RX/1442778500/",
-   "company_id": "gxo-logistics",
-   "title": "Warehouse Manager",
-   "location": "Sevenum, NL, 5975 RX",
-   "url": "https://jobs.gxo.com/job/Sevenum-Warehouse-Manager-5975-RX/1442778500/",
-   "posted_at": "2026-10-22",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -21346,11 +21292,11 @@
    "baseline": false
   },
   {
-   "id": "dsv:/job/Rozenburg-Teamleader-Customer-Service-Healthcare-Nort-1437-EK/1439938533/",
-   "company_id": "dsv",
-   "title": "Teamleader Customer Service Healthcare",
-   "location": "Rozenburg, North Holland, NL, 1437 EK",
-   "url": "https://jobs.dsv.com/job/Rozenburg-Teamleader-Customer-Service-Healthcare-Nort-1437-EK/1439938533/",
+   "id": "gxo-logistics:/job/Sevenum-HR-BU-Manager-South-5975-RX/1442178900/",
+   "company_id": "gxo-logistics",
+   "title": "HR BU Manager South",
+   "location": "Sevenum, NL, 5975 RX",
+   "url": "https://jobs.gxo.com/job/Sevenum-HR-BU-Manager-South-5975-RX/1442178900/",
    "posted_at": "2026-10-21",
    "labels": {
     "rules": 3,
@@ -21367,11 +21313,11 @@
    "baseline": false
   },
   {
-   "id": "gxo-logistics:/job/Sevenum-HR-BU-Manager-South-5975-RX/1442178900/",
-   "company_id": "gxo-logistics",
-   "title": "HR BU Manager South",
-   "location": "Sevenum, NL, 5975 RX",
-   "url": "https://jobs.gxo.com/job/Sevenum-HR-BU-Manager-South-5975-RX/1442178900/",
+   "id": "dsv:/job/Rozenburg-Teamleader-Customer-Service-Healthcare-Nort-1437-EK/1439938533/",
+   "company_id": "dsv",
+   "title": "Teamleader Customer Service Healthcare",
+   "location": "Rozenburg, North Holland, NL, 1437 EK",
+   "url": "https://jobs.dsv.com/job/Rozenburg-Teamleader-Customer-Service-Healthcare-Nort-1437-EK/1439938533/",
    "posted_at": "2026-10-21",
    "labels": {
     "rules": 3,
@@ -21409,27 +21355,6 @@
    "baseline": false
   },
   {
-   "id": "rhenus:/job/Schiphol-Netherlands/Break-Bulk-Operator_JR126481",
-   "company_id": "rhenus",
-   "title": "Break Bulk Operator",
-   "location": "Schiphol, Netherlands",
-   "url": "https://rhe.wd3.myworkdayjobs.com/R1111/job/Schiphol-Netherlands/Break-Bulk-Operator_JR126481",
-   "posted_at": "2026-10-21",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-27",
-   "baseline": false
-  },
-  {
    "id": "sms-global-logistics:https://smsglobal-group.com/vacancies/business-development-manager/",
    "company_id": "sms-global-logistics",
    "title": "Business Development Manager",
@@ -21449,6 +21374,27 @@
    "labels_checked": true,
    "first_seen": "2026-10-27",
    "baseline": true
+  },
+  {
+   "id": "rhenus:/job/Schiphol-Netherlands/Break-Bulk-Operator_JR126481",
+   "company_id": "rhenus",
+   "title": "Break Bulk Operator",
+   "location": "Schiphol, Netherlands",
+   "url": "https://rhe.wd3.myworkdayjobs.com/R1111/job/Schiphol-Netherlands/Break-Bulk-Operator_JR126481",
+   "posted_at": "2026-10-21",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": true,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-27",
+   "baseline": false
   },
   {
    "id": "arvato:/ARVATO/job/Echt-Key-Account-Manager/1449727833/",
@@ -21491,27 +21437,6 @@
    "labels_checked": true,
    "first_seen": "2026-10-26",
    "baseline": false
-  },
-  {
-   "id": "hellmann-worldwide-logistics:/job/Rotterdam/Seafreight-Pricing-Specialist_R20266895",
-   "company_id": "hellmann-worldwide-logistics",
-   "title": "Seafreight Pricing Specialist",
-   "location": "Rotterdam",
-   "url": "https://hellmann.wd103.myworkdayjobs.com/hellmannexternaljobs/job/Rotterdam/Seafreight-Pricing-Specialist_R20266895",
-   "posted_at": "2026-10-21",
-   "labels": {
-    "rules": 3,
-    "dutch_required": true,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-26",
-   "baseline": true
   },
   {
    "id": "abbott:/job/Netherlands---Hoofddorp/HIC--Healthcare-Insurance-Companies--Market-Access-Specialist---Diabetes-care---Netherlands_31153296",
@@ -22060,6 +21985,27 @@
    "baseline": false
   },
   {
+   "id": "flex:/job/Netherlands-Woerden/Design-Engineer_WD230550",
+   "company_id": "flex",
+   "title": "Mechanical Engineer",
+   "location": "Netherlands, Woerden",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Design-Engineer_WD230550",
+   "posted_at": "2026-10-20",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-07",
+   "baseline": false
+  },
+  {
    "id": "dachser:/dachser_europe/job/Waddinxveen-Rangeerder-Yard-Driver-2742RD/1326631655/",
    "company_id": "dachser",
    "title": "Rangeerder Yard Driver",
@@ -22256,11 +22202,11 @@
    "baseline": false
   },
   {
-   "id": "flex:/job/Netherlands-Woerden/Design-Engineer_WD230550",
-   "company_id": "flex",
-   "title": "Mechanical Engineer",
-   "location": "Netherlands, Woerden",
-   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Design-Engineer_WD230550",
+   "id": "gxo-logistics:/job/Eindhoven-INTERNSHIP-BBL-Leerling-Logistiek-Medewerker-%28Niveau-2-of-3%29-5651-GG/1403157100/",
+   "company_id": "gxo-logistics",
+   "title": "INTERNSHIP - BBL Leerling Logistiek Medewerker (Niveau 2 of 3)",
+   "location": "Eindhoven, NL, 5651 GG",
+   "url": "https://jobs.gxo.com/job/Eindhoven-INTERNSHIP-BBL-Leerling-Logistiek-Medewerker-%28Niveau-2-of-3%29-5651-GG/1403157100/",
    "posted_at": "2026-10-19",
    "labels": {
     "rules": 3,
@@ -22273,8 +22219,8 @@
     "other_language": false
    },
    "labels_checked": true,
-   "first_seen": "2026-10-07",
-   "baseline": false
+   "first_seen": "2026-10-01",
+   "baseline": true
   },
   {
    "id": "gxo-logistics:/job/Nieuwegein-HR-Advisor-3439-JJ/1403209000/",
@@ -22287,27 +22233,6 @@
     "rules": 3,
     "dutch_required": false,
     "written_in_dutch": true,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-01",
-   "baseline": true
-  },
-  {
-   "id": "gxo-logistics:/job/Eindhoven-INTERNSHIP-BBL-Leerling-Logistiek-Medewerker-%28Niveau-2-of-3%29-5651-GG/1403157100/",
-   "company_id": "gxo-logistics",
-   "title": "INTERNSHIP - BBL Leerling Logistiek Medewerker (Niveau 2 of 3)",
-   "location": "Eindhoven, NL, 5651 GG",
-   "url": "https://jobs.gxo.com/job/Eindhoven-INTERNSHIP-BBL-Leerling-Logistiek-Medewerker-%28Niveau-2-of-3%29-5651-GG/1403157100/",
-   "posted_at": "2026-10-19",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -23504,6 +23429,48 @@
    "baseline": false
   },
   {
+   "id": "flexport:7480196",
+   "company_id": "flexport",
+   "title": "Corporate Paralegal, EMEA",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/7480196",
+   "posted_at": "2026-10-12",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-13",
+   "baseline": false
+  },
+  {
+   "id": "flexport:8258535",
+   "company_id": "flexport",
+   "title": "Senior Security Engineer, Corporate Security",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8258535",
+   "posted_at": "2026-10-12",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": true,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-13",
+   "baseline": false
+  },
+  {
    "id": "amazon:10575481",
    "company_id": "amazon",
    "title": "Sr Ground Gas Specialist",
@@ -23565,120 +23532,6 @@
    "labels_checked": true,
    "first_seen": "2026-10-13",
    "baseline": false
-  },
-  {
-   "id": "flexport:7480196",
-   "company_id": "flexport",
-   "title": "Corporate Paralegal, EMEA",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/7480196",
-   "posted_at": "2026-10-12",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-13",
-   "baseline": false
-  },
-  {
-   "id": "flexport:8258535",
-   "company_id": "flexport",
-   "title": "Senior Security Engineer, Corporate Security",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8258535",
-   "posted_at": "2026-10-12",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": true,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-13",
-   "baseline": false
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/intermodal-planner",
-   "company_id": "cabooter",
-   "title": "Intermodal Planner",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/career/jobs/intermodal-planner",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/senior-expediteur-/-teamleider-intermodaal-transport",
-   "company_id": "cabooter",
-   "title": "Teamleider Intermodaal Transport",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/career/jobs/senior-expediteur-/-teamleider-intermodaal-transport",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/commercieel-directeur",
-   "company_id": "cabooter",
-   "title": "Commercieel Directeur",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/career/jobs/commercieel-directeur",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/operational-executive-apac",
-   "company_id": "cabooter",
-   "title": "Operational Executive Apac",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/career/jobs/operational-executive-apac",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/account-executive-asian-market",
-   "company_id": "cabooter",
-   "title": "Account Executive Asian Market",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/career/jobs/account-executive-asian-market",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
-  },
-  {
-   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/machinist-(venlo)",
-   "company_id": "cabooter",
-   "title": "Machinist (venlo)",
-   "location": "",
-   "url": "https://www.cabootergroup.com/career/career/jobs/machinist-(venlo)",
-   "posted_at": null,
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-10-11",
-   "baseline": true
   },
   {
    "id": "fox-global-logistics:https://www.foxglobal.nl/vacancies/business-development-manager-forwarding/",
@@ -23786,6 +23639,78 @@
    "baseline": true
   },
   {
+   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/intermodal-planner",
+   "company_id": "cabooter",
+   "title": "Intermodal Planner",
+   "location": "",
+   "url": "https://www.cabootergroup.com/career/career/jobs/intermodal-planner",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-11",
+   "baseline": true
+  },
+  {
+   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/senior-expediteur-/-teamleider-intermodaal-transport",
+   "company_id": "cabooter",
+   "title": "Teamleider Intermodaal Transport",
+   "location": "",
+   "url": "https://www.cabootergroup.com/career/career/jobs/senior-expediteur-/-teamleider-intermodaal-transport",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-11",
+   "baseline": true
+  },
+  {
+   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/commercieel-directeur",
+   "company_id": "cabooter",
+   "title": "Commercieel Directeur",
+   "location": "",
+   "url": "https://www.cabootergroup.com/career/career/jobs/commercieel-directeur",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-11",
+   "baseline": true
+  },
+  {
+   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/operational-executive-apac",
+   "company_id": "cabooter",
+   "title": "Operational Executive Apac",
+   "location": "",
+   "url": "https://www.cabootergroup.com/career/career/jobs/operational-executive-apac",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-11",
+   "baseline": true
+  },
+  {
+   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/account-executive-asian-market",
+   "company_id": "cabooter",
+   "title": "Account Executive Asian Market",
+   "location": "",
+   "url": "https://www.cabootergroup.com/career/career/jobs/account-executive-asian-market",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-11",
+   "baseline": true
+  },
+  {
+   "id": "cabooter:https://www.cabootergroup.com/career/career/jobs/machinist-(venlo)",
+   "company_id": "cabooter",
+   "title": "Machinist (venlo)",
+   "location": "",
+   "url": "https://www.cabootergroup.com/career/career/jobs/machinist-(venlo)",
+   "posted_at": null,
+   "labels": null,
+   "labels_checked": false,
+   "first_seen": "2026-10-11",
+   "baseline": true
+  },
+  {
    "id": "abbott:/job/Netherlands---Olst/Operator-A_31163763-1",
    "company_id": "abbott",
    "title": "Operator A",
@@ -23825,6 +23750,27 @@
    },
    "labels_checked": true,
    "first_seen": "2026-10-26",
+   "baseline": false
+  },
+  {
+   "id": "flexport:8258547",
+   "company_id": "flexport",
+   "title": "Senior Security Engineer, Detection & Response",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8258547",
+   "posted_at": "2026-10-09",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": true,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-10",
    "baseline": false
   },
   {
@@ -24020,27 +23966,6 @@
    "baseline": false
   },
   {
-   "id": "flexport:8258547",
-   "company_id": "flexport",
-   "title": "Senior Security Engineer, Detection & Response",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8258547",
-   "posted_at": "2026-10-09",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": true,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-10",
-   "baseline": false
-  },
-  {
    "id": "dhl-group:AV-360673",
    "company_id": "dhl-group",
    "title": "Supervisor Transport – DHL eCommerce Arnhem",
@@ -24146,6 +24071,48 @@
    "baseline": false
   },
   {
+   "id": "flexport:8256564",
+   "company_id": "flexport",
+   "title": "Software Engineer II, DevEx",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8256564",
+   "posted_at": "2026-10-07",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-08",
+   "baseline": false
+  },
+  {
+   "id": "flexport:8256566",
+   "company_id": "flexport",
+   "title": "Staff Software Engineer, DevEx",
+   "location": "Amsterdam, Netherlands",
+   "url": "https://job-boards.greenhouse.io/flexport/jobs/8256566",
+   "posted_at": "2026-10-07",
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-10-08",
+   "baseline": false
+  },
+  {
    "id": "dhl-group:AV-384003",
    "company_id": "dhl-group",
    "title": "Teamleader",
@@ -24219,48 +24186,6 @@
     "rules": 3,
     "dutch_required": false,
     "written_in_dutch": null,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-08",
-   "baseline": false
-  },
-  {
-   "id": "flexport:8256564",
-   "company_id": "flexport",
-   "title": "Software Engineer II, DevEx",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8256564",
-   "posted_at": "2026-10-07",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-10-08",
-   "baseline": false
-  },
-  {
-   "id": "flexport:8256566",
-   "company_id": "flexport",
-   "title": "Staff Software Engineer, DevEx",
-   "location": "Amsterdam, Netherlands",
-   "url": "https://job-boards.greenhouse.io/flexport/jobs/8256566",
-   "posted_at": "2026-10-07",
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -25530,16 +25455,16 @@
    "baseline": false
   },
   {
-   "id": "abbott:/job/Netherlands---Weesp/Purchaser_31149952",
-   "company_id": "abbott",
-   "title": "Project Inkoper  nieuwe machines en diensten – Abbott Weesp",
-   "location": "Netherlands - Weesp",
-   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Purchaser_31149952",
+   "id": "flex:/job/Netherlands-Woerden/Requirements-administrator_WD229886-1",
+   "company_id": "flex",
+   "title": "Requirements administrator",
+   "location": "Netherlands, Woerden",
+   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Requirements-administrator_WD229886-1",
    "posted_at": null,
    "labels": {
     "rules": 3,
     "dutch_required": false,
-    "written_in_dutch": true,
+    "written_in_dutch": false,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -25551,16 +25476,16 @@
    "baseline": false
   },
   {
-   "id": "flex:/job/Netherlands-Woerden/Requirements-administrator_WD229886-1",
-   "company_id": "flex",
-   "title": "Requirements administrator",
-   "location": "Netherlands, Woerden",
-   "url": "https://flextronics.wd1.myworkdayjobs.com/Careers/job/Netherlands-Woerden/Requirements-administrator_WD229886-1",
+   "id": "abbott:/job/Netherlands---Weesp/Purchaser_31149952",
+   "company_id": "abbott",
+   "title": "Project Inkoper  nieuwe machines en diensten – Abbott Weesp",
+   "location": "Netherlands - Weesp",
+   "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/Purchaser_31149952",
    "posted_at": null,
    "labels": {
     "rules": 3,
     "dutch_required": false,
-    "written_in_dutch": false,
+    "written_in_dutch": true,
     "sponsorship": false,
     "no_sponsorship": false,
     "relocation": false,
@@ -25612,6 +25537,27 @@
    "labels_checked": true,
    "first_seen": "2026-10-03",
    "baseline": false
+  },
+  {
+   "id": "stryker:/job/Venlo-Netherlands/Supervisor--Kit-Assembly_R571477-1",
+   "company_id": "stryker",
+   "title": "Supervisor, Kit Assembly",
+   "location": "Venlo, Netherlands",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Venlo-Netherlands/Supervisor--Kit-Assembly_R571477-1",
+   "posted_at": null,
+   "labels": {
+    "rules": 3,
+    "dutch_required": false,
+    "written_in_dutch": false,
+    "sponsorship": false,
+    "no_sponsorship": false,
+    "relocation": false,
+    "english_workplace": false,
+    "other_language": false
+   },
+   "labels_checked": true,
+   "first_seen": "2026-09-17",
+   "baseline": true
   },
   {
    "id": "abbott:/job/Netherlands---Hoofddorp/Medical-Scientific-Liaison-Specialist---Abbott-Diabetes-Care---Netherlands_31155655",
@@ -25997,27 +25943,6 @@
    "title": "Senior PMO Lead",
    "location": "Netherlands, The Hague, 2511 DP",
    "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/Netherlands-The-Hague-2511-DP/Senior-PMO-Lead_R190670",
-   "posted_at": null,
-   "labels": {
-    "rules": 3,
-    "dutch_required": false,
-    "written_in_dutch": false,
-    "sponsorship": false,
-    "no_sponsorship": false,
-    "relocation": false,
-    "english_workplace": false,
-    "other_language": false
-   },
-   "labels_checked": true,
-   "first_seen": "2026-09-17",
-   "baseline": true
-  },
-  {
-   "id": "stryker:/job/Venlo-Netherlands/Supervisor--Kit-Assembly_R571477-1",
-   "company_id": "stryker",
-   "title": "Supervisor, Kit Assembly",
-   "location": "Venlo, Netherlands",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Venlo-Netherlands/Supervisor--Kit-Assembly_R571477-1",
    "posted_at": null,
    "labels": {
     "rules": 3,
@@ -27981,18 +27906,6 @@
    "baseline": true
   },
   {
-   "id": "freight-international-holding:https://cyberfreight.nl/vacatures/wend-medewerker-warehousing/",
-   "company_id": "freight-international-holding",
-   "title": "Wend Medewerker Warehousing",
-   "location": "",
-   "url": "https://cyberfreight.nl/vacatures/wend-medewerker-warehousing/",
-   "posted_at": "2026-07-07",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-11-15",
-   "baseline": false
-  },
-  {
    "id": "cyber-freight-amsterdam:https://cyberfreight.nl/vacatures/wend-medewerker-warehousing/",
    "company_id": "cyber-freight-amsterdam",
    "title": "Wend Medewerker Warehousing",
@@ -28215,18 +28128,6 @@
    "baseline": true
   },
   {
-   "id": "freight-international-holding:https://cyberfreight.nl/vacatures/pricing-en-sales-specialist-barendrecht/",
-   "company_id": "freight-international-holding",
-   "title": "Pricing En Sales Specialist Barendrecht",
-   "location": "",
-   "url": "https://cyberfreight.nl/vacatures/pricing-en-sales-specialist-barendrecht/",
-   "posted_at": "2026-06-17",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-11-15",
-   "baseline": false
-  },
-  {
    "id": "cyber-freight-amsterdam:https://cyberfreight.nl/vacatures/pricing-en-sales-specialist-barendrecht/",
    "company_id": "cyber-freight-amsterdam",
    "title": "Pricing En Sales Specialist Barendrecht",
@@ -28375,18 +28276,6 @@
    "labels_checked": true,
    "first_seen": "2026-10-03",
    "baseline": true
-  },
-  {
-   "id": "freight-international-holding:https://cyberfreight.nl/vacatures/export-medewerker-zeevracht/",
-   "company_id": "freight-international-holding",
-   "title": "Export Medewerker Zeevracht",
-   "location": "",
-   "url": "https://cyberfreight.nl/vacatures/export-medewerker-zeevracht/",
-   "posted_at": "2026-06-01",
-   "labels": null,
-   "labels_checked": false,
-   "first_seen": "2026-11-15",
-   "baseline": false
   },
   {
    "id": "cyber-freight-amsterdam:https://cyberfreight.nl/vacatures/export-medewerker-zeevracht/",
