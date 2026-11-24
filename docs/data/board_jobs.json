@@ -1,45 +1,21 @@
 {
- "generated_at": "2026-11-23T13:58+00:00",
+ "generated_at": "2026-11-24T02:48+00:00",
  "jobs": [
-  {
-   "id": "welcome-to-nl:dsv:freight forwarder",
-   "company": "DSV",
-   "title": "Freight Forwarder",
-   "location": "Moerdijk, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder",
-   "first_seen": "2026-11-23"
-  },
-  {
-   "id": "welcome-to-nl:dsv:senior forwarder import",
-   "company": "DSV",
-   "title": "Senior Forwarder Import",
-   "location": "Rotterdam, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Forwarder%20Import",
-   "first_seen": "2026-11-23"
-  },
-  {
-   "id": "welcome-to-nl:dsv:forwarder oil &amp; gas",
-   "company": "DSV",
-   "title": "Forwarder Oil &amp; Gas",
-   "location": "Rotterdam, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Forwarder%20Oil%20%26amp%3B%20Gas",
-   "first_seen": "2026-11-23"
-  },
   {
    "id": "welcome-to-nl:dsv:senior forwarder key accounts",
    "company": "DSV",
    "title": "Senior Forwarder Key Accounts",
    "location": "Rotterdam, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Forwarder%20Key%20Accounts",
-   "first_seen": "2026-11-23"
+   "first_seen": "2026-11-24"
   },
   {
-   "id": "welcome-to-nl:dsv:senior freight forwarder",
+   "id": "welcome-to-nl:dsv:junior freight forwarder export air",
    "company": "DSV",
-   "title": "Senior Freight Forwarder",
-   "location": "Rotterdam, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Freight%20Forwarder",
-   "first_seen": "2026-11-23"
+   "title": "Junior Freight Forwarder Export Air",
+   "location": "North Brabant, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Junior%20Freight%20Forwarder%20Export%20Air",
+   "first_seen": "2026-11-24"
   },
   {
    "id": "welcome-to-nl:applied medical:congress admin and logistics coordinator",
@@ -47,7 +23,7 @@
    "title": "Congress Admin and Logistics Coordinator",
    "location": "Amersfoort, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Congress%20Admin%20and%20Logistics%20Coordinator",
-   "first_seen": "2026-11-23"
+   "first_seen": "2026-11-24"
   },
   {
    "id": "welcome-to-nl:royal ihc:logistics coordinator",
@@ -55,23 +31,15 @@
    "title": "Logistics Coordinator",
    "location": "Sliedrecht, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Logistics%20Coordinator",
-   "first_seen": "2026-11-23"
+   "first_seen": "2026-11-24"
   },
   {
-   "id": "welcome-to-nl:dsv:transport coordinator",
-   "company": "DSV",
-   "title": "Transport Coordinator",
-   "location": "Venlo, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Transport%20Coordinator",
-   "first_seen": "2026-11-23"
-  },
-  {
-   "id": "welcome-to-nl:maersk:senior customer experience consultant - hp control tower",
+   "id": "welcome-to-nl:maersk:senior customer experience consultant - control tower",
    "company": "Maersk",
-   "title": "Senior Customer Experience Consultant - HP Control Tower",
+   "title": "Senior Customer Experience Consultant - Control Tower",
    "location": "Rotterdam, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Customer%20Experience%20Consultant%20-%20HP%20Control%20Tower",
-   "first_seen": "2026-11-23"
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Customer%20Experience%20Consultant%20-%20Control%20Tower",
+   "first_seen": "2026-11-24"
   },
   {
    "id": "welcome-to-nl:maersk:global 4pl airfreight professional",
@@ -79,7 +47,7 @@
    "title": "Global 4PL Airfreight Professional",
    "location": "Rotterdam, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Global%204PL%20Airfreight%20Professional",
-   "first_seen": "2026-11-23"
+   "first_seen": "2026-11-24"
   }
  ]
 }
