@@ -1,20 +1,36 @@
 {
- "generated_at": "2026-11-25T00:18+00:00",
+ "generated_at": "2026-11-25T13:50+00:00",
  "jobs": [
+  {
+   "id": "welcome-to-nl:dsv:freight forwarder",
+   "company": "DSV",
+   "title": "Freight Forwarder",
+   "location": "Moerdijk, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "welcome-to-nl:dsv:forwarder oil &amp; gas",
+   "company": "DSV",
+   "title": "Forwarder Oil &amp; Gas",
+   "location": "Rotterdam, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Forwarder%20Oil%20%26amp%3B%20Gas",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "welcome-to-nl:dsv:freight forwarder airfreight healthcare export",
+   "company": "DSV",
+   "title": "Freight Forwarder Airfreight Healthcare Export",
+   "location": "North Holland, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Freight%20Forwarder%20Airfreight%20Healthcare%20Export",
+   "first_seen": "2026-11-25"
+  },
   {
    "id": "welcome-to-nl:dsv:senior forwarder key accounts",
    "company": "DSV",
    "title": "Senior Forwarder Key Accounts",
    "location": "Rotterdam, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Senior%20Forwarder%20Key%20Accounts",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "welcome-to-nl:dsv:junior freight forwarder export air",
-   "company": "DSV",
-   "title": "Junior Freight Forwarder Export Air",
-   "location": "North Brabant, Netherlands",
-   "url": "https://www.welcome-to-nl.nl/jobs/?search=Junior%20Freight%20Forwarder%20Export%20Air",
    "first_seen": "2026-11-25"
   },
   {
@@ -26,11 +42,27 @@
    "first_seen": "2026-11-25"
   },
   {
+   "id": "welcome-to-nl:dsv:logistics coordinator",
+   "company": "DSV",
+   "title": "Logistics Coordinator",
+   "location": "Rotterdam, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Logistics%20Coordinator",
+   "first_seen": "2026-11-25"
+  },
+  {
    "id": "welcome-to-nl:royal ihc:logistics coordinator",
    "company": "Royal IHC",
    "title": "Logistics Coordinator",
    "location": "Sliedrecht, Netherlands",
    "url": "https://www.welcome-to-nl.nl/jobs/?search=Logistics%20Coordinator",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "welcome-to-nl:dsv:transport coordinator",
+   "company": "DSV",
+   "title": "Transport Coordinator",
+   "location": "Venlo, Netherlands",
+   "url": "https://www.welcome-to-nl.nl/jobs/?search=Transport%20Coordinator",
    "first_seen": "2026-11-25"
   },
   {
