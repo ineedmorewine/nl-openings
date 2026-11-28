@@ -334,7 +334,8 @@
    "https://cjlogistics.com/werken-bij",
    "https://cjlogistics.com/vacatures",
    "https://cjlogistics.com/nl/vacatures",
-   "https://www.cjlogistics.com/en/page/about/cj-way"
+   "https://www.cjlogistics.com/en/page/about/cj-way",
+   "https://america.cjlogistics.com/careers"
   ],
   "reached_pages": [
    "https://cjlogistics.com/",
@@ -349,7 +350,8 @@
    "https://cjlogistics.com/careers/",
    "https://cjlogistics.com/werken-bij",
    "https://cjlogistics.com/vacatures",
-   "https://www.cjlogistics.com/en/page/about/cj-way"
+   "https://www.cjlogistics.com/en/page/about/cj-way",
+   "https://america.cjlogistics.com/careers"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -1166,44 +1168,15 @@
   "checked_pages": [
    "https://mendrix.nl/",
    "https://www.mendrix.nl/",
-   "https://werkenbijmendrix.nl/",
-   "https://werkenbijmendrix.nl/alle-ervaringen/",
-   "https://werkenbijmendrix.nl/marketing-lead/",
-   "https://www.mendrix.nl/careers",
-   "https://www.mendrix.nl/en/careers",
-   "https://www.mendrix.nl/careers/",
-   "https://www.mendrix.nl/nl/werken-bij",
-   "https://www.mendrix.nl/werken-bij",
-   "https://www.mendrix.nl/vacatures",
-   "https://www.mendrix.nl/nl/vacatures",
-   "https://www.mendrix.nl/jobs",
-   "https://www.mendrix.nl/en/jobs",
-   "https://www.mendrix.nl/career",
-   "https://www.mendrix.nl/en/career",
-   "https://mendrix.nl/careers",
-   "https://mendrix.nl/en/careers",
-   "https://mendrix.nl/careers/",
-   "https://mendrix.nl/nl/werken-bij",
-   "https://werkenbijmendrix.nl/delphi-engineer-bij-mendrix/"
+   "https://werkenbijmendrix.nl/"
   ],
   "reached_pages": [
-   "https://mendrix.nl/",
-   "https://www.mendrix.nl/",
-   "https://werkenbijmendrix.nl/",
-   "https://werkenbijmendrix.nl/alle-ervaringen/",
-   "https://werkenbijmendrix.nl/marketing-lead/",
-   "https://www.mendrix.nl/vacatures",
-   "https://www.mendrix.nl/nl/vacatures",
-   "https://werkenbijmendrix.nl/delphi-engineer-bij-mendrix/"
+   "https://werkenbijmendrix.nl/"
   ],
   "reason": "no_careers_system_found",
   "notes": [
-   "https://www.mendrix.nl/careers -> HTTPError: 404 Client Error: Not Found for url: https://mendrix.nl/careers",
-   "https://www.mendrix.nl/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://mendrix.nl/wp-content/plugins/gtranslate/url_",
-   "https://www.mendrix.nl/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://mendrix.nl/careers/",
-   "https://www.mendrix.nl/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://mendrix.nl/werken-bij",
-   "https://www.mendrix.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://mendrix.nl/werken-bij",
-   "https://www.mendrix.nl/jobs -> HTTPError: 404 Client Error: Not Found for url: https://mendrix.nl/jobs"
+   "https://mendrix.nl/ -> HTTPError: 404 Client Error: Not Found for url: https://mendrix.nl/",
+   "https://www.mendrix.nl/ -> HTTPError: 404 Client Error: Not Found for url: https://www.mendrix.nl/"
   ],
   "checked_at": "2026-11-27"
  },
@@ -1298,7 +1271,7 @@
    "https://www.intermodaltelematics.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/werken-bij",
    "https://www.intermodaltelematics.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.intermodaltelematics.com/vacatures"
   ],
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-27"
  },
  "boekestijn-transport-service": {
   "source": null,
@@ -1564,16 +1537,16 @@
    "https://eusu-logistics.com/en/careers",
    "https://eusu-logistics.com/careers/",
    "https://eusu-logistics.com/nl/werken-bij",
-   "https://www.eusu-logistics.com/en/sub/recruit/interview.asp",
-   "https://www.eusu-logistics.com/en/"
+   "https://www.eusu-logistics.com/en/",
+   "https://www.eusu-logistics.com/en/sub/recruit/interview.asp"
   ],
   "reached_pages": [
    "https://www.eusu-logistics.com/",
    "https://www.eusu-logistics.com/kr/sub/recruit/interview.asp",
    "https://www.eusu-logistics.com/kr/sub/recruit/recruit.asp",
    "https://www.eusu-logistics.com/kr/sub/recruit/welfare.asp",
-   "https://www.eusu-logistics.com/en/sub/recruit/interview.asp",
-   "https://www.eusu-logistics.com/en/"
+   "https://www.eusu-logistics.com/en/",
+   "https://www.eusu-logistics.com/en/sub/recruit/interview.asp"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -1743,7 +1716,7 @@
    "https://htns.com/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://htns.com/careers/",
    "https://htns.com/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://htns.com/nl/werken-bij"
   ],
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-27"
  },
  "jd-logistics": {
   "source": null,
@@ -1760,7 +1733,7 @@
    "https://www.jdlogistics.com/ -> ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'",
    "https://jdlogistics.com/careers/ -> ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'"
   ],
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-27"
  },
  "koyanagi-worldwide": {
   "source": null,
@@ -1813,7 +1786,7 @@
   ],
   "reason": "no_careers_system_found",
   "notes": [],
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-27"
  },
  "logisteed-europe": {
   "source": {
@@ -1896,10 +1869,10 @@
    "https://www.lotteglogis.com/home/company/recruit/resultApply",
    "https://lotteglogis.com/home/company/recruit/inProcNotice",
    "https://lotteglogis.com/home/company/recruit/completedNotice",
+   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026C0030&page=1",
+   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026C0029&page=1",
    "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0074&page=1",
-   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0073&page=1",
-   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0072&page=1",
-   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0070&page=1"
+   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0073&page=1"
   ],
   "reached_pages": [
    "https://lotteglogis.com/",
@@ -1918,10 +1891,10 @@
    "https://www.lotteglogis.com/home/company/recruit/resultApply",
    "https://lotteglogis.com/home/company/recruit/inProcNotice",
    "https://lotteglogis.com/home/company/recruit/completedNotice",
+   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026C0030&page=1",
+   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026C0029&page=1",
    "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0074&page=1",
-   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0073&page=1",
-   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0072&page=1",
-   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0070&page=1"
+   "https://lotteglogis.com/home/company/recruit/notice/view?key=2026A0073&page=1"
   ],
   "reason": "no_careers_system_found",
   "notes": [],
@@ -2607,7 +2580,7 @@
    "https://jona.nl/ -> SSLError: HTTPSConnectionPool(host='jona.nl', port=443): Max retries exceeded with url: / (Caused by",
    "https://www.jona.nl/ -> SSLError: HTTPSConnectionPool(host='www.jona.nl', port=443): Max retries exceeded with url: / (Cause"
   ],
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-27"
  },
  "ksz-transport": {
   "source": {
@@ -2637,7 +2610,7 @@
    "https://lilymaas.nl/ -> SSLError: HTTPSConnectionPool(host='lilymaas.nl', port=443): Max retries exceeded with url: / (Cause",
    "https://www.lilymaas.nl/ -> SSLError: HTTPSConnectionPool(host='www.lilymaas.nl', port=443): Max retries exceeded with url: / (C"
   ],
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-27"
  },
  "oranje-transport": {
   "source": null,
@@ -2914,7 +2887,8 @@
   ],
   "reached_pages": [
    "https://cet-logistics.com/",
-   "https://www.cet-logistics.com/"
+   "https://www.cet-logistics.com/",
+   "https://www.cet-logistics.com/en/carreiras"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -2997,14 +2971,12 @@
   "checked_pages": [
    "https://fairways.nl/",
    "https://www.fairways.nl/",
-   "https://www.fairwayshipping.com/vacancies",
    "http://www.fairways-logistics.com/",
-   "https://www.fairwayshipping.com/vacancies/operator-waterklerk"
+   "https://www.fairwayshipping.com/vacancies"
   ],
   "reached_pages": [
-   "https://www.fairwayshipping.com/vacancies",
    "http://www.fairways-logistics.com/",
-   "https://www.fairwayshipping.com/vacancies/operator-waterklerk"
+   "https://www.fairwayshipping.com/vacancies"
   ],
   "reason": "no_careers_system_found",
   "notes": [
@@ -3133,7 +3105,7 @@
    "https://www.iaa-airfreight.com/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://iaa-airfreight.com/werken-bij",
    "https://www.iaa-airfreight.com/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://iaa-airfreight.com/vacatures"
   ],
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-27"
  },
  "janssen-air-ocean": {
   "source": null,
@@ -3213,7 +3185,7 @@
    "https://www.just-ride.nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/werken-bij",
    "https://www.just-ride.nl/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.just-ride.nl/vacatures"
   ],
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-27"
  },
  "kroog-logistics": {
   "source": null,
@@ -3228,7 +3200,7 @@
    "https://kroog.nl/ -> SSLError: HTTPSConnectionPool(host='kroog.nl', port=443): Max retries exceeded with url: / (Caused b",
    "https://www.kroog.nl/ -> ConnectionError: HTTPSConnectionPool(host='www.kroog.nl', port=443): Max retries exceeded with url: / (Caus"
   ],
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-27"
  },
  "logistic-business-partners": {
   "source": null,
@@ -3268,7 +3240,7 @@
    "https://www.lbp.co.za/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/werken-bij",
    "https://www.lbp.co.za/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.lbp.co.za/vacatures"
   ],
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-27"
  },
  "loyal-cargo-services": {
   "source": null,
@@ -4941,7 +4913,7 @@
    "https://www.loadmaster.ai/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.loadmaster.ai/werken-bij",
    "https://www.loadmaster.ai/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.loadmaster.ai/vacatures"
   ],
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-27"
  },
  "action": {
   "source": {
@@ -5150,7 +5122,7 @@
   "notes": [
    "https://kwe.com/ -> ConnectionError: HTTPSConnectionPool(host='kwe.com', port=443): Max retries exceeded with url: / (Caused by"
   ],
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-27"
  },
  "henkel": {
   "source": {
@@ -5274,24 +5246,44 @@
   "notes": [],
   "checked_at": "2026-11-25"
  },
- "freight-international-holding": {
-  "source": {
-   "type": "careerpage",
-   "url": "https://cyberfreight.nl/vacatures/"
-  },
+ "boreas-logistics": {
+  "source": null,
   "vendor": null,
   "checked_pages": [
-   "https://cyberfreight.nl/",
-   "https://www.cyberfreight.nl/",
-   "https://cyberfreight.nl/vacatures/"
+   "https://boreas-group.eu/",
+   "https://www.boreas-group.eu/",
+   "https://www.boreas-group.eu/careers",
+   "https://www.boreas-group.eu/en/careers",
+   "https://www.boreas-group.eu/careers/",
+   "https://www.boreas-group.eu/nl/werken-bij",
+   "https://www.boreas-group.eu/werken-bij",
+   "https://www.boreas-group.eu/vacatures",
+   "https://www.boreas-group.eu/nl/vacatures",
+   "https://www.boreas-group.eu/jobs",
+   "https://www.boreas-group.eu/en/jobs",
+   "https://www.boreas-group.eu/career",
+   "https://www.boreas-group.eu/en/career",
+   "https://boreas-group.eu/careers",
+   "https://boreas-group.eu/en/careers",
+   "https://boreas-group.eu/careers/",
+   "https://boreas-group.eu/nl/werken-bij",
+   "https://boreas-group.eu/werken-bij",
+   "https://boreas-group.eu/vacatures",
+   "https://boreas-group.eu/nl/vacatures"
   ],
   "reached_pages": [
-   "https://cyberfreight.nl/",
-   "https://www.cyberfreight.nl/",
-   "https://cyberfreight.nl/vacatures/"
+   "https://boreas-group.eu/",
+   "https://www.boreas-group.eu/"
   ],
-  "reason": "found",
-  "notes": [],
+  "reason": "no_careers_system_found",
+  "notes": [
+   "https://www.boreas-group.eu/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.boreas-group.eu/careers",
+   "https://www.boreas-group.eu/en/careers -> HTTPError: 404 Client Error: Not Found for url: https://www.boreas-group.eu/en/careers",
+   "https://www.boreas-group.eu/careers/ -> HTTPError: 404 Client Error: Not Found for url: https://www.boreas-group.eu/careers/",
+   "https://www.boreas-group.eu/nl/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.boreas-group.eu/nl/werken-bij",
+   "https://www.boreas-group.eu/werken-bij -> HTTPError: 404 Client Error: Not Found for url: https://www.boreas-group.eu/werken-bij",
+   "https://www.boreas-group.eu/vacatures -> HTTPError: 404 Client Error: Not Found for url: https://www.boreas-group.eu/vacatures"
+  ],
   "checked_at": "2026-11-27"
  }
 }
